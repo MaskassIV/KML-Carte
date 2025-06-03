@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="GEMENOS_HLM" id="GEMENOS_HLM">
+	<SimpleField name="Commune" type="string"></SimpleField>
+</Schema>
+	<Style id="HLM">
+		<LineStyle>
+			<color>00ffffff</color>
+			<width>0</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4de451f5</color>
+			<fill>1</fill>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style><Folder><name>parcelle_13_hlm</name>
+  <Placemark id="parcelle_13_hlm.2088">
+<styleUrl>#HLM</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Commune">GEMENOS</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.28519 </north>
+			<south> 43.284423 </south>
+			<east> 5.619849 </east>
+			<west> 5.618831 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.619849,43.28508 5.61969,43.284423 5.618831,43.284621 5.618835,43.284638 5.618972,43.28519 5.619849,43.28508</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="parcelle_13_hlm.2125">
+<styleUrl>#HLM</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Commune">GEMENOS</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.285435 </north>
+			<south> 43.28508 </south>
+			<east> 5.619912 </east>
+			<west> 5.618972 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.619849,43.28508 5.618972,43.28519 5.619033,43.285435 5.619912,43.285323 5.619865,43.285132 5.619849,43.28508</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

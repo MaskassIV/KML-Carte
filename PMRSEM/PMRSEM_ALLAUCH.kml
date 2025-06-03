@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="ALLAUCH_PMRSEM" id="ALLAUCH_PMRSEM">
+	<SimpleField name="Commune" type="string"></SimpleField>
+</Schema>
+	<Style id="PMRSEM">
+		<LineStyle>
+			<color>00ffffff</color>
+			<width>0</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d00faff</color>
+			<fill>1</fill>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style><Folder><name>parcelle_13_pmrsem</name>
+  <Placemark id="parcelle_13_pmrsem.221">
+<styleUrl>#PMRSEM</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_pmrsem">
+		<SimpleData name="Commune">ALLAUCH</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.355015 </north>
+			<south> 43.354236 </south>
+			<east> 5.484943 </east>
+			<west> 5.484082 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.484172,43.354357 5.484174,43.35441 5.484111,43.354429 5.484082,43.354523 5.484232,43.354982 5.484283,43.355015 5.484653,43.354947 5.484943,43.354894 5.484909,43.354823 5.484869,43.354751 5.484778,43.354592 5.484753,43.354548 5.48473,43.354511 5.484716,43.354504 5.484667,43.354485 5.484624,43.354467 5.484596,43.354447 5.484567,43.354418 5.484552,43.354396 5.484539,43.354362 5.484536,43.354317 5.484549,43.354277 5.484559,43.354242 5.48456,43.354236 5.484427,43.354276 5.484429,43.354284 5.484172,43.354357</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

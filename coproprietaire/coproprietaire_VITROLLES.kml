@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="VITROLLES_coproprietaire" id="VITROLLES_coproprietaire">
+	<SimpleField name="Commune" type="string"></SimpleField>
+</Schema>
+	<Style id="coproprietaire">
+		<LineStyle>
+			<color>00ffffff</color>
+			<width>0</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d7c1404</color>
+			<fill>1</fill>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style><Folder><name>parcelle_13_coproprietaire</name>
+  <Placemark id="parcelle_13_coproprietaire.14">
+<styleUrl>#coproprietaire</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_coproprietaire">
+		<SimpleData name="Commune">VITROLLES</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.436934 </north>
+			<south> 43.436095 </south>
+			<east> 5.257808 </east>
+			<west> 5.255743 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.255749,43.436672 5.255743,43.436688 5.255773,43.436695 5.256087,43.436774 5.256354,43.43684 5.256378,43.436846 5.256385,43.436831 5.256571,43.436876 5.256566,43.436892 5.256728,43.436932 5.256736,43.436934 5.256961,43.436784 5.257808,43.436224 5.257791,43.43621 5.257647,43.436095 5.257558,43.436131 5.257395,43.436196 5.257377,43.436203 5.257325,43.436223 5.257242,43.436234 5.257045,43.43626 5.256849,43.436287 5.256292,43.436362 5.256026,43.436302 5.255934,43.436284 5.255749,43.436672</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="parcelle_13_coproprietaire.48">
+<styleUrl>#coproprietaire</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_coproprietaire">
+		<SimpleData name="Commune">VITROLLES</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.45319 </north>
+			<south> 43.453091 </south>
+			<east> 5.243775 </east>
+			<west> 5.243638 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.243638,43.453159 5.24367,43.45317 5.243707,43.45319 5.243775,43.453091 5.243726,43.453097 5.243678,43.453093 5.243657,43.453127 5.243638,43.453159</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="parcelle_13_coproprietaire.58">
+<styleUrl>#coproprietaire</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_coproprietaire">
+		<SimpleData name="Commune">VITROLLES</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.436362 </north>
+			<south> 43.434985 </south>
+			<east> 5.259419 </east>
+			<west> 5.255934 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.257909,43.435668 5.257474,43.435957 5.257233,43.435764 5.257055,43.435885 5.256948,43.435884 5.256609,43.435802 5.256209,43.435702 5.255934,43.436284 5.256026,43.436302 5.256292,43.436362 5.256849,43.436287 5.257045,43.43626 5.257242,43.436234 5.257325,43.436223 5.257377,43.436203 5.257395,43.436196 5.257558,43.436131 5.257647,43.436095 5.257791,43.43621 5.257808,43.436224 5.258345,43.43587 5.259419,43.435158 5.2594,43.435142 5.259381,43.435126 5.259261,43.435028 5.258941,43.434985 5.258625,43.435193 5.258412,43.435336 5.257909,43.435668</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

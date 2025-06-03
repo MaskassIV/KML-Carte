@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="PEYROLLES-EN-PROVENCE_PMRSEM" id="PEYROLLES-EN-PROVENCE_PMRSEM">
+	<SimpleField name="Commune" type="string"></SimpleField>
+</Schema>
+	<Style id="PMRSEM">
+		<LineStyle>
+			<color>00ffffff</color>
+			<width>0</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d00faff</color>
+			<fill>1</fill>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style><Folder><name>parcelle_13_pmrsem</name>
+  <Placemark id="parcelle_13_pmrsem.53">
+<styleUrl>#PMRSEM</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_pmrsem">
+		<SimpleData name="Commune">PEYROLLES-EN-PROVENCE</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.645462 </north>
+			<south> 43.64384 </south>
+			<east> 5.582256 </east>
+			<west> 5.581135 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.582002,43.64415 5.581693,43.643995 5.581384,43.64384 5.581295,43.644097 5.581246,43.644238 5.581135,43.644556 5.581358,43.644595 5.581239,43.644951 5.581337,43.644963 5.581298,43.645152 5.581346,43.645156 5.581608,43.645179 5.58163,43.645181 5.581898,43.645203 5.581829,43.645397 5.581831,43.645398 5.582121,43.645462 5.582168,43.645391 5.582213,43.645297 5.582243,43.645199 5.582256,43.6451 5.582253,43.645 5.582233,43.644819 5.58222,43.644643 5.582216,43.644615 5.582203,43.644537 5.582186,43.644435 5.582161,43.644283 5.582147,43.644275 5.582068,43.644224 5.582002,43.64415</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="ROQUEVAIRE_PMRSEM" id="ROQUEVAIRE_PMRSEM">
+	<SimpleField name="Commune" type="string"></SimpleField>
+</Schema>
+	<Style id="PMRSEM">
+		<LineStyle>
+			<color>00ffffff</color>
+			<width>0</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d00faff</color>
+			<fill>1</fill>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style><Folder><name>parcelle_13_pmrsem</name>
+  <Placemark id="parcelle_13_pmrsem.39">
+<styleUrl>#PMRSEM</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_pmrsem">
+		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.348022 </north>
+			<south> 43.347386 </south>
+			<east> 5.602232 </east>
+			<west> 5.601412 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.601832,43.347458 5.601842,43.347482 5.601858,43.34753 5.60183,43.347537 5.601841,43.347562 5.601833,43.347565 5.601852,43.347606 5.601814,43.347616 5.601848,43.347707 5.601412,43.347822 5.601489,43.347913 5.601543,43.347982 5.601608,43.348022 5.601642,43.348014 5.601714,43.347999 5.601836,43.347967 5.602025,43.347917 5.602121,43.347892 5.602232,43.347864 5.602124,43.347463 5.602103,43.3474 5.602098,43.347386 5.601888,43.347441 5.601859,43.347448 5.601835,43.347454 5.601832,43.347458</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

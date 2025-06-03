@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="PORT DE BOUC_coproprietaire" id="PORT DE BOUC_coproprietaire">
+	<SimpleField name="Commune" type="string"></SimpleField>
+</Schema>
+	<Style id="coproprietaire">
+		<LineStyle>
+			<color>00ffffff</color>
+			<width>0</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d7c1404</color>
+			<fill>1</fill>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style><Folder><name>parcelle_13_coproprietaire</name>
+  <Placemark id="parcelle_13_coproprietaire.23">
+<styleUrl>#coproprietaire</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_coproprietaire">
+		<SimpleData name="Commune">PORT DE BOUC</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.40482 </north>
+			<south> 43.404058 </south>
+			<east> 4.983698 </east>
+			<west> 4.982955 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>4.982955,43.404132 4.98296,43.404179 4.982965,43.40424 4.982971,43.4043 4.982975,43.404348 4.982976,43.404357 4.983054,43.404353 4.983142,43.404349 4.983146,43.404388 4.983215,43.404385 4.983219,43.404424 4.983258,43.40482 4.983293,43.404819 4.983319,43.404818 4.98362,43.404808 4.983639,43.404807 4.983689,43.404805 4.983685,43.404769 4.983698,43.404757 4.983638,43.404136 4.983622,43.404131 4.983566,43.404111 4.983537,43.404101 4.983285,43.404114 4.98328,43.404058 4.983202,43.404062 4.983208,43.404119 4.983035,43.404128 4.982955,43.404132</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="parcelle_13_coproprietaire.64">
+<styleUrl>#coproprietaire</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_coproprietaire">
+		<SimpleData name="Commune">PORT DE BOUC</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.428109 </north>
+			<south> 43.427537 </south>
+			<east> 4.984502 </east>
+			<west> 4.983598 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>4.983917,43.427564 4.98387,43.427543 4.983856,43.427537 4.983803,43.427594 4.983777,43.427618 4.983729,43.427658 4.983676,43.427684 4.983598,43.427716 4.983622,43.427726 4.983777,43.427793 4.983963,43.427872 4.983912,43.427936 4.983851,43.428013 4.984009,43.428083 4.984131,43.428109 4.984363,43.42789 4.984448,43.427926 4.984502,43.427861 4.984404,43.42781 4.984321,43.427766 4.984201,43.427883 4.984131,43.427951 4.984121,43.427947 4.984106,43.427966 4.984088,43.427989 4.984083,43.427995 4.984077,43.427999 4.98407,43.428001 4.984065,43.428 4.984056,43.427998 4.984048,43.427994 4.984042,43.427989 4.984041,43.427985 4.984041,43.427979 4.984079,43.427928 4.984039,43.42791 4.984105,43.427844 4.984175,43.427774 4.984235,43.427714 4.984248,43.427721 4.98429,43.427743 4.984329,43.42769 4.984286,43.427672 4.984284,43.427675 4.984197,43.427634 4.984185,43.427649 4.984159,43.427681 4.984103,43.427653 4.984046,43.427626 4.984032,43.42762 4.983917,43.427564</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

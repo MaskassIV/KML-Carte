@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="ROUSSET_PMRSEM" id="ROUSSET_PMRSEM">
+	<SimpleField name="Commune" type="string"></SimpleField>
+</Schema>
+	<Style id="PMRSEM">
+		<LineStyle>
+			<color>00ffffff</color>
+			<width>0</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d00faff</color>
+			<fill>1</fill>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style><Folder><name>parcelle_13_pmrsem</name>
+  <Placemark id="parcelle_13_pmrsem.335">
+<styleUrl>#PMRSEM</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_pmrsem">
+		<SimpleData name="Commune">ROUSSET</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.472676 </north>
+			<south> 43.471865 </south>
+			<east> 5.613858 </east>
+			<west> 5.612799 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.612799,43.472033 5.612974,43.472676 5.612989,43.472662 5.613081,43.472576 5.61325,43.472406 5.613367,43.472298 5.613504,43.472177 5.613556,43.472145 5.613678,43.472071 5.613777,43.472012 5.613858,43.471969 5.613832,43.471891 5.613687,43.471865 5.613639,43.471876 5.613257,43.471947 5.612799,43.472033</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="parcelle_13_pmrsem.621">
+<styleUrl>#PMRSEM</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_pmrsem">
+		<SimpleData name="Commune">ROUSSET</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.478206 </north>
+			<south> 43.477537 </south>
+			<east> 5.619001 </east>
+			<west> 5.617061 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.617165,43.478158 5.617285,43.478206 5.617557,43.478162 5.61795,43.478099 5.618255,43.478049 5.618594,43.477994 5.618718,43.477973 5.618737,43.477969 5.618772,43.477958 5.619001,43.477886 5.61898,43.477578 5.61829,43.47756 5.618172,43.477616 5.618101,43.477537 5.617794,43.477682 5.617359,43.477772 5.617158,43.477756 5.61714,43.477844 5.617061,43.477822 5.617165,43.478158</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

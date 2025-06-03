@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="VERQUIERES_HLM" id="VERQUIERES_HLM">
+	<SimpleField name="Commune" type="string"></SimpleField>
+</Schema>
+	<Style id="HLM">
+		<LineStyle>
+			<color>00ffffff</color>
+			<width>0</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4de451f5</color>
+			<fill>1</fill>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style><Folder><name>parcelle_13_hlm</name>
+  <Placemark id="parcelle_13_hlm.4984">
+<styleUrl>#HLM</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Commune">VERQUIERES</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.841697 </north>
+			<south> 43.840972 </south>
+			<east> 4.921783 </east>
+			<west> 4.920792 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>4.920918,43.841202 4.920792,43.841384 4.921431,43.841618 4.921646,43.841697 4.921665,43.841667 4.92172,43.841582 4.921772,43.841503 4.921624,43.841447 4.921783,43.84103 4.921641,43.840972 4.921371,43.841365 4.920918,43.841202</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

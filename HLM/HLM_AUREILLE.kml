@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="AUREILLE_HLM" id="AUREILLE_HLM">
+	<SimpleField name="Commune" type="string"></SimpleField>
+</Schema>
+	<Style id="HLM">
+		<LineStyle>
+			<color>00ffffff</color>
+			<width>0</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4de451f5</color>
+			<fill>1</fill>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style><Folder><name>parcelle_13_hlm</name>
+  <Placemark id="parcelle_13_hlm.783">
+<styleUrl>#HLM</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Commune">AUREILLE</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.706131 </north>
+			<south> 43.705667 </south>
+			<east> 4.949927 </east>
+			<west> 4.948959 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>4.949425,43.705706 4.949258,43.705701 4.949256,43.705699 4.949274,43.705692 4.949255,43.705667 4.949237,43.705674 4.949221,43.705681 4.949215,43.705674 4.949129,43.705698 4.949123,43.705699 4.949032,43.705723 4.948978,43.705738 4.948959,43.70576 4.949004,43.705963 4.949144,43.706107 4.949134,43.706131 4.949154,43.706131 4.949313,43.70609 4.949371,43.706082 4.949564,43.70608 4.949893,43.706083 4.949905,43.70608 4.949916,43.706075 4.949923,43.706068 4.949927,43.706059 4.949927,43.70605 4.94989,43.705906 4.949648,43.705858 4.949417,43.705833 4.949423,43.70574 4.949425,43.705706</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="parcelle_13_hlm.801">
+<styleUrl>#HLM</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Commune">AUREILLE</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.70572 </north>
+			<south> 43.705207 </south>
+			<east> 4.94934 </east>
+			<west> 4.94885 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>4.94934,43.705463 4.949256,43.705437 4.949172,43.705416 4.949127,43.705406 4.949117,43.705289 4.94911,43.705207 4.949107,43.705207 4.94885,43.705239 4.948894,43.70546 4.948947,43.705707 4.948981,43.70572 4.949017,43.705709 4.949022,43.705707 4.949117,43.705682 4.949293,43.705632 4.94934,43.705463</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

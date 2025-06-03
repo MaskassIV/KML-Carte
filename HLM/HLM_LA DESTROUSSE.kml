@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="LA DESTROUSSE_HLM" id="LA DESTROUSSE_HLM">
+	<SimpleField name="Commune" type="string"></SimpleField>
+</Schema>
+	<Style id="HLM">
+		<LineStyle>
+			<color>00ffffff</color>
+			<width>0</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4de451f5</color>
+			<fill>1</fill>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style><Folder><name>parcelle_13_hlm</name>
+  <Placemark id="parcelle_13_hlm.2980">
+<styleUrl>#HLM</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Commune">LA DESTROUSSE</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.385878 </north>
+			<south> 43.385188 </south>
+			<east> 5.601316 </east>
+			<west> 5.60055 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.601316,43.385482 5.60129,43.385475 5.601192,43.385447 5.601214,43.385408 5.601188,43.385401 5.601194,43.385389 5.601145,43.385374 5.6011,43.38536 5.601032,43.38534 5.60099,43.385326 5.600958,43.385316 5.600886,43.385296 5.600852,43.385287 5.600805,43.385307 5.600686,43.385188 5.600649,43.385218 5.600651,43.385267 5.600651,43.385291 5.600651,43.385308 5.600649,43.385338 5.600639,43.385384 5.600621,43.385426 5.60061,43.38546 5.600599,43.385496 5.600572,43.385586 5.600551,43.385652 5.60055,43.385655 5.600551,43.385659 5.600553,43.385662 5.600556,43.385664 5.600694,43.385747 5.600709,43.385756 5.60076,43.385786 5.600816,43.385821 5.60091,43.385878 5.601153,43.385779 5.601196,43.3857 5.601175,43.385694 5.601128,43.385645 5.601123,43.385647 5.601074,43.38563 5.601097,43.385589 5.60112,43.385548 5.601138,43.385553 5.601164,43.385509 5.601283,43.385541 5.601316,43.385482</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="CABRIES_HLM" id="CABRIES_HLM">
+	<SimpleField name="Commune" type="string"></SimpleField>
+</Schema>
+	<Style id="HLM">
+		<LineStyle>
+			<color>00ffffff</color>
+			<width>0</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4de451f5</color>
+			<fill>1</fill>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style><Folder><name>parcelle_13_hlm</name>
+  <Placemark id="parcelle_13_hlm.2398">
+<styleUrl>#HLM</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Commune">CABRIES</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.427223 </north>
+			<south> 43.427014 </south>
+			<east> 5.379346 </east>
+			<west> 5.378974 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.378974,43.427101 5.3791,43.427141 5.379087,43.427164 5.379277,43.427223 5.379327,43.427135 5.379296,43.427125 5.379304,43.427113 5.379322,43.427119 5.379328,43.427108 5.379346,43.427078 5.379296,43.427062 5.379311,43.427038 5.379246,43.427018 5.379232,43.427042 5.3792,43.427033 5.379184,43.427064 5.379148,43.427053 5.379024,43.427014 5.378974,43.427101</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="parcelle_13_hlm.4468">
+<styleUrl>#HLM</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Commune">CABRIES</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.468566 </north>
+			<south> 43.466717 </south>
+			<east> 5.340915 </east>
+			<west> 5.338715 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.338715,43.46815 5.338941,43.468349 5.338949,43.468347 5.338971,43.468299 5.339093,43.468381 5.33913,43.468405 5.339142,43.468413 5.339158,43.468424 5.339222,43.468469 5.33936,43.468566 5.339722,43.468279 5.339829,43.468195 5.340109,43.467974 5.340139,43.467951 5.340301,43.467827 5.340658,43.467546 5.34078,43.467457 5.340915,43.46711 5.340744,43.466856 5.340617,43.466717 5.340214,43.467023 5.340101,43.467108 5.340096,43.467112 5.339305,43.467709 5.338715,43.46815</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

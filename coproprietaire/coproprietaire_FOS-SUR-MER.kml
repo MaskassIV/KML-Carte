@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="FOS-SUR-MER_coproprietaire" id="FOS-SUR-MER_coproprietaire">
+	<SimpleField name="Commune" type="string"></SimpleField>
+</Schema>
+	<Style id="coproprietaire">
+		<LineStyle>
+			<color>00ffffff</color>
+			<width>0</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d7c1404</color>
+			<fill>1</fill>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style><Folder><name>parcelle_13_coproprietaire</name>
+  <Placemark id="parcelle_13_coproprietaire.80">
+<styleUrl>#coproprietaire</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_coproprietaire">
+		<SimpleData name="Commune">FOS-SUR-MER</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.436141 </north>
+			<south> 43.435859 </south>
+			<east> 4.943142 </east>
+			<west> 4.942865 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>4.942949,43.435859 4.942865,43.436125 4.943051,43.436141 4.943142,43.435899 4.942949,43.435859</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

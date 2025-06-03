@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="MAILLANE_PUBLICorASSOCIE" id="MAILLANE_PUBLICorASSOCIE">
+	<SimpleField name="Commune" type="string"></SimpleField>
+</Schema>
+	<Style id="PUBLICorASSOCIE">
+		<LineStyle>
+			<color>00ffffff</color>
+			<width>0</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4ddb2105</color>
+			<fill>1</fill>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style><Folder><name>parcelle_13_publicorassocie</name>
+  <Placemark id="parcelle_13_publicorassocie.6012">
+<styleUrl>#PUBLICorASSOCIE</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Commune">MAILLANE</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.840014 </north>
+			<south> 43.83936 </south>
+			<east> 4.78367 </east>
+			<west> 4.78182 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>4.781828,43.839437 4.781867,43.839436 4.782467,43.839442 4.782824,43.839444 4.783159,43.839446 4.782916,43.840014 4.783292,43.840006 4.783353,43.839926 4.783529,43.839626 4.78367,43.839363 4.783304,43.83936 4.783298,43.839391 4.783104,43.839391 4.782566,43.839388 4.781958,43.839383 4.78182,43.839382 4.781828,43.839437</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>4.783033,43.839923 4.783033,43.83985 4.783134,43.83985 4.783135,43.839872 4.783229,43.839872 4.783229,43.839865 4.783289,43.839865 4.78329,43.839924 4.783262,43.839925 4.783263,43.839979 4.783202,43.839979 4.783201,43.839923 4.783033,43.839923</coordinates></LinearRing></innerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="MARSEILLE 13EME_coproprietaire" id="MARSEILLE 13EME_coproprietaire">
+	<SimpleField name="Commune" type="string"></SimpleField>
+</Schema>
+	<Style id="coproprietaire">
+		<LineStyle>
+			<color>00ffffff</color>
+			<width>0</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d7c1404</color>
+			<fill>1</fill>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style><Folder><name>parcelle_13_coproprietaire</name>
+  <Placemark id="parcelle_13_coproprietaire.92">
+<styleUrl>#coproprietaire</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_coproprietaire">
+		<SimpleData name="Commune">MARSEILLE 13EME</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.3216 </north>
+			<south> 43.321273 </south>
+			<east> 5.411636 </east>
+			<west> 5.411234 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.411636,43.321349 5.411465,43.321273 5.411355,43.321398 5.411343,43.321412 5.411291,43.321472 5.411259,43.321508 5.411234,43.321536 5.411315,43.32157 5.411419,43.3216 5.411451,43.321558 5.411469,43.321536 5.411527,43.321462 5.411542,43.321444 5.411571,43.321406 5.411636,43.321349</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="parcelle_13_coproprietaire.94">
+<styleUrl>#coproprietaire</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_coproprietaire">
+		<SimpleData name="Commune">MARSEILLE 13EME</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.329505 </north>
+			<south> 43.329345 </south>
+			<east> 5.4343 </east>
+			<west> 5.434008 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.4343,43.329401 5.434243,43.329345 5.434182,43.329374 5.434056,43.329435 5.434008,43.329427 5.434079,43.329505 5.434105,43.329492 5.4343,43.329401</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

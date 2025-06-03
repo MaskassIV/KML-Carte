@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="MAILLANE_DEPT" id="MAILLANE_DEPT">
+	<SimpleField name="Commune" type="string"></SimpleField>
+</Schema>
+	<Style id="DEPT">
+		<LineStyle>
+			<color>00ffffff</color>
+			<width>0</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d63f16c</color>
+			<fill>1</fill>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style><Folder><name>parcelle_13_dept</name>
+  <Placemark id="parcelle_13_dept.360">
+<styleUrl>#DEPT</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
+		<SimpleData name="Commune">MAILLANE</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.832081 </north>
+			<south> 43.831943 </south>
+			<east> 4.786184 </east>
+			<west> 4.786118 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>4.786118,43.831943 4.786146,43.832081 4.786184,43.831946 4.786118,43.831943</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="parcelle_13_dept.7671">
+<styleUrl>#DEPT</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
+		<SimpleData name="Commune">MAILLANE</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.832251 </north>
+			<south> 43.832181 </south>
+			<east> 4.786105 </east>
+			<west> 4.785973 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>4.786072,43.832251 4.786076,43.832243 4.786105,43.832181 4.786081,43.832193 4.78599,43.832195 4.785975,43.832243 4.785973,43.832251 4.786072,43.832251</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="parcelle_13_dept.7674">
+<styleUrl>#DEPT</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
+		<SimpleData name="Commune">MAILLANE</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.831946 </north>
+			<south> 43.831905 </south>
+			<east> 4.786192 </east>
+			<west> 4.786113 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>4.786113,43.831906 4.786118,43.831943 4.786184,43.831946 4.786192,43.831905 4.786113,43.831906</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

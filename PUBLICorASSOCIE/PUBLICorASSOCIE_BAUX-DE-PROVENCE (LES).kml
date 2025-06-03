@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="BAUX-DE-PROVENCE (LES)_PUBLICorASSOCIE" id="BAUX-DE-PROVENCE (LES)_PUBLICorASSOCIE">
+	<SimpleField name="Commune" type="string"></SimpleField>
+</Schema>
+	<Style id="PUBLICorASSOCIE">
+		<LineStyle>
+			<color>00ffffff</color>
+			<width>0</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4ddb2105</color>
+			<fill>1</fill>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style><Folder><name>parcelle_13_publicorassocie</name>
+  <Placemark id="parcelle_13_publicorassocie.6470">
+<styleUrl>#PUBLICorASSOCIE</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Commune">BAUX-DE-PROVENCE (LES)</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.74488 </north>
+			<south> 43.744298 </south>
+			<east> 4.793776 </east>
+			<west> 4.792919 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>4.792919,43.744483 4.792938,43.74452 4.792987,43.744616 4.793034,43.744714 4.793067,43.744778 4.793076,43.744799 4.793097,43.744839 4.793117,43.74488 4.793278,43.744839 4.793755,43.744708 4.793761,43.744704 4.793768,43.744699 4.793773,43.744693 4.793776,43.744687 4.793758,43.744657 4.793479,43.744298 4.793135,43.744412 4.792919,43.744483</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

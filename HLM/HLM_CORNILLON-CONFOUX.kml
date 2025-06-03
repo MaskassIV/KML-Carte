@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="CORNILLON-CONFOUX_HLM" id="CORNILLON-CONFOUX_HLM">
+	<SimpleField name="Commune" type="string"></SimpleField>
+</Schema>
+	<Style id="HLM">
+		<LineStyle>
+			<color>00ffffff</color>
+			<width>0</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4de451f5</color>
+			<fill>1</fill>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style><Folder><name>parcelle_13_hlm</name>
+  <Placemark id="parcelle_13_hlm.669">
+<styleUrl>#HLM</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Commune">CORNILLON-CONFOUX</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.563989 </north>
+			<south> 43.563821 </south>
+			<east> 5.072094 </east>
+			<west> 5.071643 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.071643,43.563967 5.071737,43.563989 5.071749,43.563989 5.07175,43.563989 5.071849,43.56398 5.071856,43.563978 5.072094,43.563959 5.072094,43.563943 5.072072,43.563901 5.072031,43.563821 5.071884,43.563857 5.071884,43.563857 5.071781,43.563884 5.07178,43.563884 5.071648,43.563917 5.071643,43.563967</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="parcelle_13_hlm.699">
+<styleUrl>#HLM</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Commune">CORNILLON-CONFOUX</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.563917 </north>
+			<south> 43.563747 </south>
+			<east> 5.072031 </east>
+			<west> 5.071648 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.071648,43.563917 5.07178,43.563884 5.071781,43.563884 5.071884,43.563857 5.071884,43.563857 5.072031,43.563821 5.072016,43.563788 5.071996,43.56378 5.071969,43.563771 5.071948,43.563765 5.071911,43.563756 5.071887,43.56375 5.071868,43.563748 5.071853,43.563747 5.071833,43.563749 5.071814,43.563754 5.071797,43.56376 5.071784,43.563767 5.07177,43.563778 5.071757,43.56379 5.07174,43.563805 5.071725,43.563818 5.071707,43.563838 5.071678,43.563867 5.071664,43.563884 5.071654,43.563896 5.071648,43.563907 5.071648,43.563917</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

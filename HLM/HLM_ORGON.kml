@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="ORGON_HLM" id="ORGON_HLM">
+	<SimpleField name="Commune" type="string"></SimpleField>
+</Schema>
+	<Style id="HLM">
+		<LineStyle>
+			<color>00ffffff</color>
+			<width>0</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4de451f5</color>
+			<fill>1</fill>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style><Folder><name>parcelle_13_hlm</name>
+  <Placemark id="parcelle_13_hlm.24">
+<styleUrl>#HLM</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Commune">ORGON</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.789919 </north>
+			<south> 43.788888 </south>
+			<east> 5.034342 </east>
+			<west> 5.03307 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.034342,43.789495 5.034254,43.789413 5.034223,43.789391 5.034126,43.789339 5.034025,43.789285 5.033964,43.789244 5.033906,43.789195 5.033859,43.789151 5.033762,43.789059 5.033599,43.788888 5.033325,43.789164 5.033314,43.789175 5.033077,43.789413 5.03307,43.789419 5.033199,43.789548 5.033214,43.789562 5.033227,43.789571 5.033238,43.789573 5.033272,43.789576 5.033518,43.789736 5.033625,43.789787 5.033919,43.789919 5.033983,43.789855 5.034034,43.789804 5.034266,43.789572 5.034308,43.789529 5.034342,43.789495</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="parcelle_13_hlm.824">
+<styleUrl>#HLM</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Commune">ORGON</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.790191 </north>
+			<south> 43.789495 </south>
+			<east> 5.034768 </east>
+			<west> 5.033919 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.034768,43.789692 5.034622,43.78965 5.034583,43.789636 5.034504,43.789599 5.034444,43.789565 5.034383,43.789527 5.034342,43.789495 5.034308,43.789529 5.034266,43.789572 5.034034,43.789804 5.033983,43.789855 5.033919,43.789919 5.03415,43.790076 5.034386,43.790191 5.034456,43.7901 5.034474,43.790076 5.034521,43.790015 5.034768,43.789692</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="parcelle_13_hlm.971">
+<styleUrl>#HLM</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Commune">ORGON</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.790397 </north>
+			<south> 43.789692 </south>
+			<east> 5.035056 </east>
+			<west> 5.034386 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.034768,43.789692 5.034521,43.790015 5.034474,43.790076 5.034456,43.7901 5.034386,43.790191 5.034818,43.790397 5.034881,43.790323 5.034915,43.790276 5.034966,43.790194 5.035009,43.790106 5.035036,43.790037 5.035054,43.789976 5.035056,43.789952 5.035054,43.78993 5.035046,43.78991 5.035028,43.789883 5.034996,43.789845 5.034833,43.789711 5.034768,43.789692</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

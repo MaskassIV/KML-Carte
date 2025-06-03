@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="VENELLES_coproprietaire" id="VENELLES_coproprietaire">
+	<SimpleField name="Commune" type="string"></SimpleField>
+</Schema>
+	<Style id="coproprietaire">
+		<LineStyle>
+			<color>00ffffff</color>
+			<width>0</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d7c1404</color>
+			<fill>1</fill>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style><Folder><name>parcelle_13_coproprietaire</name>
+  <Placemark id="parcelle_13_coproprietaire.86">
+<styleUrl>#coproprietaire</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_coproprietaire">
+		<SimpleData name="Commune">VENELLES</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.598349 </north>
+			<south> 43.598287 </south>
+			<east> 5.475703 </east>
+			<west> 5.4756 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.4756,43.598311 5.475609,43.598349 5.475703,43.598325 5.475698,43.598287 5.4756,43.598311</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="parcelle_13_coproprietaire.87">
+<styleUrl>#coproprietaire</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_coproprietaire">
+		<SimpleData name="Commune">VENELLES</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.59857 </north>
+			<south> 43.598311 </south>
+			<east> 5.475609 </east>
+			<west> 5.474704 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.47471,43.59857 5.474966,43.598507 5.474998,43.598499 5.475609,43.598349 5.4756,43.598311 5.475201,43.598411 5.474886,43.598487 5.474704,43.598532 5.47471,43.59857</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="parcelle_13_coproprietaire.88">
+<styleUrl>#coproprietaire</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_coproprietaire">
+		<SimpleData name="Commune">VENELLES</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.598581 </north>
+			<south> 43.598189 </south>
+			<east> 5.47471 </east>
+			<west> 5.474315 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.474342,43.598362 5.474392,43.598351 5.474371,43.59825 5.474582,43.598229 5.474666,43.598581 5.47471,43.59857 5.474704,43.598532 5.47468,43.598431 5.474672,43.598397 5.474664,43.598364 5.474634,43.598243 5.474624,43.598189 5.474608,43.598191 5.474364,43.598214 5.474315,43.598219 5.474342,43.598362</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="LE ROVE_coproprietaire" id="LE ROVE_coproprietaire">
+	<SimpleField name="Commune" type="string"></SimpleField>
+</Schema>
+	<Style id="coproprietaire">
+		<LineStyle>
+			<color>00ffffff</color>
+			<width>0</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d7c1404</color>
+			<fill>1</fill>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style><Folder><name>parcelle_13_coproprietaire</name>
+  <Placemark id="parcelle_13_coproprietaire.11">
+<styleUrl>#coproprietaire</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_coproprietaire">
+		<SimpleData name="Commune">LE ROVE</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.373822 </north>
+			<south> 43.373338 </south>
+			<east> 5.262479 </east>
+			<west> 5.261212 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.261962,43.37342 5.261947,43.373419 5.261892,43.373415 5.261831,43.37341 5.261757,43.373405 5.26174,43.373404 5.26166,43.373395 5.261611,43.37339 5.261556,43.373384 5.26149,43.373376 5.261362,43.373363 5.261271,43.373338 5.261212,43.373399 5.261282,43.373417 5.261337,43.37343 5.261509,43.373451 5.261543,43.373456 5.26165,43.373468 5.261693,43.373473 5.261739,43.373479 5.261816,43.373492 5.261896,43.373505 5.261876,43.373534 5.261936,43.37356 5.261943,43.373526 5.261964,43.373535 5.262,43.373551 5.262007,43.373554 5.26203,43.373565 5.262071,43.373584 5.262137,43.373615 5.262199,43.37364 5.262221,43.373648 5.262344,43.373672 5.262338,43.373699 5.262275,43.3737 5.262064,43.373784 5.261991,43.373768 5.261995,43.373807 5.262075,43.373822 5.26229,43.373735 5.262452,43.373734 5.262458,43.373719 5.262479,43.373663 5.262243,43.373617 5.261977,43.373501 5.261972,43.373476 5.261962,43.37342</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

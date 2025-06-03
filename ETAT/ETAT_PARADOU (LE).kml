@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="PARADOU (LE)_ETAT" id="PARADOU (LE)_ETAT">
+	<SimpleField name="Commune" type="string"></SimpleField>
+</Schema>
+	<Style id="ETAT">
+		<LineStyle>
+			<color>00ffffff</color>
+			<width>0</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d119ff7</color>
+			<fill>1</fill>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style><Folder><name>parcelle_13_etat</name>
+  <Placemark id="parcelle_13_etat.4459">
+<styleUrl>#ETAT</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Commune">PARADOU (LE)</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.717671 </north>
+			<south> 43.717269 </south>
+			<east> 4.783616 </east>
+			<west> 4.783359 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>4.783359,43.717315 4.783366,43.717325 4.783401,43.717374 4.783375,43.717384 4.783393,43.717409 4.783412,43.717434 4.783462,43.717501 4.783429,43.717516 4.783411,43.717524 4.783427,43.717544 4.783452,43.717576 4.783406,43.717597 4.783458,43.717663 4.783464,43.717671 4.783616,43.717602 4.78361,43.717594 4.783573,43.717545 4.783524,43.71748 4.783494,43.717491 4.783429,43.717402 4.783544,43.717357 4.783522,43.717324 4.783512,43.717308 4.783486,43.717269 4.783359,43.717315</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

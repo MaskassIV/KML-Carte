@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="LA CIOTAT_coproprietaire" id="LA CIOTAT_coproprietaire">
+	<SimpleField name="Commune" type="string"></SimpleField>
+</Schema>
+	<Style id="coproprietaire">
+		<LineStyle>
+			<color>00ffffff</color>
+			<width>0</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d7c1404</color>
+			<fill>1</fill>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style><Folder><name>parcelle_13_coproprietaire</name>
+  <Placemark id="parcelle_13_coproprietaire.8">
+<styleUrl>#coproprietaire</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_coproprietaire">
+		<SimpleData name="Commune">LA CIOTAT</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.171179 </north>
+			<south> 43.170549 </south>
+			<east> 5.60425 </east>
+			<west> 5.603405 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.603429,43.17074 5.603412,43.170929 5.60346,43.170975 5.603473,43.17098 5.603483,43.170986 5.603488,43.170995 5.603489,43.171 5.603461,43.171062 5.603439,43.171105 5.603405,43.171179 5.603432,43.171179 5.603477,43.17109 5.603535,43.170978 5.603542,43.170965 5.603547,43.170955 5.603485,43.170952 5.603452,43.170923 5.603461,43.170833 5.603464,43.170806 5.603468,43.170771 5.603565,43.170689 5.603679,43.170596 5.60372,43.170588 5.604077,43.170682 5.604117,43.170693 5.604112,43.170734 5.60415,43.170736 5.604174,43.170738 5.604175,43.170736 5.604179,43.170709 5.604242,43.170726 5.60425,43.170695 5.60419,43.170679 5.604112,43.170658 5.604053,43.170643 5.60404,43.170639 5.603987,43.170626 5.603961,43.170619 5.603885,43.170598 5.603814,43.17058 5.603706,43.170551 5.603685,43.170557 5.603673,43.170549 5.603592,43.170612 5.603515,43.170672 5.603445,43.170728 5.603429,43.17074</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="parcelle_13_coproprietaire.52">
+<styleUrl>#coproprietaire</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_coproprietaire">
+		<SimpleData name="Commune">LA CIOTAT</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.189383 </north>
+			<south> 43.188252 </south>
+			<east> 5.614765 </east>
+			<west> 5.614111 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.61422,43.188318 5.614147,43.188252 5.614121,43.188269 5.614111,43.188276 5.614218,43.188373 5.614378,43.188519 5.614384,43.188524 5.614473,43.188605 5.614478,43.188618 5.614499,43.188672 5.614577,43.188855 5.614605,43.188919 5.614624,43.188998 5.614659,43.189132 5.614674,43.189183 5.614638,43.189215 5.614574,43.18927 5.614765,43.189383 5.614762,43.189351 5.614752,43.189292 5.614732,43.189225 5.614702,43.189108 5.614665,43.188975 5.614628,43.188858 5.614593,43.188777 5.614558,43.188692 5.614523,43.188611 5.61451,43.188582 5.614433,43.188512 5.614344,43.188431 5.61422,43.188318</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

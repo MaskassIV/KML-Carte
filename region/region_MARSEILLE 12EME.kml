@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="MARSEILLE 12EME_region" id="MARSEILLE 12EME_region">
+	<SimpleField name="Commune" type="string"></SimpleField>
+</Schema>
+	<Style id="region">
+		<LineStyle>
+			<color>00ffffff</color>
+			<width>0</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d318006</color>
+			<fill>1</fill>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style><Folder><name>parcelle_13_region</name>
+  <Placemark id="parcelle_13_region.3">
+<styleUrl>#region</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_region">
+		<SimpleData name="Commune">MARSEILLE 12EME</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.314543 </north>
+			<south> 43.312939 </south>
+			<east> 5.421661 </east>
+			<west> 5.421249 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.421661,43.312939 5.421252,43.312981 5.421262,43.313328 5.421263,43.313341 5.421267,43.313494 5.421271,43.313617 5.421276,43.313753 5.421278,43.313838 5.421281,43.313893 5.421294,43.314237 5.421249,43.314521 5.421643,43.314543 5.421649,43.313939 5.421651,43.313906 5.421651,43.313784 5.421655,43.313475 5.42166,43.313085 5.421661,43.312939</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="parcelle_13_region.113">
+<styleUrl>#region</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_region">
+		<SimpleData name="Commune">MARSEILLE 12EME</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.313978 </north>
+			<south> 43.312981 </south>
+			<east> 5.421281 </east>
+			<west> 5.419338 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.419338,43.313978 5.421272,43.313893 5.421281,43.313893 5.421278,43.313838 5.421276,43.313753 5.421271,43.313617 5.421267,43.313494 5.421263,43.313341 5.421262,43.313328 5.421252,43.312981 5.420605,43.313041 5.420126,43.31311 5.419741,43.313195 5.419629,43.313224 5.419546,43.313259 5.419452,43.313322 5.419401,43.313382 5.419371,43.313433 5.419354,43.313482 5.41935,43.313515 5.419338,43.313978</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="parcelle_13_region.115">
+<styleUrl>#region</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_region">
+		<SimpleData name="Commune">MARSEILLE 12EME</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.312274 </north>
+			<south> 43.311601 </south>
+			<east> 5.450491 </east>
+			<west> 5.448894 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.448894,43.311869 5.448975,43.311879 5.449211,43.311909 5.449203,43.311939 5.4492,43.311954 5.449192,43.311993 5.449392,43.312017 5.449594,43.312041 5.449971,43.312026 5.449984,43.312225 5.450022,43.312248 5.449993,43.312274 5.450002,43.312274 5.450113,43.312272 5.450131,43.312271 5.450317,43.311992 5.450335,43.311961 5.450353,43.311934 5.450359,43.311926 5.450371,43.311907 5.450374,43.311903 5.450387,43.311882 5.450393,43.311873 5.450423,43.311831 5.450421,43.31183 5.45043,43.311819 5.450451,43.311809 5.450465,43.3118 5.450472,43.311795 5.450474,43.311796 5.450484,43.311776 5.450491,43.311764 5.450341,43.311736 5.45034,43.311745 5.450281,43.311784 5.450253,43.311782 5.450219,43.31181 5.450181,43.311811 5.450179,43.311814 5.450134,43.311828 5.450088,43.311844 5.450071,43.311855 5.449913,43.311757 5.449946,43.311721 5.449927,43.311646 5.449933,43.311608 5.449933,43.311604 5.449895,43.311601 5.449803,43.311606 5.449663,43.311615 5.449555,43.311621 5.449505,43.311625 5.4493,43.311637 5.449275,43.311657 5.44897,43.311633 5.448915,43.311742 5.4489,43.311834 5.448894,43.311869</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="parcelle_13_region.117">
+<styleUrl>#region</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_region">
+		<SimpleData name="Commune">MARSEILLE 12EME</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.311855 </north>
+			<south> 43.311608 </south>
+			<east> 5.450341 </east>
+			<west> 5.449913 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.449933,43.311608 5.449927,43.311646 5.449946,43.311721 5.449913,43.311757 5.450071,43.311855 5.450088,43.311844 5.450134,43.311828 5.450179,43.311814 5.450181,43.311811 5.450219,43.31181 5.450253,43.311782 5.450281,43.311784 5.45034,43.311745 5.450341,43.311736 5.450271,43.311662 5.449933,43.311608</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="parcelle_13_region.168">
+<styleUrl>#region</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_region">
+		<SimpleData name="Commune">MARSEILLE 12EME</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.314594 </north>
+			<south> 43.312927 </south>
+			<east> 5.422548 </east>
+			<west> 5.421643 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.422533,43.314594 5.422548,43.314455 5.422321,43.314483 5.422323,43.314273 5.422332,43.314266 5.422339,43.313434 5.421995,43.313299 5.421929,43.313191 5.42188,43.313109 5.421775,43.312934 5.421771,43.312927 5.421661,43.312939 5.42166,43.313085 5.421655,43.313475 5.421651,43.313784 5.421651,43.313906 5.421649,43.313939 5.421643,43.314543 5.421732,43.314548 5.421806,43.314553 5.422533,43.314594</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="CHATEAURENARD_region" id="CHATEAURENARD_region">
+	<SimpleField name="Commune" type="string"></SimpleField>
+</Schema>
+	<Style id="region">
+		<LineStyle>
+			<color>00ffffff</color>
+			<width>0</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d318006</color>
+			<fill>1</fill>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style><Folder><name>parcelle_13_region</name>
+  <Placemark id="parcelle_13_region.26">
+<styleUrl>#region</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_region">
+		<SimpleData name="Commune">CHATEAURENARD</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.885215 </north>
+			<south> 43.884696 </south>
+			<east> 4.874181 </east>
+			<west> 4.873549 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>4.873626,43.884696 4.873598,43.88481 4.873549,43.884995 4.873613,43.885005 4.873688,43.885019 4.873768,43.885034 4.873826,43.885047 4.873868,43.885057 4.873921,43.885074 4.873949,43.885087 4.873984,43.885104 4.874012,43.885125 4.874034,43.88514 4.874039,43.885144 4.874044,43.885148 4.874061,43.885163 4.874084,43.885181 4.874109,43.885206 4.874117,43.885215 4.874181,43.884734 4.873626,43.884696</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

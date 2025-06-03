@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="PEYPIN_HLM" id="PEYPIN_HLM">
+	<SimpleField name="Commune" type="string"></SimpleField>
+</Schema>
+	<Style id="HLM">
+		<LineStyle>
+			<color>00ffffff</color>
+			<width>0</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4de451f5</color>
+			<fill>1</fill>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style><Folder><name>parcelle_13_hlm</name>
+  <Placemark id="parcelle_13_hlm.137">
+<styleUrl>#HLM</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Commune">PEYPIN</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.384469 </north>
+			<south> 43.383731 </south>
+			<east> 5.583302 </east>
+			<west> 5.5824 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.583217,43.38376 5.583148,43.383783 5.583036,43.383826 5.58301,43.383837 5.582979,43.383956 5.583022,43.383962 5.582973,43.384149 5.582495,43.384083 5.5824,43.384442 5.582413,43.384444 5.582461,43.384451 5.582462,43.384451 5.582501,43.384456 5.582541,43.38446 5.582649,43.384468 5.582649,43.384468 5.582672,43.384468 5.582737,43.384469 5.582818,43.384469 5.582886,43.384466 5.582942,43.384462 5.583004,43.384456 5.583051,43.38445 5.583108,43.384297 5.583156,43.38417 5.583175,43.384113 5.583213,43.383997 5.583245,43.383903 5.583302,43.383731 5.583217,43.38376</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="parcelle_13_hlm.2674">
+<styleUrl>#HLM</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Commune">PEYPIN</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.384846 </north>
+			<south> 43.384442 </south>
+			<east> 5.583051 </east>
+			<west> 5.582294 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.583049,43.384661 5.583038,43.384577 5.583033,43.384539 5.583027,43.384486 5.58304,43.384467 5.583051,43.38445 5.583004,43.384456 5.582942,43.384462 5.582886,43.384466 5.582818,43.384469 5.582737,43.384469 5.582672,43.384468 5.582649,43.384468 5.582649,43.384468 5.582541,43.38446 5.582501,43.384456 5.582462,43.384451 5.582461,43.384451 5.582413,43.384444 5.5824,43.384442 5.582294,43.384846 5.583049,43.384661</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

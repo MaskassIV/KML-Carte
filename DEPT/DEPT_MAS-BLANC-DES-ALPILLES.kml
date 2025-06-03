@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="MAS-BLANC-DES-ALPILLES_DEPT" id="MAS-BLANC-DES-ALPILLES_DEPT">
+	<SimpleField name="Commune" type="string"></SimpleField>
+</Schema>
+	<Style id="DEPT">
+		<LineStyle>
+			<color>00ffffff</color>
+			<width>0</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d63f16c</color>
+			<fill>1</fill>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style><Folder><name>parcelle_13_dept</name>
+  <Placemark id="parcelle_13_dept.5201">
+<styleUrl>#DEPT</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
+		<SimpleData name="Commune">MAS-BLANC-DES-ALPILLES</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.789624 </north>
+			<south> 43.7896 </south>
+			<east> 4.768045 </east>
+			<west> 4.76743 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>4.76743,43.789621 4.767866,43.789624 4.767917,43.789624 4.768039,43.789624 4.768045,43.789604 4.767437,43.7896 4.76743,43.789621</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

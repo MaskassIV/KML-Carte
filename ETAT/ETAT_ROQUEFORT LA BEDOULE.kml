@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="ROQUEFORT LA BEDOULE_ETAT" id="ROQUEFORT LA BEDOULE_ETAT">
+	<SimpleField name="Commune" type="string"></SimpleField>
+</Schema>
+	<Style id="ETAT">
+		<LineStyle>
+			<color>00ffffff</color>
+			<width>0</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d119ff7</color>
+			<fill>1</fill>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style><Folder><name>parcelle_13_etat</name>
+  <Placemark id="parcelle_13_etat.743">
+<styleUrl>#ETAT</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Commune">ROQUEFORT LA BEDOULE</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.247537 </north>
+			<south> 43.247424 </south>
+			<east> 5.59565 </east>
+			<west> 5.594992 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.594993,43.247433 5.595253,43.247474 5.595265,43.247476 5.59544,43.247504 5.595574,43.247525 5.59565,43.247537 5.59565,43.247521 5.59556,43.247504 5.595319,43.247464 5.595158,43.247444 5.594992,43.247424 5.594993,43.247433</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="parcelle_13_etat.6701">
+<styleUrl>#ETAT</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Commune">ROQUEFORT LA BEDOULE</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.248379 </north>
+			<south> 43.248204 </south>
+			<east> 5.5886 </east>
+			<west> 5.588213 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.5886,43.248236 5.58857,43.248204 5.588504,43.248232 5.588443,43.248259 5.588424,43.248267 5.588387,43.248283 5.588294,43.248324 5.588266,43.248337 5.588213,43.24836 5.588222,43.248379 5.588406,43.248313 5.588553,43.24826 5.5886,43.248236</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="parcelle_13_etat.7247">
+<styleUrl>#ETAT</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Commune">ROQUEFORT LA BEDOULE</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.249676 </north>
+			<south> 43.249448 </south>
+			<east> 5.584529 </east>
+			<west> 5.584251 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.584466,43.249448 5.584251,43.249676 5.584282,43.24965 5.584378,43.249577 5.584469,43.249512 5.584529,43.249465 5.58447,43.249449 5.584466,43.249448</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

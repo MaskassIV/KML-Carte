@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="MIRAMAS_coproprietaire" id="MIRAMAS_coproprietaire">
+	<SimpleField name="Commune" type="string"></SimpleField>
+</Schema>
+	<Style id="coproprietaire">
+		<LineStyle>
+			<color>00ffffff</color>
+			<width>0</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d7c1404</color>
+			<fill>1</fill>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style><Folder><name>parcelle_13_coproprietaire</name>
+  <Placemark id="parcelle_13_coproprietaire.28">
+<styleUrl>#coproprietaire</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_coproprietaire">
+		<SimpleData name="Commune">MIRAMAS</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.579162 </north>
+			<south> 43.578668 </south>
+			<east> 5.010079 </east>
+			<west> 5.009723 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.010019,43.578685 5.009959,43.578668 5.009928,43.578724 5.009911,43.578752 5.009961,43.578767 5.009971,43.578785 5.009858,43.579 5.009814,43.579076 5.009752,43.579071 5.009723,43.579124 5.00987,43.579162 5.009858,43.579149 5.009854,43.579136 5.009854,43.57913 5.009861,43.57911 5.009885,43.579042 5.009964,43.578904 5.01005,43.578752 5.010058,43.578736 5.010079,43.578702 5.010019,43.578685</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

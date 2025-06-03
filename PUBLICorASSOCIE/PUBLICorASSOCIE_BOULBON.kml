@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="BOULBON_PUBLICorASSOCIE" id="BOULBON_PUBLICorASSOCIE">
+	<SimpleField name="Commune" type="string"></SimpleField>
+</Schema>
+	<Style id="PUBLICorASSOCIE">
+		<LineStyle>
+			<color>00ffffff</color>
+			<width>0</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4ddb2105</color>
+			<fill>1</fill>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style><Folder><name>parcelle_13_publicorassocie</name>
+  <Placemark id="parcelle_13_publicorassocie.3601">
+<styleUrl>#PUBLICorASSOCIE</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Commune">BOULBON</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.893847 </north>
+			<south> 43.891888 </south>
+			<east> 4.713621 </east>
+			<west> 4.712905 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>4.713387,43.891927 4.713115,43.892341 4.713052,43.892468 4.712961,43.892709 4.71295,43.892707 4.712959,43.892806 4.71298,43.893053 4.713051,43.893139 4.713029,43.89347 4.712905,43.893818 4.713198,43.893847 4.713257,43.893743 4.713313,43.893541 4.713327,43.893387 4.71331,43.893104 4.713307,43.893022 4.713316,43.892679 4.713324,43.892499 4.71346,43.892224 4.713621,43.891888 4.713499,43.891915 4.713452,43.891923 4.713387,43.891927</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="parcelle_13_publicorassocie.3611">
+<styleUrl>#PUBLICorASSOCIE</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Commune">BOULBON</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.891906 </north>
+			<south> 43.89139 </south>
+			<east> 4.713754 </east>
+			<west> 4.713397 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>4.713594,43.89139 4.713501,43.891673 4.713483,43.891728 4.713456,43.891785 4.713397,43.891906 4.713471,43.891901 4.713549,43.891884 4.713631,43.891866 4.713754,43.891404 4.713594,43.89139</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

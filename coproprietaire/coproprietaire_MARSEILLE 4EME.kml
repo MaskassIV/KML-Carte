@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="MARSEILLE 4EME_coproprietaire" id="MARSEILLE 4EME_coproprietaire">
+	<SimpleField name="Commune" type="string"></SimpleField>
+</Schema>
+	<Style id="coproprietaire">
+		<LineStyle>
+			<color>00ffffff</color>
+			<width>0</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d7c1404</color>
+			<fill>1</fill>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style><Folder><name>parcelle_13_coproprietaire</name>
+  <Placemark id="parcelle_13_coproprietaire.96">
+<styleUrl>#coproprietaire</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_coproprietaire">
+		<SimpleData name="Commune">MARSEILLE 4EME</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.307609 </north>
+			<south> 43.307008 </south>
+			<east> 5.393556 </east>
+			<west> 5.392482 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.392482,43.307396 5.392631,43.307436 5.392632,43.307433 5.392717,43.307455 5.392718,43.307454 5.392747,43.307461 5.392745,43.307466 5.392746,43.307467 5.392749,43.307462 5.392781,43.30747 5.392783,43.307466 5.392982,43.307518 5.39298,43.307522 5.392985,43.307523 5.392987,43.307519 5.393016,43.307527 5.393014,43.307531 5.393019,43.307532 5.39302,43.307528 5.393049,43.307536 5.393047,43.30754 5.393052,43.307541 5.393054,43.307537 5.393083,43.307545 5.393081,43.307549 5.393085,43.30755 5.393087,43.307546 5.393123,43.307555 5.393122,43.307556 5.39318,43.307572 5.393183,43.307567 5.393243,43.307582 5.393241,43.307587 5.393243,43.307587 5.393246,43.307583 5.393345,43.307609 5.39336,43.307578 5.393363,43.307579 5.393388,43.307528 5.393385,43.307527 5.393429,43.307438 5.393435,43.307439 5.39346,43.307389 5.393482,43.307395 5.393556,43.307247 5.39348,43.307226 5.393406,43.307205 5.393377,43.307198 5.393272,43.307169 5.393166,43.307141 5.393058,43.307112 5.392968,43.307087 5.392853,43.307056 5.392816,43.307047 5.392674,43.307008 5.392591,43.307178 5.392548,43.307263 5.392501,43.307359 5.392482,43.307396</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

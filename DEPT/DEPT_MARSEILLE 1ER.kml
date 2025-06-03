@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="MARSEILLE 1ER_DEPT" id="MARSEILLE 1ER_DEPT">
+	<SimpleField name="Commune" type="string"></SimpleField>
+</Schema>
+	<Style id="DEPT">
+		<LineStyle>
+			<color>00ffffff</color>
+			<width>0</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d63f16c</color>
+			<fill>1</fill>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style><Folder><name>parcelle_13_dept</name>
+  <Placemark id="parcelle_13_dept.7880">
+<styleUrl>#DEPT</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
+		<SimpleData name="Commune">MARSEILLE 1ER</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.301477 </north>
+			<south> 43.301135 </south>
+			<east> 5.377959 </east>
+			<west> 5.377478 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.377478,43.301418 5.377528,43.301424 5.377574,43.301431 5.377721,43.30145 5.377804,43.301462 5.377831,43.301464 5.377878,43.30147 5.377926,43.301477 5.377933,43.301414 5.377938,43.301351 5.37795,43.301272 5.377957,43.301209 5.377959,43.301186 5.377955,43.301185 5.377934,43.301181 5.377761,43.301156 5.377661,43.301141 5.377619,43.301135 5.377603,43.30117 5.377585,43.301202 5.377573,43.301231 5.377562,43.30125 5.377551,43.301274 5.377482,43.301408 5.377478,43.301418</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="parcelle_13_dept.7956">
+<styleUrl>#DEPT</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
+		<SimpleData name="Commune">MARSEILLE 1ER</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.303395 </north>
+			<south> 43.302182 </south>
+			<east> 5.389033 </east>
+			<west> 5.38723 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.387836,43.303099 5.387922,43.303132 5.388598,43.303395 5.388608,43.303374 5.388619,43.303349 5.388649,43.303283 5.388656,43.303269 5.388703,43.303161 5.388707,43.303156 5.388754,43.303047 5.388756,43.303048 5.388792,43.302958 5.38879,43.302956 5.388815,43.302891 5.388876,43.30274 5.38889,43.302724 5.388899,43.302714 5.388925,43.302685 5.389033,43.302561 5.389011,43.302553 5.388851,43.302479 5.388543,43.302336 5.388339,43.302243 5.388233,43.302197 5.388203,43.302182 5.38811,43.302289 5.388061,43.302342 5.388042,43.302363 5.38792,43.302503 5.387832,43.302604 5.387713,43.302736 5.387662,43.302797 5.387638,43.302822 5.387581,43.302796 5.387462,43.302932 5.38737,43.303039 5.387255,43.303174 5.387258,43.303175 5.387241,43.303194 5.38723,43.303206 5.38725,43.303215 5.387338,43.303254 5.387355,43.303233 5.387453,43.303144 5.387493,43.303128 5.387602,43.303045 5.387619,43.303054 5.387646,43.303025 5.387656,43.303028 5.387752,43.303065 5.387836,43.303099</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

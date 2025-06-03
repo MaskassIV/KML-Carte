@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="MARSEILLE 11EME_region" id="MARSEILLE 11EME_region">
+	<SimpleField name="Commune" type="string"></SimpleField>
+</Schema>
+	<Style id="region">
+		<LineStyle>
+			<color>00ffffff</color>
+			<width>0</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d318006</color>
+			<fill>1</fill>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style><Folder><name>parcelle_13_region</name>
+  <Placemark id="parcelle_13_region.198">
+<styleUrl>#region</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_region">
+		<SimpleData name="Commune">MARSEILLE 11EME</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.286777 </north>
+			<south> 43.286079 </south>
+			<east> 5.440862 </east>
+			<west> 5.439995 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.440468,43.286777 5.440862,43.286263 5.440852,43.286259 5.440815,43.286244 5.440705,43.286198 5.44042,43.286079 5.440418,43.286082 5.440392,43.286114 5.440061,43.286344 5.440033,43.286406 5.440019,43.28642 5.440015,43.286438 5.440006,43.286473 5.440002,43.2865 5.439999,43.286519 5.439997,43.286546 5.439995,43.286583 5.439995,43.286608 5.440314,43.286722 5.440468,43.286777</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="BAUX-DE-PROVENCE (LES)_DEPT" id="BAUX-DE-PROVENCE (LES)_DEPT">
+	<SimpleField name="Commune" type="string"></SimpleField>
+</Schema>
+	<Style id="DEPT">
+		<LineStyle>
+			<color>00ffffff</color>
+			<width>0</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d63f16c</color>
+			<fill>1</fill>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style><Folder><name>parcelle_13_dept</name>
+  <Placemark id="parcelle_13_dept.6469">
+<styleUrl>#DEPT</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
+		<SimpleData name="Commune">BAUX-DE-PROVENCE (LES)</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.746639 </north>
+			<south> 43.746062 </south>
+			<east> 4.7963 </east>
+			<west> 4.795903 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>4.7963,43.746564 4.796288,43.746522 4.796275,43.746496 4.796234,43.746439 4.796085,43.746255 4.795924,43.746062 4.795903,43.74607 4.79597,43.746187 4.795998,43.746247 4.796071,43.74641 4.796138,43.746557 4.796133,43.746639 4.7963,43.746564</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

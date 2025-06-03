@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="LA PENNE SUR HUVEAUNE_region" id="LA PENNE SUR HUVEAUNE_region">
+	<SimpleField name="Commune" type="string"></SimpleField>
+</Schema>
+	<Style id="region">
+		<LineStyle>
+			<color>00ffffff</color>
+			<width>0</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d318006</color>
+			<fill>1</fill>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style><Folder><name>parcelle_13_region</name>
+  <Placemark id="parcelle_13_region.63">
+<styleUrl>#region</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_region">
+		<SimpleData name="Commune">LA PENNE SUR HUVEAUNE</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.28167 </north>
+			<south> 43.28153 </south>
+			<east> 5.514643 </east>
+			<west> 5.514573 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.514573,43.28153 5.514577,43.281591 5.514579,43.28161 5.514583,43.28167 5.514643,43.281665 5.514638,43.281604 5.51464,43.28153 5.514573,43.28153</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="parcelle_13_region.86">
+<styleUrl>#region</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_region">
+		<SimpleData name="Commune">LA PENNE SUR HUVEAUNE</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.283312 </north>
+			<south> 43.282791 </south>
+			<east> 5.529644 </east>
+			<west> 5.529137 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.529137,43.283194 5.529487,43.283312 5.529575,43.283061 5.529615,43.282946 5.529644,43.282864 5.529278,43.282791 5.529242,43.282894 5.529155,43.283142 5.529137,43.283194</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

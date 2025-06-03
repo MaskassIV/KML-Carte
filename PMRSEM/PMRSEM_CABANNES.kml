@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="CABANNES_PMRSEM" id="CABANNES_PMRSEM">
+	<SimpleField name="Commune" type="string"></SimpleField>
+</Schema>
+	<Style id="PMRSEM">
+		<LineStyle>
+			<color>00ffffff</color>
+			<width>0</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d00faff</color>
+			<fill>1</fill>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style><Folder><name>parcelle_13_pmrsem</name>
+  <Placemark id="parcelle_13_pmrsem.148">
+<styleUrl>#PMRSEM</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_pmrsem">
+		<SimpleData name="Commune">CABANNES</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.862526 </north>
+			<south> 43.862136 </south>
+			<east> 4.939651 </east>
+			<west> 4.93933 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>4.939538,43.862136 4.93933,43.862151 4.93937,43.862515 4.939651,43.862526 4.939647,43.862454 4.939636,43.86227 4.939635,43.86224 4.939538,43.862136</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="parcelle_13_pmrsem.150">
+<styleUrl>#PMRSEM</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_pmrsem">
+		<SimpleData name="Commune">CABANNES</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.862645 </north>
+			<south> 43.862515 </south>
+			<east> 4.939658 </east>
+			<west> 4.93937 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>4.93938,43.862625 4.939575,43.862639 4.939658,43.862645 4.939651,43.862526 4.93937,43.862515 4.93938,43.862625</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="parcelle_13_pmrsem.373">
+<styleUrl>#PMRSEM</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_pmrsem">
+		<SimpleData name="Commune">CABANNES</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.862515 </north>
+			<south> 43.861816 </south>
+			<east> 4.939538 </east>
+			<west> 4.938325 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>4.938378,43.862246 4.938325,43.862484 4.93937,43.862515 4.93933,43.862151 4.939538,43.862136 4.939499,43.861816 4.939296,43.861883 4.938665,43.862129 4.938378,43.862246</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

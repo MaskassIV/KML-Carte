@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="SAINT CHAMAS_coproprietaire" id="SAINT CHAMAS_coproprietaire">
+	<SimpleField name="Commune" type="string"></SimpleField>
+</Schema>
+	<Style id="coproprietaire">
+		<LineStyle>
+			<color>00ffffff</color>
+			<width>0</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d7c1404</color>
+			<fill>1</fill>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style><Folder><name>parcelle_13_coproprietaire</name>
+  <Placemark id="parcelle_13_coproprietaire.62">
+<styleUrl>#coproprietaire</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_coproprietaire">
+		<SimpleData name="Commune">SAINT CHAMAS</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.556803 </north>
+			<south> 43.556529 </south>
+			<east> 5.034435 </east>
+			<west> 5.033973 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>50</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.034435,43.556803 5.03441,43.55679 5.034399,43.556787 5.034295,43.556762 5.034238,43.556747 5.034172,43.556697 5.034136,43.556674 5.034056,43.556596 5.034022,43.556556 5.033994,43.556532 5.033973,43.556529 5.034053,43.556608 5.034083,43.556641 5.034127,43.556688 5.034158,43.556707 5.034224,43.556757 5.034229,43.556758 5.034288,43.556776 5.034392,43.556801 5.034435,43.556803</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

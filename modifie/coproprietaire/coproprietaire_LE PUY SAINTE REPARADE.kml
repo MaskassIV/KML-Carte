@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="LE PUY SAINTE REPARADE_coproprietaire" id="LE PUY SAINTE REPARADE_coproprietaire">
+	<SimpleField name="Commune" type="string"></SimpleField>
+</Schema>
+	<Style id="coproprietaire">
+		<LineStyle>
+			<color>00ffffff</color>
+			<width>0</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d7c1404</color>
+			<fill>1</fill>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style><Folder><name>parcelle_13_coproprietaire</name>
+  <Placemark id="parcelle_13_coproprietaire.89">
+<styleUrl>#coproprietaire</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_coproprietaire">
+		<SimpleData name="Commune">LE PUY SAINTE REPARADE</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.633779 </north>
+			<south> 43.633352 </south>
+			<east> 5.438785 </east>
+			<west> 5.438127 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>50</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.438238,43.633352 5.438127,43.633356 5.438178,43.633371 5.438224,43.633483 5.4383,43.63358 5.438421,43.633651 5.438754,43.633779 5.438785,43.633732 5.438651,43.633683 5.438454,43.633617 5.438345,43.633549 5.438282,43.633467 5.438238,43.633352</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

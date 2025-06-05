@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="TRETS_region" id="TRETS_region">
+	<SimpleField name="Commune" type="string"></SimpleField>
+</Schema>
+	<Style id="region">
+		<LineStyle>
+			<color>00ffffff</color>
+			<width>0</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d318006</color>
+			<fill>1</fill>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style><Folder><name>parcelle_13_region</name>
+  <Placemark id="parcelle_13_region.40">
+<styleUrl>#region</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_region">
+		<SimpleData name="Commune">TRETS</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.447086 </north>
+			<south> 43.445563 </south>
+			<east> 5.691777 </east>
+			<west> 5.690654 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>50</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.690716,43.44591 5.690863,43.446728 5.691105,43.446724 5.691342,43.44672 5.691539,43.446719 5.691563,43.446718 5.691607,43.447042 5.691615,43.447086 5.691777,43.447081 5.691555,43.445808 5.691549,43.445776 5.691473,43.445759 5.691415,43.445745 5.691365,43.445733 5.691331,43.445728 5.691276,43.445721 5.691201,43.44571 5.691164,43.445705 5.691089,43.445691 5.691026,43.445678 5.69096,43.445658 5.69082,43.445615 5.690709,43.445579 5.690654,43.445563 5.690712,43.44589 5.690716,43.44591</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="parcelle_13_region.42">
+<styleUrl>#region</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_region">
+		<SimpleData name="Commune">TRETS</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.44591 </north>
+			<south> 43.445514 </south>
+			<east> 5.690716 </east>
+			<west> 5.690421 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>50</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.690477,43.445514 5.690421,43.445873 5.690716,43.44591 5.690712,43.44589 5.690654,43.445563 5.690596,43.445547 5.690477,43.445514</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="parcelle_13_region.101">
+<styleUrl>#region</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_region">
+		<SimpleData name="Commune">TRETS</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.447084 </north>
+			<south> 43.445477 </south>
+			<east> 5.690863 </east>
+			<west> 5.689158 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>50</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.689158,43.446302 5.689254,43.446696 5.689256,43.446705 5.6893,43.446809 5.689595,43.446695 5.689607,43.44669 5.689863,43.446592 5.689957,43.446946 5.689993,43.447084 5.690086,43.447031 5.690266,43.446928 5.690517,43.446785 5.690797,43.446729 5.690863,43.446728 5.690716,43.44591 5.690421,43.445873 5.690477,43.445514 5.690414,43.445498 5.690397,43.445495 5.690356,43.445486 5.690299,43.445477 5.690297,43.445497 5.690247,43.445856 5.690028,43.445828 5.689798,43.445798 5.689556,43.44577 5.689244,43.445731 5.689361,43.44599 5.689411,43.446114 5.689411,43.446115 5.689461,43.446231 5.689429,43.446239 5.689158,43.446302</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

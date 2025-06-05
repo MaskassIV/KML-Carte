@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="LA BOUILLADISSE_coproprietaire" id="LA BOUILLADISSE_coproprietaire">
+	<SimpleField name="Commune" type="string"></SimpleField>
+</Schema>
+	<Style id="coproprietaire">
+		<LineStyle>
+			<color>00ffffff</color>
+			<width>0</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d7c1404</color>
+			<fill>1</fill>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style><Folder><name>parcelle_13_coproprietaire</name>
+  <Placemark id="parcelle_13_coproprietaire.45">
+<styleUrl>#coproprietaire</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_coproprietaire">
+		<SimpleData name="Commune">LA BOUILLADISSE</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.391623 </north>
+			<south> 43.391245 </south>
+			<east> 5.60401 </east>
+			<west> 5.602974 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>50</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.603983,43.391245 5.60398,43.391254 5.603971,43.391263 5.60396,43.391273 5.60388,43.391298 5.603775,43.391329 5.603736,43.391311 5.603692,43.391324 5.603346,43.391426 5.603298,43.39144 5.603291,43.39147 5.603145,43.391513 5.60305,43.391542 5.603027,43.391548 5.603012,43.39155 5.602987,43.391547 5.602974,43.39154 5.602997,43.391623 5.602997,43.391613 5.603002,43.391607 5.60301,43.391601 5.603175,43.391553 5.60321,43.391573 5.603255,43.391559 5.603602,43.391457 5.603651,43.391442 5.603658,43.391412 5.603827,43.391363 5.603952,43.391325 5.603964,43.391323 5.603979,43.391326 5.603993,43.391333 5.60401,43.391347 5.604004,43.391309 5.603983,43.391245</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

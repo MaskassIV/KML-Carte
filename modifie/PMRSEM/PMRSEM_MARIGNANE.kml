@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="MARIGNANE_PMRSEM" id="MARIGNANE_PMRSEM">
+	<SimpleField name="Commune" type="string"></SimpleField>
+</Schema>
+	<Style id="PMRSEM">
+		<LineStyle>
+			<color>00ffffff</color>
+			<width>0</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d00faff</color>
+			<fill>1</fill>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style><Folder><name>parcelle_13_pmrsem</name>
+  <Placemark id="parcelle_13_pmrsem.153">
+<styleUrl>#PMRSEM</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_pmrsem">
+		<SimpleData name="Commune">MARIGNANE</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.408156 </north>
+			<south> 43.407536 </south>
+			<east> 5.221279 </east>
+			<west> 5.220338 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>50</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.220338,43.407986 5.220397,43.408008 5.220686,43.408108 5.220822,43.408156 5.22088,43.408062 5.22098,43.408096 5.221146,43.40782 5.221256,43.407753 5.221279,43.407714 5.2211,43.407663 5.220976,43.407629 5.220786,43.407575 5.220669,43.407544 5.220645,43.407536 5.220554,43.407672 5.220524,43.407716 5.220471,43.407795 5.220465,43.407803 5.220338,43.407986</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

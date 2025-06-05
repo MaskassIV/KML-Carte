@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="MIMET_PMRSEM" id="MIMET_PMRSEM">
+	<SimpleField name="Commune" type="string"></SimpleField>
+</Schema>
+	<Style id="PMRSEM">
+		<LineStyle>
+			<color>00ffffff</color>
+			<width>0</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d00faff</color>
+			<fill>1</fill>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style><Folder><name>parcelle_13_pmrsem</name>
+  <Placemark id="parcelle_13_pmrsem.268">
+<styleUrl>#PMRSEM</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_pmrsem">
+		<SimpleData name="Commune">MIMET</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.42988 </north>
+			<south> 43.428844 </south>
+			<east> 5.47381 </east>
+			<west> 5.47243 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>50</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.472578,43.428924 5.472716,43.42909 5.472841,43.42925 5.47243,43.429419 5.472778,43.429872 5.472795,43.42988 5.472815,43.42988 5.47302,43.429804 5.473215,43.42973 5.47342,43.429647 5.473666,43.429526 5.473707,43.429496 5.473742,43.429461 5.473779,43.429424 5.47381,43.429392 5.473632,43.429292 5.473535,43.429237 5.473223,43.428844 5.473114,43.428864 5.472788,43.428933 5.472663,43.428937 5.472578,43.428924</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="parcelle_13_pmrsem.273">
+<styleUrl>#PMRSEM</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_pmrsem">
+		<SimpleData name="Commune">MIMET</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.429392 </north>
+			<south> 43.428695 </south>
+			<east> 5.474744 </east>
+			<west> 5.473632 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>50</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.47381,43.429392 5.473831,43.429371 5.4739,43.429299 5.473989,43.429211 5.474039,43.429168 5.474084,43.429131 5.474129,43.429096 5.474177,43.429064 5.474243,43.429022 5.474298,43.428988 5.474428,43.428921 5.474496,43.428888 5.474557,43.428864 5.474626,43.428838 5.474703,43.428811 5.474744,43.428797 5.474665,43.428695 5.474626,43.428708 5.47462,43.428702 5.474607,43.428707 5.47461,43.428714 5.474553,43.428734 5.474537,43.428742 5.474546,43.428755 5.474546,43.428762 5.474545,43.42877 5.474544,43.428778 5.474529,43.428783 5.474538,43.428793 5.474522,43.428807 5.474508,43.428815 5.474488,43.428826 5.474463,43.428838 5.474374,43.428879 5.474366,43.428872 5.474355,43.428878 5.474361,43.428885 5.474284,43.428927 5.474268,43.428926 5.47427,43.428935 5.474179,43.428987 5.474103,43.429042 5.474085,43.429042 5.474087,43.429053 5.47401,43.429109 5.474002,43.429103 5.473997,43.429108 5.473994,43.429112 5.473999,43.429119 5.473968,43.429143 5.473925,43.429166 5.473862,43.429194 5.473802,43.429213 5.473775,43.429227 5.473754,43.429238 5.473736,43.429252 5.473687,43.429226 5.473632,43.429292 5.47381,43.429392</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

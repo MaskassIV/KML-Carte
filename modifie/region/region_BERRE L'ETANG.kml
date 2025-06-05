@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="BERRE L'ETANG_region" id="BERRE L'ETANG_region">
+	<SimpleField name="Commune" type="string"></SimpleField>
+</Schema>
+	<Style id="region">
+		<LineStyle>
+			<color>00ffffff</color>
+			<width>0</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d318006</color>
+			<fill>1</fill>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style><Folder><name>parcelle_13_region</name>
+  <Placemark id="parcelle_13_region.39">
+<styleUrl>#region</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_region">
+		<SimpleData name="Commune">BERRE L'ETANG</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.539982 </north>
+			<south> 43.530001 </south>
+			<east> 5.188789 </east>
+			<west> 5.171542 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>50</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.172797,43.539982 5.174858,43.539892 5.176707,43.539817 5.177684,43.539782 5.181008,43.539649 5.184539,43.539515 5.184502,43.539048 5.185405,43.539017 5.18534,43.539285 5.185417,43.539184 5.185441,43.539154 5.185541,43.539029 5.185545,43.539024 5.185757,43.538751 5.185954,43.538491 5.185956,43.538488 5.18622,43.538138 5.186487,43.537789 5.186673,43.537544 5.186829,43.537343 5.186852,43.537313 5.187085,43.537008 5.187265,43.536773 5.18741,43.536584 5.187602,43.536328 5.187899,43.535955 5.188124,43.535676 5.188347,43.535396 5.188533,43.535164 5.18872,43.534931 5.188789,43.534843 5.187611,43.534117 5.186238,43.533275 5.18446,43.532186 5.182699,43.531101 5.180907,43.530001 5.180517,43.530318 5.18028,43.530507 5.180206,43.530568 5.180049,43.530674 5.179642,43.530952 5.179318,43.531176 5.179079,43.531341 5.178776,43.531549 5.178567,43.531702 5.178222,43.531958 5.177855,43.532233 5.17753,43.532478 5.177244,43.532691 5.17692,43.532934 5.176754,43.533057 5.176528,43.533211 5.176395,43.5333 5.176006,43.533558 5.175642,43.533796 5.175254,43.534051 5.174949,43.534245 5.174612,43.534458 5.174217,43.534708 5.173745,43.535005 5.173229,43.53533 5.172802,43.5356 5.172508,43.53578 5.17219,43.535978 5.171883,43.536167 5.171542,43.536329 5.171597,43.53662 5.171657,43.536944 5.171714,43.537276 5.171751,43.53748 5.171782,43.537787 5.171815,43.538122 5.171822,43.538194 5.171837,43.538613 5.171859,43.539249 5.171874,43.53972 5.17188,43.539847 5.172797,43.539982</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="parcelle_13_region.64">
+<styleUrl>#region</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_region">
+		<SimpleData name="Commune">BERRE L'ETANG</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.539515 </north>
+			<south> 43.539017 </south>
+			<east> 5.187791 </east>
+			<west> 5.184502 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>50</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.18534,43.539285 5.185405,43.539017 5.184502,43.539048 5.184539,43.539515 5.185164,43.53949 5.187433,43.539404 5.187662,43.539393 5.187791,43.539389 5.187777,43.539379 5.187754,43.539372 5.187731,43.539363 5.187675,43.539343 5.187644,43.539336 5.187585,43.539321 5.187536,43.53931 5.187304,43.539314 5.186834,43.539331 5.186403,43.539344 5.186389,43.539344 5.185906,43.539359 5.18532,43.539379 5.18534,43.539285</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

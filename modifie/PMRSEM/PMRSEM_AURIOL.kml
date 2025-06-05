@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="AURIOL_PMRSEM" id="AURIOL_PMRSEM">
+	<SimpleField name="Commune" type="string"></SimpleField>
+</Schema>
+	<Style id="PMRSEM">
+		<LineStyle>
+			<color>00ffffff</color>
+			<width>0</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d00faff</color>
+			<fill>1</fill>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style><Folder><name>parcelle_13_pmrsem</name>
+  <Placemark id="parcelle_13_pmrsem.112">
+<styleUrl>#PMRSEM</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_pmrsem">
+		<SimpleData name="Commune">AURIOL</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.369092 </north>
+			<south> 43.368838 </south>
+			<east> 5.6352 </east>
+			<west> 5.634802 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>50</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.635007,43.368838 5.634919,43.368838 5.634818,43.368838 5.634831,43.368869 5.634802,43.368876 5.634831,43.368936 5.634855,43.368985 5.634873,43.36898 5.634918,43.368966 5.634952,43.368978 5.634978,43.369019 5.635016,43.369027 5.635097,43.369046 5.635083,43.369084 5.635176,43.369092 5.635181,43.369074 5.6352,43.369006 5.635001,43.368943 5.63501,43.368838 5.635007,43.368838</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="parcelle_13_pmrsem.116">
+<styleUrl>#PMRSEM</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_pmrsem">
+		<SimpleData name="Commune">AURIOL</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.369112 </north>
+			<south> 43.368922 </south>
+			<east> 5.636459 </east>
+			<west> 5.635176 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>50</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.636459,43.368922 5.635181,43.369074 5.635176,43.369092 5.635201,43.369094 5.635378,43.369112 5.635581,43.369089 5.635765,43.369071 5.635866,43.369063 5.63608,43.369032 5.636215,43.368999 5.636319,43.368971 5.636459,43.368922</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="SAINT-VICTORET_HLM" id="SAINT-VICTORET_HLM">
+	<SimpleField name="Commune" type="string"></SimpleField>
+</Schema>
+	<Style id="HLM">
+		<LineStyle>
+			<color>00ffffff</color>
+			<width>0</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4de451f5</color>
+			<fill>1</fill>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style><Folder><name>parcelle_13_hlm</name>
+  <Placemark id="parcelle_13_hlm.1127">
+<styleUrl>#HLM</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Commune">SAINT-VICTORET</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.415267 </north>
+			<south> 43.412102 </south>
+			<east> 5.245869 </east>
+			<west> 5.242577 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>50</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.24467,43.415267 5.245355,43.414898 5.245227,43.414808 5.245062,43.414632 5.245556,43.414383 5.245601,43.414509 5.245657,43.414636 5.245694,43.414715 5.245869,43.414621 5.24572,43.414159 5.245696,43.414083 5.245675,43.414018 5.245618,43.413842 5.245614,43.413831 5.245611,43.413819 5.245571,43.413696 5.24554,43.4136 5.245475,43.413401 5.245433,43.413273 5.245388,43.413134 5.245145,43.413153 5.245128,43.412924 5.244454,43.412511 5.243783,43.412102 5.243332,43.412494 5.243423,43.4126 5.242577,43.41332 5.242828,43.413553 5.2433,43.413992 5.244033,43.414675 5.24467,43.415267</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="parcelle_13_hlm.1263">
+<styleUrl>#HLM</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Commune">SAINT-VICTORET</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.414898 </north>
+			<south> 43.414383 </south>
+			<east> 5.245694 </east>
+			<west> 5.245062 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>50</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.245355,43.414898 5.245694,43.414715 5.245657,43.414636 5.245601,43.414509 5.245556,43.414383 5.245062,43.414632 5.245227,43.414808 5.245355,43.414898</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="parcelle_13_hlm.1727">
+<styleUrl>#HLM</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Commune">SAINT-VICTORET</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.416708 </north>
+			<south> 43.415368 </south>
+			<east> 5.233063 </east>
+			<west> 5.231736 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>50</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.232659,43.415632 5.232655,43.415614 5.232551,43.415368 5.232418,43.415397 5.232435,43.41544 5.232139,43.415507 5.232116,43.415463 5.232088,43.415475 5.232064,43.415492 5.232051,43.415506 5.232108,43.415525 5.232103,43.415534 5.232096,43.415545 5.232096,43.415565 5.232087,43.415827 5.232036,43.415829 5.232035,43.41587 5.232039,43.415884 5.232046,43.415902 5.23207,43.415932 5.232106,43.415978 5.232026,43.416013 5.232053,43.416046 5.231736,43.416192 5.23205,43.416506 5.23207,43.416525 5.232116,43.41656 5.232233,43.416647 5.232247,43.416655 5.23235,43.416708 5.232545,43.416532 5.233063,43.416067 5.232752,43.415793 5.232709,43.415752 5.232659,43.415632</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

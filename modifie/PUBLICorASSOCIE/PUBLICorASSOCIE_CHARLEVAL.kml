@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="CHARLEVAL_PUBLICorASSOCIE" id="CHARLEVAL_PUBLICorASSOCIE">
+	<SimpleField name="Commune" type="string"></SimpleField>
+</Schema>
+	<Style id="PUBLICorASSOCIE">
+		<LineStyle>
+			<color>00ffffff</color>
+			<width>0</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4ddb2105</color>
+			<fill>1</fill>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style><Folder><name>parcelle_13_publicorassocie</name>
+  <Placemark id="parcelle_13_publicorassocie.146">
+<styleUrl>#PUBLICorASSOCIE</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.744345 </north>
+			<south> 43.743366 </south>
+			<east> 5.254602 </east>
+			<west> 5.253166 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>50</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.254412,43.743366 5.253195,43.743486 5.253166,43.743493 5.253254,43.743943 5.253439,43.743997 5.254051,43.74418 5.254436,43.744299 5.254602,43.744345 5.254412,43.743366</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="parcelle_13_publicorassocie.596">
+<styleUrl>#PUBLICorASSOCIE</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.743612 </north>
+			<south> 43.742726 </south>
+			<east> 5.253159 </east>
+			<west> 5.252403 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>50</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.252577,43.743612 5.253159,43.743456 5.252994,43.742726 5.252403,43.742798 5.252577,43.743612</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="parcelle_13_publicorassocie.708">
+<styleUrl>#PUBLICorASSOCIE</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.743089 </north>
+			<south> 43.742953 </south>
+			<east> 5.251189 </east>
+			<west> 5.25089 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>50</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.251189,43.743089 5.251167,43.742953 5.25089,43.74299 5.250896,43.742992 5.251043,43.74304 5.251189,43.743089</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

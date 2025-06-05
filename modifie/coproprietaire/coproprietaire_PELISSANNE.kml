@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="PELISSANNE_coproprietaire" id="PELISSANNE_coproprietaire">
+	<SimpleField name="Commune" type="string"></SimpleField>
+</Schema>
+	<Style id="coproprietaire">
+		<LineStyle>
+			<color>00ffffff</color>
+			<width>0</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d7c1404</color>
+			<fill>1</fill>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style><Folder><name>parcelle_13_coproprietaire</name>
+  <Placemark id="parcelle_13_coproprietaire.53">
+<styleUrl>#coproprietaire</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_coproprietaire">
+		<SimpleData name="Commune">PELISSANNE</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.639218 </north>
+			<south> 43.638781 </south>
+			<east> 5.149225 </east>
+			<west> 5.148577 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>50</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.148887,43.63916 5.149129,43.639218 5.149157,43.639144 5.149153,43.639142 5.149136,43.639131 5.149122,43.639118 5.149111,43.639103 5.149105,43.639087 5.149102,43.639071 5.149108,43.639028 5.149146,43.638954 5.149225,43.63881 5.149196,43.6388 5.149138,43.638781 5.14901,43.63901 5.148977,43.639022 5.148735,43.638937 5.14869,43.63898 5.148577,43.639101 5.14862,43.639122 5.148631,43.639111 5.148654,43.639105 5.148733,43.639124 5.148887,43.63916</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

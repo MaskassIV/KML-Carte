@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="CARNOUX EN PROVENCE_ETAT" id="CARNOUX EN PROVENCE_ETAT">
+	<SimpleField name="Commune" type="string"></SimpleField>
+</Schema>
+	<Style id="ETAT">
+		<LineStyle>
+			<color>00ffffff</color>
+			<width>0</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d119ff7</color>
+			<fill>1</fill>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style><Folder><name>parcelle_13_etat</name>
+  <Placemark id="parcelle_13_etat.1548">
+<styleUrl>#ETAT</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Commune">CARNOUX EN PROVENCE</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.257261 </north>
+			<south> 43.256763 </south>
+			<east> 5.565649 </east>
+			<west> 5.564696 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>50</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.565161,43.25726 5.5652,43.257261 5.565254,43.25726 5.565327,43.257253 5.565416,43.257245 5.565445,43.257241 5.565494,43.257188 5.565623,43.257121 5.565649,43.257109 5.565133,43.256772 5.565116,43.256763 5.564978,43.256846 5.564696,43.257017 5.564771,43.25714 5.564798,43.257184 5.564889,43.257216 5.564943,43.257229 5.564984,43.257238 5.565051,43.25725 5.565091,43.257255 5.565117,43.257257 5.565145,43.257258 5.565161,43.25726</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

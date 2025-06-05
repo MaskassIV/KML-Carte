@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="LA FARE LES OLIVIERS_ETAT" id="LA FARE LES OLIVIERS_ETAT">
+	<SimpleField name="Commune" type="string"></SimpleField>
+</Schema>
+	<Style id="ETAT">
+		<LineStyle>
+			<color>00ffffff</color>
+			<width>0</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d119ff7</color>
+			<fill>1</fill>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style><Folder><name>parcelle_13_etat</name>
+  <Placemark id="parcelle_13_etat.1791">
+<styleUrl>#ETAT</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Commune">LA FARE LES OLIVIERS</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.552331 </north>
+			<south> 43.552007 </south>
+			<east> 5.179725 </east>
+			<west> 5.179398 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>50</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.179403,43.552167 5.179398,43.552331 5.179725,43.552007 5.17957,43.552014 5.179403,43.552167</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="parcelle_13_etat.1884">
+<styleUrl>#ETAT</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Commune">LA FARE LES OLIVIERS</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.547032 </north>
+			<south> 43.54672 </south>
+			<east> 5.229674 </east>
+			<west> 5.229338 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>50</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.229633,43.547032 5.229638,43.547003 5.229674,43.546821 5.229508,43.546781 5.229338,43.54672 5.22962,43.54701 5.229633,43.547032</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="parcelle_13_etat.1942">
+<styleUrl>#ETAT</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Commune">LA FARE LES OLIVIERS</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.566893 </north>
+			<south> 43.556757 </south>
+			<east> 5.231215 </east>
+			<west> 5.223699 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>50</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.22475,43.566045 5.224624,43.566177 5.224349,43.566445 5.224283,43.566491 5.223699,43.566893 5.224046,43.56684 5.224655,43.566739 5.22533,43.566627 5.226059,43.566332 5.226102,43.566314 5.226208,43.566237 5.226205,43.565927 5.226214,43.565872 5.226231,43.565821 5.226296,43.565715 5.226504,43.565445 5.226863,43.56501 5.226937,43.564909 5.226981,43.564818 5.22702,43.564727 5.227047,43.564635 5.227125,43.564327 5.227148,43.564199 5.227157,43.564085 5.227156,43.563759 5.22724,43.563423 5.227353,43.562966 5.227482,43.562425 5.227506,43.562374 5.228082,43.561368 5.228125,43.561278 5.228305,43.560875 5.228585,43.560421 5.228725,43.560181 5.228727,43.56009 5.22865,43.560046 5.229168,43.559344 5.229316,43.559187 5.229646,43.558905 5.22971,43.558847 5.230566,43.557893 5.230579,43.55788 5.230711,43.557649 5.230728,43.557624 5.231215,43.556847 5.23074,43.556757 5.230613,43.556768 5.23048,43.556784 5.23039,43.55679 5.230263,43.556798 5.230072,43.556785 5.229963,43.556792 5.229842,43.556802 5.229725,43.556988 5.229668,43.557081 5.229557,43.55722 5.22941,43.557414 5.229378,43.557475 5.227859,43.560643 5.226946,43.562548 5.226221,43.564034 5.226109,43.564234 5.225937,43.564525 5.225697,43.564871 5.225607,43.565 5.225399,43.565277 5.225223,43.565491 5.225059,43.565692 5.224932,43.565839 5.22475,43.566045</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

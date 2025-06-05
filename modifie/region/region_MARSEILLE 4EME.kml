@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="MARSEILLE 4EME_region" id="MARSEILLE 4EME_region">
+	<SimpleField name="Commune" type="string"></SimpleField>
+</Schema>
+	<Style id="region">
+		<LineStyle>
+			<color>00ffffff</color>
+			<width>0</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d318006</color>
+			<fill>1</fill>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style><Folder><name>parcelle_13_region</name>
+  <Placemark id="parcelle_13_region.119">
+<styleUrl>#region</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_region">
+		<SimpleData name="Commune">MARSEILLE 4EME</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.30154 </north>
+			<south> 43.300896 </south>
+			<east> 5.39952 </east>
+			<west> 5.398824 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>50</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.399501,43.30154 5.39952,43.300924 5.399491,43.300901 5.399447,43.300896 5.399282,43.301009 5.399136,43.301109 5.399097,43.301135 5.398952,43.301234 5.398824,43.301321 5.398894,43.301374 5.398936,43.301405 5.39895,43.301416 5.39897,43.301431 5.399016,43.301465 5.399052,43.301492 5.399074,43.301508 5.399101,43.30153 5.399167,43.301531 5.399197,43.301533 5.399349,43.301536 5.399364,43.301537 5.399399,43.301538 5.399501,43.30154</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="parcelle_13_region.210">
+<styleUrl>#region</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_region">
+		<SimpleData name="Commune">MARSEILLE 4EME</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.309153 </north>
+			<south> 43.308919 </south>
+			<east> 5.395032 </east>
+			<west> 5.394951 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>50</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.394971,43.309153 5.394981,43.309092 5.394984,43.309071 5.395005,43.309073 5.395032,43.308922 5.395007,43.308919 5.395,43.308945 5.394966,43.309074 5.394951,43.309151 5.394971,43.309153</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

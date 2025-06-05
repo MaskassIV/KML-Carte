@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="LA FARE LES OLIVIERS_PUBLICorASSOCIE" id="LA FARE LES OLIVIERS_PUBLICorASSOCIE">
+	<SimpleField name="Commune" type="string"></SimpleField>
+</Schema>
+	<Style id="PUBLICorASSOCIE">
+		<LineStyle>
+			<color>00ffffff</color>
+			<width>0</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4ddb2105</color>
+			<fill>1</fill>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style><Folder><name>parcelle_13_publicorassocie</name>
+  <Placemark id="parcelle_13_publicorassocie.1392">
+<styleUrl>#PUBLICorASSOCIE</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Commune">LA FARE LES OLIVIERS</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.550373 </north>
+			<south> 43.549596 </south>
+			<east> 5.195207 </east>
+			<west> 5.194919 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>50</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.194919,43.55009 5.194922,43.550121 5.194925,43.550168 5.194927,43.550214 5.194927,43.550238 5.19493,43.550269 5.194932,43.550357 5.195119,43.550373 5.195124,43.550326 5.195135,43.550241 5.195138,43.55021 5.195149,43.550118 5.195154,43.550066 5.195156,43.550047 5.19517,43.549927 5.195207,43.549606 5.195068,43.549598 5.195025,43.549596 5.195031,43.549688 5.195079,43.549689 5.195062,43.550093 5.194919,43.55009</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="parcelle_13_publicorassocie.3515">
+<styleUrl>#PUBLICorASSOCIE</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Commune">LA FARE LES OLIVIERS</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.550093 </north>
+			<south> 43.549683 </south>
+			<east> 5.195079 </east>
+			<west> 5.194908 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>50</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.194918,43.550073 5.194919,43.55009 5.195062,43.550093 5.195079,43.549689 5.195031,43.549688 5.194986,43.549686 5.194939,43.549684 5.194908,43.549683 5.194911,43.549774 5.194913,43.549835 5.194915,43.549913 5.194918,43.549984 5.194952,43.549983 5.194968,43.549983 5.194972,43.550035 5.194973,43.550072 5.194918,43.550073</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

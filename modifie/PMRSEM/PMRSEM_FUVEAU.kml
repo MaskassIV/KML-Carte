@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="FUVEAU_PMRSEM" id="FUVEAU_PMRSEM">
+	<SimpleField name="Commune" type="string"></SimpleField>
+</Schema>
+	<Style id="PMRSEM">
+		<LineStyle>
+			<color>00ffffff</color>
+			<width>0</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d00faff</color>
+			<fill>1</fill>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style><Folder><name>parcelle_13_pmrsem</name>
+  <Placemark id="parcelle_13_pmrsem.92">
+<styleUrl>#PMRSEM</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_pmrsem">
+		<SimpleData name="Commune">FUVEAU</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.44777 </north>
+			<south> 43.447236 </south>
+			<east> 5.556487 </east>
+			<west> 5.556049 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>50</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.556049,43.447336 5.556327,43.44777 5.556465,43.447666 5.556487,43.447651 5.556449,43.447236 5.556049,43.447336</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="parcelle_13_pmrsem.277">
+<styleUrl>#PMRSEM</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_pmrsem">
+		<SimpleData name="Commune">FUVEAU</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.447336 </north>
+			<south> 43.446167 </south>
+			<east> 5.556449 </east>
+			<west> 5.555378 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>50</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.55608,43.446225 5.555891,43.44617 5.555892,43.446167 5.555819,43.446176 5.555768,43.446182 5.555409,43.446224 5.555378,43.446227 5.555457,43.446385 5.555478,43.446427 5.555495,43.446461 5.555564,43.446577 5.555599,43.446635 5.555634,43.446694 5.555635,43.446697 5.555675,43.446758 5.555714,43.446818 5.555764,43.446896 5.555811,43.446969 5.555863,43.447049 5.555928,43.447148 5.556049,43.447336 5.556449,43.447236 5.556382,43.446499 5.556406,43.446414 5.556412,43.446396 5.556419,43.446372 5.556419,43.44637 5.556214,43.446318 5.556208,43.446332 5.556054,43.446303 5.55608,43.446225</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

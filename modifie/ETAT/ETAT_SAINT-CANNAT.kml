@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="SAINT-CANNAT_ETAT" id="SAINT-CANNAT_ETAT">
+	<SimpleField name="Commune" type="string"></SimpleField>
+</Schema>
+	<Style id="ETAT">
+		<LineStyle>
+			<color>00ffffff</color>
+			<width>0</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d119ff7</color>
+			<fill>1</fill>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style><Folder><name>parcelle_13_etat</name>
+  <Placemark id="parcelle_13_etat.819">
+<styleUrl>#ETAT</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Commune">SAINT-CANNAT</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.614522 </north>
+			<south> 43.614135 </south>
+			<east> 5.361819 </east>
+			<west> 5.361416 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>50</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.361795,43.614135 5.361416,43.6145 5.361455,43.614522 5.361819,43.614164 5.361795,43.614135</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="parcelle_13_etat.3328">
+<styleUrl>#ETAT</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Commune">SAINT-CANNAT</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.618088 </north>
+			<south> 43.617823 </south>
+			<east> 5.309784 </east>
+			<west> 5.308957 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>50</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.308976,43.618088 5.309784,43.617865 5.309761,43.617823 5.308957,43.618045 5.308967,43.618067 5.308976,43.618088</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="parcelle_13_etat.7226">
+<styleUrl>#ETAT</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Commune">SAINT-CANNAT</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.624004 </north>
+			<south> 43.623946 </south>
+			<east> 5.350934 </east>
+			<west> 5.350848 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>50</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.350906,43.623946 5.350848,43.623974 5.350876,43.624004 5.350934,43.623977 5.350906,43.623946</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

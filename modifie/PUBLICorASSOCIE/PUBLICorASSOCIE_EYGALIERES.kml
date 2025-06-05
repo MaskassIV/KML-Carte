@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="EYGALIERES_PUBLICorASSOCIE" id="EYGALIERES_PUBLICorASSOCIE">
+	<SimpleField name="Commune" type="string"></SimpleField>
+</Schema>
+	<Style id="PUBLICorASSOCIE">
+		<LineStyle>
+			<color>00ffffff</color>
+			<width>0</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4ddb2105</color>
+			<fill>1</fill>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style><Folder><name>parcelle_13_publicorassocie</name>
+  <Placemark id="parcelle_13_publicorassocie.1433">
+<styleUrl>#PUBLICorASSOCIE</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Commune">EYGALIERES</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.759111 </north>
+			<south> 43.758479 </south>
+			<east> 4.953449 </east>
+			<west> 4.952866 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>50</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>4.953449,43.758653 4.953448,43.75864 4.953398,43.758634 4.953397,43.758626 4.953385,43.758534 4.953206,43.758505 4.953045,43.758479 4.952962,43.758745 4.952917,43.758893 4.952874,43.75903 4.952866,43.759058 4.953287,43.759109 4.953301,43.759111 4.953308,43.75902 4.953313,43.759005 4.953352,43.758881 4.953437,43.758712 4.953443,43.758694 4.953447,43.758674 4.953449,43.758653</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

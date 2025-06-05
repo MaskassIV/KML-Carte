@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="PARADOU (LE)_DEPT" id="PARADOU (LE)_DEPT">
+	<SimpleField name="Commune" type="string"></SimpleField>
+</Schema>
+	<Style id="DEPT">
+		<LineStyle>
+			<color>00ffffff</color>
+			<width>0</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d63f16c</color>
+			<fill>1</fill>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style><Folder><name>parcelle_13_dept</name>
+  <Placemark id="parcelle_13_dept.3413">
+<styleUrl>#DEPT</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
+		<SimpleData name="Commune">PARADOU (LE)</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.713242 </north>
+			<south> 43.713161 </south>
+			<east> 4.777979 </east>
+			<west> 4.777898 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>50</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>4.777979,43.713191 4.777948,43.713161 4.777918,43.713192 4.777898,43.713216 4.777931,43.713242 4.777954,43.713217 4.777979,43.713191</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="parcelle_13_dept.4117">
+<styleUrl>#DEPT</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
+		<SimpleData name="Commune">PARADOU (LE)</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.716143 </north>
+			<south> 43.71597 </south>
+			<east> 4.78811 </east>
+			<west> 4.788072 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>50</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>4.788076,43.71597 4.788072,43.716143 4.788105,43.716143 4.78811,43.715974 4.788076,43.71597</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="parcelle_13_dept.6869">
+<styleUrl>#DEPT</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
+		<SimpleData name="Commune">PARADOU (LE)</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.7178 </north>
+			<south> 43.717464 </south>
+			<east> 4.787873 </east>
+			<west> 4.787654 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>50</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>4.787654,43.7178 4.787746,43.717795 4.787873,43.717469 4.787836,43.717464 4.787783,43.717623 4.787743,43.717746 4.787711,43.717785 4.787654,43.7178</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

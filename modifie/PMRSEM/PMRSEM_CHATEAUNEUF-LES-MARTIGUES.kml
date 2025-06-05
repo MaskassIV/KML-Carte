@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="CHATEAUNEUF-LES-MARTIGUES_PMRSEM" id="CHATEAUNEUF-LES-MARTIGUES_PMRSEM">
+	<SimpleField name="Commune" type="string"></SimpleField>
+</Schema>
+	<Style id="PMRSEM">
+		<LineStyle>
+			<color>00ffffff</color>
+			<width>0</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d00faff</color>
+			<fill>1</fill>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style><Folder><name>parcelle_13_pmrsem</name>
+  <Placemark id="parcelle_13_pmrsem.50">
+<styleUrl>#PMRSEM</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_pmrsem">
+		<SimpleData name="Commune">CHATEAUNEUF-LES-MARTIGUES</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.378536 </north>
+			<south> 43.378431 </south>
+			<east> 5.172345 </east>
+			<west> 5.172051 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>50</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.172051,43.378459 5.172131,43.37848 5.172345,43.378536 5.172326,43.378431 5.172051,43.378459</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="parcelle_13_pmrsem.51">
+<styleUrl>#PMRSEM</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_pmrsem">
+		<SimpleData name="Commune">CHATEAUNEUF-LES-MARTIGUES</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.378443 </north>
+			<south> 43.378146 </south>
+			<east> 5.171992 </east>
+			<west> 5.171712 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>50</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.171745,43.378379 5.171874,43.378413 5.171992,43.378443 5.171936,43.378146 5.171712,43.378168 5.17175,43.378375 5.171745,43.378379</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="parcelle_13_pmrsem.58">
+<styleUrl>#PMRSEM</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_pmrsem">
+		<SimpleData name="Commune">CHATEAUNEUF-LES-MARTIGUES</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.378858 </north>
+			<south> 43.378379 </south>
+			<east> 5.172386 </east>
+			<west> 5.171335 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>50</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.171745,43.378379 5.171641,43.378467 5.171638,43.378602 5.171335,43.378858 5.171338,43.378858 5.171368,43.378852 5.171427,43.378841 5.171469,43.378831 5.171489,43.378828 5.171514,43.378826 5.171553,43.378822 5.171718,43.378805 5.171892,43.378789 5.172066,43.378771 5.172088,43.37877 5.172109,43.378768 5.172139,43.378767 5.172167,43.378766 5.172187,43.378769 5.172218,43.378772 5.172254,43.378777 5.17228,43.378779 5.172312,43.378784 5.172346,43.378791 5.172386,43.378754 5.172345,43.378536 5.172345,43.378536 5.172131,43.37848 5.172051,43.378459 5.171996,43.378464 5.171992,43.378443 5.171874,43.378413 5.171745,43.378379</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

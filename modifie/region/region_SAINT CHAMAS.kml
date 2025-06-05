@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="SAINT CHAMAS_region" id="SAINT CHAMAS_region">
+	<SimpleField name="Commune" type="string"></SimpleField>
+</Schema>
+	<Style id="region">
+		<LineStyle>
+			<color>00ffffff</color>
+			<width>0</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d318006</color>
+			<fill>1</fill>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style><Folder><name>parcelle_13_region</name>
+  <Placemark id="parcelle_13_region.10">
+<styleUrl>#region</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_region">
+		<SimpleData name="Commune">SAINT CHAMAS</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.548 </north>
+			<south> 43.546928 </south>
+			<east> 5.038233 </east>
+			<west> 5.036565 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>50</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.037379,43.548 5.037433,43.547926 5.037623,43.547748 5.037655,43.547717 5.037623,43.5477 5.037693,43.547634 5.037825,43.547506 5.037943,43.547393 5.038034,43.547307 5.03812,43.547225 5.038193,43.547156 5.038233,43.547116 5.038205,43.547047 5.038155,43.546928 5.03809,43.546942 5.037916,43.54698 5.037754,43.547016 5.037001,43.547178 5.036708,43.547242 5.036675,43.547264 5.036755,43.547447 5.036778,43.547502 5.036721,43.547478 5.036565,43.547682 5.037016,43.547858 5.037379,43.548</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

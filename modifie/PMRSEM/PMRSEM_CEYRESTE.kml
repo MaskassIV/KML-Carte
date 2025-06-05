@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="CEYRESTE_PMRSEM" id="CEYRESTE_PMRSEM">
+	<SimpleField name="Commune" type="string"></SimpleField>
+</Schema>
+	<Style id="PMRSEM">
+		<LineStyle>
+			<color>00ffffff</color>
+			<width>0</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d00faff</color>
+			<fill>1</fill>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style><Folder><name>parcelle_13_pmrsem</name>
+  <Placemark id="parcelle_13_pmrsem.210">
+<styleUrl>#PMRSEM</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_pmrsem">
+		<SimpleData name="Commune">CEYRESTE</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.219431 </north>
+			<south> 43.217672 </south>
+			<east> 5.627993 </east>
+			<west> 5.626786 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>50</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.62704,43.217815 5.626974,43.218226 5.626903,43.218209 5.626888,43.218363 5.62687,43.218552 5.626846,43.218796 5.626786,43.218848 5.627184,43.219088 5.627356,43.21921 5.627494,43.219322 5.627579,43.21939 5.627628,43.219431 5.627631,43.21943 5.627714,43.219384 5.627826,43.219318 5.627911,43.219264 5.627942,43.219247 5.627993,43.219198 5.627954,43.219156 5.627853,43.219047 5.627787,43.218976 5.627737,43.218919 5.627678,43.21885 5.627629,43.218795 5.62757,43.218728 5.627525,43.218674 5.627465,43.218588 5.627415,43.218518 5.627439,43.218433 5.627459,43.218359 5.627468,43.21833 5.627485,43.218304 5.627544,43.21821 5.627553,43.2182 5.62758,43.218172 5.62759,43.218139 5.627612,43.218083 5.627637,43.218017 5.627659,43.21801 5.627678,43.21798 5.62771,43.217934 5.627606,43.217892 5.627515,43.217855 5.627435,43.217822 5.627368,43.217792 5.627345,43.217782 5.627309,43.217765 5.627258,43.217737 5.627217,43.217724 5.627063,43.217672 5.62704,43.217815</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="parcelle_13_pmrsem.219">
+<styleUrl>#PMRSEM</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_pmrsem">
+		<SimpleData name="Commune">CEYRESTE</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.219883 </north>
+			<south> 43.219247 </south>
+			<east> 5.628193 </east>
+			<west> 5.627628 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>50</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.627628,43.219431 5.627657,43.219456 5.627918,43.219782 5.62793,43.219797 5.627957,43.219823 5.627989,43.219843 5.628028,43.219862 5.628078,43.219872 5.62814,43.219881 5.628193,43.219883 5.628172,43.219792 5.628144,43.21968 5.628121,43.219584 5.62809,43.219456 5.628072,43.219382 5.62807,43.219374 5.627998,43.219302 5.627942,43.219247 5.627911,43.219264 5.627826,43.219318 5.627714,43.219384 5.627631,43.21943 5.627628,43.219431</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

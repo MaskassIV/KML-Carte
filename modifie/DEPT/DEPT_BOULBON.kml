@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="BOULBON_DEPT" id="BOULBON_DEPT">
+	<SimpleField name="Commune" type="string"></SimpleField>
+</Schema>
+	<Style id="DEPT">
+		<LineStyle>
+			<color>00ffffff</color>
+			<width>0</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d63f16c</color>
+			<fill>1</fill>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style><Folder><name>parcelle_13_dept</name>
+  <Placemark id="parcelle_13_dept.2379">
+<styleUrl>#DEPT</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
+		<SimpleData name="Commune">BOULBON</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.894746 </north>
+			<south> 43.894507 </south>
+			<east> 4.707503 </east>
+			<west> 4.706913 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>50</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>4.706913,43.894655 4.707437,43.894746 4.707503,43.894546 4.707285,43.894507 4.707075,43.894601 4.706938,43.89458 4.706913,43.894655</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="parcelle_13_dept.2400">
+<styleUrl>#DEPT</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
+		<SimpleData name="Commune">BOULBON</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.895434 </north>
+			<south> 43.893945 </south>
+			<east> 4.708389 </east>
+			<west> 4.706669 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>50</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>4.707108,43.894061 4.706938,43.89458 4.707075,43.894601 4.707285,43.894507 4.707503,43.894546 4.707437,43.894746 4.706913,43.894655 4.706875,43.894772 4.706685,43.895353 4.706669,43.895394 4.706684,43.895396 4.706942,43.895434 4.707072,43.895412 4.707403,43.895206 4.707939,43.895088 4.708157,43.895117 4.70835,43.895048 4.708366,43.894798 4.708383,43.894538 4.708389,43.894463 4.708389,43.894429 4.708362,43.894158 4.708345,43.893975 4.708347,43.893945 4.708232,43.894016 4.708161,43.894045 4.708111,43.894064 4.708019,43.89409 4.707947,43.894109 4.707891,43.894119 4.707869,43.894119 4.707604,43.89411 4.707571,43.894107 4.707544,43.894105 4.707485,43.8941 4.707252,43.894087 4.707108,43.894061</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

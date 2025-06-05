@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="VENELLES_PMRSEM" id="VENELLES_PMRSEM">
+	<SimpleField name="Commune" type="string"></SimpleField>
+</Schema>
+	<Style id="PMRSEM">
+		<LineStyle>
+			<color>00ffffff</color>
+			<width>0</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d00faff</color>
+			<fill>1</fill>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style><Folder><name>parcelle_13_pmrsem</name>
+  <Placemark id="parcelle_13_pmrsem.100">
+<styleUrl>#PMRSEM</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_pmrsem">
+		<SimpleData name="Commune">VENELLES</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.597225 </north>
+			<south> 43.597028 </south>
+			<east> 5.482471 </east>
+			<west> 5.481815 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>50</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.482329,43.59704 5.482171,43.597036 5.481869,43.59703 5.48183,43.597028 5.481815,43.597202 5.481885,43.597204 5.482087,43.597212 5.482274,43.597219 5.482437,43.597225 5.482442,43.597217 5.482465,43.59718 5.482471,43.597173 5.482307,43.597116 5.482326,43.597086 5.482329,43.59704</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="parcelle_13_pmrsem.133">
+<styleUrl>#PMRSEM</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_pmrsem">
+		<SimpleData name="Commune">VENELLES</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.59776 </north>
+			<south> 43.597307 </south>
+			<east> 5.482738 </east>
+			<west> 5.481783 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>50</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.481807,43.597307 5.481783,43.597592 5.481847,43.597594 5.48189,43.597611 5.481862,43.597655 5.481867,43.597657 5.482008,43.597668 5.482168,43.597722 5.482281,43.597729 5.482307,43.597731 5.482502,43.597745 5.482738,43.59776 5.482627,43.597666 5.482536,43.59759 5.482531,43.597585 5.482433,43.597503 5.482365,43.597445 5.482222,43.597325 5.48209,43.597319 5.481909,43.597312 5.481869,43.59731 5.481807,43.597307</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

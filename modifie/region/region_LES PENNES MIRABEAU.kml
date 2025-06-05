@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="LES PENNES MIRABEAU_region" id="LES PENNES MIRABEAU_region">
+	<SimpleField name="Commune" type="string"></SimpleField>
+</Schema>
+	<Style id="region">
+		<LineStyle>
+			<color>00ffffff</color>
+			<width>0</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d318006</color>
+			<fill>1</fill>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style><Folder><name>parcelle_13_region</name>
+  <Placemark id="parcelle_13_region.99">
+<styleUrl>#region</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_region">
+		<SimpleData name="Commune">LES PENNES MIRABEAU</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.396261 </north>
+			<south> 43.395531 </south>
+			<east> 5.322854 </east>
+			<west> 5.319967 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>50</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.322838,43.395607 5.322476,43.395614 5.322382,43.395531 5.321778,43.395561 5.321266,43.395582 5.321118,43.39559 5.320715,43.39557 5.320438,43.395632 5.32036,43.395656 5.320276,43.39569 5.320219,43.395719 5.320175,43.39574 5.32011,43.395773 5.31999,43.3958 5.319967,43.396167 5.320133,43.396195 5.320512,43.396261 5.320535,43.39622 5.320684,43.396202 5.321164,43.395996 5.321204,43.396012 5.321237,43.396025 5.321361,43.396074 5.32156,43.396153 5.321713,43.396155 5.322077,43.39616 5.322277,43.396163 5.322854,43.396259 5.322851,43.396067 5.322841,43.395714 5.322838,43.395607</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

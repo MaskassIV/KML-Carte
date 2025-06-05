@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="MAILLANE_HLM" id="MAILLANE_HLM">
+	<SimpleField name="Commune" type="string"></SimpleField>
+</Schema>
+	<Style id="HLM">
+		<LineStyle>
+			<color>00ffffff</color>
+			<width>0</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4de451f5</color>
+			<fill>1</fill>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style><Folder><name>parcelle_13_hlm</name>
+  <Placemark id="parcelle_13_hlm.4732">
+<styleUrl>#HLM</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Commune">MAILLANE</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.831726 </north>
+			<south> 43.831462 </south>
+			<east> 4.779504 </east>
+			<west> 4.779274 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>50</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>4.779428,43.831726 4.779504,43.831508 4.779439,43.831487 4.779364,43.831462 4.779336,43.831543 4.779332,43.831551 4.779318,43.831585 4.779307,43.831612 4.779296,43.831641 4.779283,43.831675 4.779274,43.831699 4.779428,43.831726</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="parcelle_13_hlm.5531">
+<styleUrl>#HLM</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Commune">MAILLANE</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.831575 </north>
+			<south> 43.831268 </south>
+			<east> 4.779747 </east>
+			<west> 4.779439 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>50</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>4.779504,43.831508 4.779659,43.831558 4.779722,43.831575 4.779726,43.831566 4.779741,43.831512 4.779715,43.831505 4.77972,43.831463 4.779747,43.831268 4.779618,43.831438 4.779476,43.831402 4.779443,43.831479 4.779439,43.831487 4.779504,43.831508</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="parcelle_13_hlm.5811">
+<styleUrl>#HLM</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Commune">MAILLANE</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.83127 </north>
+			<south> 43.83093 </south>
+			<east> 4.779627 </east>
+			<west> 4.779276 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>50</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>4.779462,43.83093 4.77945,43.830954 4.779412,43.831022 4.779389,43.831065 4.779339,43.831157 4.779276,43.83127 4.779627,43.831006 4.779462,43.83093</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="parcelle_13_hlm.5832">
+<styleUrl>#HLM</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Commune">MAILLANE</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.831487 </north>
+			<south> 43.831006 </south>
+			<east> 4.779773 </east>
+			<west> 4.779195 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>50</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>4.779627,43.831006 4.779276,43.83127 4.779195,43.831414 4.779213,43.83142 4.779364,43.831462 4.779439,43.831487 4.779443,43.831479 4.779476,43.831402 4.779618,43.831438 4.779747,43.831268 4.779773,43.831109 4.779661,43.831026 4.779627,43.831006</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

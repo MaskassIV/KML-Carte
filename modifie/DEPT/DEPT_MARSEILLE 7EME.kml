@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="MARSEILLE 7EME_DEPT" id="MARSEILLE 7EME_DEPT">
+	<SimpleField name="Commune" type="string"></SimpleField>
+</Schema>
+	<Style id="DEPT">
+		<LineStyle>
+			<color>00ffffff</color>
+			<width>0</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d63f16c</color>
+			<fill>1</fill>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style><Folder><name>parcelle_13_dept</name>
+  <Placemark id="parcelle_13_dept.7755">
+<styleUrl>#DEPT</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
+		<SimpleData name="Commune">MARSEILLE 7EME</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.27404 </north>
+			<south> 43.272776 </south>
+			<east> 5.372795 </east>
+			<west> 5.371907 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>50</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.371942,43.273462 5.371907,43.273606 5.371952,43.273812 5.372023,43.273978 5.37204,43.274016 5.372474,43.274018 5.372741,43.274038 5.372765,43.27404 5.372769,43.274014 5.37279,43.273898 5.372795,43.273632 5.372671,43.273404 5.372682,43.273298 5.372654,43.272776 5.372251,43.272943 5.372207,43.272996 5.372032,43.273208 5.371989,43.273393 5.371942,43.273462</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

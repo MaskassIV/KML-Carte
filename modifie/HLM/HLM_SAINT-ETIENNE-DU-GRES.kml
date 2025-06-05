@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="SAINT-ETIENNE-DU-GRES_HLM" id="SAINT-ETIENNE-DU-GRES_HLM">
+	<SimpleField name="Commune" type="string"></SimpleField>
+</Schema>
+	<Style id="HLM">
+		<LineStyle>
+			<color>00ffffff</color>
+			<width>0</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4de451f5</color>
+			<fill>1</fill>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style><Folder><name>parcelle_13_hlm</name>
+  <Placemark id="parcelle_13_hlm.3215">
+<styleUrl>#HLM</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Commune">SAINT-ETIENNE-DU-GRES</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.780817 </north>
+			<south> 43.780175 </south>
+			<east> 4.726793 </east>
+			<west> 4.726176 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>50</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>4.726176,43.780753 4.726558,43.780817 4.726607,43.780679 4.726667,43.780515 4.726676,43.78049 4.726688,43.780456 4.726732,43.780335 4.726778,43.780215 4.726793,43.780175 4.726769,43.780179 4.726719,43.780186 4.726396,43.78024 4.726364,43.780318 4.7263,43.780459 4.726246,43.780585 4.726193,43.780712 4.726176,43.780753</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

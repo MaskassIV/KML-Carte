@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="BERRE L'ETANG_PMRSEM" id="BERRE L'ETANG_PMRSEM">
+	<SimpleField name="Commune" type="string"></SimpleField>
+</Schema>
+	<Style id="PMRSEM">
+		<LineStyle>
+			<color>00ffffff</color>
+			<width>0</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d00faff</color>
+			<fill>1</fill>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style><Folder><name>parcelle_13_pmrsem</name>
+  <Placemark id="parcelle_13_pmrsem.563">
+<styleUrl>#PMRSEM</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_pmrsem">
+		<SimpleData name="Commune">BERRE L'ETANG</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.474579 </north>
+			<south> 43.473802 </south>
+			<east> 5.16699 </east>
+			<west> 5.166049 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>50</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.166432,43.474552 5.166508,43.474579 5.166593,43.474559 5.166948,43.474398 5.16699,43.474294 5.166938,43.474219 5.166925,43.474202 5.166917,43.47419 5.16689,43.474159 5.166835,43.474093 5.166811,43.474066 5.166772,43.474024 5.166729,43.473978 5.166692,43.473938 5.166655,43.4739 5.166592,43.47385 5.166579,43.473847 5.166484,43.473824 5.166393,43.473802 5.166309,43.473826 5.166049,43.473971 5.166096,43.474055 5.166133,43.474121 5.166165,43.474178 5.166181,43.474204 5.16619,43.474219 5.166213,43.474253 5.166229,43.474275 5.166253,43.474309 5.16628,43.474346 5.166318,43.474397 5.166333,43.474418 5.166337,43.474425 5.166366,43.474464 5.166387,43.474492 5.166399,43.474508 5.166415,43.474529 5.166432,43.474552</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

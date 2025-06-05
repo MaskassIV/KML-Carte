@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="COUDOUX_PUBLICorASSOCIE" id="COUDOUX_PUBLICorASSOCIE">
+	<SimpleField name="Commune" type="string"></SimpleField>
+</Schema>
+	<Style id="PUBLICorASSOCIE">
+		<LineStyle>
+			<color>00ffffff</color>
+			<width>0</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4ddb2105</color>
+			<fill>1</fill>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style><Folder><name>parcelle_13_publicorassocie</name>
+  <Placemark id="parcelle_13_publicorassocie.4036">
+<styleUrl>#PUBLICorASSOCIE</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Commune">COUDOUX</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.556349 </north>
+			<south> 43.556221 </south>
+			<east> 5.247366 </east>
+			<west> 5.246211 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>50</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.246211,43.556278 5.246261,43.556328 5.246842,43.55634 5.24687,43.556341 5.246944,43.556342 5.247036,43.556343 5.247361,43.556349 5.247363,43.556315 5.247366,43.556223 5.247315,43.556222 5.247283,43.556221 5.24713,43.556297 5.247,43.556294 5.246961,43.556293 5.246964,43.556247 5.246937,43.556246 5.246922,43.556293 5.2467,43.55629 5.246479,43.556286 5.246465,43.556239 5.246439,43.55624 5.246434,43.556286 5.246398,43.556285 5.246362,43.556284 5.246362,43.556238 5.246338,43.556238 5.246321,43.556283 5.246211,43.556278</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

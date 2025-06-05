@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="CARRY-LE-ROUET_coproprietaire" id="CARRY-LE-ROUET_coproprietaire">
+	<SimpleField name="Commune" type="string"></SimpleField>
+</Schema>
+	<Style id="coproprietaire">
+		<LineStyle>
+			<color>00ffffff</color>
+			<width>0</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d7c1404</color>
+			<fill>1</fill>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style><Folder><name>parcelle_13_coproprietaire</name>
+  <Placemark id="parcelle_13_coproprietaire.4">
+<styleUrl>#coproprietaire</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_coproprietaire">
+		<SimpleData name="Commune">CARRY-LE-ROUET</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.366433 </north>
+			<south> 43.366001 </south>
+			<east> 5.135073 </east>
+			<west> 5.133006 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>50</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.134722,43.366426 5.13489,43.366433 5.135073,43.366173 5.135023,43.366169 5.134994,43.366165 5.134946,43.366155 5.134889,43.366148 5.134826,43.366138 5.134771,43.366123 5.134709,43.366113 5.134642,43.366101 5.134584,43.366083 5.134502,43.366073 5.134421,43.366061 5.134356,43.36605 5.134293,43.366039 5.134238,43.366036 5.134196,43.366029 5.134149,43.366028 5.134092,43.366026 5.134042,43.366025 5.133977,43.36602 5.133889,43.366021 5.133815,43.36602 5.133771,43.366019 5.133749,43.366015 5.1337,43.366013 5.133647,43.366008 5.133587,43.366007 5.133535,43.366004 5.13349,43.366001 5.133445,43.366003 5.133404,43.366002 5.133356,43.366003 5.13331,43.366008 5.133194,43.366014 5.133077,43.366023 5.133006,43.366183 5.13322,43.366232 5.133364,43.366268 5.133483,43.36629 5.133572,43.366307 5.13367,43.366322 5.133721,43.366328 5.133746,43.366331 5.133768,43.366332 5.133791,43.36633 5.13383,43.366332 5.133894,43.366329 5.133959,43.36633 5.134034,43.366331 5.134139,43.366334 5.134194,43.366334 5.134239,43.366341 5.134279,43.366341 5.134349,43.36635 5.134514,43.366368 5.134562,43.366373 5.134587,43.366377 5.134605,43.366385 5.13463,43.366395 5.134722,43.366426</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

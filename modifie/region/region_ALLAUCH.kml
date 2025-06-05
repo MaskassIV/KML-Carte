@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="ALLAUCH_region" id="ALLAUCH_region">
+	<SimpleField name="Commune" type="string"></SimpleField>
+</Schema>
+	<Style id="region">
+		<LineStyle>
+			<color>00ffffff</color>
+			<width>0</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d318006</color>
+			<fill>1</fill>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style><Folder><name>parcelle_13_region</name>
+  <Placemark id="parcelle_13_region.31">
+<styleUrl>#region</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_region">
+		<SimpleData name="Commune">ALLAUCH</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.339506 </north>
+			<south> 43.339157 </south>
+			<east> 5.498001 </east>
+			<west> 5.497539 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>50</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.49784,43.339497 5.497871,43.339483 5.49791,43.339468 5.497961,43.339433 5.497997,43.339386 5.498001,43.339352 5.497998,43.339329 5.498,43.339293 5.497985,43.339273 5.497965,43.339236 5.497919,43.339195 5.497863,43.339173 5.497802,43.339162 5.497759,43.339157 5.497708,43.339163 5.497667,43.339173 5.497626,43.339197 5.497589,43.339232 5.497555,43.339265 5.497539,43.339297 5.497539,43.339326 5.497544,43.339361 5.497561,43.339396 5.497596,43.339449 5.49764,43.339472 5.497696,43.339489 5.49776,43.339506 5.497808,43.339506 5.49784,43.339497</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="parcelle_13_region.36">
+<styleUrl>#region</styleUrl>	
+	<ExtendedData><SchemaData schemaUrl="#parcelle_13_region">
+		<SimpleData name="Commune">ALLAUCH</SimpleData>
+	</SchemaData></ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.323469 </north>
+			<south> 43.321287 </south>
+			<east> 5.470063 </east>
+			<west> 5.466575 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>50</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.469384,43.323258 5.469466,43.323241 5.469702,43.323181 5.469979,43.32309 5.470063,43.323052 5.470019,43.323028 5.46994,43.323011 5.469647,43.32284 5.469534,43.322743 5.469381,43.322601 5.469243,43.322451 5.469117,43.322297 5.468997,43.322139 5.468882,43.32198 5.468777,43.321815 5.468685,43.321645 5.468605,43.321469 5.468537,43.321287 5.468158,43.32162 5.466575,43.323008 5.466696,43.323065 5.466792,43.323108 5.466907,43.323162 5.46716,43.32327 5.467192,43.323362 5.467514,43.323389 5.467819,43.323423 5.468213,43.32346 5.468312,43.323469 5.468345,43.323462 5.468684,43.323338 5.468935,43.323325 5.46938,43.323242 5.469384,43.323258</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

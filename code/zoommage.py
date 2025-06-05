@@ -20,7 +20,7 @@ def zoom(cheminFichier, option_nom_fichier):
         lignes = iter(lignes)
         lignes_zoomees = []
         index = -1
-        puissance_zoom = 50
+        puissance_zoom = 25
         for ligne in lignes:
             if "</ExtendedData>" in ligne:
                 index = len(lignes_zoomees)

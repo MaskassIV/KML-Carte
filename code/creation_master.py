@@ -2,7 +2,7 @@ import os
 from fichiers import file_name
 
 def creer_master(chemin_fichier, villes_box):
-    puissance_zoom=1000
+    puissance_zoom=1300
     intro = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<kml xmlns=\"http://www.opengis.net/kml/2.2\">\n\t<Document>\n\t\t<name>Master KML - Chargement selon zoom</name>"
     with open(chemin_fichier+"/"+"Master.kml", "w", encoding="utf-8") as p:
         p.writelines(intro)

@@ -50,4 +50,4 @@ def opacite(couleur, pourcentage):
 
 def creer_bloc_style(nomCouleur):
     epaisseur_bordure = 1.5
-    return "\t<Style id=\""+nomCouleur+"\">\n\t\t<LineStyle>\n\t\t\t<color>"+opacite(couleurs_kml[nomCouleur], 100)+"</color>\n\t\t\t<width>"+str(epaisseur_bordure)+"</width>\n\t\t</LineStyle>\n\t\t<PolyStyle>\n\t\t\t<color>"+opacite(couleurs_kml[nomCouleur], 30)+"</color>\n\t\t\t<fill>1</fill>\n\t\t\t<outline>1</outline>\n\t\t</PolyStyle>\n\t</Style>"
+    return "\t<Style id=\""+nomCouleur+"\">\n\t\t<LineStyle>\n\t\t\t<color>"+opacite(couleurs_kml[nomCouleur], 50)+"</color>\n\t\t\t<width>"+str(epaisseur_bordure)+"</width>\n\t\t</LineStyle>\n\t\t<PolyStyle>\n\t\t\t<color>"+opacite(couleurs_kml[nomCouleur], 30)+"</color>\n\t\t\t<fill>1</fill>\n\t\t\t<outline>1</outline>\n\t\t</PolyStyle>\n\t</Style>"

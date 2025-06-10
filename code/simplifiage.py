@@ -8,7 +8,7 @@ def simplifier(cheminFichier, option_nom_fichier):
                 chemin_fichier = os.path.join(cheminFichier, nom_fichier)
                 if os.path.isfile(chemin_fichier):
                     os.remove(chemin_fichier)
-                    print(f"Supprimé : {chemin_fichier}")
+                    print(f"Supprime : {chemin_fichier}")
     option_nom_fichier_bis=option_nom_fichier+"S_"
     for nom_fichier in file_name:
         if  os.path.exists(cheminFichier+option_nom_fichier+"parcelle_13_"+nom_fichier+".kml"):

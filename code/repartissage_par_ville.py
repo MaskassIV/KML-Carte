@@ -2,11 +2,11 @@ import os
 import re
 from fichiers import file_name
 
-def repartir_par_ville(cheminFichier, option_nom_fichier):
+def repartir_par_ville(chemin_fichier, option_nom_fichier):
     villes_box = {}
     for nom_fichier in file_name:
-        if os.path.exists(cheminFichier+option_nom_fichier+"parcelle_13_"+nom_fichier+".kml"):
-            with open(cheminFichier+option_nom_fichier+"parcelle_13_"+nom_fichier+".kml", "r", encoding="utf-8") as f:
+        if os.path.exists(chemin_fichier+option_nom_fichier+"parcelle_13_"+nom_fichier+".kml"):
+            with open(chemin_fichier+option_nom_fichier+"parcelle_13_"+nom_fichier+".kml", "r", encoding="utf-8") as f:
                 lignes = f.readlines()
         else:
             with open(option_nom_fichier+"parcelle_13_"+nom_fichier+".kml", "r", encoding="utf-8") as f:
@@ -16,14 +16,13 @@ def repartir_par_ville(cheminFichier, option_nom_fichier):
         outro = ["</Folder></Document></kml>"]
         villes = {}
         nom_ville=""
-        for ligne in lignes:
-            if not "Placemark" in ligne:
-                intro.append(ligne)
-            else: 
+        for ligne in lignes :
+            if "Placemark" in ligne:
                 break
+            else:
+                intro.append(ligne)
         for ligne in lignes:
                 if "<Placemark" in ligne:
-                    balise=True
                     bloc = []
                     bloc.append(ligne)
                     for ligne_bloc in lignes :
@@ -48,7 +47,7 @@ def repartir_par_ville(cheminFichier, option_nom_fichier):
                         villes[nom_ville].extend(bloc)
         os.makedirs("./modifie/"+nom_fichier, exist_ok=True)
         for ville in villes:
-            with open(cheminFichier+nom_fichier+"/"+nom_fichier+"_"+ville+".kml", "w", encoding="utf-8") as p:
+            with open(chemin_fichier+nom_fichier+"/"+nom_fichier+"_"+ville+".kml", "w", encoding="utf-8") as p:
                 p.writelines(modifier_intro(intro, ville, nom_fichier))
                 for bloc in villes.get(ville):
                     p.writelines(bloc)
@@ -83,7 +82,7 @@ def calculer_box_ville(ligne_bloc, villes_box, nom_ville):
                     villes_box[nom_ville].append(float(match.group(2)))
                 elif villes_box[nom_ville][3] > float(match.group(2)):
                     villes_box[nom_ville][3] = float(match.group(2))
-       
+
 def modifier_intro(intro, ville, nom_fichier):
     lignes_modifiees = []
     for ligne in intro:

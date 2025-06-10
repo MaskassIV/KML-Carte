@@ -2,17 +2,17 @@ import os
 import re
 from fichiers import file_name
 
-def zoom(cheminFichier, option_nom_fichier):
-    for nom_fichier in os.listdir(cheminFichier):
+def zoom(chemin_fichier, option_nom_fichier):
+    for nom_fichier in os.listdir(chemin_fichier):
         if "Z_" in nom_fichier:
-                chemin_fichier = os.path.join(cheminFichier, nom_fichier)
+                chemin_fichier = os.path.join(chemin_fichier, nom_fichier)
                 if os.path.isfile(chemin_fichier):
                     os.remove(chemin_fichier)
                     print(f"Supprimé : {chemin_fichier}")
     option_nom_fichier_bis=option_nom_fichier+"Z_"
     for nom_fichier in file_name:
-        if  os.path.exists(cheminFichier+option_nom_fichier+"parcelle_13_"+nom_fichier+".kml"):
-            with open(cheminFichier+option_nom_fichier+"parcelle_13_"+nom_fichier+".kml", "r", encoding="utf-8") as f:
+        if  os.path.exists(chemin_fichier+option_nom_fichier+"parcelle_13_"+nom_fichier+".kml"):
+            with open(chemin_fichier+option_nom_fichier+"parcelle_13_"+nom_fichier+".kml", "r", encoding="utf-8") as f:
                 lignes = f.readlines()
         else:
             with open(option_nom_fichier+"parcelle_13_"+nom_fichier+".kml", "r", encoding="utf-8") as f:
@@ -20,7 +20,7 @@ def zoom(cheminFichier, option_nom_fichier):
         lignes = iter(lignes)
         lignes_zoomees = []
         index = -1
-        puissance_zoom = 25
+        puissance_zoom = 15
         for ligne in lignes:
             if "</ExtendedData>" in ligne:
                 index = len(lignes_zoomees)
@@ -30,9 +30,9 @@ def zoom(cheminFichier, option_nom_fichier):
                 index=-1
             lignes_zoomees.append(ligne)
 
-        with open(cheminFichier+option_nom_fichier+"parcelle_13_"+nom_fichier+".kml", "w", encoding="utf-8") as p:
+        with open(chemin_fichier+option_nom_fichier+"parcelle_13_"+nom_fichier+".kml", "w", encoding="utf-8") as p:
             p.writelines(lignes_zoomees)
-        os.rename(cheminFichier+option_nom_fichier+"parcelle_13_"+nom_fichier+".kml", cheminFichier+option_nom_fichier_bis+"parcelle_13_"+nom_fichier+".kml")
+        os.rename(chemin_fichier+option_nom_fichier+"parcelle_13_"+nom_fichier+".kml", chemin_fichier+option_nom_fichier_bis+"parcelle_13_"+nom_fichier+".kml")
         print("Zoom termine pour "+nom_fichier)
     return option_nom_fichier_bis
 

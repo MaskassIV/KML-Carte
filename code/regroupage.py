@@ -2,12 +2,12 @@ import os
 from fichiers import file_name
 from suppression_fichier import supprimer_fichier
 
-def regrouper(cheminFichier, option_nom_fichier):
+def regrouper(chemin_fichier, option_nom_fichier):
     option_nom_fichier_bis=option_nom_fichier+"R_"
-    supprimer_fichier(cheminFichier, option_nom_fichier_bis)
+    supprimer_fichier(chemin_fichier, option_nom_fichier_bis)
     for nom_fichier in file_name:
-        if  os.path.exists(cheminFichier+option_nom_fichier+"parcelle_13_"+nom_fichier+".kml"):
-            with open(cheminFichier+option_nom_fichier+"parcelle_13_"+nom_fichier+".kml", "r", encoding="utf-8") as f:
+        if  os.path.exists(chemin_fichier+option_nom_fichier+"parcelle_13_"+nom_fichier+".kml"):
+            with open(chemin_fichier+option_nom_fichier+"parcelle_13_"+nom_fichier+".kml", "r", encoding="utf-8") as f:
                 lignes = f.readlines()
         else:
             with open(option_nom_fichier+"parcelle_13_"+nom_fichier+".kml", "r", encoding="utf-8") as f:
@@ -24,8 +24,8 @@ def regrouper(cheminFichier, option_nom_fichier):
             if "<MultiGeometry" in ligne :
                 lignes_regroupees.append(ligne.replace("<MultiGeometry>", "").replace("</MultiGeometry>", ""))
         lignes_regroupees.append("\t</MultiGeometry>\n</Placemark>\n</Folder>\n</Document></kml>")
-        with open(cheminFichier+option_nom_fichier+"parcelle_13_"+nom_fichier+".kml", "w", encoding="utf-8") as p:
+        with open(chemin_fichier+option_nom_fichier+"parcelle_13_"+nom_fichier+".kml", "w", encoding="utf-8") as p:
             p.writelines(lignes_regroupees)
-        os.rename(cheminFichier+option_nom_fichier+"parcelle_13_"+nom_fichier+".kml", cheminFichier+option_nom_fichier_bis+"parcelle_13_"+nom_fichier+".kml")
+        os.rename(chemin_fichier+option_nom_fichier+"parcelle_13_"+nom_fichier+".kml", chemin_fichier+option_nom_fichier_bis+"parcelle_13_"+nom_fichier+".kml")
         print("Regroupage termine pour "+nom_fichier)
     return option_nom_fichier_bis

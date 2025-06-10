@@ -40,12 +40,12 @@ mots_cles_a_remplacer={"parcelles-des-personnes-morales (3)_adresse": "Adresse",
                       "parcelles-des-personnes-morales (3)_nom_commune":"Commune"
                     }
                  
-def nettoyer(cheminFichier, option_nom_fichier):
+def nettoyer(chemin_fichier, option_nom_fichier):
     option_nom_fichier_bis=option_nom_fichier+"N_"
-    supprimer_fichier(cheminFichier, option_nom_fichier_bis)
+    supprimer_fichier(chemin_fichier, option_nom_fichier_bis)
     for nom_fichier in file_name:
-        if  os.path.exists(cheminFichier+option_nom_fichier+"parcelle_13_"+nom_fichier+".kml"):
-            with open(cheminFichier+option_nom_fichier+"parcelle_13_"+nom_fichier+".kml", "r", encoding="utf-8") as f:
+        if  os.path.exists(chemin_fichier+option_nom_fichier+"parcelle_13_"+nom_fichier+".kml"):
+            with open(chemin_fichier+option_nom_fichier+"parcelle_13_"+nom_fichier+".kml", "r", encoding="utf-8") as f:
                 lignes = f.readlines()
         else:
             with open(option_nom_fichier+"parcelle_13_"+nom_fichier+".kml", "r", encoding="utf-8") as f:
@@ -65,8 +65,8 @@ def nettoyer(cheminFichier, option_nom_fichier):
                         break
                 lignes_nettoyees.append(ligne)
 
-        with open(cheminFichier+option_nom_fichier+"parcelle_13_"+nom_fichier+".kml", "w", encoding="utf-8") as f:
+        with open(chemin_fichier+option_nom_fichier+"parcelle_13_"+nom_fichier+".kml", "w", encoding="utf-8") as f:
             f.writelines(lignes_nettoyees)
-        os.rename(cheminFichier+option_nom_fichier+"parcelle_13_"+nom_fichier+".kml", cheminFichier+option_nom_fichier_bis+"parcelle_13_"+nom_fichier+".kml")
+        os.rename(chemin_fichier+option_nom_fichier+"parcelle_13_"+nom_fichier+".kml", chemin_fichier+option_nom_fichier_bis+"parcelle_13_"+nom_fichier+".kml")
         print("Nettoyage termine pour "+nom_fichier)
     return option_nom_fichier_bis

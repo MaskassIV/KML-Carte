@@ -13,7 +13,7 @@ def creer_master(chemin_fichier, villes_box):
                     liste_fichier[nom_fichiers]=nom_fichiers+"/"+nom_fichiers+"_"+ville+".kml"
             p.writelines("\t<Folder>\n\t\t<name>"+ville+"</name>\n")
             for fichier in liste_fichier:
-                lien ="https://github.com/MaskassIV/KML-Carte/tree/master/"+liste_fichier[fichier].replace(" ", "%20")
+                lien ="https://github.com/MaskassIV/KML-Carte/tree/master/modifie/"+liste_fichier[fichier].replace(" ", "%20")
                 #lien = liste_fichier[fichier]
                 p.writelines("\t\t<NetworkLink>\n\t\t\t<name>"+fichier+"</name>\n\t\t\t<Region>\n\t\t\t\t<LatLonAltBox>\n\t\t\t\t\t<north>"+str(villes_box[ville][0])+"</north>\n\t\t\t\t\t<south>"+str(villes_box[ville][1])+"</south>\n\t\t\t\t\t<east>"+str(villes_box[ville][2])+"</east>\n\t\t\t\t\t<west>"+str(villes_box[ville][3])+"</west>\n\t\t\t\t</LatLonAltBox>\n\t\t\t\t<Lod>\n\t\t\t\t\t<minLodPixels>"+str(puissance_zoom)+"</minLodPixels>\n\t\t\t\t\t<maxLodPixels>-1</maxLodPixels>\n\t\t\t\t</Lod>\n\t\t\t</Region>\n\t\t\t<Link>\n\t\t\t\t<href>"+lien+"</href>\n\t\t\t\t<viewRefreshMode>Never</viewRefreshMode>\n\t\t\t</Link>\n\t\t</NetworkLink>\n")
             p.write("\t\t</Folder>")

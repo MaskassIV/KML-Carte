@@ -27,7 +27,7 @@ def simplifier(cheminFichier, option_nom_fichier):
         with open(cheminFichier+option_nom_fichier+"parcelle_13_"+nom_fichier+".kml", "w", encoding="utf-8") as p:
             p.writelines(lignes_simplifiees)
         os.rename(cheminFichier+option_nom_fichier+"parcelle_13_"+nom_fichier+".kml", cheminFichier+option_nom_fichier_bis+"parcelle_13_"+nom_fichier+".kml")
-        print("Simplification termine pour "+nom_fichier+", i : ")
+        print("Simplification termine pour "+nom_fichier)
     return option_nom_fichier_bis
         
 def arrondir_coordonnees(ligne):

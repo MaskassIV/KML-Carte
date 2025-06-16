@@ -18,7 +18,7 @@ def mise_en_hauteur(chemin_fichier):
 
                     for ligne in lignes :
                         if city == "MARSEILLE 2EME":
-                            altitude = 25
+                            altitude = 30
                         if "<coordinates>" in ligne:
                             ligne=add_altitude_to_coordinates(ligne, altitude)
                         lignes_elevees.append(ligne)

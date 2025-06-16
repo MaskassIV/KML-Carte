@@ -6,6 +6,8 @@ from coloriage import colorier
 from zoommage import zoom
 from repartissage_par_ville import repartir_par_ville
 from creation_master import creer_master
+from suppression_fichier import nettoyage_final
+from altitude import mise_en_hauteur
 
 def main():
     nom_dossier="modifie"
@@ -26,5 +28,8 @@ def main():
     option_nom_fichier=simplifier(chemin_fichier, option_nom_fichier)
     option_nom_fichier=colorier(chemin_fichier, option_nom_fichier)
     option_nom_fichier=zoom(chemin_fichier, option_nom_fichier)
+
     creer_master(chemin_fichier, repartir_par_ville(chemin_fichier, option_nom_fichier))
+    mise_en_hauteur(chemin_fichier)
+    nettoyage_final(chemin_fichier, option_nom_fichier)
 main()

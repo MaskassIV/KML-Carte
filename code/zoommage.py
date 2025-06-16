@@ -3,6 +3,8 @@ import re
 from fichiers import file_name
 
 def zoom(chemin_fichier, option_nom_fichier):
+    print("chemin : "+chemin_fichier)
+    print("option nom fichier : "+option_nom_fichier)
     for nom_fichier in os.listdir(chemin_fichier):
         if "Z_" in nom_fichier:
                 chemin_fichier = os.path.join(chemin_fichier, nom_fichier)
@@ -53,5 +55,5 @@ def calculer_box(ligne):
         return max(latitudes), min(latitudes), max(longitudes), min(longitudes)
         # Ordre : North, South, East, West
     else:
-        print("Pas de position à récupérer")
+        print("Pas de position a recuperer")
         exit()

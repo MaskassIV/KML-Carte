@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="root_doc">
+	<name>parcelle_13_ASSOCIE.kml</name>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+	<Schema name="GRAVESON_ASSOCIE" id="GRAVESON_ASSOCIE">
+		<SimpleField type="string" name="Commune"></SimpleField>
+	</Schema>
+	<Style id="ASSOCIE">
+		<LineStyle>
+			<color>BF02206f</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4C02206f</color>
+			<fill>1</fill>
+			<outline>1</outline>
+		</PolyStyle>
+	</Style>	<Folder>
+		<name>parcelle_13_associe</name>
+		<Placemark id="parcelle_13_associe.11">
+<styleUrl>#ASSOCIE</styleUrl>			<ExtendedData>
+				<SchemaData schemaUrl="#parcelle_13_associe">
+					<SimpleData name="Commune">GRAVESON</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.8837972654862 </north>
+			<south> 43.8831432252491 </south>
+			<east> 4.7749475067591 </east>
+			<west> 4.77295896046311 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+								4.7749475067591,43.8837972654862, 4.77484055535553,43.8836116819649, 4.77471898893393,43.8834003214751, 4.77465081471212,43.8833971991431, 4.7746706119764,43.8833173934761, 4.77456692601421,43.8831447189277, 4.7742200605889,43.8831444164665, 4.77378681669873,43.883143896326, 4.77304691122535,43.8831432252491, 4.77301160171136,43.8833006959449, 4.77343367351418,43.8833261549823, 4.77342682862896,43.8833662331152, 4.7734196440864,43.8834073969539, 4.77340780774104,43.8834751009564, 4.77297689769496,43.8834335825503, 4.77296555296879,43.8834930870931, 4.77295896046311,43.883545313201, 4.7749475067591,43.8837972654862, 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="parcelle_13_associe.12">
+<styleUrl>#ASSOCIE</styleUrl>			<ExtendedData>
+				<SchemaData schemaUrl="#parcelle_13_associe">
+					<SimpleData name="Commune">GRAVESON</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.8834751009564 </north>
+			<south> 43.8833006959449 </south>
+			<east> 4.77343367351418 </east>
+			<west> 4.77297689769496 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+								4.77297689769496,43.8834335825503, 4.77340780774104,43.8834751009564, 4.7734196440864,43.8834073969539, 4.77342682862896,43.8833662331152, 4.77343367351418,43.8833261549823, 4.77301160171136,43.8833006959449, 4.77299177156668,43.8833715002482, 4.77297689769496,43.8834335825503, 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+</Folder></Document></kml>

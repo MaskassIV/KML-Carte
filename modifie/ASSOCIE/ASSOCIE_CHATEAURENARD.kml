@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="root_doc">
+	<name>parcelle_13_ASSOCIE.kml</name>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+	<Schema name="CHATEAURENARD_ASSOCIE" id="CHATEAURENARD_ASSOCIE">
+		<SimpleField type="string" name="Commune"></SimpleField>
+	</Schema>
+	<Style id="ASSOCIE">
+		<LineStyle>
+			<color>BF02206f</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4C02206f</color>
+			<fill>1</fill>
+			<outline>1</outline>
+		</PolyStyle>
+	</Style>	<Folder>
+		<name>parcelle_13_associe</name>
+		<Placemark id="parcelle_13_associe.3">
+<styleUrl>#ASSOCIE</styleUrl>			<ExtendedData>
+				<SchemaData schemaUrl="#parcelle_13_associe">
+					<SimpleData name="Commune">CHATEAURENARD</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 43.8974895216512 </north>
+			<south> 43.8971095911067 </south>
+			<east> 4.87564386019019 </east>
+			<west> 4.87504349489459 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+								4.87562522060347,43.8974895216512, 4.87563619160943,43.8972626652022, 4.87564386019019,43.8971095911067, 4.87552476175975,43.8971107369209, 4.875390546286,43.8971140326764, 4.87529065268367,43.8971161986312, 4.87526210135234,43.8971186694555, 4.8752325425499,43.8971245782997, 4.87520580666074,43.8971330492022, 4.87517766343746,43.8971441548214, 4.87515044728461,43.8971569548722, 4.87513131835655,43.8971696160188, 4.87511574142532,43.8971805057958, 4.87509931393541,43.8971958211108, 4.87508644730996,43.8972096349629, 4.87507273277143,43.8972317451266, 4.87506135528462,43.8972567857795, 4.87505400679313,43.8972794167419, 4.87505237179557,43.8973130219206, 4.87504349489459,43.8974786293641, 4.87562522060347,43.8974895216512, 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+</Folder></Document></kml>

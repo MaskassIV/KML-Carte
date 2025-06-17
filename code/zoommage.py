@@ -22,7 +22,8 @@ def zoom(chemin_fichier, option_nom_fichier):
         lignes = iter(lignes)
         lignes_zoomees = []
         index = -1
-        puissance_zoom = 250
+        puissance_zoom = 150
+        puissance_inverse=300
         for ligne in lignes:
             if "</ExtendedData>" in ligne:
                 index = len(lignes_zoomees)
@@ -31,7 +32,7 @@ def zoom(chemin_fichier, option_nom_fichier):
                     lignes_zoomees.append(ligne)
                     ligne = next(lignes, None)
                 north, south, east, west = calculer_box(ligne)
-                lignes_zoomees.insert(index+1, "\t<Region>\n\t\t<LatLonAltBox>\n\t\t\t<north> "+str(north)+" </north>\n\t\t\t<south> "+str(south)+" </south>\n\t\t\t<east> "+str(east)+" </east>\n\t\t\t<west> "+str(west)+" </west>\n\t\t</LatLonAltBox>\n\t\t<Lod>\n\t\t\t<minLodPixels>"+str(puissance_zoom)+"</minLodPixels>\n\t\t\t<maxLodPixels>-1</maxLodPixels>\n\t\t</Lod>\n\t</Region>\n" )
+                lignes_zoomees.insert(index+1, "\t<Region>\n\t\t<LatLonAltBox>\n\t\t\t<north> "+str(north)+" </north>\n\t\t\t<south> "+str(south)+" </south>\n\t\t\t<east> "+str(east)+" </east>\n\t\t\t<west> "+str(west)+" </west>\n\t\t</LatLonAltBox>\n\t\t<Lod>\n\t\t\t<minLodPixels>"+str(puissance_zoom)+"</minLodPixels>\n\t\t\t<maxLodPixels>"+str(puissance_inverse)+"</maxLodPixels>\n\t\t</Lod>\n\t</Region>\n" )
                 index=-1
             lignes_zoomees.append(ligne)
 

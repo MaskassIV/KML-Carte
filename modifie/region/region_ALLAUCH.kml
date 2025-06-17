@@ -2,7 +2,11 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document id="root_doc">
 <Schema name="ALLAUCH_region" id="ALLAUCH_region">
+	<SimpleField name="Numéro de Parcelle" type="string"></SimpleField>
+	<SimpleField name="Departement" type="string"></SimpleField>
 	<SimpleField name="Commune" type="string"></SimpleField>
+	<SimpleField name="Adresse" type="string"></SimpleField>
+	<SimpleField name="Dénomination" type="string"></SimpleField>
 </Schema>
 	<Style id="region">
 		<LineStyle>
@@ -18,7 +22,11 @@
   <Placemark id="parcelle_13_region.31">
 <styleUrl>#region</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_region">
+		<SimpleData name="Numéro de Parcelle">13002000BE0169</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ALLAUCH</SimpleData>
+		<SimpleData name="Adresse">LA FOLIE</SimpleData>
+		<SimpleData name="Dénomination">ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -28,7 +36,7 @@
 			<west> 5.497539 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -37,7 +45,11 @@
   <Placemark id="parcelle_13_region.36">
 <styleUrl>#region</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_region">
+		<SimpleData name="Numéro de Parcelle">13002000ET0019</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ALLAUCH</SimpleData>
+		<SimpleData name="Adresse">AV DE PROVENCE</SimpleData>
+		<SimpleData name="Dénomination">REGION PROVENCE-ALPES-COTE DAZUR</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -47,7 +59,7 @@
 			<west> 5.466575 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>

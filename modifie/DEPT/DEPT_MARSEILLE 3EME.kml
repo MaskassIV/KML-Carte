@@ -2,7 +2,11 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document id="root_doc">
 <Schema name="MARSEILLE 3EME_DEPT" id="MARSEILLE 3EME_DEPT">
+	<SimpleField name="Numéro de Parcelle" type="string"></SimpleField>
+	<SimpleField name="Departement" type="string"></SimpleField>
 	<SimpleField name="Commune" type="string"></SimpleField>
+	<SimpleField name="Adresse" type="string"></SimpleField>
+	<SimpleField name="Dénomination" type="string"></SimpleField>
 </Schema>
 	<Style id="DEPT">
 		<LineStyle>
@@ -18,7 +22,11 @@
   <Placemark id="parcelle_13_dept.7820">
 <styleUrl>#DEPT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
+		<SimpleData name="Numéro de Parcelle">132038140A0175</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">184, BD DE PARIS</SimpleData>
+		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -28,7 +36,7 @@
 			<west> 5.368242 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -36,7 +44,11 @@
   <Placemark id="parcelle_13_dept.7881">
 <styleUrl>#DEPT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
+		<SimpleData name="Numéro de Parcelle">132038110D0253</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">TRA SERY</SimpleData>
+		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -46,7 +58,7 @@
 			<west> 5.387014 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -54,7 +66,11 @@
   <Placemark id="parcelle_13_dept.7970">
 <styleUrl>#DEPT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
+		<SimpleData name="Numéro de Parcelle">132038140C0043</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">RUE DE VERSAILLES</SimpleData>
+		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -64,7 +80,7 @@
 			<west> 5.374629 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -72,7 +88,11 @@
   <Placemark id="parcelle_13_dept.7978">
 <styleUrl>#DEPT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
+		<SimpleData name="Numéro de Parcelle">132038140A0045</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">108, RUE PEYSSONNEL</SimpleData>
+		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -82,7 +102,7 @@
 			<west> 5.369848 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -90,7 +110,11 @@
   <Placemark id="parcelle_13_dept.7984">
 <styleUrl>#DEPT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
+		<SimpleData name="Numéro de Parcelle">132038140A0046</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">98, RUE PEYSSONNEL</SimpleData>
+		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -100,7 +124,7 @@
 			<west> 5.370249 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -108,7 +132,11 @@
   <Placemark id="parcelle_13_dept.7987">
 <styleUrl>#DEPT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
+		<SimpleData name="Numéro de Parcelle">132038140C0046</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">4, RUE DE VERSAILLES</SimpleData>
+		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -118,7 +146,7 @@
 			<west> 5.375273 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -126,7 +154,11 @@
   <Placemark id="parcelle_13_dept.7990">
 <styleUrl>#DEPT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
+		<SimpleData name="Numéro de Parcelle">132038140A0047</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">RUE DE RUFFI</SimpleData>
+		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -136,7 +168,7 @@
 			<west> 5.37028 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -144,7 +176,11 @@
   <Placemark id="parcelle_13_dept.8046">
 <styleUrl>#DEPT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
+		<SimpleData name="Numéro de Parcelle">132038140A0071</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">158, BD DE PARIS</SimpleData>
+		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -154,7 +190,7 @@
 			<west> 5.368972 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -162,7 +198,11 @@
   <Placemark id="parcelle_13_dept.8049">
 <styleUrl>#DEPT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
+		<SimpleData name="Numéro de Parcelle">132038140A0072</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">158, BD DE PARIS</SimpleData>
+		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -172,7 +212,7 @@
 			<west> 5.369042 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>

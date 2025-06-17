@@ -2,7 +2,11 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document id="root_doc">
 <Schema name="LA ROQUE D'ANTHERON_DEPT" id="LA ROQUE D'ANTHERON_DEPT">
+	<SimpleField name="Numéro de Parcelle" type="string"></SimpleField>
+	<SimpleField name="Departement" type="string"></SimpleField>
 	<SimpleField name="Commune" type="string"></SimpleField>
+	<SimpleField name="Adresse" type="string"></SimpleField>
+	<SimpleField name="Dénomination" type="string"></SimpleField>
 </Schema>
 	<Style id="DEPT">
 		<LineStyle>
@@ -18,7 +22,11 @@
   <Placemark id="parcelle_13_dept.653">
 <styleUrl>#DEPT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
+		<SimpleData name="Numéro de Parcelle">130840000D1014</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">LA ROQUE D'ANTHERON</SimpleData>
+		<SimpleData name="Adresse">LA BASSE PLAINE</SimpleData>
+		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -28,7 +36,7 @@
 			<west> 5.273589 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -37,7 +45,11 @@
   <Placemark id="parcelle_13_dept.660">
 <styleUrl>#DEPT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
+		<SimpleData name="Numéro de Parcelle">13084000AE0102</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">LA ROQUE D'ANTHERON</SimpleData>
+		<SimpleData name="Adresse">AV DE SILVACANNE</SimpleData>
+		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -47,7 +59,7 @@
 			<west> 5.319825 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -56,7 +68,11 @@
   <Placemark id="parcelle_13_dept.906">
 <styleUrl>#DEPT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
+		<SimpleData name="Numéro de Parcelle">13084000AE0011</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">LA ROQUE D'ANTHERON</SimpleData>
+		<SimpleData name="Adresse">AV DE SILVACANNE</SimpleData>
+		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -66,7 +82,7 @@
 			<west> 5.322195 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -75,7 +91,11 @@
   <Placemark id="parcelle_13_dept.2788">
 <styleUrl>#DEPT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
+		<SimpleData name="Numéro de Parcelle">13084000AK0181</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">LA ROQUE D'ANTHERON</SimpleData>
+		<SimpleData name="Adresse">BD DE LA PAIX</SimpleData>
+		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -85,7 +105,7 @@
 			<west> 5.309633 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -94,7 +114,11 @@
   <Placemark id="parcelle_13_dept.3260">
 <styleUrl>#DEPT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
+		<SimpleData name="Numéro de Parcelle">130840000A2039</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">LA ROQUE D'ANTHERON</SimpleData>
+		<SimpleData name="Adresse">PRISE DE GONTARD</SimpleData>
+		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -104,7 +128,7 @@
 			<west> 5.344613 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -113,7 +137,11 @@
   <Placemark id="parcelle_13_dept.3381">
 <styleUrl>#DEPT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
+		<SimpleData name="Numéro de Parcelle">13084000AS0212</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">LA ROQUE D'ANTHERON</SimpleData>
+		<SimpleData name="Adresse">RUE DU BOIS JOLI</SimpleData>
+		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -123,7 +151,7 @@
 			<west> 5.300411 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -132,7 +160,11 @@
   <Placemark id="parcelle_13_dept.3816">
 <styleUrl>#DEPT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
+		<SimpleData name="Numéro de Parcelle">130840000C2417</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">LA ROQUE D'ANTHERON</SimpleData>
+		<SimpleData name="Adresse">SAINTE ANNE</SimpleData>
+		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -142,7 +174,7 @@
 			<west> 5.276541 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -151,7 +183,11 @@
   <Placemark id="parcelle_13_dept.4847">
 <styleUrl>#DEPT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
+		<SimpleData name="Numéro de Parcelle">13084000AR0034</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">LA ROQUE D'ANTHERON</SimpleData>
+		<SimpleData name="Adresse">AV STE ANNE DE GOIRON</SimpleData>
+		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -161,7 +197,7 @@
 			<west> 5.296467 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -170,7 +206,11 @@
   <Placemark id="parcelle_13_dept.5419">
 <styleUrl>#DEPT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
+		<SimpleData name="Numéro de Parcelle">13084000AR0042</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">LA ROQUE D'ANTHERON</SimpleData>
+		<SimpleData name="Adresse">LES TRISSONNES</SimpleData>
+		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -180,7 +220,7 @@
 			<west> 5.298222 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -189,7 +229,11 @@
   <Placemark id="parcelle_13_dept.5694">
 <styleUrl>#DEPT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
+		<SimpleData name="Numéro de Parcelle">13084000AR0046</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">LA ROQUE D'ANTHERON</SimpleData>
+		<SimpleData name="Adresse">LES TRISSONNES</SimpleData>
+		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -199,7 +243,7 @@
 			<west> 5.299327 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -208,7 +252,11 @@
   <Placemark id="parcelle_13_dept.5829">
 <styleUrl>#DEPT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
+		<SimpleData name="Numéro de Parcelle">13084000AD0049</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">LA ROQUE D'ANTHERON</SimpleData>
+		<SimpleData name="Adresse">SILVACANNE</SimpleData>
+		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -218,7 +266,7 @@
 			<west> 5.332477 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -227,7 +275,11 @@
   <Placemark id="parcelle_13_dept.6386">
 <styleUrl>#DEPT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
+		<SimpleData name="Numéro de Parcelle">13084000AD0062</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">LA ROQUE D'ANTHERON</SimpleData>
+		<SimpleData name="Adresse">SILVACANNE</SimpleData>
+		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -237,7 +289,7 @@
 			<west> 5.337116 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -246,7 +298,11 @@
   <Placemark id="parcelle_13_dept.7455">
 <styleUrl>#DEPT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
+		<SimpleData name="Numéro de Parcelle">130840000C0908</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">LA ROQUE D'ANTHERON</SimpleData>
+		<SimpleData name="Adresse">LES PLAINES</SimpleData>
+		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -256,7 +312,7 @@
 			<west> 5.275374 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -265,7 +321,11 @@
   <Placemark id="parcelle_13_dept.7528">
 <styleUrl>#DEPT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
+		<SimpleData name="Numéro de Parcelle">130840000B0935</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">LA ROQUE D'ANTHERON</SimpleData>
+		<SimpleData name="Adresse">GONTARD</SimpleData>
+		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -275,7 +335,7 @@
 			<west> 5.343549 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -284,7 +344,11 @@
   <Placemark id="parcelle_13_dept.7590">
 <styleUrl>#DEPT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
+		<SimpleData name="Numéro de Parcelle">13084000AB0096</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">LA ROQUE D'ANTHERON</SimpleData>
+		<SimpleData name="Adresse">BELLE ESPERE NORD</SimpleData>
+		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -294,7 +358,7 @@
 			<west> 5.287244 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>

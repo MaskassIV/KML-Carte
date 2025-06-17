@@ -2,7 +2,11 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document id="root_doc">
 <Schema name="MARSEILLE 16EME_DEPT" id="MARSEILLE 16EME_DEPT">
+	<SimpleField name="Numéro de Parcelle" type="string"></SimpleField>
+	<SimpleField name="Departement" type="string"></SimpleField>
 	<SimpleField name="Commune" type="string"></SimpleField>
+	<SimpleField name="Adresse" type="string"></SimpleField>
+	<SimpleField name="Dénomination" type="string"></SimpleField>
 </Schema>
 	<Style id="DEPT">
 		<LineStyle>
@@ -18,7 +22,11 @@
   <Placemark id="parcelle_13_dept.34">
 <styleUrl>#DEPT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
+		<SimpleData name="Numéro de Parcelle">132169100O0113</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 16EME</SimpleData>
+		<SimpleData name="Adresse">AV ANDRE ROUSSIN</SimpleData>
+		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -28,7 +36,7 @@
 			<west> 5.338927 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -36,7 +44,11 @@
   <Placemark id="parcelle_13_dept.7706">
 <styleUrl>#DEPT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
+		<SimpleData name="Numéro de Parcelle">132169100B0157</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 16EME</SimpleData>
+		<SimpleData name="Adresse">BD HENRI BARNIER</SimpleData>
+		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -46,7 +58,7 @@
 			<west> 5.343002 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -54,7 +66,11 @@
   <Placemark id="parcelle_13_dept.7742">
 <styleUrl>#DEPT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
+		<SimpleData name="Numéro de Parcelle">132169100O0115</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 16EME</SimpleData>
+		<SimpleData name="Adresse">AV ANDRE ROUSSIN</SimpleData>
+		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -64,7 +80,7 @@
 			<west> 5.339097 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -72,7 +88,11 @@
   <Placemark id="parcelle_13_dept.7769">
 <styleUrl>#DEPT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
+		<SimpleData name="Numéro de Parcelle">132169080N0131</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 16EME</SimpleData>
+		<SimpleData name="Adresse">MTE ANTOINE CASTEJON</SimpleData>
+		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -82,7 +102,7 @@
 			<west> 5.306625 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -90,7 +110,11 @@
   <Placemark id="parcelle_13_dept.7786">
 <styleUrl>#DEPT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
+		<SimpleData name="Numéro de Parcelle">132169100N0143</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 16EME</SimpleData>
+		<SimpleData name="Adresse">BD HENRI BARNIER</SimpleData>
+		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -100,7 +124,7 @@
 			<west> 5.342299 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -108,7 +132,11 @@
   <Placemark id="parcelle_13_dept.7787">
 <styleUrl>#DEPT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
+		<SimpleData name="Numéro de Parcelle">132169100N0145</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 16EME</SimpleData>
+		<SimpleData name="Adresse">BD HENRI BARNIER</SimpleData>
+		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -118,7 +146,7 @@
 			<west> 5.342062 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -126,7 +154,11 @@
   <Placemark id="parcelle_13_dept.7798">
 <styleUrl>#DEPT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
+		<SimpleData name="Numéro de Parcelle">132169100B0151</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 16EME</SimpleData>
+		<SimpleData name="Adresse">396, BD HENRI BARNIER</SimpleData>
+		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -136,7 +168,7 @@
 			<west> 5.341714 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -144,7 +176,11 @@
   <Placemark id="parcelle_13_dept.7799">
 <styleUrl>#DEPT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
+		<SimpleData name="Numéro de Parcelle">132169100B0153</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 16EME</SimpleData>
+		<SimpleData name="Adresse">398, BD HENRI BARNIER</SimpleData>
+		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -154,7 +190,7 @@
 			<west> 5.342272 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -162,7 +198,11 @@
   <Placemark id="parcelle_13_dept.7800">
 <styleUrl>#DEPT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
+		<SimpleData name="Numéro de Parcelle">132169100B0155</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 16EME</SimpleData>
+		<SimpleData name="Adresse">BD HENRI BARNIER</SimpleData>
+		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -172,7 +212,7 @@
 			<west> 5.342747 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -180,7 +220,11 @@
   <Placemark id="parcelle_13_dept.7826">
 <styleUrl>#DEPT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
+		<SimpleData name="Numéro de Parcelle">132169100C0185</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 16EME</SimpleData>
+		<SimpleData name="Adresse">IMP LOUIS FOUCARD</SimpleData>
+		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -190,7 +234,7 @@
 			<west> 5.349885 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -198,7 +242,11 @@
   <Placemark id="parcelle_13_dept.7963">
 <styleUrl>#DEPT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
+		<SimpleData name="Numéro de Parcelle">132169100A0042</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 16EME</SimpleData>
+		<SimpleData name="Adresse">269, BD HENRI BARNIER</SimpleData>
+		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -208,7 +256,7 @@
 			<west> 5.3425 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -216,7 +264,11 @@
   <Placemark id="parcelle_13_dept.8019">
 <styleUrl>#DEPT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
+		<SimpleData name="Numéro de Parcelle">132169100O0061</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 16EME</SimpleData>
+		<SimpleData name="Adresse">118, CHE DU PASSET</SimpleData>
+		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -226,7 +278,7 @@
 			<west> 5.339879 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -234,7 +286,11 @@
   <Placemark id="parcelle_13_dept.8073">
 <styleUrl>#DEPT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
+		<SimpleData name="Numéro de Parcelle">132169100O0081</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 16EME</SimpleData>
+		<SimpleData name="Adresse">18, BD DU GRAND CAMP</SimpleData>
+		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -244,7 +300,7 @@
 			<west> 5.339527 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -252,7 +308,11 @@
   <Placemark id="parcelle_13_dept.8116">
 <styleUrl>#DEPT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
+		<SimpleData name="Numéro de Parcelle">132169110D0094</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 16EME</SimpleData>
+		<SimpleData name="Adresse">AV ANDRE ROUSSIN</SimpleData>
+		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -262,7 +322,7 @@
 			<west> 5.337589 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -270,7 +330,11 @@
   <Placemark id="parcelle_13_dept.8124">
 <styleUrl>#DEPT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
+		<SimpleData name="Numéro de Parcelle">132169100I0098</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 16EME</SimpleData>
+		<SimpleData name="Adresse">105, BD JEAN LABRO</SimpleData>
+		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -280,7 +344,7 @@
 			<west> 5.337733 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>

@@ -2,7 +2,11 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document id="root_doc">
 <Schema name="MARSEILLE 3EME_HLM" id="MARSEILLE 3EME_HLM">
+	<SimpleField name="Numéro de Parcelle" type="string"></SimpleField>
+	<SimpleField name="Departement" type="string"></SimpleField>
 	<SimpleField name="Commune" type="string"></SimpleField>
+	<SimpleField name="Adresse" type="string"></SimpleField>
+	<SimpleField name="Dénomination" type="string"></SimpleField>
 </Schema>
 	<Style id="HLM">
 		<LineStyle>
@@ -18,7 +22,11 @@
   <Placemark id="parcelle_13_hlm.9">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038120H0107</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">RUE LUCIEN ROLMER</SimpleData>
+		<SimpleData name="Dénomination">HABITAT MARSEILLE PROVENCE AIX-MARSEILLE PROVENCE METROPOLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -28,7 +36,7 @@
 			<west> 5.375715 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -36,7 +44,11 @@
   <Placemark id="parcelle_13_hlm.31">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038110L0128</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">28, RUE LOUBON</SimpleData>
+		<SimpleData name="Dénomination">3F SUD SOCIETE ANONYME DHABITATIONS A LOYER MODERE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -46,7 +58,7 @@
 			<west> 5.379832 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -54,7 +66,11 @@
   <Placemark id="parcelle_13_hlm.132">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038130E0271</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">91, BD DE PLOMBIERES</SimpleData>
+		<SimpleData name="Dénomination">CDC HABITAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -64,7 +80,7 @@
 			<west> 5.381745 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -72,7 +88,11 @@
   <Placemark id="parcelle_13_hlm.245">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038130C0088</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">23, BD CHARPENTIER</SimpleData>
+		<SimpleData name="Dénomination">CDC HABITAT SOCIAL SOCIETE ANONYME DHABITATIONS A LOYER MOD</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -82,7 +102,7 @@
 			<west> 5.376006 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -90,7 +110,11 @@
   <Placemark id="parcelle_13_hlm.281">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038120H0109</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">RUE LUCIEN ROLMER</SimpleData>
+		<SimpleData name="Dénomination">HABITAT MARSEILLE PROVENCE AIX-MARSEILLE PROVENCE METROPOLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -100,7 +124,7 @@
 			<west> 5.375519 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -108,7 +132,11 @@
   <Placemark id="parcelle_13_hlm.5836">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038120A0301</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">RUE HOCHE</SimpleData>
+		<SimpleData name="Dénomination">LOGIS MEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -118,7 +146,7 @@
 			<west> 5.375215 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -126,7 +154,11 @@
   <Placemark id="parcelle_13_hlm.5843">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038120A0001</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">120, AV CAMILLE PELLETAN</SimpleData>
+		<SimpleData name="Dénomination">ICF SUD EST MEDITERRANEE SA D HLM</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -136,7 +168,7 @@
 			<west> 5.37442 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -144,7 +176,11 @@
   <Placemark id="parcelle_13_hlm.5849">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038110M0001</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">30, RUE CAUSSEMILLE</SimpleData>
+		<SimpleData name="Dénomination">UNICIL SOCIETE ANONYME DHABITATION A LOYER MODERE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -154,7 +190,7 @@
 			<west> 5.383884 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -162,7 +198,11 @@
   <Placemark id="parcelle_13_hlm.5850">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038140C0010</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">8, AV ROGER SALENGRO</SimpleData>
+		<SimpleData name="Dénomination">LOGIS MEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -172,7 +212,7 @@
 			<west> 5.374002 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -180,7 +220,11 @@
   <Placemark id="parcelle_13_hlm.5864">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038140B0102</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">68, TSSE MOULIN DE LA VILLETTE</SimpleData>
+		<SimpleData name="Dénomination">LOGEMENT ET GESTION IMMOBILIERE POUR LA REGION MEDITERRANEEN</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -190,7 +234,7 @@
 			<west> 5.372444 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -198,7 +242,11 @@
   <Placemark id="parcelle_13_hlm.5870">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038140B0103</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">TSSE MOULIN DE LA VILLETTE</SimpleData>
+		<SimpleData name="Dénomination">LOGEMENT ET GESTION IMMOBILIERE POUR LA REGION MEDITERRANEEN</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -208,7 +256,7 @@
 			<west> 5.372398 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -216,7 +264,11 @@
   <Placemark id="parcelle_13_hlm.5904">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038130I0107</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">18, RUE JOUVEN</SimpleData>
+		<SimpleData name="Dénomination">UNICIL SOCIETE ANONYME DHABITATION A LOYER MODERE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -226,7 +278,7 @@
 			<west> 5.375083 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -234,7 +286,11 @@
   <Placemark id="parcelle_13_hlm.5910">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038130I0108</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">342, BD NATIONAL</SimpleData>
+		<SimpleData name="Dénomination">13 HABITAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -244,7 +300,7 @@
 			<west> 5.374965 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -252,7 +308,11 @@
   <Placemark id="parcelle_13_hlm.5912">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038120C0109</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">53, RUE DE CRIMEE</SimpleData>
+		<SimpleData name="Dénomination">HABITAT MARSEILLE PROVENCE AIX-MARSEILLE PROVENCE METROPOLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -262,7 +322,7 @@
 			<west> 5.380795 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -270,7 +330,11 @@
   <Placemark id="parcelle_13_hlm.5913">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038130E0109</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">42, RUE TOUSSAINT</SimpleData>
+		<SimpleData name="Dénomination">UNICIL SOCIETE ANONYME DHABITATION A LOYER MODERE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -280,7 +344,7 @@
 			<west> 5.382632 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -288,7 +352,11 @@
   <Placemark id="parcelle_13_hlm.5917">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038130I0109</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">11, RUE JOUVEN</SimpleData>
+		<SimpleData name="Dénomination">13 HABITAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -298,7 +366,7 @@
 			<west> 5.375133 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -306,7 +374,11 @@
   <Placemark id="parcelle_13_hlm.5922">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038120B0011</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">134, RUE DE CRIMEE</SimpleData>
+		<SimpleData name="Dénomination">LOGEMENT ET GESTION IMMOBILIERE POUR LA REGION MEDITERRANEEN</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -316,7 +388,7 @@
 			<west> 5.378592 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -324,7 +396,11 @@
   <Placemark id="parcelle_13_hlm.5927">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038120C0110</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">57, RUE DE CRIMEE</SimpleData>
+		<SimpleData name="Dénomination">HABITAT MARSEILLE PROVENCE AIX-MARSEILLE PROVENCE METROPOLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -334,7 +410,7 @@
 			<west> 5.380753 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -342,7 +418,11 @@
   <Placemark id="parcelle_13_hlm.5928">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038120H0110</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">RUE DU RACATI</SimpleData>
+		<SimpleData name="Dénomination">HABITAT MARSEILLE PROVENCE AIX-MARSEILLE PROVENCE METROPOLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -352,7 +432,7 @@
 			<west> 5.375506 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -360,7 +440,11 @@
   <Placemark id="parcelle_13_hlm.5943">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038120H0112</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">RUE DU RACATI</SimpleData>
+		<SimpleData name="Dénomination">HABITAT MARSEILLE PROVENCE AIX-MARSEILLE PROVENCE METROPOLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -370,7 +454,7 @@
 			<west> 5.375452 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -378,7 +462,11 @@
   <Placemark id="parcelle_13_hlm.5950">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038120H0113</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">RUE LUCIEN ROLMER</SimpleData>
+		<SimpleData name="Dénomination">HABITAT MARSEILLE PROVENCE AIX-MARSEILLE PROVENCE METROPOLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -388,7 +476,7 @@
 			<west> 5.375521 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -396,7 +484,11 @@
   <Placemark id="parcelle_13_hlm.5957">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038110H0114</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">12, BD DE LA THESE</SimpleData>
+		<SimpleData name="Dénomination">GRAND DELTA HABITAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -406,7 +498,7 @@
 			<west> 5.383956 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -414,7 +506,11 @@
   <Placemark id="parcelle_13_hlm.5961">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038110H0115</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">12, BD DE LA THESE</SimpleData>
+		<SimpleData name="Dénomination">GRAND DELTA HABITAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -424,7 +520,7 @@
 			<west> 5.384243 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -432,7 +528,11 @@
   <Placemark id="parcelle_13_hlm.5962">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038120I0115</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">18, PL MARCEAU</SimpleData>
+		<SimpleData name="Dénomination">HABITAT MARSEILLE PROVENCE AIX-MARSEILLE PROVENCE METROPOLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -442,7 +542,7 @@
 			<west> 5.373345 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -450,7 +550,11 @@
   <Placemark id="parcelle_13_hlm.5963">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038130I0115</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">71, RUE FELIX PYAT</SimpleData>
+		<SimpleData name="Dénomination">HLM LE NOUVEAU LOGIS PROVENCAL</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -460,7 +564,7 @@
 			<west> 5.374969 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -468,7 +572,11 @@
   <Placemark id="parcelle_13_hlm.5978">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038130I0117</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">73, RUE FELIX PYAT</SimpleData>
+		<SimpleData name="Dénomination">HLM LE NOUVEAU LOGIS PROVENCAL</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -478,7 +586,7 @@
 			<west> 5.374889 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -486,7 +594,11 @@
   <Placemark id="parcelle_13_hlm.5980">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038110L0117</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">73, RUE JEAN CRISTOFOL</SimpleData>
+		<SimpleData name="Dénomination">13 HABITAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -496,7 +608,7 @@
 			<west> 5.383196 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -504,7 +616,11 @@
   <Placemark id="parcelle_13_hlm.5981">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038110M0117</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">52, RUE CLOVIS HUGUES</SimpleData>
+		<SimpleData name="Dénomination">13 HABITAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -514,7 +630,7 @@
 			<west> 5.385357 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -522,7 +638,11 @@
   <Placemark id="parcelle_13_hlm.5997">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038130I0119</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">75, RUE FELIX PYAT</SimpleData>
+		<SimpleData name="Dénomination">HLM LE NOUVEAU LOGIS PROVENCAL</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -532,7 +652,7 @@
 			<west> 5.374769 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -540,7 +660,11 @@
   <Placemark id="parcelle_13_hlm.6000">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038120B0012</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">203, BD NATIONAL</SimpleData>
+		<SimpleData name="Dénomination">LOGEMENT ET GESTION IMMOBILIERE POUR LA REGION MEDITERRANEEN</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -550,7 +674,7 @@
 			<west> 5.379454 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -558,7 +682,11 @@
   <Placemark id="parcelle_13_hlm.6002">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038140C0012</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">4, AV ROGER SALENGRO</SimpleData>
+		<SimpleData name="Dénomination">LOGIS MEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -568,7 +696,7 @@
 			<west> 5.374071 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -576,7 +704,11 @@
   <Placemark id="parcelle_13_hlm.6031">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038130I0122</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">RUE JULLIEN</SimpleData>
+		<SimpleData name="Dénomination">HLM LE NOUVEAU LOGIS PROVENCAL</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -586,7 +718,7 @@
 			<west> 5.374706 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -594,7 +726,11 @@
   <Placemark id="parcelle_13_hlm.6036">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038130I0123</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">69, RUE FELIX PYAT</SimpleData>
+		<SimpleData name="Dénomination">HLM LE NOUVEAU LOGIS PROVENCAL</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -604,7 +740,7 @@
 			<west> 5.374765 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -612,7 +748,11 @@
   <Placemark id="parcelle_13_hlm.6038">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038130L0123</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">16, RUE AUPHAN</SimpleData>
+		<SimpleData name="Dénomination">13 HABITAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -622,7 +762,7 @@
 			<west> 5.3753 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -630,7 +770,11 @@
   <Placemark id="parcelle_13_hlm.6052">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038130K0125</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">11, RUE GAUTIER</SimpleData>
+		<SimpleData name="Dénomination">ERILIA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -640,7 +784,7 @@
 			<west> 5.377896 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -648,7 +792,11 @@
   <Placemark id="parcelle_13_hlm.6076">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038130C0129</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">RUE OCTAVE TEISSIER</SimpleData>
+		<SimpleData name="Dénomination">3F SUD SOCIETE ANONYME DHABITATIONS A LOYER MODERE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -658,7 +806,7 @@
 			<west> 5.376255 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -666,7 +814,11 @@
   <Placemark id="parcelle_13_hlm.6083">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038140B0013</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">54, TSSE MOULIN DE LA VILLETTE</SimpleData>
+		<SimpleData name="Dénomination">VILOGIA SOCIETE ANONYME DHLM</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -676,7 +828,7 @@
 			<west> 5.373268 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -684,7 +836,11 @@
   <Placemark id="parcelle_13_hlm.6096">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038110L0131</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">1, IMP DELPECH</SimpleData>
+		<SimpleData name="Dénomination">3F SUD SOCIETE ANONYME DHABITATIONS A LOYER MODERE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -694,7 +850,7 @@
 			<west> 5.378682 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -702,7 +858,11 @@
   <Placemark id="parcelle_13_hlm.6146">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038140B0142</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">80, RUE ANDRE CHAMSON</SimpleData>
+		<SimpleData name="Dénomination">HABITAT MARSEILLE PROVENCE AIX-MARSEILLE PROVENCE METROPOLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -712,7 +872,7 @@
 			<west> 5.372198 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -720,7 +880,11 @@
   <Placemark id="parcelle_13_hlm.6153">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038140C0143</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">AV ROGER SALENGRO</SimpleData>
+		<SimpleData name="Dénomination">LOGIS MEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -730,7 +894,7 @@
 			<west> 5.374201 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -738,7 +902,11 @@
   <Placemark id="parcelle_13_hlm.6187">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038120A0016</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">6, RUE HOCHE</SimpleData>
+		<SimpleData name="Dénomination">13 HABITAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -748,7 +916,7 @@
 			<west> 5.374722 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -756,7 +924,11 @@
   <Placemark id="parcelle_13_hlm.6216">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038130H0154</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">29, RUE DANTON</SimpleData>
+		<SimpleData name="Dénomination">LOGEMENT ET GESTION IMMOBILIERE POUR LA REGION MEDITERRANEEN</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -766,7 +938,7 @@
 			<west> 5.380524 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -774,7 +946,11 @@
   <Placemark id="parcelle_13_hlm.6257">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038130E0016</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">63, RUE FRANCOIS BARBINI</SimpleData>
+		<SimpleData name="Dénomination">HABITAT MARSEILLE PROVENCE AIX-MARSEILLE PROVENCE METROPOLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -784,7 +960,7 @@
 			<west> 5.379949 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -792,7 +968,11 @@
   <Placemark id="parcelle_13_hlm.6274">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038120A0163</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">171, RUE DE CRIMEE</SimpleData>
+		<SimpleData name="Dénomination">UNICIL SOCIETE ANONYME DHABITATION A LOYER MODERE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -802,7 +982,7 @@
 			<west> 5.377048 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -810,7 +990,11 @@
   <Placemark id="parcelle_13_hlm.6277">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038110D0163</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">51, RUE BERNARD</SimpleData>
+		<SimpleData name="Dénomination">13 HABITAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -820,7 +1004,7 @@
 			<west> 5.387508 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -828,7 +1012,11 @@
   <Placemark id="parcelle_13_hlm.6319">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038110K0169</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">13, RUE BELLE DE MAI</SimpleData>
+		<SimpleData name="Dénomination">MARSEILLE HABITAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -838,7 +1026,7 @@
 			<west> 5.381552 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -846,7 +1034,11 @@
   <Placemark id="parcelle_13_hlm.6344">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038130K0174</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">2, RUE DES BONS VOISINS</SimpleData>
+		<SimpleData name="Dénomination">CDC HABITAT SOCIAL SOCIETE ANONYME DHABITATIONS A LOYER MOD</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -856,7 +1048,7 @@
 			<west> 5.376135 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -864,7 +1056,11 @@
   <Placemark id="parcelle_13_hlm.6349">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038130K0175</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">18, RUE GAILLARD</SimpleData>
+		<SimpleData name="Dénomination">CDC HABITAT SOCIAL SOCIETE ANONYME DHABITATIONS A LOYER MOD</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -874,7 +1070,7 @@
 			<west> 5.376132 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -882,7 +1078,11 @@
   <Placemark id="parcelle_13_hlm.6350">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038110M0175</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">19, RUE ROGER SCHIAFFINI</SimpleData>
+		<SimpleData name="Dénomination">LOGEMENT ET GESTION IMMOBILIERE POUR LA REGION MEDITERRANEEN</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -892,7 +1092,7 @@
 			<west> 5.38532 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -900,7 +1100,11 @@
   <Placemark id="parcelle_13_hlm.6355">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038130K0176</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">24, RUE GAILLARD</SimpleData>
+		<SimpleData name="Dénomination">CDC HABITAT SOCIAL SOCIETE ANONYME DHABITATIONS A LOYER MOD</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -910,7 +1114,7 @@
 			<west> 5.376239 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -918,7 +1122,11 @@
   <Placemark id="parcelle_13_hlm.6360">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038130K0177</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">42, AV EDOUARD VAILLANT</SimpleData>
+		<SimpleData name="Dénomination">13 HABITAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -928,7 +1136,7 @@
 			<west> 5.378841 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -936,7 +1144,11 @@
   <Placemark id="parcelle_13_hlm.6361">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038130K0178</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">44, AV EDOUARD VAILLANT</SimpleData>
+		<SimpleData name="Dénomination">13 HABITAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -946,7 +1158,7 @@
 			<west> 5.379276 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -954,7 +1166,11 @@
   <Placemark id="parcelle_13_hlm.6370">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038120H0018</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">19, RUE LUCIEN ROLMER</SimpleData>
+		<SimpleData name="Dénomination">HABITAT MARSEILLE PROVENCE AIX-MARSEILLE PROVENCE METROPOLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -964,7 +1180,7 @@
 			<west> 5.375945 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -972,7 +1188,11 @@
   <Placemark id="parcelle_13_hlm.6373">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038130N0018</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">150, AV ROGER SALENGRO</SimpleData>
+		<SimpleData name="Dénomination">13 HABITAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -982,7 +1202,7 @@
 			<west> 5.369515 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -990,7 +1210,11 @@
   <Placemark id="parcelle_13_hlm.6376">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038130E0180</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">51, RUE FRANCOIS BARBINI</SimpleData>
+		<SimpleData name="Dénomination">ERILIA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1000,7 +1224,7 @@
 			<west> 5.380725 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1008,7 +1232,11 @@
   <Placemark id="parcelle_13_hlm.6398">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038130E0187</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">30, RUE DANTON</SimpleData>
+		<SimpleData name="Dénomination">ERILIA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1018,7 +1246,7 @@
 			<west> 5.38063 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1026,7 +1254,11 @@
   <Placemark id="parcelle_13_hlm.6414">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038140D0019</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">157, AV CAMILLE PELLETAN</SimpleData>
+		<SimpleData name="Dénomination">13 HABITAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1036,7 +1268,7 @@
 			<west> 5.373578 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1044,7 +1276,11 @@
   <Placemark id="parcelle_13_hlm.6416">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038120H0019</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">15, RUE LUCIEN ROLMER</SimpleData>
+		<SimpleData name="Dénomination">HABITAT MARSEILLE PROVENCE AIX-MARSEILLE PROVENCE METROPOLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1054,7 +1290,7 @@
 			<west> 5.375619 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1062,7 +1298,11 @@
   <Placemark id="parcelle_13_hlm.6437">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038120A0194</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">55, BD DE STRASBOURG</SimpleData>
+		<SimpleData name="Dénomination">ERILIA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1072,7 +1312,7 @@
 			<west> 5.377027 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1080,7 +1320,11 @@
   <Placemark id="parcelle_13_hlm.6443">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038110M0195</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">64, RUE BELLE DE MAI</SimpleData>
+		<SimpleData name="Dénomination">MARSEILLE HABITAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1090,7 +1334,7 @@
 			<west> 5.384416 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1098,7 +1342,11 @@
   <Placemark id="parcelle_13_hlm.6467">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038120H0002</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">RUE LUCIEN ROLMER</SimpleData>
+		<SimpleData name="Dénomination">HABITAT MARSEILLE PROVENCE AIX-MARSEILLE PROVENCE METROPOLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1108,7 +1356,7 @@
 			<west> 5.376279 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1116,7 +1364,11 @@
   <Placemark id="parcelle_13_hlm.6471">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038140B0020</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">46, TSSE MOULIN DE LA VILLETTE</SimpleData>
+		<SimpleData name="Dénomination">CDC HABITAT SOCIAL SOCIETE ANONYME DHABITATIONS A LOYER MOD</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1126,7 +1378,7 @@
 			<west> 5.373557 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1134,7 +1386,11 @@
   <Placemark id="parcelle_13_hlm.6473">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038140D0020</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">155, AV CAMILLE PELLETAN</SimpleData>
+		<SimpleData name="Dénomination">MARSEILLE HABITAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1144,7 +1400,7 @@
 			<west> 5.373645 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1152,7 +1408,11 @@
   <Placemark id="parcelle_13_hlm.6474">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038120H0020</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">RUE LUCIEN ROLMER</SimpleData>
+		<SimpleData name="Dénomination">HABITAT MARSEILLE PROVENCE AIX-MARSEILLE PROVENCE METROPOLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1162,7 +1422,7 @@
 			<west> 5.375587 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1170,7 +1430,11 @@
   <Placemark id="parcelle_13_hlm.6535">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038140B0215</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">47, TSSE MOULIN DE LA VILLETTE</SimpleData>
+		<SimpleData name="Dénomination">UNICIL SOCIETE ANONYME DHABITATION A LOYER MODERE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1180,7 +1444,7 @@
 			<west> 5.373749 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1188,7 +1452,11 @@
   <Placemark id="parcelle_13_hlm.6620">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038130K0023</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">42, AV EDOUARD VAILLANT</SimpleData>
+		<SimpleData name="Dénomination">13 HABITAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1198,7 +1466,7 @@
 			<west> 5.379104 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1206,7 +1474,11 @@
   <Placemark id="parcelle_13_hlm.6628">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038130K0232</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">4, IMP DU PROPHETE</SimpleData>
+		<SimpleData name="Dénomination">UNICIL SOCIETE ANONYME DHABITATION A LOYER MODERE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1216,7 +1488,7 @@
 			<west> 5.379228 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1224,7 +1496,11 @@
   <Placemark id="parcelle_13_hlm.6664">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038110D0243</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">8, RUE SERY</SimpleData>
+		<SimpleData name="Dénomination">MARSEILLE HABITAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1234,7 +1510,7 @@
 			<west> 5.386587 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1242,7 +1518,11 @@
   <Placemark id="parcelle_13_hlm.6685">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038130L0249</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">13, RUE DES INDUSTRIEUX</SimpleData>
+		<SimpleData name="Dénomination">3F SUD SOCIETE ANONYME DHABITATIONS A LOYER MODERE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1252,7 +1532,7 @@
 			<west> 5.376105 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1260,7 +1540,11 @@
   <Placemark id="parcelle_13_hlm.6706">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038110D0254</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">44, RUE FORTUNE JOURDAN</SimpleData>
+		<SimpleData name="Dénomination">13 HABITAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1270,7 +1554,7 @@
 			<west> 5.387443 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1278,7 +1562,11 @@
   <Placemark id="parcelle_13_hlm.6729">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038130L0260</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">7, RUE DES INDUSTRIEUX</SimpleData>
+		<SimpleData name="Dénomination">3F SUD SOCIETE ANONYME DHABITATIONS A LOYER MODERE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1288,7 +1576,7 @@
 			<west> 5.375678 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1296,7 +1584,11 @@
   <Placemark id="parcelle_13_hlm.6733">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038110M0261</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">RUE CAUSSEMILLE</SimpleData>
+		<SimpleData name="Dénomination">UNICIL SOCIETE ANONYME DHABITATION A LOYER MODERE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1306,7 +1598,7 @@
 			<west> 5.383483 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1314,7 +1606,11 @@
   <Placemark id="parcelle_13_hlm.6741">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038130L0262</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">7, RUE DES INDUSTRIEUX</SimpleData>
+		<SimpleData name="Dénomination">3F SUD SOCIETE ANONYME DHABITATIONS A LOYER MODERE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1324,7 +1620,7 @@
 			<west> 5.375859 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1332,7 +1628,11 @@
   <Placemark id="parcelle_13_hlm.6742">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038110M0262</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">20, RUE CAUSSEMILLE</SimpleData>
+		<SimpleData name="Dénomination">UNICIL SOCIETE ANONYME DHABITATION A LOYER MODERE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1342,7 +1642,7 @@
 			<west> 5.383525 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1350,7 +1650,11 @@
   <Placemark id="parcelle_13_hlm.6747">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038110M0263</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">17, RUE RICARD</SimpleData>
+		<SimpleData name="Dénomination">UNICIL SOCIETE ANONYME DHABITATION A LOYER MODERE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1360,7 +1664,7 @@
 			<west> 5.383609 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1368,7 +1672,11 @@
   <Placemark id="parcelle_13_hlm.6751">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038130L0264</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">11, RUE DES INDUSTRIEUX</SimpleData>
+		<SimpleData name="Dénomination">3F SUD SOCIETE ANONYME DHABITATIONS A LOYER MODERE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1378,7 +1686,7 @@
 			<west> 5.37594 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1386,7 +1694,11 @@
   <Placemark id="parcelle_13_hlm.6787">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038130E0272</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">91, BD DE PLOMBIERES</SimpleData>
+		<SimpleData name="Dénomination">CDC HABITAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1396,7 +1708,7 @@
 			<west> 5.381667 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1404,7 +1716,11 @@
   <Placemark id="parcelle_13_hlm.6795">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038130E0275</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">91, BD DE PLOMBIERES</SimpleData>
+		<SimpleData name="Dénomination">GRAND DELTA HABITAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1414,7 +1730,7 @@
 			<west> 5.380928 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1422,7 +1738,11 @@
   <Placemark id="parcelle_13_hlm.6807">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038130E0278</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">91, BD DE PLOMBIERES</SimpleData>
+		<SimpleData name="Dénomination">HABITAT MARSEILLE PROVENCE AIX-MARSEILLE PROVENCE METROPOLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1432,7 +1752,7 @@
 			<west> 5.381877 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1440,7 +1760,11 @@
   <Placemark id="parcelle_13_hlm.6814">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038120A0028</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">12, RUE HOCHE</SimpleData>
+		<SimpleData name="Dénomination">LOGIS MEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1450,7 +1774,7 @@
 			<west> 5.374922 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1458,7 +1782,11 @@
   <Placemark id="parcelle_13_hlm.6821">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038130E0280</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">91, BD DE PLOMBIERES</SimpleData>
+		<SimpleData name="Dénomination">HABITAT MARSEILLE PROVENCE AIX-MARSEILLE PROVENCE METROPOLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1468,7 +1796,7 @@
 			<west> 5.382024 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1476,7 +1804,11 @@
   <Placemark id="parcelle_13_hlm.6824">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038140B0281</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">TSSE MOULIN DE LA VILLETTE</SimpleData>
+		<SimpleData name="Dénomination">UNICIL SOCIETE ANONYME DHABITATION A LOYER MODERE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1486,7 +1818,7 @@
 			<west> 5.373779 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1494,7 +1826,11 @@
   <Placemark id="parcelle_13_hlm.6830">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038140B0283</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">AV ROGER SALENGRO</SimpleData>
+		<SimpleData name="Dénomination">UNICIL SOCIETE ANONYME DHABITATION A LOYER MODERE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1504,7 +1840,7 @@
 			<west> 5.373752 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1512,7 +1848,11 @@
   <Placemark id="parcelle_13_hlm.6847">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038120A0289</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">8, RUE HOCHE</SimpleData>
+		<SimpleData name="Dénomination">13 HABITAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1522,7 +1862,7 @@
 			<west> 5.374622 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1530,7 +1870,11 @@
   <Placemark id="parcelle_13_hlm.6872">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038110M0295</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">99, RUE LOUBON</SimpleData>
+		<SimpleData name="Dénomination">UNICIL SOCIETE ANONYME DHABITATION A LOYER MODERE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1540,7 +1884,7 @@
 			<west> 5.383267 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1548,7 +1892,11 @@
   <Placemark id="parcelle_13_hlm.6878">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038110M0296</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">99, RUE LOUBON</SimpleData>
+		<SimpleData name="Dénomination">UNICIL SOCIETE ANONYME DHABITATION A LOYER MODERE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1558,7 +1906,7 @@
 			<west> 5.383174 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1566,7 +1914,11 @@
   <Placemark id="parcelle_13_hlm.6889">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038120A0299</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">10, RUE HOCHE</SimpleData>
+		<SimpleData name="Dénomination">LOGIS MEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1576,7 +1928,7 @@
 			<west> 5.374882 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1584,7 +1936,11 @@
   <Placemark id="parcelle_13_hlm.6893">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038140C0003</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">32, AV ROGER SALENGRO</SimpleData>
+		<SimpleData name="Dénomination">MARSEILLE HABITAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1594,7 +1950,7 @@
 			<west> 5.373437 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1602,7 +1958,11 @@
   <Placemark id="parcelle_13_hlm.6898">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038120H0003</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">RUE LUCIEN ROLMER</SimpleData>
+		<SimpleData name="Dénomination">HABITAT MARSEILLE PROVENCE AIX-MARSEILLE PROVENCE METROPOLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1612,7 +1972,7 @@
 			<west> 5.376623 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1620,7 +1980,11 @@
   <Placemark id="parcelle_13_hlm.6899">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038120A0030</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">2, RUE DU CAIRE</SimpleData>
+		<SimpleData name="Dénomination">LOGIS MEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1630,7 +1994,7 @@
 			<west> 5.375114 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1638,7 +2002,11 @@
   <Placemark id="parcelle_13_hlm.6909">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038120A0302</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">RUE HOCHE</SimpleData>
+		<SimpleData name="Dénomination">LOGIS MEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1648,7 +2016,7 @@
 			<west> 5.375292 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1656,7 +2024,11 @@
   <Placemark id="parcelle_13_hlm.6916">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038110D0307</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">9, BD RICARD</SimpleData>
+		<SimpleData name="Dénomination">13 HABITAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1666,7 +2038,7 @@
 			<west> 5.389846 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1674,7 +2046,11 @@
   <Placemark id="parcelle_13_hlm.6922">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038120A0031</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">16, RUE HOCHE</SimpleData>
+		<SimpleData name="Dénomination">LOGIS MEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1684,7 +2060,7 @@
 			<west> 5.374995 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1692,7 +2068,11 @@
   <Placemark id="parcelle_13_hlm.6935">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038140B0032</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">329, BD NATIONAL</SimpleData>
+		<SimpleData name="Dénomination">13 HABITAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1702,7 +2082,7 @@
 			<west> 5.374686 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1710,7 +2090,11 @@
   <Placemark id="parcelle_13_hlm.6972">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038130D0035</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">41, AV EDOUARD VAILLANT</SimpleData>
+		<SimpleData name="Dénomination">13 HABITAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1720,7 +2104,7 @@
 			<west> 5.378739 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1728,7 +2112,11 @@
   <Placemark id="parcelle_13_hlm.6989">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038140B0036</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">325, BD NATIONAL</SimpleData>
+		<SimpleData name="Dénomination">3F SUD SOCIETE ANONYME DHABITATIONS A LOYER MODERE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1738,7 +2126,7 @@
 			<west> 5.374842 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1746,7 +2134,11 @@
   <Placemark id="parcelle_13_hlm.7020">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038130D0039</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">21, AV EDOUARD VAILLANT</SimpleData>
+		<SimpleData name="Dénomination">LOGEMENT ET GESTION IMMOBILIERE POUR LA REGION MEDITERRANEEN</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1756,7 +2148,7 @@
 			<west> 5.378318 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1764,7 +2156,11 @@
   <Placemark id="parcelle_13_hlm.7031">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038120H0004</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">14, RUE LUCIEN ROLMER</SimpleData>
+		<SimpleData name="Dénomination">HABITAT MARSEILLE PROVENCE AIX-MARSEILLE PROVENCE METROPOLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1774,7 +2170,7 @@
 			<west> 5.376597 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1782,7 +2178,11 @@
   <Placemark id="parcelle_13_hlm.7035">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038130D0040</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">21, AV EDOUARD VAILLANT</SimpleData>
+		<SimpleData name="Dénomination">LOGEMENT ET GESTION IMMOBILIERE POUR LA REGION MEDITERRANEEN</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1792,7 +2192,7 @@
 			<west> 5.378064 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1800,7 +2200,11 @@
   <Placemark id="parcelle_13_hlm.7044">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038110A0041</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">15, RUE DOCTEUR LEON PERRIN</SimpleData>
+		<SimpleData name="Dénomination">HABITAT MARSEILLE PROVENCE AIX-MARSEILLE PROVENCE METROPOLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1810,7 +2214,7 @@
 			<west> 5.386292 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1818,7 +2222,11 @@
   <Placemark id="parcelle_13_hlm.7046">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038140D0041</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">44, BD DE PARIS</SimpleData>
+		<SimpleData name="Dénomination">MARSEILLE HABITAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1828,7 +2236,7 @@
 			<west> 5.371815 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1836,7 +2244,11 @@
   <Placemark id="parcelle_13_hlm.7075">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038130H0043</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">1, RUE DANTON</SimpleData>
+		<SimpleData name="Dénomination">ERILIA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1846,7 +2258,7 @@
 			<west> 5.381648 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1854,7 +2266,11 @@
   <Placemark id="parcelle_13_hlm.7130">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038110A0049</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">11, RUE DOCTEUR LEON PERRIN</SimpleData>
+		<SimpleData name="Dénomination">HABITAT MARSEILLE PROVENCE AIX-MARSEILLE PROVENCE METROPOLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1864,7 +2280,7 @@
 			<west> 5.386137 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1872,7 +2288,11 @@
   <Placemark id="parcelle_13_hlm.7140">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038120H0005</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">12, RUE LUCIEN ROLMER</SimpleData>
+		<SimpleData name="Dénomination">HABITAT MARSEILLE PROVENCE AIX-MARSEILLE PROVENCE METROPOLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1882,7 +2302,7 @@
 			<west> 5.376572 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1890,7 +2310,11 @@
   <Placemark id="parcelle_13_hlm.7143">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038120B0050</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">97, RUE DE CRIMEE</SimpleData>
+		<SimpleData name="Dénomination">ICF SUD EST MEDITERRANEE SA D HLM</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1900,7 +2324,7 @@
 			<west> 5.379861 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1908,7 +2332,11 @@
   <Placemark id="parcelle_13_hlm.7145">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038130I0050</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">49, RUE FELIX PYAT</SimpleData>
+		<SimpleData name="Dénomination">UNICIL SOCIETE ANONYME DHABITATION A LOYER MODERE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1918,7 +2346,7 @@
 			<west> 5.375263 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1926,7 +2354,11 @@
   <Placemark id="parcelle_13_hlm.7152">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038120B0051</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">99, RUE DE CRIMEE</SimpleData>
+		<SimpleData name="Dénomination">ICF SUD EST MEDITERRANEE SA D HLM</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1936,7 +2368,7 @@
 			<west> 5.379632 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1944,7 +2376,11 @@
   <Placemark id="parcelle_13_hlm.7161">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038120B0052</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">RUE DE CRIMEE</SimpleData>
+		<SimpleData name="Dénomination">ICF SUD EST MEDITERRANEE SA D HLM</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1954,7 +2390,7 @@
 			<west> 5.378815 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1962,7 +2398,11 @@
   <Placemark id="parcelle_13_hlm.7164">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038130I0052</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">14, RUE JOUVEN</SimpleData>
+		<SimpleData name="Dénomination">UNICIL SOCIETE ANONYME DHABITATION A LOYER MODERE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1972,7 +2412,7 @@
 			<west> 5.375439 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1980,7 +2420,11 @@
   <Placemark id="parcelle_13_hlm.7169">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038120B0053</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">21, RUE DU SUD ET PERE L THEROBE</SimpleData>
+		<SimpleData name="Dénomination">ICF SUD EST MEDITERRANEE SA D HLM</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1990,7 +2434,7 @@
 			<west> 5.379231 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1998,7 +2442,11 @@
   <Placemark id="parcelle_13_hlm.7176">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038120B0054</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">23, RUE DU SUD ET PERE L THEROBE</SimpleData>
+		<SimpleData name="Dénomination">ICF SUD EST MEDITERRANEE SA D HLM</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2008,7 +2456,7 @@
 			<west> 5.378988 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2016,7 +2464,11 @@
   <Placemark id="parcelle_13_hlm.7179">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038110K0054</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">18, RUE LAUTARD</SimpleData>
+		<SimpleData name="Dénomination">MARSEILLE HABITAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2026,7 +2478,7 @@
 			<west> 5.381365 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2034,7 +2486,11 @@
   <Placemark id="parcelle_13_hlm.7182">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038120B0055</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">25, RUE DU SUD ET PERE L THEROBE</SimpleData>
+		<SimpleData name="Dénomination">ICF SUD EST MEDITERRANEE SA D HLM</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2044,7 +2500,7 @@
 			<west> 5.378738 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2052,7 +2508,11 @@
   <Placemark id="parcelle_13_hlm.7207">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038140C0006</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">7, RUE EUGENE POTTIER</SimpleData>
+		<SimpleData name="Dénomination">LOGIS MEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2062,7 +2522,7 @@
 			<west> 5.374261 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2070,7 +2530,11 @@
   <Placemark id="parcelle_13_hlm.7209">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038120H0006</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">10, RUE LUCIEN ROLMER</SimpleData>
+		<SimpleData name="Dénomination">HABITAT MARSEILLE PROVENCE AIX-MARSEILLE PROVENCE METROPOLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2080,7 +2544,7 @@
 			<west> 5.376547 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2088,7 +2552,11 @@
   <Placemark id="parcelle_13_hlm.7222">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038120B0061</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">32, RUE DU 141 RIA</SimpleData>
+		<SimpleData name="Dénomination">ERILIA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2098,7 +2566,7 @@
 			<west> 5.380119 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2106,7 +2574,11 @@
   <Placemark id="parcelle_13_hlm.7241">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038110L0062</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">15, RUE JEAN CRISTOFOL</SimpleData>
+		<SimpleData name="Dénomination">13 HABITAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2116,7 +2588,7 @@
 			<west> 5.380447 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2124,7 +2596,11 @@
   <Placemark id="parcelle_13_hlm.7263">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038110L0064</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">13, RUE JEAN CRISTOFOL</SimpleData>
+		<SimpleData name="Dénomination">13 HABITAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2134,7 +2610,7 @@
 			<west> 5.380642 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2142,7 +2618,11 @@
   <Placemark id="parcelle_13_hlm.7276">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038110L0065</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">17, RUE JEAN CRISTOFOL</SimpleData>
+		<SimpleData name="Dénomination">13 HABITAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2152,7 +2632,7 @@
 			<west> 5.380875 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2160,7 +2640,11 @@
   <Placemark id="parcelle_13_hlm.7283">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038120B0066</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">27, RUE DU SUD ET PERE L THEROBE</SimpleData>
+		<SimpleData name="Dénomination">ICF SUD EST MEDITERRANEE SA D HLM</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2170,7 +2654,7 @@
 			<west> 5.378536 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2178,7 +2662,11 @@
   <Placemark id="parcelle_13_hlm.7290">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038110D0067</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">9, BD RICARD</SimpleData>
+		<SimpleData name="Dénomination">13 HABITAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2188,7 +2676,7 @@
 			<west> 5.389868 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2196,7 +2684,11 @@
   <Placemark id="parcelle_13_hlm.7292">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038110I0067</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">78, BD NATIONAL</SimpleData>
+		<SimpleData name="Dénomination">ERILIA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2206,7 +2698,7 @@
 			<west> 5.383514 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2214,7 +2706,11 @@
   <Placemark id="parcelle_13_hlm.7299">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038120B0068</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">12, RUE DU SUD ET PERE L THEROBE</SimpleData>
+		<SimpleData name="Dénomination">MARSEILLE HABITAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2224,7 +2720,7 @@
 			<west> 5.379623 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2232,7 +2728,11 @@
   <Placemark id="parcelle_13_hlm.7316">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038120H0007</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">8, RUE LUCIEN ROLMER</SimpleData>
+		<SimpleData name="Dénomination">HABITAT MARSEILLE PROVENCE AIX-MARSEILLE PROVENCE METROPOLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2242,7 +2742,7 @@
 			<west> 5.376522 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2250,7 +2750,11 @@
   <Placemark id="parcelle_13_hlm.7322">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038110L0070</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">47, RUE JEAN CRISTOFOL</SimpleData>
+		<SimpleData name="Dénomination">13 HABITAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2260,7 +2764,7 @@
 			<west> 5.381843 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2268,7 +2772,11 @@
   <Placemark id="parcelle_13_hlm.7349">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038120C0073</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">55, RUE HONNORAT</SimpleData>
+		<SimpleData name="Dénomination">ERILIA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2278,7 +2786,7 @@
 			<west> 5.382416 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2286,7 +2794,11 @@
   <Placemark id="parcelle_13_hlm.7363">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038120H0074</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">RUE LUCIEN ROLMER</SimpleData>
+		<SimpleData name="Dénomination">HABITAT MARSEILLE PROVENCE AIX-MARSEILLE PROVENCE METROPOLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2296,7 +2808,7 @@
 			<west> 5.375643 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2304,7 +2816,11 @@
   <Placemark id="parcelle_13_hlm.7374">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038120H0075</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">25, RUE LUCIEN ROLMER</SimpleData>
+		<SimpleData name="Dénomination">HABITAT MARSEILLE PROVENCE AIX-MARSEILLE PROVENCE METROPOLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2314,7 +2830,7 @@
 			<west> 5.375931 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2322,7 +2838,11 @@
   <Placemark id="parcelle_13_hlm.7375">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038130I0075</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">338, BD NATIONAL</SimpleData>
+		<SimpleData name="Dénomination">13 HABITAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2332,7 +2852,7 @@
 			<west> 5.375075 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2340,7 +2860,11 @@
   <Placemark id="parcelle_13_hlm.7390">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038120H0076</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">23, RUE LUCIEN ROLMER</SimpleData>
+		<SimpleData name="Dénomination">HABITAT MARSEILLE PROVENCE AIX-MARSEILLE PROVENCE METROPOLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2350,7 +2874,7 @@
 			<west> 5.37567 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2358,7 +2882,11 @@
   <Placemark id="parcelle_13_hlm.7393">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038130I0076</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">340, BD NATIONAL</SimpleData>
+		<SimpleData name="Dénomination">13 HABITAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2368,7 +2896,7 @@
 			<west> 5.375001 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2376,7 +2904,11 @@
   <Placemark id="parcelle_13_hlm.7399">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038120H0077</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">21, RUE LUCIEN ROLMER</SimpleData>
+		<SimpleData name="Dénomination">HABITAT MARSEILLE PROVENCE AIX-MARSEILLE PROVENCE METROPOLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2386,7 +2918,7 @@
 			<west> 5.375609 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2394,7 +2926,11 @@
   <Placemark id="parcelle_13_hlm.7410">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038120H0078</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">RUE LUCIEN ROLMER</SimpleData>
+		<SimpleData name="Dénomination">HABITAT MARSEILLE PROVENCE AIX-MARSEILLE PROVENCE METROPOLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2404,7 +2940,7 @@
 			<west> 5.375582 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2412,7 +2948,11 @@
   <Placemark id="parcelle_13_hlm.7411">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038130I0078</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">352, BD NATIONAL</SimpleData>
+		<SimpleData name="Dénomination">GRAND DELTA HABITAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2422,7 +2962,7 @@
 			<west> 5.374586 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2430,7 +2970,11 @@
   <Placemark id="parcelle_13_hlm.7419">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038120H0079</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">RUE LUCIEN ROLMER</SimpleData>
+		<SimpleData name="Dénomination">HABITAT MARSEILLE PROVENCE AIX-MARSEILLE PROVENCE METROPOLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2440,7 +2984,7 @@
 			<west> 5.375663 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2448,7 +2992,11 @@
   <Placemark id="parcelle_13_hlm.7426">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038120H0008</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">6, RUE LUCIEN ROLMER</SimpleData>
+		<SimpleData name="Dénomination">HABITAT MARSEILLE PROVENCE AIX-MARSEILLE PROVENCE METROPOLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2458,7 +3006,7 @@
 			<west> 5.376267 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2466,7 +3014,11 @@
   <Placemark id="parcelle_13_hlm.7433">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038120H0080</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">17, RUE LUCIEN ROLMER</SimpleData>
+		<SimpleData name="Dénomination">HABITAT MARSEILLE PROVENCE AIX-MARSEILLE PROVENCE METROPOLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2476,7 +3028,7 @@
 			<west> 5.37588 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2484,7 +3036,11 @@
   <Placemark id="parcelle_13_hlm.7438">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038120B0081</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">22, RUE DU 141 RIA</SimpleData>
+		<SimpleData name="Dénomination">UNICIL SOCIETE ANONYME DHABITATION A LOYER MODERE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2494,7 +3050,7 @@
 			<west> 5.380699 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2502,7 +3058,11 @@
   <Placemark id="parcelle_13_hlm.7446">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038130I0081</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">360, BD NATIONAL</SimpleData>
+		<SimpleData name="Dénomination">UNICIL SOCIETE ANONYME DHABITATION A LOYER MODERE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2512,7 +3072,7 @@
 			<west> 5.374111 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2520,7 +3080,11 @@
   <Placemark id="parcelle_13_hlm.7454">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038120H0082</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">RUE LUCIEN ROLMER</SimpleData>
+		<SimpleData name="Dénomination">HABITAT MARSEILLE PROVENCE AIX-MARSEILLE PROVENCE METROPOLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2530,7 +3094,7 @@
 			<west> 5.375567 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2538,7 +3102,11 @@
   <Placemark id="parcelle_13_hlm.7455">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038130I0082</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">376, BD NATIONAL</SimpleData>
+		<SimpleData name="Dénomination">UNICIL SOCIETE ANONYME DHABITATION A LOYER MODERE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2548,7 +3116,7 @@
 			<west> 5.373893 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2556,7 +3124,11 @@
   <Placemark id="parcelle_13_hlm.7461">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038120E0083</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">7, RUE DE TURENNE</SimpleData>
+		<SimpleData name="Dénomination">UNICIL SOCIETE ANONYME DHABITATION A LOYER MODERE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2566,7 +3138,7 @@
 			<west> 5.375269 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2574,7 +3146,11 @@
   <Placemark id="parcelle_13_hlm.7463">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038120H0083</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">11, RUE LUCIEN ROLMER</SimpleData>
+		<SimpleData name="Dénomination">HABITAT MARSEILLE PROVENCE AIX-MARSEILLE PROVENCE METROPOLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2584,7 +3160,7 @@
 			<west> 5.375829 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2592,7 +3168,11 @@
   <Placemark id="parcelle_13_hlm.7471">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038120E0084</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">9, RUE DE TURENNE</SimpleData>
+		<SimpleData name="Dénomination">UNICIL SOCIETE ANONYME DHABITATION A LOYER MODERE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2602,7 +3182,7 @@
 			<west> 5.375215 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2610,7 +3190,11 @@
   <Placemark id="parcelle_13_hlm.7472">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038130I0084</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">380, BD NATIONAL</SimpleData>
+		<SimpleData name="Dénomination">UNICIL SOCIETE ANONYME DHABITATION A LOYER MODERE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2620,7 +3204,7 @@
 			<west> 5.373678 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2628,7 +3212,11 @@
   <Placemark id="parcelle_13_hlm.7478">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038120E0085</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">11, RUE DE TURENNE</SimpleData>
+		<SimpleData name="Dénomination">UNICIL SOCIETE ANONYME DHABITATION A LOYER MODERE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2638,7 +3226,7 @@
 			<west> 5.375164 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2646,7 +3234,11 @@
   <Placemark id="parcelle_13_hlm.7480">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038120H0085</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">12, RUE DU RACATI</SimpleData>
+		<SimpleData name="Dénomination">HABITAT MARSEILLE PROVENCE AIX-MARSEILLE PROVENCE METROPOLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2656,7 +3248,7 @@
 			<west> 5.375411 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2664,7 +3256,11 @@
   <Placemark id="parcelle_13_hlm.7482">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038130L0085</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">10, PL GUICHARD</SimpleData>
+		<SimpleData name="Dénomination">CDC HABITAT SOCIAL SOCIETE ANONYME DHABITATIONS A LOYER MOD</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2674,7 +3270,7 @@
 			<west> 5.376401 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2682,7 +3278,11 @@
   <Placemark id="parcelle_13_hlm.7492">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038130C0087</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">21, BD CHARPENTIER</SimpleData>
+		<SimpleData name="Dénomination">CDC HABITAT SOCIAL SOCIETE ANONYME DHABITATIONS A LOYER MOD</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2692,7 +3292,7 @@
 			<west> 5.375918 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2700,7 +3300,11 @@
   <Placemark id="parcelle_13_hlm.7499">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038130I0088</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">12, RUE JULLIEN</SimpleData>
+		<SimpleData name="Dénomination">GRAND DELTA HABITAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2710,7 +3314,7 @@
 			<west> 5.373868 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2718,7 +3322,11 @@
   <Placemark id="parcelle_13_hlm.7507">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038130B0089</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">143, RUE FELIX PYAT</SimpleData>
+		<SimpleData name="Dénomination">MARSEILLE HABITAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2728,7 +3336,7 @@
 			<west> 5.37268 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2736,7 +3344,11 @@
   <Placemark id="parcelle_13_hlm.7510">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038130H0089</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">81, RUE LOUBON</SimpleData>
+		<SimpleData name="Dénomination">LOGEMENT ET GESTION IMMOBILIERE POUR LA REGION MEDITERRANEEN</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2746,7 +3358,7 @@
 			<west> 5.381416 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2754,7 +3366,11 @@
   <Placemark id="parcelle_13_hlm.7512">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038130K0089</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">62, RUE DANTON</SimpleData>
+		<SimpleData name="Dénomination">HABITAT MARSEILLE PROVENCE AIX-MARSEILLE PROVENCE METROPOLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2764,7 +3380,7 @@
 			<west> 5.379113 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2772,7 +3388,11 @@
   <Placemark id="parcelle_13_hlm.7517">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038120B0090</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">91, RUE DE CRIMEE</SimpleData>
+		<SimpleData name="Dénomination">ERILIA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2782,7 +3402,7 @@
 			<west> 5.380074 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2790,7 +3410,11 @@
   <Placemark id="parcelle_13_hlm.7542">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038120B0092</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">38, RUE DU 141 RIA</SimpleData>
+		<SimpleData name="Dénomination">ERILIA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2800,7 +3424,7 @@
 			<west> 5.380476 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2808,7 +3432,11 @@
   <Placemark id="parcelle_13_hlm.7543">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038130D0092</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">BD DE PLOMBIERES</SimpleData>
+		<SimpleData name="Dénomination">CDC HABITAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2818,7 +3446,7 @@
 			<west> 5.381209 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2826,7 +3454,11 @@
   <Placemark id="parcelle_13_hlm.7546">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038110L0092</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">32, BD BOUES</SimpleData>
+		<SimpleData name="Dénomination">ERILIA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2836,7 +3468,7 @@
 			<west> 5.382234 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2844,7 +3476,11 @@
   <Placemark id="parcelle_13_hlm.7549">
 <styleUrl>#HLM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
+		<SimpleData name="Numéro de Parcelle">132038110L0093</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">34, BD BOUES</SimpleData>
+		<SimpleData name="Dénomination">13 HABITAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2854,7 +3490,7 @@
 			<west> 5.382036 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>

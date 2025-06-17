@@ -2,7 +2,11 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document id="root_doc">
 <Schema name="MARSEILLE 5EME_region" id="MARSEILLE 5EME_region">
+	<SimpleField name="Numéro de Parcelle" type="string"></SimpleField>
+	<SimpleField name="Departement" type="string"></SimpleField>
 	<SimpleField name="Commune" type="string"></SimpleField>
+	<SimpleField name="Adresse" type="string"></SimpleField>
+	<SimpleField name="Dénomination" type="string"></SimpleField>
 </Schema>
 	<Style id="region">
 		<LineStyle>
@@ -18,7 +22,11 @@
   <Placemark id="parcelle_13_region.109">
 <styleUrl>#region</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_region">
+		<SimpleData name="Numéro de Parcelle">132058210E0047</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 5EME</SimpleData>
+		<SimpleData name="Adresse">145, RUE DES VERTUS</SimpleData>
+		<SimpleData name="Dénomination">ASSISTANCE PUBLIQUE DES HOPITAUX DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -28,7 +36,7 @@
 			<west> 5.393659 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -36,7 +44,11 @@
   <Placemark id="parcelle_13_region.110">
 <styleUrl>#region</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_region">
+		<SimpleData name="Numéro de Parcelle">132058210D0001</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 5EME</SimpleData>
+		<SimpleData name="Adresse">80, RUE BROCHIER</SimpleData>
+		<SimpleData name="Dénomination">ASSISTANCE PUBLIQUE DES HOPITAUX DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -46,7 +58,7 @@
 			<west> 5.393421 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -54,7 +66,11 @@
   <Placemark id="parcelle_13_region.131">
 <styleUrl>#region</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_region">
+		<SimpleData name="Numéro de Parcelle">132058210D0015</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 5EME</SimpleData>
+		<SimpleData name="Adresse">160, RUE SAINT-PIERRE</SimpleData>
+		<SimpleData name="Dénomination">ASSISTANCE PUBLIQUE DES HOPITAUX DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -64,7 +80,7 @@
 			<west> 5.393775 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -72,7 +88,11 @@
   <Placemark id="parcelle_13_region.137">
 <styleUrl>#region</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_region">
+		<SimpleData name="Numéro de Parcelle">132058190B0017</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 5EME</SimpleData>
+		<SimpleData name="Adresse">BD JEAN MOULIN</SimpleData>
+		<SimpleData name="Dénomination">ASSISTANCE PUBLIQUE DES HOPITAUX DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -82,7 +102,7 @@
 			<west> 5.403558 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -90,7 +110,11 @@
   <Placemark id="parcelle_13_region.143">
 <styleUrl>#region</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_region">
+		<SimpleData name="Numéro de Parcelle">132058210D0018</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 5EME</SimpleData>
+		<SimpleData name="Adresse">RUE CRILLON</SimpleData>
+		<SimpleData name="Dénomination">ASSISTANCE PUBLIQUE DES HOPITAUX DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -100,7 +124,7 @@
 			<west> 5.397013 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -108,7 +132,11 @@
   <Placemark id="parcelle_13_region.148">
 <styleUrl>#region</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_region">
+		<SimpleData name="Numéro de Parcelle">132058190B0021</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 5EME</SimpleData>
+		<SimpleData name="Adresse">BD JEAN MOULIN</SimpleData>
+		<SimpleData name="Dénomination">ASSISTANCE PUBLIQUE DES HOPITAUX DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -118,7 +146,7 @@
 			<west> 5.402698 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -126,7 +154,11 @@
   <Placemark id="parcelle_13_region.149">
 <styleUrl>#region</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_region">
+		<SimpleData name="Numéro de Parcelle">132058190B0022</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 5EME</SimpleData>
+		<SimpleData name="Adresse">BD JEAN MOULIN</SimpleData>
+		<SimpleData name="Dénomination">ASSISTANCE PUBLIQUE DES HOPITAUX DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -136,7 +168,7 @@
 			<west> 5.402738 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -144,7 +176,11 @@
   <Placemark id="parcelle_13_region.161">
 <styleUrl>#region</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_region">
+		<SimpleData name="Numéro de Parcelle">132058190B0028</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 5EME</SimpleData>
+		<SimpleData name="Adresse">264, RUE SAINT-PIERRE</SimpleData>
+		<SimpleData name="Dénomination">ASSISTANCE PUBLIQUE DES HOPITAUX DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -154,7 +190,7 @@
 			<west> 5.400591 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -162,7 +198,11 @@
   <Placemark id="parcelle_13_region.166">
 <styleUrl>#region</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_region">
+		<SimpleData name="Numéro de Parcelle">132058220I0031</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 5EME</SimpleData>
+		<SimpleData name="Adresse">7, IMP SARTURAN</SimpleData>
+		<SimpleData name="Dénomination">ACHAT LOCATION FONDS ADMINIS BIENS LOGEA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -172,7 +212,7 @@
 			<west> 5.404088 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -180,7 +220,11 @@
   <Placemark id="parcelle_13_region.172">
 <styleUrl>#region</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_region">
+		<SimpleData name="Numéro de Parcelle">132058210E0035</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 5EME</SimpleData>
+		<SimpleData name="Adresse">147, BD BAILLE</SimpleData>
+		<SimpleData name="Dénomination">ASSISTANCE PUBLIQUE DES HOPITAUX DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -190,7 +234,7 @@
 			<west> 5.396042 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -198,7 +242,11 @@
   <Placemark id="parcelle_13_region.174">
 <styleUrl>#region</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_region">
+		<SimpleData name="Numéro de Parcelle">132058200H0365</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 5EME</SimpleData>
+		<SimpleData name="Adresse">36, RUE HORACE BERTIN</SimpleData>
+		<SimpleData name="Dénomination">ASSISTANCE PUBLIQUE DES HOPITAUX DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -208,7 +256,7 @@
 			<west> 5.389129 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -216,7 +264,11 @@
   <Placemark id="parcelle_13_region.175">
 <styleUrl>#region</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_region">
+		<SimpleData name="Numéro de Parcelle">132058190B0037</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 5EME</SimpleData>
+		<SimpleData name="Adresse">BD JEAN MOULIN</SimpleData>
+		<SimpleData name="Dénomination">ASSISTANCE PUBLIQUE DES HOPITAUX DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -226,7 +278,7 @@
 			<west> 5.400232 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -234,7 +286,11 @@
   <Placemark id="parcelle_13_region.177">
 <styleUrl>#region</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_region">
+		<SimpleData name="Numéro de Parcelle">132058190B0038</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 5EME</SimpleData>
+		<SimpleData name="Adresse">BD JEAN MOULIN</SimpleData>
+		<SimpleData name="Dénomination">ASSISTANCE PUBLIQUE DES HOPITAUX DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -244,7 +300,7 @@
 			<west> 5.400329 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -252,7 +308,11 @@
   <Placemark id="parcelle_13_region.180">
 <styleUrl>#region</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_region">
+		<SimpleData name="Numéro de Parcelle">132058190B0039</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 5EME</SimpleData>
+		<SimpleData name="Adresse">264, RUE SAINT-PIERRE</SimpleData>
+		<SimpleData name="Dénomination">ASSISTANCE PUBLIQUE DES HOPITAUX DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -262,7 +322,7 @@
 			<west> 5.400223 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -270,7 +330,11 @@
   <Placemark id="parcelle_13_region.190">
 <styleUrl>#region</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_region">
+		<SimpleData name="Numéro de Parcelle">132058210E0049</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 5EME</SimpleData>
+		<SimpleData name="Adresse">145, BD BAILLE</SimpleData>
+		<SimpleData name="Dénomination">ASSISTANCE PUBLIQUE DES HOPITAUX DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -280,7 +344,7 @@
 			<west> 5.394828 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -288,7 +352,11 @@
   <Placemark id="parcelle_13_region.193">
 <styleUrl>#region</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_region">
+		<SimpleData name="Numéro de Parcelle">132058210E0051</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 5EME</SimpleData>
+		<SimpleData name="Adresse">145, BD BAILLE</SimpleData>
+		<SimpleData name="Dénomination">ASSISTANCE PUBLIQUE DES HOPITAUX DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -298,7 +366,7 @@
 			<west> 5.393293 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -306,7 +374,11 @@
   <Placemark id="parcelle_13_region.197">
 <styleUrl>#region</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_region">
+		<SimpleData name="Numéro de Parcelle">132058210E0053</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 5EME</SimpleData>
+		<SimpleData name="Adresse">RUE DES VERTUS</SimpleData>
+		<SimpleData name="Dénomination">ASSISTANCE PUBLIQUE DES HOPITAUX DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -316,7 +388,7 @@
 			<west> 5.393187 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -324,7 +396,11 @@
   <Placemark id="parcelle_13_region.201">
 <styleUrl>#region</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_region">
+		<SimpleData name="Numéro de Parcelle">132058200D0059</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 5EME</SimpleData>
+		<SimpleData name="Adresse">8, RUE JULES GONTARD</SimpleData>
+		<SimpleData name="Dénomination">ASSISTANCE PUBLIQUE DES HOPITAUX DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -334,7 +410,7 @@
 			<west> 5.398578 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -342,7 +418,11 @@
   <Placemark id="parcelle_13_region.204">
 <styleUrl>#region</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_region">
+		<SimpleData name="Numéro de Parcelle">132058210E0061</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 5EME</SimpleData>
+		<SimpleData name="Adresse">145, BD BAILLE</SimpleData>
+		<SimpleData name="Dénomination">ASSISTANCE PUBLIQUE DES HOPITAUX DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -352,7 +432,7 @@
 			<west> 5.392989 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>

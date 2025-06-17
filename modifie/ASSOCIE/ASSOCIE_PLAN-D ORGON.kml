@@ -4,7 +4,11 @@
 	<name>parcelle_13_ASSOCIE.kml</name>
 	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
 	<Schema name="PLAN-D ORGON_ASSOCIE" id="PLAN-D ORGON_ASSOCIE">
+		<SimpleField type="string" name="Numéro de Parcelle"></SimpleField>
+		<SimpleField type="string" name="Departement"></SimpleField>
 		<SimpleField type="string" name="Commune"></SimpleField>
+		<SimpleField type="string" name="Adresse"></SimpleField>
+		<SimpleField type="string" name="Dénomination"></SimpleField>
 	</Schema>
 	<Style id="ASSOCIE">
 		<LineStyle>
@@ -21,7 +25,11 @@
 		<Placemark id="parcelle_13_associe.8">
 <styleUrl>#ASSOCIE</styleUrl>			<ExtendedData>
 				<SchemaData schemaUrl="#parcelle_13_associe">
+					<SimpleData name="Numéro de Parcelle">13076000AO0470</SimpleData>
+					<SimpleData name="Departement">13</SimpleData>
 					<SimpleData name="Commune">PLAN-D ORGON</SimpleData>
+					<SimpleData name="Adresse">RTE DE CAVAILLON</SimpleData>
+					<SimpleData name="Dénomination">SCI GEOLIANE</SimpleData>
 				</SchemaData>
 			</ExtendedData>
 	<Region>
@@ -32,7 +40,7 @@
 			<west> 5.01718623579709 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -51,7 +59,11 @@
 		<Placemark id="parcelle_13_associe.9">
 <styleUrl>#ASSOCIE</styleUrl>			<ExtendedData>
 				<SchemaData schemaUrl="#parcelle_13_associe">
+					<SimpleData name="Numéro de Parcelle">13076000AO0471</SimpleData>
+					<SimpleData name="Departement">13</SimpleData>
 					<SimpleData name="Commune">PLAN-D ORGON</SimpleData>
+					<SimpleData name="Adresse">RTE DE CAVAILLON</SimpleData>
+					<SimpleData name="Dénomination">SCI GEOLIANE</SimpleData>
 				</SchemaData>
 			</ExtendedData>
 	<Region>
@@ -62,7 +74,7 @@
 			<west> 5.01815580803922 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -81,7 +93,11 @@
 		<Placemark id="parcelle_13_associe.10">
 <styleUrl>#ASSOCIE</styleUrl>			<ExtendedData>
 				<SchemaData schemaUrl="#parcelle_13_associe">
+					<SimpleData name="Numéro de Parcelle">13076000AO0472</SimpleData>
+					<SimpleData name="Departement">13</SimpleData>
 					<SimpleData name="Commune">PLAN-D ORGON</SimpleData>
+					<SimpleData name="Adresse">RTE DE CAVAILLON</SimpleData>
+					<SimpleData name="Dénomination">SCI GEOLIANE</SimpleData>
 				</SchemaData>
 			</ExtendedData>
 	<Region>
@@ -92,7 +108,7 @@
 			<west> 5.01717337253393 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>

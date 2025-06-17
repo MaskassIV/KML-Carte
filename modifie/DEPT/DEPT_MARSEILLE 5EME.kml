@@ -2,7 +2,11 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document id="root_doc">
 <Schema name="MARSEILLE 5EME_DEPT" id="MARSEILLE 5EME_DEPT">
+	<SimpleField name="Numéro de Parcelle" type="string"></SimpleField>
+	<SimpleField name="Departement" type="string"></SimpleField>
 	<SimpleField name="Commune" type="string"></SimpleField>
+	<SimpleField name="Adresse" type="string"></SimpleField>
+	<SimpleField name="Dénomination" type="string"></SimpleField>
 </Schema>
 	<Style id="DEPT">
 		<LineStyle>
@@ -18,7 +22,11 @@
   <Placemark id="parcelle_13_dept.7705">
 <styleUrl>#DEPT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
+		<SimpleData name="Numéro de Parcelle">132058190A0110</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 5EME</SimpleData>
+		<SimpleData name="Adresse">210, RUE SAINT-PIERRE</SimpleData>
+		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -28,7 +36,7 @@
 			<west> 5.398391 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -36,7 +44,11 @@
   <Placemark id="parcelle_13_dept.7764">
 <styleUrl>#DEPT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
+		<SimpleData name="Numéro de Parcelle">132058210B0128</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 5EME</SimpleData>
+		<SimpleData name="Adresse">176, RUE FERRARI</SimpleData>
+		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -46,7 +58,7 @@
 			<west> 5.394843 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -54,7 +66,11 @@
   <Placemark id="parcelle_13_dept.7778">
 <styleUrl>#DEPT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
+		<SimpleData name="Numéro de Parcelle">132058210I0137</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 5EME</SimpleData>
+		<SimpleData name="Adresse">50, RUE DES VERTUS</SimpleData>
+		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -64,7 +80,7 @@
 			<west> 5.39136 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -72,7 +88,11 @@
   <Placemark id="parcelle_13_dept.7899">
 <styleUrl>#DEPT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
+		<SimpleData name="Numéro de Parcelle">132058220I0029</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 5EME</SimpleData>
+		<SimpleData name="Adresse">15, IMP SARTURAN</SimpleData>
+		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -82,7 +102,7 @@
 			<west> 5.404571 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>

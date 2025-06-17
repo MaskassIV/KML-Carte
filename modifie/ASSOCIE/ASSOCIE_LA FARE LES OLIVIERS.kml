@@ -4,7 +4,11 @@
 	<name>parcelle_13_ASSOCIE.kml</name>
 	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
 	<Schema name="LA FARE LES OLIVIERS_ASSOCIE" id="LA FARE LES OLIVIERS_ASSOCIE">
+		<SimpleField type="string" name="Numéro de Parcelle"></SimpleField>
+		<SimpleField type="string" name="Departement"></SimpleField>
 		<SimpleField type="string" name="Commune"></SimpleField>
+		<SimpleField type="string" name="Adresse"></SimpleField>
+		<SimpleField type="string" name="Dénomination"></SimpleField>
 	</Schema>
 	<Style id="ASSOCIE">
 		<LineStyle>
@@ -21,7 +25,11 @@
 		<Placemark id="parcelle_13_associe.2">
 <styleUrl>#ASSOCIE</styleUrl>			<ExtendedData>
 				<SchemaData schemaUrl="#parcelle_13_associe">
+					<SimpleData name="Numéro de Parcelle">13037000AV0100</SimpleData>
+					<SimpleData name="Departement">13</SimpleData>
 					<SimpleData name="Commune">LA FARE LES OLIVIERS</SimpleData>
+					<SimpleData name="Adresse">1050, RN 113</SimpleData>
+					<SimpleData name="Dénomination">B B M S</SimpleData>
 				</SchemaData>
 			</ExtendedData>
 	<Region>
@@ -32,7 +40,7 @@
 			<west> 5.1856173694437 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -51,7 +59,11 @@
 		<Placemark id="parcelle_13_associe.13">
 <styleUrl>#ASSOCIE</styleUrl>			<ExtendedData>
 				<SchemaData schemaUrl="#parcelle_13_associe">
+					<SimpleData name="Numéro de Parcelle">13037000AV0090</SimpleData>
+					<SimpleData name="Departement">13</SimpleData>
 					<SimpleData name="Commune">LA FARE LES OLIVIERS</SimpleData>
+					<SimpleData name="Adresse">1050, RN 113</SimpleData>
+					<SimpleData name="Dénomination">B B M S</SimpleData>
 				</SchemaData>
 			</ExtendedData>
 	<Region>
@@ -62,7 +74,7 @@
 			<west> 5.18590041441087 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>

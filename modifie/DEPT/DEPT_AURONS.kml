@@ -2,7 +2,11 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document id="root_doc">
 <Schema name="AURONS_DEPT" id="AURONS_DEPT">
+	<SimpleField name="Numéro de Parcelle" type="string"></SimpleField>
+	<SimpleField name="Departement" type="string"></SimpleField>
 	<SimpleField name="Commune" type="string"></SimpleField>
+	<SimpleField name="Adresse" type="string"></SimpleField>
+	<SimpleField name="Dénomination" type="string"></SimpleField>
 </Schema>
 	<Style id="DEPT">
 		<LineStyle>
@@ -18,7 +22,11 @@
   <Placemark id="parcelle_13_dept.173">
 <styleUrl>#DEPT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
+		<SimpleData name="Numéro de Parcelle">130080000A0248</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">AURONS</SimpleData>
+		<SimpleData name="Adresse">5248, JEANSINE</SimpleData>
+		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -28,7 +36,7 @@
 			<west> 5.181036 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -37,7 +45,11 @@
   <Placemark id="parcelle_13_dept.3828">
 <styleUrl>#DEPT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
+		<SimpleData name="Numéro de Parcelle">130080000A0243</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">AURONS</SimpleData>
+		<SimpleData name="Adresse">5243, JEANSINE</SimpleData>
+		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -47,7 +59,7 @@
 			<west> 5.180601 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -56,7 +68,11 @@
   <Placemark id="parcelle_13_dept.3854">
 <styleUrl>#DEPT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
+		<SimpleData name="Numéro de Parcelle">130080000A0246</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">AURONS</SimpleData>
+		<SimpleData name="Adresse">5246, JEANSINE</SimpleData>
+		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -66,7 +82,7 @@
 			<west> 5.180957 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -75,7 +91,11 @@
   <Placemark id="parcelle_13_dept.3866">
 <styleUrl>#DEPT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
+		<SimpleData name="Numéro de Parcelle">130080000A0247</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">AURONS</SimpleData>
+		<SimpleData name="Adresse">5247, JEANSINE</SimpleData>
+		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -85,7 +105,7 @@
 			<west> 5.180981 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -94,7 +114,11 @@
   <Placemark id="parcelle_13_dept.5169">
 <styleUrl>#DEPT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
+		<SimpleData name="Numéro de Parcelle">130080000F0388</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">AURONS</SimpleData>
+		<SimpleData name="Adresse">SAINT MARTIN</SimpleData>
+		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -104,7 +128,7 @@
 			<west> 5.14954 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>

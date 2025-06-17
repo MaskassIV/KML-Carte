@@ -2,7 +2,11 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document id="root_doc">
 <Schema name="MARSEILLE 3EME_PUBLICorASSOCIE" id="MARSEILLE 3EME_PUBLICorASSOCIE">
+	<SimpleField name="Numéro de Parcelle" type="string"></SimpleField>
+	<SimpleField name="Departement" type="string"></SimpleField>
 	<SimpleField name="Commune" type="string"></SimpleField>
+	<SimpleField name="Adresse" type="string"></SimpleField>
+	<SimpleField name="Dénomination" type="string"></SimpleField>
 </Schema>
 	<Style id="PUBLICorASSOCIE">
 		<LineStyle>
@@ -18,7 +22,11 @@
   <Placemark id="parcelle_13_publicorassocie.16">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132038130N0011</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">6, BD DE BRIANCON</SimpleData>
+		<SimpleData name="Dénomination">FONCIER PACA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -28,7 +36,7 @@
 			<west> 5.369539 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -36,7 +44,11 @@
   <Placemark id="parcelle_13_publicorassocie.343">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132038130N0009</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">6, RUE DE LA CHAPELLE</SimpleData>
+		<SimpleData name="Dénomination">FONCIER PACA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -46,7 +58,7 @@
 			<west> 5.369828 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -54,7 +66,11 @@
   <Placemark id="parcelle_13_publicorassocie.407">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132038140A0115</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">AV ROGER SALENGRO</SimpleData>
+		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -64,7 +80,7 @@
 			<west> 5.371911 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -72,7 +88,11 @@
   <Placemark id="parcelle_13_publicorassocie.7068">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132038120A0110</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">231, BD NATIONAL</SimpleData>
+		<SimpleData name="Dénomination">FONCIER PACA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -82,7 +102,7 @@
 			<west> 5.378472 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -90,7 +110,11 @@
   <Placemark id="parcelle_13_publicorassocie.7072">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132038110H0001</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">85, RUE CLOVIS HUGUES</SimpleData>
+		<SimpleData name="Dénomination">FONCIER PACA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -100,7 +124,7 @@
 			<west> 5.38421 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -108,7 +132,11 @@
   <Placemark id="parcelle_13_publicorassocie.7077">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132038110C0010</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">41, RUE JOBIN</SimpleData>
+		<SimpleData name="Dénomination">SNCF RESEAU</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -118,7 +146,7 @@
 			<west> 5.390691 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -126,7 +154,11 @@
   <Placemark id="parcelle_13_publicorassocie.7107">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132038140D0106</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">153, AV CAMILLE PELLETAN</SimpleData>
+		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -136,7 +168,7 @@
 			<west> 5.373707 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -144,7 +176,11 @@
   <Placemark id="parcelle_13_publicorassocie.7112">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132038140A0108</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">AV ROGER SALENGRO</SimpleData>
+		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -154,7 +190,7 @@
 			<west> 5.371804 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -162,7 +198,11 @@
   <Placemark id="parcelle_13_publicorassocie.7120">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132038120A0011</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">41, RUE KLEBER</SimpleData>
+		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -172,7 +212,7 @@
 			<west> 5.375097 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -180,7 +220,11 @@
   <Placemark id="parcelle_13_publicorassocie.7129">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132038130I0110</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">10, RUE JOUVEN</SimpleData>
+		<SimpleData name="Dénomination">FONCIER PACA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -190,7 +234,7 @@
 			<west> 5.375884 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -198,7 +242,11 @@
   <Placemark id="parcelle_13_publicorassocie.7139">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132038130B0112</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">28, BD FERDINAND DE LESSEPS</SimpleData>
+		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -208,7 +256,7 @@
 			<west> 5.372057 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -216,7 +264,11 @@
   <Placemark id="parcelle_13_publicorassocie.7142">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132038130M0112</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">406, BD NATIONAL</SimpleData>
+		<SimpleData name="Dénomination">ETABLISSEMENT PUBLIC FONCIER PROVENCE ALPES COTE DAZUR</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -226,7 +278,7 @@
 			<west> 5.371118 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -234,7 +286,11 @@
   <Placemark id="parcelle_13_publicorassocie.7144">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132038130B0113</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">28, BD FERDINAND DE LESSEPS</SimpleData>
+		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -244,7 +300,7 @@
 			<west> 5.372699 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -252,7 +308,11 @@
   <Placemark id="parcelle_13_publicorassocie.7145">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132038120I0141</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">RUE DES FRERES PEREZ</SimpleData>
+		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -262,7 +322,7 @@
 			<west> 5.374618 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -270,7 +330,11 @@
   <Placemark id="parcelle_13_publicorassocie.7163">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132038140A0117</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">AV ROGER SALENGRO</SimpleData>
+		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -280,7 +344,7 @@
 			<west> 5.371878 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -288,7 +352,11 @@
   <Placemark id="parcelle_13_publicorassocie.7164">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132038130B0117</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">147, RUE FELIX PYAT</SimpleData>
+		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -298,7 +366,7 @@
 			<west> 5.374282 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -306,7 +374,11 @@
   <Placemark id="parcelle_13_publicorassocie.7170">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132038140A0119</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">AV ROGER SALENGRO</SimpleData>
+		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -316,7 +388,7 @@
 			<west> 5.37184 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -324,7 +396,11 @@
   <Placemark id="parcelle_13_publicorassocie.7208">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132038140C0127</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">BD NATIONAL</SimpleData>
+		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -334,7 +410,7 @@
 			<west> 5.3749 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -342,7 +418,11 @@
   <Placemark id="parcelle_13_publicorassocie.7217">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132038130B0013</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">25, RUE CARAVELLE</SimpleData>
+		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -352,7 +432,7 @@
 			<west> 5.370802 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -360,7 +440,11 @@
   <Placemark id="parcelle_13_publicorassocie.7219">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132038140D0013</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">169, AV CAMILLE PELLETAN</SimpleData>
+		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -370,7 +454,7 @@
 			<west> 5.373647 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -378,7 +462,11 @@
   <Placemark id="parcelle_13_publicorassocie.7222">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132038120I0130</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">14, RUE DES FRERES PEREZ</SimpleData>
+		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -388,7 +476,7 @@
 			<west> 5.374622 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -396,7 +484,11 @@
   <Placemark id="parcelle_13_publicorassocie.7227">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132038130H0132</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">PL LOUIS ARZIAL</SimpleData>
+		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -406,7 +498,7 @@
 			<west> 5.375983 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -414,7 +506,11 @@
   <Placemark id="parcelle_13_publicorassocie.7238">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132038120E0136</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">RUE DES TREIZE ESCALIERS</SimpleData>
+		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -424,7 +520,7 @@
 			<west> 5.374688 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -432,7 +528,11 @@
   <Placemark id="parcelle_13_publicorassocie.7239">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132038120E0137</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">RUE DES TREIZE ESCALIERS</SimpleData>
+		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -442,7 +542,7 @@
 			<west> 5.373279 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -450,7 +550,11 @@
   <Placemark id="parcelle_13_publicorassocie.7243">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132038120I0140</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">RUE DES FRERES PEREZ</SimpleData>
+		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -460,7 +564,7 @@
 			<west> 5.374418 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -468,7 +572,11 @@
   <Placemark id="parcelle_13_publicorassocie.7245">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132038120E0141</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">RUE DES TREIZE ESCALIERS</SimpleData>
+		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -478,7 +586,7 @@
 			<west> 5.374248 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -486,7 +594,11 @@
   <Placemark id="parcelle_13_publicorassocie.7253">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132038120E0143</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">RUE DES TREIZE ESCALIERS</SimpleData>
+		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -496,7 +608,7 @@
 			<west> 5.373909 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -504,7 +616,11 @@
   <Placemark id="parcelle_13_publicorassocie.7264">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132038140C0145</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">AV ROGER SALENGRO</SimpleData>
+		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -514,7 +630,7 @@
 			<west> 5.372797 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -522,7 +638,11 @@
   <Placemark id="parcelle_13_publicorassocie.7266">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132038130H0145</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">PL BELLE VUE</SimpleData>
+		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -532,7 +652,7 @@
 			<west> 5.379525 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -540,7 +660,11 @@
   <Placemark id="parcelle_13_publicorassocie.7268">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132038130H0146</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">AV BELLE VUE</SimpleData>
+		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -550,7 +674,7 @@
 			<west> 5.379571 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -558,7 +682,11 @@
   <Placemark id="parcelle_13_publicorassocie.7280">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132038140A0150</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">BD MIRABEAU</SimpleData>
+		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -568,7 +696,7 @@
 			<west> 5.369086 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -576,7 +704,11 @@
   <Placemark id="parcelle_13_publicorassocie.7298">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132038140A0154</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">RUE CHANTERAC</SimpleData>
+		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -586,7 +718,7 @@
 			<west> 5.369721 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -594,7 +726,11 @@
   <Placemark id="parcelle_13_publicorassocie.7302">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132038130H0155</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">29, RUE DANTON</SimpleData>
+		<SimpleData name="Dénomination">SNCF RESEAU</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -604,7 +740,7 @@
 			<west> 5.380517 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -612,7 +748,11 @@
   <Placemark id="parcelle_13_publicorassocie.7353">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132038140A0171</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">75, AV ROGER SALENGRO</SimpleData>
+		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -622,7 +762,7 @@
 			<west> 5.371071 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -630,7 +770,11 @@
   <Placemark id="parcelle_13_publicorassocie.7355">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132038120E0171</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">AV CAMILLE PELLETAN</SimpleData>
+		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -640,7 +784,7 @@
 			<west> 5.373315 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -648,7 +792,11 @@
   <Placemark id="parcelle_13_publicorassocie.7360">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132038140A0172</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">75, AV ROGER SALENGRO</SimpleData>
+		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -658,7 +806,7 @@
 			<west> 5.371348 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -666,7 +814,11 @@
   <Placemark id="parcelle_13_publicorassocie.7362">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132038140D0172</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">1, RUE DE GERIN RICARD</SimpleData>
+		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -676,7 +828,7 @@
 			<west> 5.372815 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -684,7 +836,11 @@
   <Placemark id="parcelle_13_publicorassocie.7364">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132038140D0173</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">1, RUE DE GERIN RICARD</SimpleData>
+		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -694,7 +850,7 @@
 			<west> 5.373407 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -702,7 +858,11 @@
   <Placemark id="parcelle_13_publicorassocie.7366">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132038140D0174</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">1, RUE DE GERIN RICARD</SimpleData>
+		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -712,7 +872,7 @@
 			<west> 5.373307 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -720,7 +880,11 @@
   <Placemark id="parcelle_13_publicorassocie.7370">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132038140D0175</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">RUE DE GERIN RICARD</SimpleData>
+		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -730,7 +894,7 @@
 			<west> 5.373387 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -738,7 +902,11 @@
   <Placemark id="parcelle_13_publicorassocie.7372">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132038140D0176</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">RUE DE GERIN RICARD</SimpleData>
+		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -748,7 +916,7 @@
 			<west> 5.373379 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -756,7 +924,11 @@
   <Placemark id="parcelle_13_publicorassocie.7390">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132038140A0182</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">178, BD DE PARIS</SimpleData>
+		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -766,7 +938,7 @@
 			<west> 5.368215 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -774,7 +946,11 @@
   <Placemark id="parcelle_13_publicorassocie.7393">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132038140A0186</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">53, AV ROGER SALENGRO</SimpleData>
+		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -784,7 +960,7 @@
 			<west> 5.371997 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -792,7 +968,11 @@
   <Placemark id="parcelle_13_publicorassocie.7419">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132038120E0206</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">30, AV CAMILLE PELLETAN</SimpleData>
+		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -802,7 +982,7 @@
 			<west> 5.374194 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -810,7 +990,11 @@
   <Placemark id="parcelle_13_publicorassocie.7436">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132038120E0213</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">AV CAMILLE PELLETAN</SimpleData>
+		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -820,7 +1004,7 @@
 			<west> 5.374139 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -828,7 +1012,11 @@
   <Placemark id="parcelle_13_publicorassocie.7438">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132038120E0214</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">18, AV CAMILLE PELLETAN</SimpleData>
+		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -838,7 +1026,7 @@
 			<west> 5.374141 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -846,7 +1034,11 @@
   <Placemark id="parcelle_13_publicorassocie.7446">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132038130M0022</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">428, BD NATIONAL</SimpleData>
+		<SimpleData name="Dénomination">FONCIER PACA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -856,7 +1048,7 @@
 			<west> 5.37147 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -864,7 +1056,11 @@
   <Placemark id="parcelle_13_publicorassocie.7457">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132038130M0023</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">430, BD NATIONAL</SimpleData>
+		<SimpleData name="Dénomination">FONCIER PACA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -874,7 +1070,7 @@
 			<west> 5.371384 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -882,7 +1078,11 @@
   <Placemark id="parcelle_13_publicorassocie.7462">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132038130A0024</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">29, BD DE BRIANCON</SimpleData>
+		<SimpleData name="Dénomination">FONCIER PACA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -892,7 +1092,7 @@
 			<west> 5.369777 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -900,7 +1100,11 @@
   <Placemark id="parcelle_13_publicorassocie.7465">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132038130M0024</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">436, BD NATIONAL</SimpleData>
+		<SimpleData name="Dénomination">FONCIER PACA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -910,7 +1114,7 @@
 			<west> 5.371133 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -918,7 +1122,11 @@
   <Placemark id="parcelle_13_publicorassocie.7510">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132038130M0028</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">446, BD NATIONAL</SimpleData>
+		<SimpleData name="Dénomination">FONCIER PACA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -928,7 +1136,7 @@
 			<west> 5.370736 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -936,7 +1144,11 @@
   <Placemark id="parcelle_13_publicorassocie.7514">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132038120A0287</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">11, RUE DESAIX</SimpleData>
+		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -946,7 +1158,7 @@
 			<west> 5.374699 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -954,7 +1166,11 @@
   <Placemark id="parcelle_13_publicorassocie.7516">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132038120E0029</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">12, AV CAMILLE PELLETAN</SimpleData>
+		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -964,7 +1180,7 @@
 			<west> 5.374293 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -972,7 +1188,11 @@
   <Placemark id="parcelle_13_publicorassocie.7525">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132038130B0030</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">147, RUE FELIX PYAT</SimpleData>
+		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -982,7 +1202,7 @@
 			<west> 5.37388 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -990,7 +1210,11 @@
   <Placemark id="parcelle_13_publicorassocie.7529">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132038120E0030</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">14, AV CAMILLE PELLETAN</SimpleData>
+		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1000,7 +1224,7 @@
 			<west> 5.374263 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1008,7 +1232,11 @@
   <Placemark id="parcelle_13_publicorassocie.7542">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132038110B0319</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">AV ALEXANDRE FLEMING</SimpleData>
+		<SimpleData name="Dénomination">SNCF RESEAU</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1018,7 +1246,7 @@
 			<west> 5.393202 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1026,7 +1254,11 @@
   <Placemark id="parcelle_13_publicorassocie.7543">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132038110B0321</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">AV ALEXANDRE FLEMING</SimpleData>
+		<SimpleData name="Dénomination">SNCF RESEAU</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1036,7 +1268,7 @@
 			<west> 5.393175 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1044,7 +1276,11 @@
   <Placemark id="parcelle_13_publicorassocie.7546">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132038110B0323</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">AV ALEXANDRE FLEMING</SimpleData>
+		<SimpleData name="Dénomination">SNCF RESEAU</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1054,7 +1290,7 @@
 			<west> 5.393194 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1062,7 +1298,11 @@
   <Placemark id="parcelle_13_publicorassocie.7555">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132038120E0034</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">20, AV CAMILLE PELLETAN</SimpleData>
+		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1072,7 +1312,7 @@
 			<west> 5.374114 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1080,7 +1320,11 @@
   <Placemark id="parcelle_13_publicorassocie.7562">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132038120E0036</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">26, AV CAMILLE PELLETAN</SimpleData>
+		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1090,7 +1334,7 @@
 			<west> 5.374004 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1098,7 +1342,11 @@
   <Placemark id="parcelle_13_publicorassocie.7564">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132038130N0036</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">162, AV ROGER SALENGRO</SimpleData>
+		<SimpleData name="Dénomination">FONCIER PACA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1108,7 +1356,7 @@
 			<west> 5.369318 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1116,7 +1364,11 @@
   <Placemark id="parcelle_13_publicorassocie.7568">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132038130N0037</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">160, AV ROGER SALENGRO</SimpleData>
+		<SimpleData name="Dénomination">FONCIER PACA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1126,7 +1378,7 @@
 			<west> 5.369364 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1134,7 +1386,11 @@
   <Placemark id="parcelle_13_publicorassocie.7588">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132038140A0042</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">50, RUE DE RUFFI</SimpleData>
+		<SimpleData name="Dénomination">CTRE COM ACTION SOCIALE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1144,7 +1400,7 @@
 			<west> 5.371274 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1152,7 +1408,11 @@
   <Placemark id="parcelle_13_publicorassocie.7605">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132038130M0044</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">RUE DU PORTAIL</SimpleData>
+		<SimpleData name="Dénomination">FONCIER PACA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1162,7 +1422,7 @@
 			<west> 5.370614 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1170,7 +1430,11 @@
   <Placemark id="parcelle_13_publicorassocie.7612">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132038130I0045</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">22, RUE JOUVEN</SimpleData>
+		<SimpleData name="Dénomination">FONCIER PACA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1180,7 +1444,7 @@
 			<west> 5.374894 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1188,7 +1452,11 @@
   <Placemark id="parcelle_13_publicorassocie.7617">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132038130I0047</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">59, RUE FELIX PYAT</SimpleData>
+		<SimpleData name="Dénomination">FONCIER PACA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1198,7 +1466,7 @@
 			<west> 5.375268 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1206,7 +1474,11 @@
   <Placemark id="parcelle_13_publicorassocie.7623">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132038130I0048</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">57, RUE FELIX PYAT</SimpleData>
+		<SimpleData name="Dénomination">FONCIER PACA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1216,7 +1488,7 @@
 			<west> 5.375319 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1224,7 +1496,11 @@
   <Placemark id="parcelle_13_publicorassocie.7626">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132038140C0049</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">35, RUE HOCHE</SimpleData>
+		<SimpleData name="Dénomination">FONCIER PACA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1234,7 +1510,7 @@
 			<west> 5.375523 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1242,7 +1518,11 @@
   <Placemark id="parcelle_13_publicorassocie.7634">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132038140C0050</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">37, RUE HOCHE</SimpleData>
+		<SimpleData name="Dénomination">FONCIER PACA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1252,7 +1532,7 @@
 			<west> 5.375591 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1260,7 +1540,11 @@
   <Placemark id="parcelle_13_publicorassocie.7647">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132038110H0052</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">RUE GUIBAL</SimpleData>
+		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1270,7 +1554,7 @@
 			<west> 5.383924 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1278,7 +1562,11 @@
   <Placemark id="parcelle_13_publicorassocie.7650">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132038130I0053</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">41, RUE FELIX PYAT</SimpleData>
+		<SimpleData name="Dénomination">FONCIER PACA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1288,7 +1576,7 @@
 			<west> 5.375615 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1296,7 +1584,11 @@
   <Placemark id="parcelle_13_publicorassocie.7673">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132038110C0006</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">RUE FRANCOIS SIMON</SimpleData>
+		<SimpleData name="Dénomination">SNCF RESEAU</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1306,7 +1598,7 @@
 			<west> 5.392626 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1314,7 +1606,11 @@
   <Placemark id="parcelle_13_publicorassocie.7682">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132038130B0061</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">TRA MAGNAN</SimpleData>
+		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1324,7 +1620,7 @@
 			<west> 5.370955 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1332,7 +1628,11 @@
   <Placemark id="parcelle_13_publicorassocie.7685">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132038130B0062</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">TRA MAGNAN</SimpleData>
+		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1342,7 +1642,7 @@
 			<west> 5.370999 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1350,7 +1650,11 @@
   <Placemark id="parcelle_13_publicorassocie.7710">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132038130B0067</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">TRA MAGNAN</SimpleData>
+		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1360,7 +1664,7 @@
 			<west> 5.371541 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1368,7 +1672,11 @@
   <Placemark id="parcelle_13_publicorassocie.7715">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132038130B0068</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">TRA MAGNAN</SimpleData>
+		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1378,7 +1686,7 @@
 			<west> 5.371605 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1386,7 +1694,11 @@
   <Placemark id="parcelle_13_publicorassocie.7721">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132038140A0007</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">97, AV ROGER SALENGRO</SimpleData>
+		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1396,7 +1708,7 @@
 			<west> 5.370611 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1404,7 +1716,11 @@
   <Placemark id="parcelle_13_publicorassocie.7735">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132038130B0073</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">TRA MAGNAN</SimpleData>
+		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1414,7 +1730,7 @@
 			<west> 5.371844 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1422,7 +1738,11 @@
   <Placemark id="parcelle_13_publicorassocie.7739">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132038130B0074</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">TRA MAGNAN</SimpleData>
+		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1432,7 +1752,7 @@
 			<west> 5.371857 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1440,7 +1760,11 @@
   <Placemark id="parcelle_13_publicorassocie.7741">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132038130B0075</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">TRA MAGNAN</SimpleData>
+		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1450,7 +1774,7 @@
 			<west> 5.371943 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1458,7 +1782,11 @@
   <Placemark id="parcelle_13_publicorassocie.7746">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132038130B0076</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">TRA MAGNAN</SimpleData>
+		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1468,7 +1796,7 @@
 			<west> 5.372071 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1476,7 +1804,11 @@
   <Placemark id="parcelle_13_publicorassocie.7757">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132038110C0008</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">RUE FRANCOIS SIMON</SimpleData>
+		<SimpleData name="Dénomination">SNCF RESEAU</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1486,7 +1818,7 @@
 			<west> 5.392495 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1494,7 +1826,11 @@
   <Placemark id="parcelle_13_publicorassocie.7765">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132038130K0082</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">RUE GAUTIER</SimpleData>
+		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1504,7 +1840,7 @@
 			<west> 5.378389 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1512,7 +1848,11 @@
   <Placemark id="parcelle_13_publicorassocie.7788">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132038130B0009</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">TRA MAGNAN</SimpleData>
+		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1522,7 +1862,7 @@
 			<west> 5.372116 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1530,7 +1870,11 @@
   <Placemark id="parcelle_13_publicorassocie.7817">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132038110L0097</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
+		<SimpleData name="Adresse">89, RUE BELLE DE MAI</SimpleData>
+		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1540,7 +1884,7 @@
 			<west> 5.382087 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>

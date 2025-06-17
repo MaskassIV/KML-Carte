@@ -2,7 +2,11 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document id="root_doc">
 <Schema name="CHATEAUNEUF-LE-ROUGE_ETAT" id="CHATEAUNEUF-LE-ROUGE_ETAT">
+	<SimpleField name="Numéro de Parcelle" type="string"></SimpleField>
+	<SimpleField name="Departement" type="string"></SimpleField>
 	<SimpleField name="Commune" type="string"></SimpleField>
+	<SimpleField name="Adresse" type="string"></SimpleField>
+	<SimpleField name="Dénomination" type="string"></SimpleField>
 </Schema>
 	<Style id="ETAT">
 		<LineStyle>
@@ -18,7 +22,11 @@
   <Placemark id="parcelle_13_etat.1519">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">13025000AK0135</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHATEAUNEUF-LE-ROUGE</SimpleData>
+		<SimpleData name="Adresse">LA GEINETTE</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -28,7 +36,7 @@
 			<west> 5.604526 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -37,7 +45,11 @@
   <Placemark id="parcelle_13_etat.2083">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">13025000AO0160</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHATEAUNEUF-LE-ROUGE</SimpleData>
+		<SimpleData name="Adresse">PONT DE BACHASSON</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -47,7 +59,7 @@
 			<west> 5.538623 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -56,7 +68,11 @@
   <Placemark id="parcelle_13_etat.3380">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">13025000AK0223</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHATEAUNEUF-LE-ROUGE</SimpleData>
+		<SimpleData name="Adresse">LA GEINETTE</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -66,7 +82,7 @@
 			<west> 5.601377 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -75,7 +91,11 @@
   <Placemark id="parcelle_13_etat.7228">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">13025000AB0086</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHATEAUNEUF-LE-ROUGE</SimpleData>
+		<SimpleData name="Adresse">LES FOURCHES</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -85,7 +105,7 @@
 			<west> 5.559027 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -94,7 +114,11 @@
   <Placemark id="parcelle_13_etat.7362">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">13025000AB0090</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHATEAUNEUF-LE-ROUGE</SimpleData>
+		<SimpleData name="Adresse">LES FOURCHES</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -104,7 +128,7 @@
 			<west> 5.559614 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>

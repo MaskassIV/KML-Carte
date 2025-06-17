@@ -2,7 +2,11 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document id="root_doc">
 <Schema name="GREASQUE_PUBLICorASSOCIE" id="GREASQUE_PUBLICorASSOCIE">
+	<SimpleField name="Numéro de Parcelle" type="string"></SimpleField>
+	<SimpleField name="Departement" type="string"></SimpleField>
 	<SimpleField name="Commune" type="string"></SimpleField>
+	<SimpleField name="Adresse" type="string"></SimpleField>
+	<SimpleField name="Dénomination" type="string"></SimpleField>
 </Schema>
 	<Style id="PUBLICorASSOCIE">
 		<LineStyle>
@@ -18,7 +22,11 @@
   <Placemark id="parcelle_13_publicorassocie.2467">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">13046000AK0172</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">GREASQUE</SimpleData>
+		<SimpleData name="Adresse">471, CHE DES GRILLONS</SimpleData>
+		<SimpleData name="Dénomination">LES OLIVIERS</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -28,7 +36,7 @@
 			<west> 5.535393 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -37,7 +45,11 @@
   <Placemark id="parcelle_13_publicorassocie.3224">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">13046000AS0213</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">GREASQUE</SimpleData>
+		<SimpleData name="Adresse">GREMINIERES CITE SUD</SimpleData>
+		<SimpleData name="Dénomination">COMPTE INDIVISAIRE DE LA PARCELLE AS 213  CHEMIN</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -47,7 +59,7 @@
 			<west> 5.536132 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -56,7 +68,11 @@
   <Placemark id="parcelle_13_publicorassocie.3247">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">13046000AE0215</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">GREASQUE</SimpleData>
+		<SimpleData name="Adresse">2, RUE EDOUARD AMALBERT</SimpleData>
+		<SimpleData name="Dénomination">SCI VILLA MARIE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -66,7 +82,7 @@
 			<west> 5.544283 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -75,7 +91,11 @@
   <Placemark id="parcelle_13_publicorassocie.3263">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">13046000AD0217</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">GREASQUE</SimpleData>
+		<SimpleData name="Adresse">ZAC DES PIERRASSONS</SimpleData>
+		<SimpleData name="Dénomination">COMPTE INDIVISAIRE DES PARCELLES AD 32 2017</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -85,7 +105,7 @@
 			<west> 5.546592 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -94,7 +114,11 @@
   <Placemark id="parcelle_13_publicorassocie.4229">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">13046000AE0030</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">GREASQUE</SimpleData>
+		<SimpleData name="Adresse">LE VILLAGE</SimpleData>
+		<SimpleData name="Dénomination">COMPTE INDIVISAIRE DE LA PARCELLE AE 8</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -104,7 +128,7 @@
 			<west> 5.543007 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -113,7 +137,11 @@
   <Placemark id="parcelle_13_publicorassocie.4414">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">13046000AD0032</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">GREASQUE</SimpleData>
+		<SimpleData name="Adresse">ZAC DES PIERRASSONS</SimpleData>
+		<SimpleData name="Dénomination">COMPTE INDIVISAIRE DES PARCELLES AD 32 2017</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -123,7 +151,7 @@
 			<west> 5.546605 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -132,7 +160,11 @@
   <Placemark id="parcelle_13_publicorassocie.4417">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">13046000AL0032</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">GREASQUE</SimpleData>
+		<SimpleData name="Adresse">GRANDE  CARRAIRE</SimpleData>
+		<SimpleData name="Dénomination">NOUR</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -142,7 +174,7 @@
 			<west> 5.542078 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -151,7 +183,11 @@
   <Placemark id="parcelle_13_publicorassocie.4636">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">13046000AE0347</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">GREASQUE</SimpleData>
+		<SimpleData name="Adresse">16, BD MARIUS OLIVE</SimpleData>
+		<SimpleData name="Dénomination">SCI VILLA MARIE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -161,7 +197,7 @@
 			<west> 5.542265 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -170,7 +206,11 @@
   <Placemark id="parcelle_13_publicorassocie.5100">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">13046000AT0043</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">GREASQUE</SimpleData>
+		<SimpleData name="Adresse">LE PASCARET</SimpleData>
+		<SimpleData name="Dénomination">VITALI REBOA HOLDING</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -180,7 +220,7 @@
 			<west> 5.536126 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -189,7 +229,11 @@
   <Placemark id="parcelle_13_publicorassocie.6299">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">13046000AB0070</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">GREASQUE</SimpleData>
+		<SimpleData name="Adresse">Z I DES PRADEAUX</SimpleData>
+		<SimpleData name="Dénomination">CHARBONNAGES DE FRANCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -199,7 +243,7 @@
 			<west> 5.540647 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -208,7 +252,11 @@
   <Placemark id="parcelle_13_publicorassocie.6583">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">13046000AE0008</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">GREASQUE</SimpleData>
+		<SimpleData name="Adresse">LE VILLAGE</SimpleData>
+		<SimpleData name="Dénomination">COMPTE INDIVISAIRE DE LA PARCELLE AE 8</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -218,7 +266,7 @@
 			<west> 5.541409 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>

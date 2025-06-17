@@ -2,7 +2,11 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document id="root_doc">
 <Schema name="MARSEILLE 14EME_PUBLICorASSOCIE" id="MARSEILLE 14EME_PUBLICorASSOCIE">
+	<SimpleField name="Numéro de Parcelle" type="string"></SimpleField>
+	<SimpleField name="Departement" type="string"></SimpleField>
 	<SimpleField name="Commune" type="string"></SimpleField>
+	<SimpleField name="Adresse" type="string"></SimpleField>
+	<SimpleField name="Dénomination" type="string"></SimpleField>
 </Schema>
 	<Style id="PUBLICorASSOCIE">
 		<LineStyle>
@@ -18,7 +22,11 @@
   <Placemark id="parcelle_13_publicorassocie.128">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148960I0184</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">34, BD MOUTON</SimpleData>
+		<SimpleData name="Dénomination">SNCF RESEAU</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -28,7 +36,7 @@
 			<west> 5.39391 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -36,7 +44,11 @@
   <Placemark id="parcelle_13_publicorassocie.136">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148960I0192</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">26, BD MOUTON</SimpleData>
+		<SimpleData name="Dénomination">SNCF RESEAU</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -46,7 +58,7 @@
 			<west> 5.393877 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -54,7 +66,11 @@
   <Placemark id="parcelle_13_publicorassocie.151">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148940E0202</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">100, BD LOUIS VILLECROZE</SimpleData>
+		<SimpleData name="Dénomination">SNCF RESEAU</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -64,7 +80,7 @@
 			<west> 5.39272 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -72,7 +88,11 @@
   <Placemark id="parcelle_13_publicorassocie.158">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148950C0218</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">TRA DU VIEUX MOULIN</SimpleData>
+		<SimpleData name="Dénomination">SNCF RESEAU</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -82,7 +102,7 @@
 			<west> 5.38248 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -90,7 +110,11 @@
   <Placemark id="parcelle_13_publicorassocie.179">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148920E0247</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">68, BD DANIELLE CASANOVA</SimpleData>
+		<SimpleData name="Dénomination">GVIO PARC MARSEILLE SUD</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -100,7 +124,7 @@
 			<west> 5.373935 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -108,7 +132,11 @@
   <Placemark id="parcelle_13_publicorassocie.180">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148940E0247</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">126, BD LOUIS VILLECROZE</SimpleData>
+		<SimpleData name="Dénomination">SNCF RESEAU</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -118,7 +146,7 @@
 			<west> 5.392574 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -126,7 +154,11 @@
   <Placemark id="parcelle_13_publicorassocie.408">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148940E0206</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">102, BD LOUIS VILLECROZE</SimpleData>
+		<SimpleData name="Dénomination">SNCF RESEAU</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -136,7 +168,7 @@
 			<west> 5.392705 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -144,7 +176,11 @@
   <Placemark id="parcelle_13_publicorassocie.428">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148900A0220</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">BD DE LA STATION</SimpleData>
+		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -154,7 +190,7 @@
 			<west> 5.381592 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -162,7 +198,11 @@
   <Placemark id="parcelle_13_publicorassocie.7073">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148950E0001</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">BD GAY LUSSAC</SimpleData>
+		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -172,7 +212,7 @@
 			<west> 5.375495 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -180,7 +220,11 @@
   <Placemark id="parcelle_13_publicorassocie.7079">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148920H0010</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">8, RUE DE BISKRA</SimpleData>
+		<SimpleData name="Dénomination">FONCIA SAGI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -190,7 +234,7 @@
 			<west> 5.375468 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -198,7 +242,11 @@
   <Placemark id="parcelle_13_publicorassocie.7085">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148920K0100</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">151, BD DANIELLE CASANOVA</SimpleData>
+		<SimpleData name="Dénomination">FONCIER PACA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -208,7 +256,7 @@
 			<west> 5.372815 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -216,7 +264,11 @@
   <Placemark id="parcelle_13_publicorassocie.7092">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148960L0102</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">CHE ST JOSEPH A STE MARTHE</SimpleData>
+		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -226,7 +278,7 @@
 			<west> 5.386687 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -234,7 +286,11 @@
   <Placemark id="parcelle_13_publicorassocie.7100">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148920K0104</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">TSSE PAYAN D AUGERY</SimpleData>
+		<SimpleData name="Dénomination">FONCIER PACA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -244,7 +300,7 @@
 			<west> 5.371968 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -252,7 +308,11 @@
   <Placemark id="parcelle_13_publicorassocie.7105">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148920K0105</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">TSSE PAYAN D AUGERY</SimpleData>
+		<SimpleData name="Dénomination">FONCIER PACA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -262,7 +322,7 @@
 			<west> 5.371978 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -270,7 +330,11 @@
   <Placemark id="parcelle_13_publicorassocie.7128">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148920K0110</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">23, TSSE PAYAN D AUGERY</SimpleData>
+		<SimpleData name="Dénomination">FONCIER PACA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -280,7 +344,7 @@
 			<west> 5.371694 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -288,7 +352,11 @@
   <Placemark id="parcelle_13_publicorassocie.7130">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148960L0110</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">BD BAZILE BARRELIER</SimpleData>
+		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -298,7 +366,7 @@
 			<west> 5.386297 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -306,7 +374,11 @@
   <Placemark id="parcelle_13_publicorassocie.7141">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148960L0112</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">BD BAZILE BARRELIER</SimpleData>
+		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -316,7 +388,7 @@
 			<west> 5.38839 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -324,7 +396,11 @@
   <Placemark id="parcelle_13_publicorassocie.7162">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148960L0116</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">1, BD NUNGESSER</SimpleData>
+		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -334,7 +410,7 @@
 			<west> 5.38699 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -342,7 +418,11 @@
   <Placemark id="parcelle_13_publicorassocie.7168">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148960H0118</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">2, PL LNT ALBERT DURAND</SimpleData>
+		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -352,7 +432,7 @@
 			<west> 5.392115 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -360,7 +440,11 @@
   <Placemark id="parcelle_13_publicorassocie.7176">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148940H0119</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">3, AV CLAUDE MONET</SimpleData>
+		<SimpleData name="Dénomination">SNCF RESEAU</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -370,7 +454,7 @@
 			<west> 5.392977 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -378,7 +462,11 @@
   <Placemark id="parcelle_13_publicorassocie.7185">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148910D0121</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">15, RUE DES FRERES CUBBEDU</SimpleData>
+		<SimpleData name="Dénomination">FONCIER PACA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -388,7 +476,7 @@
 			<west> 5.382982 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -396,7 +484,11 @@
   <Placemark id="parcelle_13_publicorassocie.7191">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148910D0122</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">13, RUE DES FRERES CUBBEDU</SimpleData>
+		<SimpleData name="Dénomination">FONCIER PACA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -406,7 +498,7 @@
 			<west> 5.382931 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -414,7 +506,11 @@
   <Placemark id="parcelle_13_publicorassocie.7195">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148910D0123</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">11, RUE DES FRERES CUBBEDU</SimpleData>
+		<SimpleData name="Dénomination">FONCIER PACA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -424,7 +520,7 @@
 			<west> 5.382875 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -432,7 +528,11 @@
   <Placemark id="parcelle_13_publicorassocie.7201">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148960H0125</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">BD ANATOLE DE LA FORGE</SimpleData>
+		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -442,7 +542,7 @@
 			<west> 5.392398 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -450,7 +550,11 @@
   <Placemark id="parcelle_13_publicorassocie.7210">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148910D0127</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">124, BD DE PLOMBIERES</SimpleData>
+		<SimpleData name="Dénomination">FONCIER PACA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -460,7 +564,7 @@
 			<west> 5.381522 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -468,7 +572,11 @@
   <Placemark id="parcelle_13_publicorassocie.7213">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148910D0128</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">1, IMP FERNAND GUIGOU</SimpleData>
+		<SimpleData name="Dénomination">FONCIER PACA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -478,7 +586,7 @@
 			<west> 5.382189 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -486,7 +594,11 @@
   <Placemark id="parcelle_13_publicorassocie.7220">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148940H0013</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">AV CLAUDE MONET</SimpleData>
+		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -496,7 +608,7 @@
 			<west> 5.392921 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -504,7 +616,11 @@
   <Placemark id="parcelle_13_publicorassocie.7228">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148940H0132</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">218, CHE SAINTE-MARTHE</SimpleData>
+		<SimpleData name="Dénomination">SNCF RESEAU</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -514,7 +630,7 @@
 			<west> 5.392664 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -522,7 +638,11 @@
   <Placemark id="parcelle_13_publicorassocie.7231">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148940H0133</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">1, AV CLAUDE MONET</SimpleData>
+		<SimpleData name="Dénomination">SNCF RESEAU</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -532,7 +652,7 @@
 			<west> 5.39294 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -540,7 +660,11 @@
   <Placemark id="parcelle_13_publicorassocie.7251">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148910C0143</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">86, BD DE PLOMBIERES</SimpleData>
+		<SimpleData name="Dénomination">FONCIER PACA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -550,7 +674,7 @@
 			<west> 5.383547 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -558,7 +682,11 @@
   <Placemark id="parcelle_13_publicorassocie.7265">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148910D0145</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">132, BD DE PLOMBIERES</SimpleData>
+		<SimpleData name="Dénomination">FONCIER PACA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -568,7 +696,7 @@
 			<west> 5.380982 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -576,7 +704,11 @@
   <Placemark id="parcelle_13_publicorassocie.7277">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148940H0149</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">RUE DE LA BUSSERINE</SimpleData>
+		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -586,7 +718,7 @@
 			<west> 5.39211 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -594,7 +726,11 @@
   <Placemark id="parcelle_13_publicorassocie.7282">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148910C0150</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">TSSE NTRE-DAME BON SECOURS</SimpleData>
+		<SimpleData name="Dénomination">FONCIER PACA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -604,7 +740,7 @@
 			<west> 5.386726 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -612,7 +748,11 @@
   <Placemark id="parcelle_13_publicorassocie.7284">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148940E0150</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">BD CHARLES MORETTI PROLONGE</SimpleData>
+		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -622,7 +762,7 @@
 			<west> 5.389922 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -630,7 +770,11 @@
   <Placemark id="parcelle_13_publicorassocie.7286">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148940H0151</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">RUE DE LA BUSSERINE</SimpleData>
+		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -640,7 +784,7 @@
 			<west> 5.392161 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -648,7 +792,11 @@
   <Placemark id="parcelle_13_publicorassocie.7335">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148950H0166</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">BD ETIENNE SOLAR</SimpleData>
+		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -658,7 +806,7 @@
 			<west> 5.379856 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -666,7 +814,11 @@
   <Placemark id="parcelle_13_publicorassocie.7356">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148940E0171</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">96, BD LOUIS VILLECROZE</SimpleData>
+		<SimpleData name="Dénomination">SNCF RESEAU</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -676,7 +828,7 @@
 			<west> 5.392612 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -684,7 +836,11 @@
   <Placemark id="parcelle_13_publicorassocie.7357">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148940H0171</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">RUE DE LA BUSSERINE</SimpleData>
+		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -694,7 +850,7 @@
 			<west> 5.39244 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -702,7 +858,11 @@
   <Placemark id="parcelle_13_publicorassocie.7365">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148960H0173</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">BD ANATOLE DE LA FORGE</SimpleData>
+		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -712,7 +872,7 @@
 			<west> 5.389447 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -720,7 +880,11 @@
   <Placemark id="parcelle_13_publicorassocie.7368">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148960H0174</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">BD ANATOLE DE LA FORGE</SimpleData>
+		<SimpleData name="Dénomination">SNCF RESEAU</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -730,7 +894,7 @@
 			<west> 5.39071 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -738,7 +902,11 @@
   <Placemark id="parcelle_13_publicorassocie.7371">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148960H0175</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">BD ANATOLE DE LA FORGE</SimpleData>
+		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -748,7 +916,7 @@
 			<west> 5.390976 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -756,7 +924,11 @@
   <Placemark id="parcelle_13_publicorassocie.7373">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148960H0176</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">BD ANATOLE DE LA FORGE</SimpleData>
+		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -766,7 +938,7 @@
 			<west> 5.390926 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -774,7 +946,11 @@
   <Placemark id="parcelle_13_publicorassocie.7391">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148910C0182</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">51, BD BUREL</SimpleData>
+		<SimpleData name="Dénomination">FONCIER PACA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -784,7 +960,7 @@
 			<west> 5.388722 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -792,7 +968,11 @@
   <Placemark id="parcelle_13_publicorassocie.7394">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148960I0186</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">32, BD MOUTON</SimpleData>
+		<SimpleData name="Dénomination">SNCF RESEAU</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -802,7 +982,7 @@
 			<west> 5.393902 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -810,7 +990,11 @@
   <Placemark id="parcelle_13_publicorassocie.7396">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148960I0188</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">30, BD MOUTON</SimpleData>
+		<SimpleData name="Dénomination">SNCF RESEAU</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -820,7 +1004,7 @@
 			<west> 5.393893 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -828,7 +1012,11 @@
   <Placemark id="parcelle_13_publicorassocie.7401">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148960I0190</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">28, BD MOUTON</SimpleData>
+		<SimpleData name="Dénomination">SNCF RESEAU</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -838,7 +1026,7 @@
 			<west> 5.393885 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -846,7 +1034,11 @@
   <Placemark id="parcelle_13_publicorassocie.7405">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148940E0198</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">122, BD LOUIS VILLECROZE</SimpleData>
+		<SimpleData name="Dénomination">SNCF RESEAU</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -856,7 +1048,7 @@
 			<west> 5.392601 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -864,7 +1056,11 @@
   <Placemark id="parcelle_13_publicorassocie.7413">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148940E0200</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">116, BD LOUIS VILLECROZE</SimpleData>
+		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -874,7 +1070,7 @@
 			<west> 5.392643 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -882,7 +1078,11 @@
   <Placemark id="parcelle_13_publicorassocie.7414">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148960I0200</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">BD JOURDAN</SimpleData>
+		<SimpleData name="Dénomination">SNCF RESEAU</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -892,7 +1092,7 @@
 			<west> 5.393966 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -900,7 +1100,11 @@
   <Placemark id="parcelle_13_publicorassocie.7416">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148950H0202</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">TRA DU VIEUX MOULIN</SimpleData>
+		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -910,7 +1114,7 @@
 			<west> 5.382301 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -918,7 +1122,11 @@
   <Placemark id="parcelle_13_publicorassocie.7417">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148940E0204</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">78, BD LOUIS VILLECROZE</SimpleData>
+		<SimpleData name="Dénomination">SNCF RESEAU</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -928,7 +1136,7 @@
 			<west> 5.392873 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -936,7 +1144,11 @@
   <Placemark id="parcelle_13_publicorassocie.7423">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148940E0208</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">94, BD LOUIS VILLECROZE</SimpleData>
+		<SimpleData name="Dénomination">SNCF RESEAU</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -946,7 +1158,7 @@
 			<west> 5.392774 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -954,7 +1166,11 @@
   <Placemark id="parcelle_13_publicorassocie.7424">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148960I0209</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">40, BD JOURDAN</SimpleData>
+		<SimpleData name="Dénomination">SNCF RESEAU</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -964,7 +1180,7 @@
 			<west> 5.394125 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -972,7 +1188,11 @@
   <Placemark id="parcelle_13_publicorassocie.7431">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148960I0210</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">RUE CADE</SimpleData>
+		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -982,7 +1202,7 @@
 			<west> 5.393368 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -990,7 +1210,11 @@
   <Placemark id="parcelle_13_publicorassocie.7433">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148940E0212</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">9, IMP DES MARRONNIERS</SimpleData>
+		<SimpleData name="Dénomination">SNCF RESEAU</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1000,7 +1224,7 @@
 			<west> 5.392892 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1008,7 +1232,11 @@
   <Placemark id="parcelle_13_publicorassocie.7439">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148940E0216</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">118, BD LOUIS VILLECROZE</SimpleData>
+		<SimpleData name="Dénomination">SNCF RESEAU</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1018,7 +1246,7 @@
 			<west> 5.392611 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1026,7 +1254,11 @@
   <Placemark id="parcelle_13_publicorassocie.7440">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148940E0218</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">120, BD LOUIS VILLECROZE</SimpleData>
+		<SimpleData name="Dénomination">SNCF RESEAU</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1036,7 +1268,7 @@
 			<west> 5.392633 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1044,7 +1276,11 @@
   <Placemark id="parcelle_13_publicorassocie.7441">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148900A0219</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">BD DE LA STATION</SimpleData>
+		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1054,7 +1290,7 @@
 			<west> 5.379089 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1062,7 +1298,11 @@
   <Placemark id="parcelle_13_publicorassocie.7444">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148940E0022</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">TSSE DE GIBRALTAR</SimpleData>
+		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1072,7 +1312,7 @@
 			<west> 5.392446 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1080,7 +1320,11 @@
   <Placemark id="parcelle_13_publicorassocie.7447">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148950C0224</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">CHE ST JOSEPH A STE MARTHE</SimpleData>
+		<SimpleData name="Dénomination">SNCF RESEAU</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1090,7 +1334,7 @@
 			<west> 5.382225 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1098,7 +1342,11 @@
   <Placemark id="parcelle_13_publicorassocie.7448">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148940E0225</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">104, BD LOUIS VILLECROZE</SimpleData>
+		<SimpleData name="Dénomination">SNCF RESEAU</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1108,7 +1356,7 @@
 			<west> 5.392692 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1116,7 +1364,11 @@
   <Placemark id="parcelle_13_publicorassocie.7456">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148920K0023</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">149, BD DANIELLE CASANOVA</SimpleData>
+		<SimpleData name="Dénomination">FONCIER PACA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1126,7 +1378,7 @@
 			<west> 5.374414 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1134,7 +1386,11 @@
   <Placemark id="parcelle_13_publicorassocie.7461">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148910C0238</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">47, BD BUREL</SimpleData>
+		<SimpleData name="Dénomination">FONCIER PACA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1144,7 +1400,7 @@
 			<west> 5.388325 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1152,7 +1408,11 @@
   <Placemark id="parcelle_13_publicorassocie.7468">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148900C0243</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">CHE DE GIBBES</SimpleData>
+		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1162,7 +1422,7 @@
 			<west> 5.386178 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1170,7 +1430,11 @@
   <Placemark id="parcelle_13_publicorassocie.7471">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148900C0244</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">CHE DE GIBBES</SimpleData>
+		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1180,7 +1444,7 @@
 			<west> 5.386373 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1188,7 +1452,11 @@
   <Placemark id="parcelle_13_publicorassocie.7472">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148940E0245</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">128, BD LOUIS VILLECROZE</SimpleData>
+		<SimpleData name="Dénomination">SNCF RESEAU</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1198,7 +1466,7 @@
 			<west> 5.392457 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1206,7 +1474,11 @@
   <Placemark id="parcelle_13_publicorassocie.7474">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148900A0247</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">31, BD DE LA STATION</SimpleData>
+		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1216,7 +1488,7 @@
 			<west> 5.378691 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1224,7 +1496,11 @@
   <Placemark id="parcelle_13_publicorassocie.7477">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148920I0025</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">TRA DU BACHAS</SimpleData>
+		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1234,7 +1510,7 @@
 			<west> 5.369738 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1242,7 +1518,11 @@
   <Placemark id="parcelle_13_publicorassocie.7478">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148940E0251</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">4, BD JEAN CASSE</SimpleData>
+		<SimpleData name="Dénomination">SNCF RESEAU</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1252,7 +1532,7 @@
 			<west> 5.393113 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1260,7 +1540,11 @@
   <Placemark id="parcelle_13_publicorassocie.7479">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148950H0251</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">1, TRA DU VIEUX MOULIN</SimpleData>
+		<SimpleData name="Dénomination">SNCF RESEAU</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1270,7 +1554,7 @@
 			<west> 5.382169 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1278,7 +1562,11 @@
   <Placemark id="parcelle_13_publicorassocie.7480">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148950H0252</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">1, TRA DU VIEUX MOULIN</SimpleData>
+		<SimpleData name="Dénomination">SNCF RESEAU</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1288,7 +1576,7 @@
 			<west> 5.381846 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1296,7 +1584,11 @@
   <Placemark id="parcelle_13_publicorassocie.7482">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148940E0253</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">4, BD JEAN CASSE</SimpleData>
+		<SimpleData name="Dénomination">SNCF RESEAU</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1306,7 +1598,7 @@
 			<west> 5.39311 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1314,7 +1606,11 @@
   <Placemark id="parcelle_13_publicorassocie.7483">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148950H0253</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">TRA DU VIEUX MOULIN</SimpleData>
+		<SimpleData name="Dénomination">SNCF RESEAU</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1324,7 +1620,7 @@
 			<west> 5.382182 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1332,7 +1628,11 @@
   <Placemark id="parcelle_13_publicorassocie.7486">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148950H0254</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">TRA DU VIEUX MOULIN</SimpleData>
+		<SimpleData name="Dénomination">SNCF RESEAU</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1342,7 +1642,7 @@
 			<west> 5.382313 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1350,7 +1650,11 @@
   <Placemark id="parcelle_13_publicorassocie.7487">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148940E0255</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">26, BD JEAN CASSE</SimpleData>
+		<SimpleData name="Dénomination">SNCF RESEAU</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1360,7 +1664,7 @@
 			<west> 5.393194 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1368,7 +1672,11 @@
   <Placemark id="parcelle_13_publicorassocie.7488">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148940D0255</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">BD JEAN CASSE</SimpleData>
+		<SimpleData name="Dénomination">SNCF RESEAU</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1378,7 +1686,7 @@
 			<west> 5.392946 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1386,7 +1694,11 @@
   <Placemark id="parcelle_13_publicorassocie.7489">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148940E0256</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">26, BD JEAN CASSE</SimpleData>
+		<SimpleData name="Dénomination">SNCF RESEAU</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1396,7 +1708,7 @@
 			<west> 5.393373 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1404,7 +1716,11 @@
   <Placemark id="parcelle_13_publicorassocie.7492">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148920B0026</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">31, BD CHARLES MORETTI</SimpleData>
+		<SimpleData name="Dénomination">FONCIER PACA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1414,7 +1730,7 @@
 			<west> 5.381991 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1422,7 +1738,11 @@
   <Placemark id="parcelle_13_publicorassocie.7536">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148940H0031</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">CHE SAINTE-MARTHE</SimpleData>
+		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1432,7 +1752,7 @@
 			<west> 5.388021 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1440,7 +1760,11 @@
   <Placemark id="parcelle_13_publicorassocie.7550">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148940H0033</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">CHE SAINTE-MARTHE</SimpleData>
+		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1450,7 +1774,7 @@
 			<west> 5.391351 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1458,7 +1782,11 @@
   <Placemark id="parcelle_13_publicorassocie.7554">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148950B0034</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">TRA DES ARCADES</SimpleData>
+		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1468,7 +1796,7 @@
 			<west> 5.376336 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1476,7 +1804,11 @@
   <Placemark id="parcelle_13_publicorassocie.7558">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148920I0035</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">89, BD DANIELLE CASANOVA</SimpleData>
+		<SimpleData name="Dénomination">FONCIER PACA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1486,7 +1818,7 @@
 			<west> 5.373084 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1494,7 +1826,11 @@
   <Placemark id="parcelle_13_publicorassocie.7579">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148920K0040</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">127, BD DANIELLE CASANOVA</SimpleData>
+		<SimpleData name="Dénomination">FONCIER PACA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1504,7 +1840,7 @@
 			<west> 5.373639 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1512,7 +1848,11 @@
   <Placemark id="parcelle_13_publicorassocie.7591">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148920K0042</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">139, BD DANIELLE CASANOVA</SimpleData>
+		<SimpleData name="Dénomination">FONCIER PACA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1522,7 +1862,7 @@
 			<west> 5.374321 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1530,7 +1870,11 @@
   <Placemark id="parcelle_13_publicorassocie.7602">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148900B0044</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">AV ARNAVON</SimpleData>
+		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1540,7 +1884,7 @@
 			<west> 5.386697 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1548,7 +1892,11 @@
   <Placemark id="parcelle_13_publicorassocie.7607">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148930B0440</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">9, IMP SPINELLI</SimpleData>
+		<SimpleData name="Dénomination">LES COINDIVISAIRES DE LA PARCELLE 893 B 440</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1558,7 +1906,7 @@
 			<west> 5.409308 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1566,7 +1914,11 @@
   <Placemark id="parcelle_13_publicorassocie.7609">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148900B0045</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">AV ARNAVON</SimpleData>
+		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1576,7 +1928,7 @@
 			<west> 5.386944 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1584,7 +1936,11 @@
   <Placemark id="parcelle_13_publicorassocie.7618">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148920K0047</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">54, BD DU CAPITAINE GEZE</SimpleData>
+		<SimpleData name="Dénomination">FONCIER PACA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1594,7 +1950,7 @@
 			<west> 5.372548 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1602,7 +1958,11 @@
   <Placemark id="parcelle_13_publicorassocie.7638">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148900H0050</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">15, IMP DES DEUX FRERES ROMANETTI</SimpleData>
+		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1612,7 +1972,7 @@
 			<west> 5.380185 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1620,7 +1980,11 @@
   <Placemark id="parcelle_13_publicorassocie.7649">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148940E0053</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">5, IMP DES MARRONNIERS</SimpleData>
+		<SimpleData name="Dénomination">SNCF RESEAU</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1630,7 +1994,7 @@
 			<west> 5.392646 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1638,7 +2002,11 @@
   <Placemark id="parcelle_13_publicorassocie.7652">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148910C0054</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">30, BD DE PLOMBIERES</SimpleData>
+		<SimpleData name="Dénomination">FONCIER PACA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1648,7 +2016,7 @@
 			<west> 5.386706 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1656,7 +2024,11 @@
   <Placemark id="parcelle_13_publicorassocie.7653">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148940E0054</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">IMP DES MARRONNIERS</SimpleData>
+		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1666,7 +2038,7 @@
 			<west> 5.392754 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1674,7 +2046,11 @@
   <Placemark id="parcelle_13_publicorassocie.7657">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148920K0055</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">56, BD DU CAPITAINE GEZE</SimpleData>
+		<SimpleData name="Dénomination">FONCIER PACA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1684,7 +2060,7 @@
 			<west> 5.372426 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1692,7 +2068,11 @@
   <Placemark id="parcelle_13_publicorassocie.7670">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148920H0059</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">122, BD DANIELLE CASANOVA</SimpleData>
+		<SimpleData name="Dénomination">ALEX</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1702,7 +2082,7 @@
 			<west> 5.374829 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1710,7 +2090,11 @@
   <Placemark id="parcelle_13_publicorassocie.7677">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148900L0006</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">AV DES AYGALADES</SimpleData>
+		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1720,7 +2104,7 @@
 			<west> 5.366808 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1728,7 +2112,11 @@
   <Placemark id="parcelle_13_publicorassocie.7681">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148960M0060</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">27, BD COLI</SimpleData>
+		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1738,7 +2126,7 @@
 			<west> 5.386019 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1746,7 +2134,11 @@
   <Placemark id="parcelle_13_publicorassocie.7700">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148920I0064</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">11, BD DANIELLE CASANOVA</SimpleData>
+		<SimpleData name="Dénomination">FONCIER PACA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1756,7 +2148,7 @@
 			<west> 5.37421 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1764,7 +2156,11 @@
   <Placemark id="parcelle_13_publicorassocie.7712">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148920K0067</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">TSSE PAYAN D AUGERY</SimpleData>
+		<SimpleData name="Dénomination">FONCIER PACA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1774,7 +2170,7 @@
 			<west> 5.372022 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1782,7 +2178,11 @@
   <Placemark id="parcelle_13_publicorassocie.7719">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148940H0069</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">CHE SAINTE-MARTHE</SimpleData>
+		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1792,7 +2192,7 @@
 			<west> 5.389555 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1800,7 +2200,11 @@
   <Placemark id="parcelle_13_publicorassocie.7727">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148940H0070</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">CHE SAINTE-MARTHE</SimpleData>
+		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1810,7 +2214,7 @@
 			<west> 5.388402 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1818,7 +2222,11 @@
   <Placemark id="parcelle_13_publicorassocie.7728">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148950C0071</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">TRA DU VIEUX MOULIN</SimpleData>
+		<SimpleData name="Dénomination">SNCF RESEAU</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1828,7 +2236,7 @@
 			<west> 5.3824 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1836,7 +2244,11 @@
   <Placemark id="parcelle_13_publicorassocie.7736">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148950C0073</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">TRA DU VIEUX MOULIN</SimpleData>
+		<SimpleData name="Dénomination">SNCF RESEAU</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1846,7 +2258,7 @@
 			<west> 5.382372 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1854,7 +2266,11 @@
   <Placemark id="parcelle_13_publicorassocie.7747">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148960M0076</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">CHE ST JOSEPH A STE MARTHE</SimpleData>
+		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1864,7 +2280,7 @@
 			<west> 5.385516 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1872,7 +2288,11 @@
   <Placemark id="parcelle_13_publicorassocie.7812">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148910C0096</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">80, BD DE PLOMBIERES</SimpleData>
+		<SimpleData name="Dénomination">FONCIER PACA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1882,7 +2302,7 @@
 			<west> 5.383991 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1890,7 +2310,11 @@
   <Placemark id="parcelle_13_publicorassocie.7822">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">132148920K0098</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
+		<SimpleData name="Adresse">151, BD DANIELLE CASANOVA</SimpleData>
+		<SimpleData name="Dénomination">FONCIER PACA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1900,7 +2324,7 @@
 			<west> 5.372755 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>

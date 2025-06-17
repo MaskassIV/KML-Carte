@@ -2,7 +2,11 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document id="root_doc">
 <Schema name="MARSEILLE 7EME_region" id="MARSEILLE 7EME_region">
+	<SimpleField name="Numéro de Parcelle" type="string"></SimpleField>
+	<SimpleField name="Departement" type="string"></SimpleField>
 	<SimpleField name="Commune" type="string"></SimpleField>
+	<SimpleField name="Adresse" type="string"></SimpleField>
+	<SimpleField name="Dénomination" type="string"></SimpleField>
 </Schema>
 	<Style id="region">
 		<LineStyle>
@@ -18,7 +22,11 @@
   <Placemark id="parcelle_13_region.5">
 <styleUrl>#region</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_region">
+		<SimpleData name="Numéro de Parcelle">132078340C0054</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 7EME</SimpleData>
+		<SimpleData name="Adresse">8, RUE DU REMPART</SimpleData>
+		<SimpleData name="Dénomination">REGION PROVENCE-ALPES-COTE DAZUR</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -28,7 +36,7 @@
 			<west> 5.364198 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -36,7 +44,11 @@
   <Placemark id="parcelle_13_region.140">
 <styleUrl>#region</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_region">
+		<SimpleData name="Numéro de Parcelle">132078350E0178</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 7EME</SimpleData>
+		<SimpleData name="Adresse">13, AV DE LA CORSE</SimpleData>
+		<SimpleData name="Dénomination">REGION PROVENCE-ALPES-COTE DAZUR</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -46,7 +58,7 @@
 			<west> 5.364876 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -54,7 +66,11 @@
   <Placemark id="parcelle_13_region.163">
 <styleUrl>#region</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_region">
+		<SimpleData name="Numéro de Parcelle">132078340A0003</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 7EME</SimpleData>
+		<SimpleData name="Adresse">48, RUE CHARRAS</SimpleData>
+		<SimpleData name="Dénomination">REGION PROVENCE-ALPES-COTE DAZUR</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -64,7 +80,7 @@
 			<west> 5.356894 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -72,7 +88,11 @@
   <Placemark id="parcelle_13_region.202">
 <styleUrl>#region</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_region">
+		<SimpleData name="Numéro de Parcelle">132078290K0059</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 7EME</SimpleData>
+		<SimpleData name="Adresse">285, VC DU PDT JOHN F KENNEDY</SimpleData>
+		<SimpleData name="Dénomination">ASSISTANCE PUBLIQUE DES HOPITAUX DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -82,7 +102,7 @@
 			<west> 5.357089 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -90,7 +110,11 @@
   <Placemark id="parcelle_13_region.203">
 <styleUrl>#region</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_region">
+		<SimpleData name="Numéro de Parcelle">132078290K0006</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 7EME</SimpleData>
+		<SimpleData name="Adresse">275, VC DU PDT JOHN F KENNEDY</SimpleData>
+		<SimpleData name="Dénomination">ASSISTANCE PUBLIQUE DES HOPITAUX DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -100,7 +124,7 @@
 			<west> 5.35505 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>

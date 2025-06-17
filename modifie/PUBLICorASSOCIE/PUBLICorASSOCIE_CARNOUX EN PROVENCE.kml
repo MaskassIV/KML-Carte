@@ -2,7 +2,11 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document id="root_doc">
 <Schema name="CARNOUX EN PROVENCE_PUBLICorASSOCIE" id="CARNOUX EN PROVENCE_PUBLICorASSOCIE">
+	<SimpleField name="Numéro de Parcelle" type="string"></SimpleField>
+	<SimpleField name="Departement" type="string"></SimpleField>
 	<SimpleField name="Commune" type="string"></SimpleField>
+	<SimpleField name="Adresse" type="string"></SimpleField>
+	<SimpleField name="Dénomination" type="string"></SimpleField>
 </Schema>
 	<Style id="PUBLICorASSOCIE">
 		<LineStyle>
@@ -18,7 +22,11 @@
   <Placemark id="parcelle_13_publicorassocie.157">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">13119000AM0217</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CARNOUX EN PROVENCE</SimpleData>
+		<SimpleData name="Adresse">16, AV MAL JOSEPH JOFFRE</SimpleData>
+		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -28,7 +36,7 @@
 			<west> 5.550891 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -37,7 +45,11 @@
   <Placemark id="parcelle_13_publicorassocie.3433">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">13119000AC0231</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CARNOUX EN PROVENCE</SimpleData>
+		<SimpleData name="Adresse">LA TOUR</SimpleData>
+		<SimpleData name="Dénomination">L HOMME ROUGE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -47,7 +59,7 @@
 			<west> 5.555138 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -56,7 +68,11 @@
   <Placemark id="parcelle_13_publicorassocie.3691">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">13119000AM0253</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CARNOUX EN PROVENCE</SimpleData>
+		<SimpleData name="Adresse">5, AV MAL LECLERC DE HAUTECLOQUE</SimpleData>
+		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -66,7 +82,7 @@
 			<west> 5.550829 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -75,7 +91,11 @@
   <Placemark id="parcelle_13_publicorassocie.4391">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">13119000AB0316</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CARNOUX EN PROVENCE</SimpleData>
+		<SimpleData name="Adresse">LE STADE</SimpleData>
+		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -85,7 +105,7 @@
 			<west> 5.550775 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -94,7 +114,11 @@
   <Placemark id="parcelle_13_publicorassocie.4398">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">13119000AB0317</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CARNOUX EN PROVENCE</SimpleData>
+		<SimpleData name="Adresse">LE STADE</SimpleData>
+		<SimpleData name="Dénomination">SNCF RESEAU</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -104,7 +128,7 @@
 			<west> 5.550922 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -113,7 +137,11 @@
   <Placemark id="parcelle_13_publicorassocie.7043">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
+		<SimpleData name="Numéro de Parcelle">13119000AB0099</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CARNOUX EN PROVENCE</SimpleData>
+		<SimpleData name="Adresse">LE STADE</SimpleData>
+		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -123,7 +151,7 @@
 			<west> 5.550626 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>

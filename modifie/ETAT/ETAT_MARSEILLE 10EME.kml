@@ -2,7 +2,11 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document id="root_doc">
 <Schema name="MARSEILLE 10EME_ETAT" id="MARSEILLE 10EME_ETAT">
+	<SimpleField name="Numéro de Parcelle" type="string"></SimpleField>
+	<SimpleField name="Departement" type="string"></SimpleField>
 	<SimpleField name="Commune" type="string"></SimpleField>
+	<SimpleField name="Adresse" type="string"></SimpleField>
+	<SimpleField name="Dénomination" type="string"></SimpleField>
 </Schema>
 	<Style id="ETAT">
 		<LineStyle>
@@ -18,7 +22,11 @@
   <Placemark id="parcelle_13_etat.36">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132108570B0125</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
+		<SimpleData name="Adresse">BD MIREILLE LAUZE</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -28,7 +36,7 @@
 			<west> 5.423907 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -36,7 +44,11 @@
   <Placemark id="parcelle_13_etat.262">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132108600B0068</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
+		<SimpleData name="Adresse">5, IMP DES MAGNOLIAS</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -46,7 +58,7 @@
 			<west> 5.424163 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -54,7 +66,11 @@
   <Placemark id="parcelle_13_etat.421">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132108600B0061</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
+		<SimpleData name="Adresse">11, IMP DES MAGNOLIAS</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -64,7 +80,7 @@
 			<west> 5.423608 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -72,7 +88,11 @@
   <Placemark id="parcelle_13_etat.422">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132108600B0093</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
+		<SimpleData name="Adresse">35, AV DESIRE BIANCO</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -82,7 +102,7 @@
 			<west> 5.424787 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -90,7 +110,11 @@
   <Placemark id="parcelle_13_etat.423">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132108600A0009</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
+		<SimpleData name="Adresse">380, RUE SAINT-PIERRE</SimpleData>
+		<SimpleData name="Dénomination">COMMUN URBAIN MARSEILLE PROVENC METROPOL</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -100,7 +124,7 @@
 			<west> 5.42319 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -108,7 +132,11 @@
   <Placemark id="parcelle_13_etat.7643">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132108600A0010</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
+		<SimpleData name="Adresse">380, RUE SAINT-PIERRE</SimpleData>
+		<SimpleData name="Dénomination">COMMUN URBAIN MARSEILLE PROVENC METROPOL</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -118,7 +146,7 @@
 			<west> 5.423188 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -126,7 +154,11 @@
   <Placemark id="parcelle_13_etat.7664">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132108570B0103</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
+		<SimpleData name="Adresse">318, BD MIREILLE LAUZE</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -136,7 +168,7 @@
 			<west> 5.423732 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -144,7 +176,11 @@
   <Placemark id="parcelle_13_etat.7677">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132108570B0105</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
+		<SimpleData name="Adresse">312, BD MIREILLE LAUZE</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -154,7 +190,7 @@
 			<west> 5.423088 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -162,7 +198,11 @@
   <Placemark id="parcelle_13_etat.7684">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132108570B0107</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
+		<SimpleData name="Adresse">326, BD MIREILLE LAUZE</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -172,7 +212,7 @@
 			<west> 5.424008 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -180,7 +220,11 @@
   <Placemark id="parcelle_13_etat.7688">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132108570B0108</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
+		<SimpleData name="Adresse">328, BD MIREILLE LAUZE</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -190,7 +234,7 @@
 			<west> 5.42412 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -198,7 +242,11 @@
   <Placemark id="parcelle_13_etat.7693">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132108570B0109</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
+		<SimpleData name="Adresse">332, BD MIREILLE LAUZE</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -208,7 +256,7 @@
 			<west> 5.424351 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -216,7 +264,11 @@
   <Placemark id="parcelle_13_etat.7710">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132108570B0110</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
+		<SimpleData name="Adresse">314, BD MIREILLE LAUZE</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -226,7 +278,7 @@
 			<west> 5.423363 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -234,7 +286,11 @@
   <Placemark id="parcelle_13_etat.7714">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132108570B0111</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
+		<SimpleData name="Adresse">330, BD MIREILLE LAUZE</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -244,7 +300,7 @@
 			<west> 5.424234 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -252,7 +308,11 @@
   <Placemark id="parcelle_13_etat.7748">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132108580M0118</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
+		<SimpleData name="Adresse">5, TRA CHANTE PERDRIX</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -262,7 +322,7 @@
 			<west> 5.428479 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -270,7 +330,11 @@
   <Placemark id="parcelle_13_etat.7750">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132108570B0119</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
+		<SimpleData name="Adresse">334, BD MIREILLE LAUZE</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -280,7 +344,7 @@
 			<west> 5.424465 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -288,7 +352,11 @@
   <Placemark id="parcelle_13_etat.7752">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132108600A0012</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
+		<SimpleData name="Adresse">380, RUE SAINT-PIERRE</SimpleData>
+		<SimpleData name="Dénomination">COMMUN URBAIN MARSEILLE PROVENC METROPOL</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -298,7 +366,7 @@
 			<west> 5.406661 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -306,7 +374,11 @@
   <Placemark id="parcelle_13_etat.7776">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132108600C0122</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
+		<SimpleData name="Adresse">220, CHE DE L ARMEE D AFRIQUE</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -316,7 +388,7 @@
 			<west> 5.416493 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -324,7 +396,11 @@
   <Placemark id="parcelle_13_etat.7777">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132108560D0122</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
+		<SimpleData name="Adresse">9, RUE PAUL CASIMIR</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -334,7 +410,7 @@
 			<west> 5.396424 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -342,7 +418,11 @@
   <Placemark id="parcelle_13_etat.7787">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132108570E0124</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
+		<SimpleData name="Adresse">39, RUE FRANCOIS MAURIAC</SimpleData>
+		<SimpleData name="Dénomination">COMMUN URBAIN MARSEILLE PROVENC METROPOL</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -352,7 +432,7 @@
 			<west> 5.416874 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -360,7 +440,11 @@
   <Placemark id="parcelle_13_etat.7790">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132108600C0125</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
+		<SimpleData name="Adresse">CHE DE L ARMEE D AFRIQUE</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -370,7 +454,7 @@
 			<west> 5.417046 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -378,7 +462,11 @@
   <Placemark id="parcelle_13_etat.7804">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132108600C0133</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
+		<SimpleData name="Adresse">BD MIREILLE LAUZE</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -388,7 +476,7 @@
 			<west> 5.417494 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -396,7 +484,11 @@
   <Placemark id="parcelle_13_etat.7808">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132108600C0128</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
+		<SimpleData name="Adresse">CHE DE L ARMEE D AFRIQUE</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -406,7 +498,7 @@
 			<west> 5.41738 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -414,7 +506,11 @@
   <Placemark id="parcelle_13_etat.7832">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132108600C0131</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
+		<SimpleData name="Adresse">171, BD MIREILLE LAUZE</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -424,7 +520,7 @@
 			<west> 5.416796 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -432,7 +528,11 @@
   <Placemark id="parcelle_13_etat.7841">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132108570B0134</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
+		<SimpleData name="Adresse">BD MIREILLE LAUZE</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -442,7 +542,7 @@
 			<west> 5.425226 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -450,7 +550,11 @@
   <Placemark id="parcelle_13_etat.7857">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132108600B0014</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
+		<SimpleData name="Adresse">20, IMP DES MAGNOLIAS</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -460,7 +564,7 @@
 			<west> 5.424136 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -468,7 +572,11 @@
   <Placemark id="parcelle_13_etat.7891">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132108600K0154</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
+		<SimpleData name="Adresse">31, RUE DU CANADA</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -478,7 +586,7 @@
 			<west> 5.400204 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -486,7 +594,11 @@
   <Placemark id="parcelle_13_etat.7892">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132108570B0155</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
+		<SimpleData name="Adresse">5, IMP FLORIAN</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -496,7 +608,7 @@
 			<west> 5.426418 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -504,7 +616,11 @@
   <Placemark id="parcelle_13_etat.7894">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132108600K0155</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
+		<SimpleData name="Adresse">31, RUE DU CANADA</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -514,7 +630,7 @@
 			<west> 5.400281 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -522,7 +638,11 @@
   <Placemark id="parcelle_13_etat.7895">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132108570B0156</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
+		<SimpleData name="Adresse">5, IMP FLORIAN</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -532,7 +652,7 @@
 			<west> 5.426489 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -540,7 +660,11 @@
   <Placemark id="parcelle_13_etat.7905">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132108600B0016</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
+		<SimpleData name="Adresse">604, RUE SAINT-PIERRE</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -550,7 +674,7 @@
 			<west> 5.42428 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -558,7 +682,11 @@
   <Placemark id="parcelle_13_etat.7924">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132108600B0017</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
+		<SimpleData name="Adresse">18, IMP DES MAGNOLIAS</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -568,7 +696,7 @@
 			<west> 5.424277 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -576,7 +704,11 @@
   <Placemark id="parcelle_13_etat.7944">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132108560D0174</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
+		<SimpleData name="Adresse">3, AV ARTHUR SCOTT</SimpleData>
+		<SimpleData name="Dénomination">COMMUN URBAIN MARSEILLE PROVENC METROPOL</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -586,7 +718,7 @@
 			<west> 5.39459 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -594,7 +726,11 @@
   <Placemark id="parcelle_13_etat.7994">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132108600B0019</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
+		<SimpleData name="Adresse">608, RUE SAINT-PIERRE</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -604,7 +740,7 @@
 			<west> 5.424621 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -612,7 +748,11 @@
   <Placemark id="parcelle_13_etat.8002">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132108600C0191</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
+		<SimpleData name="Adresse">BD MIREILLE LAUZE</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -622,7 +762,7 @@
 			<west> 5.414002 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -630,7 +770,11 @@
   <Placemark id="parcelle_13_etat.8007">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132108600C0193</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
+		<SimpleData name="Adresse">BD MIREILLE LAUZE</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -640,7 +784,7 @@
 			<west> 5.414017 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -648,7 +792,11 @@
   <Placemark id="parcelle_13_etat.8129">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132108580C0025</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
+		<SimpleData name="Adresse">121, BD DE SAINT-LOUP</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -658,7 +806,7 @@
 			<west> 5.434222 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -666,7 +814,11 @@
   <Placemark id="parcelle_13_etat.8190">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132108580R0299</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
+		<SimpleData name="Adresse">TRA DE LA RUSTIQUE</SimpleData>
+		<SimpleData name="Dénomination">COMMUN URBAIN MARSEILLE PROVENC METROPOL</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -676,7 +828,7 @@
 			<west> 5.436763 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -684,7 +836,11 @@
   <Placemark id="parcelle_13_etat.8209">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132108580R0300</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
+		<SimpleData name="Adresse">TRA DE LA RUSTIQUE</SimpleData>
+		<SimpleData name="Dénomination">COMMUN URBAIN MARSEILLE PROVENC METROPOL</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -694,7 +850,7 @@
 			<west> 5.436708 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -702,7 +858,11 @@
   <Placemark id="parcelle_13_etat.8271">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132108600B0037</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
+		<SimpleData name="Adresse">35, AV DESIRE BIANCO</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -712,7 +872,7 @@
 			<west> 5.424775 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -720,7 +880,11 @@
   <Placemark id="parcelle_13_etat.8324">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132108600B0043</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
+		<SimpleData name="Adresse">25, AV DESIRE BIANCO</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -730,7 +894,7 @@
 			<west> 5.424769 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -738,7 +902,11 @@
   <Placemark id="parcelle_13_etat.8331">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132108570B0044</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
+		<SimpleData name="Adresse">AV FLORIAN</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -748,7 +916,7 @@
 			<west> 5.425859 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -756,7 +924,11 @@
   <Placemark id="parcelle_13_etat.8343">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132108570B0045</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
+		<SimpleData name="Adresse">AV FLORIAN</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -766,7 +938,7 @@
 			<west> 5.426487 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -774,7 +946,11 @@
   <Placemark id="parcelle_13_etat.8346">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132108550P0045</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
+		<SimpleData name="Adresse">BD DES ACIERIES</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -784,7 +960,7 @@
 			<west> 5.403667 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -792,7 +968,11 @@
   <Placemark id="parcelle_13_etat.8349">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132108600B0046</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
+		<SimpleData name="Adresse">AV DESIRE BIANCO</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -802,7 +982,7 @@
 			<west> 5.423952 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -810,7 +990,11 @@
   <Placemark id="parcelle_13_etat.8350">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132108600D0046</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
+		<SimpleData name="Adresse">87, BD MIREILLE LAUZE</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -820,7 +1004,7 @@
 			<west> 5.408473 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -828,7 +1012,11 @@
   <Placemark id="parcelle_13_etat.8353">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132108600B0047</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
+		<SimpleData name="Adresse">21, AV DESIRE BIANCO</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -838,7 +1026,7 @@
 			<west> 5.424761 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -846,7 +1034,11 @@
   <Placemark id="parcelle_13_etat.8423">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132108600D0055</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
+		<SimpleData name="Adresse">162, AV DE LA TIMONE</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -856,7 +1048,7 @@
 			<west> 5.407322 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -864,7 +1056,11 @@
   <Placemark id="parcelle_13_etat.8459">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132108600B0006</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
+		<SimpleData name="Adresse">IMP DES MAGNOLIAS</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -874,7 +1070,7 @@
 			<west> 5.424244 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -882,7 +1078,11 @@
   <Placemark id="parcelle_13_etat.8480">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132108570B0061</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
+		<SimpleData name="Adresse">304, BD MIREILLE LAUZE</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -892,7 +1092,7 @@
 			<west> 5.422652 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -900,7 +1100,11 @@
   <Placemark id="parcelle_13_etat.8511">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132108600B0065</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
+		<SimpleData name="Adresse">41, AV DESIRE BIANCO</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -910,7 +1114,7 @@
 			<west> 5.4248 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -918,7 +1122,11 @@
   <Placemark id="parcelle_13_etat.8556">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132108600B0070</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
+		<SimpleData name="Adresse">11, IMP DES MAGNOLIAS</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -928,7 +1136,7 @@
 			<west> 5.424167 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -936,7 +1144,11 @@
   <Placemark id="parcelle_13_etat.8569">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132108600B0072</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
+		<SimpleData name="Adresse">9, IMP DES MAGNOLIAS</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -946,7 +1158,7 @@
 			<west> 5.424164 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -954,7 +1166,11 @@
   <Placemark id="parcelle_13_etat.8583">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132108600B0074</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
+		<SimpleData name="Adresse">1, IMP DES MAGNOLIAS</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -964,7 +1180,7 @@
 			<west> 5.424161 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -972,7 +1188,11 @@
   <Placemark id="parcelle_13_etat.8585">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132108570E0074</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
+		<SimpleData name="Adresse">154, BD ROMAIN ROLLAND</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -982,7 +1202,7 @@
 			<west> 5.417468 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -990,7 +1210,11 @@
   <Placemark id="parcelle_13_etat.8591">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132108600B0076</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
+		<SimpleData name="Adresse">7, IMP DES MAGNOLIAS</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1000,7 +1224,7 @@
 			<west> 5.424164 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1008,7 +1232,11 @@
   <Placemark id="parcelle_13_etat.8601">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132108600B0078</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
+		<SimpleData name="Adresse">3, IMP DES MAGNOLIAS</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1018,7 +1246,7 @@
 			<west> 5.424161 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1026,7 +1254,11 @@
   <Placemark id="parcelle_13_etat.8632">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132108570B0083</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
+		<SimpleData name="Adresse">310, BD MIREILLE LAUZE</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1036,7 +1268,7 @@
 			<west> 5.422968 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1044,7 +1276,11 @@
   <Placemark id="parcelle_13_etat.8638">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132108580L0083</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
+		<SimpleData name="Adresse">9, BD ROMAIN ROLLAND</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1054,7 +1290,7 @@
 			<west> 5.426936 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1062,7 +1298,11 @@
   <Placemark id="parcelle_13_etat.8643">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132108550P0084</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
+		<SimpleData name="Adresse">50, BD DES ACIERIES</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1072,7 +1312,7 @@
 			<west> 5.400217 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1080,7 +1320,11 @@
   <Placemark id="parcelle_13_etat.8661">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132108580L0088</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
+		<SimpleData name="Adresse">9, BD ROMAIN ROLLAND</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1090,7 +1334,7 @@
 			<west> 5.427369 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1098,7 +1342,11 @@
   <Placemark id="parcelle_13_etat.8669">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132108560B0009</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
+		<SimpleData name="Adresse">171, AV DE TOULON</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1108,7 +1356,7 @@
 			<west> 5.395993 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1116,7 +1364,11 @@
   <Placemark id="parcelle_13_etat.8682">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132108600B0092</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
+		<SimpleData name="Adresse">35, AV DESIRE BIANCO</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1126,7 +1378,7 @@
 			<west> 5.424908 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>

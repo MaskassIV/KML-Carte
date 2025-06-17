@@ -2,7 +2,11 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document id="root_doc">
 <Schema name="GARDANNE_PMRSEM" id="GARDANNE_PMRSEM">
+	<SimpleField name="Numéro de Parcelle" type="string"></SimpleField>
+	<SimpleField name="Departement" type="string"></SimpleField>
 	<SimpleField name="Commune" type="string"></SimpleField>
+	<SimpleField name="Adresse" type="string"></SimpleField>
+	<SimpleField name="Dénomination" type="string"></SimpleField>
 </Schema>
 	<Style id="PMRSEM">
 		<LineStyle>
@@ -18,7 +22,11 @@
   <Placemark id="parcelle_13_pmrsem.95">
 <styleUrl>#PMRSEM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_pmrsem">
+		<SimpleData name="Numéro de Parcelle">13041000CP0142</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">GARDANNE</SimpleData>
+		<SimpleData name="Adresse">LE COUSTA</SimpleData>
+		<SimpleData name="Dénomination">SOCIETE FRANCAISE DES HABITATIONS ECONOMIQUES - SOCIETE ANON</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -28,7 +36,7 @@
 			<west> 5.458245 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -37,7 +45,11 @@
   <Placemark id="parcelle_13_pmrsem.97">
 <styleUrl>#PMRSEM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_pmrsem">
+		<SimpleData name="Numéro de Parcelle">13041000CP0145</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">GARDANNE</SimpleData>
+		<SimpleData name="Adresse">LE COUSTA</SimpleData>
+		<SimpleData name="Dénomination">SOCIETE FRANCAISE DES HABITATIONS ECONOMIQUES - SOCIETE ANON</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -47,7 +59,7 @@
 			<west> 5.458121 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -56,7 +68,11 @@
   <Placemark id="parcelle_13_pmrsem.154">
 <styleUrl>#PMRSEM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_pmrsem">
+		<SimpleData name="Numéro de Parcelle">13041000BB0202</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">GARDANNE</SimpleData>
+		<SimpleData name="Adresse">4, RUE VIALA</SimpleData>
+		<SimpleData name="Dénomination">ADOMA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -66,7 +82,7 @@
 			<west> 5.469642 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -75,7 +91,11 @@
   <Placemark id="parcelle_13_pmrsem.183">
 <styleUrl>#PMRSEM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_pmrsem">
+		<SimpleData name="Numéro de Parcelle">13041000BK0229</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">GARDANNE</SimpleData>
+		<SimpleData name="Adresse">44, PAS DE NORIA DE FONT DE GARACH</SimpleData>
+		<SimpleData name="Dénomination">CDC HABITAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -85,7 +105,7 @@
 			<west> 5.484018 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -94,7 +114,11 @@
   <Placemark id="parcelle_13_pmrsem.269">
 <styleUrl>#PMRSEM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_pmrsem">
+		<SimpleData name="Numéro de Parcelle">13041000BB0325</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">GARDANNE</SimpleData>
+		<SimpleData name="Adresse">12, PL FERRER</SimpleData>
+		<SimpleData name="Dénomination">ADOMA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -104,7 +128,7 @@
 			<west> 5.470137 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -113,7 +137,11 @@
   <Placemark id="parcelle_13_pmrsem.375">
 <styleUrl>#PMRSEM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_pmrsem">
+		<SimpleData name="Numéro de Parcelle">13041000CP0004</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">GARDANNE</SimpleData>
+		<SimpleData name="Adresse">9004, AV RAOUL DECOPPET</SimpleData>
+		<SimpleData name="Dénomination">SOCIETE FRANCAISE DES HABITATIONS ECONOMIQUES - SOCIETE ANON</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -123,7 +151,7 @@
 			<west> 5.458064 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -132,7 +160,11 @@
   <Placemark id="parcelle_13_pmrsem.450">
 <styleUrl>#PMRSEM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_pmrsem">
+		<SimpleData name="Numéro de Parcelle">13041000AZ0048</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">GARDANNE</SimpleData>
+		<SimpleData name="Adresse">17, RUE JEAN JAURES</SimpleData>
+		<SimpleData name="Dénomination">ADOMA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -142,7 +174,7 @@
 			<west> 5.467398 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -151,7 +183,11 @@
   <Placemark id="parcelle_13_pmrsem.482">
 <styleUrl>#PMRSEM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_pmrsem">
+		<SimpleData name="Numéro de Parcelle">13041000AZ0051</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">GARDANNE</SimpleData>
+		<SimpleData name="Adresse">11, RUE JEAN JAURES</SimpleData>
+		<SimpleData name="Dénomination">ADOMA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -161,7 +197,7 @@
 			<west> 5.467564 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -170,7 +206,11 @@
   <Placemark id="parcelle_13_pmrsem.570">
 <styleUrl>#PMRSEM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_pmrsem">
+		<SimpleData name="Numéro de Parcelle">13041000CP0062</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">GARDANNE</SimpleData>
+		<SimpleData name="Adresse">LE COUSTA</SimpleData>
+		<SimpleData name="Dénomination">SOCIETE FRANCAISE DES HABITATIONS ECONOMIQUES - SOCIETE ANON</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -180,7 +220,7 @@
 			<west> 5.458533 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -189,7 +229,11 @@
   <Placemark id="parcelle_13_pmrsem.598">
 <styleUrl>#PMRSEM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_pmrsem">
+		<SimpleData name="Numéro de Parcelle">13041000CP0065</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">GARDANNE</SimpleData>
+		<SimpleData name="Adresse">LE COUSTA</SimpleData>
+		<SimpleData name="Dénomination">SOCIETE FRANCAISE DES HABITATIONS ECONOMIQUES - SOCIETE ANON</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -199,7 +243,7 @@
 			<west> 5.458829 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>

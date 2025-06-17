@@ -2,7 +2,11 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document id="root_doc">
 <Schema name="MIMET_coproprietaire" id="MIMET_coproprietaire">
+	<SimpleField name="Numéro de Parcelle" type="string"></SimpleField>
+	<SimpleField name="Departement" type="string"></SimpleField>
 	<SimpleField name="Commune" type="string"></SimpleField>
+	<SimpleField name="Adresse" type="string"></SimpleField>
+	<SimpleField name="Dénomination" type="string"></SimpleField>
 </Schema>
 	<Style id="coproprietaire">
 		<LineStyle>
@@ -18,7 +22,11 @@
   <Placemark id="parcelle_13_coproprietaire.19">
 <styleUrl>#coproprietaire</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_coproprietaire">
+		<SimpleData name="Numéro de Parcelle">13062000AH0170</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MIMET</SimpleData>
+		<SimpleData name="Adresse">LA SOURCE BASTIDE NEUVE</SimpleData>
+		<SimpleData name="Dénomination">LES COPROPRIETAIRES DE LA PARCELLE AH170 180 182</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -28,7 +36,7 @@
 			<west> 5.488237 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -37,7 +45,11 @@
   <Placemark id="parcelle_13_coproprietaire.21">
 <styleUrl>#coproprietaire</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_coproprietaire">
+		<SimpleData name="Numéro de Parcelle">13062000AH0180</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MIMET</SimpleData>
+		<SimpleData name="Adresse">LA SOURCE BASTIDE NEUVE</SimpleData>
+		<SimpleData name="Dénomination">LES COPROPRIETAIRES DE LA PARCELLE AH170 180 182</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -47,7 +59,7 @@
 			<west> 5.488068 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -56,7 +68,11 @@
   <Placemark id="parcelle_13_coproprietaire.22">
 <styleUrl>#coproprietaire</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_coproprietaire">
+		<SimpleData name="Numéro de Parcelle">13062000AH0182</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MIMET</SimpleData>
+		<SimpleData name="Adresse">CHE DES RIGAUDS</SimpleData>
+		<SimpleData name="Dénomination">LES COPROPRIETAIRES DE LA PARCELLE AH170 180 182</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -66,7 +82,7 @@
 			<west> 5.488072 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -75,7 +91,11 @@
   <Placemark id="parcelle_13_coproprietaire.27">
 <styleUrl>#coproprietaire</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_coproprietaire">
+		<SimpleData name="Numéro de Parcelle">13062000AB0202</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MIMET</SimpleData>
+		<SimpleData name="Adresse">LES FABRES</SimpleData>
+		<SimpleData name="Dénomination">LES COPROPRIETAIRES DE LA PARCELLE AB202</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -85,7 +105,7 @@
 			<west> 5.479425 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>

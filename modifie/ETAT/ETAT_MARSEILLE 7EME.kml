@@ -2,7 +2,11 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document id="root_doc">
 <Schema name="MARSEILLE 7EME_ETAT" id="MARSEILLE 7EME_ETAT">
+	<SimpleField name="Numéro de Parcelle" type="string"></SimpleField>
+	<SimpleField name="Departement" type="string"></SimpleField>
 	<SimpleField name="Commune" type="string"></SimpleField>
+	<SimpleField name="Adresse" type="string"></SimpleField>
+	<SimpleField name="Dénomination" type="string"></SimpleField>
 </Schema>
 	<Style id="ETAT">
 		<LineStyle>
@@ -18,7 +22,11 @@
   <Placemark id="parcelle_13_etat.2">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132078330I0001</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 7EME</SimpleData>
+		<SimpleData name="Adresse">VC DU PDT JOHN F KENNEDY</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -28,7 +36,7 @@
 			<west> 5.365894 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -36,7 +44,11 @@
   <Placemark id="parcelle_13_etat.133">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132078320A0023</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 7EME</SimpleData>
+		<SimpleData name="Adresse">ANSE DE LA RESERVE</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -46,7 +58,7 @@
 			<west> 5.361907 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -54,7 +66,11 @@
   <Placemark id="parcelle_13_etat.165">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132078310B0003</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 7EME</SimpleData>
+		<SimpleData name="Adresse">ILE DE RIOU</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -64,7 +80,7 @@
 			<west> 5.371713 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -72,7 +88,11 @@
   <Placemark id="parcelle_13_etat.385">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132078310A0006</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 7EME</SimpleData>
+		<SimpleData name="Adresse">ILE D IF</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -82,7 +102,7 @@
 			<west> 5.324343 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -90,7 +110,11 @@
   <Placemark id="parcelle_13_etat.7620">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132078320A0001</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 7EME</SimpleData>
+		<SimpleData name="Adresse">PHARE DE LA DESIRADE</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -100,7 +124,7 @@
 			<west> 5.355554 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -108,7 +132,11 @@
   <Placemark id="parcelle_13_etat.7629">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132078310A0001</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 7EME</SimpleData>
+		<SimpleData name="Adresse">ILOT DE TIBOULEN</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -118,7 +146,7 @@
 			<west> 5.285453 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -126,7 +154,11 @@
   <Placemark id="parcelle_13_etat.7630">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132078350A0001</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 7EME</SimpleData>
+		<SimpleData name="Adresse">26, QUAI RIVE NEUVE</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -136,7 +168,7 @@
 			<west> 5.363991 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -144,7 +176,11 @@
   <Placemark id="parcelle_13_etat.7631">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132078300B0001</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 7EME</SimpleData>
+		<SimpleData name="Adresse">VC DU PDT JOHN F KENNEDY</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -154,7 +190,7 @@
 			<west> 5.349315 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -162,7 +198,11 @@
   <Placemark id="parcelle_13_etat.7632">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132078320C0001</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 7EME</SimpleData>
+		<SimpleData name="Adresse">RUE DES CATALANS</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -172,7 +212,7 @@
 			<west> 5.354523 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -180,7 +220,11 @@
   <Placemark id="parcelle_13_etat.7640">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132078300L0001</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 7EME</SimpleData>
+		<SimpleData name="Adresse">PLT DE MALMOUSQUE</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -190,7 +234,7 @@
 			<west> 5.345822 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -198,7 +242,11 @@
   <Placemark id="parcelle_13_etat.7642">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132078310A0010</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 7EME</SimpleData>
+		<SimpleData name="Adresse">ILE RATONNEAU</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -208,7 +256,7 @@
 			<west> 5.311278 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -216,7 +264,11 @@
   <Placemark id="parcelle_13_etat.7805">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132078330M0127</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 7EME</SimpleData>
+		<SimpleData name="Adresse">VC DU PDT JOHN F KENNEDY</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -226,7 +278,7 @@
 			<west> 5.359701 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -234,7 +286,11 @@
   <Placemark id="parcelle_13_etat.7814">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132078320C0013</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 7EME</SimpleData>
+		<SimpleData name="Adresse">123, AV DE LA CORSE</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -244,7 +300,7 @@
 			<west> 5.355018 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -252,7 +308,11 @@
   <Placemark id="parcelle_13_etat.7828">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132078300K0130</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 7EME</SimpleData>
+		<SimpleData name="Adresse">ANSE DE MALDORME</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -262,7 +322,7 @@
 			<west> 5.350017 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -270,7 +330,11 @@
   <Placemark id="parcelle_13_etat.7836">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132078300K0132</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 7EME</SimpleData>
+		<SimpleData name="Adresse">CHE BATTERIE DES LIONS</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -280,7 +344,7 @@
 			<west> 5.349039 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -288,7 +352,11 @@
   <Placemark id="parcelle_13_etat.7837">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132078330K0132</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 7EME</SimpleData>
+		<SimpleData name="Adresse">VC DU PDT JOHN F KENNEDY</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -298,7 +366,7 @@
 			<west> 5.362444 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -306,7 +374,11 @@
   <Placemark id="parcelle_13_etat.7883">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132078300K0151</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 7EME</SimpleData>
+		<SimpleData name="Adresse">CHE BATTERIE DES LIONS</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -316,7 +388,7 @@
 			<west> 5.348231 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -324,7 +396,11 @@
   <Placemark id="parcelle_13_etat.7925">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132078320C0017</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 7EME</SimpleData>
+		<SimpleData name="Adresse">69, VC DU PDT JOHN F KENNEDY</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -334,7 +410,7 @@
 			<west> 5.355252 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -342,7 +418,11 @@
   <Placemark id="parcelle_13_etat.7955">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132078300A0178</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 7EME</SimpleData>
+		<SimpleData name="Adresse">54, VC DU PDT JOHN F KENNEDY</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -352,7 +432,7 @@
 			<west> 5.352176 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -360,7 +440,11 @@
   <Placemark id="parcelle_13_etat.7960">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132078310A0018</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 7EME</SimpleData>
+		<SimpleData name="Adresse">ILE RATONNEAU</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -370,7 +454,7 @@
 			<west> 5.314487 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -378,7 +462,11 @@
   <Placemark id="parcelle_13_etat.7967">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132078300A0180</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 7EME</SimpleData>
+		<SimpleData name="Adresse">9008, ESC DU VALLON DES AUFFES</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -388,7 +476,7 @@
 			<west> 5.349538 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -396,7 +484,11 @@
   <Placemark id="parcelle_13_etat.7977">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132078300L0182</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 7EME</SimpleData>
+		<SimpleData name="Adresse">RUE MALMOUSQUE</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -406,7 +498,7 @@
 			<west> 5.347808 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -414,7 +506,11 @@
   <Placemark id="parcelle_13_etat.8006">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132078340C0193</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 7EME</SimpleData>
+		<SimpleData name="Adresse">19, RUE SAUVEUR TOBELEM</SimpleData>
+		<SimpleData name="Dénomination">COMMUN URBAIN MARSEILLE PROVENC METROPOL</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -424,7 +520,7 @@
 			<west> 5.364298 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -432,7 +528,11 @@
   <Placemark id="parcelle_13_etat.8009">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132078340C0194</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 7EME</SimpleData>
+		<SimpleData name="Adresse">19, RUE SAUVEUR TOBELEM</SimpleData>
+		<SimpleData name="Dénomination">COMMUN URBAIN MARSEILLE PROVENC METROPOL</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -442,7 +542,7 @@
 			<west> 5.36466 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -450,7 +550,11 @@
   <Placemark id="parcelle_13_etat.8012">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132078340C0195</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 7EME</SimpleData>
+		<SimpleData name="Adresse">112, RUE DENDOUME</SimpleData>
+		<SimpleData name="Dénomination">COMMUN URBAIN MARSEILLE PROVENC METROPOL</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -460,7 +564,7 @@
 			<west> 5.364644 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -468,7 +572,11 @@
   <Placemark id="parcelle_13_etat.8017">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132078340C0197</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 7EME</SimpleData>
+		<SimpleData name="Adresse">112, RUE DENDOUME</SimpleData>
+		<SimpleData name="Dénomination">COMMUN URBAIN MARSEILLE PROVENC METROPOL</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -478,7 +586,7 @@
 			<west> 5.364201 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -486,7 +594,11 @@
   <Placemark id="parcelle_13_etat.8021">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132078320A0002</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 7EME</SimpleData>
+		<SimpleData name="Adresse">ANSE DU PHARO</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -496,7 +608,7 @@
 			<west> 5.355427 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -504,7 +616,11 @@
   <Placemark id="parcelle_13_etat.8022">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132078310B0002</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 7EME</SimpleData>
+		<SimpleData name="Adresse">LE GRAND CONGLOUE</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -514,7 +630,7 @@
 			<west> 5.399886 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -522,7 +638,11 @@
   <Placemark id="parcelle_13_etat.8027">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132078330H0002</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 7EME</SimpleData>
+		<SimpleData name="Adresse">28, AV TALABOT</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -532,7 +652,7 @@
 			<west> 5.370554 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -540,7 +660,11 @@
   <Placemark id="parcelle_13_etat.8032">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132078320C0020</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 7EME</SimpleData>
+		<SimpleData name="Adresse">34, RUE CHARRAS</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -550,7 +674,7 @@
 			<west> 5.357423 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -558,7 +682,11 @@
   <Placemark id="parcelle_13_etat.8096">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132078320A0024</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 7EME</SimpleData>
+		<SimpleData name="Adresse">104, BD CHARLES LIVON</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -568,7 +696,7 @@
 			<west> 5.362908 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -576,7 +704,11 @@
   <Placemark id="parcelle_13_etat.8111">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132078300L0242</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 7EME</SimpleData>
+		<SimpleData name="Adresse">28, CHE DU GENIE</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -586,7 +718,7 @@
 			<west> 5.3461 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -594,7 +726,11 @@
   <Placemark id="parcelle_13_etat.8115">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132078300L0244</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 7EME</SimpleData>
+		<SimpleData name="Adresse">CHE DU GENIE</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -604,7 +740,7 @@
 			<west> 5.347345 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -612,7 +748,11 @@
   <Placemark id="parcelle_13_etat.8149">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132078320A0026</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 7EME</SimpleData>
+		<SimpleData name="Adresse">QUAI MARCEL PAGNOL</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -622,7 +762,7 @@
 			<west> 5.3631 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -630,7 +770,11 @@
   <Placemark id="parcelle_13_etat.8191">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132078310A0003</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 7EME</SimpleData>
+		<SimpleData name="Adresse">9090, QUAI DU PORT ILE RATONNEAU</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -640,7 +784,7 @@
 			<west> 5.302959 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -648,7 +792,11 @@
   <Placemark id="parcelle_13_etat.8194">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132078300E0003</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 7EME</SimpleData>
+		<SimpleData name="Adresse">VC DU PDT JOHN F KENNEDY</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -658,7 +806,7 @@
 			<west> 5.3531 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -666,7 +814,11 @@
   <Placemark id="parcelle_13_etat.8199">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132078300L0003</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 7EME</SimpleData>
+		<SimpleData name="Adresse">18, CHE DU GENIE</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -676,7 +828,7 @@
 			<west> 5.347947 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -684,7 +836,11 @@
   <Placemark id="parcelle_13_etat.8201">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132078300M0003</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 7EME</SimpleData>
+		<SimpleData name="Adresse">ILE D ENDOUME</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -694,7 +850,7 @@
 			<west> 5.344156 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -702,7 +858,11 @@
   <Placemark id="parcelle_13_etat.8221">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132078320A0032</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 7EME</SimpleData>
+		<SimpleData name="Adresse">25, ANSE DU PHARO</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -712,7 +872,7 @@
 			<west> 5.353462 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -720,7 +880,11 @@
   <Placemark id="parcelle_13_etat.8225">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132078290K0032</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 7EME</SimpleData>
+		<SimpleData name="Adresse">VC DU PDT JOHN F KENNEDY</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -730,7 +894,7 @@
 			<west> 5.354948 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -738,7 +902,11 @@
   <Placemark id="parcelle_13_etat.8288">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132078320A0039</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 7EME</SimpleData>
+		<SimpleData name="Adresse">30, BD CHARLES LIVON</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -748,7 +916,7 @@
 			<west> 5.361423 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -756,7 +924,11 @@
   <Placemark id="parcelle_13_etat.8295">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132078310B0004</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 7EME</SimpleData>
+		<SimpleData name="Adresse">ILE DU PLANIER</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -766,7 +938,7 @@
 			<west> 5.22869 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -774,7 +946,11 @@
   <Placemark id="parcelle_13_etat.8303">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132078300L0004</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 7EME</SimpleData>
+		<SimpleData name="Adresse">TRA DE LA CALANQUE</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -784,7 +960,7 @@
 			<west> 5.3481 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -792,7 +968,11 @@
   <Placemark id="parcelle_13_etat.8304">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132078300M0004</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 7EME</SimpleData>
+		<SimpleData name="Adresse">ILOTS DES PENDUS</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -802,7 +982,7 @@
 			<west> 5.346232 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -810,7 +990,11 @@
   <Placemark id="parcelle_13_etat.8312">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132078320A0041</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 7EME</SimpleData>
+		<SimpleData name="Adresse">ANSE DU PHARO</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -820,7 +1004,7 @@
 			<west> 5.35547 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -828,7 +1012,11 @@
   <Placemark id="parcelle_13_etat.8339">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132078320A0045</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 7EME</SimpleData>
+		<SimpleData name="Adresse">BD CHARLES LIVON</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -838,7 +1026,7 @@
 			<west> 5.362194 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -846,7 +1034,11 @@
   <Placemark id="parcelle_13_etat.8370">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132078300E0005</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 7EME</SimpleData>
+		<SimpleData name="Adresse">174, VC DU PDT JOHN F KENNEDY</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -856,7 +1048,7 @@
 			<west> 5.353447 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -864,7 +1056,11 @@
   <Placemark id="parcelle_13_etat.8379">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132078300M0005</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 7EME</SimpleData>
+		<SimpleData name="Adresse">ILOTS DES PENDUS</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -874,7 +1070,7 @@
 			<west> 5.346582 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -882,7 +1078,11 @@
   <Placemark id="parcelle_13_etat.8381">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132078320A0050</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 7EME</SimpleData>
+		<SimpleData name="Adresse">RUE DES CATALANS</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -892,7 +1092,7 @@
 			<west> 5.354787 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -900,7 +1100,11 @@
   <Placemark id="parcelle_13_etat.8389">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132078320A0051</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 7EME</SimpleData>
+		<SimpleData name="Adresse">BD CHARLES LIVON</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -910,7 +1114,7 @@
 			<west> 5.353831 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -918,7 +1122,11 @@
   <Placemark id="parcelle_13_etat.8403">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132078320A0052</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 7EME</SimpleData>
+		<SimpleData name="Adresse">28, RUE DES CATALANS</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -928,7 +1136,7 @@
 			<west> 5.354507 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -936,7 +1144,11 @@
   <Placemark id="parcelle_13_etat.8418">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132078330L0054</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 7EME</SimpleData>
+		<SimpleData name="Adresse">VC DU PDT JOHN F KENNEDY</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -946,7 +1158,7 @@
 			<west> 5.362153 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -954,7 +1166,11 @@
   <Placemark id="parcelle_13_etat.8434">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132078320A0057</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 7EME</SimpleData>
+		<SimpleData name="Adresse">104, BD CHARLES LIVON</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -964,7 +1180,7 @@
 			<west> 5.356019 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -972,7 +1188,11 @@
   <Placemark id="parcelle_13_etat.8449">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132078320A0059</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 7EME</SimpleData>
+		<SimpleData name="Adresse">104, BD CHARLES LIVON</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -982,7 +1202,7 @@
 			<west> 5.357363 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -990,7 +1210,11 @@
   <Placemark id="parcelle_13_etat.8453">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132078300I0059</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 7EME</SimpleData>
+		<SimpleData name="Adresse">TRA DE LA FAUSSE MONNAIE</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1000,7 +1224,7 @@
 			<west> 5.352785 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1008,7 +1232,11 @@
   <Placemark id="parcelle_13_etat.8457">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132078300B0006</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 7EME</SimpleData>
+		<SimpleData name="Adresse">RUE DU VALLON DES AUFFES</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1018,7 +1246,7 @@
 			<west> 5.350365 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1026,7 +1254,11 @@
   <Placemark id="parcelle_13_etat.8462">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132078320C0006</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 7EME</SimpleData>
+		<SimpleData name="Adresse">VC DU PDT JOHN F KENNEDY</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1036,7 +1268,7 @@
 			<west> 5.353945 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1044,7 +1276,11 @@
   <Placemark id="parcelle_13_etat.8463">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132078300E0006</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 7EME</SimpleData>
+		<SimpleData name="Adresse">VC DU PDT JOHN F KENNEDY</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1054,7 +1290,7 @@
 			<west> 5.354122 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1062,7 +1298,11 @@
   <Placemark id="parcelle_13_etat.8468">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132078300M0006</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 7EME</SimpleData>
+		<SimpleData name="Adresse">ILOTS DES PENDUS</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1072,7 +1312,7 @@
 			<west> 5.347122 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1080,7 +1320,11 @@
   <Placemark id="parcelle_13_etat.8490">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132078320A0062</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 7EME</SimpleData>
+		<SimpleData name="Adresse">BD CHARLES LIVON</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1090,7 +1334,7 @@
 			<west> 5.357352 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1098,7 +1342,11 @@
   <Placemark id="parcelle_13_etat.8505">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132078310A0064</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 7EME</SimpleData>
+		<SimpleData name="Adresse">ILE RATONNEAU</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1108,7 +1356,7 @@
 			<west> 5.310525 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1116,7 +1364,11 @@
   <Placemark id="parcelle_13_etat.8513">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132078320A0065</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 7EME</SimpleData>
+		<SimpleData name="Adresse">86, BD CHARLES LIVON</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1126,7 +1378,7 @@
 			<west> 5.357822 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1134,7 +1386,11 @@
   <Placemark id="parcelle_13_etat.8524">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132078320A0066</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 7EME</SimpleData>
+		<SimpleData name="Adresse">ALL DU COLONEL JAMOT</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1144,7 +1400,7 @@
 			<west> 5.357429 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1152,7 +1408,11 @@
   <Placemark id="parcelle_13_etat.8529">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132078320A0067</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 7EME</SimpleData>
+		<SimpleData name="Adresse">ALL DU COLONEL JAMOT</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1162,7 +1422,7 @@
 			<west> 5.357945 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1170,7 +1430,11 @@
   <Placemark id="parcelle_13_etat.8544">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132078290I0069</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 7EME</SimpleData>
+		<SimpleData name="Adresse">178, CHE DU VALLON DE L ORIOL</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1180,7 +1444,7 @@
 			<west> 5.35888 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1188,7 +1452,11 @@
   <Placemark id="parcelle_13_etat.8565">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132078290I0071</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 7EME</SimpleData>
+		<SimpleData name="Adresse">VC DU PDT JOHN F KENNEDY</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1198,7 +1466,7 @@
 			<west> 5.358259 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1206,7 +1474,11 @@
   <Placemark id="parcelle_13_etat.8612">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132078320C0008</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 7EME</SimpleData>
+		<SimpleData name="Adresse">54, VC DU PDT JOHN F KENNEDY</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1216,7 +1488,7 @@
 			<west> 5.35294 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1224,7 +1496,11 @@
   <Placemark id="parcelle_13_etat.8694">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">132078300K0094</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 7EME</SimpleData>
+		<SimpleData name="Adresse">CHE BATTERIE DES LIONS</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1234,7 +1510,7 @@
 			<west> 5.3493 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>

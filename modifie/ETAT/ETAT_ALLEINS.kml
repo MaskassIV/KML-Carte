@@ -2,7 +2,11 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document id="root_doc">
 <Schema name="ALLEINS_ETAT" id="ALLEINS_ETAT">
+	<SimpleField name="Numéro de Parcelle" type="string"></SimpleField>
+	<SimpleField name="Departement" type="string"></SimpleField>
 	<SimpleField name="Commune" type="string"></SimpleField>
+	<SimpleField name="Adresse" type="string"></SimpleField>
+	<SimpleField name="Dénomination" type="string"></SimpleField>
 </Schema>
 	<Style id="ETAT">
 		<LineStyle>
@@ -18,7 +22,11 @@
   <Placemark id="parcelle_13_etat.1685">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">130030000E0143</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ALLEINS</SimpleData>
+		<SimpleData name="Adresse">PLAINE DE LANET</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -28,7 +36,7 @@
 			<west> 5.123465 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -37,7 +45,11 @@
   <Placemark id="parcelle_13_etat.5183">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">130030000F0038</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ALLEINS</SimpleData>
+		<SimpleData name="Adresse">PIERREDON</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -47,7 +59,7 @@
 			<west> 5.139821 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -56,7 +68,11 @@
   <Placemark id="parcelle_13_etat.6271">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">130030000A0588</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ALLEINS</SimpleData>
+		<SimpleData name="Adresse">GRAPASSE</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -66,7 +82,7 @@
 			<west> 5.166532 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -75,7 +91,11 @@
   <Placemark id="parcelle_13_etat.7174">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">130030000E0084</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ALLEINS</SimpleData>
+		<SimpleData name="Adresse">LA GAGNIAOU ET CORNILLE</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -85,7 +105,7 @@
 			<west> 5.132027 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>

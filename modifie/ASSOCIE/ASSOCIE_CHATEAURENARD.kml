@@ -4,7 +4,11 @@
 	<name>parcelle_13_ASSOCIE.kml</name>
 	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
 	<Schema name="CHATEAURENARD_ASSOCIE" id="CHATEAURENARD_ASSOCIE">
+		<SimpleField type="string" name="Numéro de Parcelle"></SimpleField>
+		<SimpleField type="string" name="Departement"></SimpleField>
 		<SimpleField type="string" name="Commune"></SimpleField>
+		<SimpleField type="string" name="Adresse"></SimpleField>
+		<SimpleField type="string" name="Dénomination"></SimpleField>
 	</Schema>
 	<Style id="ASSOCIE">
 		<LineStyle>
@@ -21,7 +25,11 @@
 		<Placemark id="parcelle_13_associe.3">
 <styleUrl>#ASSOCIE</styleUrl>			<ExtendedData>
 				<SchemaData schemaUrl="#parcelle_13_associe">
+					<SimpleData name="Numéro de Parcelle">13027000DK0109</SimpleData>
+					<SimpleData name="Departement">13</SimpleData>
 					<SimpleData name="Commune">CHATEAURENARD</SimpleData>
+					<SimpleData name="Adresse">9001, AV DES ILES</SimpleData>
+					<SimpleData name="Dénomination">ROURE ET COMPAGNIES</SimpleData>
 				</SchemaData>
 			</ExtendedData>
 	<Region>
@@ -32,7 +40,7 @@
 			<west> 4.87504349489459 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>

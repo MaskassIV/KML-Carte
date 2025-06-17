@@ -2,7 +2,11 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document id="root_doc">
 <Schema name="SAINT-ESTEVE-JANSON_personne_morale" id="SAINT-ESTEVE-JANSON_personne_morale">
+	<SimpleField name="Numéro de Parcelle" type="string"></SimpleField>
+	<SimpleField name="Departement" type="string"></SimpleField>
 	<SimpleField name="Commune" type="string"></SimpleField>
+	<SimpleField name="Adresse" type="string"></SimpleField>
+	<SimpleField name="Dénomination" type="string"></SimpleField>
 </Schema>
 	<Style id="personne_morale">
 		<LineStyle>
@@ -18,7 +22,11 @@
   <Placemark id="parcelle_13_personne_morale.221">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13093000AD0107</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES VERGERAS</SimpleData>
+		<SimpleData name="Dénomination">PAYS DAIX TERRITOIRES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -28,7 +36,7 @@
 			<west> 5.404129 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -37,7 +45,11 @@
   <Placemark id="parcelle_13_personne_morale.1170">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000A0017</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES JONQUIERES-SUD</SimpleData>
+		<SimpleData name="Dénomination">STE D EXPLOITATION IMMOB ET AGRICOLE DU MIDI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -47,7 +59,7 @@
 			<west> 5.399677 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -56,7 +68,11 @@
   <Placemark id="parcelle_13_personne_morale.4114">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13093000AD0069</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES VERGERAS</SimpleData>
+		<SimpleData name="Dénomination">PAYS DAIX TERRITOIRES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -66,7 +82,7 @@
 			<west> 5.402788 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -75,7 +91,11 @@
   <Placemark id="parcelle_13_personne_morale.4174">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000A0007</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES JONQUIERES NORD</SimpleData>
+		<SimpleData name="Dénomination">STE D EXPLOITATION IMMOB ET AGRICOLE DU MIDI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -85,7 +105,7 @@
 			<west> 5.398945 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -94,7 +114,11 @@
   <Placemark id="parcelle_13_personne_morale.4681">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0091</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES GRAVIERS-OUEST</SimpleData>
+		<SimpleData name="Dénomination">STE D EXPLOITATION IMMOB ET AGRICOLE DU MIDI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -104,7 +128,7 @@
 			<west> 5.389253 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -113,7 +137,11 @@
   <Placemark id="parcelle_13_personne_morale.5007">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13093000AE0014</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LA COMBE</SimpleData>
+		<SimpleData name="Dénomination">ENEDIS</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -123,7 +151,7 @@
 			<west> 5.393309 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -132,7 +160,11 @@
   <Placemark id="parcelle_13_personne_morale.5522">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000A0038</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES JONQUIERES-SUD</SimpleData>
+		<SimpleData name="Dénomination">STE D EXPLOITATION IMMOB ET AGRICOLE DU MIDI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -142,7 +174,7 @@
 			<west> 5.401408 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -151,7 +183,11 @@
   <Placemark id="parcelle_13_personne_morale.5677">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000A0499</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES JONQUIERES NORD</SimpleData>
+		<SimpleData name="Dénomination">STE D EXPLOITATION IMMOB ET AGRICOLE DU MIDI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -161,7 +197,7 @@
 			<west> 5.400035 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -170,7 +206,11 @@
   <Placemark id="parcelle_13_personne_morale.5780">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000A0006</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES JONQUIERES NORD</SimpleData>
+		<SimpleData name="Dénomination">STE D EXPLOITATION IMMOB ET AGRICOLE DU MIDI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -180,7 +220,7 @@
 			<west> 5.402507 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -189,7 +229,11 @@
   <Placemark id="parcelle_13_personne_morale.6584">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000A0005</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES JONQUIERES NORD</SimpleData>
+		<SimpleData name="Dénomination">STE D EXPLOITATION IMMOB ET AGRICOLE DU MIDI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -199,7 +243,7 @@
 			<west> 5.409052 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -208,7 +252,11 @@
   <Placemark id="parcelle_13_personne_morale.6898">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000A0001</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES JONQUIERES NORD</SimpleData>
+		<SimpleData name="Dénomination">STE D EXPLOITATION IMMOB ET AGRICOLE DU MIDI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -218,7 +266,7 @@
 			<west> 5.406173 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -227,7 +275,11 @@
   <Placemark id="parcelle_13_personne_morale.6955">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13093000AE0001</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES PLAINES</SimpleData>
+		<SimpleData name="Dénomination">ELECTRICITE DE FRANCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -237,7 +289,7 @@
 			<west> 5.389066 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -246,7 +298,11 @@
   <Placemark id="parcelle_13_personne_morale.7819">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000A0010</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES JONQUIERES-SUD</SimpleData>
+		<SimpleData name="Dénomination">STE D EXPLOITATION IMMOB ET AGRICOLE DU MIDI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -256,7 +312,7 @@
 			<west> 5.39726 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -265,7 +321,11 @@
   <Placemark id="parcelle_13_personne_morale.7842">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13093000AD0100</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">116, RUE DE LA TREVARESSE</SimpleData>
+		<SimpleData name="Dénomination">SAINT ESTEVE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -275,7 +335,7 @@
 			<west> 5.402478 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -284,7 +344,11 @@
   <Placemark id="parcelle_13_personne_morale.8236">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13093000AD0101</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES VERGERAS</SimpleData>
+		<SimpleData name="Dénomination">PAYS DAIX TERRITOIRES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -294,7 +358,7 @@
 			<west> 5.402254 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -303,7 +367,11 @@
   <Placemark id="parcelle_13_personne_morale.8578">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13093000AD0102</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES VERGERAS</SimpleData>
+		<SimpleData name="Dénomination">PAYS DAIX TERRITOIRES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -313,7 +381,7 @@
 			<west> 5.401614 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -322,7 +390,11 @@
   <Placemark id="parcelle_13_personne_morale.8932">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13093000AD0103</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES VERGERAS</SimpleData>
+		<SimpleData name="Dénomination">PAYS DAIX TERRITOIRES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -332,7 +404,7 @@
 			<west> 5.401577 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -341,7 +413,11 @@
   <Placemark id="parcelle_13_personne_morale.9305">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13093000AD0104</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES VERGERAS</SimpleData>
+		<SimpleData name="Dénomination">PAYS DAIX TERRITOIRES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -351,7 +427,7 @@
 			<west> 5.401985 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -360,7 +436,11 @@
   <Placemark id="parcelle_13_personne_morale.9694">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13093000AE0105</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES AIRES</SimpleData>
+		<SimpleData name="Dénomination">MBP</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -370,7 +450,7 @@
 			<west> 5.395466 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -379,7 +459,11 @@
   <Placemark id="parcelle_13_personne_morale.10056">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13093000AD0106</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES VERGERAS</SimpleData>
+		<SimpleData name="Dénomination">PAYS DAIX TERRITOIRES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -389,7 +473,7 @@
 			<west> 5.403745 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -398,7 +482,11 @@
   <Placemark id="parcelle_13_personne_morale.10800">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13093000AD0108</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES VERGERAS</SimpleData>
+		<SimpleData name="Dénomination">PAYS DAIX TERRITOIRES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -408,7 +496,7 @@
 			<west> 5.403969 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -417,7 +505,11 @@
   <Placemark id="parcelle_13_personne_morale.11190">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13093000AD0109</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES VERGERAS</SimpleData>
+		<SimpleData name="Dénomination">PAYS DAIX TERRITOIRES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -427,7 +519,7 @@
 			<west> 5.404105 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -436,7 +528,11 @@
   <Placemark id="parcelle_13_personne_morale.11393">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0109</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES GRAVIERS-EST</SimpleData>
+		<SimpleData name="Dénomination">STE D EXPLOITATION IMMOB ET AGRICOLE DU MIDI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -446,7 +542,7 @@
 			<west> 5.391492 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -455,7 +551,11 @@
   <Placemark id="parcelle_13_personne_morale.11934">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000A0011</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES JONQUIERES-SUD</SimpleData>
+		<SimpleData name="Dénomination">STE D EXPLOITATION IMMOB ET AGRICOLE DU MIDI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -465,7 +565,7 @@
 			<west> 5.397858 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -474,7 +574,11 @@
   <Placemark id="parcelle_13_personne_morale.11956">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13093000AD0110</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES VERGERAS</SimpleData>
+		<SimpleData name="Dénomination">PAYS DAIX TERRITOIRES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -484,7 +588,7 @@
 			<west> 5.404128 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -493,7 +597,11 @@
   <Placemark id="parcelle_13_personne_morale.12166">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0110</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES GRAVIERS-EST</SimpleData>
+		<SimpleData name="Dénomination">STE D EXPLOITATION IMMOB ET AGRICOLE DU MIDI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -503,7 +611,7 @@
 			<west> 5.393657 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -512,7 +620,11 @@
   <Placemark id="parcelle_13_personne_morale.12530">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0111</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES GRAVIERS-EST</SimpleData>
+		<SimpleData name="Dénomination">STE D EXPLOITATION IMMOB ET AGRICOLE DU MIDI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -522,7 +634,7 @@
 			<west> 5.395713 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -531,7 +643,11 @@
   <Placemark id="parcelle_13_personne_morale.12860">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0112</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES GRAVIERS-EST</SimpleData>
+		<SimpleData name="Dénomination">STE D EXPLOITATION IMMOB ET AGRICOLE DU MIDI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -541,7 +657,7 @@
 			<west> 5.398897 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -550,7 +666,11 @@
   <Placemark id="parcelle_13_personne_morale.13216">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0113</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES GRAVIERS-EST</SimpleData>
+		<SimpleData name="Dénomination">STE D EXPLOITATION IMMOB ET AGRICOLE DU MIDI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -560,7 +680,7 @@
 			<west> 5.397193 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -569,7 +689,11 @@
   <Placemark id="parcelle_13_personne_morale.13560">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0114</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES GRAVIERS-EST</SimpleData>
+		<SimpleData name="Dénomination">STE D EXPLOITATION IMMOB ET AGRICOLE DU MIDI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -579,7 +703,7 @@
 			<west> 5.396735 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -588,7 +712,11 @@
   <Placemark id="parcelle_13_personne_morale.13839">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0115</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES GRAVIERS-EST</SimpleData>
+		<SimpleData name="Dénomination">STE D EXPLOITATION IMMOB ET AGRICOLE DU MIDI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -598,7 +726,7 @@
 			<west> 5.395996 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -607,7 +735,11 @@
   <Placemark id="parcelle_13_personne_morale.14154">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0116</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES GRAVIERS-EST</SimpleData>
+		<SimpleData name="Dénomination">STE D EXPLOITATION IMMOB ET AGRICOLE DU MIDI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -617,7 +749,7 @@
 			<west> 5.394197 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -626,7 +758,11 @@
   <Placemark id="parcelle_13_personne_morale.14478">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0117</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES GRAVIERS-EST</SimpleData>
+		<SimpleData name="Dénomination">STE D EXPLOITATION IMMOB ET AGRICOLE DU MIDI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -636,7 +772,7 @@
 			<west> 5.394375 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -645,7 +781,11 @@
   <Placemark id="parcelle_13_personne_morale.14791">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0118</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES GRAVIERS-EST</SimpleData>
+		<SimpleData name="Dénomination">STE D EXPLOITATION IMMOB ET AGRICOLE DU MIDI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -655,7 +795,7 @@
 			<west> 5.39511 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -664,7 +804,11 @@
   <Placemark id="parcelle_13_personne_morale.15110">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0119</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES GRAVIERS-EST</SimpleData>
+		<SimpleData name="Dénomination">STE D EXPLOITATION IMMOB ET AGRICOLE DU MIDI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -674,7 +818,7 @@
 			<west> 5.396977 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -683,7 +827,11 @@
   <Placemark id="parcelle_13_personne_morale.15642">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000A0012</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES JONQUIERES-SUD</SimpleData>
+		<SimpleData name="Dénomination">STE D EXPLOITATION IMMOB ET AGRICOLE DU MIDI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -693,7 +841,7 @@
 			<west> 5.398001 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -702,7 +850,11 @@
   <Placemark id="parcelle_13_personne_morale.15858">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0120</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES GRAVIERS-EST</SimpleData>
+		<SimpleData name="Dénomination">STE D EXPLOITATION IMMOB ET AGRICOLE DU MIDI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -712,7 +864,7 @@
 			<west> 5.39637 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -721,7 +873,11 @@
   <Placemark id="parcelle_13_personne_morale.16187">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0121</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES GRAVIERS-EST</SimpleData>
+		<SimpleData name="Dénomination">STE D EXPLOITATION IMMOB ET AGRICOLE DU MIDI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -731,7 +887,7 @@
 			<west> 5.394409 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -740,7 +896,11 @@
   <Placemark id="parcelle_13_personne_morale.16530">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0122</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES GRAVIERS-EST</SimpleData>
+		<SimpleData name="Dénomination">STE D EXPLOITATION IMMOB ET AGRICOLE DU MIDI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -750,7 +910,7 @@
 			<west> 5.393482 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -759,7 +919,11 @@
   <Placemark id="parcelle_13_personne_morale.16827">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0123</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES GRAVIERS-EST</SimpleData>
+		<SimpleData name="Dénomination">STE D EXPLOITATION IMMOB ET AGRICOLE DU MIDI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -769,7 +933,7 @@
 			<west> 5.394331 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -778,7 +942,11 @@
   <Placemark id="parcelle_13_personne_morale.17162">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0124</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES GRAVIERS-EST</SimpleData>
+		<SimpleData name="Dénomination">STE D EXPLOITATION IMMOB ET AGRICOLE DU MIDI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -788,7 +956,7 @@
 			<west> 5.396612 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -797,7 +965,11 @@
   <Placemark id="parcelle_13_personne_morale.19198">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000A0013</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES JONQUIERES-SUD</SimpleData>
+		<SimpleData name="Dénomination">STE D EXPLOITATION IMMOB ET AGRICOLE DU MIDI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -807,7 +979,7 @@
 			<west> 5.398105 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -816,7 +988,11 @@
   <Placemark id="parcelle_13_personne_morale.21755">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13093000AB0138</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">RTE DEPARTEMENTALE 561</SimpleData>
+		<SimpleData name="Dénomination">STE D EXPLOITATION IMMOB ET AGRICOLE DU MIDI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -826,7 +1002,7 @@
 			<west> 5.395547 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -835,7 +1011,11 @@
   <Placemark id="parcelle_13_personne_morale.22700">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000A0014</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES JONQUIERES-SUD</SimpleData>
+		<SimpleData name="Dénomination">STE D EXPLOITATION IMMOB ET AGRICOLE DU MIDI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -845,7 +1025,7 @@
 			<west> 5.398917 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -854,7 +1034,11 @@
   <Placemark id="parcelle_13_personne_morale.22721">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13093000AB0140</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">RTE DEPARTEMENTALE 561</SimpleData>
+		<SimpleData name="Dénomination">STE D EXPLOITATION IMMOB ET AGRICOLE DU MIDI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -864,7 +1048,7 @@
 			<west> 5.395786 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -873,7 +1057,11 @@
   <Placemark id="parcelle_13_personne_morale.22907">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0140</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES GRAVIERS-EST</SimpleData>
+		<SimpleData name="Dénomination">SOCIETE AMENAGEMENT FONCIER ET ETABLISSEMENT RURAL PROVENCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -883,7 +1071,7 @@
 			<west> 5.395051 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -892,7 +1080,11 @@
   <Placemark id="parcelle_13_personne_morale.23284">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13093000AB0142</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">AV DE L ANCIENNE GARE</SimpleData>
+		<SimpleData name="Dénomination">STE D EXPLOITATION IMMOB ET AGRICOLE DU MIDI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -902,7 +1094,7 @@
 			<west> 5.396775 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -911,7 +1103,11 @@
   <Placemark id="parcelle_13_personne_morale.23770">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13093000AB0144</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">PETIT PLAN</SimpleData>
+		<SimpleData name="Dénomination">SOCIETE AMENAGEMENT FONCIER ET ETABLISSEMENT RURAL PROVENCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -921,7 +1117,7 @@
 			<west> 5.398383 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -930,7 +1126,11 @@
   <Placemark id="parcelle_13_personne_morale.25288">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13093000AE0015</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES AIRES</SimpleData>
+		<SimpleData name="Dénomination">GFA LES AIRES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -940,7 +1140,7 @@
 			<west> 5.393743 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -949,7 +1149,11 @@
   <Placemark id="parcelle_13_personne_morale.25637">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000A0015</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES JONQUIERES-SUD</SimpleData>
+		<SimpleData name="Dénomination">STE D EXPLOITATION IMMOB ET AGRICOLE DU MIDI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -959,7 +1163,7 @@
 			<west> 5.401115 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -968,7 +1172,11 @@
   <Placemark id="parcelle_13_personne_morale.26582">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13093000AB0154</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">RTE DEPARTEMENTALE 561</SimpleData>
+		<SimpleData name="Dénomination">GFA LES AIRES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -978,7 +1186,7 @@
 			<west> 5.400545 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -987,7 +1195,11 @@
   <Placemark id="parcelle_13_personne_morale.28080">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13093000AE0016</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES AIRES</SimpleData>
+		<SimpleData name="Dénomination">GFA LES AIRES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -997,7 +1209,7 @@
 			<west> 5.394043 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1006,7 +1218,11 @@
   <Placemark id="parcelle_13_personne_morale.28439">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000A0016</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES JONQUIERES-SUD</SimpleData>
+		<SimpleData name="Dénomination">STE D EXPLOITATION IMMOB ET AGRICOLE DU MIDI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1016,7 +1232,7 @@
 			<west> 5.400838 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1025,7 +1241,11 @@
   <Placemark id="parcelle_13_personne_morale.31764">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0172</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES GRAVIERS-EST</SimpleData>
+		<SimpleData name="Dénomination">GFA LES AIRES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1035,7 +1255,7 @@
 			<west> 5.393848 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1044,7 +1264,11 @@
   <Placemark id="parcelle_13_personne_morale.33380">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13093000AC0018</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES VERGERAS</SimpleData>
+		<SimpleData name="Dénomination">GFA LES AIRES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1054,7 +1278,7 @@
 			<west> 5.402118 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1063,7 +1287,11 @@
   <Placemark id="parcelle_13_personne_morale.33402">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13093000AE0018</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES AIRES</SimpleData>
+		<SimpleData name="Dénomination">GFA LES AIRES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1073,7 +1301,7 @@
 			<west> 5.394159 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1082,7 +1310,11 @@
   <Placemark id="parcelle_13_personne_morale.33746">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000A0018</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES JONQUIERES-SUD</SimpleData>
+		<SimpleData name="Dénomination">STE D EXPLOITATION IMMOB ET AGRICOLE DU MIDI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1092,7 +1324,7 @@
 			<west> 5.399333 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1101,7 +1333,11 @@
   <Placemark id="parcelle_13_personne_morale.34096">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0181</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES GRAVIERS-EST</SimpleData>
+		<SimpleData name="Dénomination">GFA LES AIRES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1111,7 +1347,7 @@
 			<west> 5.392983 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1120,7 +1356,11 @@
   <Placemark id="parcelle_13_personne_morale.35750">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13093000AE0019</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES AIRES</SimpleData>
+		<SimpleData name="Dénomination">PROPRIETAIRES DU BND 093 A0121</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1130,7 +1370,7 @@
 			<west> 5.394218 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1139,7 +1379,11 @@
   <Placemark id="parcelle_13_personne_morale.37938">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0002</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES MOULESTRES</SimpleData>
+		<SimpleData name="Dénomination">PROPRIETAIRES DU BND 093 B0002</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1149,7 +1393,7 @@
 			<west> 5.37969 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1158,7 +1402,11 @@
   <Placemark id="parcelle_13_personne_morale.37975">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13093000AC0002</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">GRAND PLAN</SimpleData>
+		<SimpleData name="Dénomination">GFA LES AIRES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1168,7 +1416,7 @@
 			<west> 5.400949 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1177,7 +1425,11 @@
   <Placemark id="parcelle_13_personne_morale.38458">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13093000AE0020</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES AIRES</SimpleData>
+		<SimpleData name="Dénomination">GFA LES AIRES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1187,7 +1439,7 @@
 			<west> 5.394215 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1196,7 +1448,11 @@
   <Placemark id="parcelle_13_personne_morale.41032">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000A0021</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES JONQUIERES-SUD</SimpleData>
+		<SimpleData name="Dénomination">GFA LES AIRES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1206,7 +1462,7 @@
 			<west> 5.399561 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1215,7 +1471,11 @@
   <Placemark id="parcelle_13_personne_morale.44786">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13093000AB0023</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">AV DE L ANCIENNE GARE</SimpleData>
+		<SimpleData name="Dénomination">STE D EXPLOITATION IMMOB ET AGRICOLE DU MIDI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1225,7 +1485,7 @@
 			<west> 5.397397 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1234,7 +1494,11 @@
   <Placemark id="parcelle_13_personne_morale.49423">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000A0253</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES VERGERAS SUD</SimpleData>
+		<SimpleData name="Dénomination">ELECTRICITE DE FRANCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1244,7 +1508,7 @@
 			<west> 5.399448 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1253,7 +1517,11 @@
   <Placemark id="parcelle_13_personne_morale.58516">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13093000AD0031</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">L HUBAC</SimpleData>
+		<SimpleData name="Dénomination">ELECTRICITE DE FRANCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1263,7 +1531,7 @@
 			<west> 5.39731 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1272,7 +1540,11 @@
   <Placemark id="parcelle_13_personne_morale.60771">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0323</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">JANSON</SimpleData>
+		<SimpleData name="Dénomination">STE D EXPLOITATION IMMOB ET AGRICOLE DU MIDI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1282,7 +1554,7 @@
 			<west> 5.3783 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1291,7 +1563,11 @@
   <Placemark id="parcelle_13_personne_morale.60896">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0324</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">JANSON</SimpleData>
+		<SimpleData name="Dénomination">STE D EXPLOITATION IMMOB ET AGRICOLE DU MIDI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1301,7 +1577,7 @@
 			<west> 5.378699 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1310,7 +1586,11 @@
   <Placemark id="parcelle_13_personne_morale.61009">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0325</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">JANSON</SimpleData>
+		<SimpleData name="Dénomination">STE D EXPLOITATION IMMOB ET AGRICOLE DU MIDI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1320,7 +1600,7 @@
 			<west> 5.378385 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1329,7 +1609,11 @@
   <Placemark id="parcelle_13_personne_morale.62385">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0335</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES VALLONS DES JASSES</SimpleData>
+		<SimpleData name="Dénomination">STE D EXPLOITATION IMMOB ET AGRICOLE DU MIDI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1339,7 +1623,7 @@
 			<west> 5.378653 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1348,7 +1632,11 @@
   <Placemark id="parcelle_13_personne_morale.62652">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0338</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES VALLONS DES JASSES</SimpleData>
+		<SimpleData name="Dénomination">STE D EXPLOITATION IMMOB ET AGRICOLE DU MIDI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1358,7 +1646,7 @@
 			<west> 5.377377 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1367,7 +1655,11 @@
   <Placemark id="parcelle_13_personne_morale.63355">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0342</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES VALLONS DES JASSES</SimpleData>
+		<SimpleData name="Dénomination">STE D EXPLOITATION IMMOB ET AGRICOLE DU MIDI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1377,7 +1669,7 @@
 			<west> 5.37498 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1386,7 +1678,11 @@
   <Placemark id="parcelle_13_personne_morale.63455">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0343</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES VALLONS DES JASSES</SimpleData>
+		<SimpleData name="Dénomination">STE D EXPLOITATION IMMOB ET AGRICOLE DU MIDI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1396,7 +1692,7 @@
 			<west> 5.367814 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1405,7 +1701,11 @@
   <Placemark id="parcelle_13_personne_morale.63528">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000A0344</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES JONQUIERES-SUD</SimpleData>
+		<SimpleData name="Dénomination">STE D EXPLOITATION IMMOB ET AGRICOLE DU MIDI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1415,7 +1715,7 @@
 			<west> 5.408119 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1424,7 +1724,11 @@
   <Placemark id="parcelle_13_personne_morale.63794">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0347</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES VALLONS DES JASSES</SimpleData>
+		<SimpleData name="Dénomination">GFA LES AIRES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1434,7 +1738,7 @@
 			<west> 5.37859 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1443,7 +1747,11 @@
   <Placemark id="parcelle_13_personne_morale.63987">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13093000AA0035</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES GRANDS VERGERS</SimpleData>
+		<SimpleData name="Dénomination">GFA LES AIRES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1453,7 +1761,7 @@
 			<west> 5.392838 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1462,7 +1770,11 @@
   <Placemark id="parcelle_13_personne_morale.64837">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0355</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES VALLONS DES JASSES</SimpleData>
+		<SimpleData name="Dénomination">ELECTRICITE DE FRANCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1472,7 +1784,7 @@
 			<west> 5.377034 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1481,7 +1793,11 @@
   <Placemark id="parcelle_13_personne_morale.65157">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000A0359</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">L HUBAC</SimpleData>
+		<SimpleData name="Dénomination">STE D EXPLOITATION IMMOB ET AGRICOLE DU MIDI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1491,7 +1807,7 @@
 			<west> 5.390357 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1500,7 +1816,11 @@
   <Placemark id="parcelle_13_personne_morale.65510">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000A0036</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES JONQUIERES-SUD</SimpleData>
+		<SimpleData name="Dénomination">STE D EXPLOITATION IMMOB ET AGRICOLE DU MIDI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1510,7 +1830,7 @@
 			<west> 5.401814 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1519,7 +1839,11 @@
   <Placemark id="parcelle_13_personne_morale.65587">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0360</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES VALLONS DES JASSES</SimpleData>
+		<SimpleData name="Dénomination">STE D EXPLOITATION IMMOB ET AGRICOLE DU MIDI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1529,7 +1853,7 @@
 			<west> 5.375608 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1538,7 +1862,11 @@
   <Placemark id="parcelle_13_personne_morale.65996">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0365</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES VALLONS DES JASSES</SimpleData>
+		<SimpleData name="Dénomination">STE D EXPLOITATION IMMOB ET AGRICOLE DU MIDI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1548,7 +1876,7 @@
 			<west> 5.377655 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1557,7 +1885,11 @@
   <Placemark id="parcelle_13_personne_morale.66293">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0369</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES VALLONS DES JASSES</SimpleData>
+		<SimpleData name="Dénomination">QUATRE CARRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1567,7 +1899,7 @@
 			<west> 5.374751 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1576,7 +1908,11 @@
   <Placemark id="parcelle_13_personne_morale.66634">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000A0037</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES JONQUIERES-SUD</SimpleData>
+		<SimpleData name="Dénomination">STE D EXPLOITATION IMMOB ET AGRICOLE DU MIDI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1586,7 +1922,7 @@
 			<west> 5.401216 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1595,7 +1931,11 @@
   <Placemark id="parcelle_13_personne_morale.66780">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0371</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES VALLONS DES JASSES</SimpleData>
+		<SimpleData name="Dénomination">STE D EXPLOITATION IMMOB ET AGRICOLE DU MIDI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1605,7 +1945,7 @@
 			<west> 5.374264 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1614,7 +1954,11 @@
   <Placemark id="parcelle_13_personne_morale.66838">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0372</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES VALLONS DES JASSES</SimpleData>
+		<SimpleData name="Dénomination">LISANNE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1624,7 +1968,7 @@
 			<west> 5.373746 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1633,7 +1977,11 @@
   <Placemark id="parcelle_13_personne_morale.66912">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0373</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">PONSEROT</SimpleData>
+		<SimpleData name="Dénomination">LISANNE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1643,7 +1991,7 @@
 			<west> 5.373323 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1652,7 +2000,11 @@
   <Placemark id="parcelle_13_personne_morale.66982">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0374</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">PONSEROT</SimpleData>
+		<SimpleData name="Dénomination">LISANNE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1662,7 +2014,7 @@
 			<west> 5.372416 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1671,7 +2023,11 @@
   <Placemark id="parcelle_13_personne_morale.67057">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0375</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">PONSEROT</SimpleData>
+		<SimpleData name="Dénomination">LISANNE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1681,7 +2037,7 @@
 			<west> 5.372325 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1690,7 +2046,11 @@
   <Placemark id="parcelle_13_personne_morale.67363">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0379</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">PONSEROT</SimpleData>
+		<SimpleData name="Dénomination">LISANNE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1700,7 +2060,7 @@
 			<west> 5.373945 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1709,7 +2069,11 @@
   <Placemark id="parcelle_13_personne_morale.67400">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13093000AB0038</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">PETIT PLAN</SimpleData>
+		<SimpleData name="Dénomination">SOCIETE AMENAGEMENT FONCIER ET ETABLISSEMENT RURAL PROVENCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1719,7 +2083,7 @@
 			<west> 5.399067 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1728,7 +2092,11 @@
   <Placemark id="parcelle_13_personne_morale.67940">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0382</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">PONSEROT</SimpleData>
+		<SimpleData name="Dénomination">LISANNE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1738,7 +2106,7 @@
 			<west> 5.372142 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1747,7 +2115,11 @@
   <Placemark id="parcelle_13_personne_morale.68006">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0383</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">PONSEROT</SimpleData>
+		<SimpleData name="Dénomination">LISANNE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1757,7 +2129,7 @@
 			<west> 5.371711 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1766,7 +2138,11 @@
   <Placemark id="parcelle_13_personne_morale.68074">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0384</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">PONSEROT</SimpleData>
+		<SimpleData name="Dénomination">STE D EXPLOITATION IMMOB ET AGRICOLE DU MIDI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1776,7 +2152,7 @@
 			<west> 5.369539 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1785,7 +2161,11 @@
   <Placemark id="parcelle_13_personne_morale.68147">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0385</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">PONSEROT</SimpleData>
+		<SimpleData name="Dénomination">STE D EXPLOITATION IMMOB ET AGRICOLE DU MIDI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1795,7 +2175,7 @@
 			<west> 5.365244 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1804,7 +2184,11 @@
   <Placemark id="parcelle_13_personne_morale.68812">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000A0039</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES JONQUIERES-SUD</SimpleData>
+		<SimpleData name="Dénomination">STE D EXPLOITATION IMMOB ET AGRICOLE DU MIDI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1814,7 +2198,7 @@
 			<west> 5.402093 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1823,7 +2207,11 @@
   <Placemark id="parcelle_13_personne_morale.70330">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000A0040</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES JONQUIERES-SUD</SimpleData>
+		<SimpleData name="Dénomination">STE D EXPLOITATION IMMOB ET AGRICOLE DU MIDI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1833,7 +2221,7 @@
 			<west> 5.40442 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1842,7 +2230,11 @@
   <Placemark id="parcelle_13_personne_morale.71435">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000A0041</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES JONQUIERES-SUD</SimpleData>
+		<SimpleData name="Dénomination">STE D EXPLOITATION IMMOB ET AGRICOLE DU MIDI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1852,7 +2244,7 @@
 			<west> 5.4038 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1861,7 +2253,11 @@
   <Placemark id="parcelle_13_personne_morale.72494">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000A0042</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES JONQUIERES-SUD</SimpleData>
+		<SimpleData name="Dénomination">STE D EXPLOITATION IMMOB ET AGRICOLE DU MIDI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1871,7 +2267,7 @@
 			<west> 5.404661 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1880,7 +2276,11 @@
   <Placemark id="parcelle_13_personne_morale.72821">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0425</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES MOULESTRES</SimpleData>
+		<SimpleData name="Dénomination">STE D EXPLOITATION IMMOB ET AGRICOLE DU MIDI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1890,7 +2290,7 @@
 			<west> 5.376101 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1899,7 +2299,11 @@
   <Placemark id="parcelle_13_personne_morale.72895">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0426</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES MOULESTRES</SimpleData>
+		<SimpleData name="Dénomination">STE D EXPLOITATION IMMOB ET AGRICOLE DU MIDI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1909,7 +2313,7 @@
 			<west> 5.381441 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1918,7 +2322,11 @@
   <Placemark id="parcelle_13_personne_morale.73934">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0436</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES GRAVIERS-OUEST</SimpleData>
+		<SimpleData name="Dénomination">ELECTRICITE DE FRANCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1928,7 +2336,7 @@
 			<west> 5.387018 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1937,7 +2345,11 @@
   <Placemark id="parcelle_13_personne_morale.74580">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0441</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES GRANDES TERRES</SimpleData>
+		<SimpleData name="Dénomination">GFA LES AIRES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1947,7 +2359,7 @@
 			<west> 5.383002 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1956,7 +2368,11 @@
   <Placemark id="parcelle_13_personne_morale.74651">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0442</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES GRANDES TERRES</SimpleData>
+		<SimpleData name="Dénomination">GFA LES AIRES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1966,7 +2382,7 @@
 			<west> 5.382966 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1975,7 +2391,11 @@
   <Placemark id="parcelle_13_personne_morale.77847">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0476</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LA BAYE</SimpleData>
+		<SimpleData name="Dénomination">STE D EXPLOITATION IMMOB ET AGRICOLE DU MIDI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1985,7 +2405,7 @@
 			<west> 5.382106 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1994,7 +2414,11 @@
   <Placemark id="parcelle_13_personne_morale.78649">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0484</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES GRAVIERS-OUEST</SimpleData>
+		<SimpleData name="Dénomination">STE D EXPLOITATION IMMOB ET AGRICOLE DU MIDI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2004,7 +2428,7 @@
 			<west> 5.384702 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2013,7 +2437,11 @@
   <Placemark id="parcelle_13_personne_morale.78794">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0486</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES GRAVIERS-OUEST</SimpleData>
+		<SimpleData name="Dénomination">STE D EXPLOITATION IMMOB ET AGRICOLE DU MIDI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2023,7 +2451,7 @@
 			<west> 5.38751 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2032,7 +2460,11 @@
   <Placemark id="parcelle_13_personne_morale.78996">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0489</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES GRAVIERS-OUEST</SimpleData>
+		<SimpleData name="Dénomination">STE D EXPLOITATION IMMOB ET AGRICOLE DU MIDI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2042,7 +2474,7 @@
 			<west> 5.390305 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2051,7 +2483,11 @@
   <Placemark id="parcelle_13_personne_morale.79818">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0497</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">JANSON</SimpleData>
+		<SimpleData name="Dénomination">ELECTRICITE DE FRANCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2061,7 +2497,7 @@
 			<west> 5.382223 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2070,7 +2506,11 @@
   <Placemark id="parcelle_13_personne_morale.79867">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0498</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">JANSON</SimpleData>
+		<SimpleData name="Dénomination">STE D EXPLOITATION IMMOB ET AGRICOLE DU MIDI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2080,7 +2520,7 @@
 			<west> 5.382396 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2089,7 +2529,11 @@
   <Placemark id="parcelle_13_personne_morale.79926">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0499</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">JANSON</SimpleData>
+		<SimpleData name="Dénomination">ELECTRICITE DE FRANCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2099,7 +2543,7 @@
 			<west> 5.383654 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2108,7 +2552,11 @@
   <Placemark id="parcelle_13_personne_morale.80738">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0500</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES GRAVIERS-OUEST</SimpleData>
+		<SimpleData name="Dénomination">ELECTRICITE DE FRANCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2118,7 +2566,7 @@
 			<west> 5.384158 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2127,7 +2575,11 @@
   <Placemark id="parcelle_13_personne_morale.80762">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000A0501</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES JONQUIERES NORD</SimpleData>
+		<SimpleData name="Dénomination">STE D EXPLOITATION IMMOB ET AGRICOLE DU MIDI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2137,7 +2589,7 @@
 			<west> 5.409574 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2146,7 +2598,11 @@
   <Placemark id="parcelle_13_personne_morale.80799">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0501</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES GRAVIERS-OUEST</SimpleData>
+		<SimpleData name="Dénomination">STE D EXPLOITATION IMMOB ET AGRICOLE DU MIDI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2156,7 +2612,7 @@
 			<west> 5.384384 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2165,7 +2621,11 @@
   <Placemark id="parcelle_13_personne_morale.80859">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0502</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES GRAVIERS-OUEST</SimpleData>
+		<SimpleData name="Dénomination">STE D EXPLOITATION IMMOB ET AGRICOLE DU MIDI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2175,7 +2635,7 @@
 			<west> 5.388563 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2184,7 +2644,11 @@
   <Placemark id="parcelle_13_personne_morale.81040">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0505</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">JANSON</SimpleData>
+		<SimpleData name="Dénomination">STE D EXPLOITATION IMMOB ET AGRICOLE DU MIDI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2194,7 +2658,7 @@
 			<west> 5.376482 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2203,7 +2667,11 @@
   <Placemark id="parcelle_13_personne_morale.81713">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0511</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES GRANDES TERRES</SimpleData>
+		<SimpleData name="Dénomination">ENEDIS</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2213,7 +2681,7 @@
 			<west> 5.384241 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2222,7 +2690,11 @@
   <Placemark id="parcelle_13_personne_morale.81762">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0512</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES GRANDES TERRES</SimpleData>
+		<SimpleData name="Dénomination">ENEDIS</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2232,7 +2704,7 @@
 			<west> 5.384506 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2241,7 +2713,11 @@
   <Placemark id="parcelle_13_personne_morale.81809">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0513</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES GRANDES TERRES</SimpleData>
+		<SimpleData name="Dénomination">ENEDIS</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2251,7 +2727,7 @@
 			<west> 5.384639 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2260,7 +2736,11 @@
   <Placemark id="parcelle_13_personne_morale.81862">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0514</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES GRANDES TERRES</SimpleData>
+		<SimpleData name="Dénomination">GFA LES AIRES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2270,7 +2750,7 @@
 			<west> 5.384756 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2279,7 +2759,11 @@
   <Placemark id="parcelle_13_personne_morale.82010">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0517</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">1101, RTE DEPARTEMENTALE 561</SimpleData>
+		<SimpleData name="Dénomination">ELECTRICITE DE FRANCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2289,7 +2773,7 @@
 			<west> 5.383083 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2298,7 +2782,11 @@
   <Placemark id="parcelle_13_personne_morale.83466">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0532</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES PLAINES</SimpleData>
+		<SimpleData name="Dénomination">ENEDIS</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2308,7 +2796,7 @@
 			<west> 5.3814 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2317,7 +2805,11 @@
   <Placemark id="parcelle_13_personne_morale.83515">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0533</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES PLAINES</SimpleData>
+		<SimpleData name="Dénomination">ENEDIS</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2327,7 +2819,7 @@
 			<west> 5.381604 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2336,7 +2828,11 @@
   <Placemark id="parcelle_13_personne_morale.83569">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0534</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES BOURRETS</SimpleData>
+		<SimpleData name="Dénomination">ELECTRICITE DE FRANCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2346,7 +2842,7 @@
 			<west> 5.381196 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2355,7 +2851,11 @@
   <Placemark id="parcelle_13_personne_morale.83620">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0535</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES GRANDES TERRES</SimpleData>
+		<SimpleData name="Dénomination">RTE RESEAU DE TRANSPORT D ELECTRICITE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2365,7 +2865,7 @@
 			<west> 5.383295 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2374,7 +2874,11 @@
   <Placemark id="parcelle_13_personne_morale.83675">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0536</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES GRANDES TERRES</SimpleData>
+		<SimpleData name="Dénomination">RTE RESEAU DE TRANSPORT D ELECTRICITE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2384,7 +2888,7 @@
 			<west> 5.383313 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2393,7 +2897,11 @@
   <Placemark id="parcelle_13_personne_morale.84194">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0541</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES MOULESTRES</SimpleData>
+		<SimpleData name="Dénomination">ENEDIS</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2403,7 +2911,7 @@
 			<west> 5.38256 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2412,7 +2920,11 @@
   <Placemark id="parcelle_13_personne_morale.84368">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0544</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES GRAVIERS-OUEST</SimpleData>
+		<SimpleData name="Dénomination">ELECTRICITE DE FRANCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2422,7 +2934,7 @@
 			<west> 5.382678 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2431,7 +2943,11 @@
   <Placemark id="parcelle_13_personne_morale.85842">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0562</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">JANSON</SimpleData>
+		<SimpleData name="Dénomination">ELECTRICITE DE FRANCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2441,7 +2957,7 @@
 			<west> 5.367929 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2450,7 +2966,11 @@
   <Placemark id="parcelle_13_personne_morale.88349">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13093000AE0006</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">L HUBAC</SimpleData>
+		<SimpleData name="Dénomination">ELECTRICITE DE FRANCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2460,7 +2980,7 @@
 			<west> 5.391257 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2469,7 +2989,11 @@
   <Placemark id="parcelle_13_personne_morale.88753">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13093000AB0060</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">RUE GRANDE</SimpleData>
+		<SimpleData name="Dénomination">PROPRIETAIRES DU BND 093 A0112</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2479,7 +3003,7 @@
 			<west> 5.39511 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2488,7 +3012,11 @@
   <Placemark id="parcelle_13_personne_morale.89052">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0600</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES BOURRETS</SimpleData>
+		<SimpleData name="Dénomination">ENEDIS</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2498,7 +3026,7 @@
 			<west> 5.385612 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2507,7 +3035,11 @@
   <Placemark id="parcelle_13_personne_morale.89096">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0601</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES MOULESTRES</SimpleData>
+		<SimpleData name="Dénomination">ENEDIS</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2517,7 +3049,7 @@
 			<west> 5.382754 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2526,7 +3058,11 @@
   <Placemark id="parcelle_13_personne_morale.89431">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13093000AA0061</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LOT LES AMANDIERS</SimpleData>
+		<SimpleData name="Dénomination">ANSELME IMMOBILIER</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2536,7 +3072,7 @@
 			<west> 5.391486 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2545,7 +3081,11 @@
   <Placemark id="parcelle_13_personne_morale.89459">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13093000AD0061</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">127, TRA DES TARRASSES</SimpleData>
+		<SimpleData name="Dénomination">LE GAVOT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2555,7 +3095,7 @@
 			<west> 5.398819 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2564,7 +3104,11 @@
   <Placemark id="parcelle_13_personne_morale.90098">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13093000AB0062</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">RUE GRANDE</SimpleData>
+		<SimpleData name="Dénomination">PROPRIETAIRES DU BND 093 A0129</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2574,7 +3118,7 @@
 			<west> 5.395081 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2583,7 +3127,11 @@
   <Placemark id="parcelle_13_personne_morale.90514">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0622</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">JANSON</SimpleData>
+		<SimpleData name="Dénomination">STE D EXPLOITATION IMMOB ET AGRICOLE DU MIDI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2593,7 +3141,7 @@
 			<west> 5.370263 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2602,7 +3150,11 @@
   <Placemark id="parcelle_13_personne_morale.90622">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0625</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">JANSON</SimpleData>
+		<SimpleData name="Dénomination">ELECTRICITE DE FRANCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2612,7 +3164,7 @@
 			<west> 5.369071 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2621,7 +3173,11 @@
   <Placemark id="parcelle_13_personne_morale.90651">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0626</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">JANSON</SimpleData>
+		<SimpleData name="Dénomination">ELECTRICITE DE FRANCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2631,7 +3187,7 @@
 			<west> 5.376191 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2640,7 +3196,11 @@
   <Placemark id="parcelle_13_personne_morale.90691">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0627</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">JANSON</SimpleData>
+		<SimpleData name="Dénomination">ELECTRICITE DE FRANCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2650,7 +3210,7 @@
 			<west> 5.378087 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2659,7 +3219,11 @@
   <Placemark id="parcelle_13_personne_morale.90763">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0629</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">JANSON</SimpleData>
+		<SimpleData name="Dénomination">STE D EXPLOITATION IMMOB ET AGRICOLE DU MIDI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2669,7 +3233,7 @@
 			<west> 5.377574 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2678,7 +3242,11 @@
   <Placemark id="parcelle_13_personne_morale.90812">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13093000AD0063</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES VERGERAS</SimpleData>
+		<SimpleData name="Dénomination">PAYS DAIX TERRITOIRES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2688,7 +3256,7 @@
 			<west> 5.404003 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2697,7 +3265,11 @@
   <Placemark id="parcelle_13_personne_morale.91100">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0630</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LA DURANCE</SimpleData>
+		<SimpleData name="Dénomination">ELECTRICITE DE FRANCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2707,7 +3279,7 @@
 			<west> 5.37674 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2716,7 +3288,11 @@
   <Placemark id="parcelle_13_personne_morale.91163">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0632</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LA DURANCE</SimpleData>
+		<SimpleData name="Dénomination">ELECTRICITE DE FRANCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2726,7 +3302,7 @@
 			<west> 5.384178 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2735,7 +3311,11 @@
   <Placemark id="parcelle_13_personne_morale.91199">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0633</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LA DURANCE</SimpleData>
+		<SimpleData name="Dénomination">ELECTRICITE DE FRANCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2745,7 +3325,7 @@
 			<west> 5.386554 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2754,7 +3334,11 @@
   <Placemark id="parcelle_13_personne_morale.91304">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0637</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES GRAVIERS-OUEST</SimpleData>
+		<SimpleData name="Dénomination">ELECTRICITE DE FRANCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2764,7 +3348,7 @@
 			<west> 5.385924 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2773,7 +3357,11 @@
   <Placemark id="parcelle_13_personne_morale.91368">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0639</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES GRAVIERS-OUEST</SimpleData>
+		<SimpleData name="Dénomination">STE D EXPLOITATION IMMOB ET AGRICOLE DU MIDI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2783,7 +3371,7 @@
 			<west> 5.390993 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2792,7 +3380,11 @@
   <Placemark id="parcelle_13_personne_morale.91414">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13093000AD0064</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES VERGERAS</SimpleData>
+		<SimpleData name="Dénomination">PAYS DAIX TERRITOIRES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2802,7 +3394,7 @@
 			<west> 5.403636 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2811,7 +3403,11 @@
   <Placemark id="parcelle_13_personne_morale.91740">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0641</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES GRAVIERS-OUEST</SimpleData>
+		<SimpleData name="Dénomination">ELECTRICITE DE FRANCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2821,7 +3417,7 @@
 			<west> 5.391517 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2830,7 +3426,11 @@
   <Placemark id="parcelle_13_personne_morale.91965">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0648</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LA DURANCE</SimpleData>
+		<SimpleData name="Dénomination">ELECTRICITE DE FRANCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2840,7 +3440,7 @@
 			<west> 5.378994 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2849,7 +3449,11 @@
   <Placemark id="parcelle_13_personne_morale.92050">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13093000AD0065</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES VERGERAS</SimpleData>
+		<SimpleData name="Dénomination">PAYS DAIX TERRITOIRES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2859,7 +3463,7 @@
 			<west> 5.40324 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2868,7 +3472,11 @@
   <Placemark id="parcelle_13_personne_morale.92335">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0650</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LA DURANCE</SimpleData>
+		<SimpleData name="Dénomination">ELECTRICITE DE FRANCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2878,7 +3486,7 @@
 			<west> 5.368071 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2887,7 +3495,11 @@
   <Placemark id="parcelle_13_personne_morale.93187">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13093000AD0067</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES VERGERAS</SimpleData>
+		<SimpleData name="Dénomination">PAYS DAIX TERRITOIRES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2897,7 +3509,7 @@
 			<west> 5.402162 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2906,7 +3518,11 @@
   <Placemark id="parcelle_13_personne_morale.93591">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0675</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES GRANDES TERRES</SimpleData>
+		<SimpleData name="Dénomination">RTE RESEAU DE TRANSPORT D ELECTRICITE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2916,7 +3532,7 @@
 			<west> 5.383443 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2925,7 +3541,11 @@
   <Placemark id="parcelle_13_personne_morale.93737">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13093000AB0068</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES AIRES</SimpleData>
+		<SimpleData name="Dénomination">PROPRIETAIRES DU BND 093 A0117</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2935,7 +3555,7 @@
 			<west> 5.394436 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2944,7 +3564,11 @@
   <Placemark id="parcelle_13_personne_morale.93750">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13093000AD0068</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES VERGERAS</SimpleData>
+		<SimpleData name="Dénomination">PAYS DAIX TERRITOIRES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2954,7 +3578,7 @@
 			<west> 5.401957 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2963,7 +3587,11 @@
   <Placemark id="parcelle_13_personne_morale.94616">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000A0069</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">GRAND PLAN</SimpleData>
+		<SimpleData name="Dénomination">GFA LES AIRES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2973,7 +3601,7 @@
 			<west> 5.402362 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2982,7 +3610,11 @@
   <Placemark id="parcelle_13_personne_morale.95336">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13093000AB0070</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES AIRES</SimpleData>
+		<SimpleData name="Dénomination">PROPRIETAIRES DU BND 093 A0118</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2992,7 +3624,7 @@
 			<west> 5.394276 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3001,7 +3633,11 @@
   <Placemark id="parcelle_13_personne_morale.95344">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13093000AD0070</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES VERGERAS</SimpleData>
+		<SimpleData name="Dénomination">PAYS DAIX TERRITOIRES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3011,7 +3647,7 @@
 			<west> 5.40347 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3020,7 +3656,11 @@
   <Placemark id="parcelle_13_personne_morale.95920">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13093000AD0071</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES VERGERAS</SimpleData>
+		<SimpleData name="Dénomination">STELLA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3030,7 +3670,7 @@
 			<west> 5.403392 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3039,7 +3679,11 @@
   <Placemark id="parcelle_13_personne_morale.96452">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13093000AD0072</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES VERGERAS</SimpleData>
+		<SimpleData name="Dénomination">PAYS DAIX TERRITOIRES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3049,7 +3693,7 @@
 			<west> 5.40403 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3058,7 +3702,11 @@
   <Placemark id="parcelle_13_personne_morale.97024">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13093000AD0073</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES VERGERAS</SimpleData>
+		<SimpleData name="Dénomination">PAYS DAIX TERRITOIRES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3068,7 +3716,7 @@
 			<west> 5.40386 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3077,7 +3725,11 @@
   <Placemark id="parcelle_13_personne_morale.97530">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13093000AD0074</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES VERGERAS</SimpleData>
+		<SimpleData name="Dénomination">PAYS DAIX TERRITOIRES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3087,7 +3739,7 @@
 			<west> 5.403589 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3096,7 +3748,11 @@
   <Placemark id="parcelle_13_personne_morale.98066">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0749</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">PONSEROT</SimpleData>
+		<SimpleData name="Dénomination">LISANNE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3106,7 +3762,7 @@
 			<west> 5.372403 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3115,7 +3771,11 @@
   <Placemark id="parcelle_13_personne_morale.98113">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13093000AD0075</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">116, RUE DE LA TREVARESSE</SimpleData>
+		<SimpleData name="Dénomination">SAINT ESTEVE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3125,7 +3785,7 @@
 			<west> 5.403456 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3134,7 +3794,11 @@
   <Placemark id="parcelle_13_personne_morale.98600">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0758</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES VALLONS DES JASSES</SimpleData>
+		<SimpleData name="Dénomination">STE D EXPLOITATION IMMOB ET AGRICOLE DU MIDI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3144,7 +3808,7 @@
 			<west> 5.373581 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3153,7 +3817,11 @@
   <Placemark id="parcelle_13_personne_morale.98658">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13093000AD0076</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES VERGERAS</SimpleData>
+		<SimpleData name="Dénomination">PAYS DAIX TERRITOIRES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3163,7 +3831,7 @@
 			<west> 5.402696 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3172,7 +3840,11 @@
   <Placemark id="parcelle_13_personne_morale.98949">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0760</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES VALLONS DES JASSES</SimpleData>
+		<SimpleData name="Dénomination">STE D EXPLOITATION IMMOB ET AGRICOLE DU MIDI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3182,7 +3854,7 @@
 			<west> 5.37434 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3191,7 +3863,11 @@
   <Placemark id="parcelle_13_personne_morale.98998">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0762</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES GRAVIERS-OUEST</SimpleData>
+		<SimpleData name="Dénomination">STE D EXPLOITATION IMMOB ET AGRICOLE DU MIDI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3201,7 +3877,7 @@
 			<west> 5.387012 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3210,7 +3886,11 @@
   <Placemark id="parcelle_13_personne_morale.99083">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0766</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES GRAVIERS-OUEST</SimpleData>
+		<SimpleData name="Dénomination">GFA LES AIRES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3220,7 +3900,7 @@
 			<west> 5.38878 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3229,7 +3909,11 @@
   <Placemark id="parcelle_13_personne_morale.99705">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13093000AD0078</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES VERGERAS</SimpleData>
+		<SimpleData name="Dénomination">PAYS DAIX TERRITOIRES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3239,7 +3923,7 @@
 			<west> 5.404891 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3248,7 +3932,11 @@
   <Placemark id="parcelle_13_personne_morale.100048">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0784</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES GRAVIERS-EST</SimpleData>
+		<SimpleData name="Dénomination">GFA LES AIRES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3258,7 +3946,7 @@
 			<west> 5.392043 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3267,7 +3955,11 @@
   <Placemark id="parcelle_13_personne_morale.100132">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0788</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES GRAVIERS-EST</SimpleData>
+		<SimpleData name="Dénomination">GFA LES AIRES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3277,7 +3969,7 @@
 			<west> 5.392505 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3286,7 +3978,11 @@
   <Placemark id="parcelle_13_personne_morale.100190">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13093000AD0079</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES VERGERAS</SimpleData>
+		<SimpleData name="Dénomination">PAYS DAIX TERRITOIRES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3296,7 +3992,7 @@
 			<west> 5.40451 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3305,7 +4001,11 @@
   <Placemark id="parcelle_13_personne_morale.100480">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0790</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES GRAVIERS-EST</SimpleData>
+		<SimpleData name="Dénomination">GFA LES AIRES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3315,7 +4015,7 @@
 			<west> 5.392904 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3324,7 +4024,11 @@
   <Placemark id="parcelle_13_personne_morale.100520">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0792</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES GRAVIERS-EST</SimpleData>
+		<SimpleData name="Dénomination">GFA LES AIRES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3334,7 +4038,7 @@
 			<west> 5.39313 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3343,7 +4047,11 @@
   <Placemark id="parcelle_13_personne_morale.101107">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000A0008</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES JONQUIERES-SUD</SimpleData>
+		<SimpleData name="Dénomination">STE D EXPLOITATION IMMOB ET AGRICOLE DU MIDI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3353,7 +4061,7 @@
 			<west> 5.397648 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3362,7 +4070,11 @@
   <Placemark id="parcelle_13_personne_morale.101122">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13093000AA0080</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES PLAINES</SimpleData>
+		<SimpleData name="Dénomination">ELECTRICITE DE FRANCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3372,7 +4084,7 @@
 			<west> 5.38267 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3381,7 +4093,11 @@
   <Placemark id="parcelle_13_personne_morale.101635">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13093000AD0081</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES VERGERAS</SimpleData>
+		<SimpleData name="Dénomination">PAYS DAIX TERRITOIRES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3391,7 +4107,7 @@
 			<west> 5.404858 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3400,7 +4116,11 @@
   <Placemark id="parcelle_13_personne_morale.102036">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0816</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES VALLONS DES JASSES</SimpleData>
+		<SimpleData name="Dénomination">ZOLA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3410,7 +4130,7 @@
 			<west> 5.375817 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3419,7 +4139,11 @@
   <Placemark id="parcelle_13_personne_morale.102084">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0818</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES VALLONS DES JASSES</SimpleData>
+		<SimpleData name="Dénomination">ZOLA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3429,7 +4153,7 @@
 			<west> 5.377036 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3438,7 +4162,11 @@
   <Placemark id="parcelle_13_personne_morale.102125">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13093000AB0082</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">5, IMP DU CANAL</SimpleData>
+		<SimpleData name="Dénomination">YVIRGINY</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3448,7 +4176,7 @@
 			<west> 5.394289 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3457,7 +4185,11 @@
   <Placemark id="parcelle_13_personne_morale.102138">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13093000AD0082</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES VERGERAS</SimpleData>
+		<SimpleData name="Dénomination">PAYS DAIX TERRITOIRES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3467,7 +4199,7 @@
 			<west> 5.404445 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3476,7 +4208,11 @@
   <Placemark id="parcelle_13_personne_morale.102432">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0820</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES VALLONS DES JASSES</SimpleData>
+		<SimpleData name="Dénomination">ZOLA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3486,7 +4222,7 @@
 			<west> 5.377412 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3495,7 +4231,11 @@
   <Placemark id="parcelle_13_personne_morale.102654">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13093000AD0083</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES VERGERAS</SimpleData>
+		<SimpleData name="Dénomination">PAYS DAIX TERRITOIRES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3505,7 +4245,7 @@
 			<west> 5.404214 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3514,7 +4254,11 @@
   <Placemark id="parcelle_13_personne_morale.103146">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13093000AD0084</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES VERGERAS</SimpleData>
+		<SimpleData name="Dénomination">PAYS DAIX TERRITOIRES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3524,7 +4268,7 @@
 			<west> 5.404078 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3533,7 +4277,11 @@
   <Placemark id="parcelle_13_personne_morale.103580">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13093000AA0085</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">279, CHEM DU VALLON DE LESCALE</SimpleData>
+		<SimpleData name="Dénomination">GAB DIB</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3543,7 +4291,7 @@
 			<west> 5.391421 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3552,7 +4300,11 @@
   <Placemark id="parcelle_13_personne_morale.104027">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13093000AD0086</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES VERGERAS</SimpleData>
+		<SimpleData name="Dénomination">PAYS DAIX TERRITOIRES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3562,7 +4314,7 @@
 			<west> 5.404927 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3571,7 +4323,11 @@
   <Placemark id="parcelle_13_personne_morale.104472">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13093000AD0087</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES VERGERAS</SimpleData>
+		<SimpleData name="Dénomination">G S B C</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3581,7 +4337,7 @@
 			<west> 5.404744 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3590,7 +4346,11 @@
   <Placemark id="parcelle_13_personne_morale.105401">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13093000AD0089</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES VERGERAS</SimpleData>
+		<SimpleData name="Dénomination">G S B C</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3600,7 +4360,7 @@
 			<west> 5.40465 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3609,7 +4369,11 @@
   <Placemark id="parcelle_13_personne_morale.105628">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000B0089</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES GRAVIERS-OUEST</SimpleData>
+		<SimpleData name="Dénomination">STE D EXPLOITATION IMMOB ET AGRICOLE DU MIDI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3619,7 +4383,7 @@
 			<west> 5.388652 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3628,7 +4392,11 @@
   <Placemark id="parcelle_13_personne_morale.106196">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130930000A0009</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES JONQUIERES-SUD</SimpleData>
+		<SimpleData name="Dénomination">STE D EXPLOITATION IMMOB ET AGRICOLE DU MIDI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3638,7 +4406,7 @@
 			<west> 5.397658 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3647,7 +4415,11 @@
   <Placemark id="parcelle_13_personne_morale.106230">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13093000AD0090</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES VERGERAS</SimpleData>
+		<SimpleData name="Dénomination">PAYS DAIX TERRITOIRES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3657,7 +4429,7 @@
 			<west> 5.404451 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3666,7 +4438,11 @@
   <Placemark id="parcelle_13_personne_morale.107465">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13093000AD0093</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES VERGERAS</SimpleData>
+		<SimpleData name="Dénomination">PAYS DAIX TERRITOIRES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3676,7 +4452,7 @@
 			<west> 5.404032 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3685,7 +4461,11 @@
   <Placemark id="parcelle_13_personne_morale.107470">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13093000AE0093</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES AIRES</SimpleData>
+		<SimpleData name="Dénomination">MBP</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3695,7 +4475,7 @@
 			<west> 5.396511 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3704,7 +4484,11 @@
   <Placemark id="parcelle_13_personne_morale.107892">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13093000AD0094</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES VERGERAS</SimpleData>
+		<SimpleData name="Dénomination">PAYS DAIX TERRITOIRES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3714,7 +4498,7 @@
 			<west> 5.403265 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3723,7 +4507,11 @@
   <Placemark id="parcelle_13_personne_morale.108329">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13093000AD0095</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">116, RUE DE LA TREVARESSE</SimpleData>
+		<SimpleData name="Dénomination">SAINT ESTEVE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3733,7 +4521,7 @@
 			<west> 5.402478 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3742,7 +4530,11 @@
   <Placemark id="parcelle_13_personne_morale.108731">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13093000AD0096</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES VERGERAS</SimpleData>
+		<SimpleData name="Dénomination">PAYS DAIX TERRITOIRES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3752,7 +4544,7 @@
 			<west> 5.402877 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3761,7 +4553,11 @@
   <Placemark id="parcelle_13_personne_morale.109514">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13093000AD0098</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES VERGERAS</SimpleData>
+		<SimpleData name="Dénomination">PAYS DAIX TERRITOIRES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3771,7 +4567,7 @@
 			<west> 5.401964 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3780,7 +4576,11 @@
   <Placemark id="parcelle_13_personne_morale.109933">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13093000AD0099</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ESTEVE-JANSON</SimpleData>
+		<SimpleData name="Adresse">LES VERGERAS</SimpleData>
+		<SimpleData name="Dénomination">PAYS DAIX TERRITOIRES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3790,7 +4590,7 @@
 			<west> 5.401547 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>

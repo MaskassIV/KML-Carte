@@ -2,7 +2,11 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document id="root_doc">
 <Schema name="VELAUX_ETAT" id="VELAUX_ETAT">
+	<SimpleField name="Numéro de Parcelle" type="string"></SimpleField>
+	<SimpleField name="Departement" type="string"></SimpleField>
 	<SimpleField name="Commune" type="string"></SimpleField>
+	<SimpleField name="Adresse" type="string"></SimpleField>
+	<SimpleField name="Dénomination" type="string"></SimpleField>
 </Schema>
 	<Style id="ETAT">
 		<LineStyle>
@@ -18,7 +22,11 @@
   <Placemark id="parcelle_13_etat.382">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">13112000CM0052</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">VELAUX</SimpleData>
+		<SimpleData name="Adresse">5090, LA VERDIERE</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -28,7 +36,7 @@
 			<west> 5.234689 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -37,7 +45,11 @@
   <Placemark id="parcelle_13_etat.1347">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">13112000AY0129</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">VELAUX</SimpleData>
+		<SimpleData name="Adresse">LE PARTERRE NORD</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -47,7 +59,7 @@
 			<west> 5.255486 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -56,7 +68,11 @@
   <Placemark id="parcelle_13_etat.3821">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">13112000BD0255</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">VELAUX</SimpleData>
+		<SimpleData name="Adresse">LA PALUN</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -66,7 +82,7 @@
 			<west> 5.257496 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -75,7 +91,11 @@
   <Placemark id="parcelle_13_etat.3913">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">13112000BD0260</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">VELAUX</SimpleData>
+		<SimpleData name="Adresse">LA PALUN</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -85,7 +105,7 @@
 			<west> 5.258469 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -94,7 +114,11 @@
   <Placemark id="parcelle_13_etat.3926">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">13112000AX0263</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">VELAUX</SimpleData>
+		<SimpleData name="Adresse">55, AV BAPTISTIN ANGLES</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -104,7 +128,7 @@
 			<west> 5.25445 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -113,7 +137,11 @@
   <Placemark id="parcelle_13_etat.6338">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">13112000BH0006</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">VELAUX</SimpleData>
+		<SimpleData name="Adresse">SAINT-MARTIN</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -123,7 +151,7 @@
 			<west> 5.257183 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -132,7 +160,11 @@
   <Placemark id="parcelle_13_etat.7309">
 <styleUrl>#ETAT</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
+		<SimpleData name="Numéro de Parcelle">13112000CV0089</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">VELAUX</SimpleData>
+		<SimpleData name="Adresse">PLAINE DE PECOUT</SimpleData>
+		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -142,7 +174,7 @@
 			<west> 5.230469 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>

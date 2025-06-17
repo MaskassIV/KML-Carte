@@ -2,7 +2,11 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document id="root_doc">
 <Schema name="AIX EN PROVENCE_region" id="AIX EN PROVENCE_region">
+	<SimpleField name="Numéro de Parcelle" type="string"></SimpleField>
+	<SimpleField name="Departement" type="string"></SimpleField>
 	<SimpleField name="Commune" type="string"></SimpleField>
+	<SimpleField name="Adresse" type="string"></SimpleField>
+	<SimpleField name="Dénomination" type="string"></SimpleField>
 </Schema>
 	<Style id="region">
 		<LineStyle>
@@ -18,7 +22,11 @@
   <Placemark id="parcelle_13_region.21">
 <styleUrl>#region</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_region">
+		<SimpleData name="Numéro de Parcelle">13001000AZ0145</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">AIX EN PROVENCE</SimpleData>
+		<SimpleData name="Adresse">9011, IMP GALLET CANTANT</SimpleData>
+		<SimpleData name="Dénomination">REGION PROVENCE-ALPES-COTE DAZUR</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -28,7 +36,7 @@
 			<west> 5.45595 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -36,7 +44,11 @@
   <Placemark id="parcelle_13_region.22">
 <styleUrl>#region</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_region">
+		<SimpleData name="Numéro de Parcelle">13001000AZ0146</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">AIX EN PROVENCE</SimpleData>
+		<SimpleData name="Adresse">60, BD CARNOT</SimpleData>
+		<SimpleData name="Dénomination">REGION PROVENCE-ALPES-COTE DAZUR</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -46,7 +58,7 @@
 			<west> 5.454582 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -54,7 +66,11 @@
   <Placemark id="parcelle_13_region.24">
 <styleUrl>#region</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_region">
+		<SimpleData name="Numéro de Parcelle">13001000EW0156</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">AIX EN PROVENCE</SimpleData>
+		<SimpleData name="Adresse">62, CHE DU VIADUC</SimpleData>
+		<SimpleData name="Dénomination">REGION PROVENCE-ALPES-COTE DAZUR</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -64,7 +80,7 @@
 			<west> 5.442577 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -72,7 +88,11 @@
   <Placemark id="parcelle_13_region.54">
 <styleUrl>#region</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_region">
+		<SimpleData name="Numéro de Parcelle">13001000IC0223</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">AIX EN PROVENCE</SimpleData>
+		<SimpleData name="Adresse">40, RUE BEAUVOISIN</SimpleData>
+		<SimpleData name="Dénomination">SEPHANI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -82,7 +102,7 @@
 			<west> 5.406075 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -90,7 +110,11 @@
   <Placemark id="parcelle_13_region.71">
 <styleUrl>#region</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_region">
+		<SimpleData name="Numéro de Parcelle">13001000BA0034</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">AIX EN PROVENCE</SimpleData>
+		<SimpleData name="Adresse">AV SAINTE VICTOIRE</SimpleData>
+		<SimpleData name="Dénomination">REGION PROVENCE-ALPES-COTE DAZUR</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -100,7 +124,7 @@
 			<west> 5.457944 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -108,7 +132,11 @@
   <Placemark id="parcelle_13_region.78">
 <styleUrl>#region</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_region">
+		<SimpleData name="Numéro de Parcelle">13001000EW0037</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">AIX EN PROVENCE</SimpleData>
+		<SimpleData name="Adresse">PONT DE L ARC DU MONTAIGUE</SimpleData>
+		<SimpleData name="Dénomination">REGION PROVENCE-ALPES-COTE DAZUR</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -118,7 +146,7 @@
 			<west> 5.444852 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -126,7 +154,11 @@
   <Placemark id="parcelle_13_region.104">
 <styleUrl>#region</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_region">
+		<SimpleData name="Numéro de Parcelle">13001000AZ0080</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">AIX EN PROVENCE</SimpleData>
+		<SimpleData name="Adresse">IMP GALLET CANTANT</SimpleData>
+		<SimpleData name="Dénomination">REGION PROVENCE-ALPES-COTE DAZUR</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -136,7 +168,7 @@
 			<west> 5.454731 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -144,7 +176,11 @@
   <Placemark id="parcelle_13_region.105">
 <styleUrl>#region</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_region">
+		<SimpleData name="Numéro de Parcelle">13001000BX0085</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">AIX EN PROVENCE</SimpleData>
+		<SimpleData name="Adresse">25, RUE PAUL BELTCAGUY</SimpleData>
+		<SimpleData name="Dénomination">REGION PROVENCE-ALPES-COTE DAZUR</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -154,7 +190,7 @@
 			<west> 5.457307 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -162,7 +198,11 @@
   <Placemark id="parcelle_13_region.107">
 <styleUrl>#region</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_region">
+		<SimpleData name="Numéro de Parcelle">13001000EW0094</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">AIX EN PROVENCE</SimpleData>
+		<SimpleData name="Adresse">62, CHE DU VIADUC</SimpleData>
+		<SimpleData name="Dénomination">REGION PROVENCE-ALPES-COTE DAZUR</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -172,7 +212,7 @@
 			<west> 5.446162 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>

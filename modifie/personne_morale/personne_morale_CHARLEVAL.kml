@@ -2,7 +2,11 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document id="root_doc">
 <Schema name="CHARLEVAL_personne_morale" id="CHARLEVAL_personne_morale">
+	<SimpleField name="Numéro de Parcelle" type="string"></SimpleField>
+	<SimpleField name="Departement" type="string"></SimpleField>
 	<SimpleField name="Commune" type="string"></SimpleField>
+	<SimpleField name="Adresse" type="string"></SimpleField>
+	<SimpleField name="Dénomination" type="string"></SimpleField>
 </Schema>
 	<Style id="personne_morale">
 		<LineStyle>
@@ -18,7 +22,11 @@
   <Placemark id="parcelle_13_personne_morale.635">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BO0131</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LEI ROUOMPIDO DE BONNEVAL</SimpleData>
+		<SimpleData name="Dénomination">ELECTRICITE DE FRANCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -28,7 +36,7 @@
 			<west> 5.242824 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -37,7 +45,11 @@
   <Placemark id="parcelle_13_personne_morale.1048">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BK0161</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">10, RUE DES EYGADIERS</SimpleData>
+		<SimpleData name="Dénomination">LODIKA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -47,7 +59,7 @@
 			<west> 5.256643 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -56,7 +68,11 @@
   <Placemark id="parcelle_13_personne_morale.1156">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AD0017</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LES GRAVENQUES</SimpleData>
+		<SimpleData name="Dénomination">LES GRAVENQUES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -66,7 +82,7 @@
 			<west> 5.245062 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -75,7 +91,11 @@
   <Placemark id="parcelle_13_personne_morale.1265">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AO0018</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LES CRAUX</SimpleData>
+		<SimpleData name="Dénomination">LA ROUBINE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -85,7 +105,7 @@
 			<west> 5.241575 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -94,7 +114,11 @@
   <Placemark id="parcelle_13_personne_morale.1267">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AS0018</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LES ROYERES</SimpleData>
+		<SimpleData name="Dénomination">ENEDIS</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -104,7 +128,7 @@
 			<west> 5.246707 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -113,7 +137,11 @@
   <Placemark id="parcelle_13_personne_morale.1836">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AK0023</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">BONNEVAL</SimpleData>
+		<SimpleData name="Dénomination">ELECTRICITE DE FRANCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -123,7 +151,7 @@
 			<west> 5.228032 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -132,7 +160,11 @@
   <Placemark id="parcelle_13_personne_morale.1837">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AL0023</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">920, CHE DES CHAFFARDS</SimpleData>
+		<SimpleData name="Dénomination">LLA MARGOTTIERE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -142,7 +174,7 @@
 			<west> 5.231194 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -151,7 +183,11 @@
   <Placemark id="parcelle_13_personne_morale.1900">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AB0235</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">14, RTE NATIONALE N 561</SimpleData>
+		<SimpleData name="Dénomination">LES LUCIOLES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -161,7 +197,7 @@
 			<west> 5.245652 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -170,7 +206,11 @@
   <Placemark id="parcelle_13_personne_morale.3027">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BI0040</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LEI ROUOMPIDO EST</SimpleData>
+		<SimpleData name="Dénomination">ELECTRICITE DE FRANCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -180,7 +220,7 @@
 			<west> 5.268493 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -189,7 +229,11 @@
   <Placemark id="parcelle_13_personne_morale.3322">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BN0467</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LA CADENIERE-NORD</SimpleData>
+		<SimpleData name="Dénomination">ASL LE PARC</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -199,7 +243,7 @@
 			<west> 5.24086 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -208,7 +252,11 @@
   <Placemark id="parcelle_13_personne_morale.3498">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AN0050</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LA JOLIETTE-EST</SimpleData>
+		<SimpleData name="Dénomination">ECO PROD SOL C</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -218,7 +266,7 @@
 			<west> 5.239051 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -227,7 +275,11 @@
   <Placemark id="parcelle_13_personne_morale.3829">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AR0006</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LA PRADELLE-SUD</SimpleData>
+		<SimpleData name="Dénomination">ABOU FAMILY</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -237,7 +289,7 @@
 			<west> 5.238144 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -246,7 +298,11 @@
   <Placemark id="parcelle_13_personne_morale.6934">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AC0001</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">79, CHE DES CHAFFARDS</SimpleData>
+		<SimpleData name="Dénomination">SCI LES ESCOURCHES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -256,7 +312,7 @@
 			<west> 5.241013 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -265,7 +321,11 @@
   <Placemark id="parcelle_13_personne_morale.7033">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AR0001</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">5001, CHE LE LONG DE DURANCE</SimpleData>
+		<SimpleData name="Dénomination">ABOU FAMILY</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -275,7 +335,7 @@
 			<west> 5.236685 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -284,7 +344,11 @@
   <Placemark id="parcelle_13_personne_morale.7052">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AT0001</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LA PRADELLE</SimpleData>
+		<SimpleData name="Dénomination">ASS SYNDICALE FORCEE DITE SEPTIEME SYNDICAT DE LA DURANCE DE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -294,7 +358,7 @@
 			<west> 5.241257 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -303,7 +367,11 @@
   <Placemark id="parcelle_13_personne_morale.7070">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AW0001</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LA ROYERE-NORD</SimpleData>
+		<SimpleData name="Dénomination">ASS SYNDICALE FORCEE DITE SEPTIEME SYNDICAT DE LA DURANCE DE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -313,7 +381,7 @@
 			<west> 5.252575 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -322,7 +390,11 @@
   <Placemark id="parcelle_13_personne_morale.7081">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AZ0001</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">SAINTE-CROIX-NORD</SimpleData>
+		<SimpleData name="Dénomination">SCI LE MAS NEUF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -332,7 +404,7 @@
 			<west> 5.255287 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -341,7 +413,11 @@
   <Placemark id="parcelle_13_personne_morale.7457">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AL0010</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">BONNEVAL-NORD</SimpleData>
+		<SimpleData name="Dénomination">LLA MARGOTTIERE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -351,7 +427,7 @@
 			<west> 5.230868 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -360,7 +436,11 @@
   <Placemark id="parcelle_13_personne_morale.7487">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AP0010</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LES TERMES-EST</SimpleData>
+		<SimpleData name="Dénomination">SYNDICAT DE LA ROYERE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -370,7 +450,7 @@
 			<west> 5.238909 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -379,7 +459,11 @@
   <Placemark id="parcelle_13_personne_morale.8653">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BI0102</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LEI ROUOMPIDO EST</SimpleData>
+		<SimpleData name="Dénomination">LA LIBERATION</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -389,7 +473,7 @@
 			<west> 5.261236 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -398,7 +482,11 @@
   <Placemark id="parcelle_13_personne_morale.9017">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BM0103</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LA CADENIERE</SimpleData>
+		<SimpleData name="Dénomination">LUBERON PARC</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -408,7 +496,7 @@
 			<west> 5.243672 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -417,7 +505,11 @@
   <Placemark id="parcelle_13_personne_morale.9393">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BI0104</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LEI ROUOMPIDO EST</SimpleData>
+		<SimpleData name="Dénomination">LA LIBERATION</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -427,7 +519,7 @@
 			<west> 5.261029 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -436,7 +528,11 @@
   <Placemark id="parcelle_13_personne_morale.9769">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BI0105</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LEI ROUOMPIDO EST</SimpleData>
+		<SimpleData name="Dénomination">SOCIETE CIVILE IMMOBILIERE NATHWEN</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -446,7 +542,7 @@
 			<west> 5.262198 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -455,7 +551,11 @@
   <Placemark id="parcelle_13_personne_morale.10146">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BO0106</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LEI ROUOMPIDO DE BONNEVAL</SimpleData>
+		<SimpleData name="Dénomination">ELECTRICITE DE FRANCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -465,7 +565,7 @@
 			<west> 5.225907 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -474,7 +574,11 @@
   <Placemark id="parcelle_13_personne_morale.10919">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BO0108</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LEI ROUOMPIDO DE BONNEVAL</SimpleData>
+		<SimpleData name="Dénomination">ELECTRICITE DE FRANCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -484,7 +588,7 @@
 			<west> 5.229627 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -493,7 +597,11 @@
   <Placemark id="parcelle_13_personne_morale.11588">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AL0011</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">BONNEVAL-NORD</SimpleData>
+		<SimpleData name="Dénomination">LLA MARGOTTIERE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -503,7 +611,7 @@
 			<west> 5.232525 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -512,7 +620,11 @@
   <Placemark id="parcelle_13_personne_morale.12058">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BO0110</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LEI ROUOMPIDO DE BONNEVAL</SimpleData>
+		<SimpleData name="Dénomination">ELECTRICITE DE FRANCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -522,7 +634,7 @@
 			<west> 5.229781 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -531,7 +643,11 @@
   <Placemark id="parcelle_13_personne_morale.13343">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AC0114</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LE PARC</SimpleData>
+		<SimpleData name="Dénomination">ART LAB</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -541,7 +657,7 @@
 			<west> 5.243979 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -550,7 +666,11 @@
   <Placemark id="parcelle_13_personne_morale.14608">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AH0118</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LES ARQUIERES</SimpleData>
+		<SimpleData name="Dénomination">GIULEA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -560,7 +680,7 @@
 			<west> 5.2386 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -569,7 +689,11 @@
   <Placemark id="parcelle_13_personne_morale.15390">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BC0012</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LE MAZET</SimpleData>
+		<SimpleData name="Dénomination">MAS DU MAZET SCEA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -579,7 +703,7 @@
 			<west> 5.261092 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -588,7 +712,11 @@
   <Placemark id="parcelle_13_personne_morale.16415">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BO0122</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LES BOIS DE LA CADENIERE</SimpleData>
+		<SimpleData name="Dénomination">ELECTRICITE DE FRANCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -598,7 +726,7 @@
 			<west> 5.23718 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -607,7 +735,11 @@
   <Placemark id="parcelle_13_personne_morale.17262">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AB0125</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">44, RUE SAINT CESAIRE</SimpleData>
+		<SimpleData name="Dénomination">SCI PIERRINVES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -617,7 +749,7 @@
 			<west> 5.243459 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -626,7 +758,11 @@
   <Placemark id="parcelle_13_personne_morale.17353">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BO0125</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LEI ROUOMPIDO DE BONNEVAL</SimpleData>
+		<SimpleData name="Dénomination">ELECTRICITE DE FRANCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -636,7 +772,7 @@
 			<west> 5.225458 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -645,7 +781,11 @@
   <Placemark id="parcelle_13_personne_morale.17649">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BO0126</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LEI ROUOMPIDO DE BONNEVAL</SimpleData>
+		<SimpleData name="Dénomination">ELECTRICITE DE FRANCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -655,7 +795,7 @@
 			<west> 5.239871 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -664,7 +804,11 @@
   <Placemark id="parcelle_13_personne_morale.17833">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AB0127</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">59, RUE SAINT JOSEPH</SimpleData>
+		<SimpleData name="Dénomination">LA CALADE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -674,7 +818,7 @@
 			<west> 5.243621 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -683,7 +827,11 @@
   <Placemark id="parcelle_13_personne_morale.17936">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BO0127</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LEI ROUOMPIDO DE BONNEVAL</SimpleData>
+		<SimpleData name="Dénomination">ELECTRICITE DE FRANCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -693,7 +841,7 @@
 			<west> 5.241429 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -702,7 +850,11 @@
   <Placemark id="parcelle_13_personne_morale.18253">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BO0128</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LEI ROUOMPIDO DE BONNEVAL</SimpleData>
+		<SimpleData name="Dénomination">ELECTRICITE DE FRANCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -712,7 +864,7 @@
 			<west> 5.241805 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -721,7 +873,11 @@
   <Placemark id="parcelle_13_personne_morale.18933">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BC0013</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LE MAZET</SimpleData>
+		<SimpleData name="Dénomination">MAS DU MAZET SCEA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -731,7 +887,7 @@
 			<west> 5.261125 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -740,7 +896,11 @@
   <Placemark id="parcelle_13_personne_morale.19991">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BM0132</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LA CADENIERE</SimpleData>
+		<SimpleData name="Dénomination">ELECTRICITE DE FRANCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -750,7 +910,7 @@
 			<west> 5.246542 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -759,7 +919,11 @@
   <Placemark id="parcelle_13_personne_morale.19994">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BO0132</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LEI ROUOMPIDO DE BONNEVAL</SimpleData>
+		<SimpleData name="Dénomination">ELECTRICITE DE FRANCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -769,7 +933,7 @@
 			<west> 5.242792 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -778,7 +942,11 @@
   <Placemark id="parcelle_13_personne_morale.20662">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BM0134</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LA CADENIERE</SimpleData>
+		<SimpleData name="Dénomination">ELECTRICITE DE FRANCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -788,7 +956,7 @@
 			<west> 5.246457 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -797,7 +965,11 @@
   <Placemark id="parcelle_13_personne_morale.22430">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AX0014</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LE COLOMBIER</SimpleData>
+		<SimpleData name="Dénomination">ASS SYNDICALE FORCEE DITE SEPTIEME SYNDICAT DE LA DURANCE DE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -807,7 +979,7 @@
 			<west> 5.257839 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -816,7 +988,11 @@
   <Placemark id="parcelle_13_personne_morale.23105">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BM0141</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LA CADENIERE</SimpleData>
+		<SimpleData name="Dénomination">LUBERON PARC</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -826,7 +1002,7 @@
 			<west> 5.243413 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -835,7 +1011,11 @@
   <Placemark id="parcelle_13_personne_morale.24285">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AH0146</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LES ARQUIERES</SimpleData>
+		<SimpleData name="Dénomination">GIULEA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -845,7 +1025,7 @@
 			<west> 5.238346 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -854,7 +1034,11 @@
   <Placemark id="parcelle_13_personne_morale.24853">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BK0148</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LEI ROUOMPIDO</SimpleData>
+		<SimpleData name="Dénomination">SCI JARS</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -864,7 +1048,7 @@
 			<west> 5.258112 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -873,7 +1057,11 @@
   <Placemark id="parcelle_13_personne_morale.25100">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BK0149</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LEI ROUOMPIDO</SimpleData>
+		<SimpleData name="Dénomination">NATIOCREDIBAIL</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -883,7 +1071,7 @@
 			<west> 5.257153 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -892,7 +1080,11 @@
   <Placemark id="parcelle_13_personne_morale.25275">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AD0015</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LES GRAVENQUES</SimpleData>
+		<SimpleData name="Dénomination">LES GRAVENQUES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -902,7 +1094,7 @@
 			<west> 5.244205 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -911,7 +1103,11 @@
   <Placemark id="parcelle_13_personne_morale.25733">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BK0150</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LEI ROUOMPIDO</SimpleData>
+		<SimpleData name="Dénomination">TRANSPORTS JOURDAN</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -921,7 +1117,7 @@
 			<west> 5.259477 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -930,7 +1126,11 @@
   <Placemark id="parcelle_13_personne_morale.25741">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BM0150</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LA CADENIERE</SimpleData>
+		<SimpleData name="Dénomination">SCI LES 2 ECUREUILS</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -940,7 +1140,7 @@
 			<west> 5.245048 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -949,7 +1149,11 @@
   <Placemark id="parcelle_13_personne_morale.26201">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BK0152</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">1, RUE DES EYGADIERS</SimpleData>
+		<SimpleData name="Dénomination">SOCIETE CIVILE IMMOBILIERE SLSC</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -959,7 +1163,7 @@
 			<west> 5.256989 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -968,7 +1172,11 @@
   <Placemark id="parcelle_13_personne_morale.26876">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BK0155</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">4, RUE DES EYGADIERS</SimpleData>
+		<SimpleData name="Dénomination">FIRST IMMO PR</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -978,7 +1186,7 @@
 			<west> 5.257105 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -987,7 +1195,11 @@
   <Placemark id="parcelle_13_personne_morale.27654">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BK0158</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">7, RUE DES EYGADIERS</SimpleData>
+		<SimpleData name="Dénomination">MATHE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -997,7 +1209,7 @@
 			<west> 5.256492 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1006,7 +1218,11 @@
   <Placemark id="parcelle_13_personne_morale.27874">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BK0159</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">8, RUE DES EYGADIERS</SimpleData>
+		<SimpleData name="Dénomination">SCI DU ROUOMPIDOU</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1016,7 +1232,7 @@
 			<west> 5.256542 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1025,7 +1241,11 @@
   <Placemark id="parcelle_13_personne_morale.28065">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AD0016</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LES GRAVENQUES</SimpleData>
+		<SimpleData name="Dénomination">LES GRAVENQUES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1035,7 +1255,7 @@
 			<west> 5.244468 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1044,7 +1264,11 @@
   <Placemark id="parcelle_13_personne_morale.30622">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BL0169</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LES ESCOURCHES</SimpleData>
+		<SimpleData name="Dénomination">ELECTRICITE DE FRANCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1054,7 +1278,7 @@
 			<west> 5.251732 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1063,7 +1287,11 @@
   <Placemark id="parcelle_13_personne_morale.30921">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BH0017</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LE JAS</SimpleData>
+		<SimpleData name="Dénomination">SAINTE CROIX</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1073,7 +1301,7 @@
 			<west> 5.260741 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1082,7 +1310,11 @@
   <Placemark id="parcelle_13_personne_morale.32089">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BM0174</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LA CADENIERE</SimpleData>
+		<SimpleData name="Dénomination">LES INDIVISAIRES PARCELLES 024 BM174 175 178 179 184 185</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1092,7 +1324,7 @@
 			<west> 5.244845 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1101,7 +1333,11 @@
   <Placemark id="parcelle_13_personne_morale.32305">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BM0175</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LA CADENIERE</SimpleData>
+		<SimpleData name="Dénomination">LES INDIVISAIRES PARCELLES 024 BM174 175 178 179 184 185</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1111,7 +1347,7 @@
 			<west> 5.244968 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1120,7 +1356,11 @@
   <Placemark id="parcelle_13_personne_morale.32988">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BM0178</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LA CADENIERE</SimpleData>
+		<SimpleData name="Dénomination">LES INDIVISAIRES PARCELLES 024 BM174 175 178 179 184 185</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1130,7 +1370,7 @@
 			<west> 5.245072 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1139,7 +1379,11 @@
   <Placemark id="parcelle_13_personne_morale.33216">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BM0179</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LA CADENIERE</SimpleData>
+		<SimpleData name="Dénomination">LES INDIVISAIRES PARCELLES 024 BM174 175 178 179 184 185</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1149,7 +1393,7 @@
 			<west> 5.245354 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1158,7 +1402,11 @@
   <Placemark id="parcelle_13_personne_morale.33385">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AD0018</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LES GRAVENQUES</SimpleData>
+		<SimpleData name="Dénomination">LES GRAVENQUES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1168,7 +1416,7 @@
 			<west> 5.245035 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1177,7 +1425,11 @@
   <Placemark id="parcelle_13_personne_morale.34650">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BM0184</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LA CADENIERE</SimpleData>
+		<SimpleData name="Dénomination">LES INDIVISAIRES PARCELLES 024 BM174 175 178 179 184 185</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1187,7 +1439,7 @@
 			<west> 5.244989 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1196,7 +1448,11 @@
   <Placemark id="parcelle_13_personne_morale.34843">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BM0185</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LA CADENIERE</SimpleData>
+		<SimpleData name="Dénomination">LES INDIVISAIRES PARCELLES 024 BM174 175 178 179 184 185</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1206,7 +1462,7 @@
 			<west> 5.244856 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1215,7 +1471,11 @@
   <Placemark id="parcelle_13_personne_morale.34943">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AB0186</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">38, RUE BOURBON</SimpleData>
+		<SimpleData name="Dénomination">CARTANP</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1225,7 +1485,7 @@
 			<west> 5.24405 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1234,7 +1494,11 @@
   <Placemark id="parcelle_13_personne_morale.35779">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AL0019</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">BONNEVAL-NORD</SimpleData>
+		<SimpleData name="Dénomination">LLA MARGOTTIERE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1244,7 +1508,7 @@
 			<west> 5.231881 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1253,7 +1517,11 @@
   <Placemark id="parcelle_13_personne_morale.35804">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AO0019</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LES CRAUX</SimpleData>
+		<SimpleData name="Dénomination">LA ROUBINE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1263,7 +1531,7 @@
 			<west> 5.24136 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1272,7 +1540,11 @@
   <Placemark id="parcelle_13_personne_morale.35863">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AY0019</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LA ROYERE-EST</SimpleData>
+		<SimpleData name="Dénomination">SYNDICAT DE LA ROYERE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1282,7 +1554,7 @@
 			<west> 5.250786 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1291,7 +1563,11 @@
   <Placemark id="parcelle_13_personne_morale.38089">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AT0002</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LA PRADELLE</SimpleData>
+		<SimpleData name="Dénomination">ASS SYNDICALE FORCEE DITE SEPTIEME SYNDICAT DE LA DURANCE DE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1301,7 +1577,7 @@
 			<west> 5.243711 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1310,7 +1586,11 @@
   <Placemark id="parcelle_13_personne_morale.38110">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AX0002</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LE COLOMBIER</SimpleData>
+		<SimpleData name="Dénomination">ASS SYNDICALE FORCEE DITE SEPTIEME SYNDICAT DE LA DURANCE DE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1320,7 +1600,7 @@
 			<west> 5.257148 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1329,7 +1609,11 @@
   <Placemark id="parcelle_13_personne_morale.38125">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AZ0002</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">SAINTE-CROIX-NORD</SimpleData>
+		<SimpleData name="Dénomination">SCI LE MAS NEUF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1339,7 +1623,7 @@
 			<west> 5.25525 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1348,7 +1632,11 @@
   <Placemark id="parcelle_13_personne_morale.38479">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AL0020</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">BONNEVAL-NORD</SimpleData>
+		<SimpleData name="Dénomination">LLA MARGOTTIERE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1358,7 +1646,7 @@
 			<west> 5.231489 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1367,7 +1655,11 @@
   <Placemark id="parcelle_13_personne_morale.38497">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AN0020</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LES TERMES</SimpleData>
+		<SimpleData name="Dénomination">SYNDICAT DE LA ROYERE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1377,7 +1669,7 @@
 			<west> 5.235086 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1386,7 +1678,11 @@
   <Placemark id="parcelle_13_personne_morale.38507">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AO0020</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LES CRAUX</SimpleData>
+		<SimpleData name="Dénomination">LA ROUBINE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1396,7 +1692,7 @@
 			<west> 5.242341 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1405,7 +1701,11 @@
   <Placemark id="parcelle_13_personne_morale.38602">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BH0020</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LE JAS</SimpleData>
+		<SimpleData name="Dénomination">SAINTE CROIX</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1415,7 +1715,7 @@
 			<west> 5.26139 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1424,7 +1724,11 @@
   <Placemark id="parcelle_13_personne_morale.39206">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AB0202</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">26, AV GASTON ROUX</SimpleData>
+		<SimpleData name="Dénomination">SCAL</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1434,7 +1738,7 @@
 			<west> 5.244399 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1443,7 +1747,11 @@
   <Placemark id="parcelle_13_personne_morale.40686">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AK0021</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">BONNEVAL</SimpleData>
+		<SimpleData name="Dénomination">ELECTRICITE DE FRANCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1453,7 +1761,7 @@
 			<west> 5.230403 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1462,7 +1770,11 @@
   <Placemark id="parcelle_13_personne_morale.40693">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AL0021</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">BONNEVAL-NORD</SimpleData>
+		<SimpleData name="Dénomination">LLA MARGOTTIERE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1472,7 +1784,7 @@
 			<west> 5.231375 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1481,7 +1793,11 @@
   <Placemark id="parcelle_13_personne_morale.40714">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AO0021</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LES CRAUX</SimpleData>
+		<SimpleData name="Dénomination">LA ROUBINE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1491,7 +1807,7 @@
 			<west> 5.241814 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1500,7 +1816,11 @@
   <Placemark id="parcelle_13_personne_morale.41631">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BM0213</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LA CADENIERE</SimpleData>
+		<SimpleData name="Dénomination">LE CLOS DES COCCINELLES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1510,7 +1830,7 @@
 			<west> 5.242464 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1519,7 +1839,11 @@
   <Placemark id="parcelle_13_personne_morale.41924">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BE0215</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LES VERGERS</SimpleData>
+		<SimpleData name="Dénomination">PROV INVEST</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1529,7 +1853,7 @@
 			<west> 5.249452 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1538,7 +1862,11 @@
   <Placemark id="parcelle_13_personne_morale.41933">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BM0215</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LA CADENIERE</SimpleData>
+		<SimpleData name="Dénomination">LE CLOS DES COCCINELLES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1548,7 +1876,7 @@
 			<west> 5.243056 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1557,7 +1885,11 @@
   <Placemark id="parcelle_13_personne_morale.42094">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BM0216</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LA CADENIERE</SimpleData>
+		<SimpleData name="Dénomination">LE CLOS DES COCCINELLES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1567,7 +1899,7 @@
 			<west> 5.242263 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1576,7 +1908,11 @@
   <Placemark id="parcelle_13_personne_morale.42389">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BE0218</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LES VERGERS</SimpleData>
+		<SimpleData name="Dénomination">PROV INVEST</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1586,7 +1922,7 @@
 			<west> 5.249238 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1595,7 +1931,11 @@
   <Placemark id="parcelle_13_personne_morale.42690">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AD0022</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LES GRAVENQUES</SimpleData>
+		<SimpleData name="Dénomination">LES GRAVENQUES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1605,7 +1945,7 @@
 			<west> 5.245746 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1614,7 +1954,11 @@
   <Placemark id="parcelle_13_personne_morale.42716">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AK0022</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">BONNEVAL</SimpleData>
+		<SimpleData name="Dénomination">ELECTRICITE DE FRANCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1624,7 +1968,7 @@
 			<west> 5.22957 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1633,7 +1977,11 @@
   <Placemark id="parcelle_13_personne_morale.42723">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AL0022</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">BONNEVAL-NORD</SimpleData>
+		<SimpleData name="Dénomination">LLA MARGOTTIERE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1643,7 +1991,7 @@
 			<west> 5.230825 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1652,7 +2000,11 @@
   <Placemark id="parcelle_13_personne_morale.42800">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AZ0022</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">L ARENAS</SimpleData>
+		<SimpleData name="Dénomination">LA JOLIETTE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1662,7 +2014,7 @@
 			<west> 5.254198 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1671,7 +2023,11 @@
   <Placemark id="parcelle_13_personne_morale.43305">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BE0221</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LES VERGERS</SimpleData>
+		<SimpleData name="Dénomination">SCI AQUI SIAN BEN</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1681,7 +2037,7 @@
 			<west> 5.250348 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1690,7 +2046,11 @@
   <Placemark id="parcelle_13_personne_morale.44676">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BM0229</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LA CADENIERE</SimpleData>
+		<SimpleData name="Dénomination">ELECTRICITE DE FRANCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1700,7 +2060,7 @@
 			<west> 5.242913 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1709,7 +2069,11 @@
   <Placemark id="parcelle_13_personne_morale.44917">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BD0023</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">SAINTE-CROIX</SimpleData>
+		<SimpleData name="Dénomination">ENEDIS</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1719,7 +2083,7 @@
 			<west> 5.2619 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1728,7 +2092,11 @@
   <Placemark id="parcelle_13_personne_morale.45243">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BM0230</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LA CADENIERE</SimpleData>
+		<SimpleData name="Dénomination">ELECTRICITE DE FRANCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1738,7 +2106,7 @@
 			<west> 5.242857 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1747,7 +2115,11 @@
   <Placemark id="parcelle_13_personne_morale.46510">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AB0238</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LE VILLAGE</SimpleData>
+		<SimpleData name="Dénomination">24 SAINT LOUIS</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1757,7 +2129,7 @@
 			<west> 5.245214 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1766,7 +2138,11 @@
   <Placemark id="parcelle_13_personne_morale.46860">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AL0024</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">BONNEVAL-NORD</SimpleData>
+		<SimpleData name="Dénomination">LLA MARGOTTIERE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1776,7 +2152,7 @@
 			<west> 5.23042 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1785,7 +2161,11 @@
   <Placemark id="parcelle_13_personne_morale.47850">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BM0244</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LA CADENIERE</SimpleData>
+		<SimpleData name="Dénomination">LE CLOS DES COCCINELLES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1795,7 +2175,7 @@
 			<west> 5.242691 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1804,7 +2184,11 @@
   <Placemark id="parcelle_13_personne_morale.47973">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BL0245</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LES ESCOURCHES</SimpleData>
+		<SimpleData name="Dénomination">DOMAINE PROPRIETAIRES INCONNUS</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1814,7 +2198,7 @@
 			<west> 5.24825 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1823,7 +2207,11 @@
   <Placemark id="parcelle_13_personne_morale.48106">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BL0246</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">9246, BD DE LA DURANCE</SimpleData>
+		<SimpleData name="Dénomination">ORANGE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1833,7 +2221,7 @@
 			<west> 5.248387 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1842,7 +2230,11 @@
   <Placemark id="parcelle_13_personne_morale.48628">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AL0025</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">5025, CHE DES CHAFFARDS</SimpleData>
+		<SimpleData name="Dénomination">LLA MARGOTTIERE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1852,7 +2244,7 @@
 			<west> 5.230079 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1861,7 +2253,11 @@
   <Placemark id="parcelle_13_personne_morale.48668">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AR0025</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LA PRADELLE-SUD</SimpleData>
+		<SimpleData name="Dénomination">ABOU FAMILY</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1871,7 +2267,7 @@
 			<west> 5.238781 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1880,7 +2276,11 @@
   <Placemark id="parcelle_13_personne_morale.49448">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AB0254</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">8, RUE SAINTE THERESE</SimpleData>
+		<SimpleData name="Dénomination">JEROME</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1890,7 +2290,7 @@
 			<west> 5.244428 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1899,7 +2299,11 @@
   <Placemark id="parcelle_13_personne_morale.49610">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AB0255</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LE VILLAGE</SimpleData>
+		<SimpleData name="Dénomination">JEROME</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1909,7 +2313,7 @@
 			<west> 5.244451 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1918,7 +2322,11 @@
   <Placemark id="parcelle_13_personne_morale.50433">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AL0026</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">BONNEVAL-NORD</SimpleData>
+		<SimpleData name="Dénomination">LLA MARGOTTIERE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1928,7 +2336,7 @@
 			<west> 5.230162 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1937,7 +2345,11 @@
   <Placemark id="parcelle_13_personne_morale.50457">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AP0026</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LES BOURGARELLES</SimpleData>
+		<SimpleData name="Dénomination">SYNDICAT DE LA ROYERE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1947,7 +2359,7 @@
 			<west> 5.242489 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1956,7 +2368,11 @@
   <Placemark id="parcelle_13_personne_morale.50465">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AR0026</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LA PRADELLE-SUD</SimpleData>
+		<SimpleData name="Dénomination">ABOU FAMILY</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1966,7 +2382,7 @@
 			<west> 5.238028 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1975,7 +2391,11 @@
   <Placemark id="parcelle_13_personne_morale.51727">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BN0267</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LA CADENIERE-NORD</SimpleData>
+		<SimpleData name="Dénomination">SCI L ESPIGOULIER</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1985,7 +2405,7 @@
 			<west> 5.241048 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1994,7 +2414,11 @@
   <Placemark id="parcelle_13_personne_morale.52147">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AR0027</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LA PRADELLE-SUD</SimpleData>
+		<SimpleData name="Dénomination">ABOU FAMILY</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2004,7 +2428,7 @@
 			<west> 5.238063 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2013,7 +2437,11 @@
   <Placemark id="parcelle_13_personne_morale.52437">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AB0270</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LE VILLAGE</SimpleData>
+		<SimpleData name="Dénomination">SCI LEFEVRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2023,7 +2451,7 @@
 			<west> 5.243313 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2032,7 +2460,11 @@
   <Placemark id="parcelle_13_personne_morale.53437">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BL0277</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LES ESCOURCHES</SimpleData>
+		<SimpleData name="Dénomination">ELECTRICITE DE FRANCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2042,7 +2474,7 @@
 			<west> 5.247219 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2051,7 +2483,11 @@
   <Placemark id="parcelle_13_personne_morale.53562">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BL0278</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LES ESCOURCHES</SimpleData>
+		<SimpleData name="Dénomination">ELECTRICITE DE FRANCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2061,7 +2497,7 @@
 			<west> 5.247993 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2070,7 +2506,11 @@
   <Placemark id="parcelle_13_personne_morale.53662">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BL0279</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LES ESCOURCHES</SimpleData>
+		<SimpleData name="Dénomination">ELECTRICITE DE FRANCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2080,7 +2520,7 @@
 			<west> 5.248108 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2089,7 +2529,11 @@
   <Placemark id="parcelle_13_personne_morale.53774">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AI0028</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">MAUCHE</SimpleData>
+		<SimpleData name="Dénomination">ELECTRICITE DE FRANCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2099,7 +2543,7 @@
 			<west> 5.231938 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2108,7 +2552,11 @@
   <Placemark id="parcelle_13_personne_morale.54485">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BL0283</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LES ESCOURCHES</SimpleData>
+		<SimpleData name="Dénomination">ELECTRICITE DE FRANCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2118,7 +2566,7 @@
 			<west> 5.247361 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2127,7 +2575,11 @@
   <Placemark id="parcelle_13_personne_morale.54583">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BL0284</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LES ESCOURCHES</SimpleData>
+		<SimpleData name="Dénomination">ELECTRICITE DE FRANCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2137,7 +2589,7 @@
 			<west> 5.248077 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2146,7 +2598,11 @@
   <Placemark id="parcelle_13_personne_morale.54810">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BL0286</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LES ESCOURCHES</SimpleData>
+		<SimpleData name="Dénomination">ELECTRICITE DE FRANCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2156,7 +2612,7 @@
 			<west> 5.249145 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2165,7 +2621,11 @@
   <Placemark id="parcelle_13_personne_morale.55344">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AX0029</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LE COLOMBIER</SimpleData>
+		<SimpleData name="Dénomination">MAS DU MAZET SCEA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2175,7 +2635,7 @@
 			<west> 5.257437 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2184,7 +2644,11 @@
   <Placemark id="parcelle_13_personne_morale.55367">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BD0029</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">SAINTE-CROIX</SimpleData>
+		<SimpleData name="Dénomination">ENEDIS</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2194,7 +2658,7 @@
 			<west> 5.266698 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2203,7 +2667,11 @@
   <Placemark id="parcelle_13_personne_morale.55747">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BM0291</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LA CADENIERE</SimpleData>
+		<SimpleData name="Dénomination">SCI LES 2 ECUREUILS</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2213,7 +2681,7 @@
 			<west> 5.24497 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2222,7 +2690,11 @@
   <Placemark id="parcelle_13_personne_morale.56069">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BM0294</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LA CADENIERE</SimpleData>
+		<SimpleData name="Dénomination">SCI LES 2 ECUREUILS</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2232,7 +2704,7 @@
 			<west> 5.244987 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2241,7 +2713,11 @@
   <Placemark id="parcelle_13_personne_morale.56178">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BM0295</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LA CADENIERE</SimpleData>
+		<SimpleData name="Dénomination">SCI LES 2 ECUREUILS</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2251,7 +2727,7 @@
 			<west> 5.245451 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2260,7 +2736,11 @@
   <Placemark id="parcelle_13_personne_morale.56580">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BM0299</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LA CADENIERE</SimpleData>
+		<SimpleData name="Dénomination">EDELWEISS</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2270,7 +2750,7 @@
 			<west> 5.241914 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2279,7 +2759,11 @@
   <Placemark id="parcelle_13_personne_morale.56828">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AW0003</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LA ROYERE-NORD</SimpleData>
+		<SimpleData name="Dénomination">ASS SYNDICALE FORCEE DITE SEPTIEME SYNDICAT DE LA DURANCE DE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2289,7 +2773,7 @@
 			<west> 5.254412 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2298,7 +2782,11 @@
   <Placemark id="parcelle_13_personne_morale.57202">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AK0030</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">BONNEVAL</SimpleData>
+		<SimpleData name="Dénomination">ELECTRICITE DE FRANCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2308,7 +2796,7 @@
 			<west> 5.224186 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2317,7 +2805,11 @@
   <Placemark id="parcelle_13_personne_morale.57262">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AX0030</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LE COLOMBIER</SimpleData>
+		<SimpleData name="Dénomination">SYNDICAT DE LA ROYERE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2327,7 +2819,7 @@
 			<west> 5.25535 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2336,7 +2828,11 @@
   <Placemark id="parcelle_13_personne_morale.57596">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BE0301</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LES VERGERS</SimpleData>
+		<SimpleData name="Dénomination">SCI AQUI SIAN BEN</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2346,7 +2842,7 @@
 			<west> 5.250368 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2355,7 +2851,11 @@
   <Placemark id="parcelle_13_personne_morale.57600">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BN0301</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LES PLAINES</SimpleData>
+		<SimpleData name="Dénomination">ALSO</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2365,7 +2865,7 @@
 			<west> 5.238857 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2374,7 +2874,11 @@
   <Placemark id="parcelle_13_personne_morale.57702">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BE0302</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LES VERGERS</SimpleData>
+		<SimpleData name="Dénomination">SCI AQUI SIAN BEN</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2384,7 +2888,7 @@
 			<west> 5.250329 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2393,7 +2897,11 @@
   <Placemark id="parcelle_13_personne_morale.57760">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AB0303</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">13, RUE SAINTE THERESE</SimpleData>
+		<SimpleData name="Dénomination">LES LUCIOLES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2403,7 +2911,7 @@
 			<west> 5.245303 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2412,7 +2920,11 @@
   <Placemark id="parcelle_13_personne_morale.57849">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AB0304</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">1, AV LOUIS CHARMET</SimpleData>
+		<SimpleData name="Dénomination">SCI LES ESCOURCHES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2422,7 +2934,7 @@
 			<west> 5.245324 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2431,7 +2943,11 @@
   <Placemark id="parcelle_13_personne_morale.58390">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BE0309</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">20, AV DE LA LIBERATION</SimpleData>
+		<SimpleData name="Dénomination">20 LIBERATION</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2441,7 +2957,7 @@
 			<west> 5.250842 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2450,7 +2966,11 @@
   <Placemark id="parcelle_13_personne_morale.58543">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AK0031</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">BONNEVAL</SimpleData>
+		<SimpleData name="Dénomination">ELECTRICITE DE FRANCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2460,7 +2980,7 @@
 			<west> 5.225781 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2469,7 +2989,11 @@
   <Placemark id="parcelle_13_personne_morale.58595">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AT0031</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LA PRADELLE</SimpleData>
+		<SimpleData name="Dénomination">ASS SYNDICALE FORCEE DITE SEPTIEME SYNDICAT DE LA DURANCE DE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2479,7 +3003,7 @@
 			<west> 5.240653 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2488,7 +3012,11 @@
   <Placemark id="parcelle_13_personne_morale.58910">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BE0310</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">20, AV DE LA LIBERATION</SimpleData>
+		<SimpleData name="Dénomination">20 LIBERATION</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2498,7 +3026,7 @@
 			<west> 5.250687 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2507,7 +3035,11 @@
   <Placemark id="parcelle_13_personne_morale.61483">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AL0033</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">BONNEVAL-NORD</SimpleData>
+		<SimpleData name="Dénomination">LLA MARGOTTIERE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2517,7 +3049,7 @@
 			<west> 5.22668 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2526,7 +3058,11 @@
   <Placemark id="parcelle_13_personne_morale.61552">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AW0033</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LE COLOMBIER-NORD</SimpleData>
+		<SimpleData name="Dénomination">ASS SYNDICALE FORCEE DITE SEPTIEME SYNDICAT DE LA DURANCE DE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2536,7 +3072,7 @@
 			<west> 5.253083 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2545,7 +3081,11 @@
   <Placemark id="parcelle_13_personne_morale.62865">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AW0034</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LE COLOMBIER-NORD</SimpleData>
+		<SimpleData name="Dénomination">ASS SYNDICALE FORCEE DITE SEPTIEME SYNDICAT DE LA DURANCE DE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2555,7 +3095,7 @@
 			<west> 5.253917 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2564,7 +3104,11 @@
   <Placemark id="parcelle_13_personne_morale.63668">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BN0346</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LA CADENIERE-NORD</SimpleData>
+		<SimpleData name="Dénomination">ASSOCIATION SYNDICALE DU LOTISSEMENT DES RESIDENCES DE LA FO</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2574,7 +3118,7 @@
 			<west> 5.238808 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2583,7 +3127,11 @@
   <Placemark id="parcelle_13_personne_morale.63757">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BN0347</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LA CADENIERE-NORD</SimpleData>
+		<SimpleData name="Dénomination">ASSOCIATION SYNDICALE DU LOTISSEMENT DES RESIDENCES DE LA FO</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2593,7 +3141,7 @@
 			<west> 5.238422 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2602,7 +3150,11 @@
   <Placemark id="parcelle_13_personne_morale.63991">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AB0035</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LE VILLAGE</SimpleData>
+		<SimpleData name="Dénomination">ENEDIS</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2612,7 +3164,7 @@
 			<west> 5.243921 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2621,7 +3173,11 @@
   <Placemark id="parcelle_13_personne_morale.64028">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AL0035</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">BONNEVAL-NORD</SimpleData>
+		<SimpleData name="Dénomination">LLA MARGOTTIERE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2631,7 +3187,7 @@
 			<west> 5.230096 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2640,7 +3196,11 @@
   <Placemark id="parcelle_13_personne_morale.64805">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BN0355</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LA CADENIERE-NORD</SimpleData>
+		<SimpleData name="Dénomination">ABIMMO</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2650,7 +3210,7 @@
 			<west> 5.239911 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2659,7 +3219,11 @@
   <Placemark id="parcelle_13_personne_morale.65226">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AL0036</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">BONNEVAL-NORD</SimpleData>
+		<SimpleData name="Dénomination">LLA MARGOTTIERE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2669,7 +3233,7 @@
 			<west> 5.228994 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2678,7 +3242,11 @@
   <Placemark id="parcelle_13_personne_morale.66099">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BN0367</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LA CADENIERE-NORD</SimpleData>
+		<SimpleData name="Dénomination">ASSOCIATION SYNDICALE DU LOTISSEMENT DES RESIDENCES DE LA FO</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2688,7 +3256,7 @@
 			<west> 5.238312 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2697,7 +3265,11 @@
   <Placemark id="parcelle_13_personne_morale.66178">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BN0368</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LA CADENIERE-NORD</SimpleData>
+		<SimpleData name="Dénomination">ASSOCIATION SYNDICALE DU LOTISSEMENT DES RESIDENCES DE LA FO</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2707,7 +3279,7 @@
 			<west> 5.238503 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2716,7 +3288,11 @@
   <Placemark id="parcelle_13_personne_morale.66260">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BN0369</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LA CADENIERE-NORD</SimpleData>
+		<SimpleData name="Dénomination">LE CLOS DES COCCINELLES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2726,7 +3302,7 @@
 			<west> 5.238126 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2735,7 +3311,11 @@
   <Placemark id="parcelle_13_personne_morale.66458">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BK0037</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LEI ROUOMPIDO</SimpleData>
+		<SimpleData name="Dénomination">ELECTRICITE DE FRANCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2745,7 +3325,7 @@
 			<west> 5.253044 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2754,7 +3334,11 @@
   <Placemark id="parcelle_13_personne_morale.66675">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BN0370</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LA CADENIERE-NORD</SimpleData>
+		<SimpleData name="Dénomination">ASSOCIATION SYNDICALE DU LOTISSEMENT DES RESIDENCES DE LA FO</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2764,7 +3348,7 @@
 			<west> 5.23809 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2773,7 +3357,11 @@
   <Placemark id="parcelle_13_personne_morale.66813">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BN0372</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LA CADENIERE-NORD</SimpleData>
+		<SimpleData name="Dénomination">ASSOCIATION SYNDICALE DU LOTISSEMENT DES RESIDENCES DE LA FO</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2783,7 +3371,7 @@
 			<west> 5.23775 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2792,7 +3380,11 @@
   <Placemark id="parcelle_13_personne_morale.66888">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BN0373</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LA CADENIERE-NORD</SimpleData>
+		<SimpleData name="Dénomination">ASSOCIATION SYNDICALE DU LOTISSEMENT DES RESIDENCES DE LA FO</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2802,7 +3394,7 @@
 			<west> 5.23812 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2811,7 +3403,11 @@
   <Placemark id="parcelle_13_personne_morale.67737">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AB0380</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LE VILLAGE</SimpleData>
+		<SimpleData name="Dénomination">LES DOMAINES DE CESARINE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2821,7 +3417,7 @@
 			<west> 5.247432 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2830,7 +3426,11 @@
   <Placemark id="parcelle_13_personne_morale.68436">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AB0039</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">24, RUE TUILERIE</SimpleData>
+		<SimpleData name="Dénomination">FANTAISIE BLEUE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2840,7 +3440,7 @@
 			<west> 5.244727 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2849,7 +3449,11 @@
   <Placemark id="parcelle_13_personne_morale.68613">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BM0039</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LA CADENIERE</SimpleData>
+		<SimpleData name="Dénomination">LUBERON PARC</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2859,7 +3463,7 @@
 			<west> 5.244315 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2868,7 +3472,11 @@
   <Placemark id="parcelle_13_personne_morale.69720">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BC0004</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LE MAZET</SimpleData>
+		<SimpleData name="Dénomination">MAS DU MAZET SCEA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2878,7 +3486,7 @@
 			<west> 5.258495 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2887,7 +3495,11 @@
   <Placemark id="parcelle_13_personne_morale.71259">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BI0041</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LEI ROUOMPIDO EST</SimpleData>
+		<SimpleData name="Dénomination">ELECTRICITE DE FRANCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2897,7 +3509,7 @@
 			<west> 5.267759 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2906,7 +3518,11 @@
   <Placemark id="parcelle_13_personne_morale.71469">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BL0410</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LES ESCOURCHES</SimpleData>
+		<SimpleData name="Dénomination">LES PROPRIETAIRES INDIVIS DU LOT MANIVERT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2916,7 +3532,7 @@
 			<west> 5.250123 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2925,7 +3541,11 @@
   <Placemark id="parcelle_13_personne_morale.72197">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AE0042</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LES CHAFFARDS</SimpleData>
+		<SimpleData name="Dénomination">ENEDIS</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2935,7 +3555,7 @@
 			<west> 5.241219 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2944,7 +3564,11 @@
   <Placemark id="parcelle_13_personne_morale.73321">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BO0043</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">5043, AV DU BOIS</SimpleData>
+		<SimpleData name="Dénomination">LUBERON PARC</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2954,7 +3578,7 @@
 			<west> 5.242237 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2963,7 +3587,11 @@
   <Placemark id="parcelle_13_personne_morale.73852">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BN0435</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LA CADENIERE-NORD</SimpleData>
+		<SimpleData name="Dénomination">ASL LE PARC</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2973,7 +3601,7 @@
 			<west> 5.240252 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2982,7 +3610,11 @@
   <Placemark id="parcelle_13_personne_morale.73886">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AB0436</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LE VILLAGE</SimpleData>
+		<SimpleData name="Dénomination">BATIM</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2992,7 +3624,7 @@
 			<west> 5.24669 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3001,7 +3633,11 @@
   <Placemark id="parcelle_13_personne_morale.73913">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BN0436</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LA CADENIERE-NORD</SimpleData>
+		<SimpleData name="Dénomination">ASL LE PARC</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3011,7 +3647,7 @@
 			<west> 5.240932 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3020,7 +3656,11 @@
   <Placemark id="parcelle_13_personne_morale.73955">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AB0437</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">2, AV GASTON ROUX</SimpleData>
+		<SimpleData name="Dénomination">BATIM</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3030,7 +3670,7 @@
 			<west> 5.246498 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3039,7 +3679,11 @@
   <Placemark id="parcelle_13_personne_morale.74355">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BO0044</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LES BOIS DE LA CADENIERE</SimpleData>
+		<SimpleData name="Dénomination">ELECTRICITE DE FRANCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3049,7 +3693,7 @@
 			<west> 5.246175 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3058,7 +3702,11 @@
   <Placemark id="parcelle_13_personne_morale.74617">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BN0441</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LES PLAINES</SimpleData>
+		<SimpleData name="Dénomination">ALSO</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3068,7 +3716,7 @@
 			<west> 5.238677 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3077,7 +3725,11 @@
   <Placemark id="parcelle_13_personne_morale.75231">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AI0045</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">MAUCHE</SimpleData>
+		<SimpleData name="Dénomination">SCI MAS DES PAISSES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3087,7 +3739,7 @@
 			<west> 5.232578 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3096,7 +3748,11 @@
   <Placemark id="parcelle_13_personne_morale.75670">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AB0452</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">10, RUE SAINTE THERESE</SimpleData>
+		<SimpleData name="Dénomination">SCI MAURIN ROQUE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3106,7 +3762,7 @@
 			<west> 5.244271 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3115,7 +3771,11 @@
   <Placemark id="parcelle_13_personne_morale.76233">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AO0046</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LES HAUTS VINGTAINS</SimpleData>
+		<SimpleData name="Dénomination">LA JOLIETTE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3125,7 +3785,7 @@
 			<west> 5.243376 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3134,7 +3794,11 @@
   <Placemark id="parcelle_13_personne_morale.77174">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AO0047</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LES HAUTS VINGTAINS</SimpleData>
+		<SimpleData name="Dénomination">LA JOLIETTE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3144,7 +3808,7 @@
 			<west> 5.243702 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3153,7 +3817,11 @@
   <Placemark id="parcelle_13_personne_morale.78057">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AI0048</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">MAUCHE</SimpleData>
+		<SimpleData name="Dénomination">SCI MAS DES PAISSES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3163,7 +3831,7 @@
 			<west> 5.233592 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3172,7 +3840,11 @@
   <Placemark id="parcelle_13_personne_morale.78085">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AO0048</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LES HAUTS VINGTAINS</SimpleData>
+		<SimpleData name="Dénomination">LA JOLIETTE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3182,7 +3854,7 @@
 			<west> 5.244006 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3191,7 +3863,11 @@
   <Placemark id="parcelle_13_personne_morale.79098">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AO0049</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LES HAUTS VINGTAINS</SimpleData>
+		<SimpleData name="Dénomination">LA JOLIETTE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3201,7 +3877,7 @@
 			<west> 5.244271 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3210,7 +3886,11 @@
   <Placemark id="parcelle_13_personne_morale.79555">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BN0493</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">40, BD DE LA DURANCE</SimpleData>
+		<SimpleData name="Dénomination">PROV BOX</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3220,7 +3900,7 @@
 			<west> 5.235915 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3229,7 +3909,11 @@
   <Placemark id="parcelle_13_personne_morale.80067">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AR0005</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LA PRADELLE-SUD</SimpleData>
+		<SimpleData name="Dénomination">ABOU FAMILY</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3239,7 +3923,7 @@
 			<west> 5.237038 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3248,7 +3932,11 @@
   <Placemark id="parcelle_13_personne_morale.80130">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BC0005</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LE MAZET</SimpleData>
+		<SimpleData name="Dénomination">MAS DU MAZET SCEA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3258,7 +3946,7 @@
 			<west> 5.25871 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3267,7 +3955,11 @@
   <Placemark id="parcelle_13_personne_morale.80410">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AC0050</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">L AFFERAGE</SimpleData>
+		<SimpleData name="Dénomination">FANTAISIE BLEUE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3277,7 +3969,7 @@
 			<west> 5.23999 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3286,7 +3978,11 @@
   <Placemark id="parcelle_13_personne_morale.80434">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AI0050</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">MAUCHE</SimpleData>
+		<SimpleData name="Dénomination">SCI MAS DES PAISSES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3296,7 +3992,7 @@
 			<west> 5.233245 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3305,7 +4001,11 @@
   <Placemark id="parcelle_13_personne_morale.81161">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BL0507</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LES ESCOURCHES</SimpleData>
+		<SimpleData name="Dénomination">SCI DJOULE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3315,7 +4015,7 @@
 			<west> 5.246528 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3324,7 +4024,11 @@
   <Placemark id="parcelle_13_personne_morale.81295">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BL0509</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LES ESCOURCHES</SimpleData>
+		<SimpleData name="Dénomination">SCI DJOULE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3334,7 +4038,7 @@
 			<west> 5.24652 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3343,7 +4047,11 @@
   <Placemark id="parcelle_13_personne_morale.81357">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AC0051</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">L AFFERAGE</SimpleData>
+		<SimpleData name="Dénomination">FANTAISIE BLEUE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3353,7 +4061,7 @@
 			<west> 5.239775 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3362,7 +4070,11 @@
   <Placemark id="parcelle_13_personne_morale.81415">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AN0051</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LA JOLIETTE-EST</SimpleData>
+		<SimpleData name="Dénomination">ECO PROD SOL C</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3372,7 +4084,7 @@
 			<west> 5.239489 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3381,7 +4093,11 @@
   <Placemark id="parcelle_13_personne_morale.81442">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AS0051</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LES ROYERES</SimpleData>
+		<SimpleData name="Dénomination">LES ROYERES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3391,7 +4107,7 @@
 			<west> 5.244218 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3400,7 +4116,11 @@
   <Placemark id="parcelle_13_personne_morale.82194">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AC0052</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">L AFFERAGE</SimpleData>
+		<SimpleData name="Dénomination">FANTAISIE BLEUE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3410,7 +4130,7 @@
 			<west> 5.239738 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3419,7 +4139,11 @@
   <Placemark id="parcelle_13_personne_morale.82269">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AS0052</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LES ROYERES</SimpleData>
+		<SimpleData name="Dénomination">LES ROYERES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3429,7 +4153,7 @@
 			<west> 5.244773 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3438,7 +4162,11 @@
   <Placemark id="parcelle_13_personne_morale.82323">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BI0052</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LEI ROUOMPIDO EST</SimpleData>
+		<SimpleData name="Dénomination">ELECTRICITE DE FRANCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3448,7 +4176,7 @@
 			<west> 5.26061 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3457,7 +4185,11 @@
   <Placemark id="parcelle_13_personne_morale.83173">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BI0053</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LEI ROUOMPIDO EST</SimpleData>
+		<SimpleData name="Dénomination">ELECTRICITE DE FRANCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3467,7 +4199,7 @@
 			<west> 5.263101 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3476,7 +4208,11 @@
   <Placemark id="parcelle_13_personne_morale.83815">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BL0539</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LES ESCOURCHES</SimpleData>
+		<SimpleData name="Dénomination">ELECTRICITE DE FRANCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3486,7 +4222,7 @@
 			<west> 5.251499 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3495,7 +4231,11 @@
   <Placemark id="parcelle_13_personne_morale.83993">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BI0054</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LEI ROUOMPIDO EST</SimpleData>
+		<SimpleData name="Dénomination">ELECTRICITE DE FRANCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3505,7 +4245,7 @@
 			<west> 5.26206 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3514,7 +4254,11 @@
   <Placemark id="parcelle_13_personne_morale.84177">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BL0540</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LES ESCOURCHES</SimpleData>
+		<SimpleData name="Dénomination">ELECTRICITE DE FRANCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3524,7 +4268,7 @@
 			<west> 5.251449 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3533,7 +4277,11 @@
   <Placemark id="parcelle_13_personne_morale.84216">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BL0541</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LES ESCOURCHES</SimpleData>
+		<SimpleData name="Dénomination">ELECTRICITE DE FRANCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3543,7 +4291,7 @@
 			<west> 5.246983 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3552,7 +4300,11 @@
   <Placemark id="parcelle_13_personne_morale.84265">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BL0542</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LES ESCOURCHES</SimpleData>
+		<SimpleData name="Dénomination">ELECTRICITE DE FRANCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3562,7 +4314,7 @@
 			<west> 5.24696 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3571,7 +4323,11 @@
   <Placemark id="parcelle_13_personne_morale.84566">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AB0549</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LE VILLAGE</SimpleData>
+		<SimpleData name="Dénomination">LA MOVIDA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3581,7 +4337,7 @@
 			<west> 5.245114 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3590,7 +4346,11 @@
   <Placemark id="parcelle_13_personne_morale.84945">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AB0550</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LE VILLAGE</SimpleData>
+		<SimpleData name="Dénomination">24 SAINT LOUIS</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3600,7 +4360,7 @@
 			<west> 5.245281 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3609,7 +4369,11 @@
   <Placemark id="parcelle_13_personne_morale.85523">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AZ0056</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LES BAS JAS</SimpleData>
+		<SimpleData name="Dénomination">LE MAS NEUF SCI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3619,7 +4383,7 @@
 			<west> 5.254358 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3628,7 +4392,11 @@
   <Placemark id="parcelle_13_personne_morale.87387">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BL0584</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">5301, BD DE LA DURANCE</SimpleData>
+		<SimpleData name="Dénomination">GIRAMAN</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3638,7 +4406,7 @@
 			<west> 5.249378 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3647,7 +4415,11 @@
   <Placemark id="parcelle_13_personne_morale.88487">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BC0006</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LE MAZET</SimpleData>
+		<SimpleData name="Dénomination">MAS DU MAZET SCEA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3657,7 +4429,7 @@
 			<west> 5.258545 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3666,7 +4438,11 @@
   <Placemark id="parcelle_13_personne_morale.89278">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AB0606</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">5286, RUE DES AIRES</SimpleData>
+		<SimpleData name="Dénomination">SC FB IMMO</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3676,7 +4452,7 @@
 			<west> 5.242525 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3685,7 +4461,11 @@
   <Placemark id="parcelle_13_personne_morale.91140">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AB0632</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">5286, RUE DES AIRES</SimpleData>
+		<SimpleData name="Dénomination">SC FB IMMO</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3695,7 +4475,7 @@
 			<west> 5.242598 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3704,7 +4484,11 @@
   <Placemark id="parcelle_13_personne_morale.91300">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BL0637</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LES ESCOURCHES</SimpleData>
+		<SimpleData name="Dénomination">ASSOCIATION SYNDICALE LIBRE DU LOTISSEMENT LA PINEDE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3714,7 +4498,7 @@
 			<west> 5.247852 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3723,7 +4507,11 @@
   <Placemark id="parcelle_13_personne_morale.91328">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BL0638</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LES ESCOURCHES</SimpleData>
+		<SimpleData name="Dénomination">ASSOCIATION SYNDICALE LIBRE DU LOTISSEMENT LA PINEDE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3733,7 +4521,7 @@
 			<west> 5.247675 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3742,7 +4530,11 @@
   <Placemark id="parcelle_13_personne_morale.91474">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AW0064</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LA ROYERE-NORD</SimpleData>
+		<SimpleData name="Dénomination">ASS SYNDICALE FORCEE DITE SEPTIEME SYNDICAT DE LA DURANCE DE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3752,7 +4544,7 @@
 			<west> 5.249022 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3761,7 +4553,11 @@
   <Placemark id="parcelle_13_personne_morale.92171">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BO0065</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LES BOIS DE LA CADENIERE</SimpleData>
+		<SimpleData name="Dénomination">ELECTRICITE DE FRANCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3771,7 +4567,7 @@
 			<west> 5.2463 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3780,7 +4576,11 @@
   <Placemark id="parcelle_13_personne_morale.92534">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BL0658</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">30, BD DE LA RESISTANCE</SimpleData>
+		<SimpleData name="Dénomination">POUR NOUS</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3790,7 +4590,7 @@
 			<west> 5.248242 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3799,7 +4599,11 @@
   <Placemark id="parcelle_13_personne_morale.92665">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AR0066</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LA PRADELLE</SimpleData>
+		<SimpleData name="Dénomination">ABOU FAMILY</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3809,7 +4613,7 @@
 			<west> 5.236914 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3818,7 +4622,11 @@
   <Placemark id="parcelle_13_personne_morale.92692">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AW0066</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LA ROYERE-NORD</SimpleData>
+		<SimpleData name="Dénomination">ASS SYNDICALE FORCEE DITE SEPTIEME SYNDICAT DE LA DURANCE DE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3828,7 +4636,7 @@
 			<west> 5.249 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3837,7 +4645,11 @@
   <Placemark id="parcelle_13_personne_morale.93245">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AR0067</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LA PRADELLE</SimpleData>
+		<SimpleData name="Dénomination">ABOU FAMILY</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3847,7 +4659,7 @@
 			<west> 5.236951 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3856,7 +4668,11 @@
   <Placemark id="parcelle_13_personne_morale.93316">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BO0067</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LES BOIS DE LA CADENIERE</SimpleData>
+		<SimpleData name="Dénomination">ELECTRICITE DE FRANCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3866,7 +4682,7 @@
 			<west> 5.246804 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3875,7 +4691,11 @@
   <Placemark id="parcelle_13_personne_morale.94334">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AC0069</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">L AFFERAGE</SimpleData>
+		<SimpleData name="Dénomination">SYNDICAT ECCLESIASTIQUE DIOCESE DAIX</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3885,7 +4705,7 @@
 			<west> 5.241649 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3894,7 +4714,11 @@
   <Placemark id="parcelle_13_personne_morale.94479">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BO0069</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LES BOIS DE LA CADENIERE</SimpleData>
+		<SimpleData name="Dénomination">ELECTRICITE DE FRANCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3904,7 +4728,7 @@
 			<west> 5.246507 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3913,7 +4737,11 @@
   <Placemark id="parcelle_13_personne_morale.94996">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AR0007</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LA PRADELLE-SUD</SimpleData>
+		<SimpleData name="Dénomination">ABOU FAMILY</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3923,7 +4751,7 @@
 			<west> 5.238103 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3932,7 +4760,11 @@
   <Placemark id="parcelle_13_personne_morale.95456">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BI0070</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LEI ROUOMPIDO EST</SimpleData>
+		<SimpleData name="Dénomination">ELECTRICITE DE FRANCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3942,7 +4774,7 @@
 			<west> 5.267181 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3951,7 +4783,11 @@
   <Placemark id="parcelle_13_personne_morale.96033">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BI0071</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LEI ROUOMPIDO EST</SimpleData>
+		<SimpleData name="Dénomination">ELECTRICITE DE FRANCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3961,7 +4797,7 @@
 			<west> 5.267086 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3970,7 +4806,11 @@
   <Placemark id="parcelle_13_personne_morale.96567">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BI0072</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LEI ROUOMPIDO EST</SimpleData>
+		<SimpleData name="Dénomination">ELECTRICITE DE FRANCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3980,7 +4820,7 @@
 			<west> 5.266957 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3989,7 +4829,11 @@
   <Placemark id="parcelle_13_personne_morale.97014">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AC0073</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LE PARC</SimpleData>
+		<SimpleData name="Dénomination">ART LAB</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3999,7 +4843,7 @@
 			<west> 5.242971 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -4008,7 +4852,11 @@
   <Placemark id="parcelle_13_personne_morale.97131">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BI0073</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LEI ROUOMPIDO EST</SimpleData>
+		<SimpleData name="Dénomination">ELECTRICITE DE FRANCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -4018,7 +4866,7 @@
 			<west> 5.258249 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -4027,7 +4875,11 @@
   <Placemark id="parcelle_13_personne_morale.97625">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BI0074</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LEI ROUOMPIDO EST</SimpleData>
+		<SimpleData name="Dénomination">ELECTRICITE DE FRANCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -4037,7 +4889,7 @@
 			<west> 5.265782 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -4046,7 +4898,11 @@
   <Placemark id="parcelle_13_personne_morale.98206">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BI0075</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LEI ROUOMPIDO EST</SimpleData>
+		<SimpleData name="Dénomination">ELECTRICITE DE FRANCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -4056,7 +4912,7 @@
 			<west> 5.258402 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -4065,7 +4921,11 @@
   <Placemark id="parcelle_13_personne_morale.98647">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AB0076</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">44, PL DE L EGLISE</SimpleData>
+		<SimpleData name="Dénomination">AGCS IMMO</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -4075,7 +4935,7 @@
 			<west> 5.244823 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -4084,7 +4944,11 @@
   <Placemark id="parcelle_13_personne_morale.98754">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BI0076</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LEI ROUOMPIDO EST</SimpleData>
+		<SimpleData name="Dénomination">ELECTRICITE DE FRANCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -4094,7 +4958,7 @@
 			<west> 5.259027 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -4103,7 +4967,11 @@
   <Placemark id="parcelle_13_personne_morale.98779">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BO0076</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LEI ROUOMPIDO DE BONNEVAL</SimpleData>
+		<SimpleData name="Dénomination">ELECTRICITE DE FRANCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -4113,7 +4981,7 @@
 			<west> 5.225566 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -4122,7 +4990,11 @@
   <Placemark id="parcelle_13_personne_morale.99295">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BI0077</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LEI ROUOMPIDO EST</SimpleData>
+		<SimpleData name="Dénomination">ELECTRICITE DE FRANCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -4132,7 +5004,7 @@
 			<west> 5.258767 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -4141,7 +5013,11 @@
   <Placemark id="parcelle_13_personne_morale.99822">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BO0078</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LEI ROUOMPIDO DE BONNEVAL</SimpleData>
+		<SimpleData name="Dénomination">ELECTRICITE DE FRANCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -4151,7 +5027,7 @@
 			<west> 5.230114 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -4160,7 +5036,11 @@
   <Placemark id="parcelle_13_personne_morale.100313">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BO0079</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LEI ROUOMPIDO DE BONNEVAL</SimpleData>
+		<SimpleData name="Dénomination">ELECTRICITE DE FRANCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -4170,7 +5050,7 @@
 			<west> 5.236786 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -4179,7 +5059,11 @@
   <Placemark id="parcelle_13_personne_morale.100729">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AI0008</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">MAUCHE</SimpleData>
+		<SimpleData name="Dénomination">SCI MAS DES PAISSES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -4189,7 +5073,7 @@
 			<west> 5.232466 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -4198,7 +5082,11 @@
   <Placemark id="parcelle_13_personne_morale.100857">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BC0008</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LE MAZET</SimpleData>
+		<SimpleData name="Dénomination">MAS DU MAZET SCEA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -4208,7 +5096,7 @@
 			<west> 5.260326 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -4217,7 +5105,11 @@
   <Placemark id="parcelle_13_personne_morale.101261">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BO0080</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LES BOIS DE LA CADENIERE</SimpleData>
+		<SimpleData name="Dénomination">ELECTRICITE DE FRANCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -4227,7 +5119,7 @@
 			<west> 5.236913 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -4236,7 +5128,11 @@
   <Placemark id="parcelle_13_personne_morale.101638">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AE0081</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LES VERGEIRAS</SimpleData>
+		<SimpleData name="Dénomination">DIOCESAINE D AIX</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -4246,7 +5142,7 @@
 			<west> 5.239542 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -4255,7 +5151,11 @@
   <Placemark id="parcelle_13_personne_morale.102136">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AD0082</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LES GRAVENQUES</SimpleData>
+		<SimpleData name="Dénomination">LES GRAVENQUES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -4265,7 +5165,7 @@
 			<west> 5.245539 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -4274,7 +5174,11 @@
   <Placemark id="parcelle_13_personne_morale.102260">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BO0082</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LES BOIS DE LA CADENIERE</SimpleData>
+		<SimpleData name="Dénomination">ELECTRICITE DE FRANCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -4284,7 +5188,7 @@
 			<west> 5.236837 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -4293,7 +5197,11 @@
   <Placemark id="parcelle_13_personne_morale.102651">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AD0083</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LES GRAVENQUES</SimpleData>
+		<SimpleData name="Dénomination">LES GRAVENQUES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -4303,7 +5211,7 @@
 			<west> 5.245511 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -4312,7 +5220,11 @@
   <Placemark id="parcelle_13_personne_morale.102741">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AZ0083</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LES HAUTES BOURGARELLES</SimpleData>
+		<SimpleData name="Dénomination">LE MAS NEUF SCI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -4322,7 +5234,7 @@
 			<west> 5.253409 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -4331,7 +5243,11 @@
   <Placemark id="parcelle_13_personne_morale.102773">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BO0083</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LES BOIS DE LA CADENIERE</SimpleData>
+		<SimpleData name="Dénomination">ELECTRICITE DE FRANCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -4341,7 +5257,7 @@
 			<west> 5.239802 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -4350,7 +5266,11 @@
   <Placemark id="parcelle_13_personne_morale.103145">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AD0084</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LES GRAVENQUES</SimpleData>
+		<SimpleData name="Dénomination">LES GRAVENQUES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -4360,7 +5280,7 @@
 			<west> 5.245638 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -4369,7 +5289,11 @@
   <Placemark id="parcelle_13_personne_morale.103226">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AZ0084</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LES HAUTES BOURGARELLES</SimpleData>
+		<SimpleData name="Dénomination">LE MAS NEUF SCI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -4379,7 +5303,7 @@
 			<west> 5.254739 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -4388,7 +5312,11 @@
   <Placemark id="parcelle_13_personne_morale.103256">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BO0084</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LES BOIS DE LA CADENIERE</SimpleData>
+		<SimpleData name="Dénomination">ELECTRICITE DE FRANCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -4398,7 +5326,7 @@
 			<west> 5.239988 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -4407,7 +5335,11 @@
   <Placemark id="parcelle_13_personne_morale.103593">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AD0085</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LES GRAVENQUES</SimpleData>
+		<SimpleData name="Dénomination">LES GRAVENQUES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -4417,7 +5349,7 @@
 			<west> 5.245704 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -4426,7 +5358,11 @@
   <Placemark id="parcelle_13_personne_morale.103686">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AZ0085</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LES HAUTES BOURGARELLES</SimpleData>
+		<SimpleData name="Dénomination">LE MAS NEUF SCI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -4436,7 +5372,7 @@
 			<west> 5.25477 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -4445,7 +5381,11 @@
   <Placemark id="parcelle_13_personne_morale.103721">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BO0085</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LES BOIS DE LA CADENIERE</SimpleData>
+		<SimpleData name="Dénomination">ELECTRICITE DE FRANCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -4455,7 +5395,7 @@
 			<west> 5.240838 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -4464,7 +5404,11 @@
   <Placemark id="parcelle_13_personne_morale.104014">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AB0086</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">62, RUE SAINT JOSEPH</SimpleData>
+		<SimpleData name="Dénomination">SCI PACA IMMOBILIER</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -4474,7 +5418,7 @@
 			<west> 5.243886 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -4483,7 +5427,11 @@
   <Placemark id="parcelle_13_personne_morale.104025">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AD0086</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LES GRAVENQUES</SimpleData>
+		<SimpleData name="Dénomination">LES GRAVENQUES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -4493,7 +5441,7 @@
 			<west> 5.245133 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -4502,7 +5450,11 @@
   <Placemark id="parcelle_13_personne_morale.104112">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AZ0086</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LES HAUTES BOURGARELLES</SimpleData>
+		<SimpleData name="Dénomination">LE MAS NEUF SCI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -4512,7 +5464,7 @@
 			<west> 5.25344 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -4521,7 +5473,11 @@
   <Placemark id="parcelle_13_personne_morale.104470">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AD0087</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LES GRAVENQUES</SimpleData>
+		<SimpleData name="Dénomination">LES GRAVENQUES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -4531,7 +5487,7 @@
 			<west> 5.245247 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -4540,7 +5496,11 @@
   <Placemark id="parcelle_13_personne_morale.105847">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AI0009</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">853, CHE DES CHAFFARDS</SimpleData>
+		<SimpleData name="Dénomination">SCI MAS DES PAISSES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -4550,7 +5510,7 @@
 			<west> 5.232754 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -4559,7 +5519,11 @@
   <Placemark id="parcelle_13_personne_morale.105859">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AL0009</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">BONNEVAL-NORD</SimpleData>
+		<SimpleData name="Dénomination">LLA MARGOTTIERE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -4569,7 +5533,7 @@
 			<west> 5.22958 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -4578,7 +5542,11 @@
   <Placemark id="parcelle_13_personne_morale.105869">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AM0009</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LES TERMES-OUEST</SimpleData>
+		<SimpleData name="Dénomination">SYNDICAT DE LA ROYERE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -4588,7 +5556,7 @@
 			<west> 5.231394 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -4597,7 +5565,11 @@
   <Placemark id="parcelle_13_personne_morale.105931">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AW0009</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LA ROYERE-NORD</SimpleData>
+		<SimpleData name="Dénomination">ASS SYNDICALE FORCEE DITE SEPTIEME SYNDICAT DE LA DURANCE DE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -4607,7 +5579,7 @@
 			<west> 5.251741 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -4616,7 +5588,11 @@
   <Placemark id="parcelle_13_personne_morale.106308">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AZ0090</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LES HAUTES BOURGARELLES</SimpleData>
+		<SimpleData name="Dénomination">LE MAS NEUF SCI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -4626,7 +5602,7 @@
 			<west> 5.254472 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -4635,7 +5611,11 @@
   <Placemark id="parcelle_13_personne_morale.106742">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BK0091</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LEI ROUOMPIDO</SimpleData>
+		<SimpleData name="Dénomination">ELECTRICITE DE FRANCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -4645,7 +5625,7 @@
 			<west> 5.254068 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -4654,7 +5634,11 @@
   <Placemark id="parcelle_13_personne_morale.107155">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BK0092</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LEI ROUOMPIDO</SimpleData>
+		<SimpleData name="Dénomination">ELECTRICITE DE FRANCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -4664,7 +5648,7 @@
 			<west> 5.252904 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -4673,7 +5657,11 @@
   <Placemark id="parcelle_13_personne_morale.107561">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BK0093</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LEI ROUOMPIDO</SimpleData>
+		<SimpleData name="Dénomination">ELECTRICITE DE FRANCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -4683,7 +5671,7 @@
 			<west> 5.253171 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -4692,7 +5680,11 @@
   <Placemark id="parcelle_13_personne_morale.107996">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BI0094</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LEI ROUOMPIDO EST</SimpleData>
+		<SimpleData name="Dénomination">SCI JARS</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -4702,7 +5694,7 @@
 			<west> 5.258962 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -4711,7 +5703,11 @@
   <Placemark id="parcelle_13_personne_morale.108328">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AD0095</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LES CROS</SimpleData>
+		<SimpleData name="Dénomination">SCI DEL MASCHIO</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -4721,7 +5717,7 @@
 			<west> 5.245484 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -4730,7 +5726,11 @@
   <Placemark id="parcelle_13_personne_morale.108435">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BI0095</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">9001, LEI ROUOMPIDO EST</SimpleData>
+		<SimpleData name="Dénomination">TRANSPORTS JOURDAN</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -4740,7 +5740,7 @@
 			<west> 5.259504 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -4749,7 +5749,11 @@
   <Placemark id="parcelle_13_personne_morale.108728">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000AD0096</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LES CROS</SimpleData>
+		<SimpleData name="Dénomination">SCI DEL MASCHIO</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -4759,7 +5763,7 @@
 			<west> 5.245547 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -4768,7 +5772,11 @@
   <Placemark id="parcelle_13_personne_morale.109616">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BM0098</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LA CADENIERE</SimpleData>
+		<SimpleData name="Dénomination">COPROPRIETAIRES DU LOT FRONT TRESOR</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -4778,7 +5786,7 @@
 			<west> 5.242369 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -4787,7 +5795,11 @@
   <Placemark id="parcelle_13_personne_morale.110032">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13024000BM0099</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHARLEVAL</SimpleData>
+		<SimpleData name="Adresse">LA CADENIERE</SimpleData>
+		<SimpleData name="Dénomination">COPROPRIETAIRES DU LOT FRONT TRESOR</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -4797,7 +5809,7 @@
 			<west> 5.243272 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>

@@ -15,7 +15,7 @@ mots_cles_a_supprimer = [
     "nature_culture",
     "code_droit",
     "numero_majic",
-    "(3)_departement",
+   # "(3)_departement",
     "numero_siren",
     "parcelle_coords.coord",
     "infos_commune.code_commune",
@@ -27,17 +27,18 @@ mots_cles_a_supprimer = [
     "infos_commune.nom_region",
     "(3)_groupe_personne",
     "parcelles-des-personnes-morales (3)_code_forme_juridique",
-    "parcelles-des-personnes-morales (3)_adresse",
+    #"parcelles-des-personnes-morales (3)_adresse",
     "parcelles-des-personnes-morales (3)_forme_juridique_abregee",
-    "parcelles-des-personnes-morales (3)_denomination",
-    "IDU"
+    #"parcelles-des-personnes-morales (3)_denomination",
+    #"IDU"
 ]
 
 mots_cles_a_remplacer={"parcelles-des-personnes-morales (3)_adresse": "Adresse", 
                       "parcelles-des-personnes-morales (3)_forme_juridique_abregee": "Forme Juridique Abrégée",
                       "parcelles-des-personnes-morales (3)_denomination":"Dénomination",
                       "IDU":"Numéro de Parcelle",
-                      "parcelles-des-personnes-morales (3)_nom_commune":"Commune"
+                      "parcelles-des-personnes-morales (3)_nom_commune":"Commune", 
+                      "parcelles-des-personnes-morales (3)_departement":"Departement"
                     }
                  
 def nettoyer(chemin_fichier, option_nom_fichier):

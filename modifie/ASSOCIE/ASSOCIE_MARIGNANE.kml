@@ -4,7 +4,11 @@
 	<name>parcelle_13_ASSOCIE.kml</name>
 	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
 	<Schema name="MARIGNANE_ASSOCIE" id="MARIGNANE_ASSOCIE">
+		<SimpleField type="string" name="Numéro de Parcelle"></SimpleField>
+		<SimpleField type="string" name="Departement"></SimpleField>
 		<SimpleField type="string" name="Commune"></SimpleField>
+		<SimpleField type="string" name="Adresse"></SimpleField>
+		<SimpleField type="string" name="Dénomination"></SimpleField>
 	</Schema>
 	<Style id="ASSOCIE">
 		<LineStyle>
@@ -21,7 +25,11 @@
 		<Placemark id="parcelle_13_associe.6">
 <styleUrl>#ASSOCIE</styleUrl>			<ExtendedData>
 				<SchemaData schemaUrl="#parcelle_13_associe">
+					<SimpleData name="Numéro de Parcelle">13054000CD0244</SimpleData>
+					<SimpleData name="Departement">13</SimpleData>
 					<SimpleData name="Commune">MARIGNANE</SimpleData>
+					<SimpleData name="Adresse">20, ALL DE LA PALUN</SimpleData>
+					<SimpleData name="Dénomination">TROIS CENT QUATRE VINGT SEIZE</SimpleData>
 				</SchemaData>
 			</ExtendedData>
 	<Region>
@@ -32,7 +40,7 @@
 			<west> 5.197958744109 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>

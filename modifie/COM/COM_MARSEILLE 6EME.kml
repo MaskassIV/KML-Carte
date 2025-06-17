@@ -2,7 +2,11 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document id="root_doc">
 <Schema name="MARSEILLE 6EME_COM" id="MARSEILLE 6EME_COM">
+	<SimpleField name="Numéro de Parcelle" type="string"></SimpleField>
+	<SimpleField name="Departement" type="string"></SimpleField>
 	<SimpleField name="Commune" type="string"></SimpleField>
+	<SimpleField name="Adresse" type="string"></SimpleField>
+	<SimpleField name="Dénomination" type="string"></SimpleField>
 </Schema>
 	<Style id="COM">
 		<LineStyle>
@@ -18,7 +22,11 @@
   <Placemark id="parcelle_13_com.620">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068280E0176</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">176, RUE BRETEUIL</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -28,7 +36,7 @@
 			<west> 5.378837 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -36,7 +44,11 @@
   <Placemark id="parcelle_13_com.624">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068280E0177</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">207, RUE BRETEUIL</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -46,7 +58,7 @@
 			<west> 5.379169 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -54,7 +66,11 @@
   <Placemark id="parcelle_13_com.871">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068280D0226</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">69, RUE JEAN FIOLLE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -64,7 +80,7 @@
 			<west> 5.379098 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -72,7 +88,11 @@
   <Placemark id="parcelle_13_com.1408">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068240D0039</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">5, TRA DU CIMETIERE DES JUIFS</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -82,7 +102,7 @@
 			<west> 5.387364 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -90,7 +110,11 @@
   <Placemark id="parcelle_13_com.2942">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068280C0198</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">RUE PARADIS</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -100,7 +124,7 @@
 			<west> 5.3793 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -108,7 +132,11 @@
   <Placemark id="parcelle_13_com.3065">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068280K0006</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">RUE POINTE A PITRE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -118,7 +146,7 @@
 			<west> 5.372877 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -126,7 +154,11 @@
   <Placemark id="parcelle_13_com.58079">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068260A0001</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">56, RUE DE LA PAIX MARCEL PAUL</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -136,7 +168,7 @@
 			<west> 5.372436 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -144,7 +176,11 @@
   <Placemark id="parcelle_13_com.58080">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068280A0001</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">62, RUE JULES MOULET</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -154,7 +190,7 @@
 			<west> 5.373101 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -162,7 +198,11 @@
   <Placemark id="parcelle_13_com.58211">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068260C0102</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">71, RUE SYLVABELLE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -172,7 +212,7 @@
 			<west> 5.376988 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -180,7 +220,11 @@
   <Placemark id="parcelle_13_com.58312">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068240C0106</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">67, CRS GOUFFE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -190,7 +234,7 @@
 			<west> 5.389938 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -198,7 +242,11 @@
   <Placemark id="parcelle_13_com.58404">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068280I0109</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">26, RUE DU CAMBODGE</SimpleData>
+		<SimpleData name="Dénomination">METROPOLE DAIX-MARSEILLE-PROVENCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -208,7 +256,7 @@
 			<west> 5.374905 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -216,7 +264,11 @@
   <Placemark id="parcelle_13_com.58452">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068240C0110</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">IMP DE L ESPERANCE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -226,7 +278,7 @@
 			<west> 5.391349 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -234,7 +286,11 @@
   <Placemark id="parcelle_13_com.58524">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068280I0113</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">22, RUE DE CREMONE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -244,7 +300,7 @@
 			<west> 5.374209 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -252,7 +308,11 @@
   <Placemark id="parcelle_13_com.58602">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068280C0117</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">113, RUE BRETEUIL</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -262,7 +322,7 @@
 			<west> 5.377098 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -270,7 +330,11 @@
   <Placemark id="parcelle_13_com.58646">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068240C0119</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">BD VINCENT DELPUECH</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -280,7 +344,7 @@
 			<west> 5.391005 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -288,7 +352,11 @@
   <Placemark id="parcelle_13_com.58718">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068260B0121</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">6, RUE GUSTAVE RICARD</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -298,7 +366,7 @@
 			<west> 5.376989 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -306,7 +374,11 @@
   <Placemark id="parcelle_13_com.58776">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068240C0124</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">AV DE CORINTHE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -316,7 +388,7 @@
 			<west> 5.390404 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -324,7 +396,11 @@
   <Placemark id="parcelle_13_com.58836">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068240C0127</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">AV DE CORINTHE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -334,7 +410,7 @@
 			<west> 5.390467 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -342,7 +418,11 @@
   <Placemark id="parcelle_13_com.58869">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068240C0128</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">AV DE CORINTHE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -352,7 +432,7 @@
 			<west> 5.390469 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -360,7 +440,11 @@
   <Placemark id="parcelle_13_com.58893">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068240D0129</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">AV DE DELPHES</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -370,7 +454,7 @@
 			<west> 5.38788 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -378,7 +462,11 @@
   <Placemark id="parcelle_13_com.58940">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068240D0130</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">TRA DU CIMETIERE DES JUIFS</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -388,7 +476,7 @@
 			<west> 5.387596 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -396,7 +484,11 @@
   <Placemark id="parcelle_13_com.58957">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068240B0131</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">127, RUE DE LODI</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -406,7 +498,7 @@
 			<west> 5.389718 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -414,7 +506,11 @@
   <Placemark id="parcelle_13_com.58962">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068240C0131</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">14, IMP DE L ESPERANCE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -424,7 +520,7 @@
 			<west> 5.391079 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -432,7 +528,11 @@
   <Placemark id="parcelle_13_com.58984">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068240C0132</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">AV DE CORINTHE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -442,7 +542,7 @@
 			<west> 5.390576 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -450,7 +550,11 @@
   <Placemark id="parcelle_13_com.58987">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068240D0132</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">42, AV DE TOULON</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -460,7 +564,7 @@
 			<west> 5.38653 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -468,7 +572,11 @@
   <Placemark id="parcelle_13_com.58988">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068280D0132</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">75, RUE JEAN FIOLLE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -478,7 +586,7 @@
 			<west> 5.378902 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -486,7 +594,11 @@
   <Placemark id="parcelle_13_com.59005">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068260C0133</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">126, RUE PARADIS</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -496,7 +608,7 @@
 			<west> 5.378144 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -504,7 +616,11 @@
   <Placemark id="parcelle_13_com.59006">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068240D0133</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">44, AV DE TOULON</SimpleData>
+		<SimpleData name="Dénomination">METROPOLE DAIX-MARSEILLE-PROVENCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -514,7 +630,7 @@
 			<west> 5.38712 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -522,7 +638,11 @@
   <Placemark id="parcelle_13_com.59084">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068260D0137</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">RUE PLAT CHERCHELL CHAIX BRYAN</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -532,7 +652,7 @@
 			<west> 5.370669 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -540,7 +660,11 @@
   <Placemark id="parcelle_13_com.59257">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068250C0144</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">22, RUE DES BERGERS</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -550,7 +674,7 @@
 			<west> 5.384453 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -558,7 +682,11 @@
   <Placemark id="parcelle_13_com.59550">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068260D0157</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">8, AV DE CONSTANTINE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -568,7 +696,7 @@
 			<west> 5.370233 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -576,7 +704,11 @@
   <Placemark id="parcelle_13_com.59553">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068280I0157</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">46, RUE CHRISTOPHE COLOMB</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -586,7 +718,7 @@
 			<west> 5.374985 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -594,7 +726,11 @@
   <Placemark id="parcelle_13_com.59779">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068270A0017</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">24, RUE MONTGRAND</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -604,7 +740,7 @@
 			<west> 5.378213 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -612,7 +748,11 @@
   <Placemark id="parcelle_13_com.59911">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068280D0176</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">60, RUE JEAN FIOLLE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -622,7 +762,7 @@
 			<west> 5.379583 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -630,7 +770,11 @@
   <Placemark id="parcelle_13_com.59973">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068270A0018</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">19, RUE GRIGNAN</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -640,7 +784,7 @@
 			<west> 5.378017 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -648,7 +792,11 @@
   <Placemark id="parcelle_13_com.60023">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068280E0181</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">RUE LACEDEMONE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -658,7 +806,7 @@
 			<west> 5.37777 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -666,7 +814,11 @@
   <Placemark id="parcelle_13_com.60104">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068260C0186</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">121, RUE SYLVABELLE PR VERNEJOUL</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -676,7 +828,7 @@
 			<west> 5.373874 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -684,7 +836,11 @@
   <Placemark id="parcelle_13_com.60105">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068280C0186</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">RUE BEAUJOUR</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -694,7 +850,7 @@
 			<west> 5.378195 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -702,7 +858,11 @@
   <Placemark id="parcelle_13_com.60150">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068240B0189</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">13, RUE DE FRIEDLAND</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -712,7 +872,7 @@
 			<west> 5.388448 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -720,7 +880,11 @@
   <Placemark id="parcelle_13_com.60154">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068260C0189</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">127, RUE SYLVABELLE PR VERNEJOUL</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -730,7 +894,7 @@
 			<west> 5.373616 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -738,7 +902,11 @@
   <Placemark id="parcelle_13_com.60198">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068240B0190</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">17, RUE DE FRIEDLAND</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -748,7 +916,7 @@
 			<west> 5.388785 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -756,7 +924,11 @@
   <Placemark id="parcelle_13_com.60222">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068280E0191</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">42, RUE VILLAS PARADIS</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -766,7 +938,7 @@
 			<west> 5.377891 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -774,7 +946,11 @@
   <Placemark id="parcelle_13_com.60263">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068280D0194</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">9, RUE BOSSUET</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -784,7 +960,7 @@
 			<west> 5.378913 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -792,7 +968,11 @@
   <Placemark id="parcelle_13_com.60306">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068280D0197</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">7, RUE BOSSUET</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -802,7 +982,7 @@
 			<west> 5.37908 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -810,7 +990,11 @@
   <Placemark id="parcelle_13_com.60321">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068280D0198</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">7, RUE BOSSUET</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -820,7 +1004,7 @@
 			<west> 5.379106 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -828,7 +1012,11 @@
   <Placemark id="parcelle_13_com.60335">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068280B0199</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">50, RUE DOCT FRANCOIS MORUCCI</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -838,7 +1026,7 @@
 			<west> 5.376661 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -846,7 +1034,11 @@
   <Placemark id="parcelle_13_com.60381">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068280A0020</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">RUE FORT DU SANCTUAIRE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -856,7 +1048,7 @@
 			<west> 5.372212 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -864,7 +1056,11 @@
   <Placemark id="parcelle_13_com.60386">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068230C0020</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">29, AV DU PRADO</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -874,7 +1070,7 @@
 			<west> 5.385199 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -882,7 +1078,11 @@
   <Placemark id="parcelle_13_com.60402">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068280B0200</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">38, BD VAUBAN</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -892,7 +1092,7 @@
 			<west> 5.376313 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -900,7 +1100,11 @@
   <Placemark id="parcelle_13_com.60405">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068280D0200</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">7, RUE BOSSUET</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -910,7 +1114,7 @@
 			<west> 5.379143 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -918,7 +1122,11 @@
   <Placemark id="parcelle_13_com.60424">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068280E0201</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">RUE LACEDEMONE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -928,7 +1136,7 @@
 			<west> 5.377684 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -936,7 +1144,11 @@
   <Placemark id="parcelle_13_com.60490">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068280K0206</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">62, RUE DE LA MARTINIQUE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -946,7 +1158,7 @@
 			<west> 5.374529 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -954,7 +1166,11 @@
   <Placemark id="parcelle_13_com.60525">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068280K0209</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">68, RUE DE LA MARTINIQUE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -964,7 +1180,7 @@
 			<west> 5.374131 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -972,7 +1188,11 @@
   <Placemark id="parcelle_13_com.60526">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068250A0021</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">43, CRS JULIEN</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -982,7 +1202,7 @@
 			<west> 5.38323 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -990,7 +1210,11 @@
   <Placemark id="parcelle_13_com.60527">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068280A0021</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">RUE DU BOURDON</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1000,7 +1224,7 @@
 			<west> 5.372831 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1008,7 +1232,11 @@
   <Placemark id="parcelle_13_com.60694">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068230A0221</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">46, RUE STE VICTOIRE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1018,7 +1246,7 @@
 			<west> 5.380786 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1026,7 +1254,11 @@
   <Placemark id="parcelle_13_com.60750">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068280D0224</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">69, RUE JEAN FIOLLE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1036,7 +1268,7 @@
 			<west> 5.379159 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1044,7 +1276,11 @@
   <Placemark id="parcelle_13_com.60763">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068250C0225</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">5, RUE DES BERGERS</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1054,7 +1290,7 @@
 			<west> 5.383428 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1062,7 +1298,11 @@
   <Placemark id="parcelle_13_com.60766">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068280D0225</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">69, RUE JEAN FIOLLE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1072,7 +1312,7 @@
 			<west> 5.378931 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1080,7 +1320,11 @@
   <Placemark id="parcelle_13_com.60812">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068280E0228</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">174, RUE BRETEUIL</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1090,7 +1334,7 @@
 			<west> 5.377755 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1098,7 +1342,11 @@
   <Placemark id="parcelle_13_com.60853">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068280D0230</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">63, RUE JEAN FIOLLE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1108,7 +1356,7 @@
 			<west> 5.379626 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1116,7 +1364,11 @@
   <Placemark id="parcelle_13_com.60862">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068280D0231</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">63, RUE JEAN FIOLLE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1126,7 +1378,7 @@
 			<west> 5.379226 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1134,7 +1386,11 @@
   <Placemark id="parcelle_13_com.60867">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068280E0231</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">RUE LACEDEMONE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1144,7 +1400,7 @@
 			<west> 5.377431 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1152,7 +1408,11 @@
   <Placemark id="parcelle_13_com.60870">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068280E0233</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">RUE LACEDEMONE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1162,7 +1422,7 @@
 			<west> 5.377171 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1170,7 +1430,11 @@
   <Placemark id="parcelle_13_com.60878">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068280D0232</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">63, RUE JEAN FIOLLE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1180,7 +1444,7 @@
 			<west> 5.379226 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1188,7 +1452,11 @@
   <Placemark id="parcelle_13_com.60891">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068280I0233</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">RUE DES AMOUREUX</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1198,7 +1466,7 @@
 			<west> 5.372968 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1206,7 +1474,11 @@
   <Placemark id="parcelle_13_com.60936">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068250A0238</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">119, RUE D AUBAGNE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1216,7 +1488,7 @@
 			<west> 5.382589 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1224,7 +1496,11 @@
   <Placemark id="parcelle_13_com.60987">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068250A0240</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">82, CRS JULIEN</SimpleData>
+		<SimpleData name="Dénomination">METROPOLE DAIX-MARSEILLE-PROVENCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1234,7 +1510,7 @@
 			<west> 5.382769 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1242,7 +1518,11 @@
   <Placemark id="parcelle_13_com.61011">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068280I0242</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">TRA DES AMOUREUX</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1252,7 +1532,7 @@
 			<west> 5.372286 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1260,7 +1540,11 @@
   <Placemark id="parcelle_13_com.61156">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068270B0254</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">39, RUE SYLVABELLE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1270,7 +1554,7 @@
 			<west> 5.378932 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1278,7 +1562,11 @@
   <Placemark id="parcelle_13_com.61165">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068250B0255</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">1, RUE NAU</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1288,7 +1576,7 @@
 			<west> 5.386024 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1296,7 +1584,11 @@
   <Placemark id="parcelle_13_com.61169">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068280H0255</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">2, RUE LACEDEMONE</SimpleData>
+		<SimpleData name="Dénomination">SOCIETE EAU DE MARSEILLE METROPOLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1306,7 +1598,7 @@
 			<west> 5.375306 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1314,7 +1606,11 @@
   <Placemark id="parcelle_13_com.61179">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068280K0256</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">16, RUE POINTE A PITRE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1324,7 +1620,7 @@
 			<west> 5.371824 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1332,7 +1628,11 @@
   <Placemark id="parcelle_13_com.61186">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068260D0257</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">RUE PLAT CHERCHELL CHAIX BRYAN</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1342,7 +1642,7 @@
 			<west> 5.371812 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1350,7 +1650,11 @@
   <Placemark id="parcelle_13_com.61283">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068270B0266</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">1, RUE MAURICE FAVIER</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1360,7 +1664,7 @@
 			<west> 5.382673 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1368,7 +1672,10 @@
   <Placemark id="parcelle_13_com.61314">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068230A0276</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1378,7 +1685,7 @@
 			<west> 5.379707 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1386,7 +1693,11 @@
   <Placemark id="parcelle_13_com.61379">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068260C0274</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">71, RUE SYLVABELLE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1396,7 +1707,7 @@
 			<west> 5.377079 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1404,7 +1715,11 @@
   <Placemark id="parcelle_13_com.61395">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068280H0275</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">218, RUE BRETEUIL</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1414,7 +1729,7 @@
 			<west> 5.378106 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1422,7 +1737,11 @@
   <Placemark id="parcelle_13_com.61405">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068230A0278</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">8, RUE DES VIGNERONS</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1432,7 +1751,7 @@
 			<west> 5.379877 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1440,7 +1759,11 @@
   <Placemark id="parcelle_13_com.61411">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068230A0279</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">33, RUE EDMOND ROSTAND</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1450,7 +1773,7 @@
 			<west> 5.380807 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1458,7 +1781,10 @@
   <Placemark id="parcelle_13_com.61444">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068230A0280</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1468,7 +1794,7 @@
 			<west> 5.381176 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1476,7 +1802,11 @@
   <Placemark id="parcelle_13_com.61453">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068260C0281</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">102, RUE PARADIS</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1486,7 +1816,7 @@
 			<west> 5.378098 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1494,7 +1824,11 @@
   <Placemark id="parcelle_13_com.61460">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068230A0282</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">RUE EDMOND ROSTAND</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1504,7 +1838,7 @@
 			<west> 5.381158 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1512,7 +1846,11 @@
   <Placemark id="parcelle_13_com.61464">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068230A0283</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">RUE EDMOND ROSTAND</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1522,7 +1860,7 @@
 			<west> 5.380923 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1530,7 +1868,11 @@
   <Placemark id="parcelle_13_com.61497">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068240B0289</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">RUE PERRIN SOLLIERS</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1540,7 +1882,7 @@
 			<west> 5.386498 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1548,7 +1890,11 @@
   <Placemark id="parcelle_13_com.61510">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068280A0029</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">RUE FORT DU SANCTUAIRE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1558,7 +1904,7 @@
 			<west> 5.372349 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1566,7 +1912,11 @@
   <Placemark id="parcelle_13_com.61564">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068270A0292</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">8, PL FELIX BARET</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1576,7 +1926,7 @@
 			<west> 5.378825 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1584,7 +1934,11 @@
   <Placemark id="parcelle_13_com.61572">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068270B0293</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">13, RUE BEL AIR</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1594,7 +1948,7 @@
 			<west> 5.38264 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1602,7 +1956,11 @@
   <Placemark id="parcelle_13_com.61591">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068260D0295</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">RUE PLAT CHERCHELL CHAIX BRYAN</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1612,7 +1970,7 @@
 			<west> 5.371919 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1620,7 +1978,11 @@
   <Placemark id="parcelle_13_com.61659">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068280A0030</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">RUE FORT DU SANCTUAIRE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1630,7 +1992,7 @@
 			<west> 5.371311 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1638,7 +2000,11 @@
   <Placemark id="parcelle_13_com.61696">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068270A0301</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">34, RUE FONGATE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1648,7 +2014,7 @@
 			<west> 5.381932 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1656,7 +2022,11 @@
   <Placemark id="parcelle_13_com.61704">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068280H0301</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">216, RUE BRETEUIL</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1666,7 +2036,7 @@
 			<west> 5.378225 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1674,7 +2044,11 @@
   <Placemark id="parcelle_13_com.61744">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068270A0308</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">28, RUE JEAN-BAPTISTE ESTELLE</SimpleData>
+		<SimpleData name="Dénomination">FONCIER PACA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1684,7 +2058,7 @@
 			<west> 5.381389 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1692,7 +2066,11 @@
   <Placemark id="parcelle_13_com.61751">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068270A0309</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">26, RUE JEAN-BAPTISTE ESTELLE</SimpleData>
+		<SimpleData name="Dénomination">FONCIER PACA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1702,7 +2080,7 @@
 			<west> 5.381306 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1710,7 +2088,11 @@
   <Placemark id="parcelle_13_com.61762">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068280A0031</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">RUE FORT DU SANCTUAIRE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1720,7 +2102,7 @@
 			<west> 5.371819 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1728,7 +2110,11 @@
   <Placemark id="parcelle_13_com.61804">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068270A0310</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">24, RUE JEAN-BAPTISTE ESTELLE</SimpleData>
+		<SimpleData name="Dénomination">FONCIER PACA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1738,7 +2124,7 @@
 			<west> 5.381243 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1746,7 +2132,11 @@
   <Placemark id="parcelle_13_com.61813">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068250C0311</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">36, RUE DE LODI</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1756,7 +2146,7 @@
 			<west> 5.385934 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1764,7 +2154,11 @@
   <Placemark id="parcelle_13_com.61818">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068250C0313</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">37, RUE PERRIN SOLLIERS</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1774,7 +2168,7 @@
 			<west> 5.385251 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1782,7 +2176,11 @@
   <Placemark id="parcelle_13_com.61830">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068250C0315</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">RUE MARENGO</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1792,7 +2190,7 @@
 			<west> 5.38431 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1800,7 +2198,11 @@
   <Placemark id="parcelle_13_com.62057">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068280A0035</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">RUE FORT DU SANCTUAIRE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1810,7 +2212,7 @@
 			<west> 5.37048 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1818,7 +2220,11 @@
   <Placemark id="parcelle_13_com.62112">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068280A0036</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">MTE DE L ORATOIRE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1828,7 +2234,7 @@
 			<west> 5.370376 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1836,7 +2242,11 @@
   <Placemark id="parcelle_13_com.62168">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068280A0037</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">MTE DE L ORATOIRE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1846,7 +2256,7 @@
 			<west> 5.370311 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1854,7 +2264,11 @@
   <Placemark id="parcelle_13_com.62362">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068280K0004</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">RUE POINTE A PITRE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1864,7 +2278,7 @@
 			<west> 5.372567 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1872,7 +2286,11 @@
   <Placemark id="parcelle_13_com.62536">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068280A0044</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">78, RUE JULES MOULET</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1882,7 +2300,7 @@
 			<west> 5.373479 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1890,7 +2308,11 @@
   <Placemark id="parcelle_13_com.62583">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068250C0045</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">2, RUE DE LA LOUBIERE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1900,7 +2322,7 @@
 			<west> 5.385099 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1908,7 +2330,11 @@
   <Placemark id="parcelle_13_com.62619">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068250C0046</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">29, PL NOTRE-DAME DU MONT</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1918,7 +2344,7 @@
 			<west> 5.385042 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1926,7 +2352,11 @@
   <Placemark id="parcelle_13_com.62642">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068280A0047</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">9001, RUE FORT DU SANCTUAIRE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1936,7 +2366,7 @@
 			<west> 5.372058 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1944,7 +2374,11 @@
   <Placemark id="parcelle_13_com.62651">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068250C0047</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">1, RUE DE LODI</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1954,7 +2388,7 @@
 			<west> 5.385088 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1962,7 +2396,11 @@
   <Placemark id="parcelle_13_com.62810">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068280A0051</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">62, RUE JULES MOULET</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1972,7 +2410,7 @@
 			<west> 5.373022 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1980,7 +2418,11 @@
   <Placemark id="parcelle_13_com.62859">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068280A0052</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">62, RUE JULES MOULET</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1990,7 +2432,7 @@
 			<west> 5.372496 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1998,7 +2440,11 @@
   <Placemark id="parcelle_13_com.62876">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068280K0052</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">122, BD VAUBAN</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2008,7 +2454,7 @@
 			<west> 5.372852 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2016,7 +2462,11 @@
   <Placemark id="parcelle_13_com.62975">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068280K0055</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">116, BD VAUBAN</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2026,7 +2476,7 @@
 			<west> 5.373072 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2034,7 +2484,11 @@
   <Placemark id="parcelle_13_com.62983">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068280A0056</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">62, RUE JULES MOULET</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2044,7 +2498,7 @@
 			<west> 5.373031 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2052,7 +2506,11 @@
   <Placemark id="parcelle_13_com.63035">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068280K0057</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">114, BD VAUBAN</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2062,7 +2520,7 @@
 			<west> 5.373232 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2070,7 +2528,11 @@
   <Placemark id="parcelle_13_com.63054">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068280A0058</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">SQ GERMAINE POINSO CHAPUIS</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2080,7 +2542,7 @@
 			<west> 5.372691 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2088,7 +2550,11 @@
   <Placemark id="parcelle_13_com.63172">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068280A0061</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">SQ GERMAINE POINSO CHAPUIS</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2098,7 +2564,7 @@
 			<west> 5.3727 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2106,7 +2572,11 @@
   <Placemark id="parcelle_13_com.63209">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068280A0062</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">SQ GERMAINE POINSO CHAPUIS</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2116,7 +2586,7 @@
 			<west> 5.372682 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2124,7 +2594,11 @@
   <Placemark id="parcelle_13_com.63214">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068270B0062</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">27, RUE ALBERT CHABANON</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2134,7 +2608,7 @@
 			<west> 5.382474 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2142,7 +2616,11 @@
   <Placemark id="parcelle_13_com.63284">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068280K0064</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">108, BD VAUBAN</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2152,7 +2630,7 @@
 			<west> 5.373807 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2160,7 +2638,11 @@
   <Placemark id="parcelle_13_com.63474">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068280K0007</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">RUE POINTE A PITRE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2170,7 +2652,7 @@
 			<west> 5.372715 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2178,7 +2660,11 @@
   <Placemark id="parcelle_13_com.63523">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068280D0071</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">171, RUE BRETEUIL</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2188,7 +2674,7 @@
 			<west> 5.378375 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2196,7 +2682,11 @@
   <Placemark id="parcelle_13_com.63675">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068280D0076</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">RUE STANISLAS TORRENTS</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2206,7 +2696,7 @@
 			<west> 5.37982 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2214,7 +2704,11 @@
   <Placemark id="parcelle_13_com.63752">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068280H0078</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">22, RUE DU VALLON MONTEBELLO</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2224,7 +2718,7 @@
 			<west> 5.37689 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2232,7 +2726,11 @@
   <Placemark id="parcelle_13_com.63823">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068280K0008</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">RUE POINTE A PITRE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2242,7 +2740,7 @@
 			<west> 5.372138 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2250,7 +2748,11 @@
   <Placemark id="parcelle_13_com.64050">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068250C0088</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">18, RUE EYDOUX</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2260,7 +2762,7 @@
 			<west> 5.386677 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2268,7 +2770,11 @@
   <Placemark id="parcelle_13_com.64111">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068230D0009</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">23, RUE FALQUE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2278,7 +2784,7 @@
 			<west> 5.382678 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2286,7 +2792,11 @@
   <Placemark id="parcelle_13_com.64141">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068280D0090</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">60, RUE JEAN FIOLLE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2296,7 +2806,7 @@
 			<west> 5.379651 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2304,7 +2814,11 @@
   <Placemark id="parcelle_13_com.64281">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068270A0096</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">21, RUE BALTHAZAR DIEUDE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2314,7 +2828,7 @@
 			<west> 5.381237 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2322,7 +2836,11 @@
   <Placemark id="parcelle_13_com.64310">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068260B0097</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">33, RUE MONTGRAND</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2332,7 +2850,7 @@
 			<west> 5.376484 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2340,7 +2858,11 @@
   <Placemark id="parcelle_13_com.64316">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">132068240D0097</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
+		<SimpleData name="Adresse">AV JULES CANTINI</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2350,7 +2872,7 @@
 			<west> 5.385085 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>

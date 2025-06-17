@@ -2,7 +2,11 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document id="root_doc">
 <Schema name="ROQUEVAIRE_COM" id="ROQUEVAIRE_COM">
+	<SimpleField name="Numéro de Parcelle" type="string"></SimpleField>
+	<SimpleField name="Departement" type="string"></SimpleField>
 	<SimpleField name="Commune" type="string"></SimpleField>
+	<SimpleField name="Adresse" type="string"></SimpleField>
+	<SimpleField name="Dénomination" type="string"></SimpleField>
 </Schema>
 	<Style id="COM">
 		<LineStyle>
@@ -18,7 +22,11 @@
   <Placemark id="parcelle_13_com.235">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000DI0012</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">LASCOURS</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -28,7 +36,7 @@
 			<west> 5.581344 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -37,7 +45,11 @@
   <Placemark id="parcelle_13_com.510">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000AM0159</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">VILLECROZE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -47,7 +59,7 @@
 			<west> 5.627712 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -56,7 +68,11 @@
   <Placemark id="parcelle_13_com.586">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CX0017</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">AV DU MONTVIN</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -66,7 +82,7 @@
 			<west> 5.602446 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -75,7 +91,11 @@
   <Placemark id="parcelle_13_com.800">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000AX0021</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">BASSAN</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -85,7 +105,7 @@
 			<west> 5.626629 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -94,7 +114,11 @@
   <Placemark id="parcelle_13_com.3020">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CK0004</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">LES ESCANEBIERES</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -104,7 +128,7 @@
 			<west> 5.570463 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -113,7 +137,11 @@
   <Placemark id="parcelle_13_com.3114">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CO0046</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">FONTETES</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -123,7 +151,7 @@
 			<west> 5.587838 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -132,7 +160,11 @@
   <Placemark id="parcelle_13_com.3118">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000DL0053</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">QUARTIER DE LA TUILERIE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -142,7 +174,7 @@
 			<west> 5.58598 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -151,7 +183,11 @@
   <Placemark id="parcelle_13_com.3489">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000AY0001</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">LES SIGNORES</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE GEMENOS</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -161,7 +197,7 @@
 			<west> 5.629529 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -170,7 +206,11 @@
   <Placemark id="parcelle_13_com.3618">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CT0001</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">SAINTE-ANNE</SimpleData>
+		<SimpleData name="Dénomination">METROPOLE DAIX-MARSEILLE-PROVENCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -180,7 +220,7 @@
 			<west> 5.604995 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -189,7 +229,11 @@
   <Placemark id="parcelle_13_com.3625">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CW0001</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">AV GEORGES CLEMENCEAU</SimpleData>
+		<SimpleData name="Dénomination">FONCIER PACA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -199,7 +243,7 @@
 			<west> 5.599421 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -208,7 +252,11 @@
   <Placemark id="parcelle_13_com.3639">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000DH0001</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">CHE DU GRAND VALLON</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -218,7 +266,7 @@
 			<west> 5.576197 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -227,7 +275,11 @@
   <Placemark id="parcelle_13_com.3844">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CK0010</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">LES ESCANEBIERES</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -237,7 +289,7 @@
 			<west> 5.571055 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -246,7 +298,11 @@
   <Placemark id="parcelle_13_com.3859">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CV0010</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">TRA SAINT CHARLES</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -256,7 +312,7 @@
 			<west> 5.600599 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -265,7 +321,11 @@
   <Placemark id="parcelle_13_com.3860">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CX0010</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">SAINT-ROCH</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -275,7 +335,7 @@
 			<west> 5.598465 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -284,7 +344,11 @@
   <Placemark id="parcelle_13_com.3874">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000DT0010</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">L OUERT</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -294,7 +358,7 @@
 			<west> 5.582464 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -303,7 +367,11 @@
   <Placemark id="parcelle_13_com.4411">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000DT0102</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">CHE DES MANAUX</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -313,7 +381,7 @@
 			<west> 5.581129 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -322,7 +390,11 @@
   <Placemark id="parcelle_13_com.5006">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000DK0105</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">GR GRAND RUE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -332,7 +404,7 @@
 			<west> 5.582136 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -341,7 +413,11 @@
   <Placemark id="parcelle_13_com.6017">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CX0011</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">AV ELSA TRIOLET</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -351,7 +427,7 @@
 			<west> 5.598826 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -360,7 +436,11 @@
   <Placemark id="parcelle_13_com.6481">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CP0112</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">LA COLOMBIERE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -370,7 +450,7 @@
 			<west> 5.607701 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -379,7 +459,11 @@
   <Placemark id="parcelle_13_com.6944">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CP0115</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">LA COLOMBIERE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -389,7 +473,7 @@
 			<west> 5.605098 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -398,7 +482,11 @@
   <Placemark id="parcelle_13_com.7093">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CN0116</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">LE MARSEILLAIS</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -408,7 +496,7 @@
 			<west> 5.579125 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -417,7 +505,11 @@
   <Placemark id="parcelle_13_com.7608">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CN0119</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">LE MARSEILLAIS</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -427,7 +519,7 @@
 			<west> 5.57857 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -436,7 +528,11 @@
   <Placemark id="parcelle_13_com.7776">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000AZ0012</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">LE COULARET-EST</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -446,7 +542,7 @@
 			<west> 5.62563 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -455,7 +551,11 @@
   <Placemark id="parcelle_13_com.7866">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CX0012</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">AV DU MONTVIN</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -465,7 +565,7 @@
 			<west> 5.600201 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -474,7 +574,11 @@
   <Placemark id="parcelle_13_com.8175">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CN0121</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">LE MARSEILLAIS</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -484,7 +588,7 @@
 			<west> 5.581232 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -493,7 +597,11 @@
   <Placemark id="parcelle_13_com.8515">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CN0123</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">LE MARSEILLAIS</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -503,7 +611,7 @@
 			<west> 5.580309 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -512,7 +620,11 @@
   <Placemark id="parcelle_13_com.8526">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000DV0123</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">CHE DE L OUERT</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -522,7 +634,7 @@
 			<west> 5.583588 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -531,7 +643,11 @@
   <Placemark id="parcelle_13_com.8696">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000DO0124</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">RTE DE LASCOURS</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -541,7 +657,7 @@
 			<west> 5.591523 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -550,7 +666,11 @@
   <Placemark id="parcelle_13_com.9233">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000DB0127</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">CHE DES BARAQUES</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -560,7 +680,7 @@
 			<west> 5.587506 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -569,7 +689,11 @@
   <Placemark id="parcelle_13_com.9737">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000AZ0013</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">LE COULARET-EST</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -579,7 +703,7 @@
 			<west> 5.626092 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -588,7 +712,11 @@
   <Placemark id="parcelle_13_com.9799">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CM0013</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">GARLABAN</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -598,7 +726,7 @@
 			<west> 5.57444 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -607,7 +735,11 @@
   <Placemark id="parcelle_13_com.9810">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CS0013</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">SAINT-VINCENT</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -617,7 +749,7 @@
 			<west> 5.60886 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -626,7 +758,11 @@
   <Placemark id="parcelle_13_com.10613">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000DO0134</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">RTE DE LASCOURS</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -636,7 +772,7 @@
 			<west> 5.589995 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -645,7 +781,11 @@
   <Placemark id="parcelle_13_com.11081">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CY0137</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">LOT LE CLOS DE LA DORGALE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -655,7 +795,7 @@
 			<west> 5.595696 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -664,7 +804,11 @@
   <Placemark id="parcelle_13_com.11248">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000DV0138</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">LE PIEDOULARD</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -674,7 +818,7 @@
 			<west> 5.588939 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -683,7 +827,11 @@
   <Placemark id="parcelle_13_com.11747">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CV0140</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">ALL ALFRED RINN</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -693,7 +841,7 @@
 			<west> 5.603692 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -702,7 +850,11 @@
   <Placemark id="parcelle_13_com.12343">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CT0144</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">SAINTE-ANNE</SimpleData>
+		<SimpleData name="Dénomination">METROPOLE DAIX-MARSEILLE-PROVENCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -712,7 +864,7 @@
 			<west> 5.60179 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -721,7 +873,11 @@
   <Placemark id="parcelle_13_com.12344">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CV0144</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">PL DE L EGLISE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -731,7 +887,7 @@
 			<west> 5.60393 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -740,7 +896,11 @@
   <Placemark id="parcelle_13_com.12346">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CX0144</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">259, RTE DU STADE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -750,7 +910,7 @@
 			<west> 5.599335 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -759,7 +919,11 @@
   <Placemark id="parcelle_13_com.12349">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CZ0144</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">PONT DE L ETOILE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -769,7 +933,7 @@
 			<west> 5.596458 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -778,7 +942,11 @@
   <Placemark id="parcelle_13_com.12351">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000DE0144</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">CHE DU GAUDISSARD</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -788,7 +956,7 @@
 			<west> 5.581961 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -797,7 +965,11 @@
   <Placemark id="parcelle_13_com.12452">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000AM0145</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">SOUS-BASSAN</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -807,7 +979,7 @@
 			<west> 5.629619 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -816,7 +988,11 @@
   <Placemark id="parcelle_13_com.12517">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CZ0145</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">PONT DE L ETOILE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -826,7 +1002,7 @@
 			<west> 5.596294 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -835,7 +1011,11 @@
   <Placemark id="parcelle_13_com.12650">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CZ0146</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">PONT DE L ETOILE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -845,7 +1025,7 @@
 			<west> 5.595994 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -854,7 +1034,11 @@
   <Placemark id="parcelle_13_com.12942">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CP0148</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">LA COLOMBIERE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -864,7 +1048,7 @@
 			<west> 5.606821 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -873,7 +1057,11 @@
   <Placemark id="parcelle_13_com.12948">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CZ0148</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">PONT DE L ETOILE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -883,7 +1071,7 @@
 			<west> 5.596075 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -892,7 +1080,11 @@
   <Placemark id="parcelle_13_com.13071">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CP0149</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">LA COLOMBIERE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -902,7 +1094,7 @@
 			<west> 5.606605 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -911,7 +1103,11 @@
   <Placemark id="parcelle_13_com.13075">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CZ0149</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">PONT DE L ETOILE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -921,7 +1117,7 @@
 			<west> 5.595937 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -930,7 +1126,11 @@
   <Placemark id="parcelle_13_com.13285">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CM0015</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">GARLABAN</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -940,7 +1140,7 @@
 			<west> 5.574531 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -949,7 +1149,11 @@
   <Placemark id="parcelle_13_com.13293">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CS0015</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">SAINT-VINCENT</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -959,7 +1163,7 @@
 			<west> 5.609645 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -968,7 +1172,11 @@
   <Placemark id="parcelle_13_com.13298">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CW0015</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">20, RTE DU PONT DE GARNIERE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -978,7 +1186,7 @@
 			<west> 5.600753 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -987,7 +1195,11 @@
   <Placemark id="parcelle_13_com.13400">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CP0150</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">LA COLOMBIERE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -997,7 +1209,7 @@
 			<west> 5.606388 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1006,7 +1218,11 @@
   <Placemark id="parcelle_13_com.13550">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CZ0151</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">PONT DE L ETOILE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1016,7 +1232,7 @@
 			<west> 5.595851 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1025,7 +1241,11 @@
   <Placemark id="parcelle_13_com.14089">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CV0155</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">AV DES ALLIES</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1035,7 +1255,7 @@
 			<west> 5.603223 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1044,7 +1264,11 @@
   <Placemark id="parcelle_13_com.14091">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CZ0155</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">RTE DE NANON</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1054,7 +1278,7 @@
 			<west> 5.596243 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1063,7 +1287,11 @@
   <Placemark id="parcelle_13_com.14622">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CZ0159</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">RTE DE NANON</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1073,7 +1301,7 @@
 			<west> 5.595806 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1082,7 +1310,11 @@
   <Placemark id="parcelle_13_com.14831">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CM0016</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">GARLABAN</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1092,7 +1324,7 @@
 			<west> 5.574635 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1101,7 +1333,11 @@
   <Placemark id="parcelle_13_com.15233">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CV0162</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">84, BD PIOT</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1111,7 +1347,7 @@
 			<west> 5.602397 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1120,7 +1356,11 @@
   <Placemark id="parcelle_13_com.15236">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000DK0162</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">RUE DU MOULIN A HUILE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1130,7 +1370,7 @@
 			<west> 5.583659 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1139,7 +1379,11 @@
   <Placemark id="parcelle_13_com.15352">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CV0163</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">BD PIOT</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1149,7 +1393,7 @@
 			<west> 5.601993 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1158,7 +1402,11 @@
   <Placemark id="parcelle_13_com.15353">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000DA0163</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">CHE DU CLAUVIER</SimpleData>
+		<SimpleData name="Dénomination">METROPOLE DAIX-MARSEILLE-PROVENCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1168,7 +1416,7 @@
 			<west> 5.594928 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1177,7 +1425,11 @@
   <Placemark id="parcelle_13_com.15462">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CN0164</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">LE MARSEILLAIS</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1187,7 +1439,7 @@
 			<west> 5.581057 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1196,7 +1448,11 @@
   <Placemark id="parcelle_13_com.16448">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CZ0171</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">16, RTE NATIONALE 96</SimpleData>
+		<SimpleData name="Dénomination">METROPOLE DAIX-MARSEILLE-PROVENCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1206,7 +1462,7 @@
 			<west> 5.59558 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1215,7 +1471,11 @@
   <Placemark id="parcelle_13_com.16569">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000DD0172</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">CHE DE LA BARTOUNE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1225,7 +1485,7 @@
 			<west> 5.575287 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1234,7 +1494,11 @@
   <Placemark id="parcelle_13_com.16802">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CV0174</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">AV GEORGES CLEMENCEAU</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1244,7 +1508,7 @@
 			<west> 5.600859 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1253,7 +1517,11 @@
   <Placemark id="parcelle_13_com.17261">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000DD0178</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">ALL DU GARLABAN</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1263,7 +1531,7 @@
 			<west> 5.572879 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1272,7 +1540,11 @@
   <Placemark id="parcelle_13_com.17324">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000AM0179</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">SOUS-BASSAN</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1282,7 +1554,7 @@
 			<west> 5.631827 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1291,7 +1563,11 @@
   <Placemark id="parcelle_13_com.17590">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000DV0018</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">RTE DE LASCOURS</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1301,7 +1577,7 @@
 			<west> 5.592444 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1310,7 +1586,11 @@
   <Placemark id="parcelle_13_com.17646">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000AM0180</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">SOUS-BASSAN</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1320,7 +1600,7 @@
 			<west> 5.630236 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1329,7 +1609,11 @@
   <Placemark id="parcelle_13_com.17822">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CS0181</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">LA ROUVEIROLLE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1339,7 +1623,7 @@
 			<west> 5.617105 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1348,7 +1632,11 @@
   <Placemark id="parcelle_13_com.17876">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000AM0182</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">VILLECROZE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1358,7 +1646,7 @@
 			<west> 5.629091 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1367,7 +1655,11 @@
   <Placemark id="parcelle_13_com.18414">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CV0186</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">RUE PIERRE COULOMB</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1377,7 +1669,7 @@
 			<west> 5.599564 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1386,7 +1678,11 @@
   <Placemark id="parcelle_13_com.18534">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CV0187</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">LE ROLLAND</SimpleData>
+		<SimpleData name="Dénomination">METROPOLE DAIX-MARSEILLE-PROVENCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1396,7 +1692,7 @@
 			<west> 5.599328 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1405,7 +1701,11 @@
   <Placemark id="parcelle_13_com.18900">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CM0019</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">GARLABAN</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1415,7 +1715,7 @@
 			<west> 5.574577 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1424,7 +1724,11 @@
   <Placemark id="parcelle_13_com.18915">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CX0019</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">AV ELSA TRIOLET</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1434,7 +1738,7 @@
 			<west> 5.601683 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1443,7 +1747,11 @@
   <Placemark id="parcelle_13_com.19026">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CV0190</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">RUE PIERRE COULOMB</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1453,7 +1761,7 @@
 			<west> 5.600044 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1462,7 +1770,11 @@
   <Placemark id="parcelle_13_com.20147">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000AY0002</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">LES SIGNORES</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE GEMENOS</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1472,7 +1784,7 @@
 			<west> 5.639103 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1481,7 +1793,11 @@
   <Placemark id="parcelle_13_com.20251">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CS0002</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">SAINT-VINCENT</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1491,7 +1807,7 @@
 			<west> 5.60592 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1500,7 +1816,11 @@
   <Placemark id="parcelle_13_com.20252">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CT0002</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">SAINTE-ANNE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1510,7 +1830,7 @@
 			<west> 5.605009 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1519,7 +1839,11 @@
   <Placemark id="parcelle_13_com.20257">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CW0002</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">21, AV GEORGES CLEMENCEAU</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1529,7 +1853,7 @@
 			<west> 5.599457 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1538,7 +1862,11 @@
   <Placemark id="parcelle_13_com.20451">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CM0020</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">LE MARSEILLAIS</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1548,7 +1876,7 @@
 			<west> 5.574316 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1557,7 +1885,11 @@
   <Placemark id="parcelle_13_com.20465">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CW0020</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">135, BD PIOT</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1567,7 +1899,7 @@
 			<west> 5.601479 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1576,7 +1908,11 @@
   <Placemark id="parcelle_13_com.20475">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000DO0020</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">CHE DE LA TUILIERE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1586,7 +1922,7 @@
 			<west> 5.592199 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1595,7 +1931,11 @@
   <Placemark id="parcelle_13_com.21148">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000DE0206</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">CHE DU GAUDISSARD</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1605,7 +1945,7 @@
 			<west> 5.579482 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1614,7 +1954,11 @@
   <Placemark id="parcelle_13_com.21626">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CM0021</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">GARLABAN</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1624,7 +1968,7 @@
 			<west> 5.558158 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1633,7 +1977,11 @@
   <Placemark id="parcelle_13_com.21636">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CP0021</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">LA COLOMBIERE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1643,7 +1991,7 @@
 			<west> 5.596709 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1652,7 +2000,11 @@
   <Placemark id="parcelle_13_com.21640">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CW0021</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">BD PIOT</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1662,7 +2014,7 @@
 			<west> 5.601955 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1671,7 +2023,11 @@
   <Placemark id="parcelle_13_com.22116">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CZ0213</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">RTE DU STADE</SimpleData>
+		<SimpleData name="Dénomination">METROPOLE DAIX-MARSEILLE-PROVENCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1681,7 +2037,7 @@
 			<west> 5.595525 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1690,7 +2046,11 @@
   <Placemark id="parcelle_13_com.22647">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CS0218</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">LA GARDY</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1700,7 +2060,7 @@
 			<west> 5.607981 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1709,7 +2069,11 @@
   <Placemark id="parcelle_13_com.22843">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000AX0022</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">BASSAN</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1719,7 +2083,7 @@
 			<west> 5.626847 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1728,7 +2092,11 @@
   <Placemark id="parcelle_13_com.22901">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CM0022</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">GARLABAN</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1738,7 +2106,7 @@
 			<west> 5.574442 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1747,7 +2115,11 @@
   <Placemark id="parcelle_13_com.22913">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CT0022</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">SAINTE-ANNE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1757,7 +2129,7 @@
 			<west> 5.605102 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1766,7 +2138,11 @@
   <Placemark id="parcelle_13_com.23308">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000DE0223</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">CHE DE LA BARTOUNE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1776,7 +2152,7 @@
 			<west> 5.577715 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1785,7 +2161,11 @@
   <Placemark id="parcelle_13_com.24095">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CM0023</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">GARLABAN</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1795,7 +2175,7 @@
 			<west> 5.568527 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1804,7 +2184,11 @@
   <Placemark id="parcelle_13_com.25195">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000AX0024</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">BASSAN</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1814,7 +2198,7 @@
 			<west> 5.626858 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1823,7 +2207,11 @@
   <Placemark id="parcelle_13_com.25204">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000AZ0024</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">LE COULARET-EST</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1833,7 +2221,7 @@
 			<west> 5.629805 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1842,7 +2230,11 @@
   <Placemark id="parcelle_13_com.25266">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CK0024</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">LES ESCANEBIERES</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1852,7 +2244,7 @@
 			<west> 5.571528 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1861,7 +2253,11 @@
   <Placemark id="parcelle_13_com.25282">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CS0024</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">SAINT-VINCENT</SimpleData>
+		<SimpleData name="Dénomination">METROPOLE DAIX-MARSEILLE-PROVENCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1871,7 +2267,7 @@
 			<west> 5.61062 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1880,7 +2276,11 @@
   <Placemark id="parcelle_13_com.25301">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000DT0024</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">CHE DE L OUERT</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1890,7 +2290,7 @@
 			<west> 5.582597 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1899,7 +2299,11 @@
   <Placemark id="parcelle_13_com.25465">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CN0241</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">LE MARSEILLAIS</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1909,7 +2313,7 @@
 			<west> 5.58031 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1918,7 +2322,11 @@
   <Placemark id="parcelle_13_com.25876">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000DE0246</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">CHE DE LA BARTOUNE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1928,7 +2336,7 @@
 			<west> 5.575959 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1937,7 +2345,11 @@
   <Placemark id="parcelle_13_com.26044">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000DM0248</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">LE VALLON</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1947,7 +2359,7 @@
 			<west> 5.600418 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1956,7 +2368,11 @@
   <Placemark id="parcelle_13_com.26223">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000AX0025</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">BASSAN</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1966,7 +2382,7 @@
 			<west> 5.627126 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1975,7 +2391,11 @@
   <Placemark id="parcelle_13_com.26279">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CK0025</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">LES ESCANEBIERES</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1985,7 +2405,7 @@
 			<west> 5.571651 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1994,7 +2414,11 @@
   <Placemark id="parcelle_13_com.27050">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000DB0258</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">CARRAIRE DE L ETOILE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2004,7 +2428,7 @@
 			<west> 5.590891 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2013,7 +2437,11 @@
   <Placemark id="parcelle_13_com.27262">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000AX0026</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">BASSAN</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2023,7 +2451,7 @@
 			<west> 5.627279 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2032,7 +2460,11 @@
   <Placemark id="parcelle_13_com.27331">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000DE0026</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">CHE DU GAUDISSARD</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2042,7 +2474,7 @@
 			<west> 5.578089 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2051,7 +2483,11 @@
   <Placemark id="parcelle_13_com.28174">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000AX0027</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">BASSAN</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2061,7 +2497,7 @@
 			<west> 5.627726 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2070,7 +2506,11 @@
   <Placemark id="parcelle_13_com.28183">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000AZ0027</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">LE COULARET-EST</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2080,7 +2520,7 @@
 			<west> 5.626274 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2089,7 +2529,11 @@
   <Placemark id="parcelle_13_com.28230">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CO0027</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">PIERRESCA</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2099,7 +2543,7 @@
 			<west> 5.590157 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2108,7 +2552,11 @@
   <Placemark id="parcelle_13_com.28400">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CN0271</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">LE MARSEILLAIS</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2118,7 +2566,7 @@
 			<west> 5.580323 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2127,7 +2575,11 @@
   <Placemark id="parcelle_13_com.28876">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CN0277</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">LE MARSEILLAIS</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2137,7 +2589,7 @@
 			<west> 5.58051 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2146,7 +2598,11 @@
   <Placemark id="parcelle_13_com.29210">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000DV0028</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">L OUERT</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2156,7 +2612,7 @@
 			<west> 5.590216 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2165,7 +2621,11 @@
   <Placemark id="parcelle_13_com.29287">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000DB0280</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">CARRAIRE DE L ETOILE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2175,7 +2635,7 @@
 			<west> 5.585534 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2184,7 +2644,11 @@
   <Placemark id="parcelle_13_com.30148">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000DK0029</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">RUE DU LAVOIR</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2194,7 +2658,7 @@
 			<west> 5.583234 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2203,7 +2667,11 @@
   <Placemark id="parcelle_13_com.30560">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CN0295</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">LE MARSEILLAIS</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2213,7 +2681,7 @@
 			<west> 5.579654 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2222,7 +2690,11 @@
   <Placemark id="parcelle_13_com.30762">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CN0298</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">LE MARSEILLAIS</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2232,7 +2704,7 @@
 			<west> 5.580387 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2241,7 +2713,11 @@
   <Placemark id="parcelle_13_com.31039">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CM0003</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">GARLABAN</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2251,7 +2727,7 @@
 			<west> 5.565362 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2260,7 +2736,11 @@
   <Placemark id="parcelle_13_com.31047">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CS0003</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">SAINT-VINCENT</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2270,7 +2750,7 @@
 			<west> 5.604991 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2279,7 +2759,11 @@
   <Placemark id="parcelle_13_com.31196">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000AZ0030</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">LE COULARET-EST</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2289,7 +2773,7 @@
 			<west> 5.62314 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2298,7 +2782,11 @@
   <Placemark id="parcelle_13_com.31242">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CK0030</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">LES ESCANEBIERES</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2308,7 +2796,7 @@
 			<west> 5.571961 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2317,7 +2805,11 @@
   <Placemark id="parcelle_13_com.31247">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CO0030</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">PIERRESCA</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2327,7 +2819,7 @@
 			<west> 5.586136 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2336,7 +2828,11 @@
   <Placemark id="parcelle_13_com.31250">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CS0030</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">SAINT-VINCENT</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2346,7 +2842,7 @@
 			<west> 5.607126 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2355,7 +2851,11 @@
   <Placemark id="parcelle_13_com.31252">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CX0030</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">AV DES ALLIES</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2365,7 +2865,7 @@
 			<west> 5.60339 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2374,7 +2874,11 @@
   <Placemark id="parcelle_13_com.32028">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000AZ0031</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">LE COULARET-EST</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2384,7 +2888,7 @@
 			<west> 5.622895 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2393,7 +2897,11 @@
   <Placemark id="parcelle_13_com.32100">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CS0031</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">SAINT-VINCENT</SimpleData>
+		<SimpleData name="Dénomination">METROPOLE DAIX-MARSEILLE-PROVENCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2403,7 +2911,7 @@
 			<west> 5.606756 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2412,7 +2920,11 @@
   <Placemark id="parcelle_13_com.32909">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CP0032</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">LA COLOMBIERE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2422,7 +2934,7 @@
 			<west> 5.599837 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2431,7 +2943,11 @@
   <Placemark id="parcelle_13_com.32912">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CS0032</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">SAINT-VINCENT</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2441,7 +2957,7 @@
 			<west> 5.606013 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2450,7 +2966,11 @@
   <Placemark id="parcelle_13_com.33181">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CN0323</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">LE MARSEILLAIS</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2460,7 +2980,7 @@
 			<west> 5.580324 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2469,7 +2989,11 @@
   <Placemark id="parcelle_13_com.33232">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CN0324</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">TREMARTIN</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2479,7 +3003,7 @@
 			<west> 5.575918 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2488,7 +3012,11 @@
   <Placemark id="parcelle_13_com.33276">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CN0325</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">LE MARSEILLAIS</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2498,7 +3026,7 @@
 			<west> 5.579831 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2507,7 +3035,11 @@
   <Placemark id="parcelle_13_com.33380">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CN0327</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">LE MARSEILLAIS</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2517,7 +3049,7 @@
 			<west> 5.580362 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2526,7 +3058,11 @@
   <Placemark id="parcelle_13_com.33428">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CN0328</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">LE MARSEILLAIS</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2536,7 +3072,7 @@
 			<west> 5.579861 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2545,7 +3081,11 @@
   <Placemark id="parcelle_13_com.33649">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CP0033</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">LA COLOMBIERE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2555,7 +3095,7 @@
 			<west> 5.595364 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2564,7 +3104,11 @@
   <Placemark id="parcelle_13_com.33651">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CS0033</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">SAINT-VINCENT</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2574,7 +3118,7 @@
 			<west> 5.605524 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2583,7 +3127,11 @@
   <Placemark id="parcelle_13_com.33653">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CW0033</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">AV DES ALLIES</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2593,7 +3141,7 @@
 			<west> 5.602677 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2602,7 +3150,11 @@
   <Placemark id="parcelle_13_com.34355">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CS0034</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">SAINT-VINCENT</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2612,7 +3164,7 @@
 			<west> 5.606133 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2621,7 +3173,11 @@
   <Placemark id="parcelle_13_com.34360">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CZ0034</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">PONT DE L ETOILE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2631,7 +3187,7 @@
 			<west> 5.597885 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2640,7 +3196,11 @@
   <Placemark id="parcelle_13_com.35053">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CS0035</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">SAINT-VINCENT</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2650,7 +3210,7 @@
 			<west> 5.605388 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2659,7 +3219,11 @@
   <Placemark id="parcelle_13_com.35292">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000BW0354</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">LASCOURS</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2669,7 +3233,7 @@
 			<west> 5.576112 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2678,7 +3242,11 @@
   <Placemark id="parcelle_13_com.35671">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CS0036</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">SAINT-VINCENT</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2688,7 +3256,7 @@
 			<west> 5.605739 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2697,7 +3265,11 @@
   <Placemark id="parcelle_13_com.35673">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CZ0036</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">PONT DE L ETOILE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2707,7 +3279,7 @@
 			<west> 5.598401 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2716,7 +3288,11 @@
   <Placemark id="parcelle_13_com.35783">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CS0361</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">LA ROUVEIROLLE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2726,7 +3302,7 @@
 			<west> 5.613678 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2735,7 +3311,11 @@
   <Placemark id="parcelle_13_com.35879">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CS0363</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">LA ROUVEIROLLE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2745,7 +3325,7 @@
 			<west> 5.618175 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2754,7 +3334,11 @@
   <Placemark id="parcelle_13_com.36318">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CZ0037</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">PONT DE L ETOILE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2764,7 +3348,7 @@
 			<west> 5.598339 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2773,7 +3357,11 @@
   <Placemark id="parcelle_13_com.36559">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CS0374</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">LA ROUVEIROLLE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2783,7 +3371,7 @@
 			<west> 5.612195 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2792,7 +3380,11 @@
   <Placemark id="parcelle_13_com.36664">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CS0376</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">SAINT-VINCENT</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2802,7 +3394,7 @@
 			<west> 5.605242 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2811,7 +3403,11 @@
   <Placemark id="parcelle_13_com.36936">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CP0038</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">LA COLOMBIERE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2821,7 +3417,7 @@
 			<west> 5.605098 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2830,7 +3426,11 @@
   <Placemark id="parcelle_13_com.36944">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CZ0038</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">PONT DE L ETOILE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2840,7 +3440,7 @@
 			<west> 5.598132 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2849,7 +3449,11 @@
   <Placemark id="parcelle_13_com.37175">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CS0385</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">LA ROUVEIROLLE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2859,7 +3463,7 @@
 			<west> 5.615653 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2868,7 +3472,11 @@
   <Placemark id="parcelle_13_com.37462">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000AZ0039</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">LE COULARET-EST</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE GEMENOS</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2878,7 +3486,7 @@
 			<west> 5.618277 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2887,7 +3495,11 @@
   <Placemark id="parcelle_13_com.37522">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CW0039</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">56, AV DES ALLIES</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2897,7 +3509,7 @@
 			<west> 5.602431 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2906,7 +3518,11 @@
   <Placemark id="parcelle_13_com.37665">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CS0392</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">LA GARDY</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2916,7 +3532,7 @@
 			<west> 5.611561 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2925,7 +3541,11 @@
   <Placemark id="parcelle_13_com.38169">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CM0004</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">GARLABAN</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2935,7 +3555,7 @@
 			<west> 5.546161 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2944,7 +3564,11 @@
   <Placemark id="parcelle_13_com.38178">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CS0004</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">SAINT-VINCENT</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2954,7 +3578,7 @@
 			<west> 5.60598 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2963,7 +3587,11 @@
   <Placemark id="parcelle_13_com.38180">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CT0004</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">71, RTE DE SAINT VINCENT</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2973,7 +3601,7 @@
 			<west> 5.605251 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2982,7 +3610,11 @@
   <Placemark id="parcelle_13_com.38185">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CX0004</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">AV DU MONTVIN</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2992,7 +3624,7 @@
 			<west> 5.602627 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3001,7 +3633,11 @@
   <Placemark id="parcelle_13_com.38186">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CY0004</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">CHE DE LA GAFFE DE QUINE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3011,7 +3647,7 @@
 			<west> 5.59914 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3020,7 +3656,11 @@
   <Placemark id="parcelle_13_com.38373">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000DB0040</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">CHE DU CANNET OUEST</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3030,7 +3670,7 @@
 			<west> 5.585809 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3039,7 +3679,11 @@
   <Placemark id="parcelle_13_com.38376">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000DK0040</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">RUE PARTIDO</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3049,7 +3693,7 @@
 			<west> 5.58348 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3058,7 +3702,11 @@
   <Placemark id="parcelle_13_com.38900">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CO0041</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">PIERRESCA</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3068,7 +3716,7 @@
 			<west> 5.584869 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3077,7 +3725,11 @@
   <Placemark id="parcelle_13_com.38914">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000DH0041</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">CHE DES ESPARETS</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3087,7 +3739,7 @@
 			<west> 5.576961 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3096,7 +3748,11 @@
   <Placemark id="parcelle_13_com.39433">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CO0042</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">DEFENS</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3106,7 +3762,7 @@
 			<west> 5.582431 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3115,7 +3771,11 @@
   <Placemark id="parcelle_13_com.39908">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CO0043</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">DEFENS</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3125,7 +3785,7 @@
 			<west> 5.585556 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3134,7 +3794,11 @@
   <Placemark id="parcelle_13_com.40391">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CO0044</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">DEFENS</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3144,7 +3808,7 @@
 			<west> 5.587341 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3153,7 +3817,11 @@
   <Placemark id="parcelle_13_com.40906">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CO0045</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">DEFENS</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3163,7 +3831,7 @@
 			<west> 5.582347 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3172,7 +3840,11 @@
   <Placemark id="parcelle_13_com.40914">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000DO0045</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">CHE DE LA TUILIERE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3182,7 +3854,7 @@
 			<west> 5.594049 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3191,7 +3863,11 @@
   <Placemark id="parcelle_13_com.41766">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CS0469</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">LA GARDY</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3201,7 +3877,7 @@
 			<west> 5.613744 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3210,7 +3886,11 @@
   <Placemark id="parcelle_13_com.41980">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CS0470</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">LA ROUVEIROLLE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3220,7 +3900,7 @@
 			<west> 5.616553 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3229,7 +3909,11 @@
   <Placemark id="parcelle_13_com.42006">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CS0471</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">422, RTE DE SAINT VINCENT</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3239,7 +3923,7 @@
 			<west> 5.608181 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3248,7 +3932,11 @@
   <Placemark id="parcelle_13_com.42808">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000DA0049</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">CHE DU BARBOUILLET</SimpleData>
+		<SimpleData name="Dénomination">METROPOLE DAIX-MARSEILLE-PROVENCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3258,7 +3946,7 @@
 			<west> 5.594659 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3267,7 +3955,11 @@
   <Placemark id="parcelle_13_com.42813">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000DO0049</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">CHE DE LA TUILIERE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3277,7 +3969,7 @@
 			<west> 5.595294 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3286,7 +3978,11 @@
   <Placemark id="parcelle_13_com.43262">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CK0005</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">LES ESCANEBIERES</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3296,7 +3992,7 @@
 			<west> 5.570396 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3305,7 +4001,11 @@
   <Placemark id="parcelle_13_com.43270">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CM0005</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">GARLABAN</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3315,7 +4015,7 @@
 			<west> 5.565025 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3324,7 +4024,11 @@
   <Placemark id="parcelle_13_com.43280">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CS0005</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">SAINT-VINCENT</SimpleData>
+		<SimpleData name="Dénomination">METROPOLE DAIX-MARSEILLE-PROVENCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3334,7 +4038,7 @@
 			<west> 5.606048 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3343,7 +4047,11 @@
   <Placemark id="parcelle_13_com.43282">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CY0005</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">SAINT-ESTEVE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3353,7 +4061,7 @@
 			<west> 5.600809 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3362,7 +4070,11 @@
   <Placemark id="parcelle_13_com.43390">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000AZ0050</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">LE COULARET-EST</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3372,7 +4084,7 @@
 			<west> 5.62146 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3381,7 +4093,11 @@
   <Placemark id="parcelle_13_com.43850">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CS0051</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">SAINT-VINCENT</SimpleData>
+		<SimpleData name="Dénomination">METROPOLE DAIX-MARSEILLE-PROVENCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3391,7 +4107,7 @@
 			<west> 5.610803 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3400,7 +4116,11 @@
   <Placemark id="parcelle_13_com.43853">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000DA0051</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">CHE DU BARBOUILLET</SimpleData>
+		<SimpleData name="Dénomination">METROPOLE DAIX-MARSEILLE-PROVENCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3410,7 +4130,7 @@
 			<west> 5.594803 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3419,7 +4139,11 @@
   <Placemark id="parcelle_13_com.45118">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CZ0054</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">PONT DE L ETOILE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3429,7 +4153,7 @@
 			<west> 5.598323 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3438,7 +4162,11 @@
   <Placemark id="parcelle_13_com.45121">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000DV0054</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">LE PIEDOULARD</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3448,7 +4176,7 @@
 			<west> 5.589047 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3457,7 +4185,11 @@
   <Placemark id="parcelle_13_com.45499">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CW0055</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">AV GEORGES CLEMENCEAU</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3467,7 +4199,7 @@
 			<west> 5.598684 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3476,7 +4208,11 @@
   <Placemark id="parcelle_13_com.45505">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000DI0055</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">LASCOURS</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3486,7 +4222,7 @@
 			<west> 5.580868 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3495,7 +4231,11 @@
   <Placemark id="parcelle_13_com.45861">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CZ0056</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">PONT DE L ETOILE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3505,7 +4245,7 @@
 			<west> 5.598262 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3514,7 +4254,11 @@
   <Placemark id="parcelle_13_com.46229">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CW0057</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">QUARTIER DE LA GARE</SimpleData>
+		<SimpleData name="Dénomination">METROPOLE DAIX-MARSEILLE-PROVENCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3524,7 +4268,7 @@
 			<west> 5.598195 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3533,7 +4277,11 @@
   <Placemark id="parcelle_13_com.46570">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CW0058</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">IMP DE LA BENOITE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3543,7 +4291,7 @@
 			<west> 5.599715 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3552,7 +4300,11 @@
   <Placemark id="parcelle_13_com.46580">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000DV0058</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">RTE DE LASCOURS</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3562,7 +4314,7 @@
 			<west> 5.590307 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3571,7 +4323,11 @@
   <Placemark id="parcelle_13_com.47316">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CS0006</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">SAINT-VINCENT</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3581,7 +4337,7 @@
 			<west> 5.605683 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3590,7 +4346,11 @@
   <Placemark id="parcelle_13_com.47364">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CK0006</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">LES ESCANEBIERES</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3600,7 +4360,7 @@
 			<west> 5.570547 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3609,7 +4369,11 @@
   <Placemark id="parcelle_13_com.47368">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CM0006</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">GARLABAN</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3619,7 +4383,7 @@
 			<west> 5.556279 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3628,7 +4392,11 @@
   <Placemark id="parcelle_13_com.47376">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CX0006</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">AV DU MONTVIN</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3638,7 +4406,7 @@
 			<west> 5.603348 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3647,7 +4415,11 @@
   <Placemark id="parcelle_13_com.47377">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CY0006</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">SAINT-ESTEVE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3657,7 +4429,7 @@
 			<west> 5.601996 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3666,7 +4438,11 @@
   <Placemark id="parcelle_13_com.47381">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000DB0006</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">CHE DU CANNET OUEST</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3676,7 +4452,7 @@
 			<west> 5.586766 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3685,7 +4461,11 @@
   <Placemark id="parcelle_13_com.47386">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000DI0006</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">LASCOURS</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3695,7 +4475,7 @@
 			<west> 5.581317 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3704,7 +4484,11 @@
   <Placemark id="parcelle_13_com.47809">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000AZ0061</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">LE COULARET-EST</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE GEMENOS</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3714,7 +4498,7 @@
 			<west> 5.61846 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3723,7 +4507,11 @@
   <Placemark id="parcelle_13_com.47862">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000DR0061</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">LA DORGALE ET LA CRAU</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3733,7 +4521,7 @@
 			<west> 5.595283 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3742,7 +4530,11 @@
   <Placemark id="parcelle_13_com.48095">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000AZ0062</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">LE COULARET-EST</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE GEMENOS</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3752,7 +4544,7 @@
 			<west> 5.61781 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3761,7 +4553,11 @@
   <Placemark id="parcelle_13_com.48757">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000DK0064</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">16, RUE DU COQ</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3771,7 +4567,7 @@
 			<west> 5.582196 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3780,7 +4576,11 @@
   <Placemark id="parcelle_13_com.48762">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000DR0064</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">LA DORGALE ET LA CRAU</SimpleData>
+		<SimpleData name="Dénomination">METROPOLE DAIX-MARSEILLE-PROVENCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3790,7 +4590,7 @@
 			<west> 5.595088 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3799,7 +4599,11 @@
   <Placemark id="parcelle_13_com.49049">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000DB0065</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">CHE DU CANNET OUEST</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3809,7 +4613,7 @@
 			<west> 5.586712 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3818,7 +4622,11 @@
   <Placemark id="parcelle_13_com.49053">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000DK0065</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">2, CHE DE L AIRE DE ROMAIN</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3828,7 +4636,7 @@
 			<west> 5.582143 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3837,7 +4645,11 @@
   <Placemark id="parcelle_13_com.49370">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CT0066</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">RUE BREGANCON</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3847,7 +4659,7 @@
 			<west> 5.60531 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3856,7 +4668,11 @@
   <Placemark id="parcelle_13_com.49639">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CS0067</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">SAINT-VINCENT</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3866,7 +4682,7 @@
 			<west> 5.608626 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3875,7 +4691,11 @@
   <Placemark id="parcelle_13_com.49640">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CT0067</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">RUE BREGANCON</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3885,7 +4705,7 @@
 			<west> 5.605428 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3894,7 +4714,11 @@
   <Placemark id="parcelle_13_com.49647">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000DO0067</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">AV MEDECIN ASPIRANT J.COULOMB</SimpleData>
+		<SimpleData name="Dénomination">METROPOLE DAIX-MARSEILLE-PROVENCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3904,7 +4728,7 @@
 			<west> 5.597726 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3913,7 +4737,11 @@
   <Placemark id="parcelle_13_com.49887">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000AX0068</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">BASSAN</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3923,7 +4751,7 @@
 			<west> 5.634002 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3932,7 +4760,11 @@
   <Placemark id="parcelle_13_com.49938">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CT0068</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">RUE BREGANCON</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3942,7 +4774,7 @@
 			<west> 5.605464 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3951,7 +4783,11 @@
   <Placemark id="parcelle_13_com.50553">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CK0007</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">LES ESCANEBIERES</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3961,7 +4797,7 @@
 			<west> 5.570711 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3970,7 +4806,11 @@
   <Placemark id="parcelle_13_com.50556">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CL0007</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">LE GRAND VALLON</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3980,7 +4820,7 @@
 			<west> 5.574495 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3989,7 +4829,11 @@
   <Placemark id="parcelle_13_com.50562">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CM0007</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">GARLABAN</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3999,7 +4843,7 @@
 			<west> 5.574648 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -4008,7 +4852,11 @@
   <Placemark id="parcelle_13_com.50571">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CS0007</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">SAINT-VINCENT</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -4018,7 +4866,7 @@
 			<west> 5.605785 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -4027,7 +4875,11 @@
   <Placemark id="parcelle_13_com.51320">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CS0072</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">SAINT-VINCENT</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -4037,7 +4889,7 @@
 			<west> 5.609915 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -4046,7 +4898,11 @@
   <Placemark id="parcelle_13_com.51545">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000AX0073</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">BASSAN</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -4056,7 +4912,7 @@
 			<west> 5.633377 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -4065,7 +4921,11 @@
   <Placemark id="parcelle_13_com.51596">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CS0073</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">SAINT-VINCENT</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -4075,7 +4935,7 @@
 			<west> 5.609522 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -4084,7 +4944,11 @@
   <Placemark id="parcelle_13_com.51604">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000DS0073</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">GIENTIEUX</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -4094,7 +4958,7 @@
 			<west> 5.586933 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -4103,7 +4967,11 @@
   <Placemark id="parcelle_13_com.51789">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000AX0074</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">BASSAN</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -4113,7 +4981,7 @@
 			<west> 5.633687 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -4122,7 +4990,11 @@
   <Placemark id="parcelle_13_com.51839">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CS0074</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">SAINT-VINCENT</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -4132,7 +5004,7 @@
 			<west> 5.611155 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -4141,7 +5013,11 @@
   <Placemark id="parcelle_13_com.52763">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000AX0078</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">BASSAN</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -4151,7 +5027,7 @@
 			<west> 5.628934 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -4160,7 +5036,11 @@
   <Placemark id="parcelle_13_com.53371">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CK0008</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">LES ESCANEBIERES</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -4170,7 +5050,7 @@
 			<west> 5.571085 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -4179,7 +5059,11 @@
   <Placemark id="parcelle_13_com.53385">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CS0008</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">SAINT-VINCENT</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -4189,7 +5073,7 @@
 			<west> 5.60606 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -4198,7 +5082,11 @@
   <Placemark id="parcelle_13_com.53387">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CT0008</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">47, RTE DE SAINT VINCENT</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -4208,7 +5096,7 @@
 			<west> 5.605059 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -4217,7 +5105,11 @@
   <Placemark id="parcelle_13_com.53543">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000DH0080</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">CHE DU GRAND VALLON</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -4227,7 +5119,7 @@
 			<west> 5.576668 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -4236,7 +5128,11 @@
   <Placemark id="parcelle_13_com.53909">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000AX0082</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">BASSAN</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -4246,7 +5142,7 @@
 			<west> 5.627948 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -4255,7 +5151,11 @@
   <Placemark id="parcelle_13_com.53958">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CS0082</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">SAINT-VINCENT</SimpleData>
+		<SimpleData name="Dénomination">METROPOLE DAIX-MARSEILLE-PROVENCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -4265,7 +5165,7 @@
 			<west> 5.611346 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -4274,7 +5174,11 @@
   <Placemark id="parcelle_13_com.54190">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CS0083</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">SAINT-VINCENT</SimpleData>
+		<SimpleData name="Dénomination">METROPOLE DAIX-MARSEILLE-PROVENCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -4284,7 +5188,7 @@
 			<west> 5.611211 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -4293,7 +5197,11 @@
   <Placemark id="parcelle_13_com.54194">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CY0083</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">LA DORGALE ET LA CRAU</SimpleData>
+		<SimpleData name="Dénomination">METROPOLE DAIX-MARSEILLE-PROVENCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -4303,7 +5211,7 @@
 			<west> 5.595187 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -4312,7 +5220,11 @@
   <Placemark id="parcelle_13_com.54380">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000AX0084</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">BASSAN</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -4322,7 +5234,7 @@
 			<west> 5.625384 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -4331,7 +5243,11 @@
   <Placemark id="parcelle_13_com.54429">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CS0084</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">SAINT-VINCENT</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -4341,7 +5257,7 @@
 			<west> 5.611778 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -4350,7 +5266,11 @@
   <Placemark id="parcelle_13_com.54433">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CX0084</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">CHE DE LA GAFFE DE QUINE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -4360,7 +5280,7 @@
 			<west> 5.599442 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -4369,7 +5289,11 @@
   <Placemark id="parcelle_13_com.54689">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CS0085</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">SAINT-VINCENT</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -4379,7 +5303,7 @@
 			<west> 5.611904 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -4388,7 +5312,11 @@
   <Placemark id="parcelle_13_com.55861">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CK0009</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">LES ESCANEBIERES</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -4398,7 +5326,7 @@
 			<west> 5.571394 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -4407,7 +5335,11 @@
   <Placemark id="parcelle_13_com.55875">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CS0009</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">SAINT-VINCENT</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -4417,7 +5349,7 @@
 			<west> 5.607125 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -4426,7 +5358,11 @@
   <Placemark id="parcelle_13_com.56673">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000DC0093</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">CHE DU CANNET OUEST</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -4436,7 +5372,7 @@
 			<west> 5.585845 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -4445,7 +5381,11 @@
   <Placemark id="parcelle_13_com.56881">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000DC0094</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">CHE DU CANNET OUEST</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -4455,7 +5395,7 @@
 			<west> 5.585966 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -4464,7 +5404,11 @@
   <Placemark id="parcelle_13_com.56885">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000DK0094</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">RUE DE L EGLISE</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -4474,7 +5418,7 @@
 			<west> 5.581691 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -4483,7 +5427,11 @@
   <Placemark id="parcelle_13_com.57272">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000AX0096</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">BASSAN</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -4493,7 +5441,7 @@
 			<west> 5.627098 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -4502,7 +5450,11 @@
   <Placemark id="parcelle_13_com.57320">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CV0096</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">AV DES ALLIES</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -4512,7 +5464,7 @@
 			<west> 5.604165 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -4521,7 +5473,11 @@
   <Placemark id="parcelle_13_com.57325">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000DE0096</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">IMP DES AGACONS</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -4531,7 +5487,7 @@
 			<west> 5.584397 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -4540,7 +5496,11 @@
   <Placemark id="parcelle_13_com.57557">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CV0097</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">AV DES ALLIES</SimpleData>
+		<SimpleData name="Dénomination">COMMUNE DE ROQUEVAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -4550,7 +5510,7 @@
 			<west> 5.604133 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -4559,7 +5519,11 @@
   <Placemark id="parcelle_13_com.57559">
 <styleUrl>#COM</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_com">
+		<SimpleData name="Numéro de Parcelle">13086000CX0097</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ROQUEVAIRE</SimpleData>
+		<SimpleData name="Adresse">LE CLAUVIER-OUEST</SimpleData>
+		<SimpleData name="Dénomination">METROPOLE DAIX-MARSEILLE-PROVENCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -4569,7 +5533,7 @@
 			<west> 5.595336 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>

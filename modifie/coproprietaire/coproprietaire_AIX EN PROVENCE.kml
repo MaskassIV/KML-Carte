@@ -2,7 +2,11 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document id="root_doc">
 <Schema name="AIX EN PROVENCE_coproprietaire" id="AIX EN PROVENCE_coproprietaire">
+	<SimpleField name="Numéro de Parcelle" type="string"></SimpleField>
+	<SimpleField name="Departement" type="string"></SimpleField>
 	<SimpleField name="Commune" type="string"></SimpleField>
+	<SimpleField name="Adresse" type="string"></SimpleField>
+	<SimpleField name="Dénomination" type="string"></SimpleField>
 </Schema>
 	<Style id="coproprietaire">
 		<LineStyle>
@@ -18,7 +22,11 @@
   <Placemark id="parcelle_13_coproprietaire.2">
 <styleUrl>#coproprietaire</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_coproprietaire">
+		<SimpleData name="Numéro de Parcelle">13001000AB0072</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">AIX EN PROVENCE</SimpleData>
+		<SimpleData name="Adresse">5, RUE DES MARSEILLAIS</SimpleData>
+		<SimpleData name="Dénomination">LES COPROPRIETAIRES DE LA PARCELLE AB72 AB73</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -28,7 +36,7 @@
 			<west> 5.447424 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -36,7 +44,11 @@
   <Placemark id="parcelle_13_coproprietaire.3">
 <styleUrl>#coproprietaire</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_coproprietaire">
+		<SimpleData name="Numéro de Parcelle">13001000AB0073</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">AIX EN PROVENCE</SimpleData>
+		<SimpleData name="Adresse">15, RUE MARECHAL FOCH</SimpleData>
+		<SimpleData name="Dénomination">LES COPROPRIETAIRES DE LA PARCELLE AB72 AB73</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -46,7 +58,7 @@
 			<west> 5.44753 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -54,7 +66,11 @@
   <Placemark id="parcelle_13_coproprietaire.39">
 <styleUrl>#coproprietaire</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_coproprietaire">
+		<SimpleData name="Numéro de Parcelle">13001000ON0296</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">AIX EN PROVENCE</SimpleData>
+		<SimpleData name="Adresse">LES LAUVES</SimpleData>
+		<SimpleData name="Dénomination">LES COPROPRIETAIRES INDIVIS DE PARCELLE ON 296</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -64,7 +80,7 @@
 			<west> 5.444283 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -72,7 +88,11 @@
   <Placemark id="parcelle_13_coproprietaire.51">
 <styleUrl>#coproprietaire</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_coproprietaire">
+		<SimpleData name="Numéro de Parcelle">13001000DR0040</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">AIX EN PROVENCE</SimpleData>
+		<SimpleData name="Adresse">LA SEGUIRANE</SimpleData>
+		<SimpleData name="Dénomination">LES COPROPRIETAIRES DE LA PARCELLE DR40</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -82,7 +102,7 @@
 			<west> 5.456265 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -90,7 +110,11 @@
   <Placemark id="parcelle_13_coproprietaire.72">
 <styleUrl>#coproprietaire</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_coproprietaire">
+		<SimpleData name="Numéro de Parcelle">13001000AY0058</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">AIX EN PROVENCE</SimpleData>
+		<SimpleData name="Adresse">32, CRS DE LA TRINITE</SimpleData>
+		<SimpleData name="Dénomination">LES COPROPRIETAIRES DE LA PARCELLE AY 58</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -100,7 +124,7 @@
 			<west> 5.453101 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -108,7 +132,11 @@
   <Placemark id="parcelle_13_coproprietaire.81">
 <styleUrl>#coproprietaire</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_coproprietaire">
+		<SimpleData name="Numéro de Parcelle">13001000EC0074</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">AIX EN PROVENCE</SimpleData>
+		<SimpleData name="Adresse">LES TROIS BONS DIEUX NORD</SimpleData>
+		<SimpleData name="Dénomination">LES COPROPRIETAIRES EC 74</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -118,7 +146,7 @@
 			<west> 5.476283 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>

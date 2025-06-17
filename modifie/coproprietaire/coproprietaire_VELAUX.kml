@@ -2,7 +2,11 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document id="root_doc">
 <Schema name="VELAUX_coproprietaire" id="VELAUX_coproprietaire">
+	<SimpleField name="Numéro de Parcelle" type="string"></SimpleField>
+	<SimpleField name="Departement" type="string"></SimpleField>
 	<SimpleField name="Commune" type="string"></SimpleField>
+	<SimpleField name="Adresse" type="string"></SimpleField>
+	<SimpleField name="Dénomination" type="string"></SimpleField>
 </Schema>
 	<Style id="coproprietaire">
 		<LineStyle>
@@ -18,7 +22,11 @@
   <Placemark id="parcelle_13_coproprietaire.7">
 <styleUrl>#coproprietaire</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_coproprietaire">
+		<SimpleData name="Numéro de Parcelle">13112000CK0109</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">VELAUX</SimpleData>
+		<SimpleData name="Adresse">GRAND VALLON DU DUC</SimpleData>
+		<SimpleData name="Dénomination">LES COPROPRIETAIRES DE LA PARCELLE CK 109</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -28,7 +36,7 @@
 			<west> 5.253052 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -37,7 +45,11 @@
   <Placemark id="parcelle_13_coproprietaire.10">
 <styleUrl>#coproprietaire</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_coproprietaire">
+		<SimpleData name="Numéro de Parcelle">13112000CK0122</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">VELAUX</SimpleData>
+		<SimpleData name="Adresse">GRAND VALLON DU DUC</SimpleData>
+		<SimpleData name="Dénomination">LES COPROPRIETAIRES DU BND 112 CK 122</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -47,7 +59,7 @@
 			<west> 5.253565 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -56,7 +68,11 @@
   <Placemark id="parcelle_13_coproprietaire.42">
 <styleUrl>#coproprietaire</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_coproprietaire">
+		<SimpleData name="Numéro de Parcelle">13112000BD0314</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">VELAUX</SimpleData>
+		<SimpleData name="Adresse">LA PALUN</SimpleData>
+		<SimpleData name="Dénomination">LES COPROPRIETAIRES DU BND BD 314</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -66,7 +82,7 @@
 			<west> 5.254889 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -75,7 +91,11 @@
   <Placemark id="parcelle_13_coproprietaire.78">
 <styleUrl>#coproprietaire</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_coproprietaire">
+		<SimpleData name="Numéro de Parcelle">13112000BC0068</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">VELAUX</SimpleData>
+		<SimpleData name="Adresse">8, RTE DE ROGNAC</SimpleData>
+		<SimpleData name="Dénomination">LES COPROPRIETAIRES DE LA PARCELLE BC68</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -85,7 +105,7 @@
 			<west> 5.255368 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -94,7 +114,11 @@
   <Placemark id="parcelle_13_coproprietaire.82">
 <styleUrl>#coproprietaire</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_coproprietaire">
+		<SimpleData name="Numéro de Parcelle">13112000AM0084</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">VELAUX</SimpleData>
+		<SimpleData name="Adresse">CHEMIN DE BERRE</SimpleData>
+		<SimpleData name="Dénomination">LES COPROPRIETAIRES DES PARCELLES AM 3 4 5 6</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -104,7 +128,7 @@
 			<west> 5.241968 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>

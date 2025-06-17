@@ -2,7 +2,11 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document id="root_doc">
 <Schema name="BELCODENE_personne_morale" id="BELCODENE_personne_morale">
+	<SimpleField name="Numéro de Parcelle" type="string"></SimpleField>
+	<SimpleField name="Departement" type="string"></SimpleField>
 	<SimpleField name="Commune" type="string"></SimpleField>
+	<SimpleField name="Adresse" type="string"></SimpleField>
+	<SimpleField name="Dénomination" type="string"></SimpleField>
 </Schema>
 	<Style id="personne_morale">
 		<LineStyle>
@@ -18,7 +22,11 @@
   <Placemark id="parcelle_13_personne_morale.699">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AI0136</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">LES GOURGUIGNOLES</SimpleData>
+		<SimpleData name="Dénomination">PROVENCE IMMOBILIERE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -28,7 +36,7 @@
 			<west> 5.58486 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -37,7 +45,11 @@
   <Placemark id="parcelle_13_personne_morale.1511">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130130000H0020</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">PLAINE DE BEAUMONT</SimpleData>
+		<SimpleData name="Dénomination">GROUPE PEROTTINO SA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -47,7 +59,7 @@
 			<west> 5.607758 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -56,7 +68,11 @@
   <Placemark id="parcelle_13_personne_morale.1727">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AI0022</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">AV DU GAILLARDET</SimpleData>
+		<SimpleData name="Dénomination">GALINETTE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -66,7 +82,7 @@
 			<west> 5.586448 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -75,7 +91,11 @@
   <Placemark id="parcelle_13_personne_morale.1940">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130130000H0024</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">PLAINE DE BEAUMONT</SimpleData>
+		<SimpleData name="Dénomination">GROUPE PEROTTINO SA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -85,7 +105,7 @@
 			<west> 5.609038 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -94,7 +114,11 @@
   <Placemark id="parcelle_13_personne_morale.3265">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130130000C0451</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">5451, LA POMME</SimpleData>
+		<SimpleData name="Dénomination">SB</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -104,7 +128,7 @@
 			<west> 5.575303 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -113,7 +137,11 @@
   <Placemark id="parcelle_13_personne_morale.3277">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130130000C0457</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">LA POMME</SimpleData>
+		<SimpleData name="Dénomination">PASSYL</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -123,7 +151,7 @@
 			<west> 5.57576 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -132,7 +160,11 @@
   <Placemark id="parcelle_13_personne_morale.3403">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130130000C0486</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">LA POMME</SimpleData>
+		<SimpleData name="Dénomination">LES 4 B</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -142,7 +174,7 @@
 			<west> 5.574262 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -151,7 +183,11 @@
   <Placemark id="parcelle_13_personne_morale.3516">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130130000C0503</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">LA POMME</SimpleData>
+		<SimpleData name="Dénomination">AUTOROUTE ESTEREL COTE AZUR PROVENCE ALP</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -161,7 +197,7 @@
 			<west> 5.57675 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -170,7 +206,11 @@
   <Placemark id="parcelle_13_personne_morale.3698">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130130000K0056</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">L ALBINOS</SimpleData>
+		<SimpleData name="Dénomination">LES OLIVIERS</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -180,7 +220,7 @@
 			<west> 5.585668 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -189,7 +229,11 @@
   <Placemark id="parcelle_13_personne_morale.5004">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130130000K0014</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">L ALBINOS</SimpleData>
+		<SimpleData name="Dénomination">LES OLIVIERS</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -199,7 +243,7 @@
 			<west> 5.586748 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -208,7 +252,11 @@
   <Placemark id="parcelle_13_personne_morale.5086">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130130000K0157</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">5157, CD 908</SimpleData>
+		<SimpleData name="Dénomination">MOS CONSTRUCTIONS</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -218,7 +266,7 @@
 			<west> 5.58784 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -227,7 +275,11 @@
   <Placemark id="parcelle_13_personne_morale.5101">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130130000K0016</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">L ALBINOS</SimpleData>
+		<SimpleData name="Dénomination">LES OLIVIERS</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -237,7 +289,7 @@
 			<west> 5.587166 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -246,7 +298,11 @@
   <Placemark id="parcelle_13_personne_morale.5162">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130130000K0182</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">LE CHATEAU</SimpleData>
+		<SimpleData name="Dénomination">ETUDES ET TRAVAUX DES BOYERS</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -256,7 +312,7 @@
 			<west> 5.591496 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -265,7 +321,11 @@
   <Placemark id="parcelle_13_personne_morale.6508">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130130000K0180</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">LE CHATEAU</SimpleData>
+		<SimpleData name="Dénomination">ETUDES ET TRAVAUX DES BOYERS</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -275,7 +335,7 @@
 			<west> 5.590864 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -284,7 +344,11 @@
   <Placemark id="parcelle_13_personne_morale.6510">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130130000K0190</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">CHE DES CANTONNIERS</SimpleData>
+		<SimpleData name="Dénomination">DES COQUIERES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -294,7 +358,7 @@
 			<west> 5.593577 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -303,7 +367,11 @@
   <Placemark id="parcelle_13_personne_morale.6511">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130130000K0191</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">CHE DES CANTONNIERS</SimpleData>
+		<SimpleData name="Dénomination">DES COQUIERES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -313,7 +381,7 @@
 			<west> 5.593371 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -322,7 +390,11 @@
   <Placemark id="parcelle_13_personne_morale.6648">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130130000C0439</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">LA POMME</SimpleData>
+		<SimpleData name="Dénomination">SB</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -332,7 +404,7 @@
 			<west> 5.575806 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -341,7 +413,11 @@
   <Placemark id="parcelle_13_personne_morale.8779">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130130000C0102</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">LA PLAINE</SimpleData>
+		<SimpleData name="Dénomination">LA BROUILLETERIE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -351,7 +427,7 @@
 			<west> 5.567617 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -360,7 +436,11 @@
   <Placemark id="parcelle_13_personne_morale.10779">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AA0108</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">RTE DE FUVEAU</SimpleData>
+		<SimpleData name="Dénomination">GRAND BAZ</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -370,7 +450,7 @@
 			<west> 5.578551 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -379,7 +459,11 @@
   <Placemark id="parcelle_13_personne_morale.10784">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AB0108</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">5108, CHE DE L ADRET</SimpleData>
+		<SimpleData name="Dénomination">MIRAY</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -389,7 +473,7 @@
 			<west> 5.580713 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -398,7 +482,11 @@
   <Placemark id="parcelle_13_personne_morale.11945">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AA0110</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">LES BARRELIERS</SimpleData>
+		<SimpleData name="Dénomination">FIMART</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -408,7 +496,7 @@
 			<west> 5.581729 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -417,7 +505,11 @@
   <Placemark id="parcelle_13_personne_morale.13977">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AI0116</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">LA FERME DE LALBINOS</SimpleData>
+		<SimpleData name="Dénomination">ENEDIS</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -427,7 +519,7 @@
 			<west> 5.584776 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -436,7 +528,11 @@
   <Placemark id="parcelle_13_personne_morale.15238">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AA0012</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">LES FOURS</SimpleData>
+		<SimpleData name="Dénomination">LES PINS</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -446,7 +542,7 @@
 			<west> 5.578585 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -455,7 +551,11 @@
   <Placemark id="parcelle_13_personne_morale.15674">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AE0120</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">DOM DES PUITS</SimpleData>
+		<SimpleData name="Dénomination">SOCIETE TERRAINS SUD</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -465,7 +565,7 @@
 			<west> 5.594467 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -474,7 +574,11 @@
   <Placemark id="parcelle_13_personne_morale.17562">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AI0126</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">AV DU GAILLARDET</SimpleData>
+		<SimpleData name="Dénomination">GALINETTE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -484,7 +588,7 @@
 			<west> 5.586271 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -493,7 +597,11 @@
   <Placemark id="parcelle_13_personne_morale.17844">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AD0127</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">CROS DE CLAUDAS</SimpleData>
+		<SimpleData name="Dénomination">BANCAOU</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -503,7 +611,7 @@
 			<west> 5.590069 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -512,7 +620,11 @@
   <Placemark id="parcelle_13_personne_morale.18473">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AE0129</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">CROS DE CABANE</SimpleData>
+		<SimpleData name="Dénomination">SOCIETE TERRAINS SUD</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -522,7 +634,7 @@
 			<west> 5.594195 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -531,7 +643,11 @@
   <Placemark id="parcelle_13_personne_morale.18773">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130130000I0013</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">PLAINE DE BEAUMONT</SimpleData>
+		<SimpleData name="Dénomination">CREAI DU SUD EST CENTRE REGIONAL POUR L ENFANCE ET L ADOLESC</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -541,7 +657,7 @@
 			<west> 5.603775 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -550,7 +666,11 @@
   <Placemark id="parcelle_13_personne_morale.18774">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130130000K0013</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">L ALBINOS</SimpleData>
+		<SimpleData name="Dénomination">LES OLIVIERS</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -560,7 +680,7 @@
 			<west> 5.585947 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -569,7 +689,11 @@
   <Placemark id="parcelle_13_personne_morale.18779">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AA0013</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">LES FOURS</SimpleData>
+		<SimpleData name="Dénomination">LES PINS</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -579,7 +703,7 @@
 			<west> 5.578481 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -588,7 +712,11 @@
   <Placemark id="parcelle_13_personne_morale.20204">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130130000D0133</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">L ALBINOTE</SimpleData>
+		<SimpleData name="Dénomination">GRAND BAZ</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -598,7 +726,7 @@
 			<west> 5.578268 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -607,7 +735,11 @@
   <Placemark id="parcelle_13_personne_morale.20252">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AI0133</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">LES GOURGUIGNOLES</SimpleData>
+		<SimpleData name="Dénomination">PROVENCE IMMOBILIERE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -617,7 +749,7 @@
 			<west> 5.585229 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -626,7 +758,11 @@
   <Placemark id="parcelle_13_personne_morale.20583">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AI0134</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">LES GOURGUIGNOLES</SimpleData>
+		<SimpleData name="Dénomination">PROVENCE IMMOBILIERE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -636,7 +772,7 @@
 			<west> 5.584972 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -645,7 +781,11 @@
   <Placemark id="parcelle_13_personne_morale.20908">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AI0135</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">LES GOURGUIGNOLES</SimpleData>
+		<SimpleData name="Dénomination">COPROPRI DE 013 AI 135 142 144</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -655,7 +795,7 @@
 			<west> 5.5849 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -664,7 +804,11 @@
   <Placemark id="parcelle_13_personne_morale.21188">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AE0136</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">CROS DE CABANE</SimpleData>
+		<SimpleData name="Dénomination">SOCIETE TERRAINS SUD</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -674,7 +818,7 @@
 			<west> 5.594207 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -683,7 +827,11 @@
   <Placemark id="parcelle_13_personne_morale.22312">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AA0014</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">5014, RTE DE FUVEAU</SimpleData>
+		<SimpleData name="Dénomination">LES PINS</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -693,7 +841,7 @@
 			<west> 5.578518 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -702,7 +850,11 @@
   <Placemark id="parcelle_13_personne_morale.23796">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AI0144</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">LES GOURGUIGNOLES</SimpleData>
+		<SimpleData name="Dénomination">COPROPRI DE 013 AI 135 142 144</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -712,7 +864,7 @@
 			<west> 5.584583 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -721,7 +873,11 @@
   <Placemark id="parcelle_13_personne_morale.25253">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AA0015</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">LES FOURS</SimpleData>
+		<SimpleData name="Dénomination">LES PINS</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -731,7 +887,7 @@
 			<west> 5.579202 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -740,7 +896,11 @@
   <Placemark id="parcelle_13_personne_morale.28721">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AI0161</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">LES GOURGUIGNOLES</SimpleData>
+		<SimpleData name="Dénomination">FINANCES SUD PROMOTION</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -750,7 +910,7 @@
 			<west> 5.58397 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -759,7 +919,11 @@
   <Placemark id="parcelle_13_personne_morale.29835">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130130000K0166</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">5166, LE CHATEAU</SimpleData>
+		<SimpleData name="Dénomination">LES ROUVRES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -769,7 +933,7 @@
 			<west> 5.587968 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -778,7 +942,11 @@
   <Placemark id="parcelle_13_personne_morale.30556">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AI0169</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">LES GOURGUIGNOLES</SimpleData>
+		<SimpleData name="Dénomination">FINANCES SUD PROMOTION</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -788,7 +956,7 @@
 			<west> 5.584321 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -797,7 +965,11 @@
   <Placemark id="parcelle_13_personne_morale.30756">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130130000K0017</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">L ALBINOS</SimpleData>
+		<SimpleData name="Dénomination">LES OLIVIERS</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -807,7 +979,7 @@
 			<west> 5.587572 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -816,7 +988,11 @@
   <Placemark id="parcelle_13_personne_morale.31154">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AD0170</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">CROS DE CLAUDAS</SimpleData>
+		<SimpleData name="Dénomination">SOMECO SARL</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -826,7 +1002,7 @@
 			<west> 5.591144 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -835,7 +1011,11 @@
   <Placemark id="parcelle_13_personne_morale.31613">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AI0172</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">LES GOURGUIGNOLES</SimpleData>
+		<SimpleData name="Dénomination">COPROPRI DE 013 AI 135 142 144</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -845,7 +1025,7 @@
 			<west> 5.584471 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -854,7 +1034,11 @@
   <Placemark id="parcelle_13_personne_morale.31762">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130130000C0172</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">LA GALERE</SimpleData>
+		<SimpleData name="Dénomination">SCI MARIVA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -864,7 +1048,7 @@
 			<west> 5.578312 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -873,7 +1057,11 @@
   <Placemark id="parcelle_13_personne_morale.31832">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AI0173</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">LES GOURGUIGNOLES</SimpleData>
+		<SimpleData name="Dénomination">PROVENCE IMMOBILIERE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -883,7 +1071,7 @@
 			<west> 5.58454 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -892,7 +1080,11 @@
   <Placemark id="parcelle_13_personne_morale.32022">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AB0174</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">LES ROUX</SimpleData>
+		<SimpleData name="Dénomination">MIRAY</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -902,7 +1094,7 @@
 			<west> 5.580765 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -911,7 +1103,11 @@
   <Placemark id="parcelle_13_personne_morale.32623">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130130000C0176</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">LA GALERE</SimpleData>
+		<SimpleData name="Dénomination">SCI LES GOURGUIGNOLES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -921,7 +1117,7 @@
 			<west> 5.579598 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -930,7 +1126,11 @@
   <Placemark id="parcelle_13_personne_morale.32698">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AE0177</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">CROS DE CABANE</SimpleData>
+		<SimpleData name="Dénomination">SARL TBA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -940,7 +1140,7 @@
 			<west> 5.597173 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -949,7 +1149,11 @@
   <Placemark id="parcelle_13_personne_morale.32845">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130130000C0177</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">LA PLAINE</SimpleData>
+		<SimpleData name="Dénomination">LA BROUILLETERIE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -959,7 +1163,7 @@
 			<west> 5.571544 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -968,7 +1172,11 @@
   <Placemark id="parcelle_13_personne_morale.32907">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AE0178</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">CROS DE CABANE</SimpleData>
+		<SimpleData name="Dénomination">SARL TBA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -978,7 +1186,7 @@
 			<west> 5.597335 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -987,7 +1195,11 @@
   <Placemark id="parcelle_13_personne_morale.33364">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130130000H0018</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">PLAINE DE BEAUMONT</SimpleData>
+		<SimpleData name="Dénomination">GROUPE PEROTTINO SA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -997,7 +1209,7 @@
 			<west> 5.607994 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1006,7 +1218,11 @@
   <Placemark id="parcelle_13_personne_morale.33384">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AD0018</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">RTE DE PEYNIER</SimpleData>
+		<SimpleData name="Dénomination">SCI GIANNE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1016,7 +1232,7 @@
 			<west> 5.593712 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1025,7 +1241,11 @@
   <Placemark id="parcelle_13_personne_morale.33965">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AE0181</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">CROS DE CABANE</SimpleData>
+		<SimpleData name="Dénomination">SARL TBA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1035,7 +1255,7 @@
 			<west> 5.599173 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1044,7 +1264,11 @@
   <Placemark id="parcelle_13_personne_morale.34574">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130130000K0184</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">LE CHATEAU</SimpleData>
+		<SimpleData name="Dénomination">ETUDES ET TRAVAUX DES BOYERS</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1054,7 +1278,7 @@
 			<west> 5.591697 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1063,7 +1287,11 @@
   <Placemark id="parcelle_13_personne_morale.34782">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AE0185</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">CROS DE CABANE</SimpleData>
+		<SimpleData name="Dénomination">SARL TBA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1073,7 +1301,7 @@
 			<west> 5.598491 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1082,7 +1310,11 @@
   <Placemark id="parcelle_13_personne_morale.34957">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AE0186</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">CROS DE CABANE</SimpleData>
+		<SimpleData name="Dénomination">SARL TBA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1092,7 +1324,7 @@
 			<west> 5.599646 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1101,7 +1333,11 @@
   <Placemark id="parcelle_13_personne_morale.35152">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AE0187</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">CROS DE CABANE</SimpleData>
+		<SimpleData name="Dénomination">SARL TBA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1111,7 +1347,7 @@
 			<west> 5.599578 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1120,7 +1356,11 @@
   <Placemark id="parcelle_13_personne_morale.35708">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130130000H0019</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">PLAINE DE BEAUMONT</SimpleData>
+		<SimpleData name="Dénomination">GROUPE PEROTTINO SA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1130,7 +1370,7 @@
 			<west> 5.607745 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1139,7 +1379,11 @@
   <Placemark id="parcelle_13_personne_morale.35715">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AA0019</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">LES FOURS</SimpleData>
+		<SimpleData name="Dénomination">GRAND BAZ</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1149,7 +1393,7 @@
 			<west> 5.578841 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1158,7 +1402,11 @@
   <Placemark id="parcelle_13_personne_morale.36530">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130130000K0192</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">L ALBINOS</SimpleData>
+		<SimpleData name="Dénomination">DES COQUIERES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1168,7 +1416,7 @@
 			<west> 5.593161 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1177,7 +1425,11 @@
   <Placemark id="parcelle_13_personne_morale.36732">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AE0193</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">CROS DE CABANE</SimpleData>
+		<SimpleData name="Dénomination">SARL TBA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1187,7 +1439,7 @@
 			<west> 5.598452 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1196,7 +1448,11 @@
   <Placemark id="parcelle_13_personne_morale.36924">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AE0194</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">CROS DE CABANE</SimpleData>
+		<SimpleData name="Dénomination">SARL TBA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1206,7 +1462,7 @@
 			<west> 5.598447 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1215,7 +1471,11 @@
   <Placemark id="parcelle_13_personne_morale.37086">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AE0195</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">CROS DE CABANE</SimpleData>
+		<SimpleData name="Dénomination">SARL TBA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1225,7 +1485,7 @@
 			<west> 5.599141 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1234,7 +1494,11 @@
   <Placemark id="parcelle_13_personne_morale.39714">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AD0205</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">CROS DE CLAUDAS</SimpleData>
+		<SimpleData name="Dénomination">BANCAOU</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1244,7 +1508,7 @@
 			<west> 5.590263 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1253,7 +1517,11 @@
   <Placemark id="parcelle_13_personne_morale.40095">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AE0207</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">CROS DE CABANE</SimpleData>
+		<SimpleData name="Dénomination">SARL TBA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1263,7 +1531,7 @@
 			<west> 5.597365 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1272,7 +1540,11 @@
   <Placemark id="parcelle_13_personne_morale.40297">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AE0208</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">CROS DE CABANE</SimpleData>
+		<SimpleData name="Dénomination">SARL TBA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1282,7 +1554,7 @@
 			<west> 5.598372 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1291,7 +1563,11 @@
   <Placemark id="parcelle_13_personne_morale.40473">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AE0209</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">CROS DE CABANE</SimpleData>
+		<SimpleData name="Dénomination">SARL TBA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1301,7 +1577,7 @@
 			<west> 5.598281 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1310,7 +1586,11 @@
   <Placemark id="parcelle_13_personne_morale.40637">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130130000H0021</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">PLAINE DE BEAUMONT</SimpleData>
+		<SimpleData name="Dénomination">GROUPE PEROTTINO SA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1320,7 +1600,7 @@
 			<west> 5.607771 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1329,7 +1609,11 @@
   <Placemark id="parcelle_13_personne_morale.41036">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130130000K0210</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">LE CHATEAU</SimpleData>
+		<SimpleData name="Dénomination">AUTOROUTE ESTEREL COTE AZUR PROVENCE ALP</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1339,7 +1623,7 @@
 			<west> 5.576667 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1348,7 +1632,11 @@
   <Placemark id="parcelle_13_personne_morale.41569">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AB0213</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">5213, CHE DE L ADRET</SimpleData>
+		<SimpleData name="Dénomination">ISCAVI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1358,7 +1646,7 @@
 			<west> 5.579258 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1367,7 +1655,11 @@
   <Placemark id="parcelle_13_personne_morale.41872">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AB0215</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">L ADRET</SimpleData>
+		<SimpleData name="Dénomination">ISCAVI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1377,7 +1669,7 @@
 			<west> 5.579867 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1386,7 +1678,11 @@
   <Placemark id="parcelle_13_personne_morale.42319">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AB0218</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">L ADRET</SimpleData>
+		<SimpleData name="Dénomination">ISCAVI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1396,7 +1692,7 @@
 			<west> 5.579746 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1405,7 +1701,11 @@
   <Placemark id="parcelle_13_personne_morale.42493">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AE0219</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">CROS DE CABANE</SimpleData>
+		<SimpleData name="Dénomination">SARL TBA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1415,7 +1715,7 @@
 			<west> 5.597185 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1424,7 +1724,11 @@
   <Placemark id="parcelle_13_personne_morale.43067">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AE0220</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">CROS DE CABANE</SimpleData>
+		<SimpleData name="Dénomination">SARL TBA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1434,7 +1738,7 @@
 			<west> 5.597142 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1443,7 +1747,11 @@
   <Placemark id="parcelle_13_personne_morale.43745">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AI0224</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">LA FERME DE LALBINOS</SimpleData>
+		<SimpleData name="Dénomination">LES OLIVIERS</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1453,7 +1761,7 @@
 			<west> 5.583217 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1462,7 +1770,11 @@
   <Placemark id="parcelle_13_personne_morale.44273">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AI0227</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">5227, AV DU GARLABAN</SimpleData>
+		<SimpleData name="Dénomination">LA BESSONNIERE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1472,7 +1784,7 @@
 			<west> 5.586971 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1481,7 +1793,11 @@
   <Placemark id="parcelle_13_personne_morale.44435">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AI0228</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">LA FERME DE LALBINOS</SimpleData>
+		<SimpleData name="Dénomination">LA BESSONNIERE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1491,7 +1807,7 @@
 			<west> 5.58686 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1500,7 +1816,11 @@
   <Placemark id="parcelle_13_personne_morale.44778">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130130000H0023</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">5023, PLAINE DE BEAUMONT</SimpleData>
+		<SimpleData name="Dénomination">GROUPE PEROTTINO SA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1510,7 +1830,7 @@
 			<west> 5.609086 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1519,7 +1839,11 @@
   <Placemark id="parcelle_13_personne_morale.45177">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AE0230</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">CROS DE CABANE</SimpleData>
+		<SimpleData name="Dénomination">SARL TBA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1529,7 +1853,7 @@
 			<west> 5.596252 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1538,7 +1862,11 @@
   <Placemark id="parcelle_13_personne_morale.45296">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130130000C0230</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">LA GALERE</SimpleData>
+		<SimpleData name="Dénomination">AUTOROUTE ESTEREL COTE AZUR PROVENCE ALP</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1548,7 +1876,7 @@
 			<west> 5.574163 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1557,7 +1885,11 @@
   <Placemark id="parcelle_13_personne_morale.45367">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AE0231</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">CROS DE CABANE</SimpleData>
+		<SimpleData name="Dénomination">SARL TBA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1567,7 +1899,7 @@
 			<west> 5.59749 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1576,7 +1908,11 @@
   <Placemark id="parcelle_13_personne_morale.45639">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130130000C0232</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">LA GALERE</SimpleData>
+		<SimpleData name="Dénomination">AUTOROUTE ESTEREL COTE AZUR PROVENCE ALP</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1586,7 +1922,7 @@
 			<west> 5.575359 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1595,7 +1931,11 @@
   <Placemark id="parcelle_13_personne_morale.45791">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130130000C0233</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">LA GALERE</SimpleData>
+		<SimpleData name="Dénomination">AUTOROUTE ESTEREL COTE AZUR PROVENCE ALP</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1605,7 +1945,7 @@
 			<west> 5.574498 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1614,7 +1954,11 @@
   <Placemark id="parcelle_13_personne_morale.45838">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AE0234</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">CROS DE CABANE</SimpleData>
+		<SimpleData name="Dénomination">SARL TBA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1624,7 +1968,7 @@
 			<west> 5.596057 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1633,7 +1977,11 @@
   <Placemark id="parcelle_13_personne_morale.46181">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AE0236</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">CROS DE CABANE</SimpleData>
+		<SimpleData name="Dénomination">SARL TBA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1643,7 +1991,7 @@
 			<west> 5.596096 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1652,7 +2000,11 @@
   <Placemark id="parcelle_13_personne_morale.46516">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AC0238</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">CHE DES MICHELS</SimpleData>
+		<SimpleData name="Dénomination">HOREX</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1662,7 +2014,7 @@
 			<west> 5.589898 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1671,7 +2023,11 @@
   <Placemark id="parcelle_13_personne_morale.46833">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AE0024</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">LE BERTRANET</SimpleData>
+		<SimpleData name="Dénomination">SCI LA PETITE BASTIDE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1681,7 +2037,7 @@
 			<west> 5.597888 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1690,7 +2046,11 @@
   <Placemark id="parcelle_13_personne_morale.47522">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AE0242</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">CROS DE CABANE</SimpleData>
+		<SimpleData name="Dénomination">SARL TBA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1700,7 +2060,7 @@
 			<west> 5.597101 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1709,7 +2069,11 @@
   <Placemark id="parcelle_13_personne_morale.49619">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AE0255</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">CROS DE CABANE</SimpleData>
+		<SimpleData name="Dénomination">SARL TBA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1719,7 +2083,7 @@
 			<west> 5.59704 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1728,7 +2092,11 @@
   <Placemark id="parcelle_13_personne_morale.49776">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AE0256</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">CROS DE CABANE</SimpleData>
+		<SimpleData name="Dénomination">SARL TBA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1738,7 +2106,7 @@
 			<west> 5.597279 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1747,7 +2115,11 @@
   <Placemark id="parcelle_13_personne_morale.49931">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AD0257</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">CROS DE CLAUDAS</SimpleData>
+		<SimpleData name="Dénomination">ORANGE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1757,7 +2129,7 @@
 			<west> 5.589934 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1766,7 +2138,11 @@
   <Placemark id="parcelle_13_personne_morale.50182">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130130000C0258</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">LA GALERE</SimpleData>
+		<SimpleData name="Dénomination">AUTOROUTE ESTEREL COTE AZUR PROVENCE ALP</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1776,7 +2152,7 @@
 			<west> 5.573777 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1785,7 +2161,11 @@
   <Placemark id="parcelle_13_personne_morale.50366">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AA0026</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">LES FOURS</SimpleData>
+		<SimpleData name="Dénomination">GRAND BAZ</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1795,7 +2175,7 @@
 			<west> 5.57911 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1804,7 +2184,11 @@
   <Placemark id="parcelle_13_personne_morale.52436">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AB0270</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">CHE DES BARRELIERS</SimpleData>
+		<SimpleData name="Dénomination">IMMO 3 L</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1814,7 +2198,7 @@
 			<west> 5.583315 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1823,7 +2207,11 @@
   <Placemark id="parcelle_13_personne_morale.52731">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AB0272</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">CHE DES BARRELIERS</SimpleData>
+		<SimpleData name="Dénomination">IMMO 3 L</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1833,7 +2221,7 @@
 			<west> 5.583785 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1842,7 +2230,11 @@
   <Placemark id="parcelle_13_personne_morale.53115">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AD0275</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">5275, CHE DU CROS DE CLAUDAS</SimpleData>
+		<SimpleData name="Dénomination">SCI C C</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1852,7 +2244,7 @@
 			<west> 5.592185 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1861,7 +2253,11 @@
   <Placemark id="parcelle_13_personne_morale.53516">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AC0278</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">CHE DU GRAND LOT</SimpleData>
+		<SimpleData name="Dénomination">SAINTE CLAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1871,7 +2267,7 @@
 			<west> 5.593672 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1880,7 +2276,11 @@
   <Placemark id="parcelle_13_personne_morale.53623">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AC0279</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">CHE DU GRAND LOT</SimpleData>
+		<SimpleData name="Dénomination">SAINTE CLAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1890,7 +2290,7 @@
 			<west> 5.593474 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1899,7 +2299,11 @@
   <Placemark id="parcelle_13_personne_morale.54327">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AC0282</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">LE GRAND LOT</SimpleData>
+		<SimpleData name="Dénomination">SAINTE CLAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1909,7 +2313,7 @@
 			<west> 5.593793 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1918,7 +2322,11 @@
   <Placemark id="parcelle_13_personne_morale.54440">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AC0283</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">LE GRAND LOT</SimpleData>
+		<SimpleData name="Dénomination">SAINTE CLAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1928,7 +2336,7 @@
 			<west> 5.593462 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1937,7 +2345,11 @@
   <Placemark id="parcelle_13_personne_morale.54883">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AD0287</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">CROS DE CLAUDAS</SimpleData>
+		<SimpleData name="Dénomination">BANCAOU</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1947,7 +2359,7 @@
 			<west> 5.589906 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1956,7 +2368,11 @@
   <Placemark id="parcelle_13_personne_morale.55601">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AC0290</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">LE GRAND LOT</SimpleData>
+		<SimpleData name="Dénomination">ASSOCIATION SYNDICALE LIBRE LES TERRES BLANCHES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1966,7 +2382,7 @@
 			<west> 5.592865 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1975,7 +2391,11 @@
   <Placemark id="parcelle_13_personne_morale.55813">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AE0292</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">5292, RTE DE PEYNIER</SimpleData>
+		<SimpleData name="Dénomination">SCI LA PETITE BASTIDE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1985,7 +2405,7 @@
 			<west> 5.597139 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -1994,7 +2414,11 @@
   <Placemark id="parcelle_13_personne_morale.56031">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AE0294</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">RTE DE PEYNIER</SimpleData>
+		<SimpleData name="Dénomination">SCI LA PETITE BASTIDE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2004,7 +2428,7 @@
 			<west> 5.597285 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2013,7 +2437,11 @@
   <Placemark id="parcelle_13_personne_morale.56232">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AE0296</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">RTE DE PEYNIER</SimpleData>
+		<SimpleData name="Dénomination">SCI LA PETITE BASTIDE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2023,7 +2451,7 @@
 			<west> 5.597114 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2032,7 +2460,11 @@
   <Placemark id="parcelle_13_personne_morale.58458">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130130000C0309</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">LA GALERE</SimpleData>
+		<SimpleData name="Dénomination">SYNDICAT INTERCOMMUNAL DU BASSIN MINIER</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2042,7 +2474,7 @@
 			<west> 5.569428 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2051,7 +2483,11 @@
   <Placemark id="parcelle_13_personne_morale.59076">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AB0312</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">L ADRET</SimpleData>
+		<SimpleData name="Dénomination">IMMOPRO</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2061,7 +2497,7 @@
 			<west> 5.580505 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2070,7 +2506,11 @@
   <Placemark id="parcelle_13_personne_morale.59981">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AD0032</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">CROS DE CLAUDAS</SimpleData>
+		<SimpleData name="Dénomination">DCJ</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2080,7 +2520,7 @@
 			<west> 5.593629 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2089,7 +2529,11 @@
   <Placemark id="parcelle_13_personne_morale.61438">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AC0033</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">LE GRAND LOT</SimpleData>
+		<SimpleData name="Dénomination">PROPRIETAIRES DU BND 013 A0096</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2099,7 +2543,7 @@
 			<west> 5.592211 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2108,7 +2552,11 @@
   <Placemark id="parcelle_13_personne_morale.62310">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AD0335</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">CHE DU CROS DE CLAUDAS</SimpleData>
+		<SimpleData name="Dénomination">DCJ</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2118,7 +2566,7 @@
 			<west> 5.593532 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2127,7 +2575,11 @@
   <Placemark id="parcelle_13_personne_morale.63549">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AD0345</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">CROS DE CLAUDAS</SimpleData>
+		<SimpleData name="Dénomination">SARL LES OLIVES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2137,7 +2589,7 @@
 			<west> 5.589719 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2146,7 +2598,11 @@
   <Placemark id="parcelle_13_personne_morale.63634">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AC0346</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">CHE DU GRAND LOT</SimpleData>
+		<SimpleData name="Dénomination">SAINTE CLAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2156,7 +2612,7 @@
 			<west> 5.593224 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2165,7 +2621,11 @@
   <Placemark id="parcelle_13_personne_morale.63807">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AC0348</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">LE GRAND LOT</SimpleData>
+		<SimpleData name="Dénomination">SAINTE CLAIRE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2175,7 +2635,7 @@
 			<west> 5.593225 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2184,7 +2644,11 @@
   <Placemark id="parcelle_13_personne_morale.65016">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AI0358</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">LA FERME DE LALBINOS</SimpleData>
+		<SimpleData name="Dénomination">SUD EST INVESTISSEMENTS ET PARTICIPATIONS</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2194,7 +2658,7 @@
 			<west> 5.584051 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2203,7 +2667,11 @@
   <Placemark id="parcelle_13_personne_morale.65097">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AI0359</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">LA FERME DE LALBINOS</SimpleData>
+		<SimpleData name="Dénomination">SUD EST INVESTISSEMENTS ET PARTICIPATIONS</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2213,7 +2681,7 @@
 			<west> 5.584526 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2222,7 +2690,11 @@
   <Placemark id="parcelle_13_personne_morale.65202">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AH0036</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">ART ANC RTE DEP DE PEYNIER</SimpleData>
+		<SimpleData name="Dénomination">ASSOCIATION REGIONALE POUR LINTEGRATION</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2232,7 +2704,7 @@
 			<west> 5.593728 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2241,7 +2713,11 @@
   <Placemark id="parcelle_13_personne_morale.65523">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AI0360</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">LA FERME DE LALBINOS</SimpleData>
+		<SimpleData name="Dénomination">SUD EST INVESTISSEMENTS ET PARTICIPATIONS</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2251,7 +2727,7 @@
 			<west> 5.58459 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2260,7 +2736,11 @@
   <Placemark id="parcelle_13_personne_morale.65610">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AI0361</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">LA FERME DE LALBINOS</SimpleData>
+		<SimpleData name="Dénomination">SUD EST INVESTISSEMENTS ET PARTICIPATIONS</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2270,7 +2750,7 @@
 			<west> 5.584621 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2279,7 +2759,11 @@
   <Placemark id="parcelle_13_personne_morale.65784">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AI0363</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">LA FERME DE LALBINOS</SimpleData>
+		<SimpleData name="Dénomination">SUD EST INVESTISSEMENTS ET PARTICIPATIONS</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2289,7 +2773,7 @@
 			<west> 5.584418 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2298,7 +2782,11 @@
   <Placemark id="parcelle_13_personne_morale.66351">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AH0037</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">LE PRADEAU</SimpleData>
+		<SimpleData name="Dénomination">CREAI DU SUD EST CENTRE REGIONAL POUR L ENFANCE ET L ADOLESC</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2308,7 +2796,7 @@
 			<west> 5.593673 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2317,7 +2805,11 @@
   <Placemark id="parcelle_13_personne_morale.67394">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AB0038</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">LES BARRELIERS</SimpleData>
+		<SimpleData name="Dénomination">HORIZON</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2327,7 +2819,7 @@
 			<west> 5.583038 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2336,7 +2828,11 @@
   <Placemark id="parcelle_13_personne_morale.67414">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AH0038</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">LE PRADEAU</SimpleData>
+		<SimpleData name="Dénomination">CREAI DU SUD EST CENTRE REGIONAL POUR L ENFANCE ET L ADOLESC</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2346,7 +2842,7 @@
 			<west> 5.593614 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2355,7 +2851,11 @@
   <Placemark id="parcelle_13_personne_morale.69368">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130130000C0397</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">LA PLAINE</SimpleData>
+		<SimpleData name="Dénomination">LA BROUILLETERIE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2365,7 +2865,7 @@
 			<west> 5.568252 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2374,7 +2874,11 @@
   <Placemark id="parcelle_13_personne_morale.70394">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130130000C0400</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">LA PLAINE</SimpleData>
+		<SimpleData name="Dénomination">LA BROUILLETERIE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2384,7 +2888,7 @@
 			<west> 5.566417 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2393,7 +2897,11 @@
   <Placemark id="parcelle_13_personne_morale.70468">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130130000C0401</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">LA PLAINE</SimpleData>
+		<SimpleData name="Dénomination">LA BROUILLETERIE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2403,7 +2911,7 @@
 			<west> 5.569003 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2412,7 +2920,11 @@
   <Placemark id="parcelle_13_personne_morale.70634">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130130000C0403</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">LA PLAINE</SimpleData>
+		<SimpleData name="Dénomination">LA BROUILLETERIE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2422,7 +2934,7 @@
 			<west> 5.568339 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2431,7 +2943,11 @@
   <Placemark id="parcelle_13_personne_morale.71130">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AB0041</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">LES BARRELIERS</SimpleData>
+		<SimpleData name="Dénomination">HORIZON</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2441,7 +2957,7 @@
 			<west> 5.583528 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2450,7 +2966,11 @@
   <Placemark id="parcelle_13_personne_morale.74195">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AB0044</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">CHE DU COULET</SimpleData>
+		<SimpleData name="Dénomination">HORIZON</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2460,7 +2980,7 @@
 			<west> 5.583982 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2469,7 +2989,11 @@
   <Placemark id="parcelle_13_personne_morale.74567">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130130000C0440</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">LA POMME</SimpleData>
+		<SimpleData name="Dénomination">SCI LE TONNEAU</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2479,7 +3003,7 @@
 			<west> 5.575706 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2488,7 +3012,11 @@
   <Placemark id="parcelle_13_personne_morale.74637">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130130000C0441</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">LA POMME</SimpleData>
+		<SimpleData name="Dénomination">ARCH</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2498,7 +3026,7 @@
 			<west> 5.575686 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2507,7 +3035,11 @@
   <Placemark id="parcelle_13_personne_morale.74823">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130130000C0444</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">LA POMME</SimpleData>
+		<SimpleData name="Dénomination">LA POMME</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2517,7 +3049,7 @@
 			<west> 5.57436 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2526,7 +3058,11 @@
   <Placemark id="parcelle_13_personne_morale.74888">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130130000C0445</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">LA POMME</SimpleData>
+		<SimpleData name="Dénomination">SNC GEQAS</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2536,7 +3072,7 @@
 			<west> 5.574695 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2545,7 +3081,11 @@
   <Placemark id="parcelle_13_personne_morale.74955">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130130000C0446</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">LA POMME</SimpleData>
+		<SimpleData name="Dénomination">SCI LES GENETS</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2555,7 +3095,7 @@
 			<west> 5.574695 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2564,7 +3104,11 @@
   <Placemark id="parcelle_13_personne_morale.75013">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130130000C0447</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">5447, LA POMME</SimpleData>
+		<SimpleData name="Dénomination">LE GARLABAN</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2574,7 +3118,7 @@
 			<west> 5.574606 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2583,7 +3127,11 @@
   <Placemark id="parcelle_13_personne_morale.75077">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130130000C0448</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">LA POMME</SimpleData>
+		<SimpleData name="Dénomination">PASSYL</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2593,7 +3141,7 @@
 			<west> 5.575304 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2602,7 +3150,11 @@
   <Placemark id="parcelle_13_personne_morale.75147">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130130000C0449</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">5449, LA POMME</SimpleData>
+		<SimpleData name="Dénomination">ARCH</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2612,7 +3164,7 @@
 			<west> 5.575315 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2621,7 +3173,11 @@
   <Placemark id="parcelle_13_personne_morale.75171">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130130000E0045</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">LE GRAND LOT</SimpleData>
+		<SimpleData name="Dénomination">STE LA PINEDE DE BELCODENE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2631,7 +3187,7 @@
 			<west> 5.593201 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2640,7 +3196,11 @@
   <Placemark id="parcelle_13_personne_morale.75565">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130130000C0450</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">LA POMME</SimpleData>
+		<SimpleData name="Dénomination">SCI LE TONNEAU</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2650,7 +3210,7 @@
 			<west> 5.575293 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2659,7 +3219,11 @@
   <Placemark id="parcelle_13_personne_morale.78723">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130130000C0485</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">LA POMME</SimpleData>
+		<SimpleData name="Dénomination">LES 4 B</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2669,7 +3233,7 @@
 			<west> 5.573433 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2678,7 +3242,11 @@
   <Placemark id="parcelle_13_personne_morale.78866">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130130000C0487</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">LA GALERE</SimpleData>
+		<SimpleData name="Dénomination">AUTOROUTE ESTEREL COTE AZUR PROVENCE ALP</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2688,7 +3256,7 @@
 			<west> 5.573625 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2697,7 +3265,11 @@
   <Placemark id="parcelle_13_personne_morale.78997">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130130000C0489</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">LA GALERE</SimpleData>
+		<SimpleData name="Dénomination">AUTOROUTE ESTEREL COTE AZUR PROVENCE ALP</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2707,7 +3279,7 @@
 			<west> 5.57347 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2716,7 +3288,11 @@
   <Placemark id="parcelle_13_personne_morale.79440">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130130000C0491</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">LA GALERE</SimpleData>
+		<SimpleData name="Dénomination">AUTOROUTE ESTEREL COTE AZUR PROVENCE ALP</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2726,7 +3302,7 @@
 			<west> 5.573836 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2735,7 +3311,11 @@
   <Placemark id="parcelle_13_personne_morale.79502">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130130000C0492</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">LA GALERE</SimpleData>
+		<SimpleData name="Dénomination">AUTOROUTE ESTEREL COTE AZUR PROVENCE ALP</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2745,7 +3325,7 @@
 			<west> 5.573739 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2754,7 +3334,11 @@
   <Placemark id="parcelle_13_personne_morale.79572">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130130000C0493</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">LA GALERE</SimpleData>
+		<SimpleData name="Dénomination">AUTOROUTE ESTEREL COTE AZUR PROVENCE ALP</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2764,7 +3348,7 @@
 			<west> 5.575462 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2773,7 +3357,11 @@
   <Placemark id="parcelle_13_personne_morale.79706">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130130000C0495</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">LA GALERE</SimpleData>
+		<SimpleData name="Dénomination">AUTOROUTE ESTEREL COTE AZUR PROVENCE ALP</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2783,7 +3371,7 @@
 			<west> 5.575003 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2792,7 +3380,11 @@
   <Placemark id="parcelle_13_personne_morale.79811">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130130000C0497</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">LA GALERE</SimpleData>
+		<SimpleData name="Dénomination">AUTOROUTE ESTEREL COTE AZUR PROVENCE ALP</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2802,7 +3394,7 @@
 			<west> 5.574022 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2811,7 +3403,11 @@
   <Placemark id="parcelle_13_personne_morale.79916">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130130000C0499</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">LA GALERE</SimpleData>
+		<SimpleData name="Dénomination">AUTOROUTE ESTEREL COTE AZUR PROVENCE ALP</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2821,7 +3417,7 @@
 			<west> 5.573898 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2830,7 +3426,11 @@
   <Placemark id="parcelle_13_personne_morale.79976">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AC0005</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">MONTAUDRIOU</SimpleData>
+		<SimpleData name="Dénomination">SUD REALISATIONS CONSTRUCTIONS</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2840,7 +3440,7 @@
 			<west> 5.58995 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2849,7 +3449,11 @@
   <Placemark id="parcelle_13_personne_morale.80409">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AC0050</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">LE GRAND LOT</SimpleData>
+		<SimpleData name="Dénomination">COPROPRIETAIRES 013 AC 50 VOIES DE LOTISSEMENT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2859,7 +3463,7 @@
 			<west> 5.590873 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2868,7 +3472,11 @@
   <Placemark id="parcelle_13_personne_morale.80804">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130130000C0501</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">LA POMME</SimpleData>
+		<SimpleData name="Dénomination">AUTOROUTE ESTEREL COTE AZUR PROVENCE ALP</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2878,7 +3486,7 @@
 			<west> 5.576342 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2887,7 +3495,11 @@
   <Placemark id="parcelle_13_personne_morale.86166">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130130000K0057</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">L ALBINOS</SimpleData>
+		<SimpleData name="Dénomination">LES OLIVIERS</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2897,7 +3509,7 @@
 			<west> 5.585102 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2906,7 +3518,11 @@
   <Placemark id="parcelle_13_personne_morale.89443">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AC0061</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">LE GRAND LOT</SimpleData>
+		<SimpleData name="Dénomination">COPROPRIETAIRES 013 AC 61</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2916,7 +3532,7 @@
 			<west> 5.590342 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2925,7 +3541,11 @@
   <Placemark id="parcelle_13_personne_morale.90133">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AI0062</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">LES GOURGUIGNOLES</SimpleData>
+		<SimpleData name="Dénomination">SCI LES GOURGUIGNOLES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2935,7 +3555,7 @@
 			<west> 5.582507 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2944,7 +3564,11 @@
   <Placemark id="parcelle_13_personne_morale.94909">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AD0007</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">PUITS DE BUISSON</SimpleData>
+		<SimpleData name="Dénomination">SCI GIANNE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2954,7 +3578,7 @@
 			<west> 5.594555 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2963,7 +3587,11 @@
   <Placemark id="parcelle_13_personne_morale.97272">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130130000C0073</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">LA GALERE</SimpleData>
+		<SimpleData name="Dénomination">SCI MARIVA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2973,7 +3601,7 @@
 			<west> 5.577889 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -2982,7 +3610,11 @@
   <Placemark id="parcelle_13_personne_morale.97519">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AC0074</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">LE GRAND LOT</SimpleData>
+		<SimpleData name="Dénomination">COPROPRIETAIRES 013 AC 74</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -2992,7 +3624,7 @@
 			<west> 5.590287 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3001,7 +3633,11 @@
   <Placemark id="parcelle_13_personne_morale.101110">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130130000D0080</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">L ANGELIOU</SimpleData>
+		<SimpleData name="Dénomination">SCI ANGELIOU</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3011,7 +3647,7 @@
 			<west> 5.586889 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3020,7 +3656,11 @@
   <Placemark id="parcelle_13_personne_morale.101132">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AC0080</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">L ANGELIOU</SimpleData>
+		<SimpleData name="Dénomination">COPRO DES PARCELLES AC 81 80 84 VOIES DE LOTISSEMENT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3030,7 +3670,7 @@
 			<west> 5.590495 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3039,7 +3679,11 @@
   <Placemark id="parcelle_13_personne_morale.101608">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130130000D0081</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">L ANGELIOU</SimpleData>
+		<SimpleData name="Dénomination">SCI ANGELIOU</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3049,7 +3693,7 @@
 			<west> 5.586894 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3058,7 +3702,11 @@
   <Placemark id="parcelle_13_personne_morale.101631">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AC0081</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">L ANGELIOU</SimpleData>
+		<SimpleData name="Dénomination">COPRO DES PARCELLES AC 81 80 84 VOIES DE LOTISSEMENT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3068,7 +3716,7 @@
 			<west> 5.588477 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3077,7 +3725,11 @@
   <Placemark id="parcelle_13_personne_morale.102616">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130130000D0083</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">L ANGELIOU</SimpleData>
+		<SimpleData name="Dénomination">SCI ANGELIOU</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3087,7 +3739,7 @@
 			<west> 5.586937 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3096,7 +3748,11 @@
   <Placemark id="parcelle_13_personne_morale.103135">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AC0084</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">L ANGELIOU</SimpleData>
+		<SimpleData name="Dénomination">COPRO DES PARCELLES AC 81 80 84 VOIES DE LOTISSEMENT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3106,7 +3762,7 @@
 			<west> 5.588889 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3115,7 +3771,11 @@
   <Placemark id="parcelle_13_personne_morale.104944">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AI0088</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">LA FERME DE LALBINOS</SimpleData>
+		<SimpleData name="Dénomination">S C AGRICOLE DE BELCODENE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3125,7 +3785,7 @@
 			<west> 5.585199 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3134,7 +3794,11 @@
   <Placemark id="parcelle_13_personne_morale.105790">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">130130000I0009</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">VALLON DU TONNEAU</SimpleData>
+		<SimpleData name="Dénomination">ETUDES ET TRAVAUX DES BOYERS</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3144,7 +3808,7 @@
 			<west> 5.588066 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3153,7 +3817,11 @@
   <Placemark id="parcelle_13_personne_morale.106215">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AA0090</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">LES BARRELIERS</SimpleData>
+		<SimpleData name="Dénomination">FIMART</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3163,7 +3831,7 @@
 			<west> 5.581056 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -3172,7 +3840,11 @@
   <Placemark id="parcelle_13_personne_morale.107479">
 <styleUrl>#personne_morale</styleUrl>	
 	<ExtendedData><SchemaData schemaUrl="#parcelle_13_personne_morale">
+		<SimpleData name="Numéro de Parcelle">13013000AI0093</SimpleData>
+		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">BELCODENE</SimpleData>
+		<SimpleData name="Adresse">4, LOT DE L ALBINOS</SimpleData>
+		<SimpleData name="Dénomination">LA BELCOLINE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -3182,7 +3854,7 @@
 			<west> 5.587582 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>

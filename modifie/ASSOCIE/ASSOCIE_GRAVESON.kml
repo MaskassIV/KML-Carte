@@ -4,7 +4,11 @@
 	<name>parcelle_13_ASSOCIE.kml</name>
 	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
 	<Schema name="GRAVESON_ASSOCIE" id="GRAVESON_ASSOCIE">
+		<SimpleField type="string" name="Numéro de Parcelle"></SimpleField>
+		<SimpleField type="string" name="Departement"></SimpleField>
 		<SimpleField type="string" name="Commune"></SimpleField>
+		<SimpleField type="string" name="Adresse"></SimpleField>
+		<SimpleField type="string" name="Dénomination"></SimpleField>
 	</Schema>
 	<Style id="ASSOCIE">
 		<LineStyle>
@@ -21,7 +25,11 @@
 		<Placemark id="parcelle_13_associe.11">
 <styleUrl>#ASSOCIE</styleUrl>			<ExtendedData>
 				<SchemaData schemaUrl="#parcelle_13_associe">
+					<SimpleData name="Numéro de Parcelle">13045000AB0007</SimpleData>
+					<SimpleData name="Departement">13</SimpleData>
 					<SimpleData name="Commune">GRAVESON</SimpleData>
+					<SimpleData name="Adresse">AUBRESPIN</SimpleData>
+					<SimpleData name="Dénomination">SCI ANTARA</SimpleData>
 				</SchemaData>
 			</ExtendedData>
 	<Region>
@@ -32,7 +40,7 @@
 			<west> 4.77295896046311 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
@@ -51,7 +59,11 @@
 		<Placemark id="parcelle_13_associe.12">
 <styleUrl>#ASSOCIE</styleUrl>			<ExtendedData>
 				<SchemaData schemaUrl="#parcelle_13_associe">
+					<SimpleData name="Numéro de Parcelle">13045000AB0008</SimpleData>
+					<SimpleData name="Departement">13</SimpleData>
 					<SimpleData name="Commune">GRAVESON</SimpleData>
+					<SimpleData name="Adresse">DRA DE CACALAUZE</SimpleData>
+					<SimpleData name="Dénomination">SCI ANTARA</SimpleData>
 				</SchemaData>
 			</ExtendedData>
 	<Region>
@@ -62,7 +74,7 @@
 			<west> 4.77297689769496 </west>
 		</LatLonAltBox>
 		<Lod>
-			<minLodPixels>100</minLodPixels>
+			<minLodPixels>150</minLodPixels>
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>

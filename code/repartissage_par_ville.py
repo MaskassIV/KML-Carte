@@ -3,6 +3,7 @@ import re
 from fichiers import file_name
 
 def repartir_par_ville(chemin_fichier, option_nom_fichier):
+    i=0
     villes_box = {}
     for nom_fichier in file_name:
         if os.path.exists(chemin_fichier+option_nom_fichier+"parcelle_13_"+nom_fichier+".kml"):
@@ -31,9 +32,6 @@ def repartir_par_ville(chemin_fichier, option_nom_fichier):
                                 match = re.search(r'<SimpleData name="Commune">(.*?)</SimpleData>', ligne_bloc)
                                 if match:
                                     nom_ville= match.group(1)
-                                else:
-                                    nom_ville = "Pas de ville"
-                                    print(">> Pas de match")
                             if "<north>" in ligne_bloc or "<south>" in ligne_bloc or "<east>" in ligne_bloc or "<west>" in ligne_bloc :
                                 if nom_ville:
                                     calculer_box_ville(ligne_bloc, villes_box, nom_ville)
@@ -43,6 +41,7 @@ def repartir_par_ville(chemin_fichier, option_nom_fichier):
                             break
                     if nom_ville:
                         if nom_ville not in villes:
+                            i+=1
                             villes[nom_ville] = []
                         villes[nom_ville].extend(bloc)
         os.makedirs("./modifie/"+nom_fichier, exist_ok=True)
@@ -53,6 +52,7 @@ def repartir_par_ville(chemin_fichier, option_nom_fichier):
                     p.writelines(bloc)
                 p.writelines(outro)
         print("Fichier par ville termine pour "+ nom_fichier)
+    print("i vaut "+str(len(villes)))
     return villes_box
 
 

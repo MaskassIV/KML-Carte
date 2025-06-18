@@ -2,7 +2,7 @@ import os
 import re
 from fichiers import file_name
 
-def simplifier(cheminFichier, option_nom_fichier):
+def simplifier(cheminFichier, option_nom_fichier, departement):
     for nom_fichier in os.listdir(cheminFichier):
         if "S_" in nom_fichier:
                 chemin_fichier = os.path.join(cheminFichier, nom_fichier)
@@ -11,11 +11,11 @@ def simplifier(cheminFichier, option_nom_fichier):
                     print(f"Supprime : {chemin_fichier}")
     option_nom_fichier_bis=option_nom_fichier+"S_"
     for nom_fichier in file_name:
-        if  os.path.exists(cheminFichier+option_nom_fichier+"parcelle_13_"+nom_fichier+".kml"):
-            with open(cheminFichier+option_nom_fichier+"parcelle_13_"+nom_fichier+".kml", "r", encoding="utf-8") as f:
+        if  os.path.exists(cheminFichier+option_nom_fichier+"parcelle_"+str(departement)+"_"+nom_fichier+".kml"):
+            with open(cheminFichier+option_nom_fichier+"parcelle_"+str(departement)+"_"+nom_fichier+".kml", "r", encoding="utf-8") as f:
                 lignes = f.readlines()
         else:
-            with open(option_nom_fichier+"parcelle_13_"+nom_fichier+".kml", "r", encoding="utf-8") as f:
+            with open(option_nom_fichier+"parcelle_"+str(departement)+"_"+nom_fichier+".kml", "r", encoding="utf-8") as f:
                 lignes = f.readlines()
         lignes = iter(lignes)
         lignes_simplifiees = []
@@ -24,9 +24,9 @@ def simplifier(cheminFichier, option_nom_fichier):
                 lignes_simplifiees.append(arrondir_coordonnees(ligne))
             else:
                 lignes_simplifiees.append(ligne)
-        with open(cheminFichier+option_nom_fichier+"parcelle_13_"+nom_fichier+".kml", "w", encoding="utf-8") as p:
+        with open(cheminFichier+option_nom_fichier+"parcelle_"+str(departement)+"_"+nom_fichier+".kml", "w", encoding="utf-8") as p:
             p.writelines(lignes_simplifiees)
-        os.rename(cheminFichier+option_nom_fichier+"parcelle_13_"+nom_fichier+".kml", cheminFichier+option_nom_fichier_bis+"parcelle_13_"+nom_fichier+".kml")
+        os.rename(cheminFichier+option_nom_fichier+"parcelle_"+str(departement)+"_"+nom_fichier+".kml", cheminFichier+option_nom_fichier_bis+"parcelle_"+str(departement)+"_"+nom_fichier+".kml")
         print("Simplification termine pour "+nom_fichier)
     return option_nom_fichier_bis
         

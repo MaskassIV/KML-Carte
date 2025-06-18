@@ -2,15 +2,15 @@ import os
 import re
 from fichiers import file_name
 
-def repartir_par_ville(chemin_fichier, option_nom_fichier):
+def repartir_par_ville(chemin_fichier, option_nom_fichier, departement):
     i=0
     villes_box = {}
     for nom_fichier in file_name:
-        if os.path.exists(chemin_fichier+option_nom_fichier+"parcelle_13_"+nom_fichier+".kml"):
-            with open(chemin_fichier+option_nom_fichier+"parcelle_13_"+nom_fichier+".kml", "r", encoding="utf-8") as f:
+        if os.path.exists(chemin_fichier+option_nom_fichier+"parcelle_"+str(departement)+"_"+nom_fichier+".kml"):
+            with open(chemin_fichier+option_nom_fichier+"parcelle_"+str(departement)+"_"+nom_fichier+".kml", "r", encoding="utf-8") as f:
                 lignes = f.readlines()
         else:
-            with open(option_nom_fichier+"parcelle_13_"+nom_fichier+".kml", "r", encoding="utf-8") as f:
+            with open(option_nom_fichier+"parcelle_"+str(departement)+"_"+nom_fichier+".kml", "r", encoding="utf-8") as f:
                 lignes = f.readlines()
         lignes = iter(lignes)
         intro = []

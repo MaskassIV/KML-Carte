@@ -9,7 +9,7 @@ import tkinter as tk
 coords = [
     ("Marseille", 43.2965, 5.3698),
     ("Avignon", 43.9493, 4.8055),
-    ("Arles", 43.67<66, 4.6278),
+    ("Arles", 43.6766, 4.6278),
 ]
 
 output_dir = "captures"

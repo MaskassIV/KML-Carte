@@ -15,29 +15,17 @@ couleurs_kml = {
     "PUBLICorASSOCIE": "db2105"
 }
 
-def colorier(chemin_fichier, option_nom_fichier, departement):
-    option_nom_fichier_bis=option_nom_fichier+"C_"
-    supprimer_fichier(chemin_fichier, option_nom_fichier_bis)
-    for nom_fichier in file_name:
-        if os.path.exists(chemin_fichier+option_nom_fichier+"parcelle_"+str(departement)+"_"+nom_fichier+".kml"):
-            with open(chemin_fichier+option_nom_fichier+"parcelle_"+str(departement)+"_"+nom_fichier+".kml", "r", encoding="utf-8") as f:
-                lignes = f.readlines()
-        else:
-            with open(option_nom_fichier+"parcelle_"+str(departement)+"_"+nom_fichier+".kml", "r", encoding="utf-8") as f:
-                lignes = f.readlines()
-        lignes = iter(lignes)
-        lignes_colorees = []
-        for ligne in lignes:
-            if "<Folder>" in ligne:
-                lignes_colorees.append(creer_bloc_style(nom_fichier))
-            lignes_colorees.append(ligne)
-            if "<Placemark " in ligne:
-                lignes_colorees.append("<styleUrl>#"+nom_fichier+"</styleUrl>")
-        with open(chemin_fichier+option_nom_fichier+"parcelle_"+str(departement)+"_"+nom_fichier+".kml", "w", encoding="utf-8") as p:
-            p.writelines(lignes_colorees)
-        os.rename(chemin_fichier+option_nom_fichier+"parcelle_"+str(departement)+"_"+nom_fichier+".kml", chemin_fichier+option_nom_fichier_bis+"parcelle_"+str(departement)+"_"+nom_fichier+".kml")
-        print("Coloration termine pour "+nom_fichier)
-    return option_nom_fichier_bis
+def colorier(lignes, nom_fichier):
+#    supprimer_fichier(chemin_fichier, option_nom_fichier_bis)
+    lignes = iter(lignes)
+    lignes_colorees = []
+    for ligne in lignes:
+        if "<Folder>" in ligne:
+            lignes_colorees.append(creer_bloc_style(nom_fichier))
+        lignes_colorees.append(ligne)
+        if "<Placemark " in ligne:
+            lignes_colorees.append("<styleUrl>#"+nom_fichier+"</styleUrl>")
+    return lignes_colorees
 
 def inversion_couleur(couleur):
     groupes = [couleur[i:i+2] for i in range(0, len(couleur), 2)]

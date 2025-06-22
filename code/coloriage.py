@@ -16,15 +16,28 @@ couleurs_kml = {
 }
 
 def colorier(lignes, nom_fichier):
-#    supprimer_fichier(chemin_fichier, option_nom_fichier_bis)
     lignes = iter(lignes)
     lignes_colorees = []
+    style_ajoute = False
+    
     for ligne in lignes:
-        if "<Folder>" in ligne:
-            lignes_colorees.append(creer_bloc_style(nom_fichier))
         lignes_colorees.append(ligne)
+        
+        # Insérer le style après le Schema et avant le premier Placemark
+        if not style_ajoute and ("</Schema>" in ligne or ("<Placemark " in ligne)):
+            if "</Schema>" in ligne:
+                # Insérer après la fermeture du Schema
+                lignes_colorees.append(creer_bloc_style(nom_fichier))
+                style_ajoute = True
+            elif "<Placemark " in ligne and not style_ajoute:
+                # Si on arrive à un Placemark sans avoir vu de Schema, insérer avant
+                lignes_colorees.insert(-1, creer_bloc_style(nom_fichier))
+                style_ajoute = True
+        
+        # Ajouter la référence de style après chaque ouverture de Placemark
         if "<Placemark " in ligne:
-            lignes_colorees.append("<styleUrl>#"+nom_fichier+"</styleUrl>")
+            lignes_colorees.append("\t\t<styleUrl>#"+nom_fichier+"</styleUrl>")
+    
     return lignes_colorees
 
 def inversion_couleur(couleur):
@@ -38,4 +51,4 @@ def opacite(couleur, pourcentage):
 
 def creer_bloc_style(nomCouleur):
     epaisseur_bordure = 1.5
-    return "\t<Style id=\""+nomCouleur+"\">\n\t\t<LineStyle>\n\t\t\t<color>"+opacite(couleurs_kml[nomCouleur], 75)+"</color>\n\t\t\t<width>"+str(epaisseur_bordure)+"</width>\n\t\t</LineStyle>\n\t\t<PolyStyle>\n\t\t\t<color>"+opacite(couleurs_kml[nomCouleur], 30)+"</color>\n\t\t\t<fill>1</fill>\n\t\t\t<outline>1</outline>\n\t\t</PolyStyle>\n\t</Style>"
+    return "\t\t<Style id=\""+nomCouleur+"\">\n\t\t\t<LineStyle>\n\t\t\t\t<color>"+opacite(couleurs_kml[nomCouleur], 75)+"</color>\n\t\t\t\t<width>"+str(epaisseur_bordure)+"</width>\n\t\t\t</LineStyle>\n\t\t\t<PolyStyle>\n\t\t\t\t<color>"+opacite(couleurs_kml[nomCouleur], 30)+"</color>\n\t\t\t\t<fill>1</fill>\n\t\t\t\t<outline>1</outline>\n\t\t\t</PolyStyle>\n\t\t</Style>\n"

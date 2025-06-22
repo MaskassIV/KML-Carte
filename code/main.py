@@ -27,7 +27,7 @@ def main():
             if os.path.exists(chemin_fichier+str(departement)+"/parcelle_"+str(departement)+"_"+fichier+".kml"):
                 with open(chemin_fichier+str(departement)+"/parcelle_"+str(departement)+"_"+fichier+".kml", "r", encoding="cp1252") as f:
                     lignes = f.readlines()
-                #lignes=colorier(simplifier(nettoyer(lignes, departement)), fichier)
+          #      lignes=colorier(simplifier(nettoyer(lignes, departement)), fichier)
                 lignes=zoom(colorier(simplifier(nettoyer(lignes, departement)), fichier))
                 with open("./modifie/Brute/parcelle_"+str(departement)+"_"+fichier+"_test.kml", "w", encoding="cp1252") as p:
                     p.writelines(lignes)
@@ -37,7 +37,7 @@ def main():
     
     shutil.rmtree('./modifie/Brute')
     kml_to_kmz_batch("./modifie")
-    creer_master("./modifie", villes_box)
+ #   creer_master("./modifie", villes_box)
 
       
 main()

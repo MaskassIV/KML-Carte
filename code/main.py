@@ -1,5 +1,6 @@
 import os
 import glob
+import shutil
 from nettoyage import nettoyer
 from simplifiage import simplifier
 from coloriage import colorier
@@ -9,9 +10,11 @@ from creation_master import creer_master
 from altitude import mise_en_hauteur
 from departements import liste_departements
 from fichiers import file_name
+from kml_to_kmz import kml_to_kmz_batch
 
 def main():
     nom_dossier="initial"
+    os.mkdir("./modifie/Brute")
     if not os.path.exists(nom_dossier):
         os.makedirs(nom_dossier)
     chemin_fichier="./"+nom_dossier+"/"
@@ -29,10 +32,13 @@ def main():
                 with open("./modifie/Brute/parcelle_"+str(departement)+"_"+fichier+"_test.kml", "w", encoding="cp1252") as p:
                     p.writelines(lignes)
         villes_box.update(repartir_par_ville(departement))
-        
-    mise_en_hauteur("./modifie")
-    creer_master("./modifie", villes_box)
     
+    mise_en_hauteur("./modifie")
+    
+    shutil.rmtree('./modifie/Brute')
+    kml_to_kmz_batch("./modifie")
+    creer_master("./modifie", villes_box)
+
       
 main()
 

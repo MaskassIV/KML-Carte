@@ -9,8 +9,8 @@ def creer_master(chemin_fichier, villes_box):
         for ville in villes_box:
             liste_fichier = {}
             for nom_fichiers in file_name:
-                if os.path.exists("./modifie"+"/"+nom_fichiers+"/"+nom_fichiers+"_"+ville+".kml"):
-                    liste_fichier[nom_fichiers]=nom_fichiers+"/"+nom_fichiers+"_"+ville+".kml"
+                if os.path.exists("./modifie"+"/"+nom_fichiers+"/"+nom_fichiers+"_"+ville+".kmz"):
+                    liste_fichier[nom_fichiers]=nom_fichiers+"/"+nom_fichiers+"_"+ville+".kmz"
             p.writelines("\t<Folder>\n\t\t<name>"+ville+"</name>\n")
             for fichier in liste_fichier:
                 lien ="https://raw.githubusercontent.com/MaskassIV/KML-Carte/refs/heads/master/modifie/"+liste_fichier[fichier].replace(" ", "%20")

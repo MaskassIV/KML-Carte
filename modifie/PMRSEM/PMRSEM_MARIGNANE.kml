@@ -2,11 +2,13 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document id="root_doc">
 <Schema name="MARIGNANE_PMRSEM" id="MARIGNANE_PMRSEM">
-	<SimpleField name="Numéro de Parcelle" type="string"></SimpleField>
+	<SimpleField name="Numero de Parcelle" type="string"></SimpleField>
 	<SimpleField name="Departement" type="string"></SimpleField>
 	<SimpleField name="Commune" type="string"></SimpleField>
 	<SimpleField name="Adresse" type="string"></SimpleField>
-	<SimpleField name="Dénomination" type="string"></SimpleField>
+	<SimpleField name="Groupe de personne" type="string"></SimpleField>
+	<SimpleField name="Forme Juridique Abregee" type="string"></SimpleField>
+	<SimpleField name="Denomination" type="string"></SimpleField>
 </Schema>
 	<Style id="PMRSEM">
 		<LineStyle>
@@ -19,14 +21,16 @@
 			<outline>1</outline>
 		</PolyStyle>
 	</Style><Folder><name>parcelle_13_pmrsem</name>
-  <Placemark id="parcelle_13_pmrsem.153">
+  <Placemark id="pmrsem.153">
 <styleUrl>#PMRSEM</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_pmrsem">
-		<SimpleData name="Numéro de Parcelle">13054000BN0201</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#pmrsem">
+		<SimpleData name="Numero de Parcelle">13054000BN0201</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARIGNANE</SimpleData>
 		<SimpleData name="Adresse">38, CLOS DU RAUMARTIN</SimpleData>
-		<SimpleData name="Dénomination">SOCIETE FRANCAISE DES HABITATIONS ECONOMIQUES - SOCIETE ANON</SimpleData>
+		<SimpleData name="Groupe de personne">Personnes morales representant des societes d'economie mixte</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">SOCIETE FRANCAISE DES HABITATIONS ECONOMIQUES - SOCIETE ANON</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -40,6 +44,6 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.220338,43.407986 5.220397,43.408008 5.220686,43.408108 5.220822,43.408156 5.22088,43.408062 5.22098,43.408096 5.221146,43.40782 5.221256,43.407753 5.221279,43.407714 5.2211,43.407663 5.220976,43.407629 5.220786,43.407575 5.220669,43.407544 5.220645,43.407536 5.220554,43.407672 5.220524,43.407716 5.220471,43.407795 5.220465,43.407803 5.220338,43.407986</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.220338,43.407986 5.220397,43.408008 5.220686,43.408108 5.220822,43.408156 5.22088,43.408062 5.22098,43.408096 5.221146,43.40782 5.221256,43.407753 5.221279,43.407714 5.2211,43.407663 5.220976,43.407629 5.220786,43.407575 5.220669,43.407544 5.220645,43.407536 5.220554,43.407672 5.220524,43.407716 5.220471,43.407795 5.220465,43.407803 5.220338,43.407986</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
 </Folder></Document></kml>

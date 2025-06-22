@@ -2,11 +2,13 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document id="root_doc">
 <Schema name="SENAS_ETAT" id="SENAS_ETAT">
-	<SimpleField name="Numéro de Parcelle" type="string"></SimpleField>
+	<SimpleField name="Numero de Parcelle" type="string"></SimpleField>
 	<SimpleField name="Departement" type="string"></SimpleField>
 	<SimpleField name="Commune" type="string"></SimpleField>
 	<SimpleField name="Adresse" type="string"></SimpleField>
-	<SimpleField name="Dénomination" type="string"></SimpleField>
+	<SimpleField name="Groupe de personne" type="string"></SimpleField>
+	<SimpleField name="Forme Juridique Abregee" type="string"></SimpleField>
+	<SimpleField name="Denomination" type="string"></SimpleField>
 </Schema>
 	<Style id="ETAT">
 		<LineStyle>
@@ -19,14 +21,16 @@
 			<outline>1</outline>
 		</PolyStyle>
 	</Style><Folder><name>parcelle_13_etat</name>
-  <Placemark id="parcelle_13_etat.1174">
+  <Placemark id="etat.1174">
 <styleUrl>#ETAT</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
-		<SimpleData name="Numéro de Parcelle">13105000AL0122</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#etat">
+		<SimpleData name="Numero de Parcelle">13105000AL0122</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SENAS</SimpleData>
 		<SimpleData name="Adresse">LES PATIS-OUEST</SimpleData>
-		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
+		<SimpleData name="Groupe de personne">Etat</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">ETAT</SimpleData>
+		<SimpleData name="Denomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -40,16 +44,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.07881,43.758518 5.078584,43.758334 5.078555,43.758357 5.078514,43.758389 5.078757,43.758586 5.07881,43.758518</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.07881,43.758518 5.078584,43.758334 5.078555,43.758357 5.078514,43.758389 5.078757,43.758586 5.07881,43.758518</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_etat.1233">
+  <Placemark id="etat.1233">
 <styleUrl>#ETAT</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
-		<SimpleData name="Numéro de Parcelle">13105000AL0125</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#etat">
+		<SimpleData name="Numero de Parcelle">13105000AL0125</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SENAS</SimpleData>
 		<SimpleData name="Adresse">5433, LES PATIS-OUEST</SimpleData>
-		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
+		<SimpleData name="Groupe de personne">Etat</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">ETAT</SimpleData>
+		<SimpleData name="Denomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -63,16 +69,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.077704,43.758999 5.077566,43.759114 5.077426,43.759227 5.077342,43.759293 5.077331,43.759303 5.077334,43.759327 5.077335,43.759353 5.077335,43.759379 5.077313,43.75944 5.07726,43.759521 5.077413,43.75961 5.07759,43.759695 5.077644,43.759713 5.07781,43.759739 5.07795,43.759642 5.077965,43.759622 5.078475,43.758954 5.078278,43.758794 5.078103,43.758654 5.077704,43.758999</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.077704,43.758999 5.077566,43.759114 5.077426,43.759227 5.077342,43.759293 5.077331,43.759303 5.077334,43.759327 5.077335,43.759353 5.077335,43.759379 5.077313,43.75944 5.07726,43.759521 5.077413,43.75961 5.07759,43.759695 5.077644,43.759713 5.07781,43.759739 5.07795,43.759642 5.077965,43.759622 5.078475,43.758954 5.078278,43.758794 5.078103,43.758654 5.077704,43.758999</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_etat.1964">
+  <Placemark id="etat.1964">
 <styleUrl>#ETAT</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
-		<SimpleData name="Numéro de Parcelle">13105000AL0156</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#etat">
+		<SimpleData name="Numero de Parcelle">13105000AL0156</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SENAS</SimpleData>
 		<SimpleData name="Adresse">5434, LA CAMPANE</SimpleData>
-		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
+		<SimpleData name="Groupe de personne">Etat</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">ETAT</SimpleData>
+		<SimpleData name="Denomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -86,16 +94,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.078103,43.758654 5.078278,43.758794 5.078475,43.758954 5.078757,43.758586 5.078514,43.758389 5.078103,43.758654</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.078103,43.758654 5.078278,43.758794 5.078475,43.758954 5.078757,43.758586 5.078514,43.758389 5.078103,43.758654</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_etat.4284">
+  <Placemark id="etat.4284">
 <styleUrl>#ETAT</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
-		<SimpleData name="Numéro de Parcelle">13105000AS0294</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#etat">
+		<SimpleData name="Numero de Parcelle">13105000AS0294</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SENAS</SimpleData>
 		<SimpleData name="Adresse">LA GENESTIERE</SimpleData>
-		<SimpleData name="Dénomination">MINISTERE DE L ECOLOGIE</SimpleData>
+		<SimpleData name="Groupe de personne">Etat</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">ETAT</SimpleData>
+		<SimpleData name="Denomination">MINISTERE DE L ECOLOGIE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -109,16 +119,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.08431,43.749889 5.084155,43.74986 5.084202,43.749877 5.084305,43.749908 5.08431,43.749889</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.08431,43.749889 5.084155,43.74986 5.084202,43.749877 5.084305,43.749908 5.08431,43.749889</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_etat.7471">
+  <Placemark id="etat.7471">
 <styleUrl>#ETAT</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
-		<SimpleData name="Numéro de Parcelle">13105000AL0095</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#etat">
+		<SimpleData name="Numero de Parcelle">13105000AL0095</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SENAS</SimpleData>
 		<SimpleData name="Adresse">LES PATIS-OUEST</SimpleData>
-		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
+		<SimpleData name="Groupe de personne">Etat</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">ETAT</SimpleData>
+		<SimpleData name="Denomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -132,6 +144,6 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.077101,43.758812 5.0771,43.75883 5.077243,43.759077 5.077298,43.759179 5.077331,43.759303 5.077342,43.759293 5.077426,43.759227 5.077566,43.759114 5.077704,43.758999 5.077101,43.758812</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.077101,43.758812 5.0771,43.75883 5.077243,43.759077 5.077298,43.759179 5.077331,43.759303 5.077342,43.759293 5.077426,43.759227 5.077566,43.759114 5.077704,43.758999 5.077101,43.758812</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
 </Folder></Document></kml>

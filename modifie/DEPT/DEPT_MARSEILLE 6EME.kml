@@ -2,11 +2,13 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document id="root_doc">
 <Schema name="MARSEILLE 6EME_DEPT" id="MARSEILLE 6EME_DEPT">
-	<SimpleField name="Numéro de Parcelle" type="string"></SimpleField>
+	<SimpleField name="Numero de Parcelle" type="string"></SimpleField>
 	<SimpleField name="Departement" type="string"></SimpleField>
 	<SimpleField name="Commune" type="string"></SimpleField>
 	<SimpleField name="Adresse" type="string"></SimpleField>
-	<SimpleField name="Dénomination" type="string"></SimpleField>
+	<SimpleField name="Groupe de personne" type="string"></SimpleField>
+	<SimpleField name="Forme Juridique Abregee" type="string"></SimpleField>
+	<SimpleField name="Denomination" type="string"></SimpleField>
 </Schema>
 	<Style id="DEPT">
 		<LineStyle>
@@ -19,14 +21,16 @@
 			<outline>1</outline>
 		</PolyStyle>
 	</Style><Folder><name>parcelle_13_dept</name>
-  <Placemark id="parcelle_13_dept.7806">
+  <Placemark id="dept.7806">
 <styleUrl>#DEPT</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
-		<SimpleData name="Numéro de Parcelle">132068260A0162</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#dept">
+		<SimpleData name="Numero de Parcelle">132068260A0162</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
 		<SimpleData name="Adresse">61, RUE GRIGNAN</SimpleData>
-		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
+		<SimpleData name="Groupe de personne">Departement</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">DEPT</SimpleData>
+		<SimpleData name="Denomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -40,15 +44,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.37519,43.291,15 5.37517,43.291046,15 5.374905,43.290988,15 5.374922,43.290944,15 5.375189,43.291,15 5.374924,43.290939,15 5.374891,43.290931,15 5.374862,43.290998,15 5.374857,43.290996,15 5.374821,43.291085,15 5.374661,43.291049,15 5.37466,43.291052,15 5.374596,43.291037,15 5.37443,43.291413,15 5.374419,43.29144,15 5.374391,43.291502,15 5.374806,43.2916,15 5.375192,43.29169,15 5.375385,43.291215,15 5.375322,43.291202,15 5.375323,43.291199,15 5.375163,43.291162,15 5.375201,43.291074,15 5.375195,43.291073,15 5.375223,43.291007,15 5.37519,43.291,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_dept.7817">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.37519,43.291,15 5.37517,43.291046,15 5.374905,43.290988,15 5.374922,43.290944,15 5.375189,43.291,15 5.374924,43.290939,15 5.374891,43.290931,15 5.374862,43.290998,15 5.374857,43.290996,15 5.374821,43.291085,15 5.374661,43.291049,15 5.37466,43.291052,15 5.374596,43.291037,15 5.37443,43.291413,15 5.374419,43.29144,15 5.374391,43.291502,15 5.374806,43.2916,15 5.375192,43.29169,15 5.375385,43.291215,15 5.375322,43.291202,15 5.375323,43.291199,15 5.375163,43.291162,15 5.375201,43.291074,15 5.375195,43.291073,15 5.375223,43.291007,15 5.37519,43.291,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="dept.7817">
 <styleUrl>#DEPT</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
-		<SimpleData name="Numéro de Parcelle">132068270B0017</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#dept">
+		<SimpleData name="Numero de Parcelle">132068270B0017</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
 		<SimpleData name="Adresse">1, PL DE LA PREFECTURE</SimpleData>
-		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
+		<SimpleData name="Groupe de personne">Departement</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">DEPT</SimpleData>
+		<SimpleData name="Denomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -62,15 +69,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.379878,43.28966,15 5.37988,43.28966,15 5.379869,43.28968,15 5.379867,43.289679,15 5.379865,43.289682,15 5.379858,43.28968,15 5.379853,43.289691,15 5.37986,43.289693,15 5.379842,43.289727,15 5.379834,43.289724,15 5.379828,43.289734,15 5.379835,43.289736,15 5.379834,43.289739,15 5.379836,43.289739,15 5.379825,43.289759,15 5.379824,43.289758,15 5.379818,43.289768,15 5.37982,43.289769,15 5.379818,43.289773,15 5.379829,43.289775,15 5.379755,43.289906,15 5.379752,43.289906,15 5.379744,43.289918,15 5.379742,43.289916,15 5.37974,43.289918,15 5.379733,43.289916,15 5.379713,43.289953,15 5.379722,43.289955,15 5.379706,43.289985,15 5.379697,43.289982,15 5.379676,43.290017,15 5.379681,43.290019,15 5.379679,43.290021,15 5.379685,43.290022,15 5.379607,43.290163,15 5.379595,43.290159,15 5.379593,43.290163,15 5.379591,43.290162,15 5.379582,43.290177,15 5.379583,43.290178,15 5.379575,43.290192,15 5.379574,43.290192,15 5.379572,43.290194,15 5.379566,43.290192,15 5.379558,43.290207,15 5.379563,43.290208,15 5.379547,43.290238,15 5.379541,43.290236,15 5.379533,43.290252,15 5.379539,43.290254,15 5.379538,43.290256,15 5.379539,43.290256,15 5.379532,43.29027,15 5.37953,43.29027,15 5.379521,43.290284,15 5.379523,43.290285,15 5.379521,43.290288,15 5.379526,43.290289,15 5.379525,43.290292,15 5.379547,43.290298,15 5.379547,43.290298,15 5.379566,43.290303,15 5.379566,43.290304,15 5.379568,43.290305,15 5.379566,43.290309,15 5.379587,43.290316,15 5.379588,43.290312,15 5.379629,43.290324,15 5.379626,43.290328,15 5.379647,43.290334,15 5.379649,43.29033,15 5.379653,43.290331,15 5.379655,43.29033,15 5.379672,43.290335,15 5.379672,43.290336,15 5.379693,43.290343,15 5.379694,43.290341,15 5.379698,43.290343,15 5.379703,43.290336,15 5.379723,43.290341,15 5.379724,43.290341,15 5.379754,43.29035,15 5.379754,43.290351,15 5.379773,43.290357,15 5.379774,43.290356,15 5.379805,43.290365,15 5.379804,43.290366,15 5.379826,43.290373,15 5.379827,43.290372,15 5.379857,43.290382,15 5.379857,43.290382,15 5.379877,43.290388,15 5.379878,43.290388,15 5.379908,43.290397,15 5.379908,43.290397,15 5.379928,43.290403,15 5.379929,43.290403,15 5.379959,43.290413,15 5.379958,43.290413,15 5.379978,43.290418,15 5.379976,43.290424,15 5.37998,43.290425,15 5.379977,43.290431,15 5.380012,43.290441,15 5.380017,43.290433,15 5.380068,43.290449,15 5.380064,43.290457,15 5.380098,43.290467,15 5.380101,43.290462,15 5.380106,43.290464,15 5.380109,43.290459,15 5.380128,43.290465,15 5.380129,43.290464,15 5.380161,43.290473,15 5.38016,43.290474,15 5.38018,43.29048,15 5.38018,43.290479,15 5.380211,43.290489,15 5.380211,43.29049,15 5.380231,43.290496,15 5.380232,43.290495,15 5.380262,43.290504,15 5.380261,43.290505,15 5.380284,43.29051,15 5.380282,43.29051,15 5.380313,43.290519,15 5.380313,43.29052,15 5.380334,43.290527,15 5.380335,43.290526,15 5.380365,43.290535,15 5.380365,43.290536,15 5.380384,43.290542,15 5.38038,43.290549,15 5.380386,43.29055,15 5.380385,43.290552,15 5.380404,43.290558,15 5.380405,43.290558,15 5.380424,43.290563,15 5.380423,43.290564,15 5.380427,43.290565,15 5.380424,43.29057,15 5.380445,43.290576,15 5.380448,43.290572,15 5.380487,43.290584,15 5.380486,43.290588,15 5.380505,43.290594,15 5.380507,43.290589,15 5.380512,43.290591,15 5.380512,43.29059,15 5.380531,43.290595,15 5.380531,43.290596,15 5.380552,43.290603,15 5.380552,43.290602,15 5.38056,43.290603,15 5.380565,43.290595,15 5.380795,43.290664,15 5.380812,43.290636,15 5.380838,43.290612,15 5.380871,43.290594,15 5.380909,43.290581,15 5.38095,43.290575,15 5.38099,43.290576,15 5.381284,43.290059,15 5.381284,43.290042,15 5.381268,43.29003,15 5.380931,43.289939,15 5.380933,43.289936,15 5.38093,43.289935,15 5.380933,43.289931,15 5.380928,43.289929,15 5.380928,43.289929,15 5.380914,43.289924,15 5.380914,43.289925,15 5.380888,43.289919,15 5.380888,43.289917,15 5.380884,43.289917,15 5.380887,43.289912,15 5.380874,43.289908,15 5.380872,43.289912,15 5.380825,43.289899,15 5.380826,43.289895,15 5.380812,43.289891,15 5.38081,43.289896,15 5.380806,43.289895,15 5.380806,43.289897,15 5.38078,43.289889,15 5.38078,43.289889,15 5.380766,43.289884,15 5.380765,43.289886,15 5.38076,43.289884,15 5.380758,43.289888,15 5.380752,43.289888,15 5.380752,43.289887,15 5.380705,43.289876,15 5.380706,43.289874,15 5.380674,43.289866,15 5.380673,43.289866,15 5.380626,43.289854,15 5.380627,43.289853,15 5.380598,43.289845,15 5.380596,43.289846,15 5.38055,43.289833,15 5.38055,43.289832,15 5.38052,43.289824,15 5.380519,43.289825,15 5.380472,43.289812,15 5.380472,43.289811,15 5.380468,43.289809,15 5.380468,43.289808,15 5.380448,43.289803,15 5.38045,43.289799,15 5.380436,43.289795,15 5.380433,43.289801,15 5.380386,43.289787,15 5.380388,43.289782,15 5.380374,43.289778,15 5.380372,43.289782,15 5.380351,43.289775,15 5.38035,43.289777,15 5.380345,43.289776,15 5.380344,43.289777,15 5.380297,43.289765,15 5.380298,43.289763,15 5.380267,43.289755,15 5.380267,43.289756,15 5.380219,43.289743,15 5.380221,43.289741,15 5.38019,43.289734,15 5.38019,43.289735,15 5.380142,43.289722,15 5.380144,43.289721,15 5.380112,43.289712,15 5.380112,43.289714,15 5.380066,43.289701,15 5.380066,43.289699,15 5.38006,43.289698,15 5.380062,43.289693,15 5.380056,43.289692,15 5.380057,43.289691,15 5.380043,43.289687,15 5.380042,43.289688,15 5.380016,43.289681,15 5.380017,43.28968,15 5.380013,43.289679,15 5.380016,43.289674,15 5.380002,43.28967,15 5.38,43.289674,15 5.379953,43.289662,15 5.379955,43.289657,15 5.379941,43.289653,15 5.379938,43.289658,15 5.379934,43.289657,15 5.379934,43.289659,15 5.379907,43.289651,15 5.379908,43.28965,15 5.379895,43.289647,15 5.379894,43.289648,15 5.379888,43.289646,15 5.379885,43.289651,15 5.379884,43.28965,15 5.379878,43.28966,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_dept.7828">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.379878,43.28966,15 5.37988,43.28966,15 5.379869,43.28968,15 5.379867,43.289679,15 5.379865,43.289682,15 5.379858,43.28968,15 5.379853,43.289691,15 5.37986,43.289693,15 5.379842,43.289727,15 5.379834,43.289724,15 5.379828,43.289734,15 5.379835,43.289736,15 5.379834,43.289739,15 5.379836,43.289739,15 5.379825,43.289759,15 5.379824,43.289758,15 5.379818,43.289768,15 5.37982,43.289769,15 5.379818,43.289773,15 5.379829,43.289775,15 5.379755,43.289906,15 5.379752,43.289906,15 5.379744,43.289918,15 5.379742,43.289916,15 5.37974,43.289918,15 5.379733,43.289916,15 5.379713,43.289953,15 5.379722,43.289955,15 5.379706,43.289985,15 5.379697,43.289982,15 5.379676,43.290017,15 5.379681,43.290019,15 5.379679,43.290021,15 5.379685,43.290022,15 5.379607,43.290163,15 5.379595,43.290159,15 5.379593,43.290163,15 5.379591,43.290162,15 5.379582,43.290177,15 5.379583,43.290178,15 5.379575,43.290192,15 5.379574,43.290192,15 5.379572,43.290194,15 5.379566,43.290192,15 5.379558,43.290207,15 5.379563,43.290208,15 5.379547,43.290238,15 5.379541,43.290236,15 5.379533,43.290252,15 5.379539,43.290254,15 5.379538,43.290256,15 5.379539,43.290256,15 5.379532,43.29027,15 5.37953,43.29027,15 5.379521,43.290284,15 5.379523,43.290285,15 5.379521,43.290288,15 5.379526,43.290289,15 5.379525,43.290292,15 5.379547,43.290298,15 5.379547,43.290298,15 5.379566,43.290303,15 5.379566,43.290304,15 5.379568,43.290305,15 5.379566,43.290309,15 5.379587,43.290316,15 5.379588,43.290312,15 5.379629,43.290324,15 5.379626,43.290328,15 5.379647,43.290334,15 5.379649,43.29033,15 5.379653,43.290331,15 5.379655,43.29033,15 5.379672,43.290335,15 5.379672,43.290336,15 5.379693,43.290343,15 5.379694,43.290341,15 5.379698,43.290343,15 5.379703,43.290336,15 5.379723,43.290341,15 5.379724,43.290341,15 5.379754,43.29035,15 5.379754,43.290351,15 5.379773,43.290357,15 5.379774,43.290356,15 5.379805,43.290365,15 5.379804,43.290366,15 5.379826,43.290373,15 5.379827,43.290372,15 5.379857,43.290382,15 5.379857,43.290382,15 5.379877,43.290388,15 5.379878,43.290388,15 5.379908,43.290397,15 5.379908,43.290397,15 5.379928,43.290403,15 5.379929,43.290403,15 5.379959,43.290413,15 5.379958,43.290413,15 5.379978,43.290418,15 5.379976,43.290424,15 5.37998,43.290425,15 5.379977,43.290431,15 5.380012,43.290441,15 5.380017,43.290433,15 5.380068,43.290449,15 5.380064,43.290457,15 5.380098,43.290467,15 5.380101,43.290462,15 5.380106,43.290464,15 5.380109,43.290459,15 5.380128,43.290465,15 5.380129,43.290464,15 5.380161,43.290473,15 5.38016,43.290474,15 5.38018,43.29048,15 5.38018,43.290479,15 5.380211,43.290489,15 5.380211,43.29049,15 5.380231,43.290496,15 5.380232,43.290495,15 5.380262,43.290504,15 5.380261,43.290505,15 5.380284,43.29051,15 5.380282,43.29051,15 5.380313,43.290519,15 5.380313,43.29052,15 5.380334,43.290527,15 5.380335,43.290526,15 5.380365,43.290535,15 5.380365,43.290536,15 5.380384,43.290542,15 5.38038,43.290549,15 5.380386,43.29055,15 5.380385,43.290552,15 5.380404,43.290558,15 5.380405,43.290558,15 5.380424,43.290563,15 5.380423,43.290564,15 5.380427,43.290565,15 5.380424,43.29057,15 5.380445,43.290576,15 5.380448,43.290572,15 5.380487,43.290584,15 5.380486,43.290588,15 5.380505,43.290594,15 5.380507,43.290589,15 5.380512,43.290591,15 5.380512,43.29059,15 5.380531,43.290595,15 5.380531,43.290596,15 5.380552,43.290603,15 5.380552,43.290602,15 5.38056,43.290603,15 5.380565,43.290595,15 5.380795,43.290664,15 5.380812,43.290636,15 5.380838,43.290612,15 5.380871,43.290594,15 5.380909,43.290581,15 5.38095,43.290575,15 5.38099,43.290576,15 5.381284,43.290059,15 5.381284,43.290042,15 5.381268,43.29003,15 5.380931,43.289939,15 5.380933,43.289936,15 5.38093,43.289935,15 5.380933,43.289931,15 5.380928,43.289929,15 5.380928,43.289929,15 5.380914,43.289924,15 5.380914,43.289925,15 5.380888,43.289919,15 5.380888,43.289917,15 5.380884,43.289917,15 5.380887,43.289912,15 5.380874,43.289908,15 5.380872,43.289912,15 5.380825,43.289899,15 5.380826,43.289895,15 5.380812,43.289891,15 5.38081,43.289896,15 5.380806,43.289895,15 5.380806,43.289897,15 5.38078,43.289889,15 5.38078,43.289889,15 5.380766,43.289884,15 5.380765,43.289886,15 5.38076,43.289884,15 5.380758,43.289888,15 5.380752,43.289888,15 5.380752,43.289887,15 5.380705,43.289876,15 5.380706,43.289874,15 5.380674,43.289866,15 5.380673,43.289866,15 5.380626,43.289854,15 5.380627,43.289853,15 5.380598,43.289845,15 5.380596,43.289846,15 5.38055,43.289833,15 5.38055,43.289832,15 5.38052,43.289824,15 5.380519,43.289825,15 5.380472,43.289812,15 5.380472,43.289811,15 5.380468,43.289809,15 5.380468,43.289808,15 5.380448,43.289803,15 5.38045,43.289799,15 5.380436,43.289795,15 5.380433,43.289801,15 5.380386,43.289787,15 5.380388,43.289782,15 5.380374,43.289778,15 5.380372,43.289782,15 5.380351,43.289775,15 5.38035,43.289777,15 5.380345,43.289776,15 5.380344,43.289777,15 5.380297,43.289765,15 5.380298,43.289763,15 5.380267,43.289755,15 5.380267,43.289756,15 5.380219,43.289743,15 5.380221,43.289741,15 5.38019,43.289734,15 5.38019,43.289735,15 5.380142,43.289722,15 5.380144,43.289721,15 5.380112,43.289712,15 5.380112,43.289714,15 5.380066,43.289701,15 5.380066,43.289699,15 5.38006,43.289698,15 5.380062,43.289693,15 5.380056,43.289692,15 5.380057,43.289691,15 5.380043,43.289687,15 5.380042,43.289688,15 5.380016,43.289681,15 5.380017,43.28968,15 5.380013,43.289679,15 5.380016,43.289674,15 5.380002,43.28967,15 5.38,43.289674,15 5.379953,43.289662,15 5.379955,43.289657,15 5.379941,43.289653,15 5.379938,43.289658,15 5.379934,43.289657,15 5.379934,43.289659,15 5.379907,43.289651,15 5.379908,43.28965,15 5.379895,43.289647,15 5.379894,43.289648,15 5.379888,43.289646,15 5.379885,43.289651,15 5.379884,43.28965,15 5.379878,43.28966,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="dept.7828">
 <styleUrl>#DEPT</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
-		<SimpleData name="Numéro de Parcelle">132068270B0188</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#dept">
+		<SimpleData name="Numero de Parcelle">132068270B0188</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
 		<SimpleData name="Adresse">11, RUE EDMOND ROSTAND</SimpleData>
-		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
+		<SimpleData name="Groupe de personne">Departement</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">DEPT</SimpleData>
+		<SimpleData name="Denomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -84,15 +94,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.38013,43.288827,15 5.380249,43.28886,15 5.380328,43.288882,15 5.380527,43.288935,15 5.380555,43.288879,15 5.380564,43.28886,15 5.380532,43.288853,15 5.380351,43.288811,15 5.380155,43.288768,15 5.38013,43.288827,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_dept.7831">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.38013,43.288827,15 5.380249,43.28886,15 5.380328,43.288882,15 5.380527,43.288935,15 5.380555,43.288879,15 5.380564,43.28886,15 5.380532,43.288853,15 5.380351,43.288811,15 5.380155,43.288768,15 5.38013,43.288827,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="dept.7831">
 <styleUrl>#DEPT</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
-		<SimpleData name="Numéro de Parcelle">132068270B0190</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#dept">
+		<SimpleData name="Numero de Parcelle">132068270B0190</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
 		<SimpleData name="Adresse">15, RUE EDMOND ROSTAND</SimpleData>
-		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
+		<SimpleData name="Groupe de personne">Departement</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">DEPT</SimpleData>
+		<SimpleData name="Denomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -106,15 +119,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.380181,43.288706,15 5.380376,43.288749,15 5.380527,43.288783,15 5.380565,43.288791,15 5.380574,43.288794,15 5.380594,43.288798,15 5.380617,43.288753,15 5.380587,43.288747,15 5.380576,43.288744,15 5.380398,43.288703,15 5.380201,43.288659,15 5.380181,43.288706,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_dept.7833">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.380181,43.288706,15 5.380376,43.288749,15 5.380527,43.288783,15 5.380565,43.288791,15 5.380574,43.288794,15 5.380594,43.288798,15 5.380617,43.288753,15 5.380587,43.288747,15 5.380576,43.288744,15 5.380398,43.288703,15 5.380201,43.288659,15 5.380181,43.288706,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="dept.7833">
 <styleUrl>#DEPT</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
-		<SimpleData name="Numéro de Parcelle">132068270B0191</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#dept">
+		<SimpleData name="Numero de Parcelle">132068270B0191</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
 		<SimpleData name="Adresse">17, RUE EDMOND ROSTAND</SimpleData>
-		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
+		<SimpleData name="Groupe de personne">Departement</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">DEPT</SimpleData>
+		<SimpleData name="Denomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -128,15 +144,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.380201,43.288659,15 5.380398,43.288703,15 5.380576,43.288744,15 5.380587,43.288747,15 5.380617,43.288753,15 5.38064,43.288706,15 5.380606,43.288698,15 5.3806,43.288697,15 5.380574,43.288691,15 5.380551,43.288686,15 5.380537,43.288683,15 5.380454,43.288664,15 5.380418,43.288655,15 5.380384,43.288648,15 5.380222,43.288611,15 5.380201,43.288659,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_dept.7845">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.380201,43.288659,15 5.380398,43.288703,15 5.380576,43.288744,15 5.380587,43.288747,15 5.380617,43.288753,15 5.38064,43.288706,15 5.380606,43.288698,15 5.3806,43.288697,15 5.380574,43.288691,15 5.380551,43.288686,15 5.380537,43.288683,15 5.380454,43.288664,15 5.380418,43.288655,15 5.380384,43.288648,15 5.380222,43.288611,15 5.380201,43.288659,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="dept.7845">
 <styleUrl>#DEPT</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
-		<SimpleData name="Numéro de Parcelle">132068260A0031</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#dept">
+		<SimpleData name="Numero de Parcelle">132068260A0031</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
 		<SimpleData name="Adresse">4, RUE DES PICPUS</SimpleData>
-		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
+		<SimpleData name="Groupe de personne">Departement</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">DEPT</SimpleData>
+		<SimpleData name="Denomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -150,15 +169,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.373395,43.291102,15 5.373592,43.291148,15 5.373785,43.290707,15 5.373585,43.290663,15 5.373395,43.291102,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_dept.7853">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.373395,43.291102,15 5.373592,43.291148,15 5.373785,43.290707,15 5.373585,43.290663,15 5.373395,43.291102,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="dept.7853">
 <styleUrl>#DEPT</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
-		<SimpleData name="Numéro de Parcelle">132068280C0209</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#dept">
+		<SimpleData name="Numero de Parcelle">132068280C0209</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
 		<SimpleData name="Adresse">148, RUE PARADIS</SimpleData>
-		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
+		<SimpleData name="Groupe de personne">Departement</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">DEPT</SimpleData>
+		<SimpleData name="Denomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -172,15 +194,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.379787,43.286161,15 5.379596,43.286117,15 5.379565,43.28619,15 5.379533,43.286183,15 5.379282,43.286122,15 5.379256,43.286116,15 5.379238,43.286137,15 5.379179,43.286202,15 5.379199,43.286212,15 5.379261,43.286247,15 5.379293,43.286265,15 5.379335,43.286272,15 5.379484,43.286301,15 5.379485,43.286299,15 5.379581,43.286317,15 5.379692,43.286339,15 5.379709,43.286343,15 5.379787,43.286161,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_dept.7941">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.379787,43.286161,15 5.379596,43.286117,15 5.379565,43.28619,15 5.379533,43.286183,15 5.379282,43.286122,15 5.379256,43.286116,15 5.379238,43.286137,15 5.379179,43.286202,15 5.379199,43.286212,15 5.379261,43.286247,15 5.379293,43.286265,15 5.379335,43.286272,15 5.379484,43.286301,15 5.379485,43.286299,15 5.379581,43.286317,15 5.379692,43.286339,15 5.379709,43.286343,15 5.379787,43.286161,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="dept.7941">
 <styleUrl>#DEPT</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
-		<SimpleData name="Numéro de Parcelle">132068260A0040</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#dept">
+		<SimpleData name="Numero de Parcelle">132068260A0040</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
 		<SimpleData name="Adresse">73, RUE GRIGNAN</SimpleData>
-		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
+		<SimpleData name="Groupe de personne">Departement</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">DEPT</SimpleData>
+		<SimpleData name="Denomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -194,15 +219,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.373783,43.291175,15 5.373694,43.291154,15 5.373621,43.291319,15 5.37371,43.291341,15 5.373768,43.291209,15 5.373783,43.291175,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_dept.7942">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.373783,43.291175,15 5.373694,43.291154,15 5.373621,43.291319,15 5.37371,43.291341,15 5.373768,43.291209,15 5.373783,43.291175,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="dept.7942">
 <styleUrl>#DEPT</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
-		<SimpleData name="Numéro de Parcelle">132068260A0039</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#dept">
+		<SimpleData name="Numero de Parcelle">132068260A0039</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
 		<SimpleData name="Adresse">1, RUE DES PICPUS</SimpleData>
-		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
+		<SimpleData name="Groupe de personne">Departement</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">DEPT</SimpleData>
+		<SimpleData name="Denomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -216,15 +244,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.37378,43.290958,15 5.373694,43.291154,15 5.373783,43.291175,15 5.373864,43.291196,15 5.37388,43.291199,15 5.373935,43.291212,15 5.37395,43.291216,15 5.374039,43.291237,15 5.37405,43.291211,15 5.374092,43.291114,15 5.374119,43.291055,15 5.374125,43.291038,15 5.374089,43.29103,15 5.37403,43.291017,15 5.373952,43.290998,15 5.373864,43.290978,15 5.37378,43.290958,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_dept.7962">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.37378,43.290958,15 5.373694,43.291154,15 5.373783,43.291175,15 5.373864,43.291196,15 5.37388,43.291199,15 5.373935,43.291212,15 5.37395,43.291216,15 5.374039,43.291237,15 5.37405,43.291211,15 5.374092,43.291114,15 5.374119,43.291055,15 5.374125,43.291038,15 5.374089,43.29103,15 5.37403,43.291017,15 5.373952,43.290998,15 5.373864,43.290978,15 5.37378,43.290958,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="dept.7962">
 <styleUrl>#DEPT</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
-		<SimpleData name="Numéro de Parcelle">132068260A0042</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#dept">
+		<SimpleData name="Numero de Parcelle">132068260A0042</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
 		<SimpleData name="Adresse">69, RUE GRIGNAN</SimpleData>
-		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
+		<SimpleData name="Groupe de personne">Departement</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">DEPT</SimpleData>
+		<SimpleData name="Denomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -238,15 +269,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.37395,43.291216,15 5.373935,43.291212,15 5.37388,43.291199,15 5.373864,43.291196,15 5.373857,43.291215,15 5.37385,43.291228,15 5.373793,43.291361,15 5.373879,43.291381,15 5.373936,43.291249,15 5.373942,43.291237,15 5.37395,43.291216,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_dept.7968">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.37395,43.291216,15 5.373935,43.291212,15 5.37388,43.291199,15 5.373864,43.291196,15 5.373857,43.291215,15 5.37385,43.291228,15 5.373793,43.291361,15 5.373879,43.291381,15 5.373936,43.291249,15 5.373942,43.291237,15 5.37395,43.291216,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="dept.7968">
 <styleUrl>#DEPT</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
-		<SimpleData name="Numéro de Parcelle">132068260A0043</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#dept">
+		<SimpleData name="Numero de Parcelle">132068260A0043</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
 		<SimpleData name="Adresse">67, RUE GRIGNAN</SimpleData>
-		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
+		<SimpleData name="Groupe de personne">Departement</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">DEPT</SimpleData>
+		<SimpleData name="Denomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -260,15 +294,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.374039,43.291237,15 5.37395,43.291216,15 5.373942,43.291237,15 5.373936,43.291249,15 5.373879,43.291381,15 5.373966,43.291402,15 5.37402,43.291277,15 5.374024,43.29127,15 5.374039,43.291237,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_dept.7973">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.374039,43.291237,15 5.37395,43.291216,15 5.373942,43.291237,15 5.373936,43.291249,15 5.373879,43.291381,15 5.373966,43.291402,15 5.37402,43.291277,15 5.374024,43.29127,15 5.374039,43.291237,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="dept.7973">
 <styleUrl>#DEPT</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
-		<SimpleData name="Numéro de Parcelle">132068260A0044</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#dept">
+		<SimpleData name="Numero de Parcelle">132068260A0044</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
 		<SimpleData name="Adresse">6, RUE EMILE POLLAK</SimpleData>
-		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
+		<SimpleData name="Groupe de personne">Departement</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">DEPT</SimpleData>
+		<SimpleData name="Denomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -282,15 +319,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.374231,43.2908,15 5.374184,43.290905,15 5.374156,43.290969,15 5.374154,43.290973,15 5.374125,43.291038,15 5.374119,43.291055,15 5.374092,43.291114,15 5.37405,43.291211,15 5.374039,43.291237,15 5.374024,43.29127,15 5.37402,43.291277,15 5.373966,43.291402,15 5.37426,43.291472,15 5.374299,43.291381,15 5.374306,43.291383,15 5.374309,43.291375,15 5.37432,43.291378,15 5.374371,43.29126,15 5.374419,43.291148,15 5.374463,43.291044,15 5.374502,43.290957,15 5.374491,43.290955,15 5.374494,43.290947,15 5.374489,43.290946,15 5.374526,43.290862,15 5.374231,43.2908,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_dept.7981">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.374231,43.2908,15 5.374184,43.290905,15 5.374156,43.290969,15 5.374154,43.290973,15 5.374125,43.291038,15 5.374119,43.291055,15 5.374092,43.291114,15 5.37405,43.291211,15 5.374039,43.291237,15 5.374024,43.29127,15 5.37402,43.291277,15 5.373966,43.291402,15 5.37426,43.291472,15 5.374299,43.291381,15 5.374306,43.291383,15 5.374309,43.291375,15 5.37432,43.291378,15 5.374371,43.29126,15 5.374419,43.291148,15 5.374463,43.291044,15 5.374502,43.290957,15 5.374491,43.290955,15 5.374494,43.290947,15 5.374489,43.290946,15 5.374526,43.290862,15 5.374231,43.2908,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="dept.7981">
 <styleUrl>#DEPT</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
-		<SimpleData name="Numéro de Parcelle">132068260A0046</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#dept">
+		<SimpleData name="Numero de Parcelle">132068260A0046</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
 		<SimpleData name="Adresse">24, RUE BRETEUIL</SimpleData>
-		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
+		<SimpleData name="Groupe de personne">Departement</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">DEPT</SimpleData>
+		<SimpleData name="Denomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -304,15 +344,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.375622,43.290196,15 5.375793,43.290213,15 5.375827,43.290136,15 5.375849,43.290082,15 5.375882,43.290002,15 5.375722,43.289955,15 5.375622,43.290196,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_dept.8112">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.375622,43.290196,15 5.375793,43.290213,15 5.375827,43.290136,15 5.375849,43.290082,15 5.375882,43.290002,15 5.375722,43.289955,15 5.375622,43.290196,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="dept.8112">
 <styleUrl>#DEPT</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
-		<SimpleData name="Numéro de Parcelle">132068260B0093</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#dept">
+		<SimpleData name="Numero de Parcelle">132068260B0093</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
 		<SimpleData name="Adresse">8, CRS PIERRE PUGET</SimpleData>
-		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
+		<SimpleData name="Groupe de personne">Departement</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">DEPT</SimpleData>
+		<SimpleData name="Denomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -326,5 +369,6 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.37673,43.290554,15 5.376679,43.290684,15 5.376655,43.290745,15 5.37662,43.290832,15 5.376589,43.290911,15 5.376566,43.29097,15 5.37671,43.290999,15 5.376853,43.291029,15 5.376939,43.291047,15 5.376968,43.290974,15 5.376989,43.29092,15 5.376999,43.290895,15 5.376999,43.290893,15 5.377102,43.290905,15 5.377156,43.290649,15 5.377094,43.29059,15 5.37673,43.290554,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.37673,43.290554,15 5.376679,43.290684,15 5.376655,43.290745,15 5.37662,43.290832,15 5.376589,43.290911,15 5.376566,43.29097,15 5.37671,43.290999,15 5.376853,43.291029,15 5.376939,43.291047,15 5.376968,43.290974,15 5.376989,43.29092,15 5.376999,43.290895,15 5.376999,43.290893,15 5.377102,43.290905,15 5.377156,43.290649,15 5.377094,43.29059,15 5.37673,43.290554,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
 </Folder></Document></kml>

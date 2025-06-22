@@ -2,11 +2,13 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document id="root_doc">
 <Schema name="ALLAUCH_coproprietaire" id="ALLAUCH_coproprietaire">
-	<SimpleField name="Numéro de Parcelle" type="string"></SimpleField>
+	<SimpleField name="Numero de Parcelle" type="string"></SimpleField>
 	<SimpleField name="Departement" type="string"></SimpleField>
 	<SimpleField name="Commune" type="string"></SimpleField>
 	<SimpleField name="Adresse" type="string"></SimpleField>
-	<SimpleField name="Dénomination" type="string"></SimpleField>
+	<SimpleField name="Groupe de personne" type="string"></SimpleField>
+	<SimpleField name="Forme Juridique Abregee" type="string"></SimpleField>
+	<SimpleField name="Denomination" type="string"></SimpleField>
 </Schema>
 	<Style id="coproprietaire">
 		<LineStyle>
@@ -19,14 +21,16 @@
 			<outline>1</outline>
 		</PolyStyle>
 	</Style><Folder><name>parcelle_13_coproprietaire</name>
-  <Placemark id="parcelle_13_coproprietaire.24">
+  <Placemark id="coproprietaire.24">
 <styleUrl>#coproprietaire</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_coproprietaire">
-		<SimpleData name="Numéro de Parcelle">13002000DC0194</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#coproprietaire">
+		<SimpleData name="Numero de Parcelle">13002000DC0194</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ALLAUCH</SimpleData>
 		<SimpleData name="Adresse">CHE DES MAURINS</SimpleData>
-		<SimpleData name="Dénomination">COPROPRIETAIRES DE LA PARCELLE BH 282</SimpleData>
+		<SimpleData name="Groupe de personne">Coproprietaires</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">DEPT</SimpleData>
+		<SimpleData name="Denomination">COPROPRIETAIRES DE LA PARCELLE BH 282</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -40,6 +44,6 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.503156,43.362216 5.503047,43.362479 5.503099,43.362495 5.503211,43.362242 5.503156,43.362216</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.503156,43.362216 5.503047,43.362479 5.503099,43.362495 5.503211,43.362242 5.503156,43.362216</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
 </Folder></Document></kml>

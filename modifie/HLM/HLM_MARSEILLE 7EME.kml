@@ -2,11 +2,13 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document id="root_doc">
 <Schema name="MARSEILLE 7EME_HLM" id="MARSEILLE 7EME_HLM">
-	<SimpleField name="Numéro de Parcelle" type="string"></SimpleField>
+	<SimpleField name="Numero de Parcelle" type="string"></SimpleField>
 	<SimpleField name="Departement" type="string"></SimpleField>
 	<SimpleField name="Commune" type="string"></SimpleField>
 	<SimpleField name="Adresse" type="string"></SimpleField>
-	<SimpleField name="Dénomination" type="string"></SimpleField>
+	<SimpleField name="Groupe de personne" type="string"></SimpleField>
+	<SimpleField name="Forme Juridique Abregee" type="string"></SimpleField>
+	<SimpleField name="Denomination" type="string"></SimpleField>
 </Schema>
 	<Style id="HLM">
 		<LineStyle>
@@ -19,14 +21,16 @@
 			<outline>1</outline>
 		</PolyStyle>
 	</Style><Folder><name>parcelle_13_hlm</name>
-  <Placemark id="parcelle_13_hlm.5872">
+  <Placemark id="hlm.5872">
 <styleUrl>#HLM</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
-		<SimpleData name="Numéro de Parcelle">132078320B0103</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#hlm">
+		<SimpleData name="Numero de Parcelle">132078320B0103</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 7EME</SimpleData>
 		<SimpleData name="Adresse">5, RUE PAPETY</SimpleData>
-		<SimpleData name="Dénomination">MARSEILLE HABITAT</SimpleData>
+		<SimpleData name="Groupe de personne">HLM</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SEM</SimpleData>
+		<SimpleData name="Denomination">MARSEILLE HABITAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -40,15 +44,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.358867,43.29039,15 5.358742,43.290378,15 5.358689,43.290373,15 5.358339,43.290342,15 5.358318,43.290461,15 5.358318,43.29047,15 5.358313,43.290487,15 5.358295,43.29061,15 5.358291,43.290627,15 5.35829,43.290637,15 5.358271,43.290752,15 5.358804,43.290796,15 5.358817,43.290709,15 5.358823,43.290679,15 5.358912,43.290685,15 5.35892,43.290635,15 5.358921,43.29063,15 5.358924,43.290617,15 5.358927,43.2906,15 5.358929,43.290583,15 5.358931,43.29057,15 5.358932,43.290563,15 5.35894,43.290513,15 5.358849,43.290504,15 5.358855,43.290478,15 5.358867,43.29039,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_hlm.6198">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.358867,43.29039,15 5.358742,43.290378,15 5.358689,43.290373,15 5.358339,43.290342,15 5.358318,43.290461,15 5.358318,43.29047,15 5.358313,43.290487,15 5.358295,43.29061,15 5.358291,43.290627,15 5.35829,43.290637,15 5.358271,43.290752,15 5.358804,43.290796,15 5.358817,43.290709,15 5.358823,43.290679,15 5.358912,43.290685,15 5.35892,43.290635,15 5.358921,43.29063,15 5.358924,43.290617,15 5.358927,43.2906,15 5.358929,43.290583,15 5.358931,43.29057,15 5.358932,43.290563,15 5.35894,43.290513,15 5.358849,43.290504,15 5.358855,43.290478,15 5.358867,43.29039,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="hlm.6198">
 <styleUrl>#HLM</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
-		<SimpleData name="Numéro de Parcelle">132078320B0151</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#hlm">
+		<SimpleData name="Numero de Parcelle">132078320B0151</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 7EME</SimpleData>
 		<SimpleData name="Adresse">51, AV PASTEUR</SimpleData>
-		<SimpleData name="Dénomination">UNICIL SOCIETE ANONYME DHABITATION A LOYER MODERE</SimpleData>
+		<SimpleData name="Groupe de personne">HLM</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">UNICIL SOCIETE ANONYME DHABITATION A LOYER MODERE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -62,15 +69,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.360552,43.28945,15 5.36035,43.28943,15 5.359827,43.289383,15 5.359692,43.289373,15 5.35967,43.289371,15 5.359533,43.289359,15 5.359504,43.289564,15 5.359478,43.289711,15 5.359464,43.289792,15 5.35945,43.289872,15 5.359439,43.28996,15 5.359562,43.28997,15 5.359582,43.289973,15 5.359587,43.289973,15 5.359657,43.28998,15 5.359701,43.289984,15 5.359718,43.289983,15 5.359942,43.290004,15 5.360359,43.290041,15 5.360385,43.28996,15 5.360399,43.289963,15 5.360504,43.289633,15 5.360495,43.289632,15 5.360552,43.28945,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_hlm.6199">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.360552,43.28945,15 5.36035,43.28943,15 5.359827,43.289383,15 5.359692,43.289373,15 5.35967,43.289371,15 5.359533,43.289359,15 5.359504,43.289564,15 5.359478,43.289711,15 5.359464,43.289792,15 5.35945,43.289872,15 5.359439,43.28996,15 5.359562,43.28997,15 5.359582,43.289973,15 5.359587,43.289973,15 5.359657,43.28998,15 5.359701,43.289984,15 5.359718,43.289983,15 5.359942,43.290004,15 5.360359,43.290041,15 5.360385,43.28996,15 5.360399,43.289963,15 5.360504,43.289633,15 5.360495,43.289632,15 5.360552,43.28945,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="hlm.6199">
 <styleUrl>#HLM</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
-		<SimpleData name="Numéro de Parcelle">132078350E0151</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#hlm">
+		<SimpleData name="Numero de Parcelle">132078350E0151</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 7EME</SimpleData>
 		<SimpleData name="Adresse">64, RUE DENDOUME</SimpleData>
-		<SimpleData name="Dénomination">HABITAT MARSEILLE PROVENCE AIX-MARSEILLE PROVENCE METROPOLE</SimpleData>
+		<SimpleData name="Groupe de personne">HLM</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+		<SimpleData name="Denomination">HABITAT MARSEILLE PROVENCE AIX-MARSEILLE PROVENCE METROPOLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -84,15 +94,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.366174,43.288126,15 5.366254,43.288176,15 5.366349,43.288136,15 5.366371,43.288127,15 5.366484,43.28808,15 5.366399,43.288013,15 5.366288,43.288068,15 5.366265,43.288079,15 5.366174,43.288126,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_hlm.6718">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.366174,43.288126,15 5.366254,43.288176,15 5.366349,43.288136,15 5.366371,43.288127,15 5.366484,43.28808,15 5.366399,43.288013,15 5.366288,43.288068,15 5.366265,43.288079,15 5.366174,43.288126,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="hlm.6718">
 <styleUrl>#HLM</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
-		<SimpleData name="Numéro de Parcelle">132078290B0259</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#hlm">
+		<SimpleData name="Numero de Parcelle">132078290B0259</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 7EME</SimpleData>
 		<SimpleData name="Adresse">17, RUE MICHEL GACHET</SimpleData>
-		<SimpleData name="Dénomination">3F SUD SOCIETE ANONYME DHABITATIONS A LOYER MODERE</SimpleData>
+		<SimpleData name="Groupe de personne">HLM</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">3F SUD SOCIETE ANONYME DHABITATIONS A LOYER MODERE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -106,15 +119,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.361252,43.284439,15 5.361267,43.284433,15 5.361377,43.284381,15 5.361364,43.284365,15 5.361328,43.284319,15 5.361306,43.284289,15 5.361288,43.284264,15 5.36116,43.284319,15 5.361228,43.284408,15 5.361252,43.284439,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_hlm.7212">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.361252,43.284439,15 5.361267,43.284433,15 5.361377,43.284381,15 5.361364,43.284365,15 5.361328,43.284319,15 5.361306,43.284289,15 5.361288,43.284264,15 5.36116,43.284319,15 5.361228,43.284408,15 5.361252,43.284439,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="hlm.7212">
 <styleUrl>#HLM</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
-		<SimpleData name="Numéro de Parcelle">132078320A0060</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#hlm">
+		<SimpleData name="Numero de Parcelle">132078320A0060</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 7EME</SimpleData>
 		<SimpleData name="Adresse">104, BD CHARLES LIVON</SimpleData>
-		<SimpleData name="Dénomination">SOCIETE ANONYME NOUVELLE DHABITATIONS A LOYER MODERE DE MAR</SimpleData>
+		<SimpleData name="Groupe de personne">HLM</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">SOCIETE ANONYME NOUVELLE DHABITATIONS A LOYER MODERE DE MAR</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -128,15 +144,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.355581,43.293236,15 5.355681,43.293236,15 5.35568,43.29323,15 5.355772,43.293228,15 5.355829,43.293227,15 5.355831,43.293279,15 5.355834,43.293343,15 5.355845,43.293343,15 5.355915,43.293341,15 5.355982,43.29334,15 5.356314,43.29333,15 5.356429,43.293327,15 5.356594,43.293314,15 5.356766,43.293312,15 5.356811,43.293311,15 5.356825,43.293229,15 5.356789,43.293226,15 5.356836,43.292959,15 5.356845,43.292912,15 5.356019,43.292848,15 5.35607,43.292535,15 5.356089,43.292426,15 5.356105,43.292328,15 5.356107,43.292321,15 5.356317,43.29234,15 5.356445,43.292349,15 5.356493,43.292355,15 5.356499,43.292305,15 5.357617,43.292411,15 5.357696,43.292156,15 5.357652,43.292152,15 5.357582,43.292146,15 5.357529,43.292141,15 5.357457,43.292134,15 5.357385,43.292128,15 5.357333,43.292123,15 5.357264,43.292117,15 5.357196,43.29211,15 5.357145,43.292104,15 5.357069,43.2921,15 5.356999,43.292093,15 5.356947,43.292088,15 5.356876,43.292082,15 5.356791,43.292074,15 5.356739,43.29207,15 5.356653,43.292062,15 5.356635,43.292061,15 5.35662,43.292059,15 5.356647,43.291909,15 5.355808,43.291837,15 5.355603,43.293091,15 5.355581,43.293236,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_hlm.7288">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.355581,43.293236,15 5.355681,43.293236,15 5.35568,43.29323,15 5.355772,43.293228,15 5.355829,43.293227,15 5.355831,43.293279,15 5.355834,43.293343,15 5.355845,43.293343,15 5.355915,43.293341,15 5.355982,43.29334,15 5.356314,43.29333,15 5.356429,43.293327,15 5.356594,43.293314,15 5.356766,43.293312,15 5.356811,43.293311,15 5.356825,43.293229,15 5.356789,43.293226,15 5.356836,43.292959,15 5.356845,43.292912,15 5.356019,43.292848,15 5.35607,43.292535,15 5.356089,43.292426,15 5.356105,43.292328,15 5.356107,43.292321,15 5.356317,43.29234,15 5.356445,43.292349,15 5.356493,43.292355,15 5.356499,43.292305,15 5.357617,43.292411,15 5.357696,43.292156,15 5.357652,43.292152,15 5.357582,43.292146,15 5.357529,43.292141,15 5.357457,43.292134,15 5.357385,43.292128,15 5.357333,43.292123,15 5.357264,43.292117,15 5.357196,43.29211,15 5.357145,43.292104,15 5.357069,43.2921,15 5.356999,43.292093,15 5.356947,43.292088,15 5.356876,43.292082,15 5.356791,43.292074,15 5.356739,43.29207,15 5.356653,43.292062,15 5.356635,43.292061,15 5.35662,43.292059,15 5.356647,43.291909,15 5.355808,43.291837,15 5.355603,43.293091,15 5.355581,43.293236,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="hlm.7288">
 <styleUrl>#HLM</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
-		<SimpleData name="Numéro de Parcelle">132078340B0067</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#hlm">
+		<SimpleData name="Numero de Parcelle">132078340B0067</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 7EME</SimpleData>
 		<SimpleData name="Adresse">15, RUE DECAZES</SimpleData>
-		<SimpleData name="Dénomination">MARSEILLE HABITAT</SimpleData>
+		<SimpleData name="Groupe de personne">HLM</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SEM</SimpleData>
+		<SimpleData name="Denomination">MARSEILLE HABITAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -150,15 +169,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.359829,43.287938,15 5.35972,43.28793,15 5.359709,43.287992,15 5.359822,43.288002,15 5.359868,43.288006,15 5.35988,43.288007,15 5.359896,43.288008,15 5.359879,43.287996,15 5.359877,43.287995,15 5.359864,43.287987,15 5.359856,43.287981,15 5.35984,43.287972,15 5.359829,43.287965,15 5.359826,43.287962,15 5.359829,43.287938,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_hlm.7561">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.359829,43.287938,15 5.35972,43.28793,15 5.359709,43.287992,15 5.359822,43.288002,15 5.359868,43.288006,15 5.35988,43.288007,15 5.359896,43.288008,15 5.359879,43.287996,15 5.359877,43.287995,15 5.359864,43.287987,15 5.359856,43.287981,15 5.35984,43.287972,15 5.359829,43.287965,15 5.359826,43.287962,15 5.359829,43.287938,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="hlm.7561">
 <styleUrl>#HLM</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
-		<SimpleData name="Numéro de Parcelle">132078340B0096</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#hlm">
+		<SimpleData name="Numero de Parcelle">132078340B0096</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 7EME</SimpleData>
 		<SimpleData name="Adresse">54, RUE SAUVEUR TOBELEM</SimpleData>
-		<SimpleData name="Dénomination">UNICIL SOCIETE ANONYME DHABITATION A LOYER MODERE</SimpleData>
+		<SimpleData name="Groupe de personne">HLM</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">UNICIL SOCIETE ANONYME DHABITATION A LOYER MODERE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -172,15 +194,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.360684,43.287386,15 5.360698,43.287391,15 5.360804,43.287423,15 5.360808,43.287416,15 5.360824,43.287381,15 5.360869,43.287292,15 5.360757,43.287258,15 5.360707,43.287346,15 5.360696,43.287364,15 5.360684,43.287386,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_hlm.7567">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.360684,43.287386,15 5.360698,43.287391,15 5.360804,43.287423,15 5.360808,43.287416,15 5.360824,43.287381,15 5.360869,43.287292,15 5.360757,43.287258,15 5.360707,43.287346,15 5.360696,43.287364,15 5.360684,43.287386,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="hlm.7567">
 <styleUrl>#HLM</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
-		<SimpleData name="Numéro de Parcelle">132078340B0097</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#hlm">
+		<SimpleData name="Numero de Parcelle">132078340B0097</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 7EME</SimpleData>
 		<SimpleData name="Adresse">58, RUE SAUVEUR TOBELEM</SimpleData>
-		<SimpleData name="Dénomination">UNICIL SOCIETE ANONYME DHABITATION A LOYER MODERE</SimpleData>
+		<SimpleData name="Groupe de personne">HLM</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">UNICIL SOCIETE ANONYME DHABITATION A LOYER MODERE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -194,15 +219,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.360448,43.287314,15 5.360462,43.287318,15 5.360684,43.287386,15 5.360696,43.287364,15 5.360707,43.287346,15 5.360757,43.287258,15 5.360518,43.287184,15 5.360468,43.287274,15 5.360458,43.287293,15 5.360448,43.287314,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_hlm.7573">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.360448,43.287314,15 5.360462,43.287318,15 5.360684,43.287386,15 5.360696,43.287364,15 5.360707,43.287346,15 5.360757,43.287258,15 5.360518,43.287184,15 5.360468,43.287274,15 5.360458,43.287293,15 5.360448,43.287314,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="hlm.7573">
 <styleUrl>#HLM</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
-		<SimpleData name="Numéro de Parcelle">132078340B0098</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#hlm">
+		<SimpleData name="Numero de Parcelle">132078340B0098</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 7EME</SimpleData>
 		<SimpleData name="Adresse">60, RUE SAUVEUR TOBELEM</SimpleData>
-		<SimpleData name="Dénomination">UNICIL SOCIETE ANONYME DHABITATION A LOYER MODERE</SimpleData>
+		<SimpleData name="Groupe de personne">HLM</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">UNICIL SOCIETE ANONYME DHABITATION A LOYER MODERE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -216,15 +244,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.360171,43.287249,15 5.360215,43.287254,15 5.360265,43.287257,15 5.360367,43.287289,15 5.360412,43.287303,15 5.360432,43.287309,15 5.360448,43.287314,15 5.360458,43.287293,15 5.360468,43.287274,15 5.360518,43.287184,15 5.360253,43.287104,15 5.360202,43.287193,15 5.360187,43.287219,15 5.360184,43.287225,15 5.36018,43.287232,15 5.360171,43.287249,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_hlm.7577">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.360171,43.287249,15 5.360215,43.287254,15 5.360265,43.287257,15 5.360367,43.287289,15 5.360412,43.287303,15 5.360432,43.287309,15 5.360448,43.287314,15 5.360458,43.287293,15 5.360468,43.287274,15 5.360518,43.287184,15 5.360253,43.287104,15 5.360202,43.287193,15 5.360187,43.287219,15 5.360184,43.287225,15 5.36018,43.287232,15 5.360171,43.287249,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="hlm.7577">
 <styleUrl>#HLM</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
-		<SimpleData name="Numéro de Parcelle">132078320B0099</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#hlm">
+		<SimpleData name="Numero de Parcelle">132078320B0099</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 7EME</SimpleData>
 		<SimpleData name="Adresse">42, RUE CESAR ALEMAN</SimpleData>
-		<SimpleData name="Dénomination">HABITAT MARSEILLE PROVENCE AIX-MARSEILLE PROVENCE METROPOLE</SimpleData>
+		<SimpleData name="Groupe de personne">HLM</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+		<SimpleData name="Denomination">HABITAT MARSEILLE PROVENCE AIX-MARSEILLE PROVENCE METROPOLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -238,5 +269,6 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.356396,43.290378,15 5.356383,43.290447,15 5.356381,43.29046,15 5.356376,43.290496,15 5.356373,43.290519,15 5.356363,43.290587,15 5.356668,43.290614,15 5.357203,43.290658,15 5.3573,43.290664,15 5.357302,43.290655,15 5.357338,43.290448,15 5.357369,43.290258,15 5.357368,43.290251,15 5.357272,43.290244,15 5.357223,43.290238,15 5.356842,43.290206,15 5.356735,43.290195,15 5.356431,43.290169,15 5.356425,43.290208,15 5.35642,43.29024,15 5.356411,43.290285,15 5.356409,43.290305,15 5.356405,43.290326,15 5.356396,43.290378,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.356396,43.290378,15 5.356383,43.290447,15 5.356381,43.29046,15 5.356376,43.290496,15 5.356373,43.290519,15 5.356363,43.290587,15 5.356668,43.290614,15 5.357203,43.290658,15 5.3573,43.290664,15 5.357302,43.290655,15 5.357338,43.290448,15 5.357369,43.290258,15 5.357368,43.290251,15 5.357272,43.290244,15 5.357223,43.290238,15 5.356842,43.290206,15 5.356735,43.290195,15 5.356431,43.290169,15 5.356425,43.290208,15 5.35642,43.29024,15 5.356411,43.290285,15 5.356409,43.290305,15 5.356405,43.290326,15 5.356396,43.290378,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
 </Folder></Document></kml>

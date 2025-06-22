@@ -4,11 +4,13 @@
 	<name>parcelle_13_ASSOCIE.kml</name>
 	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
 	<Schema name="TARASCON_ASSOCIE" id="TARASCON_ASSOCIE">
-		<SimpleField type="string" name="Numéro de Parcelle"></SimpleField>
+		<SimpleField type="string" name="Numero de Parcelle"></SimpleField>
 		<SimpleField type="string" name="Departement"></SimpleField>
 		<SimpleField type="string" name="Commune"></SimpleField>
 		<SimpleField type="string" name="Adresse"></SimpleField>
-		<SimpleField type="string" name="Dénomination"></SimpleField>
+		<SimpleField type="string" name="Groupe de personne"></SimpleField>
+		<SimpleField type="string" name="Forme Juridique Abregee"></SimpleField>
+		<SimpleField type="string" name="Denomination"></SimpleField>
 	</Schema>
 	<Style id="ASSOCIE">
 		<LineStyle>
@@ -22,14 +24,16 @@
 		</PolyStyle>
 	</Style>	<Folder>
 		<name>parcelle_13_associe</name>
-		<Placemark id="parcelle_13_associe.4">
+		<Placemark id="associe.4">
 <styleUrl>#ASSOCIE</styleUrl>			<ExtendedData>
-				<SchemaData schemaUrl="#parcelle_13_associe">
-					<SimpleData name="Numéro de Parcelle">131080000K1299</SimpleData>
+				<SchemaData schemaUrl="#associe">
+					<SimpleData name="Numero de Parcelle">131080000K1299</SimpleData>
 					<SimpleData name="Departement">13</SimpleData>
 					<SimpleData name="Commune">TARASCON</SimpleData>
 					<SimpleData name="Adresse">41, RUE BLANQUI</SimpleData>
-					<SimpleData name="Dénomination">GERALDA</SimpleData>
+					<SimpleData name="Groupe de personne">Associes</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">SC</SimpleData>
+					<SimpleData name="Denomination">GERALDA</SimpleData>
 				</SchemaData>
 			</ExtendedData>
 	<Region>
@@ -45,25 +49,26 @@
 		</Lod>
 	</Region>
 			<MultiGeometry>
-				<Polygon>
+				<Polygon><altitudeMode>relativeToGround</altitudeMode>
 					<outerBoundaryIs>
 						<LinearRing>
-							<coordinates>
-								4.65863001336094,43.8045410130041, 4.65867218676918,43.8045681839101, 4.65873973508582,43.8046132403972, 4.6587577107096,43.8046202575557, 4.65879316245904,43.8046342094563, 4.65882132965208,43.8045984075527, 4.65875913185385,43.804557860128, 4.65870169645495,43.8045186803408, 4.65865574675035,43.8045327007289, 4.65863001336094,43.8045410130041, 
+							<coordinates>								4.65863001336094,43.8045410130041, 4.65867218676918,43.8045681839101, 4.65873973508582,43.8046132403972, 4.6587577107096,43.8046202575557, 4.65879316245904,43.8046342094563, 4.65882132965208,43.8045984075527, 4.65875913185385,43.804557860128, 4.65870169645495,43.8045186803408, 4.65865574675035,43.8045327007289, 4.65863001336094,43.8045410130041, 
 							</coordinates>
 						</LinearRing>
 					</outerBoundaryIs>
 				</Polygon>
 			</MultiGeometry>
 		</Placemark>
-		<Placemark id="parcelle_13_associe.7">
+		<Placemark id="associe.7">
 <styleUrl>#ASSOCIE</styleUrl>			<ExtendedData>
-				<SchemaData schemaUrl="#parcelle_13_associe">
-					<SimpleData name="Numéro de Parcelle">131080000K2742</SimpleData>
+				<SchemaData schemaUrl="#associe">
+					<SimpleData name="Numero de Parcelle">131080000K2742</SimpleData>
 					<SimpleData name="Departement">13</SimpleData>
 					<SimpleData name="Commune">TARASCON</SimpleData>
 					<SimpleData name="Adresse">LE CHEF LIEU</SimpleData>
-					<SimpleData name="Dénomination">GERALDA</SimpleData>
+					<SimpleData name="Groupe de personne">Associes</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">SC</SimpleData>
+					<SimpleData name="Denomination">GERALDA</SimpleData>
 				</SchemaData>
 			</ExtendedData>
 	<Region>
@@ -79,11 +84,10 @@
 		</Lod>
 	</Region>
 			<MultiGeometry>
-				<Polygon>
+				<Polygon><altitudeMode>relativeToGround</altitudeMode>
 					<outerBoundaryIs>
 						<LinearRing>
-							<coordinates>
-								4.65872925586625,43.8046547136938, 4.65876427597815,43.8046709223816, 4.65879316245904,43.8046342094563, 4.6587577107096,43.8046202575557, 4.65872925586625,43.8046547136938, 
+							<coordinates>								4.65872925586625,43.8046547136938, 4.65876427597815,43.8046709223816, 4.65879316245904,43.8046342094563, 4.6587577107096,43.8046202575557, 4.65872925586625,43.8046547136938, 
 							</coordinates>
 						</LinearRing>
 					</outerBoundaryIs>

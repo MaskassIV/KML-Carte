@@ -26,23 +26,56 @@ mots_cles_a_supprimer = [
     "infos_commune.code_region",
     "infos_commune.nom_region",
     "(3)_groupe_personne",
+    "_code_forme_juridique",
     "parcelles-des-personnes-morales (3)_code_forme_juridique",
     #"parcelles-des-personnes-morales (3)_adresse",
     "parcelles-des-personnes-morales (3)_forme_juridique_abregee",
     #"parcelles-des-personnes-morales (3)_denomination",
     #"IDU"
+    "FEUILLE",
+    "SECTION",
+	"CODE_DEP",
+	"NOM_COM",
+	"CODE_COM",
+	"COM_ABS",
+	"CODE_ARR",
+	"CONTENANCE",
+    "NUMERO"
 ]
-
-mots_cles_a_remplacer={"parcelles-des-personnes-morales (3)_adresse": "Adresse", 
-                      "parcelles-des-personnes-morales (3)_forme_juridique_abregee": "Forme Juridique Abrégée",
-                      "parcelles-des-personnes-morales (3)_denomination":"Dénomination",
-                      "IDU":"Numéro de Parcelle",
-                      "parcelles-des-personnes-morales (3)_nom_commune":"Commune", 
-                      "parcelles-des-personnes-morales (3)_departement":"Departement"
+mots_cles_a_remplacer={"parcelles-des-personnes-morales x_adresse": "Adresse", 
+                       "parcelles-des-personnes-morales x_groupe_personne\">0<": "Groupe de personne\">Personnes morales non remarquables<",
+                       "parcelles-des-personnes-morales x_groupe_personne\">1<": "Groupe de personne\">Etat<",
+                       "parcelles-des-personnes-morales x_groupe_personne\">5<": "Groupe de personne\">HLM<",
+                       "parcelles-des-personnes-morales x_groupe_personne\">6<": "Groupe de personne\">Personnes morales representant des societes d'economie mixte<",
+                       "parcelles-des-personnes-morales x_groupe_personne\">3<": "Groupe de personne\">Departement<",
+                       "parcelles-des-personnes-morales x_groupe_personne\">4<": "Groupe de personne\">Commune<",
+                        "parcelles-des-personnes-morales x_groupe_personne\">2<": "Groupe de personne\">Region<",
+                        "parcelles-des-personnes-morales x_groupe_personne\">9<": "Groupe de personne\">Etablissements publics ou organismes associes<",
+                       "parcelles-des-personnes-morales x_groupe_personne\">7<": "Groupe de personne\">Coproprietaires<",
+                        "parcelles-des-personnes-morales x_groupe_personne\">8<": "Groupe de personne\">Associes<",
+                        "parcelles-des-personnes-morales x_groupe_personne\" type=\"string\"":"Groupe de personne\" type=\"string\"",
+                        "<SimpleField type=\"string\" name=\"parcelles-des-personnes-morales x_groupe_personne\"></SimpleField>":"<SimpleField type=\"string\" name=\"Groupe de personne\"></SimpleField>",
+                      "parcelles-des-personnes-morales x_forme_juridique_abregee": "Forme Juridique Abregee",
+                      "parcelles-des-personnes-morales x_denomination":"Denomination",
+                      "IDU":"Numero de Parcelle",
+                      "parcelles-des-personnes-morales x_nom_commune":"Commune",
+                      "<Polygon>":"<Polygon><altitudeMode>relativeToGround</altitudeMode>",
+                    "NOM_COM":"Commune", 
+                      "parcelles-des-personnes-morales x_departement":"Departement",
+                        "name=\"parcelle_x_": "name=\"",  # Supprime le nom du schéma
+    "id=\"parcelle_x_": "id=\"",      # Supprime l'id du schéma
+    "schemaUrl=\"#parcelle_x_": "schemaUrl=\"#",
+    "<coordinates>\n":"<coordinates>"
                     }
-                 
-def nettoyer(lignes):
+
+
+
+def nettoyer(lignes, departement):
+    i=0
+    global depart_actuel
     lignes = iter(lignes)
+
+    dico = adapter_dico(departement)
     lignes_nettoyees = []
     for ligne in lignes:
         if "<Style" in ligne:
@@ -51,9 +84,20 @@ def nettoyer(lignes):
                 ligne = next(lignes, None)
             continue
         if not any(mot in ligne for mot in mots_cles_a_supprimer):
-            for key in mots_cles_a_remplacer :
+            for key in dico :
                 if key in ligne:
-                    ligne=ligne.replace(key, mots_cles_a_remplacer[key])
+                    ligne=ligne.replace(key, dico[key])
                     break
             lignes_nettoyees.append(ligne)
     return lignes_nettoyees
+
+
+def adapter_dico(departement):
+    nouveau_dico = {}
+    for key, value in mots_cles_a_remplacer.items():
+        if "x" in key:
+            key_modifiee = key.replace("x", str(departement))
+            nouveau_dico[key_modifiee] = value
+        else:
+            nouveau_dico[key] = value
+    return nouveau_dico

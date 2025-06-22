@@ -2,11 +2,13 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document id="root_doc">
 <Schema name="AUREILLE_DEPT" id="AUREILLE_DEPT">
-	<SimpleField name="Numéro de Parcelle" type="string"></SimpleField>
+	<SimpleField name="Numero de Parcelle" type="string"></SimpleField>
 	<SimpleField name="Departement" type="string"></SimpleField>
 	<SimpleField name="Commune" type="string"></SimpleField>
 	<SimpleField name="Adresse" type="string"></SimpleField>
-	<SimpleField name="Dénomination" type="string"></SimpleField>
+	<SimpleField name="Groupe de personne" type="string"></SimpleField>
+	<SimpleField name="Forme Juridique Abregee" type="string"></SimpleField>
+	<SimpleField name="Denomination" type="string"></SimpleField>
 </Schema>
 	<Style id="DEPT">
 		<LineStyle>
@@ -19,14 +21,16 @@
 			<outline>1</outline>
 		</PolyStyle>
 	</Style><Folder><name>parcelle_13_dept</name>
-  <Placemark id="parcelle_13_dept.106">
+  <Placemark id="dept.106">
 <styleUrl>#DEPT</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
-		<SimpleData name="Numéro de Parcelle">13006000BV0165</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#dept">
+		<SimpleData name="Numero de Parcelle">13006000BV0165</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">AUREILLE</SimpleData>
 		<SimpleData name="Adresse">GRAND VERGER</SimpleData>
-		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
+		<SimpleData name="Groupe de personne">Departement</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">DEPT</SimpleData>
+		<SimpleData name="Denomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -40,16 +44,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>4.9419,43.703095 4.941975,43.703203 4.941985,43.703178 4.941928,43.703094 4.9419,43.703095</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>4.9419,43.703095 4.941975,43.703203 4.941985,43.703178 4.941928,43.703094 4.9419,43.703095</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_dept.3516">
+  <Placemark id="dept.3516">
 <styleUrl>#DEPT</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
-		<SimpleData name="Numéro de Parcelle">13006000BW0222</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#dept">
+		<SimpleData name="Numero de Parcelle">13006000BW0222</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">AUREILLE</SimpleData>
 		<SimpleData name="Adresse">SAINTE ANNE OUEST</SimpleData>
-		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
+		<SimpleData name="Groupe de personne">Departement</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">DEPT</SimpleData>
+		<SimpleData name="Denomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -63,16 +69,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>4.948396,43.710676 4.948536,43.710819 4.948627,43.710911 4.948676,43.710897 4.948443,43.710664 4.948396,43.710676</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>4.948396,43.710676 4.948536,43.710819 4.948627,43.710911 4.948676,43.710897 4.948443,43.710664 4.948396,43.710676</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_dept.3532">
+  <Placemark id="dept.3532">
 <styleUrl>#DEPT</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
-		<SimpleData name="Numéro de Parcelle">13006000BW0223</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#dept">
+		<SimpleData name="Numero de Parcelle">13006000BW0223</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">AUREILLE</SimpleData>
 		<SimpleData name="Adresse">SAINTE ANNE OUEST</SimpleData>
-		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
+		<SimpleData name="Groupe de personne">Departement</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">DEPT</SimpleData>
+		<SimpleData name="Denomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -86,16 +94,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>4.948873,43.711156 4.94892,43.711142 4.948846,43.71107 4.948773,43.710996 4.948752,43.710974 4.948708,43.710986 4.948781,43.711063 4.948839,43.711122 4.948873,43.711156</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>4.948873,43.711156 4.94892,43.711142 4.948846,43.71107 4.948773,43.710996 4.948752,43.710974 4.948708,43.710986 4.948781,43.711063 4.948839,43.711122 4.948873,43.711156</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_dept.5346">
+  <Placemark id="dept.5346">
 <styleUrl>#DEPT</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
-		<SimpleData name="Numéro de Parcelle">13006000AM0041</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#dept">
+		<SimpleData name="Numero de Parcelle">13006000AM0041</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">AUREILLE</SimpleData>
 		<SimpleData name="Adresse">LES CRAUS D EN HAUT</SimpleData>
-		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
+		<SimpleData name="Groupe de personne">Departement</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">DEPT</SimpleData>
+		<SimpleData name="Denomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -109,16 +119,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>4.959272,43.69637 4.958594,43.696268 4.9586,43.696459 4.959272,43.69637</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>4.959272,43.69637 4.958594,43.696268 4.9586,43.696459 4.959272,43.69637</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_dept.5961">
+  <Placemark id="dept.5961">
 <styleUrl>#DEPT</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
-		<SimpleData name="Numéro de Parcelle">13006000BM0051</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#dept">
+		<SimpleData name="Numero de Parcelle">13006000BM0051</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">AUREILLE</SimpleData>
 		<SimpleData name="Adresse">LES TREBONS D EN HAUT</SimpleData>
-		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
+		<SimpleData name="Groupe de personne">Departement</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">DEPT</SimpleData>
+		<SimpleData name="Denomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -132,16 +144,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>4.927914,43.695759 4.927904,43.695776 4.92798,43.695802 4.927991,43.695785 4.927914,43.695759</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>4.927914,43.695759 4.927904,43.695776 4.92798,43.695802 4.927991,43.695785 4.927914,43.695759</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_dept.7036">
+  <Placemark id="dept.7036">
 <styleUrl>#DEPT</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
-		<SimpleData name="Numéro de Parcelle">13006000AH0008</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#dept">
+		<SimpleData name="Numero de Parcelle">13006000AH0008</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">AUREILLE</SimpleData>
 		<SimpleData name="Adresse">VALLONS DE SAINT VERAN</SimpleData>
-		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
+		<SimpleData name="Groupe de personne">Departement</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">DEPT</SimpleData>
+		<SimpleData name="Denomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -155,16 +169,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>4.947923,43.701256 4.947927,43.701278 4.947975,43.701506 4.948032,43.7015 4.94798,43.701251 4.947923,43.701256</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>4.947923,43.701256 4.947927,43.701278 4.947975,43.701506 4.948032,43.7015 4.94798,43.701251 4.947923,43.701256</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_dept.7076">
+  <Placemark id="dept.7076">
 <styleUrl>#DEPT</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
-		<SimpleData name="Numéro de Parcelle">13006000BS0080</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#dept">
+		<SimpleData name="Numero de Parcelle">13006000BS0080</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">AUREILLE</SimpleData>
 		<SimpleData name="Adresse">LA JULIERE</SimpleData>
-		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
+		<SimpleData name="Groupe de personne">Departement</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">DEPT</SimpleData>
+		<SimpleData name="Denomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -178,6 +194,6 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>4.925095,43.700816 4.925363,43.700836 4.925664,43.700849 4.925927,43.700879 4.926146,43.700903 4.926366,43.700925 4.926931,43.700967 4.927503,43.701038 4.928121,43.701096 4.928262,43.701125 4.928682,43.701214 4.928851,43.701248 4.928918,43.701268 4.929227,43.70135 4.929745,43.701497 4.929858,43.701528 4.930457,43.701661 4.9305,43.701577 4.9299,43.701397 4.929358,43.701234 4.928844,43.701096 4.928138,43.70103 4.927236,43.700938 4.926092,43.700824 4.925677,43.700781 4.925115,43.700709 4.925095,43.700816</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>4.925095,43.700816 4.925363,43.700836 4.925664,43.700849 4.925927,43.700879 4.926146,43.700903 4.926366,43.700925 4.926931,43.700967 4.927503,43.701038 4.928121,43.701096 4.928262,43.701125 4.928682,43.701214 4.928851,43.701248 4.928918,43.701268 4.929227,43.70135 4.929745,43.701497 4.929858,43.701528 4.930457,43.701661 4.9305,43.701577 4.9299,43.701397 4.929358,43.701234 4.928844,43.701096 4.928138,43.70103 4.927236,43.700938 4.926092,43.700824 4.925677,43.700781 4.925115,43.700709 4.925095,43.700816</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
 </Folder></Document></kml>

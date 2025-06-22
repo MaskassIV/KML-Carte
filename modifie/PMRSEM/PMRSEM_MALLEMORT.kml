@@ -2,11 +2,13 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document id="root_doc">
 <Schema name="MALLEMORT_PMRSEM" id="MALLEMORT_PMRSEM">
-	<SimpleField name="Numéro de Parcelle" type="string"></SimpleField>
+	<SimpleField name="Numero de Parcelle" type="string"></SimpleField>
 	<SimpleField name="Departement" type="string"></SimpleField>
 	<SimpleField name="Commune" type="string"></SimpleField>
 	<SimpleField name="Adresse" type="string"></SimpleField>
-	<SimpleField name="Dénomination" type="string"></SimpleField>
+	<SimpleField name="Groupe de personne" type="string"></SimpleField>
+	<SimpleField name="Forme Juridique Abregee" type="string"></SimpleField>
+	<SimpleField name="Denomination" type="string"></SimpleField>
 </Schema>
 	<Style id="PMRSEM">
 		<LineStyle>
@@ -19,14 +21,16 @@
 			<outline>1</outline>
 		</PolyStyle>
 	</Style><Folder><name>parcelle_13_pmrsem</name>
-  <Placemark id="parcelle_13_pmrsem.17">
+  <Placemark id="pmrsem.17">
 <styleUrl>#PMRSEM</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_pmrsem">
-		<SimpleData name="Numéro de Parcelle">130530000C5755</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#pmrsem">
+		<SimpleData name="Numero de Parcelle">130530000C5755</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MALLEMORT</SimpleData>
 		<SimpleData name="Adresse">49, RUE FREDERIC MISTRAL</SimpleData>
-		<SimpleData name="Dénomination">S A E M DE LA VILLE DE MALLEMORT</SimpleData>
+		<SimpleData name="Groupe de personne">Personnes morales representant des societes d'economie mixte</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SEM</SimpleData>
+		<SimpleData name="Denomination">S A E M DE LA VILLE DE MALLEMORT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -40,16 +44,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.18413,43.726201 5.184107,43.726293 5.184089,43.726365 5.18429,43.726416 5.184273,43.726406 5.184405,43.726293 5.184374,43.726274 5.184444,43.726033 5.184182,43.725989 5.18413,43.726201</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.18413,43.726201 5.184107,43.726293 5.184089,43.726365 5.18429,43.726416 5.184273,43.726406 5.184405,43.726293 5.184374,43.726274 5.184444,43.726033 5.184182,43.725989 5.18413,43.726201</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_pmrsem.26">
+  <Placemark id="pmrsem.26">
 <styleUrl>#PMRSEM</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_pmrsem">
-		<SimpleData name="Numéro de Parcelle">130530000G0955</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#pmrsem">
+		<SimpleData name="Numero de Parcelle">130530000G0955</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MALLEMORT</SimpleData>
 		<SimpleData name="Adresse">LE VILLAGE</SimpleData>
-		<SimpleData name="Dénomination">S A E M DE LA VILLE DE MALLEMORT</SimpleData>
+		<SimpleData name="Groupe de personne">Personnes morales representant des societes d'economie mixte</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SEM</SimpleData>
+		<SimpleData name="Denomination">S A E M DE LA VILLE DE MALLEMORT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -63,16 +69,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.181557,43.732088 5.18151,43.732124 5.181569,43.732144 5.181593,43.73211 5.181557,43.732088</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.181557,43.732088 5.18151,43.732124 5.181569,43.732144 5.181593,43.73211 5.181557,43.732088</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_pmrsem.83">
+  <Placemark id="pmrsem.83">
 <styleUrl>#PMRSEM</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_pmrsem">
-		<SimpleData name="Numéro de Parcelle">130530000G1293</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#pmrsem">
+		<SimpleData name="Numero de Parcelle">130530000G1293</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MALLEMORT</SimpleData>
 		<SimpleData name="Adresse">19, RUE FERNAND PAURIOL</SimpleData>
-		<SimpleData name="Dénomination">S A E M DE LA VILLE DE MALLEMORT</SimpleData>
+		<SimpleData name="Groupe de personne">Personnes morales representant des societes d'economie mixte</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SEM</SimpleData>
+		<SimpleData name="Denomination">S A E M DE LA VILLE DE MALLEMORT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -86,16 +94,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.179345,43.730256 5.179517,43.730231 5.179489,43.730157 5.179442,43.730169 5.179447,43.730178 5.179316,43.730208 5.179339,43.730247 5.179345,43.730256</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.179345,43.730256 5.179517,43.730231 5.179489,43.730157 5.179442,43.730169 5.179447,43.730178 5.179316,43.730208 5.179339,43.730247 5.179345,43.730256</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_pmrsem.84">
+  <Placemark id="pmrsem.84">
 <styleUrl>#PMRSEM</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_pmrsem">
-		<SimpleData name="Numéro de Parcelle">130530000G1294</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#pmrsem">
+		<SimpleData name="Numero de Parcelle">130530000G1294</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MALLEMORT</SimpleData>
 		<SimpleData name="Adresse">19, RUE FERNAND PAURIOL</SimpleData>
-		<SimpleData name="Dénomination">S A E M DE LA VILLE DE MALLEMORT</SimpleData>
+		<SimpleData name="Groupe de personne">Personnes morales representant des societes d'economie mixte</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SEM</SimpleData>
+		<SimpleData name="Denomination">S A E M DE LA VILLE DE MALLEMORT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -109,16 +119,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.179442,43.730169 5.179415,43.730116 5.179276,43.730144 5.17931,43.730209 5.179316,43.730208 5.179447,43.730178 5.179442,43.730169</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.179442,43.730169 5.179415,43.730116 5.179276,43.730144 5.17931,43.730209 5.179316,43.730208 5.179447,43.730178 5.179442,43.730169</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_pmrsem.99">
+  <Placemark id="pmrsem.99">
 <styleUrl>#PMRSEM</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_pmrsem">
-		<SimpleData name="Numéro de Parcelle">130530000E1463</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#pmrsem">
+		<SimpleData name="Numero de Parcelle">130530000E1463</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MALLEMORT</SimpleData>
 		<SimpleData name="Adresse">7, AV DES FRERES ROQUEPLAN</SimpleData>
-		<SimpleData name="Dénomination">S A E M DE LA VILLE DE MALLEMORT</SimpleData>
+		<SimpleData name="Groupe de personne">Personnes morales representant des societes d'economie mixte</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SEM</SimpleData>
+		<SimpleData name="Denomination">S A E M DE LA VILLE DE MALLEMORT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -132,16 +144,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.177401,43.72976 5.177241,43.729746 5.177204,43.729823 5.177171,43.729893 5.177163,43.729909 5.177214,43.729921 5.177328,43.729947 5.177358,43.729954 5.177401,43.72976</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.177401,43.72976 5.177241,43.729746 5.177204,43.729823 5.177171,43.729893 5.177163,43.729909 5.177214,43.729921 5.177328,43.729947 5.177358,43.729954 5.177401,43.72976</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_pmrsem.110">
+  <Placemark id="pmrsem.110">
 <styleUrl>#PMRSEM</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_pmrsem">
-		<SimpleData name="Numéro de Parcelle">130530000G1556</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#pmrsem">
+		<SimpleData name="Numero de Parcelle">130530000G1556</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MALLEMORT</SimpleData>
 		<SimpleData name="Adresse">LE VILLAGE</SimpleData>
-		<SimpleData name="Dénomination">S A E M DE LA VILLE DE MALLEMORT</SimpleData>
+		<SimpleData name="Groupe de personne">Personnes morales representant des societes d'economie mixte</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SEM</SimpleData>
+		<SimpleData name="Denomination">S A E M DE LA VILLE DE MALLEMORT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -155,16 +169,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.179496,43.728755 5.179457,43.728819 5.179417,43.728884 5.179416,43.728886 5.179458,43.7289 5.179451,43.728913 5.179468,43.728918 5.179519,43.728935 5.179595,43.728961 5.179612,43.728934 5.179595,43.728928 5.179615,43.728899 5.179649,43.72891 5.179691,43.728845 5.179705,43.728822 5.179722,43.728767 5.179754,43.728661 5.179788,43.728543 5.179773,43.728539 5.179653,43.728507 5.179496,43.728755</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.179496,43.728755 5.179457,43.728819 5.179417,43.728884 5.179416,43.728886 5.179458,43.7289 5.179451,43.728913 5.179468,43.728918 5.179519,43.728935 5.179595,43.728961 5.179612,43.728934 5.179595,43.728928 5.179615,43.728899 5.179649,43.72891 5.179691,43.728845 5.179705,43.728822 5.179722,43.728767 5.179754,43.728661 5.179788,43.728543 5.179773,43.728539 5.179653,43.728507 5.179496,43.728755</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_pmrsem.122">
+  <Placemark id="pmrsem.122">
 <styleUrl>#PMRSEM</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_pmrsem">
-		<SimpleData name="Numéro de Parcelle">130530000C1751</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#pmrsem">
+		<SimpleData name="Numero de Parcelle">130530000C1751</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MALLEMORT</SimpleData>
 		<SimpleData name="Adresse">LA GACHE</SimpleData>
-		<SimpleData name="Dénomination">S A E M DE LA VILLE DE MALLEMORT</SimpleData>
+		<SimpleData name="Groupe de personne">Personnes morales representant des societes d'economie mixte</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SEM</SimpleData>
+		<SimpleData name="Denomination">S A E M DE LA VILLE DE MALLEMORT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -178,16 +194,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.183652,43.725993 5.183664,43.725927 5.183452,43.725925 5.183181,43.725918 5.183131,43.726075 5.183201,43.726119 5.183404,43.726156 5.183608,43.726236 5.183613,43.726205 5.183627,43.726133 5.183652,43.725993</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.183652,43.725993 5.183664,43.725927 5.183452,43.725925 5.183181,43.725918 5.183131,43.726075 5.183201,43.726119 5.183404,43.726156 5.183608,43.726236 5.183613,43.726205 5.183627,43.726133 5.183652,43.725993</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_pmrsem.123">
+  <Placemark id="pmrsem.123">
 <styleUrl>#PMRSEM</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_pmrsem">
-		<SimpleData name="Numéro de Parcelle">130530000C1756</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#pmrsem">
+		<SimpleData name="Numero de Parcelle">130530000C1756</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MALLEMORT</SimpleData>
 		<SimpleData name="Adresse">LA GACHE</SimpleData>
-		<SimpleData name="Dénomination">S A E M DE LA VILLE DE MALLEMORT</SimpleData>
+		<SimpleData name="Groupe de personne">Personnes morales representant des societes d'economie mixte</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SEM</SimpleData>
+		<SimpleData name="Denomination">S A E M DE LA VILLE DE MALLEMORT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -201,16 +219,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.184089,43.726365 5.184107,43.726293 5.18413,43.726201 5.184182,43.725989 5.184051,43.725998 5.183925,43.726324 5.184089,43.726365</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.184089,43.726365 5.184107,43.726293 5.18413,43.726201 5.184182,43.725989 5.184051,43.725998 5.183925,43.726324 5.184089,43.726365</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_pmrsem.124">
+  <Placemark id="pmrsem.124">
 <styleUrl>#PMRSEM</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_pmrsem">
-		<SimpleData name="Numéro de Parcelle">130530000C1758</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#pmrsem">
+		<SimpleData name="Numero de Parcelle">130530000C1758</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MALLEMORT</SimpleData>
 		<SimpleData name="Adresse">51, RUE FREDERIC MISTRAL</SimpleData>
-		<SimpleData name="Dénomination">S A E M DE LA VILLE DE MALLEMORT</SimpleData>
+		<SimpleData name="Groupe de personne">Personnes morales representant des societes d'economie mixte</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SEM</SimpleData>
+		<SimpleData name="Denomination">S A E M DE LA VILLE DE MALLEMORT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -224,16 +244,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.183652,43.725993 5.183627,43.726133 5.183613,43.726205 5.183608,43.726236 5.183665,43.726259 5.183925,43.726324 5.184051,43.725998 5.183952,43.726007 5.183652,43.725993</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.183652,43.725993 5.183627,43.726133 5.183613,43.726205 5.183608,43.726236 5.183665,43.726259 5.183925,43.726324 5.184051,43.725998 5.183952,43.726007 5.183652,43.725993</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_pmrsem.255">
+  <Placemark id="pmrsem.255">
 <styleUrl>#PMRSEM</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_pmrsem">
-		<SimpleData name="Numéro de Parcelle">130530000C2976</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#pmrsem">
+		<SimpleData name="Numero de Parcelle">130530000C2976</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MALLEMORT</SimpleData>
 		<SimpleData name="Adresse">31, RUE FREDERIC MISTRAL</SimpleData>
-		<SimpleData name="Dénomination">S A E M DE LA VILLE DE MALLEMORT</SimpleData>
+		<SimpleData name="Groupe de personne">Personnes morales representant des societes d'economie mixte</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SEM</SimpleData>
+		<SimpleData name="Denomination">S A E M DE LA VILLE DE MALLEMORT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -247,16 +269,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.18355,43.72697 5.183628,43.727266 5.183673,43.727259 5.183715,43.727253 5.183724,43.72725 5.183724,43.727211 5.183723,43.727186 5.183723,43.727116 5.183723,43.727091 5.183722,43.726988 5.183722,43.726941 5.18355,43.72697</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.18355,43.72697 5.183628,43.727266 5.183673,43.727259 5.183715,43.727253 5.183724,43.72725 5.183724,43.727211 5.183723,43.727186 5.183723,43.727116 5.183723,43.727091 5.183722,43.726988 5.183722,43.726941 5.18355,43.72697</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_pmrsem.257">
+  <Placemark id="pmrsem.257">
 <styleUrl>#PMRSEM</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_pmrsem">
-		<SimpleData name="Numéro de Parcelle">130530000C2988</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#pmrsem">
+		<SimpleData name="Numero de Parcelle">130530000C2988</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MALLEMORT</SimpleData>
 		<SimpleData name="Adresse">22, RUE FREDERIC MISTRAL</SimpleData>
-		<SimpleData name="Dénomination">S A E M DE LA VILLE DE MALLEMORT</SimpleData>
+		<SimpleData name="Groupe de personne">Personnes morales representant des societes d'economie mixte</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SEM</SimpleData>
+		<SimpleData name="Denomination">S A E M DE LA VILLE DE MALLEMORT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -270,16 +294,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.183472,43.726619 5.183426,43.726634 5.183338,43.726663 5.183375,43.726726 5.183389,43.72675 5.18343,43.72682 5.18344,43.726837 5.18347,43.726887 5.183581,43.726865 5.183531,43.726752 5.183514,43.726713 5.183472,43.726619</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.183472,43.726619 5.183426,43.726634 5.183338,43.726663 5.183375,43.726726 5.183389,43.72675 5.18343,43.72682 5.18344,43.726837 5.18347,43.726887 5.183581,43.726865 5.183531,43.726752 5.183514,43.726713 5.183472,43.726619</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_pmrsem.258">
+  <Placemark id="pmrsem.258">
 <styleUrl>#PMRSEM</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_pmrsem">
-		<SimpleData name="Numéro de Parcelle">130530000C2993</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#pmrsem">
+		<SimpleData name="Numero de Parcelle">130530000C2993</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MALLEMORT</SimpleData>
 		<SimpleData name="Adresse">38, RUE FREDERIC MISTRAL</SimpleData>
-		<SimpleData name="Dénomination">S A E M DE LA VILLE DE MALLEMORT</SimpleData>
+		<SimpleData name="Groupe de personne">Personnes morales representant des societes d'economie mixte</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SEM</SimpleData>
+		<SimpleData name="Denomination">S A E M DE LA VILLE DE MALLEMORT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -293,16 +319,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.183906,43.726447 5.18388,43.7266 5.184048,43.726642 5.18405,43.72664 5.184062,43.726618 5.1841,43.726554 5.18414,43.726486 5.18398,43.726443 5.183906,43.726447</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.183906,43.726447 5.18388,43.7266 5.184048,43.726642 5.18405,43.72664 5.184062,43.726618 5.1841,43.726554 5.18414,43.726486 5.18398,43.726443 5.183906,43.726447</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_pmrsem.534">
+  <Placemark id="pmrsem.534">
 <styleUrl>#PMRSEM</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_pmrsem">
-		<SimpleData name="Numéro de Parcelle">130530000G0574</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#pmrsem">
+		<SimpleData name="Numero de Parcelle">130530000G0574</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MALLEMORT</SimpleData>
 		<SimpleData name="Adresse">LE VILLAGE</SimpleData>
-		<SimpleData name="Dénomination">S A E M DE LA VILLE DE MALLEMORT</SimpleData>
+		<SimpleData name="Groupe de personne">Personnes morales representant des societes d'economie mixte</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SEM</SimpleData>
+		<SimpleData name="Denomination">S A E M DE LA VILLE DE MALLEMORT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -316,16 +344,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.181593,43.73211 5.181621,43.732127 5.181662,43.73208 5.181617,43.732041 5.181557,43.732088 5.181593,43.73211</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.181593,43.73211 5.181621,43.732127 5.181662,43.73208 5.181617,43.732041 5.181557,43.732088 5.181593,43.73211</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_pmrsem.537">
+  <Placemark id="pmrsem.537">
 <styleUrl>#PMRSEM</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_pmrsem">
-		<SimpleData name="Numéro de Parcelle">130530000G0576</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#pmrsem">
+		<SimpleData name="Numero de Parcelle">130530000G0576</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MALLEMORT</SimpleData>
 		<SimpleData name="Adresse">14, RUE DES FRERES ARRUE</SimpleData>
-		<SimpleData name="Dénomination">S A E M DE LA VILLE DE MALLEMORT</SimpleData>
+		<SimpleData name="Groupe de personne">Personnes morales representant des societes d'economie mixte</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SEM</SimpleData>
+		<SimpleData name="Denomination">S A E M DE LA VILLE DE MALLEMORT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -339,16 +369,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.181418,43.732079 5.181461,43.732107 5.18151,43.732124 5.181557,43.732088 5.181617,43.732041 5.181585,43.732022 5.181513,43.732071 5.181477,43.73204 5.181418,43.732079</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.181418,43.732079 5.181461,43.732107 5.18151,43.732124 5.181557,43.732088 5.181617,43.732041 5.181585,43.732022 5.181513,43.732071 5.181477,43.73204 5.181418,43.732079</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_pmrsem.664">
+  <Placemark id="pmrsem.664">
 <styleUrl>#PMRSEM</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_pmrsem">
-		<SimpleData name="Numéro de Parcelle">130530000G0846</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#pmrsem">
+		<SimpleData name="Numero de Parcelle">130530000G0846</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MALLEMORT</SimpleData>
 		<SimpleData name="Adresse">LE VILLAGE</SimpleData>
-		<SimpleData name="Dénomination">S A E M DE LA VILLE DE MALLEMORT</SimpleData>
+		<SimpleData name="Groupe de personne">Personnes morales representant des societes d'economie mixte</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SEM</SimpleData>
+		<SimpleData name="Denomination">S A E M DE LA VILLE DE MALLEMORT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -362,16 +394,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.18102,43.73048 5.181011,43.730479 5.18101,43.730517 5.181029,43.73052 5.181032,43.73049 5.18102,43.73048</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.18102,43.73048 5.181011,43.730479 5.18101,43.730517 5.181029,43.73052 5.181032,43.73049 5.18102,43.73048</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_pmrsem.666">
+  <Placemark id="pmrsem.666">
 <styleUrl>#PMRSEM</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_pmrsem">
-		<SimpleData name="Numéro de Parcelle">130530000G0850</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#pmrsem">
+		<SimpleData name="Numero de Parcelle">130530000G0850</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MALLEMORT</SimpleData>
 		<SimpleData name="Adresse">39, GR GRAND RUE</SimpleData>
-		<SimpleData name="Dénomination">S A E M DE LA VILLE DE MALLEMORT</SimpleData>
+		<SimpleData name="Groupe de personne">Personnes morales representant des societes d'economie mixte</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SEM</SimpleData>
+		<SimpleData name="Denomination">S A E M DE LA VILLE DE MALLEMORT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -385,16 +419,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.180719,43.730602 5.180714,43.73064 5.18072,43.73064 5.180856,43.73066 5.18086,43.730629 5.180719,43.730602</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.180719,43.730602 5.180714,43.73064 5.18072,43.73064 5.180856,43.73066 5.18086,43.730629 5.180719,43.730602</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_pmrsem.667">
+  <Placemark id="pmrsem.667">
 <styleUrl>#PMRSEM</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_pmrsem">
-		<SimpleData name="Numéro de Parcelle">130530000G0851</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#pmrsem">
+		<SimpleData name="Numero de Parcelle">130530000G0851</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MALLEMORT</SimpleData>
 		<SimpleData name="Adresse">LE VILLAGE</SimpleData>
-		<SimpleData name="Dénomination">S A E M DE LA VILLE DE MALLEMORT</SimpleData>
+		<SimpleData name="Groupe de personne">Personnes morales representant des societes d'economie mixte</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SEM</SimpleData>
+		<SimpleData name="Denomination">S A E M DE LA VILLE DE MALLEMORT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -408,16 +444,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.18108,43.730689 5.181087,43.730655 5.180911,43.730632 5.18086,43.730629 5.180856,43.73066 5.180963,43.730671 5.18108,43.730689</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.18108,43.730689 5.181087,43.730655 5.180911,43.730632 5.18086,43.730629 5.180856,43.73066 5.180963,43.730671 5.18108,43.730689</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_pmrsem.668">
+  <Placemark id="pmrsem.668">
 <styleUrl>#PMRSEM</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_pmrsem">
-		<SimpleData name="Numéro de Parcelle">130530000G0857</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#pmrsem">
+		<SimpleData name="Numero de Parcelle">130530000G0857</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MALLEMORT</SimpleData>
 		<SimpleData name="Adresse">3, GR GRAND RUE</SimpleData>
-		<SimpleData name="Dénomination">S A E M DE LA VILLE DE MALLEMORT</SimpleData>
+		<SimpleData name="Groupe de personne">Personnes morales representant des societes d'economie mixte</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SEM</SimpleData>
+		<SimpleData name="Denomination">S A E M DE LA VILLE DE MALLEMORT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -431,16 +469,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.180613,43.731561 5.180561,43.73156 5.180526,43.731647 5.180626,43.731645 5.180649,43.731584 5.180654,43.731572 5.180613,43.731561</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.180613,43.731561 5.180561,43.73156 5.180526,43.731647 5.180626,43.731645 5.180649,43.731584 5.180654,43.731572 5.180613,43.731561</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_pmrsem.669">
+  <Placemark id="pmrsem.669">
 <styleUrl>#PMRSEM</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_pmrsem">
-		<SimpleData name="Numéro de Parcelle">130530000G0858</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#pmrsem">
+		<SimpleData name="Numero de Parcelle">130530000G0858</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MALLEMORT</SimpleData>
 		<SimpleData name="Adresse">LE VILLAGE</SimpleData>
-		<SimpleData name="Dénomination">S A E M DE LA VILLE DE MALLEMORT</SimpleData>
+		<SimpleData name="Groupe de personne">Personnes morales representant des societes d'economie mixte</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SEM</SimpleData>
+		<SimpleData name="Denomination">S A E M DE LA VILLE DE MALLEMORT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -454,16 +494,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.180658,43.731562 5.180613,43.731561 5.180654,43.731572 5.180658,43.731562</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.180658,43.731562 5.180613,43.731561 5.180654,43.731572 5.180658,43.731562</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_pmrsem.692">
+  <Placemark id="pmrsem.692">
 <styleUrl>#PMRSEM</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_pmrsem">
-		<SimpleData name="Numéro de Parcelle">130530000G0954</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#pmrsem">
+		<SimpleData name="Numero de Parcelle">130530000G0954</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MALLEMORT</SimpleData>
 		<SimpleData name="Adresse">14, RUE DES FRERES ARRUE</SimpleData>
-		<SimpleData name="Dénomination">S A E M DE LA VILLE DE MALLEMORT</SimpleData>
+		<SimpleData name="Groupe de personne">Personnes morales representant des societes d'economie mixte</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SEM</SimpleData>
+		<SimpleData name="Denomination">S A E M DE LA VILLE DE MALLEMORT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -477,16 +519,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.181569,43.732144 5.181597,43.732154 5.181621,43.732127 5.181593,43.73211 5.181569,43.732144</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.181569,43.732144 5.181597,43.732154 5.181621,43.732127 5.181593,43.73211 5.181569,43.732144</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_pmrsem.695">
+  <Placemark id="pmrsem.695">
 <styleUrl>#PMRSEM</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_pmrsem">
-		<SimpleData name="Numéro de Parcelle">130530000G0977</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#pmrsem">
+		<SimpleData name="Numero de Parcelle">130530000G0977</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MALLEMORT</SimpleData>
 		<SimpleData name="Adresse">LE VILLAGE</SimpleData>
-		<SimpleData name="Dénomination">S A E M DE LA VILLE DE MALLEMORT</SimpleData>
+		<SimpleData name="Groupe de personne">Personnes morales representant des societes d'economie mixte</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SEM</SimpleData>
+		<SimpleData name="Denomination">S A E M DE LA VILLE DE MALLEMORT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -500,6 +544,6 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.181087,43.730655 5.181111,43.730559 5.181119,43.730531 5.18108,43.730526 5.18105,43.730522 5.181029,43.73052 5.18101,43.730517 5.181009,43.730532 5.181009,43.730536 5.180954,43.730534 5.180949,43.730558 5.180939,43.730558 5.180938,43.730564 5.180923,43.730562 5.180864,43.730557 5.180727,43.730543 5.180719,43.730602 5.18086,43.730629 5.180911,43.730632 5.181087,43.730655</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.181087,43.730655 5.181111,43.730559 5.181119,43.730531 5.18108,43.730526 5.18105,43.730522 5.181029,43.73052 5.18101,43.730517 5.181009,43.730532 5.181009,43.730536 5.180954,43.730534 5.180949,43.730558 5.180939,43.730558 5.180938,43.730564 5.180923,43.730562 5.180864,43.730557 5.180727,43.730543 5.180719,43.730602 5.18086,43.730629 5.180911,43.730632 5.181087,43.730655</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
 </Folder></Document></kml>

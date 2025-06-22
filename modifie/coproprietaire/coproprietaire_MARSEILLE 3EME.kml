@@ -2,11 +2,13 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document id="root_doc">
 <Schema name="MARSEILLE 3EME_coproprietaire" id="MARSEILLE 3EME_coproprietaire">
-	<SimpleField name="Numéro de Parcelle" type="string"></SimpleField>
+	<SimpleField name="Numero de Parcelle" type="string"></SimpleField>
 	<SimpleField name="Departement" type="string"></SimpleField>
 	<SimpleField name="Commune" type="string"></SimpleField>
 	<SimpleField name="Adresse" type="string"></SimpleField>
-	<SimpleField name="Dénomination" type="string"></SimpleField>
+	<SimpleField name="Groupe de personne" type="string"></SimpleField>
+	<SimpleField name="Forme Juridique Abregee" type="string"></SimpleField>
+	<SimpleField name="Denomination" type="string"></SimpleField>
 </Schema>
 	<Style id="coproprietaire">
 		<LineStyle>
@@ -19,14 +21,16 @@
 			<outline>1</outline>
 		</PolyStyle>
 	</Style><Folder><name>parcelle_13_coproprietaire</name>
-  <Placemark id="parcelle_13_coproprietaire.90">
+  <Placemark id="coproprietaire.90">
 <styleUrl>#coproprietaire</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_coproprietaire">
-		<SimpleData name="Numéro de Parcelle">132038110M0112</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#coproprietaire">
+		<SimpleData name="Numero de Parcelle">132038110M0112</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 3EME</SimpleData>
 		<SimpleData name="Adresse">17, RUE BERNARD</SimpleData>
-		<SimpleData name="Dénomination">SOLAFIM</SimpleData>
+		<SimpleData name="Groupe de personne">Coproprietaires</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SCI</SimpleData>
+		<SimpleData name="Denomination">SOLAFIM</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -40,5 +44,6 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.385908,43.310736,15 5.385926,43.310741,15 5.385944,43.310745,15 5.386001,43.31076,15 5.38603,43.310701,15 5.386021,43.310698,15 5.386029,43.310682,15 5.386041,43.310656,15 5.386043,43.310651,15 5.386098,43.310538,15 5.386014,43.310516,15 5.385958,43.310634,15 5.385949,43.310652,15 5.385937,43.310676,15 5.385928,43.310695,15 5.385908,43.310736,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.385908,43.310736,15 5.385926,43.310741,15 5.385944,43.310745,15 5.386001,43.31076,15 5.38603,43.310701,15 5.386021,43.310698,15 5.386029,43.310682,15 5.386041,43.310656,15 5.386043,43.310651,15 5.386098,43.310538,15 5.386014,43.310516,15 5.385958,43.310634,15 5.385949,43.310652,15 5.385937,43.310676,15 5.385928,43.310695,15 5.385908,43.310736,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
 </Folder></Document></kml>

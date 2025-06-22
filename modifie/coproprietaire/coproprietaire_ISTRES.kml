@@ -2,11 +2,13 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document id="root_doc">
 <Schema name="ISTRES_coproprietaire" id="ISTRES_coproprietaire">
-	<SimpleField name="Numéro de Parcelle" type="string"></SimpleField>
+	<SimpleField name="Numero de Parcelle" type="string"></SimpleField>
 	<SimpleField name="Departement" type="string"></SimpleField>
 	<SimpleField name="Commune" type="string"></SimpleField>
 	<SimpleField name="Adresse" type="string"></SimpleField>
-	<SimpleField name="Dénomination" type="string"></SimpleField>
+	<SimpleField name="Groupe de personne" type="string"></SimpleField>
+	<SimpleField name="Forme Juridique Abregee" type="string"></SimpleField>
+	<SimpleField name="Denomination" type="string"></SimpleField>
 </Schema>
 	<Style id="coproprietaire">
 		<LineStyle>
@@ -19,14 +21,16 @@
 			<outline>1</outline>
 		</PolyStyle>
 	</Style><Folder><name>parcelle_13_coproprietaire</name>
-  <Placemark id="parcelle_13_coproprietaire.85">
+  <Placemark id="coproprietaire.85">
 <styleUrl>#coproprietaire</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_coproprietaire">
-		<SimpleData name="Numéro de Parcelle">13047000BC0009</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#coproprietaire">
+		<SimpleData name="Numero de Parcelle">13047000BC0009</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ISTRES</SimpleData>
 		<SimpleData name="Adresse">BOISGELIN</SimpleData>
-		<SimpleData name="Dénomination">LES COPROPRIETAIRES DU BND 047 BC 9</SimpleData>
+		<SimpleData name="Groupe de personne">Coproprietaires</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">AUPM</SimpleData>
+		<SimpleData name="Denomination">LES COPROPRIETAIRES DU BND 047 BC 9</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -40,6 +44,6 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>4.970843,43.51358 4.971046,43.513581 4.971046,43.513575 4.971048,43.513289 4.97105,43.513107 4.971054,43.51259 4.970841,43.512586 4.970842,43.513195 4.970843,43.51358</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>4.970843,43.51358 4.971046,43.513581 4.971046,43.513575 4.971048,43.513289 4.97105,43.513107 4.971054,43.51259 4.970841,43.512586 4.970842,43.513195 4.970843,43.51358</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
 </Folder></Document></kml>

@@ -2,11 +2,13 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document id="root_doc">
 <Schema name="MARSEILLE 6EME_ETAT" id="MARSEILLE 6EME_ETAT">
-	<SimpleField name="Numéro de Parcelle" type="string"></SimpleField>
+	<SimpleField name="Numero de Parcelle" type="string"></SimpleField>
 	<SimpleField name="Departement" type="string"></SimpleField>
 	<SimpleField name="Commune" type="string"></SimpleField>
 	<SimpleField name="Adresse" type="string"></SimpleField>
-	<SimpleField name="Dénomination" type="string"></SimpleField>
+	<SimpleField name="Groupe de personne" type="string"></SimpleField>
+	<SimpleField name="Forme Juridique Abregee" type="string"></SimpleField>
+	<SimpleField name="Denomination" type="string"></SimpleField>
 </Schema>
 	<Style id="ETAT">
 		<LineStyle>
@@ -19,14 +21,16 @@
 			<outline>1</outline>
 		</PolyStyle>
 	</Style><Folder><name>parcelle_13_etat</name>
-  <Placemark id="parcelle_13_etat.49">
+  <Placemark id="etat.49">
 <styleUrl>#ETAT</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
-		<SimpleData name="Numéro de Parcelle">132068280I0142</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#etat">
+		<SimpleData name="Numero de Parcelle">132068280I0142</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
 		<SimpleData name="Adresse">30, RUE DU CAMBODGE</SimpleData>
-		<SimpleData name="Dénomination">COMMUN URBAIN MARSEILLE PROVENC METROPOL</SimpleData>
+		<SimpleData name="Groupe de personne">Etat</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">COMU</SimpleData>
+		<SimpleData name="Denomination">COMMUN URBAIN MARSEILLE PROVENC METROPOL</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -40,14 +44,17 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.374916,43.28014,15 5.375067,43.280127,15 5.375054,43.280064,15 5.374951,43.280102,15 5.374909,43.280116,15 5.374907,43.280118,15 5.374916,43.28014,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_etat.106">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.374916,43.28014,15 5.375067,43.280127,15 5.375054,43.280064,15 5.374951,43.280102,15 5.374909,43.280116,15 5.374907,43.280118,15 5.374916,43.28014,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="etat.106">
 <styleUrl>#ETAT</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
-		<SimpleData name="Numéro de Parcelle">132068230A0198</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#etat">
+		<SimpleData name="Numero de Parcelle">132068230A0198</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
-		<SimpleData name="Dénomination">MICHEL DE CHABANNES FERRARI</SimpleData>
+		<SimpleData name="Groupe de personne">Etat</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SAS</SimpleData>
+		<SimpleData name="Denomination">MICHEL DE CHABANNES FERRARI</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -61,15 +68,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.382268,43.286872,15 5.382229,43.28688,15 5.382175,43.286893,15 5.382186,43.286916,15 5.38223,43.287012,15 5.382226,43.287012,15 5.382241,43.287045,15 5.382337,43.287022,15 5.382282,43.286903,15 5.382278,43.286896,15 5.382268,43.286872,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_etat.7689">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.382268,43.286872,15 5.382229,43.28688,15 5.382175,43.286893,15 5.382186,43.286916,15 5.38223,43.287012,15 5.382226,43.287012,15 5.382241,43.287045,15 5.382337,43.287022,15 5.382282,43.286903,15 5.382278,43.286896,15 5.382268,43.286872,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="etat.7689">
 <styleUrl>#ETAT</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
-		<SimpleData name="Numéro de Parcelle">132068280I0108</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#etat">
+		<SimpleData name="Numero de Parcelle">132068280I0108</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
 		<SimpleData name="Adresse">24, RUE DU CAMBODGE</SimpleData>
-		<SimpleData name="Dénomination">COMMUN URBAIN MARSEILLE PROVENC METROPOL</SimpleData>
+		<SimpleData name="Groupe de personne">Etat</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">COMU</SimpleData>
+		<SimpleData name="Denomination">COMMUN URBAIN MARSEILLE PROVENC METROPOL</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -83,15 +93,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.375096,43.280506,15 5.375099,43.280505,15 5.375103,43.280404,15 5.375104,43.280373,15 5.375097,43.280324,15 5.374994,43.280334,15 5.374977,43.280336,15 5.374985,43.28035,15 5.37501,43.280394,15 5.375026,43.280391,15 5.375028,43.280391,15 5.375044,43.280417,15 5.375084,43.280485,15 5.375096,43.280506,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_etat.7730">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.375096,43.280506,15 5.375099,43.280505,15 5.375103,43.280404,15 5.375104,43.280373,15 5.375097,43.280324,15 5.374994,43.280334,15 5.374977,43.280336,15 5.374985,43.28035,15 5.37501,43.280394,15 5.375026,43.280391,15 5.375028,43.280391,15 5.375044,43.280417,15 5.375084,43.280485,15 5.375096,43.280506,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="etat.7730">
 <styleUrl>#ETAT</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
-		<SimpleData name="Numéro de Parcelle">132068260A0115</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#etat">
+		<SimpleData name="Numero de Parcelle">132068260A0115</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
 		<SimpleData name="Adresse">38, RUE EDOUARD DELANGLADE</SimpleData>
-		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
+		<SimpleData name="Groupe de personne">Etat</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">ETAT</SimpleData>
+		<SimpleData name="Denomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -105,15 +118,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.373259,43.289119,15 5.373332,43.289136,15 5.373383,43.289149,15 5.373412,43.289153,15 5.373435,43.289101,15 5.373475,43.289007,15 5.373545,43.288844,15 5.373393,43.28881,15 5.373348,43.288914,15 5.373322,43.288973,15 5.373319,43.28898,15 5.373259,43.289119,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_etat.7868">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.373259,43.289119,15 5.373332,43.289136,15 5.373383,43.289149,15 5.373412,43.289153,15 5.373435,43.289101,15 5.373475,43.289007,15 5.373545,43.288844,15 5.373393,43.28881,15 5.373348,43.288914,15 5.373322,43.288973,15 5.373319,43.28898,15 5.373259,43.289119,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="etat.7868">
 <styleUrl>#ETAT</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
-		<SimpleData name="Numéro de Parcelle">132068280I0143</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#etat">
+		<SimpleData name="Numero de Parcelle">132068280I0143</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
 		<SimpleData name="Adresse">32, RUE DU CAMBODGE</SimpleData>
-		<SimpleData name="Dénomination">COMMUN URBAIN MARSEILLE PROVENC METROPOL</SimpleData>
+		<SimpleData name="Groupe de personne">Etat</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">COMU</SimpleData>
+		<SimpleData name="Denomination">COMMUN URBAIN MARSEILLE PROVENC METROPOL</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -127,15 +143,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.374826,43.280094,15 5.374862,43.280145,15 5.374908,43.280141,15 5.374916,43.28014,15 5.374907,43.280118,15 5.374909,43.280116,15 5.374951,43.280102,15 5.375054,43.280064,15 5.375038,43.280005,15 5.374926,43.28005,15 5.374918,43.280053,15 5.374895,43.280062,15 5.374885,43.280066,15 5.374826,43.280094,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_etat.7968">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.374826,43.280094,15 5.374862,43.280145,15 5.374908,43.280141,15 5.374916,43.28014,15 5.374907,43.280118,15 5.374909,43.280116,15 5.374951,43.280102,15 5.375054,43.280064,15 5.375038,43.280005,15 5.374926,43.28005,15 5.374918,43.280053,15 5.374895,43.280062,15 5.374885,43.280066,15 5.374826,43.280094,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="etat.7968">
 <styleUrl>#ETAT</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
-		<SimpleData name="Numéro de Parcelle">132068260C0180</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#etat">
+		<SimpleData name="Numero de Parcelle">132068260C0180</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
 		<SimpleData name="Adresse">109, RUE SYLVABELLE PR VERNEJOUL</SimpleData>
-		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
+		<SimpleData name="Groupe de personne">Etat</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">ETAT</SimpleData>
+		<SimpleData name="Denomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -149,15 +168,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.374457,43.288053,15 5.374515,43.288069,15 5.374575,43.288085,15 5.374653,43.287919,15 5.374663,43.287901,15 5.374712,43.287798,15 5.374712,43.287787,15 5.374707,43.287781,15 5.374637,43.287735,15 5.374624,43.287726,15 5.374615,43.287742,15 5.374595,43.287783,15 5.374541,43.287889,15 5.374538,43.287896,15 5.374517,43.287937,15 5.374457,43.288053,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_etat.8013">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.374457,43.288053,15 5.374515,43.288069,15 5.374575,43.288085,15 5.374653,43.287919,15 5.374663,43.287901,15 5.374712,43.287798,15 5.374712,43.287787,15 5.374707,43.287781,15 5.374637,43.287735,15 5.374624,43.287726,15 5.374615,43.287742,15 5.374595,43.287783,15 5.374541,43.287889,15 5.374538,43.287896,15 5.374517,43.287937,15 5.374457,43.288053,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="etat.8013">
 <styleUrl>#ETAT</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
-		<SimpleData name="Numéro de Parcelle">132068280D0195</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#etat">
+		<SimpleData name="Numero de Parcelle">132068280D0195</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
 		<SimpleData name="Adresse">9, RUE BOSSUET</SimpleData>
-		<SimpleData name="Dénomination">COMMUN URBAIN MARSEILLE PROVENC METROPOL</SimpleData>
+		<SimpleData name="Groupe de personne">Etat</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">COMU</SimpleData>
+		<SimpleData name="Denomination">COMMUN URBAIN MARSEILLE PROVENC METROPOL</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -171,15 +193,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.379181,43.284654,15 5.379017,43.284606,15 5.37894,43.284748,15 5.379106,43.284798,15 5.379143,43.284728,15 5.379181,43.284654,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_etat.8080">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.379181,43.284654,15 5.379017,43.284606,15 5.37894,43.284748,15 5.379106,43.284798,15 5.379143,43.284728,15 5.379181,43.284654,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="etat.8080">
 <styleUrl>#ETAT</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
-		<SimpleData name="Numéro de Parcelle">132068270A0231</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#etat">
+		<SimpleData name="Numero de Parcelle">132068270A0231</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
 		<SimpleData name="Adresse">3, RUE ARMENY</SimpleData>
-		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
+		<SimpleData name="Groupe de personne">Etat</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">ETAT</SimpleData>
+		<SimpleData name="Denomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -193,15 +218,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.380366,43.290919,15 5.380314,43.291008,15 5.380494,43.291062,15 5.38068,43.291117,15 5.380732,43.291028,15 5.3808,43.290908,15 5.380434,43.290801,15 5.380366,43.290919,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_etat.8091">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.380366,43.290919,15 5.380314,43.291008,15 5.380494,43.291062,15 5.38068,43.291117,15 5.380732,43.291028,15 5.3808,43.290908,15 5.380434,43.290801,15 5.380366,43.290919,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="etat.8091">
 <styleUrl>#ETAT</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
-		<SimpleData name="Numéro de Parcelle">132068250A0239</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#etat">
+		<SimpleData name="Numero de Parcelle">132068250A0239</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
 		<SimpleData name="Adresse">86, CRS JULIEN</SimpleData>
-		<SimpleData name="Dénomination">COMMUN URBAIN MARSEILLE PROVENC METROPOL</SimpleData>
+		<SimpleData name="Groupe de personne">Etat</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">COMU</SimpleData>
+		<SimpleData name="Denomination">COMMUN URBAIN MARSEILLE PROVENC METROPOL</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -215,15 +243,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.383085,43.293201,15 5.383031,43.293185,15 5.383,43.293177,15 5.382978,43.29317,15 5.38294,43.29316,15 5.382934,43.293158,15 5.382862,43.293138,15 5.382817,43.293125,15 5.382794,43.293119,15 5.382763,43.293111,15 5.382756,43.293106,15 5.382726,43.293093,15 5.382723,43.293092,15 5.382721,43.293095,15 5.382703,43.293083,15 5.382667,43.293061,15 5.382589,43.293047,15 5.382532,43.293226,15 5.382615,43.293252,15 5.382626,43.293256,15 5.382665,43.293264,15 5.382673,43.293267,15 5.38271,43.293278,15 5.382733,43.293285,15 5.382774,43.293299,15 5.382777,43.293299,15 5.382797,43.293306,15 5.382849,43.293322,15 5.38289,43.293335,15 5.382914,43.293342,15 5.382956,43.293356,15 5.383003,43.293371,15 5.383042,43.293291,15 5.383051,43.293272,15 5.383073,43.293227,15 5.383085,43.293201,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_etat.8163">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.383085,43.293201,15 5.383031,43.293185,15 5.383,43.293177,15 5.382978,43.29317,15 5.38294,43.29316,15 5.382934,43.293158,15 5.382862,43.293138,15 5.382817,43.293125,15 5.382794,43.293119,15 5.382763,43.293111,15 5.382756,43.293106,15 5.382726,43.293093,15 5.382723,43.293092,15 5.382721,43.293095,15 5.382703,43.293083,15 5.382667,43.293061,15 5.382589,43.293047,15 5.382532,43.293226,15 5.382615,43.293252,15 5.382626,43.293256,15 5.382665,43.293264,15 5.382673,43.293267,15 5.38271,43.293278,15 5.382733,43.293285,15 5.382774,43.293299,15 5.382777,43.293299,15 5.382797,43.293306,15 5.382849,43.293322,15 5.38289,43.293335,15 5.382914,43.293342,15 5.382956,43.293356,15 5.383003,43.293371,15 5.383042,43.293291,15 5.383051,43.293272,15 5.383073,43.293227,15 5.383085,43.293201,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="etat.8163">
 <styleUrl>#ETAT</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
-		<SimpleData name="Numéro de Parcelle">132068270A0268</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#etat">
+		<SimpleData name="Numero de Parcelle">132068270A0268</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
 		<SimpleData name="Adresse">67, RUE PARADIS</SimpleData>
-		<SimpleData name="Dénomination">SOCIETE CIVILE LAW</SimpleData>
+		<SimpleData name="Groupe de personne">Etat</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SC</SimpleData>
+		<SimpleData name="Denomination">SOCIETE CIVILE LAW</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -237,15 +268,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.378087,43.291334,15 5.378037,43.291323,15 5.377967,43.291308,15 5.37777,43.291266,15 5.377734,43.291352,15 5.377918,43.291393,15 5.37793,43.291395,15 5.378001,43.291412,15 5.378053,43.291422,15 5.378054,43.29142,15 5.378087,43.291334,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_etat.8178">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.378087,43.291334,15 5.378037,43.291323,15 5.377967,43.291308,15 5.37777,43.291266,15 5.377734,43.291352,15 5.377918,43.291393,15 5.37793,43.291395,15 5.378001,43.291412,15 5.378053,43.291422,15 5.378054,43.29142,15 5.378087,43.291334,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="etat.8178">
 <styleUrl>#ETAT</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
-		<SimpleData name="Numéro de Parcelle">132068270A0280</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#etat">
+		<SimpleData name="Numero de Parcelle">132068270A0280</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
 		<SimpleData name="Adresse">21, RUE FONGATE</SimpleData>
-		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
+		<SimpleData name="Groupe de personne">Etat</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">ETAT</SimpleData>
+		<SimpleData name="Denomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -259,15 +293,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.382153,43.292585,15 5.382311,43.292611,15 5.382377,43.292621,15 5.382412,43.292627,15 5.382436,43.292631,15 5.382455,43.292634,15 5.382474,43.292637,15 5.382494,43.292578,15 5.382483,43.292576,15 5.382436,43.292568,15 5.382397,43.292562,15 5.38236,43.292555,15 5.382346,43.292553,15 5.382332,43.29255,15 5.382172,43.292524,15 5.382153,43.292585,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_etat.8485">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.382153,43.292585,15 5.382311,43.292611,15 5.382377,43.292621,15 5.382412,43.292627,15 5.382436,43.292631,15 5.382455,43.292634,15 5.382474,43.292637,15 5.382494,43.292578,15 5.382483,43.292576,15 5.382436,43.292568,15 5.382397,43.292562,15 5.38236,43.292555,15 5.382346,43.292553,15 5.382332,43.29255,15 5.382172,43.292524,15 5.382153,43.292585,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="etat.8485">
 <styleUrl>#ETAT</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
-		<SimpleData name="Numéro de Parcelle">132068280I0061</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#etat">
+		<SimpleData name="Numero de Parcelle">132068280I0061</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
 		<SimpleData name="Adresse">4, RUE DU CAMBODGE</SimpleData>
-		<SimpleData name="Dénomination">COMMUN URBAIN MARSEILLE PROVENC METROPOL</SimpleData>
+		<SimpleData name="Groupe de personne">Etat</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">COMU</SimpleData>
+		<SimpleData name="Denomination">COMMUN URBAIN MARSEILLE PROVENC METROPOL</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -281,15 +318,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.375076,43.281171,15 5.375109,43.281206,15 5.375154,43.281244,15 5.37519,43.281229,15 5.375184,43.28117,15 5.375183,43.281157,15 5.375088,43.281169,15 5.375076,43.281171,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_etat.8624">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.375076,43.281171,15 5.375109,43.281206,15 5.375154,43.281244,15 5.37519,43.281229,15 5.375184,43.28117,15 5.375183,43.281157,15 5.375088,43.281169,15 5.375076,43.281171,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="etat.8624">
 <styleUrl>#ETAT</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
-		<SimpleData name="Numéro de Parcelle">132068280E0081</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#etat">
+		<SimpleData name="Numero de Parcelle">132068280E0081</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 6EME</SimpleData>
 		<SimpleData name="Adresse">24, RUE D ISRAEL</SimpleData>
-		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
+		<SimpleData name="Groupe de personne">Etat</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">ETAT</SimpleData>
+		<SimpleData name="Denomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -303,5 +343,6 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.380451,43.281529,15 5.380436,43.281598,15 5.38043,43.281623,15 5.380426,43.28164,15 5.380419,43.281671,15 5.380404,43.281734,15 5.380394,43.28178,15 5.380382,43.281833,15 5.380493,43.281848,15 5.380776,43.281883,15 5.380775,43.281886,15 5.380896,43.2819,15 5.380896,43.281898,15 5.381179,43.281933,15 5.381263,43.281943,15 5.381267,43.281854,15 5.381269,43.281799,15 5.381271,43.281756,15 5.381203,43.281753,15 5.381135,43.281749,15 5.381144,43.281607,15 5.381149,43.281551,15 5.380451,43.281529,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.380451,43.281529,15 5.380436,43.281598,15 5.38043,43.281623,15 5.380426,43.28164,15 5.380419,43.281671,15 5.380404,43.281734,15 5.380394,43.28178,15 5.380382,43.281833,15 5.380493,43.281848,15 5.380776,43.281883,15 5.380775,43.281886,15 5.380896,43.2819,15 5.380896,43.281898,15 5.381179,43.281933,15 5.381263,43.281943,15 5.381267,43.281854,15 5.381269,43.281799,15 5.381271,43.281756,15 5.381203,43.281753,15 5.381135,43.281749,15 5.381144,43.281607,15 5.381149,43.281551,15 5.380451,43.281529,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
 </Folder></Document></kml>

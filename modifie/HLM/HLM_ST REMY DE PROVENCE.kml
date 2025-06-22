@@ -2,11 +2,13 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document id="root_doc">
 <Schema name="ST REMY DE PROVENCE_HLM" id="ST REMY DE PROVENCE_HLM">
-	<SimpleField name="Numéro de Parcelle" type="string"></SimpleField>
+	<SimpleField name="Numero de Parcelle" type="string"></SimpleField>
 	<SimpleField name="Departement" type="string"></SimpleField>
 	<SimpleField name="Commune" type="string"></SimpleField>
 	<SimpleField name="Adresse" type="string"></SimpleField>
-	<SimpleField name="Dénomination" type="string"></SimpleField>
+	<SimpleField name="Groupe de personne" type="string"></SimpleField>
+	<SimpleField name="Forme Juridique Abregee" type="string"></SimpleField>
+	<SimpleField name="Denomination" type="string"></SimpleField>
 </Schema>
 	<Style id="HLM">
 		<LineStyle>
@@ -19,14 +21,16 @@
 			<outline>1</outline>
 		</PolyStyle>
 	</Style><Folder><name>parcelle_13_hlm</name>
-  <Placemark id="parcelle_13_hlm.352">
+  <Placemark id="hlm.352">
 <styleUrl>#HLM</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
-		<SimpleData name="Numéro de Parcelle">13100000AL0101</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#hlm">
+		<SimpleData name="Numero de Parcelle">13100000AL0101</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ST REMY DE PROVENCE</SimpleData>
 		<SimpleData name="Adresse">1, CHE DE RANJARDE</SimpleData>
-		<SimpleData name="Dénomination">FAMILLE ET PROVENCE</SimpleData>
+		<SimpleData name="Groupe de personne">HLM</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">FAMILLE ET PROVENCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -40,16 +44,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>4.826325,43.790515 4.826293,43.790676 4.82627,43.790793 4.826173,43.790783 4.826159,43.790871 4.826123,43.791088 4.826494,43.791133 4.826879,43.79118 4.827215,43.791221 4.827525,43.791256 4.827561,43.791138 4.827586,43.79114 4.82765,43.79115 4.827849,43.79118 4.82792,43.791191 4.827976,43.791057 4.826827,43.790792 4.826896,43.790647 4.826325,43.790515</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>4.826325,43.790515 4.826293,43.790676 4.82627,43.790793 4.826173,43.790783 4.826159,43.790871 4.826123,43.791088 4.826494,43.791133 4.826879,43.79118 4.827215,43.791221 4.827525,43.791256 4.827561,43.791138 4.827586,43.79114 4.82765,43.79115 4.827849,43.79118 4.82792,43.791191 4.827976,43.791057 4.826827,43.790792 4.826896,43.790647 4.826325,43.790515</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_hlm.1034">
+  <Placemark id="hlm.1034">
 <styleUrl>#HLM</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
-		<SimpleData name="Numéro de Parcelle">13100000EI0144</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#hlm">
+		<SimpleData name="Numero de Parcelle">13100000EI0144</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ST REMY DE PROVENCE</SimpleData>
 		<SimpleData name="Adresse">18, AV MAL DE LATTRE DE TASSIGNY</SimpleData>
-		<SimpleData name="Dénomination">13 HABITAT</SimpleData>
+		<SimpleData name="Groupe de personne">HLM</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+		<SimpleData name="Denomination">13 HABITAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -63,16 +69,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>4.843587,43.790778 4.842332,43.791274 4.84232,43.791569 4.842303,43.791659 4.842282,43.791696 4.843684,43.791116 4.843587,43.790778</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>4.843587,43.790778 4.842332,43.791274 4.84232,43.791569 4.842303,43.791659 4.842282,43.791696 4.843684,43.791116 4.843587,43.790778</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_hlm.1351">
+  <Placemark id="hlm.1351">
 <styleUrl>#HLM</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
-		<SimpleData name="Numéro de Parcelle">13100000DY0168</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#hlm">
+		<SimpleData name="Numero de Parcelle">13100000DY0168</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ST REMY DE PROVENCE</SimpleData>
 		<SimpleData name="Adresse">L ARGELIER</SimpleData>
-		<SimpleData name="Dénomination">13 HABITAT</SimpleData>
+		<SimpleData name="Groupe de personne">HLM</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+		<SimpleData name="Denomination">13 HABITAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -86,16 +94,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>4.833276,43.800095 4.833348,43.800274 4.833734,43.800224 4.833753,43.800181 4.83384,43.799974 4.833764,43.79999 4.833519,43.800041 4.833276,43.800095</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>4.833276,43.800095 4.833348,43.800274 4.833734,43.800224 4.833753,43.800181 4.83384,43.799974 4.833764,43.79999 4.833519,43.800041 4.833276,43.800095</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_hlm.1382">
+  <Placemark id="hlm.1382">
 <styleUrl>#HLM</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
-		<SimpleData name="Numéro de Parcelle">13100000DY0170</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#hlm">
+		<SimpleData name="Numero de Parcelle">13100000DY0170</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ST REMY DE PROVENCE</SimpleData>
 		<SimpleData name="Adresse">9001, CRS DE SAINT BONNET</SimpleData>
-		<SimpleData name="Dénomination">13 HABITAT</SimpleData>
+		<SimpleData name="Groupe de personne">HLM</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+		<SimpleData name="Denomination">13 HABITAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -109,16 +119,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>4.833734,43.800224 4.833348,43.800274 4.833377,43.800346 4.833659,43.800341 4.833819,43.800473 4.833926,43.800509 4.834148,43.80049 4.834311,43.800453 4.83432,43.800486 4.834328,43.800515 4.834216,43.800622 4.833639,43.800785 4.833577,43.800802 4.833612,43.80088 4.834564,43.800643 4.834459,43.800329 4.833896,43.800392 4.833853,43.800347 4.833734,43.800224</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>4.833734,43.800224 4.833348,43.800274 4.833377,43.800346 4.833659,43.800341 4.833819,43.800473 4.833926,43.800509 4.834148,43.80049 4.834311,43.800453 4.83432,43.800486 4.834328,43.800515 4.834216,43.800622 4.833639,43.800785 4.833577,43.800802 4.833612,43.80088 4.834564,43.800643 4.834459,43.800329 4.833896,43.800392 4.833853,43.800347 4.833734,43.800224</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_hlm.1410">
+  <Placemark id="hlm.1410">
 <styleUrl>#HLM</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
-		<SimpleData name="Numéro de Parcelle">13100000DY0173</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#hlm">
+		<SimpleData name="Numero de Parcelle">13100000DY0173</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ST REMY DE PROVENCE</SimpleData>
 		<SimpleData name="Adresse">L ARGELIER</SimpleData>
-		<SimpleData name="Dénomination">13 HABITAT</SimpleData>
+		<SimpleData name="Groupe de personne">HLM</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+		<SimpleData name="Denomination">13 HABITAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -132,16 +144,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>4.833377,43.800346 4.833577,43.800802 4.833639,43.800785 4.834216,43.800622 4.834328,43.800515 4.83432,43.800486 4.834311,43.800453 4.834148,43.80049 4.833926,43.800509 4.833819,43.800473 4.833659,43.800341 4.833377,43.800346</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>4.833377,43.800346 4.833577,43.800802 4.833639,43.800785 4.834216,43.800622 4.834328,43.800515 4.83432,43.800486 4.834311,43.800453 4.834148,43.80049 4.833926,43.800509 4.833819,43.800473 4.833659,43.800341 4.833377,43.800346</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_hlm.1442">
+  <Placemark id="hlm.1442">
 <styleUrl>#HLM</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
-		<SimpleData name="Numéro de Parcelle">13100000EH0176</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#hlm">
+		<SimpleData name="Numero de Parcelle">13100000EH0176</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ST REMY DE PROVENCE</SimpleData>
 		<SimpleData name="Adresse">2, LOT LA SOUSTO</SimpleData>
-		<SimpleData name="Dénomination">CDC HABITAT SOCIAL SOCIETE ANONYME DHABITATIONS A LOYER MOD</SimpleData>
+		<SimpleData name="Groupe de personne">HLM</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">CDC HABITAT SOCIAL SOCIETE ANONYME DHABITATIONS A LOYER MOD</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -155,16 +169,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>4.83587,43.796901 4.835837,43.796969 4.835916,43.797022 4.835958,43.797094 4.836023,43.797204 4.836062,43.797191 4.836108,43.797177 4.836081,43.797129 4.836045,43.797068 4.835979,43.796951 4.83587,43.796901</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>4.83587,43.796901 4.835837,43.796969 4.835916,43.797022 4.835958,43.797094 4.836023,43.797204 4.836062,43.797191 4.836108,43.797177 4.836081,43.797129 4.836045,43.797068 4.835979,43.796951 4.83587,43.796901</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_hlm.1501">
+  <Placemark id="hlm.1501">
 <styleUrl>#HLM</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
-		<SimpleData name="Numéro de Parcelle">13100000EH0182</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#hlm">
+		<SimpleData name="Numero de Parcelle">13100000EH0182</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ST REMY DE PROVENCE</SimpleData>
 		<SimpleData name="Adresse">8, LOT LA SOUSTO</SimpleData>
-		<SimpleData name="Dénomination">CDC HABITAT SOCIAL SOCIETE ANONYME DHABITATIONS A LOYER MOD</SimpleData>
+		<SimpleData name="Groupe de personne">HLM</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">CDC HABITAT SOCIAL SOCIETE ANONYME DHABITATIONS A LOYER MOD</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -178,16 +194,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>4.836648,43.797005 4.836701,43.796989 4.836736,43.796977 4.836685,43.796889 4.836616,43.796769 4.836527,43.796796 4.836584,43.796893 4.836596,43.796914 4.836629,43.796972 4.836648,43.797005</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>4.836648,43.797005 4.836701,43.796989 4.836736,43.796977 4.836685,43.796889 4.836616,43.796769 4.836527,43.796796 4.836584,43.796893 4.836596,43.796914 4.836629,43.796972 4.836648,43.797005</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_hlm.1511">
+  <Placemark id="hlm.1511">
 <styleUrl>#HLM</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
-		<SimpleData name="Numéro de Parcelle">13100000EH0183</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#hlm">
+		<SimpleData name="Numero de Parcelle">13100000EH0183</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ST REMY DE PROVENCE</SimpleData>
 		<SimpleData name="Adresse">9, LOT LA SOUSTO</SimpleData>
-		<SimpleData name="Dénomination">CDC HABITAT SOCIAL SOCIETE ANONYME DHABITATIONS A LOYER MOD</SimpleData>
+		<SimpleData name="Groupe de personne">HLM</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">CDC HABITAT SOCIAL SOCIETE ANONYME DHABITATIONS A LOYER MOD</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -201,16 +219,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>4.836736,43.796977 4.836777,43.796964 4.836793,43.796959 4.836805,43.796931 4.836801,43.796923 4.836796,43.796914 4.836776,43.796878 4.836755,43.796842 4.836697,43.796745 4.836616,43.796769 4.836685,43.796889 4.836736,43.796977</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>4.836736,43.796977 4.836777,43.796964 4.836793,43.796959 4.836805,43.796931 4.836801,43.796923 4.836796,43.796914 4.836776,43.796878 4.836755,43.796842 4.836697,43.796745 4.836616,43.796769 4.836685,43.796889 4.836736,43.796977</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_hlm.1522">
+  <Placemark id="hlm.1522">
 <styleUrl>#HLM</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
-		<SimpleData name="Numéro de Parcelle">13100000EH0184</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#hlm">
+		<SimpleData name="Numero de Parcelle">13100000EH0184</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ST REMY DE PROVENCE</SimpleData>
 		<SimpleData name="Adresse">10, LOT LA SOUSTO</SimpleData>
-		<SimpleData name="Dénomination">CDC HABITAT SOCIAL SOCIETE ANONYME DHABITATIONS A LOYER MOD</SimpleData>
+		<SimpleData name="Groupe de personne">HLM</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">CDC HABITAT SOCIAL SOCIETE ANONYME DHABITATIONS A LOYER MOD</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -224,16 +244,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>4.836795,43.796713 4.836837,43.796785 4.836879,43.796858 4.836915,43.796921 4.836989,43.796898 4.837026,43.796886 4.836997,43.796837 4.83697,43.796792 4.836953,43.796762 4.836905,43.79668 4.836795,43.796713</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>4.836795,43.796713 4.836837,43.796785 4.836879,43.796858 4.836915,43.796921 4.836989,43.796898 4.837026,43.796886 4.836997,43.796837 4.83697,43.796792 4.836953,43.796762 4.836905,43.79668 4.836795,43.796713</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_hlm.1549">
+  <Placemark id="hlm.1549">
 <styleUrl>#HLM</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
-		<SimpleData name="Numéro de Parcelle">13100000DY0187</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#hlm">
+		<SimpleData name="Numero de Parcelle">13100000DY0187</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ST REMY DE PROVENCE</SimpleData>
 		<SimpleData name="Adresse">L ARGELIER</SimpleData>
-		<SimpleData name="Dénomination">13 HABITAT</SimpleData>
+		<SimpleData name="Groupe de personne">HLM</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+		<SimpleData name="Denomination">13 HABITAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -247,16 +269,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>4.833193,43.799779 4.833191,43.799826 4.833166,43.799836 4.833276,43.800095 4.833519,43.800041 4.833764,43.79999 4.83384,43.799974 4.833911,43.799816 4.833903,43.799814 4.833782,43.799792 4.833435,43.799727 4.833193,43.799779</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>4.833193,43.799779 4.833191,43.799826 4.833166,43.799836 4.833276,43.800095 4.833519,43.800041 4.833764,43.79999 4.83384,43.799974 4.833911,43.799816 4.833903,43.799814 4.833782,43.799792 4.833435,43.799727 4.833193,43.799779</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_hlm.1550">
+  <Placemark id="hlm.1550">
 <styleUrl>#HLM</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
-		<SimpleData name="Numéro de Parcelle">13100000EH0187</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#hlm">
+		<SimpleData name="Numero de Parcelle">13100000EH0187</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ST REMY DE PROVENCE</SimpleData>
 		<SimpleData name="Adresse">13, LOT LA SOUSTO</SimpleData>
-		<SimpleData name="Dénomination">CDC HABITAT SOCIAL SOCIETE ANONYME DHABITATIONS A LOYER MOD</SimpleData>
+		<SimpleData name="Groupe de personne">HLM</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">CDC HABITAT SOCIAL SOCIETE ANONYME DHABITATIONS A LOYER MOD</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -270,16 +294,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>4.836806,43.796615 4.836833,43.796663 4.836775,43.79668 4.836795,43.796713 4.836905,43.79668 4.836974,43.79666 4.837018,43.796647 4.837021,43.796647 4.837125,43.796617 4.837073,43.796535 4.836986,43.796561 4.836883,43.796592 4.836806,43.796615</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>4.836806,43.796615 4.836833,43.796663 4.836775,43.79668 4.836795,43.796713 4.836905,43.79668 4.836974,43.79666 4.837018,43.796647 4.837021,43.796647 4.837125,43.796617 4.837073,43.796535 4.836986,43.796561 4.836883,43.796592 4.836806,43.796615</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_hlm.1577">
+  <Placemark id="hlm.1577">
 <styleUrl>#HLM</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
-		<SimpleData name="Numéro de Parcelle">13100000DY0189</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#hlm">
+		<SimpleData name="Numero de Parcelle">13100000DY0189</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ST REMY DE PROVENCE</SimpleData>
 		<SimpleData name="Adresse">RTE D EYRAGUES</SimpleData>
-		<SimpleData name="Dénomination">13 HABITAT</SimpleData>
+		<SimpleData name="Groupe de personne">HLM</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+		<SimpleData name="Denomination">13 HABITAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -293,16 +319,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>4.833167,43.799706 4.833193,43.799779 4.833435,43.799727 4.833782,43.799792 4.833903,43.799814 4.833911,43.799816 4.833963,43.799694 4.834025,43.799553 4.834041,43.799513 4.834073,43.79944 4.834068,43.799429 4.834002,43.799301 4.83409,43.799297 4.833655,43.799213 4.833654,43.799217 4.83364,43.799265 4.833603,43.79939 4.833563,43.799383 4.833499,43.799373 4.833465,43.799473 4.833461,43.799484 4.8333,43.799457 4.833167,43.799706</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>4.833167,43.799706 4.833193,43.799779 4.833435,43.799727 4.833782,43.799792 4.833903,43.799814 4.833911,43.799816 4.833963,43.799694 4.834025,43.799553 4.834041,43.799513 4.834073,43.79944 4.834068,43.799429 4.834002,43.799301 4.83409,43.799297 4.833655,43.799213 4.833654,43.799217 4.83364,43.799265 4.833603,43.79939 4.833563,43.799383 4.833499,43.799373 4.833465,43.799473 4.833461,43.799484 4.8333,43.799457 4.833167,43.799706</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_hlm.1602">
+  <Placemark id="hlm.1602">
 <styleUrl>#HLM</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
-		<SimpleData name="Numéro de Parcelle">13100000EH0190</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#hlm">
+		<SimpleData name="Numero de Parcelle">13100000EH0190</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ST REMY DE PROVENCE</SimpleData>
 		<SimpleData name="Adresse">16, LOT LA SOUSTO</SimpleData>
-		<SimpleData name="Dénomination">CDC HABITAT SOCIAL SOCIETE ANONYME DHABITATIONS A LOYER MOD</SimpleData>
+		<SimpleData name="Groupe de personne">HLM</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">CDC HABITAT SOCIAL SOCIETE ANONYME DHABITATIONS A LOYER MOD</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -316,16 +344,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>4.836686,43.796411 4.836723,43.7964 4.836826,43.79637 4.836942,43.796335 4.836888,43.79625 4.836797,43.796277 4.836728,43.796298 4.836743,43.796324 4.836712,43.796333 4.836651,43.796351 4.836686,43.796411</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>4.836686,43.796411 4.836723,43.7964 4.836826,43.79637 4.836942,43.796335 4.836888,43.79625 4.836797,43.796277 4.836728,43.796298 4.836743,43.796324 4.836712,43.796333 4.836651,43.796351 4.836686,43.796411</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_hlm.1617">
+  <Placemark id="hlm.1617">
 <styleUrl>#HLM</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
-		<SimpleData name="Numéro de Parcelle">13100000DY0191</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#hlm">
+		<SimpleData name="Numero de Parcelle">13100000DY0191</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ST REMY DE PROVENCE</SimpleData>
 		<SimpleData name="Adresse">RTE D EYRAGUES</SimpleData>
-		<SimpleData name="Dénomination">13 HABITAT</SimpleData>
+		<SimpleData name="Groupe de personne">HLM</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+		<SimpleData name="Denomination">13 HABITAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -339,16 +369,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>4.833167,43.799706 4.8333,43.799457 4.833461,43.799484 4.833465,43.799473 4.833499,43.799373 4.833563,43.799383 4.833603,43.79939 4.83364,43.799265 4.833654,43.799217 4.833655,43.799213 4.833417,43.799168 4.833412,43.799176 4.833383,43.799225 4.833304,43.799348 4.833248,43.799439 4.833153,43.799606 4.833151,43.799653 4.833167,43.799706</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>4.833167,43.799706 4.8333,43.799457 4.833461,43.799484 4.833465,43.799473 4.833499,43.799373 4.833563,43.799383 4.833603,43.79939 4.83364,43.799265 4.833654,43.799217 4.833655,43.799213 4.833417,43.799168 4.833412,43.799176 4.833383,43.799225 4.833304,43.799348 4.833248,43.799439 4.833153,43.799606 4.833151,43.799653 4.833167,43.799706</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_hlm.1697">
+  <Placemark id="hlm.1697">
 <styleUrl>#HLM</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
-		<SimpleData name="Numéro de Parcelle">13100000EH0197</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#hlm">
+		<SimpleData name="Numero de Parcelle">13100000EH0197</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ST REMY DE PROVENCE</SimpleData>
 		<SimpleData name="Adresse">23, LOT LA SOUSTO</SimpleData>
-		<SimpleData name="Dénomination">CDC HABITAT SOCIAL SOCIETE ANONYME DHABITATIONS A LOYER MOD</SimpleData>
+		<SimpleData name="Groupe de personne">HLM</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">CDC HABITAT SOCIAL SOCIETE ANONYME DHABITATIONS A LOYER MOD</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -362,16 +394,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>4.836224,43.796454 4.836239,43.796425 4.836257,43.796389 4.836223,43.796379 4.836213,43.796361 4.836184,43.796313 4.836154,43.796323 4.836084,43.796295 4.836011,43.796388 4.836071,43.796406 4.8361,43.796415 4.836224,43.796454</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>4.836224,43.796454 4.836239,43.796425 4.836257,43.796389 4.836223,43.796379 4.836213,43.796361 4.836184,43.796313 4.836154,43.796323 4.836084,43.796295 4.836011,43.796388 4.836071,43.796406 4.8361,43.796415 4.836224,43.796454</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_hlm.1711">
+  <Placemark id="hlm.1711">
 <styleUrl>#HLM</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
-		<SimpleData name="Numéro de Parcelle">13100000EH0198</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#hlm">
+		<SimpleData name="Numero de Parcelle">13100000EH0198</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ST REMY DE PROVENCE</SimpleData>
 		<SimpleData name="Adresse">24, LOT LA SOUSTO</SimpleData>
-		<SimpleData name="Dénomination">CDC HABITAT SOCIAL SOCIETE ANONYME DHABITATIONS A LOYER MOD</SimpleData>
+		<SimpleData name="Groupe de personne">HLM</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">CDC HABITAT SOCIAL SOCIETE ANONYME DHABITATIONS A LOYER MOD</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -385,16 +419,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>4.836224,43.796454 4.8361,43.796415 4.836071,43.796406 4.836011,43.796388 4.835989,43.796485 4.836093,43.796512 4.836108,43.796487 4.836144,43.796498 4.8362,43.796514 4.836244,43.7965 4.836234,43.796481 4.836213,43.796475 4.836224,43.796454</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>4.836224,43.796454 4.8361,43.796415 4.836071,43.796406 4.836011,43.796388 4.835989,43.796485 4.836093,43.796512 4.836108,43.796487 4.836144,43.796498 4.8362,43.796514 4.836244,43.7965 4.836234,43.796481 4.836213,43.796475 4.836224,43.796454</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_hlm.1829">
+  <Placemark id="hlm.1829">
 <styleUrl>#HLM</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
-		<SimpleData name="Numéro de Parcelle">13100000EH0205</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#hlm">
+		<SimpleData name="Numero de Parcelle">13100000EH0205</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ST REMY DE PROVENCE</SimpleData>
 		<SimpleData name="Adresse">31, LOT LA SOUSTO</SimpleData>
-		<SimpleData name="Dénomination">CDC HABITAT SOCIAL SOCIETE ANONYME DHABITATIONS A LOYER MOD</SimpleData>
+		<SimpleData name="Groupe de personne">HLM</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">CDC HABITAT SOCIAL SOCIETE ANONYME DHABITATIONS A LOYER MOD</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -408,16 +444,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>4.836115,43.796907 4.836098,43.796877 4.836068,43.796825 4.836015,43.796732 4.835945,43.796753 4.835875,43.796891 4.835991,43.796945 4.83606,43.796924 4.836115,43.796907</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>4.836115,43.796907 4.836098,43.796877 4.836068,43.796825 4.836015,43.796732 4.835945,43.796753 4.835875,43.796891 4.835991,43.796945 4.83606,43.796924 4.836115,43.796907</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_hlm.2593">
+  <Placemark id="hlm.2593">
 <styleUrl>#HLM</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
-		<SimpleData name="Numéro de Parcelle">13100000AN0268</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#hlm">
+		<SimpleData name="Numero de Parcelle">13100000AN0268</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ST REMY DE PROVENCE</SimpleData>
 		<SimpleData name="Adresse">4, LE PRE DES VERGERS</SimpleData>
-		<SimpleData name="Dénomination">FAMILLE ET PROVENCE</SimpleData>
+		<SimpleData name="Groupe de personne">HLM</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">FAMILLE ET PROVENCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -431,16 +469,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>4.836331,43.795533 4.836331,43.795534 4.836293,43.795546 4.836352,43.795652 4.83632,43.795662 4.836293,43.79567 4.836329,43.795737 4.836312,43.795757 4.836166,43.795798 4.836162,43.795825 4.836157,43.795869 4.83616,43.795882 4.836193,43.79594 4.836221,43.795931 4.83623,43.795929 4.836237,43.795941 4.83633,43.795912 4.836343,43.795934 4.836473,43.795893 4.836432,43.79582 4.836604,43.795768 4.836515,43.795607 4.836542,43.795599 4.836516,43.795555 4.836491,43.79551 4.836469,43.795468 4.836462,43.79547 4.836447,43.795443 4.836305,43.795485 4.83632,43.795512 4.836331,43.795533</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>4.836331,43.795533 4.836331,43.795534 4.836293,43.795546 4.836352,43.795652 4.83632,43.795662 4.836293,43.79567 4.836329,43.795737 4.836312,43.795757 4.836166,43.795798 4.836162,43.795825 4.836157,43.795869 4.83616,43.795882 4.836193,43.79594 4.836221,43.795931 4.83623,43.795929 4.836237,43.795941 4.83633,43.795912 4.836343,43.795934 4.836473,43.795893 4.836432,43.79582 4.836604,43.795768 4.836515,43.795607 4.836542,43.795599 4.836516,43.795555 4.836491,43.79551 4.836469,43.795468 4.836462,43.79547 4.836447,43.795443 4.836305,43.795485 4.83632,43.795512 4.836331,43.795533</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_hlm.2606">
+  <Placemark id="hlm.2606">
 <styleUrl>#HLM</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
-		<SimpleData name="Numéro de Parcelle">13100000AN0269</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#hlm">
+		<SimpleData name="Numero de Parcelle">13100000AN0269</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ST REMY DE PROVENCE</SimpleData>
 		<SimpleData name="Adresse">3, LE PRE DES VERGERS</SimpleData>
-		<SimpleData name="Dénomination">FAMILLE ET PROVENCE</SimpleData>
+		<SimpleData name="Groupe de personne">HLM</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">FAMILLE ET PROVENCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -454,16 +494,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>4.83654,43.795471 4.836552,43.795493 4.836576,43.795538 4.836593,43.795569 4.83668,43.795543 4.836677,43.795536 4.836694,43.795531 4.836729,43.79552 4.836764,43.795509 4.836835,43.795488 4.836843,43.795485 4.836796,43.795396 4.836784,43.795398 4.836772,43.795376 4.836761,43.795355 4.83675,43.795336 4.836537,43.795398 4.836549,43.795418 4.836552,43.795425 4.83652,43.795434 4.83654,43.795471</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>4.83654,43.795471 4.836552,43.795493 4.836576,43.795538 4.836593,43.795569 4.83668,43.795543 4.836677,43.795536 4.836694,43.795531 4.836729,43.79552 4.836764,43.795509 4.836835,43.795488 4.836843,43.795485 4.836796,43.795396 4.836784,43.795398 4.836772,43.795376 4.836761,43.795355 4.83675,43.795336 4.836537,43.795398 4.836549,43.795418 4.836552,43.795425 4.83652,43.795434 4.83654,43.795471</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_hlm.2622">
+  <Placemark id="hlm.2622">
 <styleUrl>#HLM</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
-		<SimpleData name="Numéro de Parcelle">13100000AN0270</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#hlm">
+		<SimpleData name="Numero de Parcelle">13100000AN0270</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ST REMY DE PROVENCE</SimpleData>
 		<SimpleData name="Adresse">1, LE PRE DES VERGERS</SimpleData>
-		<SimpleData name="Dénomination">FAMILLE ET PROVENCE</SimpleData>
+		<SimpleData name="Groupe de personne">HLM</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">FAMILLE ET PROVENCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -477,16 +519,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>4.837269,43.795396 4.837197,43.795416 4.837137,43.795433 4.836952,43.795486 4.836933,43.795511 4.836935,43.795521 4.836865,43.795541 4.836793,43.795562 4.836765,43.795571 4.836825,43.795675 4.836851,43.795668 4.836857,43.795679 4.836917,43.795661 4.836926,43.795678 4.836935,43.795676 4.83697,43.795665 4.83701,43.795654 4.837184,43.795604 4.837196,43.795601 4.837181,43.795576 4.837206,43.795569 4.837269,43.795552 4.837335,43.795516 4.837397,43.795499 4.83739,43.795488 4.837367,43.795449 4.837344,43.795409 4.837286,43.795425 4.837269,43.795396</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>4.837269,43.795396 4.837197,43.795416 4.837137,43.795433 4.836952,43.795486 4.836933,43.795511 4.836935,43.795521 4.836865,43.795541 4.836793,43.795562 4.836765,43.795571 4.836825,43.795675 4.836851,43.795668 4.836857,43.795679 4.836917,43.795661 4.836926,43.795678 4.836935,43.795676 4.83697,43.795665 4.83701,43.795654 4.837184,43.795604 4.837196,43.795601 4.837181,43.795576 4.837206,43.795569 4.837269,43.795552 4.837335,43.795516 4.837397,43.795499 4.83739,43.795488 4.837367,43.795449 4.837344,43.795409 4.837286,43.795425 4.837269,43.795396</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_hlm.2631">
+  <Placemark id="hlm.2631">
 <styleUrl>#HLM</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
-		<SimpleData name="Numéro de Parcelle">13100000AN0271</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#hlm">
+		<SimpleData name="Numero de Parcelle">13100000AN0271</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ST REMY DE PROVENCE</SimpleData>
 		<SimpleData name="Adresse">LE PRE DES VERGERS</SimpleData>
-		<SimpleData name="Dénomination">FAMILLE ET PROVENCE</SimpleData>
+		<SimpleData name="Groupe de personne">HLM</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">FAMILLE ET PROVENCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -500,16 +544,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>4.837344,43.795409 4.837337,43.795397 4.837326,43.795378 4.837269,43.795396 4.837286,43.795425 4.837344,43.795409</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>4.837344,43.795409 4.837337,43.795397 4.837326,43.795378 4.837269,43.795396 4.837286,43.795425 4.837344,43.795409</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_hlm.3579">
+  <Placemark id="hlm.3579">
 <styleUrl>#HLM</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
-		<SimpleData name="Numéro de Parcelle">13100000EH0355</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#hlm">
+		<SimpleData name="Numero de Parcelle">13100000EH0355</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ST REMY DE PROVENCE</SimpleData>
 		<SimpleData name="Adresse">9101, LOT LA SOUSTO</SimpleData>
-		<SimpleData name="Dénomination">CDC HABITAT SOCIAL SOCIETE ANONYME DHABITATIONS A LOYER MOD</SimpleData>
+		<SimpleData name="Groupe de personne">HLM</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">CDC HABITAT SOCIAL SOCIETE ANONYME DHABITATIONS A LOYER MOD</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -523,16 +569,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>4.836641,43.796721 4.836678,43.796711 4.836649,43.796661 4.836614,43.796672 4.836641,43.796721</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>4.836641,43.796721 4.836678,43.796711 4.836649,43.796661 4.836614,43.796672 4.836641,43.796721</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_hlm.3588">
+  <Placemark id="hlm.3588">
 <styleUrl>#HLM</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
-		<SimpleData name="Numéro de Parcelle">13100000EH0356</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#hlm">
+		<SimpleData name="Numero de Parcelle">13100000EH0356</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ST REMY DE PROVENCE</SimpleData>
 		<SimpleData name="Adresse">9101, LOT LA SOUSTO</SimpleData>
-		<SimpleData name="Dénomination">CDC HABITAT SOCIAL SOCIETE ANONYME DHABITATIONS A LOYER MOD</SimpleData>
+		<SimpleData name="Groupe de personne">HLM</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">CDC HABITAT SOCIAL SOCIETE ANONYME DHABITATIONS A LOYER MOD</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -546,16 +594,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>4.83658,43.796683 4.836614,43.796672 4.836649,43.796661 4.836619,43.796611 4.836584,43.796622 4.83655,43.796632 4.836514,43.796643 4.836539,43.796686 4.836543,43.796694 4.83658,43.796683</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>4.83658,43.796683 4.836614,43.796672 4.836649,43.796661 4.836619,43.796611 4.836584,43.796622 4.83655,43.796632 4.836514,43.796643 4.836539,43.796686 4.836543,43.796694 4.83658,43.796683</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_hlm.3615">
+  <Placemark id="hlm.3615">
 <styleUrl>#HLM</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
-		<SimpleData name="Numéro de Parcelle">13100000EH0359</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#hlm">
+		<SimpleData name="Numero de Parcelle">13100000EH0359</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ST REMY DE PROVENCE</SimpleData>
 		<SimpleData name="Adresse">9101, LOT LA SOUSTO</SimpleData>
-		<SimpleData name="Dénomination">CDC HABITAT SOCIAL SOCIETE ANONYME DHABITATIONS A LOYER MOD</SimpleData>
+		<SimpleData name="Groupe de personne">HLM</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">CDC HABITAT SOCIAL SOCIETE ANONYME DHABITATIONS A LOYER MOD</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -569,16 +619,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>4.836584,43.796622 4.836619,43.796611 4.83659,43.79656 4.836556,43.796571 4.836584,43.796622</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>4.836584,43.796622 4.836619,43.796611 4.83659,43.79656 4.836556,43.796571 4.836584,43.796622</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_hlm.3716">
+  <Placemark id="hlm.3716">
 <styleUrl>#HLM</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
-		<SimpleData name="Numéro de Parcelle">13100000EI0365</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#hlm">
+		<SimpleData name="Numero de Parcelle">13100000EI0365</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ST REMY DE PROVENCE</SimpleData>
 		<SimpleData name="Adresse">18, AV MAL DE LATTRE DE TASSIGNY</SimpleData>
-		<SimpleData name="Dénomination">13 HABITAT</SimpleData>
+		<SimpleData name="Groupe de personne">HLM</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+		<SimpleData name="Denomination">13 HABITAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -592,16 +644,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>4.842343,43.790979 4.842332,43.791274 4.843587,43.790778 4.843526,43.790547 4.843515,43.790551 4.842849,43.790827 4.842844,43.790829 4.842809,43.790843 4.842453,43.790947 4.842343,43.790979</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>4.842343,43.790979 4.842332,43.791274 4.843587,43.790778 4.843526,43.790547 4.843515,43.790551 4.842849,43.790827 4.842844,43.790829 4.842809,43.790843 4.842453,43.790947 4.842343,43.790979</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_hlm.3865">
+  <Placemark id="hlm.3865">
 <styleUrl>#HLM</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
-		<SimpleData name="Numéro de Parcelle">13100000EI0376</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#hlm">
+		<SimpleData name="Numero de Parcelle">13100000EI0376</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ST REMY DE PROVENCE</SimpleData>
 		<SimpleData name="Adresse">SARRET</SimpleData>
-		<SimpleData name="Dénomination">FAMILLE ET PROVENCE</SimpleData>
+		<SimpleData name="Groupe de personne">HLM</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">FAMILLE ET PROVENCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -615,16 +669,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>4.847107,43.792683 4.846401,43.792727 4.846404,43.792734 4.846787,43.792711 4.847107,43.792692 4.847107,43.792683</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>4.847107,43.792683 4.846401,43.792727 4.846404,43.792734 4.846787,43.792711 4.847107,43.792692 4.847107,43.792683</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_hlm.3888">
+  <Placemark id="hlm.3888">
 <styleUrl>#HLM</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
-		<SimpleData name="Numéro de Parcelle">13100000EI0378</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#hlm">
+		<SimpleData name="Numero de Parcelle">13100000EI0378</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ST REMY DE PROVENCE</SimpleData>
 		<SimpleData name="Adresse">1, SARRET</SimpleData>
-		<SimpleData name="Dénomination">FAMILLE ET PROVENCE</SimpleData>
+		<SimpleData name="Groupe de personne">HLM</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">FAMILLE ET PROVENCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -638,16 +694,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>4.847865,43.792358 4.847344,43.792381 4.847273,43.792385 4.847213,43.792387 4.847097,43.792393 4.846874,43.792402 4.846801,43.792406 4.84676,43.792408 4.846632,43.792413 4.846295,43.792428 4.846401,43.792727 4.847107,43.792683 4.847106,43.792653 4.847105,43.792631 4.847144,43.792626 4.847469,43.792579 4.847865,43.792358</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>4.847865,43.792358 4.847344,43.792381 4.847273,43.792385 4.847213,43.792387 4.847097,43.792393 4.846874,43.792402 4.846801,43.792406 4.84676,43.792408 4.846632,43.792413 4.846295,43.792428 4.846401,43.792727 4.847107,43.792683 4.847106,43.792653 4.847105,43.792631 4.847144,43.792626 4.847469,43.792579 4.847865,43.792358</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_hlm.3919">
+  <Placemark id="hlm.3919">
 <styleUrl>#HLM</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
-		<SimpleData name="Numéro de Parcelle">13100000EI0380</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#hlm">
+		<SimpleData name="Numero de Parcelle">13100000EI0380</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ST REMY DE PROVENCE</SimpleData>
 		<SimpleData name="Adresse">SARRET</SimpleData>
-		<SimpleData name="Dénomination">FAMILLE ET PROVENCE</SimpleData>
+		<SimpleData name="Groupe de personne">HLM</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">FAMILLE ET PROVENCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -661,16 +719,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>4.847891,43.792338 4.847944,43.792017 4.847477,43.792028 4.847476,43.792022 4.847261,43.792032 4.847099,43.792039 4.846925,43.792048 4.846793,43.792054 4.846613,43.792062 4.846438,43.79207 4.846284,43.792077 4.846174,43.792082 4.846295,43.792428 4.846632,43.792413 4.84676,43.792408 4.846801,43.792406 4.846874,43.792402 4.847097,43.792393 4.847213,43.792387 4.847273,43.792385 4.847344,43.792381 4.847865,43.792358 4.847891,43.792338</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>4.847891,43.792338 4.847944,43.792017 4.847477,43.792028 4.847476,43.792022 4.847261,43.792032 4.847099,43.792039 4.846925,43.792048 4.846793,43.792054 4.846613,43.792062 4.846438,43.79207 4.846284,43.792077 4.846174,43.792082 4.846295,43.792428 4.846632,43.792413 4.84676,43.792408 4.846801,43.792406 4.846874,43.792402 4.847097,43.792393 4.847213,43.792387 4.847273,43.792385 4.847344,43.792381 4.847865,43.792358 4.847891,43.792338</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_hlm.5299">
+  <Placemark id="hlm.5299">
 <styleUrl>#HLM</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
-		<SimpleData name="Numéro de Parcelle">13100000AH0074</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#hlm">
+		<SimpleData name="Numero de Parcelle">13100000AH0074</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ST REMY DE PROVENCE</SimpleData>
 		<SimpleData name="Adresse">9003, RUE CYPRIEN GAUTIER</SimpleData>
-		<SimpleData name="Dénomination">GRAND DELTA HABITAT</SimpleData>
+		<SimpleData name="Groupe de personne">HLM</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">GRAND DELTA HABITAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -684,16 +744,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>4.830411,43.78597 4.830415,43.78595 4.830266,43.785936 4.830155,43.785926 4.830058,43.785917 4.829807,43.785894 4.829792,43.785892 4.829691,43.785883 4.829524,43.785868 4.829475,43.785864 4.829231,43.785843 4.829156,43.785836 4.829104,43.78613 4.829075,43.786292 4.829052,43.786415 4.828988,43.786713 4.82898,43.786747 4.829014,43.786749 4.829193,43.786764 4.829898,43.786822 4.82991,43.786823 4.830148,43.786849 4.830198,43.786855 4.830211,43.786801 4.830219,43.786768 4.830229,43.786728 4.830241,43.786678 4.830254,43.786622 4.830268,43.786566 4.830306,43.786409 4.830319,43.786352 4.83035,43.786225 4.830358,43.786193 4.830369,43.786146 4.830375,43.786118 4.830411,43.78597</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>4.830411,43.78597 4.830415,43.78595 4.830266,43.785936 4.830155,43.785926 4.830058,43.785917 4.829807,43.785894 4.829792,43.785892 4.829691,43.785883 4.829524,43.785868 4.829475,43.785864 4.829231,43.785843 4.829156,43.785836 4.829104,43.78613 4.829075,43.786292 4.829052,43.786415 4.828988,43.786713 4.82898,43.786747 4.829014,43.786749 4.829193,43.786764 4.829898,43.786822 4.82991,43.786823 4.830148,43.786849 4.830198,43.786855 4.830211,43.786801 4.830219,43.786768 4.830229,43.786728 4.830241,43.786678 4.830254,43.786622 4.830268,43.786566 4.830306,43.786409 4.830319,43.786352 4.83035,43.786225 4.830358,43.786193 4.830369,43.786146 4.830375,43.786118 4.830411,43.78597</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_hlm.5795">
+  <Placemark id="hlm.5795">
 <styleUrl>#HLM</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
-		<SimpleData name="Numéro de Parcelle">13100000AL0098</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#hlm">
+		<SimpleData name="Numero de Parcelle">13100000AL0098</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ST REMY DE PROVENCE</SimpleData>
 		<SimpleData name="Adresse">CHE DE RANJARDE</SimpleData>
-		<SimpleData name="Dénomination">FAMILLE ET PROVENCE</SimpleData>
+		<SimpleData name="Groupe de personne">HLM</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">FAMILLE ET PROVENCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -707,6 +769,6 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>4.827586,43.79114 4.827561,43.791138 4.827525,43.791256 4.82755,43.791259 4.827557,43.791236 4.827586,43.79114</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>4.827586,43.79114 4.827561,43.791138 4.827525,43.791256 4.82755,43.791259 4.827557,43.791236 4.827586,43.79114</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
 </Folder></Document></kml>

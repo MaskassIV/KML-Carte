@@ -2,11 +2,13 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document id="root_doc">
 <Schema name="LE PUY SAINTE REPARADE_coproprietaire" id="LE PUY SAINTE REPARADE_coproprietaire">
-	<SimpleField name="Numéro de Parcelle" type="string"></SimpleField>
+	<SimpleField name="Numero de Parcelle" type="string"></SimpleField>
 	<SimpleField name="Departement" type="string"></SimpleField>
 	<SimpleField name="Commune" type="string"></SimpleField>
 	<SimpleField name="Adresse" type="string"></SimpleField>
-	<SimpleField name="Dénomination" type="string"></SimpleField>
+	<SimpleField name="Groupe de personne" type="string"></SimpleField>
+	<SimpleField name="Forme Juridique Abregee" type="string"></SimpleField>
+	<SimpleField name="Denomination" type="string"></SimpleField>
 </Schema>
 	<Style id="coproprietaire">
 		<LineStyle>
@@ -19,14 +21,16 @@
 			<outline>1</outline>
 		</PolyStyle>
 	</Style><Folder><name>parcelle_13_coproprietaire</name>
-  <Placemark id="parcelle_13_coproprietaire.89">
+  <Placemark id="coproprietaire.89">
 <styleUrl>#coproprietaire</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_coproprietaire">
-		<SimpleData name="Numéro de Parcelle">13080000BY0098</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#coproprietaire">
+		<SimpleData name="Numero de Parcelle">13080000BY0098</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">LE PUY SAINTE REPARADE</SimpleData>
 		<SimpleData name="Adresse">SAINT-PIERRE</SimpleData>
-		<SimpleData name="Dénomination">LES COPROPRIETAIRES DE LA PARCELLE BY 98</SimpleData>
+		<SimpleData name="Groupe de personne">Coproprietaires</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">AUPM</SimpleData>
+		<SimpleData name="Denomination">LES COPROPRIETAIRES DE LA PARCELLE BY 98</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -40,6 +44,6 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.438238,43.633352 5.438127,43.633356 5.438178,43.633371 5.438224,43.633483 5.4383,43.63358 5.438421,43.633651 5.438754,43.633779 5.438785,43.633732 5.438651,43.633683 5.438454,43.633617 5.438345,43.633549 5.438282,43.633467 5.438238,43.633352</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.438238,43.633352 5.438127,43.633356 5.438178,43.633371 5.438224,43.633483 5.4383,43.63358 5.438421,43.633651 5.438754,43.633779 5.438785,43.633732 5.438651,43.633683 5.438454,43.633617 5.438345,43.633549 5.438282,43.633467 5.438238,43.633352</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
 </Folder></Document></kml>

@@ -2,11 +2,13 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document id="root_doc">
 <Schema name="LA PENNE SUR HUVEAUNE_region" id="LA PENNE SUR HUVEAUNE_region">
-	<SimpleField name="Numéro de Parcelle" type="string"></SimpleField>
+	<SimpleField name="Numero de Parcelle" type="string"></SimpleField>
 	<SimpleField name="Departement" type="string"></SimpleField>
 	<SimpleField name="Commune" type="string"></SimpleField>
 	<SimpleField name="Adresse" type="string"></SimpleField>
-	<SimpleField name="Dénomination" type="string"></SimpleField>
+	<SimpleField name="Groupe de personne" type="string"></SimpleField>
+	<SimpleField name="Forme Juridique Abregee" type="string"></SimpleField>
+	<SimpleField name="Denomination" type="string"></SimpleField>
 </Schema>
 	<Style id="region">
 		<LineStyle>
@@ -19,14 +21,16 @@
 			<outline>1</outline>
 		</PolyStyle>
 	</Style><Folder><name>parcelle_13_region</name>
-  <Placemark id="parcelle_13_region.63">
+  <Placemark id="region.63">
 <styleUrl>#region</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_region">
-		<SimpleData name="Numéro de Parcelle">13070000AH0287</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#region">
+		<SimpleData name="Numero de Parcelle">13070000AH0287</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">LA PENNE SUR HUVEAUNE</SimpleData>
 		<SimpleData name="Adresse">106, BD VOLTAIRE</SimpleData>
-		<SimpleData name="Dénomination">SCI COPA</SimpleData>
+		<SimpleData name="Groupe de personne">Region</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SCI</SimpleData>
+		<SimpleData name="Denomination">SCI COPA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -40,16 +44,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.514573,43.28153 5.514577,43.281591 5.514579,43.28161 5.514583,43.28167 5.514643,43.281665 5.514638,43.281604 5.51464,43.28153 5.514573,43.28153</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.514573,43.28153 5.514577,43.281591 5.514579,43.28161 5.514583,43.28167 5.514643,43.281665 5.514638,43.281604 5.51464,43.28153 5.514573,43.28153</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_region.86">
+  <Placemark id="region.86">
 <styleUrl>#region</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_region">
-		<SimpleData name="Numéro de Parcelle">13070000AI0049</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#region">
+		<SimpleData name="Numero de Parcelle">13070000AI0049</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">LA PENNE SUR HUVEAUNE</SimpleData>
 		<SimpleData name="Adresse">AV DE LA RASCLAVE</SimpleData>
-		<SimpleData name="Dénomination">PONTEVES</SimpleData>
+		<SimpleData name="Groupe de personne">Region</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SCI</SimpleData>
+		<SimpleData name="Denomination">PONTEVES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -63,6 +69,6 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.529137,43.283194 5.529487,43.283312 5.529575,43.283061 5.529615,43.282946 5.529644,43.282864 5.529278,43.282791 5.529242,43.282894 5.529155,43.283142 5.529137,43.283194</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.529137,43.283194 5.529487,43.283312 5.529575,43.283061 5.529615,43.282946 5.529644,43.282864 5.529278,43.282791 5.529242,43.282894 5.529155,43.283142 5.529137,43.283194</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
 </Folder></Document></kml>

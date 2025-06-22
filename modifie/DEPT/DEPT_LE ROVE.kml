@@ -2,11 +2,13 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document id="root_doc">
 <Schema name="LE ROVE_DEPT" id="LE ROVE_DEPT">
-	<SimpleField name="Numéro de Parcelle" type="string"></SimpleField>
+	<SimpleField name="Numero de Parcelle" type="string"></SimpleField>
 	<SimpleField name="Departement" type="string"></SimpleField>
 	<SimpleField name="Commune" type="string"></SimpleField>
 	<SimpleField name="Adresse" type="string"></SimpleField>
-	<SimpleField name="Dénomination" type="string"></SimpleField>
+	<SimpleField name="Groupe de personne" type="string"></SimpleField>
+	<SimpleField name="Forme Juridique Abregee" type="string"></SimpleField>
+	<SimpleField name="Denomination" type="string"></SimpleField>
 </Schema>
 	<Style id="DEPT">
 		<LineStyle>
@@ -19,14 +21,16 @@
 			<outline>1</outline>
 		</PolyStyle>
 	</Style><Folder><name>parcelle_13_dept</name>
-  <Placemark id="parcelle_13_dept.240">
+  <Placemark id="dept.240">
 <styleUrl>#DEPT</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
-		<SimpleData name="Numéro de Parcelle">13088000AC0384</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#dept">
+		<SimpleData name="Numero de Parcelle">13088000AC0384</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">LE ROVE</SimpleData>
 		<SimpleData name="Adresse">18, AV DE ST ROCH</SimpleData>
-		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
+		<SimpleData name="Groupe de personne">Departement</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">DEPT</SimpleData>
+		<SimpleData name="Denomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -40,16 +44,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.243672,43.366461 5.243667,43.366471 5.243677,43.366474 5.243888,43.366512 5.243892,43.366503 5.243672,43.366461</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.243672,43.366461 5.243667,43.366471 5.243677,43.366474 5.243888,43.366512 5.243892,43.366503 5.243672,43.366461</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_dept.425">
+  <Placemark id="dept.425">
 <styleUrl>#DEPT</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
-		<SimpleData name="Numéro de Parcelle">13088000AC0381</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#dept">
+		<SimpleData name="Numero de Parcelle">13088000AC0381</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">LE ROVE</SimpleData>
 		<SimpleData name="Adresse">RTE N 568</SimpleData>
-		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
+		<SimpleData name="Groupe de personne">Departement</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">DEPT</SimpleData>
+		<SimpleData name="Denomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -63,16 +69,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.244974,43.366715 5.244784,43.366672 5.244777,43.366684 5.244965,43.366732 5.244974,43.366715</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.244974,43.366715 5.244784,43.366672 5.244777,43.366684 5.244965,43.366732 5.244974,43.366715</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_dept.445">
+  <Placemark id="dept.445">
 <styleUrl>#DEPT</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
-		<SimpleData name="Numéro de Parcelle">13088000AC0058</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#dept">
+		<SimpleData name="Numero de Parcelle">13088000AC0058</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">LE ROVE</SimpleData>
 		<SimpleData name="Adresse">AV JOLIOT CURIE</SimpleData>
-		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
+		<SimpleData name="Groupe de personne">Departement</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">DEPT</SimpleData>
+		<SimpleData name="Denomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -86,16 +94,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.24372,43.36763 5.243735,43.367614 5.243672,43.367581 5.243514,43.367499 5.243436,43.367459 5.243422,43.367474 5.2435,43.367515 5.24372,43.36763</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.24372,43.36763 5.243735,43.367614 5.243672,43.367581 5.243514,43.367499 5.243436,43.367459 5.243422,43.367474 5.2435,43.367515 5.24372,43.36763</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_dept.1172">
+  <Placemark id="dept.1172">
 <styleUrl>#DEPT</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
-		<SimpleData name="Numéro de Parcelle">13088000AD0118</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#dept">
+		<SimpleData name="Numero de Parcelle">13088000AD0118</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">LE ROVE</SimpleData>
 		<SimpleData name="Adresse">AV JOLIOT CURIE</SimpleData>
-		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
+		<SimpleData name="Groupe de personne">Departement</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">DEPT</SimpleData>
+		<SimpleData name="Denomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -109,16 +119,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.245085,43.368372 5.245218,43.368442 5.245233,43.368428 5.244793,43.368194 5.244779,43.368209 5.244792,43.368216 5.245085,43.368372</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.245085,43.368372 5.245218,43.368442 5.245233,43.368428 5.244793,43.368194 5.244779,43.368209 5.244792,43.368216 5.245085,43.368372</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_dept.3974">
+  <Placemark id="dept.3974">
 <styleUrl>#DEPT</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
-		<SimpleData name="Numéro de Parcelle">13088000AH0254</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#dept">
+		<SimpleData name="Numero de Parcelle">13088000AH0254</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">LE ROVE</SimpleData>
 		<SimpleData name="Adresse">RTE N 568</SimpleData>
-		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
+		<SimpleData name="Groupe de personne">Departement</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">DEPT</SimpleData>
+		<SimpleData name="Denomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -132,16 +144,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.258461,43.369492 5.258306,43.36953 5.258461,43.369526 5.258538,43.369527 5.258574,43.369529 5.258577,43.369529 5.258581,43.369529 5.258584,43.369529 5.258587,43.36953 5.25859,43.369531 5.258593,43.369533 5.258595,43.369535 5.258598,43.369537 5.258601,43.369541 5.258604,43.369546 5.258606,43.369551 5.258608,43.369555 5.25861,43.36956 5.258611,43.369565 5.258612,43.36957 5.258612,43.369575 5.258612,43.36958 5.258611,43.369586 5.25861,43.36959 5.258608,43.369595 5.258606,43.3696 5.258604,43.369605 5.258601,43.36961 5.258598,43.369614 5.258571,43.369638 5.258584,43.369646 5.258616,43.369624 5.258706,43.369565 5.258629,43.369468 5.258461,43.369492</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.258461,43.369492 5.258306,43.36953 5.258461,43.369526 5.258538,43.369527 5.258574,43.369529 5.258577,43.369529 5.258581,43.369529 5.258584,43.369529 5.258587,43.36953 5.25859,43.369531 5.258593,43.369533 5.258595,43.369535 5.258598,43.369537 5.258601,43.369541 5.258604,43.369546 5.258606,43.369551 5.258608,43.369555 5.25861,43.36956 5.258611,43.369565 5.258612,43.36957 5.258612,43.369575 5.258612,43.36958 5.258611,43.369586 5.25861,43.36959 5.258608,43.369595 5.258606,43.3696 5.258604,43.369605 5.258601,43.36961 5.258598,43.369614 5.258571,43.369638 5.258584,43.369646 5.258616,43.369624 5.258706,43.369565 5.258629,43.369468 5.258461,43.369492</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_dept.3995">
+  <Placemark id="dept.3995">
 <styleUrl>#DEPT</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
-		<SimpleData name="Numéro de Parcelle">13088000AH0256</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#dept">
+		<SimpleData name="Numero de Parcelle">13088000AH0256</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">LE ROVE</SimpleData>
 		<SimpleData name="Adresse">RTE N 568</SimpleData>
-		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
+		<SimpleData name="Groupe de personne">Departement</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">DEPT</SimpleData>
+		<SimpleData name="Denomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -155,16 +169,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.257081,43.369184 5.257063,43.369236 5.257164,43.369257 5.257424,43.369305 5.257576,43.369323 5.257589,43.369324 5.25762,43.369265 5.257566,43.369256 5.257417,43.36924 5.257297,43.36922 5.25715,43.369196 5.257081,43.369184</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.257081,43.369184 5.257063,43.369236 5.257164,43.369257 5.257424,43.369305 5.257576,43.369323 5.257589,43.369324 5.25762,43.369265 5.257566,43.369256 5.257417,43.36924 5.257297,43.36922 5.25715,43.369196 5.257081,43.369184</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_dept.4140">
+  <Placemark id="dept.4140">
 <styleUrl>#DEPT</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
-		<SimpleData name="Numéro de Parcelle">13088000AE0027</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#dept">
+		<SimpleData name="Numero de Parcelle">13088000AE0027</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">LE ROVE</SimpleData>
 		<SimpleData name="Adresse">25, AV JOLIOT CURIE</SimpleData>
-		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
+		<SimpleData name="Groupe de personne">Departement</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">DEPT</SimpleData>
+		<SimpleData name="Denomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -178,16 +194,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.245822,43.36864 5.245832,43.368621 5.245588,43.368491 5.245575,43.368509 5.245822,43.36864</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.245822,43.36864 5.245832,43.368621 5.245588,43.368491 5.245575,43.368509 5.245822,43.36864</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_dept.4156">
+  <Placemark id="dept.4156">
 <styleUrl>#DEPT</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
-		<SimpleData name="Numéro de Parcelle">13088000AE0270</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#dept">
+		<SimpleData name="Numero de Parcelle">13088000AE0270</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">LE ROVE</SimpleData>
 		<SimpleData name="Adresse">RTE N 568</SimpleData>
-		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
+		<SimpleData name="Groupe de personne">Departement</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">DEPT</SimpleData>
+		<SimpleData name="Denomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -201,16 +219,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.247443,43.366997 5.247538,43.367161 5.247596,43.367176 5.247513,43.367034 5.247443,43.366997</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.247443,43.366997 5.247538,43.367161 5.247596,43.367176 5.247513,43.367034 5.247443,43.366997</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_dept.4744">
+  <Placemark id="dept.4744">
 <styleUrl>#DEPT</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
-		<SimpleData name="Numéro de Parcelle">13088000AE0329</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#dept">
+		<SimpleData name="Numero de Parcelle">13088000AE0329</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">LE ROVE</SimpleData>
 		<SimpleData name="Adresse">RTE N 568</SimpleData>
-		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
+		<SimpleData name="Groupe de personne">Departement</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">DEPT</SimpleData>
+		<SimpleData name="Denomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -224,16 +244,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.250099,43.368014 5.250272,43.36806 5.250295,43.368066 5.250299,43.368059 5.250102,43.368006 5.250099,43.368014</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.250099,43.368014 5.250272,43.36806 5.250295,43.368066 5.250299,43.368059 5.250102,43.368006 5.250099,43.368014</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_dept.5032">
+  <Placemark id="dept.5032">
 <styleUrl>#DEPT</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
-		<SimpleData name="Numéro de Parcelle">13088000AC0368</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#dept">
+		<SimpleData name="Numero de Parcelle">13088000AC0368</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">LE ROVE</SimpleData>
 		<SimpleData name="Adresse">RTE N 568</SimpleData>
-		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
+		<SimpleData name="Groupe de personne">Departement</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">DEPT</SimpleData>
+		<SimpleData name="Denomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -247,16 +269,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.244022,43.366694 5.244025,43.366694 5.244025,43.366696 5.244119,43.366715 5.24412,43.366713 5.244134,43.366716 5.244132,43.366721 5.244172,43.366729 5.244173,43.366724 5.244188,43.366727 5.244188,43.366728 5.244266,43.366744 5.244031,43.366679 5.244022,43.366694</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.244022,43.366694 5.244025,43.366694 5.244025,43.366696 5.244119,43.366715 5.24412,43.366713 5.244134,43.366716 5.244132,43.366721 5.244172,43.366729 5.244173,43.366724 5.244188,43.366727 5.244188,43.366728 5.244266,43.366744 5.244031,43.366679 5.244022,43.366694</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_dept.5097">
+  <Placemark id="dept.5097">
 <styleUrl>#DEPT</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
-		<SimpleData name="Numéro de Parcelle">13088000AC0375</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#dept">
+		<SimpleData name="Numero de Parcelle">13088000AC0375</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">LE ROVE</SimpleData>
 		<SimpleData name="Adresse">AV DE ST ROCH</SimpleData>
-		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
+		<SimpleData name="Groupe de personne">Departement</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">DEPT</SimpleData>
+		<SimpleData name="Denomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -270,16 +294,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.244345,43.366589 5.24434,43.366597 5.244554,43.366639 5.244559,43.36663 5.244345,43.366589</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.244345,43.366589 5.24434,43.366597 5.244554,43.366639 5.244559,43.36663 5.244345,43.366589</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_dept.5105">
+  <Placemark id="dept.5105">
 <styleUrl>#DEPT</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
-		<SimpleData name="Numéro de Parcelle">13088000AC0377</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#dept">
+		<SimpleData name="Numero de Parcelle">13088000AC0377</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">LE ROVE</SimpleData>
 		<SimpleData name="Adresse">RTE N 568</SimpleData>
-		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
+		<SimpleData name="Groupe de personne">Departement</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">DEPT</SimpleData>
+		<SimpleData name="Denomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -293,16 +319,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.244974,43.366715 5.244965,43.366732 5.245209,43.366787 5.245217,43.366766 5.245187,43.36676 5.245071,43.366736 5.244974,43.366715</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.244974,43.366715 5.244965,43.366732 5.245209,43.366787 5.245217,43.366766 5.245187,43.36676 5.245071,43.366736 5.244974,43.366715</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_dept.5115">
+  <Placemark id="dept.5115">
 <styleUrl>#DEPT</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
-		<SimpleData name="Numéro de Parcelle">13088000AC0379</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#dept">
+		<SimpleData name="Numero de Parcelle">13088000AC0379</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">LE ROVE</SimpleData>
 		<SimpleData name="Adresse">AV DE ST ROCH</SimpleData>
-		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
+		<SimpleData name="Groupe de personne">Departement</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">DEPT</SimpleData>
+		<SimpleData name="Denomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -316,16 +344,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.244554,43.366639 5.244777,43.366684 5.244784,43.366672 5.244778,43.366677 5.244609,43.366641 5.244559,43.36663 5.244554,43.366639</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.244554,43.366639 5.244777,43.366684 5.244784,43.366672 5.244778,43.366677 5.244609,43.366641 5.244559,43.36663 5.244554,43.366639</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_dept.5581">
+  <Placemark id="dept.5581">
 <styleUrl>#DEPT</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
-		<SimpleData name="Numéro de Parcelle">13088000AE0446</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#dept">
+		<SimpleData name="Numero de Parcelle">13088000AE0446</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">LE ROVE</SimpleData>
 		<SimpleData name="Adresse">AV DE ST ROCH</SimpleData>
-		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
+		<SimpleData name="Groupe de personne">Departement</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">DEPT</SimpleData>
+		<SimpleData name="Denomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -339,16 +369,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.245223,43.36675 5.245209,43.366787 5.245574,43.366868 5.245597,43.366831 5.245223,43.36675</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.245223,43.36675 5.245209,43.366787 5.245574,43.366868 5.245597,43.366831 5.245223,43.36675</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_dept.5592">
+  <Placemark id="dept.5592">
 <styleUrl>#DEPT</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
-		<SimpleData name="Numéro de Parcelle">13088000AE0448</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#dept">
+		<SimpleData name="Numero de Parcelle">13088000AE0448</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">LE ROVE</SimpleData>
 		<SimpleData name="Adresse">RTE N 568</SimpleData>
-		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
+		<SimpleData name="Groupe de personne">Departement</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">DEPT</SimpleData>
+		<SimpleData name="Denomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -362,16 +394,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.245597,43.366831 5.245574,43.366868 5.24595,43.366946 5.245978,43.366913 5.245597,43.366831</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.245597,43.366831 5.245574,43.366868 5.24595,43.366946 5.245978,43.366913 5.245597,43.366831</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_dept.5630">
+  <Placemark id="dept.5630">
 <styleUrl>#DEPT</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
-		<SimpleData name="Numéro de Parcelle">13088000AE0450</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#dept">
+		<SimpleData name="Numero de Parcelle">13088000AE0450</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">LE ROVE</SimpleData>
 		<SimpleData name="Adresse">12, BD DE LA CARRAIRADE</SimpleData>
-		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
+		<SimpleData name="Groupe de personne">Departement</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">DEPT</SimpleData>
+		<SimpleData name="Denomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -385,16 +419,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.250418,43.368108 5.250425,43.368093 5.250314,43.368063 5.250307,43.36808 5.250418,43.368108</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.250418,43.368108 5.250425,43.368093 5.250314,43.368063 5.250307,43.36808 5.250418,43.368108</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_dept.5639">
+  <Placemark id="dept.5639">
 <styleUrl>#DEPT</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
-		<SimpleData name="Numéro de Parcelle">13088000AE0452</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#dept">
+		<SimpleData name="Numero de Parcelle">13088000AE0452</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">LE ROVE</SimpleData>
 		<SimpleData name="Adresse">12, BD DE LA CARRAIRADE</SimpleData>
-		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
+		<SimpleData name="Groupe de personne">Departement</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">DEPT</SimpleData>
+		<SimpleData name="Denomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -408,16 +444,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.250526,43.368135 5.250532,43.368122 5.250425,43.368093 5.250418,43.368108 5.250478,43.368123 5.250526,43.368135</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.250526,43.368135 5.250532,43.368122 5.250425,43.368093 5.250418,43.368108 5.250478,43.368123 5.250526,43.368135</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_dept.5675">
+  <Placemark id="dept.5675">
 <styleUrl>#DEPT</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
-		<SimpleData name="Numéro de Parcelle">13088000AE0458</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#dept">
+		<SimpleData name="Numero de Parcelle">13088000AE0458</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">LE ROVE</SimpleData>
 		<SimpleData name="Adresse">12, BD DE LA CARRAIRADE</SimpleData>
-		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
+		<SimpleData name="Groupe de personne">Departement</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">DEPT</SimpleData>
+		<SimpleData name="Denomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -431,16 +469,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.250307,43.36808 5.250314,43.368063 5.250299,43.368059 5.250295,43.368066 5.250272,43.36806 5.250275,43.368071 5.250275,43.368073 5.250281,43.368073 5.250307,43.36808</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.250307,43.36808 5.250314,43.368063 5.250299,43.368059 5.250295,43.368066 5.250272,43.36806 5.250275,43.368071 5.250275,43.368073 5.250281,43.368073 5.250307,43.36808</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_dept.5708">
+  <Placemark id="dept.5708">
 <styleUrl>#DEPT</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
-		<SimpleData name="Numéro de Parcelle">13088000AE0460</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#dept">
+		<SimpleData name="Numero de Parcelle">13088000AE0460</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">LE ROVE</SimpleData>
 		<SimpleData name="Adresse">12, BD DE LA CARRAIRADE</SimpleData>
-		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
+		<SimpleData name="Groupe de personne">Departement</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">DEPT</SimpleData>
+		<SimpleData name="Denomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -454,16 +494,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.25086,43.36821 5.250532,43.368122 5.250526,43.368135 5.250577,43.368147 5.25063,43.36816 5.25068,43.368171 5.250852,43.368216 5.250855,43.368214 5.250859,43.368215 5.25086,43.36821</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.25086,43.36821 5.250532,43.368122 5.250526,43.368135 5.250577,43.368147 5.25063,43.36816 5.25068,43.368171 5.250852,43.368216 5.250855,43.368214 5.250859,43.368215 5.25086,43.36821</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_dept.6164">
+  <Placemark id="dept.6164">
 <styleUrl>#DEPT</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
-		<SimpleData name="Numéro de Parcelle">13088000AH0056</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#dept">
+		<SimpleData name="Numero de Parcelle">13088000AH0056</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">LE ROVE</SimpleData>
 		<SimpleData name="Adresse">AV JEAN JAURES</SimpleData>
-		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
+		<SimpleData name="Groupe de personne">Departement</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">DEPT</SimpleData>
+		<SimpleData name="Denomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -477,16 +519,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.255674,43.371277 5.255783,43.371262 5.255783,43.371259 5.255939,43.37123 5.255942,43.371227 5.255728,43.371261 5.255688,43.371266 5.255674,43.371277</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.255674,43.371277 5.255783,43.371262 5.255783,43.371259 5.255939,43.37123 5.255942,43.371227 5.255728,43.371261 5.255688,43.371266 5.255674,43.371277</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_dept.6439">
+  <Placemark id="dept.6439">
 <styleUrl>#DEPT</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
-		<SimpleData name="Numéro de Parcelle">13088000AB0064</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#dept">
+		<SimpleData name="Numero de Parcelle">13088000AB0064</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">LE ROVE</SimpleData>
 		<SimpleData name="Adresse">CHE DE LA BERGERIE</SimpleData>
-		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
+		<SimpleData name="Groupe de personne">Departement</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">DEPT</SimpleData>
+		<SimpleData name="Denomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -500,16 +544,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.23757,43.358409 5.237621,43.358389 5.237568,43.358346 5.237532,43.35836 5.23757,43.358409</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.23757,43.358409 5.237621,43.358389 5.237568,43.358346 5.237532,43.35836 5.23757,43.358409</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_dept.6465">
+  <Placemark id="dept.6465">
 <styleUrl>#DEPT</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
-		<SimpleData name="Numéro de Parcelle">13088000AB0065</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#dept">
+		<SimpleData name="Numero de Parcelle">13088000AB0065</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">LE ROVE</SimpleData>
 		<SimpleData name="Adresse">CHE DE LA BERGERIE</SimpleData>
-		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
+		<SimpleData name="Groupe de personne">Departement</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">DEPT</SimpleData>
+		<SimpleData name="Denomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -523,16 +569,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.236895,43.357177 5.236865,43.357053 5.236867,43.356994 5.236879,43.356926 5.236823,43.356913 5.236817,43.356956 5.236821,43.356978 5.236836,43.357063 5.236853,43.357114 5.236881,43.357181 5.236895,43.357177</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.236895,43.357177 5.236865,43.357053 5.236867,43.356994 5.236879,43.356926 5.236823,43.356913 5.236817,43.356956 5.236821,43.356978 5.236836,43.357063 5.236853,43.357114 5.236881,43.357181 5.236895,43.357177</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_dept.7148">
+  <Placemark id="dept.7148">
 <styleUrl>#DEPT</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
-		<SimpleData name="Numéro de Parcelle">13088000AC0083</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#dept">
+		<SimpleData name="Numero de Parcelle">13088000AC0083</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">LE ROVE</SimpleData>
 		<SimpleData name="Adresse">AV JOLIOT CURIE</SimpleData>
-		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
+		<SimpleData name="Groupe de personne">Departement</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">DEPT</SimpleData>
+		<SimpleData name="Denomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -546,16 +594,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.243632,43.367437 5.243627,43.367444 5.243619,43.367456 5.243898,43.367607 5.243901,43.367604 5.243917,43.367586 5.243632,43.367437</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.243632,43.367437 5.243627,43.367444 5.243619,43.367456 5.243898,43.367607 5.243901,43.367604 5.243917,43.367586 5.243632,43.367437</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_dept.7593">
+  <Placemark id="dept.7593">
 <styleUrl>#DEPT</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
-		<SimpleData name="Numéro de Parcelle">13088000AC0096</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#dept">
+		<SimpleData name="Numero de Parcelle">13088000AC0096</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">LE ROVE</SimpleData>
 		<SimpleData name="Adresse">98, RTE N 568</SimpleData>
-		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
+		<SimpleData name="Groupe de personne">Departement</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">DEPT</SimpleData>
+		<SimpleData name="Denomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -569,16 +619,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.243819,43.366648 5.24383,43.366628 5.243592,43.366587 5.243585,43.366602 5.243819,43.366648</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.243819,43.366648 5.24383,43.366628 5.243592,43.366587 5.243585,43.366602 5.243819,43.366648</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_dept.7627">
+  <Placemark id="dept.7627">
 <styleUrl>#DEPT</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
-		<SimpleData name="Numéro de Parcelle">13088000AC0097</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#dept">
+		<SimpleData name="Numero de Parcelle">13088000AC0097</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">LE ROVE</SimpleData>
 		<SimpleData name="Adresse">RTE N 568</SimpleData>
-		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
+		<SimpleData name="Groupe de personne">Departement</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">DEPT</SimpleData>
+		<SimpleData name="Denomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -592,6 +644,6 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.243585,43.366602 5.243592,43.366587 5.243339,43.366545 5.243333,43.366556 5.243585,43.366602</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.243585,43.366602 5.243592,43.366587 5.243339,43.366545 5.243333,43.366556 5.243585,43.366602</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
 </Folder></Document></kml>

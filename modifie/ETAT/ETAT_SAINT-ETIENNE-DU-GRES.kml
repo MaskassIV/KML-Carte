@@ -2,11 +2,13 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document id="root_doc">
 <Schema name="SAINT-ETIENNE-DU-GRES_ETAT" id="SAINT-ETIENNE-DU-GRES_ETAT">
-	<SimpleField name="Numéro de Parcelle" type="string"></SimpleField>
+	<SimpleField name="Numero de Parcelle" type="string"></SimpleField>
 	<SimpleField name="Departement" type="string"></SimpleField>
 	<SimpleField name="Commune" type="string"></SimpleField>
 	<SimpleField name="Adresse" type="string"></SimpleField>
-	<SimpleField name="Dénomination" type="string"></SimpleField>
+	<SimpleField name="Groupe de personne" type="string"></SimpleField>
+	<SimpleField name="Forme Juridique Abregee" type="string"></SimpleField>
+	<SimpleField name="Denomination" type="string"></SimpleField>
 </Schema>
 	<Style id="ETAT">
 		<LineStyle>
@@ -19,14 +21,16 @@
 			<outline>1</outline>
 		</PolyStyle>
 	</Style><Folder><name>parcelle_13_etat</name>
-  <Placemark id="parcelle_13_etat.630">
+  <Placemark id="etat.630">
 <styleUrl>#ETAT</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
-		<SimpleData name="Numéro de Parcelle">130940000B1015</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#etat">
+		<SimpleData name="Numero de Parcelle">130940000B1015</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-ETIENNE-DU-GRES</SimpleData>
 		<SimpleData name="Adresse">LE HAUT TAVET</SimpleData>
-		<SimpleData name="Dénomination">ETAT SERVICE FRANCE DOMAINE</SimpleData>
+		<SimpleData name="Groupe de personne">Etat</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">AUPM</SimpleData>
+		<SimpleData name="Denomination">ETAT SERVICE FRANCE DOMAINE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -40,6 +44,6 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>4.742411,43.809806 4.742375,43.809802 4.742372,43.809815 4.742408,43.809818 4.742411,43.809806</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>4.742411,43.809806 4.742375,43.809802 4.742372,43.809815 4.742408,43.809818 4.742411,43.809806</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
 </Folder></Document></kml>

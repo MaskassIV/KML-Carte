@@ -2,11 +2,13 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document id="root_doc">
 <Schema name="MAS-BLANC-DES-ALPILLES_DEPT" id="MAS-BLANC-DES-ALPILLES_DEPT">
-	<SimpleField name="Numéro de Parcelle" type="string"></SimpleField>
+	<SimpleField name="Numero de Parcelle" type="string"></SimpleField>
 	<SimpleField name="Departement" type="string"></SimpleField>
 	<SimpleField name="Commune" type="string"></SimpleField>
 	<SimpleField name="Adresse" type="string"></SimpleField>
-	<SimpleField name="Dénomination" type="string"></SimpleField>
+	<SimpleField name="Groupe de personne" type="string"></SimpleField>
+	<SimpleField name="Forme Juridique Abregee" type="string"></SimpleField>
+	<SimpleField name="Denomination" type="string"></SimpleField>
 </Schema>
 	<Style id="DEPT">
 		<LineStyle>
@@ -19,14 +21,16 @@
 			<outline>1</outline>
 		</PolyStyle>
 	</Style><Folder><name>parcelle_13_dept</name>
-  <Placemark id="parcelle_13_dept.5201">
+  <Placemark id="dept.5201">
 <styleUrl>#DEPT</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
-		<SimpleData name="Numéro de Parcelle">130570000B0390</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#dept">
+		<SimpleData name="Numero de Parcelle">130570000B0390</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MAS-BLANC-DES-ALPILLES</SimpleData>
 		<SimpleData name="Adresse">LE CHATEAU</SimpleData>
-		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
+		<SimpleData name="Groupe de personne">Departement</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">DEPT</SimpleData>
+		<SimpleData name="Denomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -40,6 +44,6 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>4.76743,43.789621 4.767866,43.789624 4.767917,43.789624 4.768039,43.789624 4.768045,43.789604 4.767437,43.7896 4.76743,43.789621</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>4.76743,43.789621 4.767866,43.789624 4.767917,43.789624 4.768039,43.789624 4.768045,43.789604 4.767437,43.7896 4.76743,43.789621</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
 </Folder></Document></kml>

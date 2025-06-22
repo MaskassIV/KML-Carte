@@ -2,11 +2,13 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document id="root_doc">
 <Schema name="LA DESTROUSSE_PUBLICorASSOCIE" id="LA DESTROUSSE_PUBLICorASSOCIE">
-	<SimpleField name="Numéro de Parcelle" type="string"></SimpleField>
+	<SimpleField name="Numero de Parcelle" type="string"></SimpleField>
 	<SimpleField name="Departement" type="string"></SimpleField>
 	<SimpleField name="Commune" type="string"></SimpleField>
 	<SimpleField name="Adresse" type="string"></SimpleField>
-	<SimpleField name="Dénomination" type="string"></SimpleField>
+	<SimpleField name="Groupe de personne" type="string"></SimpleField>
+	<SimpleField name="Forme Juridique Abregee" type="string"></SimpleField>
+	<SimpleField name="Denomination" type="string"></SimpleField>
 </Schema>
 	<Style id="PUBLICorASSOCIE">
 		<LineStyle>
@@ -19,14 +21,16 @@
 			<outline>1</outline>
 		</PolyStyle>
 	</Style><Folder><name>parcelle_13_publicorassocie</name>
-  <Placemark id="parcelle_13_publicorassocie.189">
+  <Placemark id="publicorassocie.189">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">13031000AA0267</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">13031000AA0267</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">LA DESTROUSSE</SimpleData>
 		<SimpleData name="Adresse">SOUQUE NEGRE</SimpleData>
-		<SimpleData name="Dénomination">SCI LES 3R</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SCI</SimpleData>
+		<SimpleData name="Denomination">SCI LES 3R</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -40,16 +44,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.597663,43.389745 5.597746,43.38965 5.597584,43.38958 5.597503,43.389675 5.597663,43.389745</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.597663,43.389745 5.597746,43.38965 5.597584,43.38958 5.597503,43.389675 5.597663,43.389745</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.1363">
+  <Placemark id="publicorassocie.1363">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">13031000AI0131</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">13031000AI0131</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">LA DESTROUSSE</SimpleData>
 		<SimpleData name="Adresse">LA DESTROUSSE ET LA VERRER</SimpleData>
-		<SimpleData name="Dénomination">FONCIER PACA</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+		<SimpleData name="Denomination">FONCIER PACA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -63,16 +69,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.607545,43.373067 5.607515,43.373079 5.607493,43.373089 5.607475,43.373088 5.607454,43.373088 5.607452,43.373082 5.607216,43.373078 5.607215,43.373082 5.607685,43.373131 5.607735,43.373136 5.607743,43.373139 5.607752,43.373141 5.60776,43.373145 5.607767,43.373149 5.607774,43.373153 5.60778,43.373158 5.607785,43.373164 5.60779,43.373169 5.607794,43.373175 5.607797,43.373182 5.607799,43.373188 5.607801,43.373194 5.607801,43.373201 5.607801,43.373208 5.6078,43.373214 5.607861,43.373221 5.607766,43.373699 5.607848,43.373708 5.607856,43.373709 5.607863,43.37371 5.607869,43.373713 5.607875,43.373715 5.607881,43.373719 5.607886,43.373723 5.607891,43.373727 5.607894,43.373732 5.607921,43.3738 5.607956,43.373885 5.607958,43.373893 5.60796,43.3739 5.60796,43.373908 5.607969,43.37452 5.608196,43.374615 5.608128,43.373823 5.608101,43.373502 5.608089,43.37337 5.607891,43.373148 5.60776,43.373057 5.60774,43.373044 5.607651,43.373014 5.607545,43.373067</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.607545,43.373067 5.607515,43.373079 5.607493,43.373089 5.607475,43.373088 5.607454,43.373088 5.607452,43.373082 5.607216,43.373078 5.607215,43.373082 5.607685,43.373131 5.607735,43.373136 5.607743,43.373139 5.607752,43.373141 5.60776,43.373145 5.607767,43.373149 5.607774,43.373153 5.60778,43.373158 5.607785,43.373164 5.60779,43.373169 5.607794,43.373175 5.607797,43.373182 5.607799,43.373188 5.607801,43.373194 5.607801,43.373201 5.607801,43.373208 5.6078,43.373214 5.607861,43.373221 5.607766,43.373699 5.607848,43.373708 5.607856,43.373709 5.607863,43.37371 5.607869,43.373713 5.607875,43.373715 5.607881,43.373719 5.607886,43.373723 5.607891,43.373727 5.607894,43.373732 5.607921,43.3738 5.607956,43.373885 5.607958,43.373893 5.60796,43.3739 5.60796,43.373908 5.607969,43.37452 5.608196,43.374615 5.608128,43.373823 5.608101,43.373502 5.608089,43.37337 5.607891,43.373148 5.60776,43.373057 5.60774,43.373044 5.607651,43.373014 5.607545,43.373067</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.1730">
+  <Placemark id="publicorassocie.1730">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">13031000AE0141</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">13031000AE0141</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">LA DESTROUSSE</SimpleData>
 		<SimpleData name="Adresse">13, N 96 DE TOULON A SISTERON</SimpleData>
-		<SimpleData name="Dénomination">VALERIE</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SARL</SimpleData>
+		<SimpleData name="Denomination">VALERIE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -86,6 +94,6 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.605842,43.376448 5.605835,43.376475 5.605828,43.376502 5.605821,43.376539 5.605819,43.376552 5.605813,43.376581 5.605806,43.376614 5.60583,43.37662 5.605839,43.376622 5.605845,43.376623 5.605865,43.376629 5.605899,43.376641 5.605987,43.376666 5.606005,43.376671 5.606059,43.376553 5.606076,43.376518 5.605842,43.376448</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.605842,43.376448 5.605835,43.376475 5.605828,43.376502 5.605821,43.376539 5.605819,43.376552 5.605813,43.376581 5.605806,43.376614 5.60583,43.37662 5.605839,43.376622 5.605845,43.376623 5.605865,43.376629 5.605899,43.376641 5.605987,43.376666 5.606005,43.376671 5.606059,43.376553 5.606076,43.376518 5.605842,43.376448</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
 </Folder></Document></kml>

@@ -2,11 +2,13 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document id="root_doc">
 <Schema name="SAINT-CANNAT_ETAT" id="SAINT-CANNAT_ETAT">
-	<SimpleField name="Numéro de Parcelle" type="string"></SimpleField>
+	<SimpleField name="Numero de Parcelle" type="string"></SimpleField>
 	<SimpleField name="Departement" type="string"></SimpleField>
 	<SimpleField name="Commune" type="string"></SimpleField>
 	<SimpleField name="Adresse" type="string"></SimpleField>
-	<SimpleField name="Dénomination" type="string"></SimpleField>
+	<SimpleField name="Groupe de personne" type="string"></SimpleField>
+	<SimpleField name="Forme Juridique Abregee" type="string"></SimpleField>
+	<SimpleField name="Denomination" type="string"></SimpleField>
 </Schema>
 	<Style id="ETAT">
 		<LineStyle>
@@ -19,14 +21,16 @@
 			<outline>1</outline>
 		</PolyStyle>
 	</Style><Folder><name>parcelle_13_etat</name>
-  <Placemark id="parcelle_13_etat.819">
+  <Placemark id="etat.819">
 <styleUrl>#ETAT</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
-		<SimpleData name="Numéro de Parcelle">130910000C1083</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#etat">
+		<SimpleData name="Numero de Parcelle">130910000C1083</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-CANNAT</SimpleData>
 		<SimpleData name="Adresse">TREVARESSE ET BEAUPRE</SimpleData>
-		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
+		<SimpleData name="Groupe de personne">Etat</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">ETAT</SimpleData>
+		<SimpleData name="Denomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -40,16 +44,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.361795,43.614135 5.361416,43.6145 5.361455,43.614522 5.361819,43.614164 5.361795,43.614135</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.361795,43.614135 5.361416,43.6145 5.361455,43.614522 5.361819,43.614164 5.361795,43.614135</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_etat.3328">
+  <Placemark id="etat.3328">
 <styleUrl>#ETAT</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
-		<SimpleData name="Numéro de Parcelle">13091000BT0022</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#etat">
+		<SimpleData name="Numero de Parcelle">13091000BT0022</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-CANNAT</SimpleData>
 		<SimpleData name="Adresse">GALINETTE</SimpleData>
-		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
+		<SimpleData name="Groupe de personne">Etat</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">ETAT</SimpleData>
+		<SimpleData name="Denomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -63,16 +69,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.308976,43.618088 5.309784,43.617865 5.309761,43.617823 5.308957,43.618045 5.308967,43.618067 5.308976,43.618088</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.308976,43.618088 5.309784,43.617865 5.309761,43.617823 5.308957,43.618045 5.308967,43.618067 5.308976,43.618088</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_etat.7226">
+  <Placemark id="etat.7226">
 <styleUrl>#ETAT</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
-		<SimpleData name="Numéro de Parcelle">130910000C0856</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#etat">
+		<SimpleData name="Numero de Parcelle">130910000C0856</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">SAINT-CANNAT</SimpleData>
 		<SimpleData name="Adresse">LA TREVARESSE</SimpleData>
-		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
+		<SimpleData name="Groupe de personne">Etat</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">ETAT</SimpleData>
+		<SimpleData name="Denomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -86,6 +94,6 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.350906,43.623946 5.350848,43.623974 5.350876,43.624004 5.350934,43.623977 5.350906,43.623946</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.350906,43.623946 5.350848,43.623974 5.350876,43.624004 5.350934,43.623977 5.350906,43.623946</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
 </Folder></Document></kml>

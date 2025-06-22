@@ -2,11 +2,13 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document id="root_doc">
 <Schema name="MARSEILLE 9EME_PMRSEM" id="MARSEILLE 9EME_PMRSEM">
-	<SimpleField name="Numéro de Parcelle" type="string"></SimpleField>
+	<SimpleField name="Numero de Parcelle" type="string"></SimpleField>
 	<SimpleField name="Departement" type="string"></SimpleField>
 	<SimpleField name="Commune" type="string"></SimpleField>
 	<SimpleField name="Adresse" type="string"></SimpleField>
-	<SimpleField name="Dénomination" type="string"></SimpleField>
+	<SimpleField name="Groupe de personne" type="string"></SimpleField>
+	<SimpleField name="Forme Juridique Abregee" type="string"></SimpleField>
+	<SimpleField name="Denomination" type="string"></SimpleField>
 </Schema>
 	<Style id="PMRSEM">
 		<LineStyle>
@@ -19,14 +21,16 @@
 			<outline>1</outline>
 		</PolyStyle>
 	</Style><Folder><name>parcelle_13_pmrsem</name>
-  <Placemark id="parcelle_13_pmrsem.724">
+  <Placemark id="pmrsem.724">
 <styleUrl>#PMRSEM</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_pmrsem">
-		<SimpleData name="Numéro de Parcelle">132098460L0012</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#pmrsem">
+		<SimpleData name="Numero de Parcelle">132098460L0012</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 9EME</SimpleData>
 		<SimpleData name="Adresse">304, CHE DE MORGIOU</SimpleData>
-		<SimpleData name="Dénomination">SOCIETE DE GESTION IMMOBILIERE DE LA VILLE DE MARSEILLE</SimpleData>
+		<SimpleData name="Groupe de personne">Personnes morales representant des societes d'economie mixte</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">SOCIETE DE GESTION IMMOBILIERE DE LA VILLE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -40,15 +44,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.413675,43.230157,15 5.413473,43.230604,15 5.414033,43.23076,15 5.414222,43.230461,15 5.41397,43.230396,15 5.413918,43.230338,15 5.413938,43.230297,15 5.413947,43.230276,15 5.413955,43.230258,15 5.413966,43.230237,15 5.413858,43.230208,15 5.41384,43.230204,15 5.413675,43.230157,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_pmrsem.739">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.413675,43.230157,15 5.413473,43.230604,15 5.414033,43.23076,15 5.414222,43.230461,15 5.41397,43.230396,15 5.413918,43.230338,15 5.413938,43.230297,15 5.413947,43.230276,15 5.413955,43.230258,15 5.413966,43.230237,15 5.413858,43.230208,15 5.41384,43.230204,15 5.413675,43.230157,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="pmrsem.739">
 <styleUrl>#PMRSEM</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_pmrsem">
-		<SimpleData name="Numéro de Parcelle">132098490M0132</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#pmrsem">
+		<SimpleData name="Numero de Parcelle">132098490M0132</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 9EME</SimpleData>
 		<SimpleData name="Adresse">TRA DES BATIGNOLES</SimpleData>
-		<SimpleData name="Dénomination">SOCIETE DE GESTION IMMOBILIERE DE LA VILLE DE MARSEILLE</SimpleData>
+		<SimpleData name="Groupe de personne">Personnes morales representant des societes d'economie mixte</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">SOCIETE DE GESTION IMMOBILIERE DE LA VILLE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -62,15 +69,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.408088,43.243668,15 5.408099,43.243692,15 5.408118,43.243737,15 5.408108,43.243743,15 5.408103,43.243746,15 5.408097,43.243749,15 5.408096,43.243749,15 5.408081,43.243754,15 5.408079,43.243754,15 5.408078,43.243755,15 5.408072,43.243756,15 5.408068,43.243757,15 5.408268,43.244136,15 5.408289,43.244189,15 5.408302,43.244222,15 5.408353,43.244211,15 5.408586,43.244157,15 5.408691,43.244134,15 5.408695,43.244134,15 5.408758,43.244118,15 5.40888,43.244089,15 5.408902,43.244085,15 5.408931,43.244078,15 5.408943,43.244076,15 5.408974,43.244068,15 5.408988,43.244065,15 5.409042,43.244053,15 5.409064,43.244047,15 5.408959,43.243867,15 5.408912,43.243784,15 5.408824,43.243616,15 5.408717,43.243415,15 5.408641,43.243276,15 5.408281,43.242806,15 5.408213,43.24282,15 5.408051,43.242855,15 5.408009,43.242863,15 5.407934,43.242879,15 5.407729,43.242923,15 5.407859,43.243131,15 5.407912,43.243227,15 5.408127,43.243658,15 5.408088,43.243668,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_pmrsem.753">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.408088,43.243668,15 5.408099,43.243692,15 5.408118,43.243737,15 5.408108,43.243743,15 5.408103,43.243746,15 5.408097,43.243749,15 5.408096,43.243749,15 5.408081,43.243754,15 5.408079,43.243754,15 5.408078,43.243755,15 5.408072,43.243756,15 5.408068,43.243757,15 5.408268,43.244136,15 5.408289,43.244189,15 5.408302,43.244222,15 5.408353,43.244211,15 5.408586,43.244157,15 5.408691,43.244134,15 5.408695,43.244134,15 5.408758,43.244118,15 5.40888,43.244089,15 5.408902,43.244085,15 5.408931,43.244078,15 5.408943,43.244076,15 5.408974,43.244068,15 5.408988,43.244065,15 5.409042,43.244053,15 5.409064,43.244047,15 5.408959,43.243867,15 5.408912,43.243784,15 5.408824,43.243616,15 5.408717,43.243415,15 5.408641,43.243276,15 5.408281,43.242806,15 5.408213,43.24282,15 5.408051,43.242855,15 5.408009,43.242863,15 5.407934,43.242879,15 5.407729,43.242923,15 5.407859,43.243131,15 5.407912,43.243227,15 5.408127,43.243658,15 5.408088,43.243668,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="pmrsem.753">
 <styleUrl>#PMRSEM</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_pmrsem">
-		<SimpleData name="Numéro de Parcelle">132098490I0145</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#pmrsem">
+		<SimpleData name="Numero de Parcelle">132098490I0145</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 9EME</SimpleData>
 		<SimpleData name="Adresse">63, TRA DE LA GOUFFONNE</SimpleData>
-		<SimpleData name="Dénomination">SOCIETE FRANCAISE DES HABITATIONS ECONOMIQUES - SOCIETE ANON</SimpleData>
+		<SimpleData name="Groupe de personne">Personnes morales representant des societes d'economie mixte</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">SOCIETE FRANCAISE DES HABITATIONS ECONOMIQUES - SOCIETE ANON</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -84,15 +94,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.40925,43.248848,15 5.408896,43.249225,15 5.409537,43.249417,15 5.409576,43.24943,15 5.409724,43.249093,15 5.409667,43.249063,15 5.40966,43.249059,15 5.40925,43.248848,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_pmrsem.839">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.40925,43.248848,15 5.408896,43.249225,15 5.409537,43.249417,15 5.409576,43.24943,15 5.409724,43.249093,15 5.409667,43.249063,15 5.40966,43.249059,15 5.40925,43.248848,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="pmrsem.839">
 <styleUrl>#PMRSEM</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_pmrsem">
-		<SimpleData name="Numéro de Parcelle">132098490O0223</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#pmrsem">
+		<SimpleData name="Numero de Parcelle">132098490O0223</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 9EME</SimpleData>
 		<SimpleData name="Adresse">9, RUE DE BEYROUTH</SimpleData>
-		<SimpleData name="Dénomination">SOCIETE DE GESTION IMMOBILIERE DE LA VILLE DE MARSEILLE</SimpleData>
+		<SimpleData name="Groupe de personne">Personnes morales representant des societes d'economie mixte</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">SOCIETE DE GESTION IMMOBILIERE DE LA VILLE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -106,15 +119,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.401259,43.246779,15 5.401325,43.246859,15 5.401334,43.246871,15 5.401389,43.246845,15 5.401382,43.246834,15 5.401317,43.246753,15 5.401259,43.246779,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_pmrsem.966">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.401259,43.246779,15 5.401325,43.246859,15 5.401334,43.246871,15 5.401389,43.246845,15 5.401382,43.246834,15 5.401317,43.246753,15 5.401259,43.246779,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="pmrsem.966">
 <styleUrl>#PMRSEM</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_pmrsem">
-		<SimpleData name="Numéro de Parcelle">132098490K0065</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#pmrsem">
+		<SimpleData name="Numero de Parcelle">132098490K0065</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 9EME</SimpleData>
 		<SimpleData name="Adresse">TRA DES BATIGNOLES</SimpleData>
-		<SimpleData name="Dénomination">SOCIETE DE GESTION IMMOBILIERE DE LA VILLE DE MARSEILLE</SimpleData>
+		<SimpleData name="Groupe de personne">Personnes morales representant des societes d'economie mixte</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">SOCIETE DE GESTION IMMOBILIERE DE LA VILLE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -128,15 +144,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.408213,43.24282,15 5.408064,43.242628,15 5.407641,43.242704,15 5.407602,43.242713,15 5.407729,43.242923,15 5.407934,43.242879,15 5.408009,43.242863,15 5.408051,43.242855,15 5.408213,43.24282,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_pmrsem.990">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.408213,43.24282,15 5.408064,43.242628,15 5.407641,43.242704,15 5.407602,43.242713,15 5.407729,43.242923,15 5.407934,43.242879,15 5.408009,43.242863,15 5.408051,43.242855,15 5.408213,43.24282,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="pmrsem.990">
 <styleUrl>#PMRSEM</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_pmrsem">
-		<SimpleData name="Numéro de Parcelle">132098470E0080</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#pmrsem">
+		<SimpleData name="Numero de Parcelle">132098470E0080</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 9EME</SimpleData>
 		<SimpleData name="Adresse">42, AV DE LA PANOUSE</SimpleData>
-		<SimpleData name="Dénomination">SOCIETE DE GESTION IMMOBILIERE DE LA VILLE DE MARSEILLE</SimpleData>
+		<SimpleData name="Groupe de personne">Personnes morales representant des societes d'economie mixte</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">SOCIETE DE GESTION IMMOBILIERE DE LA VILLE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -150,5 +169,6 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.421643,43.256302,15 5.421408,43.256277,15 5.421375,43.256393,15 5.42145,43.256529,15 5.421587,43.256774,15 5.42159,43.256796,15 5.421599,43.256842,15 5.42162,43.256955,15 5.421633,43.25703,15 5.421636,43.257043,15 5.421633,43.257043,15 5.421636,43.257049,15 5.421872,43.257046,15 5.422104,43.25704,15 5.422133,43.256685,15 5.421646,43.256615,15 5.421703,43.256406,15 5.421617,43.256394,15 5.421643,43.256302,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.421643,43.256302,15 5.421408,43.256277,15 5.421375,43.256393,15 5.42145,43.256529,15 5.421587,43.256774,15 5.42159,43.256796,15 5.421599,43.256842,15 5.42162,43.256955,15 5.421633,43.25703,15 5.421636,43.257043,15 5.421633,43.257043,15 5.421636,43.257049,15 5.421872,43.257046,15 5.422104,43.25704,15 5.422133,43.256685,15 5.421646,43.256615,15 5.421703,43.256406,15 5.421617,43.256394,15 5.421643,43.256302,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
 </Folder></Document></kml>

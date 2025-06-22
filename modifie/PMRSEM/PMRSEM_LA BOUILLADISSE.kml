@@ -2,11 +2,13 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document id="root_doc">
 <Schema name="LA BOUILLADISSE_PMRSEM" id="LA BOUILLADISSE_PMRSEM">
-	<SimpleField name="Numéro de Parcelle" type="string"></SimpleField>
+	<SimpleField name="Numero de Parcelle" type="string"></SimpleField>
 	<SimpleField name="Departement" type="string"></SimpleField>
 	<SimpleField name="Commune" type="string"></SimpleField>
 	<SimpleField name="Adresse" type="string"></SimpleField>
-	<SimpleField name="Dénomination" type="string"></SimpleField>
+	<SimpleField name="Groupe de personne" type="string"></SimpleField>
+	<SimpleField name="Forme Juridique Abregee" type="string"></SimpleField>
+	<SimpleField name="Denomination" type="string"></SimpleField>
 </Schema>
 	<Style id="PMRSEM">
 		<LineStyle>
@@ -19,14 +21,16 @@
 			<outline>1</outline>
 		</PolyStyle>
 	</Style><Folder><name>parcelle_13_pmrsem</name>
-  <Placemark id="parcelle_13_pmrsem.531">
+  <Placemark id="pmrsem.531">
 <styleUrl>#PMRSEM</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_pmrsem">
-		<SimpleData name="Numéro de Parcelle">13016000BL0569</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#pmrsem">
+		<SimpleData name="Numero de Parcelle">13016000BL0569</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">LA BOUILLADISSE</SimpleData>
 		<SimpleData name="Adresse">7, CHE DE MAGNE</SimpleData>
-		<SimpleData name="Dénomination">SOCIETE FRANCAISE DES HABITATIONS ECONOMIQUES - SOCIETE ANON</SimpleData>
+		<SimpleData name="Groupe de personne">Personnes morales representant des societes d'economie mixte</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">SOCIETE FRANCAISE DES HABITATIONS ECONOMIQUES - SOCIETE ANON</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -40,16 +44,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.593761,43.393581 5.593799,43.393591 5.593829,43.393545 5.593794,43.393539 5.593761,43.393581</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.593761,43.393581 5.593799,43.393591 5.593829,43.393545 5.593794,43.393539 5.593761,43.393581</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_pmrsem.663">
+  <Placemark id="pmrsem.663">
 <styleUrl>#PMRSEM</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_pmrsem">
-		<SimpleData name="Numéro de Parcelle">13016000BL0084</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#pmrsem">
+		<SimpleData name="Numero de Parcelle">13016000BL0084</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">LA BOUILLADISSE</SimpleData>
 		<SimpleData name="Adresse">LE VIEUX BOUILLADISSE</SimpleData>
-		<SimpleData name="Dénomination">SOCIETE FRANCAISE DES HABITATIONS ECONOMIQUES - SOCIETE ANON</SimpleData>
+		<SimpleData name="Groupe de personne">Personnes morales representant des societes d'economie mixte</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">SOCIETE FRANCAISE DES HABITATIONS ECONOMIQUES - SOCIETE ANON</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -63,16 +69,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.591043,43.396821 5.591126,43.396694 5.590962,43.396652 5.590949,43.396675 5.590916,43.396667 5.590912,43.396666 5.590871,43.396738 5.590851,43.396767 5.591043,43.396821</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.591043,43.396821 5.591126,43.396694 5.590962,43.396652 5.590949,43.396675 5.590916,43.396667 5.590912,43.396666 5.590871,43.396738 5.590851,43.396767 5.591043,43.396821</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_pmrsem.665">
+  <Placemark id="pmrsem.665">
 <styleUrl>#PMRSEM</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_pmrsem">
-		<SimpleData name="Numéro de Parcelle">13016000BL0085</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#pmrsem">
+		<SimpleData name="Numero de Parcelle">13016000BL0085</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">LA BOUILLADISSE</SimpleData>
 		<SimpleData name="Adresse">LE VIEUX BOUILLADISSE</SimpleData>
-		<SimpleData name="Dénomination">SOCIETE FRANCAISE DES HABITATIONS ECONOMIQUES - SOCIETE ANON</SimpleData>
+		<SimpleData name="Groupe de personne">Personnes morales representant des societes d'economie mixte</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">SOCIETE FRANCAISE DES HABITATIONS ECONOMIQUES - SOCIETE ANON</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -86,16 +94,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.590927,43.396644 5.590916,43.396667 5.590949,43.396675 5.590962,43.396652 5.590927,43.396644</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.590927,43.396644 5.590916,43.396667 5.590949,43.396675 5.590962,43.396652 5.590927,43.396644</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_pmrsem.681">
+  <Placemark id="pmrsem.681">
 <styleUrl>#PMRSEM</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_pmrsem">
-		<SimpleData name="Numéro de Parcelle">13016000BL0091</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#pmrsem">
+		<SimpleData name="Numero de Parcelle">13016000BL0091</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">LA BOUILLADISSE</SimpleData>
 		<SimpleData name="Adresse">RUE JEAN POURCHIER</SimpleData>
-		<SimpleData name="Dénomination">SOCIETE FRANCAISE DES HABITATIONS ECONOMIQUES - SOCIETE ANON</SimpleData>
+		<SimpleData name="Groupe de personne">Personnes morales representant des societes d'economie mixte</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">SOCIETE FRANCAISE DES HABITATIONS ECONOMIQUES - SOCIETE ANON</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -109,6 +119,6 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.591338,43.396735 5.591374,43.396752 5.591462,43.396792 5.5915,43.39675 5.59145,43.396728 5.59137,43.396694 5.591338,43.396735</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.591338,43.396735 5.591374,43.396752 5.591462,43.396792 5.5915,43.39675 5.59145,43.396728 5.59137,43.396694 5.591338,43.396735</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
 </Folder></Document></kml>

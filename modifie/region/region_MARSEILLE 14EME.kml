@@ -2,11 +2,13 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document id="root_doc">
 <Schema name="MARSEILLE 14EME_region" id="MARSEILLE 14EME_region">
-	<SimpleField name="Numéro de Parcelle" type="string"></SimpleField>
+	<SimpleField name="Numero de Parcelle" type="string"></SimpleField>
 	<SimpleField name="Departement" type="string"></SimpleField>
 	<SimpleField name="Commune" type="string"></SimpleField>
 	<SimpleField name="Adresse" type="string"></SimpleField>
-	<SimpleField name="Dénomination" type="string"></SimpleField>
+	<SimpleField name="Groupe de personne" type="string"></SimpleField>
+	<SimpleField name="Forme Juridique Abregee" type="string"></SimpleField>
+	<SimpleField name="Denomination" type="string"></SimpleField>
 </Schema>
 	<Style id="region">
 		<LineStyle>
@@ -19,14 +21,16 @@
 			<outline>1</outline>
 		</PolyStyle>
 	</Style><Folder><name>parcelle_13_region</name>
-  <Placemark id="parcelle_13_region.111">
+  <Placemark id="region.111">
 <styleUrl>#region</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_region">
-		<SimpleData name="Numéro de Parcelle">132148900K0001</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#region">
+		<SimpleData name="Numero de Parcelle">132148900K0001</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
 		<SimpleData name="Adresse">BD GAY LUSSAC</SimpleData>
-		<SimpleData name="Dénomination">REGION PROVENCE-ALPES-COTE DAZUR</SimpleData>
+		<SimpleData name="Groupe de personne">Region</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">COLL</SimpleData>
+		<SimpleData name="Denomination">REGION PROVENCE-ALPES-COTE DAZUR</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -40,15 +44,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.375359,43.338478,15 5.375501,43.338844,15 5.375523,43.338861,15 5.376051,43.338508,15 5.375359,43.338478,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_region.185">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.375359,43.338478,15 5.375501,43.338844,15 5.375523,43.338861,15 5.376051,43.338508,15 5.375359,43.338478,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="region.185">
 <styleUrl>#region</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_region">
-		<SimpleData name="Numéro de Parcelle">132148900K0041</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#region">
+		<SimpleData name="Numero de Parcelle">132148900K0041</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 14EME</SimpleData>
 		<SimpleData name="Adresse">54, BD GAY LUSSAC</SimpleData>
-		<SimpleData name="Dénomination">REGION PROVENCE-ALPES-COTE DAZUR</SimpleData>
+		<SimpleData name="Groupe de personne">Region</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">COLL</SimpleData>
+		<SimpleData name="Denomination">REGION PROVENCE-ALPES-COTE DAZUR</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -62,5 +69,6 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.376792,43.336458,15 5.375236,43.336351,15 5.374906,43.336528,15 5.374748,43.336515,15 5.374819,43.336858,15 5.374906,43.337153,15 5.374994,43.337292,15 5.375029,43.337336,15 5.375058,43.33735,15 5.375075,43.337364,15 5.375072,43.337403,15 5.375055,43.337428,15 5.375099,43.337585,15 5.375129,43.337711,15 5.375152,43.337835,15 5.375157,43.3379,15 5.375359,43.338478,15 5.376051,43.338508,15 5.376538,43.338166,15 5.37664,43.337453,15 5.376692,43.337284,15 5.376792,43.336458,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.376792,43.336458,15 5.375236,43.336351,15 5.374906,43.336528,15 5.374748,43.336515,15 5.374819,43.336858,15 5.374906,43.337153,15 5.374994,43.337292,15 5.375029,43.337336,15 5.375058,43.33735,15 5.375075,43.337364,15 5.375072,43.337403,15 5.375055,43.337428,15 5.375099,43.337585,15 5.375129,43.337711,15 5.375152,43.337835,15 5.375157,43.3379,15 5.375359,43.338478,15 5.376051,43.338508,15 5.376538,43.338166,15 5.37664,43.337453,15 5.376692,43.337284,15 5.376792,43.336458,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
 </Folder></Document></kml>

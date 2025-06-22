@@ -2,11 +2,13 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document id="root_doc">
 <Schema name="VENTABREN_HLM" id="VENTABREN_HLM">
-	<SimpleField name="Numéro de Parcelle" type="string"></SimpleField>
+	<SimpleField name="Numero de Parcelle" type="string"></SimpleField>
 	<SimpleField name="Departement" type="string"></SimpleField>
 	<SimpleField name="Commune" type="string"></SimpleField>
 	<SimpleField name="Adresse" type="string"></SimpleField>
-	<SimpleField name="Dénomination" type="string"></SimpleField>
+	<SimpleField name="Groupe de personne" type="string"></SimpleField>
+	<SimpleField name="Forme Juridique Abregee" type="string"></SimpleField>
+	<SimpleField name="Denomination" type="string"></SimpleField>
 </Schema>
 	<Style id="HLM">
 		<LineStyle>
@@ -19,14 +21,16 @@
 			<outline>1</outline>
 		</PolyStyle>
 	</Style><Folder><name>parcelle_13_hlm</name>
-  <Placemark id="parcelle_13_hlm.13">
+  <Placemark id="hlm.13">
 <styleUrl>#HLM</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
-		<SimpleData name="Numéro de Parcelle">13114000AT1093</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#hlm">
+		<SimpleData name="Numero de Parcelle">13114000AT1093</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">VENTABREN</SimpleData>
 		<SimpleData name="Adresse">140, CHE DES MEJEANS</SimpleData>
-		<SimpleData name="Dénomination">FAMILLE ET PROVENCE</SimpleData>
+		<SimpleData name="Groupe de personne">HLM</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">FAMILLE ET PROVENCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -40,16 +44,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.277051,43.54616 5.277135,43.546168 5.277423,43.546196 5.277454,43.546184 5.277461,43.546146 5.277527,43.546152 5.277624,43.545609 5.277387,43.545543 5.277115,43.545821 5.277051,43.54616</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.277051,43.54616 5.277135,43.546168 5.277423,43.546196 5.277454,43.546184 5.277461,43.546146 5.277527,43.546152 5.277624,43.545609 5.277387,43.545543 5.277115,43.545821 5.277051,43.54616</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_hlm.494">
+  <Placemark id="hlm.494">
 <styleUrl>#HLM</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
-		<SimpleData name="Numéro de Parcelle">13114000AT1094</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#hlm">
+		<SimpleData name="Numero de Parcelle">13114000AT1094</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">VENTABREN</SimpleData>
 		<SimpleData name="Adresse">LES PETITES PLAINES</SimpleData>
-		<SimpleData name="Dénomination">FAMILLE ET PROVENCE</SimpleData>
+		<SimpleData name="Groupe de personne">HLM</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">FAMILLE ET PROVENCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -63,16 +69,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.27736,43.545535 5.277167,43.545732 5.277156,43.545742 5.277079,43.545868 5.277054,43.546047 5.277037,43.546157 5.277051,43.54616 5.277115,43.545821 5.277387,43.545543 5.27736,43.545535</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.27736,43.545535 5.277167,43.545732 5.277156,43.545742 5.277079,43.545868 5.277054,43.546047 5.277037,43.546157 5.277051,43.54616 5.277115,43.545821 5.277387,43.545543 5.27736,43.545535</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_hlm.4001">
+  <Placemark id="hlm.4001">
 <styleUrl>#HLM</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
-		<SimpleData name="Numéro de Parcelle">13114000AW0391</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#hlm">
+		<SimpleData name="Numero de Parcelle">13114000AW0391</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">VENTABREN</SimpleData>
 		<SimpleData name="Adresse">722, CHE DES VERQUIERES</SimpleData>
-		<SimpleData name="Dénomination">FAMILLE ET PROVENCE</SimpleData>
+		<SimpleData name="Groupe de personne">HLM</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">FAMILLE ET PROVENCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -86,16 +94,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.298148,43.55351 5.297714,43.553552 5.296925,43.553634 5.296913,43.553816 5.297708,43.553735 5.29815,43.553691 5.29815,43.553556 5.298148,43.55351</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.298148,43.55351 5.297714,43.553552 5.296925,43.553634 5.296913,43.553816 5.297708,43.553735 5.29815,43.553691 5.29815,43.553556 5.298148,43.55351</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_hlm.4006">
+  <Placemark id="hlm.4006">
 <styleUrl>#HLM</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
-		<SimpleData name="Numéro de Parcelle">13114000AW0392</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#hlm">
+		<SimpleData name="Numero de Parcelle">13114000AW0392</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">VENTABREN</SimpleData>
 		<SimpleData name="Adresse">722, CHE DES VERQUIERES</SimpleData>
-		<SimpleData name="Dénomination">FAMILLE ET PROVENCE</SimpleData>
+		<SimpleData name="Groupe de personne">HLM</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">FAMILLE ET PROVENCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -109,16 +119,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.299462,43.553461 5.299176,43.553461 5.29876,43.553462 5.298373,43.553462 5.298152,43.553462 5.298148,43.55351 5.29815,43.553556 5.298316,43.553607 5.298494,43.553624 5.298878,43.55357 5.299464,43.553486 5.299462,43.553461</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.299462,43.553461 5.299176,43.553461 5.29876,43.553462 5.298373,43.553462 5.298152,43.553462 5.298148,43.55351 5.29815,43.553556 5.298316,43.553607 5.298494,43.553624 5.298878,43.55357 5.299464,43.553486 5.299462,43.553461</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_hlm.4889">
+  <Placemark id="hlm.4889">
 <styleUrl>#HLM</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
-		<SimpleData name="Numéro de Parcelle">13114000AW0565</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#hlm">
+		<SimpleData name="Numero de Parcelle">13114000AW0565</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">VENTABREN</SimpleData>
 		<SimpleData name="Adresse">722, CHE DES VERQUIERES</SimpleData>
-		<SimpleData name="Dénomination">FAMILLE ET PROVENCE</SimpleData>
+		<SimpleData name="Groupe de personne">HLM</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">FAMILLE ET PROVENCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -132,16 +144,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.297714,43.553552 5.29766,43.553244 5.297173,43.553355 5.297081,43.553376 5.296938,43.553389 5.296925,43.553634 5.297714,43.553552</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.297714,43.553552 5.29766,43.553244 5.297173,43.553355 5.297081,43.553376 5.296938,43.553389 5.296925,43.553634 5.297714,43.553552</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_hlm.4893">
+  <Placemark id="hlm.4893">
 <styleUrl>#HLM</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
-		<SimpleData name="Numéro de Parcelle">13114000AW0567</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#hlm">
+		<SimpleData name="Numero de Parcelle">13114000AW0567</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">VENTABREN</SimpleData>
 		<SimpleData name="Adresse">722, CHE DES VERQUIERES</SimpleData>
-		<SimpleData name="Dénomination">FAMILLE ET PROVENCE</SimpleData>
+		<SimpleData name="Groupe de personne">HLM</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">FAMILLE ET PROVENCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -155,16 +169,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.296295,43.553064 5.2963,43.553447 5.296686,43.553411 5.296693,43.553056 5.296295,43.553064</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.296295,43.553064 5.2963,43.553447 5.296686,43.553411 5.296693,43.553056 5.296295,43.553064</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_hlm.4897">
+  <Placemark id="hlm.4897">
 <styleUrl>#HLM</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_hlm">
-		<SimpleData name="Numéro de Parcelle">13114000AW0569</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#hlm">
+		<SimpleData name="Numero de Parcelle">13114000AW0569</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">VENTABREN</SimpleData>
 		<SimpleData name="Adresse">722, CHE DES VERQUIERES</SimpleData>
-		<SimpleData name="Dénomination">FAMILLE ET PROVENCE</SimpleData>
+		<SimpleData name="Groupe de personne">HLM</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">FAMILLE ET PROVENCE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -178,6 +194,6 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.296693,43.553056 5.296686,43.553411 5.296938,43.553389 5.297081,43.553376 5.297099,43.553048 5.296693,43.553056</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.296693,43.553056 5.296686,43.553411 5.296938,43.553389 5.297081,43.553376 5.297099,43.553048 5.296693,43.553056</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
 </Folder></Document></kml>

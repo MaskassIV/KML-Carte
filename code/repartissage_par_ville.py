@@ -2,56 +2,53 @@ import os
 import re
 from fichiers import file_name
 
-def repartir_par_ville(chemin_fichier, option_nom_fichier, departement):
+def repartir_par_ville(departement):
     i=0
-    villes_box = {}
+    villes_box={}
     for nom_fichier in file_name:
-        if os.path.exists(chemin_fichier+option_nom_fichier+"parcelle_"+str(departement)+"_"+nom_fichier+".kml"):
-            with open(chemin_fichier+option_nom_fichier+"parcelle_"+str(departement)+"_"+nom_fichier+".kml", "r", encoding="utf-8") as f:
+        if os.path.exists("./modifie/Brute/parcelle_"+str(departement)+"_"+nom_fichier+"_test.kml"):
+            with open("./modifie/Brute/parcelle_"+str(departement)+"_"+nom_fichier+"_test.kml", "r", encoding="cp1252") as f:
                 lignes = f.readlines()
-        else:
-            with open(option_nom_fichier+"parcelle_"+str(departement)+"_"+nom_fichier+".kml", "r", encoding="utf-8") as f:
-                lignes = f.readlines()
-        lignes = iter(lignes)
-        intro = []
-        outro = ["</Folder></Document></kml>"]
-        villes = {}
-        nom_ville=""
-        for ligne in lignes :
-            if "Placemark" in ligne:
-                break
-            else:
-                intro.append(ligne)
-        for ligne in lignes:
-                if "<Placemark" in ligne:
-                    bloc = []
-                    bloc.append(ligne)
-                    for ligne_bloc in lignes :
-                        if "</Placemark>" not in ligne_bloc:
-                            if "<SimpleData" in ligne_bloc:
-                                match = re.search(r'<SimpleData name="Commune">(.*?)</SimpleData>', ligne_bloc)
-                                if match:
-                                    nom_ville= match.group(1)
-                            if "<north>" in ligne_bloc or "<south>" in ligne_bloc or "<east>" in ligne_bloc or "<west>" in ligne_bloc :
-                                if nom_ville:
-                                    calculer_box_ville(ligne_bloc, villes_box, nom_ville)
-                            bloc.append(ligne_bloc)
-                        else:
-                            bloc.append(ligne_bloc)
-                            break
-                    if nom_ville:
-                        if nom_ville not in villes:
-                            i+=1
-                            villes[nom_ville] = []
-                        villes[nom_ville].extend(bloc)
-        os.makedirs("./modifie/"+nom_fichier, exist_ok=True)
-        for ville in villes:
-            with open(chemin_fichier+nom_fichier+"/"+nom_fichier+"_"+ville+".kml", "w", encoding="utf-8") as p:
-                p.writelines(modifier_intro(intro, ville, nom_fichier))
-                for bloc in villes.get(ville):
-                    p.writelines(bloc)
-                p.writelines(outro)
-        print("Fichier par ville termine pour "+ nom_fichier)
+            lignes = iter(lignes)
+            intro = []
+            outro = ["</Folder></Document></kml>"]
+            villes = {}
+            nom_ville=""
+            for ligne in lignes :
+                if "Placemark" in ligne:
+                    break
+                else:
+                    intro.append(ligne)
+            for ligne in lignes:
+                    if "<Placemark" in ligne:
+                        bloc = []
+                        bloc.append(ligne)
+                        for ligne_bloc in lignes :
+                            if "</Placemark>" not in ligne_bloc:
+                                if "<SimpleData" in ligne_bloc:
+                                    match = re.search(r'<SimpleData name="Commune">(.*?)</SimpleData>', ligne_bloc)
+                                    if match:
+                                        nom_ville= match.group(1)
+                                if "<north>" in ligne_bloc or "<south>" in ligne_bloc or "<east>" in ligne_bloc or "<west>" in ligne_bloc :
+                                    if nom_ville:
+                                        calculer_box_ville(ligne_bloc, villes_box, nom_ville)
+                                bloc.append(ligne_bloc)
+                            else:
+                                bloc.append(ligne_bloc)
+                                break
+                        if nom_ville:
+                            if nom_ville not in villes:
+                                i+=1
+                                villes[nom_ville] = []
+                            villes[nom_ville].extend(bloc)
+            os.makedirs("./modifie/"+nom_fichier, exist_ok=True)
+            for ville in villes:
+                with open("./modifie/"+nom_fichier+"/"+nom_fichier+"_"+ville+".kml", "w", encoding="cp1252") as p:
+                    p.writelines(modifier_intro(intro, ville, nom_fichier))
+                    for bloc in villes.get(ville):
+                        p.writelines(bloc)
+                    p.writelines(outro)
+            print("Fichier par ville termine pour "+ nom_fichier)
     print("i vaut "+str(len(villes)))
     return villes_box
 

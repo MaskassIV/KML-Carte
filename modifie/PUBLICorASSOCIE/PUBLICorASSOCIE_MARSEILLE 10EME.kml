@@ -2,11 +2,13 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document id="root_doc">
 <Schema name="MARSEILLE 10EME_PUBLICorASSOCIE" id="MARSEILLE 10EME_PUBLICorASSOCIE">
-	<SimpleField name="Numéro de Parcelle" type="string"></SimpleField>
+	<SimpleField name="Numero de Parcelle" type="string"></SimpleField>
 	<SimpleField name="Departement" type="string"></SimpleField>
 	<SimpleField name="Commune" type="string"></SimpleField>
 	<SimpleField name="Adresse" type="string"></SimpleField>
-	<SimpleField name="Dénomination" type="string"></SimpleField>
+	<SimpleField name="Groupe de personne" type="string"></SimpleField>
+	<SimpleField name="Forme Juridique Abregee" type="string"></SimpleField>
+	<SimpleField name="Denomination" type="string"></SimpleField>
 </Schema>
 	<Style id="PUBLICorASSOCIE">
 		<LineStyle>
@@ -19,14 +21,16 @@
 			<outline>1</outline>
 		</PolyStyle>
 	</Style><Folder><name>parcelle_13_publicorassocie</name>
-  <Placemark id="parcelle_13_publicorassocie.7066">
+  <Placemark id="publicorassocie.7066">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132108600I0180</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132108600I0180</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
 		<SimpleData name="Adresse">3, BD HILARION BOEUF</SimpleData>
-		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -40,15 +44,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.407355,43.286428,15 5.407322,43.286423,15 5.407315,43.286477,15 5.407336,43.286478,15 5.407355,43.286428,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7122">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.407355,43.286428,15 5.407322,43.286423,15 5.407315,43.286477,15 5.407336,43.286478,15 5.407355,43.286428,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7122">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132108560E0011</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132108560E0011</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
 		<SimpleData name="Adresse">40, BD VINCENT DELPUECH</SimpleData>
-		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -62,15 +69,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.396255,43.279191,15 5.396144,43.279252,15 5.396139,43.279284,15 5.395609,43.279574,15 5.392699,43.281169,15 5.39269,43.28116,15 5.39257,43.281226,15 5.392578,43.281234,15 5.390881,43.282164,15 5.390933,43.282215,15 5.391225,43.282056,15 5.391236,43.282066,15 5.395119,43.279937,15 5.395327,43.279823,15 5.395509,43.279722,15 5.395672,43.279639,15 5.395828,43.279565,15 5.395991,43.279488,15 5.396146,43.279419,15 5.396299,43.279355,15 5.396418,43.279308,15 5.396572,43.279248,15 5.396701,43.279202,15 5.396853,43.279149,15 5.396982,43.279106,15 5.397147,43.279053,15 5.39727,43.279017,15 5.397423,43.278973,15 5.397557,43.278938,15 5.397645,43.278915,15 5.397774,43.278888,15 5.397854,43.278874,15 5.397958,43.27886,15 5.398056,43.27885,15 5.398163,43.27884,15 5.398256,43.278834,15 5.398383,43.278829,15 5.398473,43.278823,15 5.398576,43.278818,15 5.398675,43.278814,15 5.398785,43.278811,15 5.398881,43.278807,15 5.399011,43.278804,15 5.399101,43.278804,15 5.39909,43.27868,15 5.398931,43.278681,15 5.39875,43.278682,15 5.398589,43.278686,15 5.398423,43.278693,15 5.398221,43.278705,15 5.39808,43.278717,15 5.397958,43.27873,15 5.397859,43.278743,15 5.397799,43.278753,15 5.397681,43.278775,15 5.397597,43.278794,15 5.397534,43.278812,15 5.397432,43.278843,15 5.397342,43.278871,15 5.396919,43.278993,15 5.396827,43.279021,15 5.396701,43.279063,15 5.396578,43.279105,15 5.396498,43.279134,15 5.396388,43.279178,15 5.396286,43.279223,15 5.396255,43.279191,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7156">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.396255,43.279191,15 5.396144,43.279252,15 5.396139,43.279284,15 5.395609,43.279574,15 5.392699,43.281169,15 5.39269,43.28116,15 5.39257,43.281226,15 5.392578,43.281234,15 5.390881,43.282164,15 5.390933,43.282215,15 5.391225,43.282056,15 5.391236,43.282066,15 5.395119,43.279937,15 5.395327,43.279823,15 5.395509,43.279722,15 5.395672,43.279639,15 5.395828,43.279565,15 5.395991,43.279488,15 5.396146,43.279419,15 5.396299,43.279355,15 5.396418,43.279308,15 5.396572,43.279248,15 5.396701,43.279202,15 5.396853,43.279149,15 5.396982,43.279106,15 5.397147,43.279053,15 5.39727,43.279017,15 5.397423,43.278973,15 5.397557,43.278938,15 5.397645,43.278915,15 5.397774,43.278888,15 5.397854,43.278874,15 5.397958,43.27886,15 5.398056,43.27885,15 5.398163,43.27884,15 5.398256,43.278834,15 5.398383,43.278829,15 5.398473,43.278823,15 5.398576,43.278818,15 5.398675,43.278814,15 5.398785,43.278811,15 5.398881,43.278807,15 5.399011,43.278804,15 5.399101,43.278804,15 5.39909,43.27868,15 5.398931,43.278681,15 5.39875,43.278682,15 5.398589,43.278686,15 5.398423,43.278693,15 5.398221,43.278705,15 5.39808,43.278717,15 5.397958,43.27873,15 5.397859,43.278743,15 5.397799,43.278753,15 5.397681,43.278775,15 5.397597,43.278794,15 5.397534,43.278812,15 5.397432,43.278843,15 5.397342,43.278871,15 5.396919,43.278993,15 5.396827,43.279021,15 5.396701,43.279063,15 5.396578,43.279105,15 5.396498,43.279134,15 5.396388,43.279178,15 5.396286,43.279223,15 5.396255,43.279191,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7156">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132108600I0178</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132108600I0178</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
 		<SimpleData name="Adresse">BD HILARION BOEUF</SimpleData>
-		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -84,15 +94,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.407316,43.28654,15 5.407307,43.286539,15 5.407295,43.286605,15 5.407316,43.28654,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7177">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.407316,43.28654,15 5.407307,43.286539,15 5.407295,43.286605,15 5.407316,43.28654,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7177">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132108550P0119</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132108550P0119</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
 		<SimpleData name="Adresse">142, BD RABATAU</SimpleData>
-		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -106,15 +119,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.403653,43.280726,15 5.403535,43.280662,15 5.403397,43.280977,15 5.403291,43.280919,15 5.402635,43.281566,15 5.402448,43.281691,15 5.402502,43.281735,15 5.402562,43.281783,15 5.402586,43.281803,15 5.402625,43.281835,15 5.40285,43.282017,15 5.402903,43.28206,15 5.40293,43.282055,15 5.402951,43.282009,15 5.403026,43.281872,15 5.403407,43.281179,15 5.403438,43.281121,15 5.403653,43.280726,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7179">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.403653,43.280726,15 5.403535,43.280662,15 5.403397,43.280977,15 5.403291,43.280919,15 5.402635,43.281566,15 5.402448,43.281691,15 5.402502,43.281735,15 5.402562,43.281783,15 5.402586,43.281803,15 5.402625,43.281835,15 5.40285,43.282017,15 5.402903,43.28206,15 5.40293,43.282055,15 5.402951,43.282009,15 5.403026,43.281872,15 5.403407,43.281179,15 5.403438,43.281121,15 5.403653,43.280726,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7179">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132108560E0012</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132108560E0012</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
 		<SimpleData name="Adresse">40, BD VINCENT DELPUECH</SimpleData>
-		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -128,15 +144,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.396255,43.279191,15 5.396236,43.279172,15 5.395191,43.279745,15 5.395152,43.279766,15 5.390824,43.282138,15 5.390842,43.282158,15 5.3906,43.282291,15 5.390572,43.282307,15 5.390561,43.282313,15 5.390631,43.282381,15 5.390933,43.282215,15 5.390881,43.282164,15 5.392578,43.281234,15 5.39257,43.281226,15 5.39269,43.28116,15 5.392699,43.281169,15 5.395609,43.279574,15 5.396139,43.279284,15 5.396144,43.279252,15 5.396255,43.279191,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7183">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.396255,43.279191,15 5.396236,43.279172,15 5.395191,43.279745,15 5.395152,43.279766,15 5.390824,43.282138,15 5.390842,43.282158,15 5.3906,43.282291,15 5.390572,43.282307,15 5.390561,43.282313,15 5.390631,43.282381,15 5.390933,43.282215,15 5.390881,43.282164,15 5.392578,43.281234,15 5.39257,43.281226,15 5.39269,43.28116,15 5.392699,43.281169,15 5.395609,43.279574,15 5.396139,43.279284,15 5.396144,43.279252,15 5.396255,43.279191,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7183">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132108550P0120</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132108550P0120</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
 		<SimpleData name="Adresse">142, BD RABATAU</SimpleData>
-		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -150,15 +169,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.403653,43.280726,15 5.403734,43.280579,15 5.403666,43.280538,15 5.40339,43.280356,15 5.402067,43.27963,15 5.401465,43.279348,15 5.401164,43.279243,15 5.400878,43.279173,15 5.400715,43.279147,15 5.400578,43.279136,15 5.400569,43.279164,15 5.400599,43.279172,15 5.400687,43.279197,15 5.400709,43.279205,15 5.400811,43.279236,15 5.400995,43.279301,15 5.401171,43.279375,15 5.401243,43.279409,15 5.403535,43.280662,15 5.403653,43.280726,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7187">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.403653,43.280726,15 5.403734,43.280579,15 5.403666,43.280538,15 5.40339,43.280356,15 5.402067,43.27963,15 5.401465,43.279348,15 5.401164,43.279243,15 5.400878,43.279173,15 5.400715,43.279147,15 5.400578,43.279136,15 5.400569,43.279164,15 5.400599,43.279172,15 5.400687,43.279197,15 5.400709,43.279205,15 5.400811,43.279236,15 5.400995,43.279301,15 5.401171,43.279375,15 5.401243,43.279409,15 5.403535,43.280662,15 5.403653,43.280726,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7187">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132108550P0121</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132108550P0121</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
 		<SimpleData name="Adresse">142, BD RABATAU</SimpleData>
-		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -172,15 +194,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.400008,43.279138,15 5.400576,43.279435,15 5.402243,43.280346,15 5.402503,43.280489,15 5.403291,43.280919,15 5.403397,43.280977,15 5.403535,43.280662,15 5.401243,43.279409,15 5.401171,43.279375,15 5.400995,43.279301,15 5.400811,43.279236,15 5.400709,43.279205,15 5.400687,43.279197,15 5.400599,43.279172,15 5.400569,43.279164,15 5.400558,43.279195,15 5.400377,43.279163,15 5.400008,43.279138,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7192">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.400008,43.279138,15 5.400576,43.279435,15 5.402243,43.280346,15 5.402503,43.280489,15 5.403291,43.280919,15 5.403397,43.280977,15 5.403535,43.280662,15 5.401243,43.279409,15 5.401171,43.279375,15 5.400995,43.279301,15 5.400811,43.279236,15 5.400709,43.279205,15 5.400687,43.279197,15 5.400599,43.279172,15 5.400569,43.279164,15 5.400558,43.279195,15 5.400377,43.279163,15 5.400008,43.279138,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7192">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132108550P0122</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132108550P0122</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
 		<SimpleData name="Adresse">142, BD RABATAU</SimpleData>
-		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -194,15 +219,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.400008,43.279138,15 5.399969,43.279179,15 5.400076,43.279232,15 5.400178,43.27929,15 5.400273,43.279352,15 5.40032,43.279386,15 5.400413,43.279467,15 5.400509,43.279562,15 5.400557,43.27962,15 5.400624,43.279711,15 5.400681,43.279805,15 5.40073,43.279902,15 5.400772,43.280011,15 5.400848,43.280265,15 5.400928,43.280485,15 5.401,43.280541,15 5.400975,43.280257,15 5.400576,43.279435,15 5.400008,43.279138,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7197">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.400008,43.279138,15 5.399969,43.279179,15 5.400076,43.279232,15 5.400178,43.27929,15 5.400273,43.279352,15 5.40032,43.279386,15 5.400413,43.279467,15 5.400509,43.279562,15 5.400557,43.27962,15 5.400624,43.279711,15 5.400681,43.279805,15 5.40073,43.279902,15 5.400772,43.280011,15 5.400848,43.280265,15 5.400928,43.280485,15 5.401,43.280541,15 5.400975,43.280257,15 5.400576,43.279435,15 5.400008,43.279138,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7197">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132108550P0123</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132108550P0123</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
 		<SimpleData name="Adresse">142, BD RABATAU</SimpleData>
-		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -216,15 +244,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.400928,43.280485,15 5.400848,43.280265,15 5.400772,43.280011,15 5.40073,43.279902,15 5.400681,43.279805,15 5.400624,43.279711,15 5.400557,43.27962,15 5.400509,43.279562,15 5.400413,43.279467,15 5.40032,43.279386,15 5.400273,43.279352,15 5.400178,43.27929,15 5.400076,43.279232,15 5.399969,43.279179,15 5.399958,43.279191,15 5.399827,43.27914,15 5.399439,43.279164,15 5.399573,43.279403,15 5.399755,43.279549,15 5.399849,43.279627,15 5.399869,43.279644,15 5.399888,43.279659,15 5.400898,43.280462,15 5.400928,43.280485,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7199">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.400928,43.280485,15 5.400848,43.280265,15 5.400772,43.280011,15 5.40073,43.279902,15 5.400681,43.279805,15 5.400624,43.279711,15 5.400557,43.27962,15 5.400509,43.279562,15 5.400413,43.279467,15 5.40032,43.279386,15 5.400273,43.279352,15 5.400178,43.27929,15 5.400076,43.279232,15 5.399969,43.279179,15 5.399958,43.279191,15 5.399827,43.27914,15 5.399439,43.279164,15 5.399573,43.279403,15 5.399755,43.279549,15 5.399849,43.279627,15 5.399869,43.279644,15 5.399888,43.279659,15 5.400898,43.280462,15 5.400928,43.280485,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7199">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132108550P0124</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132108550P0124</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
 		<SimpleData name="Adresse">BD RABATAU</SimpleData>
-		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -238,15 +269,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.400008,43.279138,15 5.400377,43.279163,15 5.400558,43.279195,15 5.400569,43.279164,15 5.400508,43.27915,15 5.400437,43.279137,15 5.400415,43.279133,15 5.400321,43.279121,15 5.400228,43.279115,15 5.400131,43.279112,15 5.400035,43.279114,15 5.39999,43.279117,15 5.400008,43.279138,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7202">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.400008,43.279138,15 5.400377,43.279163,15 5.400558,43.279195,15 5.400569,43.279164,15 5.400508,43.27915,15 5.400437,43.279137,15 5.400415,43.279133,15 5.400321,43.279121,15 5.400228,43.279115,15 5.400131,43.279112,15 5.400035,43.279114,15 5.39999,43.279117,15 5.400008,43.279138,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7202">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132108550P0125</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132108550P0125</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
 		<SimpleData name="Adresse">BD RABATAU</SimpleData>
-		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -260,15 +294,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.400008,43.279138,15 5.39999,43.279117,15 5.400035,43.279114,15 5.400131,43.279112,15 5.400228,43.279115,15 5.400321,43.279121,15 5.400415,43.279133,15 5.400437,43.279137,15 5.400508,43.27915,15 5.400569,43.279164,15 5.400578,43.279136,15 5.400715,43.279147,15 5.400878,43.279173,15 5.401164,43.279243,15 5.401465,43.279348,15 5.402067,43.27963,15 5.40339,43.280356,15 5.403666,43.280538,15 5.403734,43.280579,15 5.403809,43.280424,15 5.403828,43.280378,15 5.40385,43.280317,15 5.403827,43.280296,15 5.403397,43.279908,15 5.403333,43.279842,15 5.403183,43.279755,15 5.403088,43.279696,15 5.403079,43.279691,15 5.402866,43.279583,15 5.402701,43.2795,15 5.402161,43.279224,15 5.401492,43.278922,15 5.401537,43.278851,15 5.401008,43.27875,15 5.400718,43.278693,15 5.400577,43.278672,15 5.400356,43.278649,15 5.400014,43.278595,15 5.399743,43.278535,15 5.399384,43.278481,15 5.3994,43.278668,15 5.399411,43.278796,15 5.399442,43.279147,15 5.39943,43.279149,15 5.399439,43.279164,15 5.399827,43.27914,15 5.399958,43.279191,15 5.399969,43.279179,15 5.400008,43.279138,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7206">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.400008,43.279138,15 5.39999,43.279117,15 5.400035,43.279114,15 5.400131,43.279112,15 5.400228,43.279115,15 5.400321,43.279121,15 5.400415,43.279133,15 5.400437,43.279137,15 5.400508,43.27915,15 5.400569,43.279164,15 5.400578,43.279136,15 5.400715,43.279147,15 5.400878,43.279173,15 5.401164,43.279243,15 5.401465,43.279348,15 5.402067,43.27963,15 5.40339,43.280356,15 5.403666,43.280538,15 5.403734,43.280579,15 5.403809,43.280424,15 5.403828,43.280378,15 5.40385,43.280317,15 5.403827,43.280296,15 5.403397,43.279908,15 5.403333,43.279842,15 5.403183,43.279755,15 5.403088,43.279696,15 5.403079,43.279691,15 5.402866,43.279583,15 5.402701,43.2795,15 5.402161,43.279224,15 5.401492,43.278922,15 5.401537,43.278851,15 5.401008,43.27875,15 5.400718,43.278693,15 5.400577,43.278672,15 5.400356,43.278649,15 5.400014,43.278595,15 5.399743,43.278535,15 5.399384,43.278481,15 5.3994,43.278668,15 5.399411,43.278796,15 5.399442,43.279147,15 5.39943,43.279149,15 5.399439,43.279164,15 5.399827,43.27914,15 5.399958,43.279191,15 5.399969,43.279179,15 5.400008,43.279138,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7206">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132108550P0126</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132108550P0126</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
 		<SimpleData name="Adresse">BD RABATAU</SimpleData>
-		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -282,15 +319,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.399384,43.278481,15 5.399372,43.27848,15 5.399388,43.278669,15 5.3994,43.278668,15 5.399384,43.278481,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7211">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.399384,43.278481,15 5.399372,43.27848,15 5.399388,43.278669,15 5.3994,43.278668,15 5.399384,43.278481,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7211">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132108550P0127</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132108550P0127</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
 		<SimpleData name="Adresse">BD RABATAU</SimpleData>
-		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -304,15 +344,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.3994,43.278668,15 5.399388,43.278669,15 5.399306,43.278671,15 5.399321,43.278798,15 5.399411,43.278796,15 5.3994,43.278668,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7215">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.3994,43.278668,15 5.399388,43.278669,15 5.399306,43.278671,15 5.399321,43.278798,15 5.399411,43.278796,15 5.3994,43.278668,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7215">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132108550P0128</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132108550P0128</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
 		<SimpleData name="Adresse">BD RABATAU</SimpleData>
-		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -326,15 +369,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.399306,43.278671,15 5.399239,43.278672,15 5.39925,43.2788,15 5.399321,43.278798,15 5.399306,43.278671,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7329">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.399306,43.278671,15 5.399239,43.278672,15 5.39925,43.2788,15 5.399321,43.278798,15 5.399306,43.278671,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7329">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132108600I0164</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132108600I0164</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
 		<SimpleData name="Adresse">AV DE LA TIMONE</SimpleData>
-		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -348,15 +394,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.407001,43.286945,15 5.406967,43.287083,15 5.406968,43.287094,15 5.406937,43.287296,15 5.406933,43.287322,15 5.406929,43.287356,15 5.406926,43.287384,15 5.406924,43.28741,15 5.40692,43.287437,15 5.406919,43.287445,15 5.406919,43.287448,15 5.406916,43.287476,15 5.406913,43.287497,15 5.406911,43.28751,15 5.406907,43.287548,15 5.406899,43.287581,15 5.406896,43.2876,15 5.406887,43.287651,15 5.406875,43.287708,15 5.406899,43.287712,15 5.406935,43.287719,15 5.40706,43.287744,15 5.407106,43.287752,15 5.407118,43.287685,15 5.407137,43.287567,15 5.407143,43.287529,15 5.40715,43.287487,15 5.407166,43.287384,15 5.407169,43.287365,15 5.407186,43.287261,15 5.40719,43.287236,15 5.407194,43.28721,15 5.407201,43.287172,15 5.407213,43.287094,15 5.407218,43.287063,15 5.407222,43.287035,15 5.407225,43.287021,15 5.40723,43.286996,15 5.407233,43.286974,15 5.407244,43.286913,15 5.407253,43.286855,15 5.407259,43.286814,15 5.40727,43.286724,15 5.407283,43.286662,15 5.407295,43.286605,15 5.407307,43.286539,15 5.407315,43.286477,15 5.407322,43.286423,15 5.40733,43.286366,15 5.407265,43.286357,15 5.407281,43.286267,15 5.407344,43.286274,15 5.407344,43.286271,15 5.407346,43.286238,15 5.40736,43.285275,15 5.407322,43.284927,15 5.407301,43.284849,15 5.407188,43.28483,15 5.407174,43.284827,15 5.407117,43.284675,15 5.407107,43.284679,15 5.407101,43.284656,15 5.407064,43.284672,15 5.40701,43.284694,15 5.407008,43.284695,15 5.407018,43.284718,15 5.407008,43.284723,15 5.407035,43.284805,15 5.406996,43.284798,15 5.406924,43.284786,15 5.406954,43.284907,15 5.406998,43.285086,15 5.407003,43.285105,15 5.407012,43.285138,15 5.40706,43.285334,15 5.407159,43.285725,15 5.407162,43.28573,15 5.407156,43.285773,15 5.407118,43.28607,15 5.407115,43.286093,15 5.407109,43.286139,15 5.407106,43.286163,15 5.407097,43.286244,15 5.407168,43.286253,15 5.407155,43.286342,15 5.407123,43.286337,15 5.406995,43.286748,15 5.407024,43.286754,15 5.407023,43.28677,15 5.407021,43.286824,15 5.40702,43.286883,15 5.407001,43.286945,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7379">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.407001,43.286945,15 5.406967,43.287083,15 5.406968,43.287094,15 5.406937,43.287296,15 5.406933,43.287322,15 5.406929,43.287356,15 5.406926,43.287384,15 5.406924,43.28741,15 5.40692,43.287437,15 5.406919,43.287445,15 5.406919,43.287448,15 5.406916,43.287476,15 5.406913,43.287497,15 5.406911,43.28751,15 5.406907,43.287548,15 5.406899,43.287581,15 5.406896,43.2876,15 5.406887,43.287651,15 5.406875,43.287708,15 5.406899,43.287712,15 5.406935,43.287719,15 5.40706,43.287744,15 5.407106,43.287752,15 5.407118,43.287685,15 5.407137,43.287567,15 5.407143,43.287529,15 5.40715,43.287487,15 5.407166,43.287384,15 5.407169,43.287365,15 5.407186,43.287261,15 5.40719,43.287236,15 5.407194,43.28721,15 5.407201,43.287172,15 5.407213,43.287094,15 5.407218,43.287063,15 5.407222,43.287035,15 5.407225,43.287021,15 5.40723,43.286996,15 5.407233,43.286974,15 5.407244,43.286913,15 5.407253,43.286855,15 5.407259,43.286814,15 5.40727,43.286724,15 5.407283,43.286662,15 5.407295,43.286605,15 5.407307,43.286539,15 5.407315,43.286477,15 5.407322,43.286423,15 5.40733,43.286366,15 5.407265,43.286357,15 5.407281,43.286267,15 5.407344,43.286274,15 5.407344,43.286271,15 5.407346,43.286238,15 5.40736,43.285275,15 5.407322,43.284927,15 5.407301,43.284849,15 5.407188,43.28483,15 5.407174,43.284827,15 5.407117,43.284675,15 5.407107,43.284679,15 5.407101,43.284656,15 5.407064,43.284672,15 5.40701,43.284694,15 5.407008,43.284695,15 5.407018,43.284718,15 5.407008,43.284723,15 5.407035,43.284805,15 5.406996,43.284798,15 5.406924,43.284786,15 5.406954,43.284907,15 5.406998,43.285086,15 5.407003,43.285105,15 5.407012,43.285138,15 5.40706,43.285334,15 5.407159,43.285725,15 5.407162,43.28573,15 5.407156,43.285773,15 5.407118,43.28607,15 5.407115,43.286093,15 5.407109,43.286139,15 5.407106,43.286163,15 5.407097,43.286244,15 5.407168,43.286253,15 5.407155,43.286342,15 5.407123,43.286337,15 5.406995,43.286748,15 5.407024,43.286754,15 5.407023,43.28677,15 5.407021,43.286824,15 5.40702,43.286883,15 5.407001,43.286945,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7379">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132108600I0179</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132108600I0179</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
 		<SimpleData name="Adresse">5, BD HILARION BOEUF</SimpleData>
-		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -370,15 +419,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.407336,43.286478,15 5.407315,43.286477,15 5.407307,43.286539,15 5.407316,43.28654,15 5.407336,43.286478,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7389">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.407336,43.286478,15 5.407315,43.286477,15 5.407307,43.286539,15 5.407316,43.28654,15 5.407336,43.286478,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7389">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132108600I0181</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132108600I0181</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
 		<SimpleData name="Adresse">1, BD HILARION BOEUF</SimpleData>
-		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -392,15 +444,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.407375,43.286371,15 5.40733,43.286366,15 5.407322,43.286423,15 5.407355,43.286428,15 5.407375,43.286371,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7497">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.407375,43.286371,15 5.40733,43.286366,15 5.407322,43.286423,15 5.407355,43.286428,15 5.407375,43.286371,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7497">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132108550C0027</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132108550C0027</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
 		<SimpleData name="Adresse">117, AV DE LA CAPELETTE</SimpleData>
-		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -414,15 +469,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.405222,43.281877,15 5.405385,43.282073,15 5.405387,43.282072,15 5.40537,43.281936,15 5.405365,43.281897,15 5.405227,43.281878,15 5.405222,43.281877,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7522">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.405222,43.281877,15 5.405385,43.282073,15 5.405387,43.282072,15 5.40537,43.281936,15 5.405365,43.281897,15 5.405227,43.281878,15 5.405222,43.281877,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7522">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132108550D0003</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132108550D0003</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
 		<SimpleData name="Adresse">BD MIREILLE LAUZE</SimpleData>
-		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -436,15 +494,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.40537,43.282574,15 5.40536,43.282378,15 5.405214,43.282357,15 5.405249,43.282406,15 5.405328,43.282516,15 5.405344,43.282538,15 5.405363,43.282564,15 5.40537,43.282574,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7573">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.40537,43.282574,15 5.40536,43.282378,15 5.405214,43.282357,15 5.405249,43.282406,15 5.405328,43.282516,15 5.405344,43.282538,15 5.405363,43.282564,15 5.40537,43.282574,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7573">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132108600H0039</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132108600H0039</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
 		<SimpleData name="Adresse">CHE DE L ARMEE D AFRIQUE</SimpleData>
-		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -458,15 +519,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.406555,43.290073,15 5.406551,43.290095,15 5.406542,43.290142,15 5.406656,43.290087,15 5.406665,43.29004,15 5.406669,43.290018,15 5.406777,43.289966,15 5.406858,43.289927,15 5.406929,43.289891,15 5.407004,43.289855,15 5.407064,43.289826,15 5.407117,43.2898,15 5.407111,43.289716,15 5.407055,43.288996,15 5.407047,43.288888,15 5.407039,43.288784,15 5.407032,43.288692,15 5.407027,43.288615,15 5.40702,43.28853,15 5.407014,43.288442,15 5.407009,43.288348,15 5.407012,43.288258,15 5.407021,43.288172,15 5.407032,43.288097,15 5.407049,43.288016,15 5.407136,43.287757,15 5.407106,43.287752,15 5.40706,43.287744,15 5.406935,43.287719,15 5.406555,43.290073,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7597">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.406555,43.290073,15 5.406551,43.290095,15 5.406542,43.290142,15 5.406656,43.290087,15 5.406665,43.29004,15 5.406669,43.290018,15 5.406777,43.289966,15 5.406858,43.289927,15 5.406929,43.289891,15 5.407004,43.289855,15 5.407064,43.289826,15 5.407117,43.2898,15 5.407111,43.289716,15 5.407055,43.288996,15 5.407047,43.288888,15 5.407039,43.288784,15 5.407032,43.288692,15 5.407027,43.288615,15 5.40702,43.28853,15 5.407014,43.288442,15 5.407009,43.288348,15 5.407012,43.288258,15 5.407021,43.288172,15 5.407032,43.288097,15 5.407049,43.288016,15 5.407136,43.287757,15 5.407106,43.287752,15 5.40706,43.287744,15 5.406935,43.287719,15 5.406555,43.290073,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7597">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132108600H0043</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132108600H0043</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
 		<SimpleData name="Adresse">CHE DE L ARMEE D AFRIQUE</SimpleData>
-		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -480,15 +544,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.406555,43.290073,15 5.406935,43.287719,15 5.406899,43.287712,15 5.406626,43.289401,15 5.406534,43.289971,15 5.406516,43.290081,15 5.406514,43.290094,15 5.406555,43.290073,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7679">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.406555,43.290073,15 5.406935,43.287719,15 5.406899,43.287712,15 5.406626,43.289401,15 5.406534,43.289971,15 5.406516,43.290081,15 5.406514,43.290094,15 5.406555,43.290073,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7679">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132108550C0060</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132108550C0060</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
 		<SimpleData name="Adresse">92, AV DE LA CAPELETTE</SimpleData>
-		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -502,15 +569,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.404756,43.281472,15 5.40471,43.281414,15 5.404701,43.281403,15 5.404624,43.281304,15 5.404508,43.281167,15 5.4045,43.281191,15 5.40451,43.281203,15 5.404566,43.281273,15 5.404546,43.281282,15 5.40456,43.281296,15 5.404586,43.281324,15 5.404587,43.281325,15 5.404616,43.281355,15 5.404651,43.281394,15 5.40468,43.281428,15 5.404731,43.281483,15 5.404756,43.281472,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7748">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.404756,43.281472,15 5.40471,43.281414,15 5.404701,43.281403,15 5.404624,43.281304,15 5.404508,43.281167,15 5.4045,43.281191,15 5.40451,43.281203,15 5.404566,43.281273,15 5.404546,43.281282,15 5.40456,43.281296,15 5.404586,43.281324,15 5.404587,43.281325,15 5.404616,43.281355,15 5.404651,43.281394,15 5.40468,43.281428,15 5.404731,43.281483,15 5.404756,43.281472,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7748">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132108550C0077</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132108550C0077</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
 		<SimpleData name="Adresse">AV DE LA CAPELETTE</SimpleData>
-		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -524,15 +594,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.405228,43.282124,15 5.405251,43.282153,15 5.405272,43.282179,15 5.405285,43.282195,15 5.405383,43.28232,15 5.405418,43.282325,15 5.405422,43.282331,15 5.405462,43.282384,15 5.405592,43.282401,15 5.405553,43.282348,15 5.405549,43.282344,15 5.405602,43.282352,15 5.40559,43.282334,15 5.405585,43.282333,15 5.405585,43.282329,15 5.405512,43.282235,15 5.40549,43.282206,15 5.405387,43.282072,15 5.405385,43.282073,15 5.405222,43.281877,15 5.405186,43.281828,15 5.404963,43.281529,15 5.40493,43.281544,15 5.404844,43.281434,15 5.404879,43.28142,15 5.404821,43.281354,15 5.404785,43.281313,15 5.404763,43.281288,15 5.404751,43.281275,15 5.404739,43.281259,15 5.404723,43.281242,15 5.404696,43.281212,15 5.404638,43.281139,15 5.404616,43.281112,15 5.404551,43.281029,15 5.404552,43.281026,15 5.404549,43.281025,15 5.404538,43.28106,15 5.404484,43.281002,15 5.40453,43.280856,15 5.404538,43.280831,15 5.404072,43.280469,15 5.404078,43.280445,15 5.403975,43.280426,15 5.403906,43.280414,15 5.40388,43.280406,15 5.403855,43.28046,15 5.403818,43.280431,15 5.403809,43.280424,15 5.403734,43.280579,15 5.403783,43.280615,15 5.403772,43.28064,15 5.403769,43.280672,15 5.403952,43.280825,15 5.404417,43.281216,15 5.404452,43.281106,15 5.404508,43.281167,15 5.404624,43.281304,15 5.404701,43.281403,15 5.40471,43.281414,15 5.404756,43.281472,15 5.404842,43.281582,15 5.404812,43.281596,15 5.405167,43.282053,15 5.4052,43.282086,15 5.405228,43.282124,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7799">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.405228,43.282124,15 5.405251,43.282153,15 5.405272,43.282179,15 5.405285,43.282195,15 5.405383,43.28232,15 5.405418,43.282325,15 5.405422,43.282331,15 5.405462,43.282384,15 5.405592,43.282401,15 5.405553,43.282348,15 5.405549,43.282344,15 5.405602,43.282352,15 5.40559,43.282334,15 5.405585,43.282333,15 5.405585,43.282329,15 5.405512,43.282235,15 5.40549,43.282206,15 5.405387,43.282072,15 5.405385,43.282073,15 5.405222,43.281877,15 5.405186,43.281828,15 5.404963,43.281529,15 5.40493,43.281544,15 5.404844,43.281434,15 5.404879,43.28142,15 5.404821,43.281354,15 5.404785,43.281313,15 5.404763,43.281288,15 5.404751,43.281275,15 5.404739,43.281259,15 5.404723,43.281242,15 5.404696,43.281212,15 5.404638,43.281139,15 5.404616,43.281112,15 5.404551,43.281029,15 5.404552,43.281026,15 5.404549,43.281025,15 5.404538,43.28106,15 5.404484,43.281002,15 5.40453,43.280856,15 5.404538,43.280831,15 5.404072,43.280469,15 5.404078,43.280445,15 5.403975,43.280426,15 5.403906,43.280414,15 5.40388,43.280406,15 5.403855,43.28046,15 5.403818,43.280431,15 5.403809,43.280424,15 5.403734,43.280579,15 5.403783,43.280615,15 5.403772,43.28064,15 5.403769,43.280672,15 5.403952,43.280825,15 5.404417,43.281216,15 5.404452,43.281106,15 5.404508,43.281167,15 5.404624,43.281304,15 5.404701,43.281403,15 5.40471,43.281414,15 5.404756,43.281472,15 5.404842,43.281582,15 5.404812,43.281596,15 5.405167,43.282053,15 5.4052,43.282086,15 5.405228,43.282124,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7799">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132108590D0092</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132108590D0092</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
 		<SimpleData name="Adresse">283, BD PAUL CLAUDEL</SimpleData>
-		<SimpleData name="Dénomination">CTRE COM ACTION SOCIALE DE MARSEILLE</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">CCAS</SimpleData>
+		<SimpleData name="Denomination">CTRE COM ACTION SOCIALE DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -546,15 +619,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.421496,43.269657,15 5.421662,43.270106,15 5.421676,43.270143,15 5.421687,43.270165,15 5.42171,43.270214,15 5.421842,43.270113,15 5.421989,43.270243,15 5.421961,43.270285,15 5.422644,43.270666,15 5.422908,43.270383,15 5.422868,43.270253,15 5.422023,43.269889,15 5.421496,43.269657,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7803">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.421496,43.269657,15 5.421662,43.270106,15 5.421676,43.270143,15 5.421687,43.270165,15 5.42171,43.270214,15 5.421842,43.270113,15 5.421989,43.270243,15 5.421961,43.270285,15 5.422644,43.270666,15 5.422908,43.270383,15 5.422868,43.270253,15 5.422023,43.269889,15 5.421496,43.269657,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7803">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132108550D0093</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132108550D0093</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
 		<SimpleData name="Adresse">RUE ROGER MATHURIN</SimpleData>
-		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -568,15 +644,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.407276,43.284505,15 5.407101,43.284125,15 5.406964,43.283826,15 5.406764,43.283545,15 5.406077,43.282681,15 5.406036,43.282629,15 5.406041,43.282629,15 5.405994,43.282569,15 5.405978,43.28255,15 5.405906,43.282457,15 5.4056,43.282412,15 5.405593,43.282406,15 5.405554,43.282401,15 5.405499,43.282393,15 5.405465,43.282389,15 5.405467,43.282394,15 5.40536,43.282378,15 5.40537,43.282574,15 5.405427,43.282645,15 5.405431,43.282645,15 5.405518,43.282756,15 5.405607,43.282869,15 5.405604,43.282868,15 5.405654,43.282937,15 5.405658,43.282937,15 5.40583,43.283173,15 5.405827,43.283172,15 5.405869,43.283232,15 5.405873,43.283232,15 5.406082,43.283495,15 5.406245,43.283706,15 5.406242,43.283707,15 5.406612,43.284278,15 5.40664,43.284336,15 5.406668,43.284336,15 5.406764,43.284462,15 5.406886,43.284483,15 5.406928,43.284491,15 5.406996,43.284674,15 5.407004,43.284671,15 5.40701,43.284694,15 5.407064,43.284672,15 5.407101,43.284656,15 5.407098,43.28463,15 5.407107,43.284627,15 5.407067,43.284515,15 5.407255,43.284548,15 5.407276,43.284505,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7809">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.407276,43.284505,15 5.407101,43.284125,15 5.406964,43.283826,15 5.406764,43.283545,15 5.406077,43.282681,15 5.406036,43.282629,15 5.406041,43.282629,15 5.405994,43.282569,15 5.405978,43.28255,15 5.405906,43.282457,15 5.4056,43.282412,15 5.405593,43.282406,15 5.405554,43.282401,15 5.405499,43.282393,15 5.405465,43.282389,15 5.405467,43.282394,15 5.40536,43.282378,15 5.40537,43.282574,15 5.405427,43.282645,15 5.405431,43.282645,15 5.405518,43.282756,15 5.405607,43.282869,15 5.405604,43.282868,15 5.405654,43.282937,15 5.405658,43.282937,15 5.40583,43.283173,15 5.405827,43.283172,15 5.405869,43.283232,15 5.405873,43.283232,15 5.406082,43.283495,15 5.406245,43.283706,15 5.406242,43.283707,15 5.406612,43.284278,15 5.40664,43.284336,15 5.406668,43.284336,15 5.406764,43.284462,15 5.406886,43.284483,15 5.406928,43.284491,15 5.406996,43.284674,15 5.407004,43.284671,15 5.40701,43.284694,15 5.407064,43.284672,15 5.407101,43.284656,15 5.407098,43.28463,15 5.407107,43.284627,15 5.407067,43.284515,15 5.407255,43.284548,15 5.407276,43.284505,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7809">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132108580H0095</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132108580H0095</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 10EME</SimpleData>
 		<SimpleData name="Adresse">5, PL DES LAURIERS ROSES</SimpleData>
-		<SimpleData name="Dénomination">INDIVIS 858 H 95</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">AUPM</SimpleData>
+		<SimpleData name="Denomination">INDIVIS 858 H 95</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -590,5 +669,6 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.437775,43.278086,15 5.437732,43.277994,15 5.437733,43.277978,15 5.437686,43.278079,15 5.437761,43.278101,15 5.437766,43.278103,15 5.437775,43.278086,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.437775,43.278086,15 5.437732,43.277994,15 5.437733,43.277978,15 5.437686,43.278079,15 5.437761,43.278101,15 5.437766,43.278103,15 5.437775,43.278086,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
 </Folder></Document></kml>

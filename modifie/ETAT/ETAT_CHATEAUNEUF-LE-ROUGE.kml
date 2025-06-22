@@ -2,11 +2,13 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document id="root_doc">
 <Schema name="CHATEAUNEUF-LE-ROUGE_ETAT" id="CHATEAUNEUF-LE-ROUGE_ETAT">
-	<SimpleField name="Numéro de Parcelle" type="string"></SimpleField>
+	<SimpleField name="Numero de Parcelle" type="string"></SimpleField>
 	<SimpleField name="Departement" type="string"></SimpleField>
 	<SimpleField name="Commune" type="string"></SimpleField>
 	<SimpleField name="Adresse" type="string"></SimpleField>
-	<SimpleField name="Dénomination" type="string"></SimpleField>
+	<SimpleField name="Groupe de personne" type="string"></SimpleField>
+	<SimpleField name="Forme Juridique Abregee" type="string"></SimpleField>
+	<SimpleField name="Denomination" type="string"></SimpleField>
 </Schema>
 	<Style id="ETAT">
 		<LineStyle>
@@ -19,14 +21,16 @@
 			<outline>1</outline>
 		</PolyStyle>
 	</Style><Folder><name>parcelle_13_etat</name>
-  <Placemark id="parcelle_13_etat.1519">
+  <Placemark id="etat.1519">
 <styleUrl>#ETAT</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
-		<SimpleData name="Numéro de Parcelle">13025000AK0135</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#etat">
+		<SimpleData name="Numero de Parcelle">13025000AK0135</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHATEAUNEUF-LE-ROUGE</SimpleData>
 		<SimpleData name="Adresse">LA GEINETTE</SimpleData>
-		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
+		<SimpleData name="Groupe de personne">Etat</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">ETAT</SimpleData>
+		<SimpleData name="Denomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -40,16 +44,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.605496,43.487157 5.604541,43.487359 5.604526,43.487367 5.60457,43.487377 5.604732,43.48735 5.604833,43.487356 5.605305,43.487291 5.605454,43.487293 5.605496,43.487283 5.605496,43.487157</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.605496,43.487157 5.604541,43.487359 5.604526,43.487367 5.60457,43.487377 5.604732,43.48735 5.604833,43.487356 5.605305,43.487291 5.605454,43.487293 5.605496,43.487283 5.605496,43.487157</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_etat.2083">
+  <Placemark id="etat.2083">
 <styleUrl>#ETAT</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
-		<SimpleData name="Numéro de Parcelle">13025000AO0160</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#etat">
+		<SimpleData name="Numero de Parcelle">13025000AO0160</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHATEAUNEUF-LE-ROUGE</SimpleData>
 		<SimpleData name="Adresse">PONT DE BACHASSON</SimpleData>
-		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
+		<SimpleData name="Groupe de personne">Etat</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">ETAT</SimpleData>
+		<SimpleData name="Denomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -63,16 +69,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.538662,43.48439 5.539919,43.484034 5.540384,43.483885 5.541747,43.483456 5.542119,43.483297 5.542293,43.483238 5.543933,43.482668 5.544059,43.482624 5.543967,43.482641 5.543961,43.482625 5.543952,43.482611 5.543939,43.482589 5.542996,43.482913 5.542077,43.483233 5.541844,43.483319 5.541666,43.483415 5.54064,43.483734 5.540115,43.483899 5.539644,43.484043 5.539041,43.484214 5.538623,43.484328 5.538638,43.484349 5.538643,43.48436 5.538662,43.48439</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.538662,43.48439 5.539919,43.484034 5.540384,43.483885 5.541747,43.483456 5.542119,43.483297 5.542293,43.483238 5.543933,43.482668 5.544059,43.482624 5.543967,43.482641 5.543961,43.482625 5.543952,43.482611 5.543939,43.482589 5.542996,43.482913 5.542077,43.483233 5.541844,43.483319 5.541666,43.483415 5.54064,43.483734 5.540115,43.483899 5.539644,43.484043 5.539041,43.484214 5.538623,43.484328 5.538638,43.484349 5.538643,43.48436 5.538662,43.48439</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_etat.3380">
+  <Placemark id="etat.3380">
 <styleUrl>#ETAT</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
-		<SimpleData name="Numéro de Parcelle">13025000AK0223</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#etat">
+		<SimpleData name="Numero de Parcelle">13025000AK0223</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHATEAUNEUF-LE-ROUGE</SimpleData>
 		<SimpleData name="Adresse">LA GEINETTE</SimpleData>
-		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
+		<SimpleData name="Groupe de personne">Etat</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">ETAT</SimpleData>
+		<SimpleData name="Denomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -86,16 +94,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.601948,43.487904 5.601884,43.487867 5.601377,43.487966 5.601384,43.48801 5.601948,43.487904</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.601948,43.487904 5.601884,43.487867 5.601377,43.487966 5.601384,43.48801 5.601948,43.487904</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_etat.7228">
+  <Placemark id="etat.7228">
 <styleUrl>#ETAT</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
-		<SimpleData name="Numéro de Parcelle">13025000AB0086</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#etat">
+		<SimpleData name="Numero de Parcelle">13025000AB0086</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHATEAUNEUF-LE-ROUGE</SimpleData>
 		<SimpleData name="Adresse">LES FOURCHES</SimpleData>
-		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
+		<SimpleData name="Groupe de personne">Etat</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">ETAT</SimpleData>
+		<SimpleData name="Denomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -109,16 +119,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.559027,43.48918 5.55915,43.48914 5.559102,43.48914 5.559027,43.48918</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.559027,43.48918 5.55915,43.48914 5.559102,43.48914 5.559027,43.48918</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_etat.7362">
+  <Placemark id="etat.7362">
 <styleUrl>#ETAT</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_etat">
-		<SimpleData name="Numéro de Parcelle">13025000AB0090</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#etat">
+		<SimpleData name="Numero de Parcelle">13025000AB0090</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CHATEAUNEUF-LE-ROUGE</SimpleData>
 		<SimpleData name="Adresse">LES FOURCHES</SimpleData>
-		<SimpleData name="Dénomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
+		<SimpleData name="Groupe de personne">Etat</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">ETAT</SimpleData>
+		<SimpleData name="Denomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -132,6 +144,6 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.560724,43.489642 5.559614,43.489574 5.559693,43.489843 5.560548,43.489909 5.560724,43.489642</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.560724,43.489642 5.559614,43.489574 5.559693,43.489843 5.560548,43.489909 5.560724,43.489642</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
 </Folder></Document></kml>

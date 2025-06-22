@@ -2,11 +2,13 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document id="root_doc">
 <Schema name="MARSEILLE 8EME_PUBLICorASSOCIE" id="MARSEILLE 8EME_PUBLICorASSOCIE">
-	<SimpleField name="Numéro de Parcelle" type="string"></SimpleField>
+	<SimpleField name="Numero de Parcelle" type="string"></SimpleField>
 	<SimpleField name="Departement" type="string"></SimpleField>
 	<SimpleField name="Commune" type="string"></SimpleField>
 	<SimpleField name="Adresse" type="string"></SimpleField>
-	<SimpleField name="Dénomination" type="string"></SimpleField>
+	<SimpleField name="Groupe de personne" type="string"></SimpleField>
+	<SimpleField name="Forme Juridique Abregee" type="string"></SimpleField>
+	<SimpleField name="Denomination" type="string"></SimpleField>
 </Schema>
 	<Style id="PUBLICorASSOCIE">
 		<LineStyle>
@@ -19,14 +21,16 @@
 			<outline>1</outline>
 		</PolyStyle>
 	</Style><Folder><name>parcelle_13_publicorassocie</name>
-  <Placemark id="parcelle_13_publicorassocie.7140">
+  <Placemark id="publicorassocie.7140">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132088430L0112</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132088430L0112</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 8EME</SimpleData>
 		<SimpleData name="Adresse">5, BD PEBRE</SimpleData>
-		<SimpleData name="Dénomination">CHAMBRE DES METIERS DES BOUCHES DU RHONE</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">ASS</SimpleData>
+		<SimpleData name="Denomination">CHAMBRE DES METIERS DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -40,15 +44,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.38449,43.266633,15 5.385475,43.266867,15 5.385538,43.266884,15 5.385561,43.266834,15 5.385577,43.266794,15 5.385658,43.266631,15 5.385667,43.266614,15 5.384634,43.266363,15 5.38456,43.266345,15 5.384481,43.266497,15 5.38442,43.266617,15 5.38449,43.266633,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7269">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.38449,43.266633,15 5.385475,43.266867,15 5.385538,43.266884,15 5.385561,43.266834,15 5.385577,43.266794,15 5.385658,43.266631,15 5.385667,43.266614,15 5.384634,43.266363,15 5.38456,43.266345,15 5.384481,43.266497,15 5.38442,43.266617,15 5.38449,43.266633,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7269">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132088410A0152</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132088410A0152</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 8EME</SimpleData>
 		<SimpleData name="Adresse">PL JOSEPH VIDAL</SimpleData>
-		<SimpleData name="Dénomination">THIERRY ET EVELYNE</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SCI</SimpleData>
+		<SimpleData name="Denomination">THIERRY ET EVELYNE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -62,15 +69,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.369849,43.243048,15 5.369841,43.243055,15 5.369812,43.24308,15 5.3698,43.243093,15 5.36989,43.243146,15 5.36994,43.2431,15 5.369849,43.243048,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7275">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.369849,43.243048,15 5.369841,43.243055,15 5.369812,43.24308,15 5.3698,43.243093,15 5.36989,43.243146,15 5.36994,43.2431,15 5.369849,43.243048,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7275">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132088390C0149</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132088390C0149</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 8EME</SimpleData>
 		<SimpleData name="Adresse">31, RUE FARGES</SimpleData>
-		<SimpleData name="Dénomination">PRADO PARADIS</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SCI</SimpleData>
+		<SimpleData name="Denomination">PRADO PARADIS</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -84,15 +94,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.383413,43.280315,15 5.383446,43.280322,15 5.383602,43.280358,15 5.383662,43.280215,15 5.383674,43.280187,15 5.383748,43.28001,15 5.38367,43.279993,15 5.383637,43.279985,15 5.38356,43.27997,15 5.383485,43.280146,15 5.383457,43.280212,15 5.383443,43.280245,15 5.383413,43.280315,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7292">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.383413,43.280315,15 5.383446,43.280322,15 5.383602,43.280358,15 5.383662,43.280215,15 5.383674,43.280187,15 5.383748,43.28001,15 5.38367,43.279993,15 5.383637,43.279985,15 5.38356,43.27997,15 5.383485,43.280146,15 5.383457,43.280212,15 5.383443,43.280245,15 5.383413,43.280315,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7292">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132088410A0153</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132088410A0153</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 8EME</SimpleData>
 		<SimpleData name="Adresse">PL JOSEPH VIDAL</SimpleData>
-		<SimpleData name="Dénomination">THIERRY ET EVELYNE</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SCI</SimpleData>
+		<SimpleData name="Denomination">THIERRY ET EVELYNE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -106,15 +119,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.3698,43.243093,15 5.369749,43.243139,15 5.369841,43.243192,15 5.36989,43.243146,15 5.3698,43.243093,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7324">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.3698,43.243093,15 5.369749,43.243139,15 5.369841,43.243192,15 5.36989,43.243146,15 5.3698,43.243093,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7324">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132088360L0164</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132088360L0164</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 8EME</SimpleData>
 		<SimpleData name="Adresse">10, IMP ROSELINE</SimpleData>
-		<SimpleData name="Dénomination">SCI LES VILLAS MARINES</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SC</SimpleData>
+		<SimpleData name="Denomination">SCI LES VILLAS MARINES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -128,15 +144,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.376956,43.253403,15 5.376981,43.25342,15 5.377024,43.253384,15 5.377071,43.253348,15 5.377045,43.253332,15 5.376956,43.253403,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7336">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.376956,43.253403,15 5.376981,43.25342,15 5.377024,43.253384,15 5.377071,43.253348,15 5.377045,43.253332,15 5.376956,43.253403,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7336">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132088360L0166</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132088360L0166</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 8EME</SimpleData>
 		<SimpleData name="Adresse">10, IMP ROSELINE</SimpleData>
-		<SimpleData name="Dénomination">SCI LES VILLAS MARINES</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SC</SimpleData>
+		<SimpleData name="Denomination">SCI LES VILLAS MARINES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -150,15 +169,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.377094,43.253292,15 5.377119,43.253309,15 5.377132,43.253297,15 5.377147,43.253287,15 5.377122,43.253269,15 5.377094,43.253292,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7342">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.377094,43.253292,15 5.377119,43.253309,15 5.377132,43.253297,15 5.377147,43.253287,15 5.377122,43.253269,15 5.377094,43.253292,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7342">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132088360L0168</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132088360L0168</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 8EME</SimpleData>
 		<SimpleData name="Adresse">10, IMP ROSELINE</SimpleData>
-		<SimpleData name="Dénomination">SCI LES VILLAS MARINES</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SC</SimpleData>
+		<SimpleData name="Denomination">SCI LES VILLAS MARINES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -172,15 +194,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.377636,43.253211,15 5.377614,43.253225,15 5.377658,43.253264,15 5.37768,43.253251,15 5.377636,43.253211,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7344">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.377636,43.253211,15 5.377614,43.253225,15 5.377658,43.253264,15 5.37768,43.253251,15 5.377636,43.253211,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7344">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132088360L0169</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132088360L0169</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 8EME</SimpleData>
 		<SimpleData name="Adresse">10, IMP ROSELINE</SimpleData>
-		<SimpleData name="Dénomination">SCI LES VILLAS MARINES</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SC</SimpleData>
+		<SimpleData name="Denomination">SCI LES VILLAS MARINES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -194,15 +219,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.377773,43.253334,15 5.377751,43.253347,15 5.377794,43.253386,15 5.377816,43.253373,15 5.377773,43.253334,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7358">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.377773,43.253334,15 5.377751,43.253347,15 5.377794,43.253386,15 5.377816,43.253373,15 5.377773,43.253334,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7358">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132088360L0171</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132088360L0171</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 8EME</SimpleData>
 		<SimpleData name="Adresse">10, IMP ROSELINE</SimpleData>
-		<SimpleData name="Dénomination">SCI LES VILLAS MARINES</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SC</SimpleData>
+		<SimpleData name="Denomination">SCI LES VILLAS MARINES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -216,15 +244,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.377977,43.253518,15 5.377956,43.253531,15 5.378001,43.253571,15 5.378022,43.253558,15 5.377977,43.253518,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7369">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.377977,43.253518,15 5.377956,43.253531,15 5.378001,43.253571,15 5.378022,43.253558,15 5.377977,43.253518,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7369">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132088360L0174</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132088360L0174</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 8EME</SimpleData>
 		<SimpleData name="Adresse">10, IMP ROSELINE</SimpleData>
-		<SimpleData name="Dénomination">SCI LES VILLAS MARINES</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SC</SimpleData>
+		<SimpleData name="Denomination">SCI LES VILLAS MARINES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -238,15 +269,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.377422,43.253069,15 5.377602,43.253229,15 5.377692,43.25331,15 5.377797,43.253403,15 5.377902,43.253496,15 5.378006,43.253587,15 5.378109,43.253678,15 5.378212,43.25377,15 5.378239,43.253753,15 5.378225,43.253741,15 5.378205,43.253753,15 5.378162,43.253715,15 5.378182,43.253702,15 5.378089,43.253619,15 5.378069,43.253631,15 5.378025,43.253592,15 5.378045,43.253579,15 5.378022,43.253558,15 5.378001,43.253571,15 5.377956,43.253531,15 5.377977,43.253518,15 5.377884,43.253434,15 5.377863,43.253447,15 5.37782,43.253409,15 5.377841,43.253396,15 5.377816,43.253373,15 5.377794,43.253386,15 5.377751,43.253347,15 5.377773,43.253334,15 5.37768,43.253251,15 5.377658,43.253264,15 5.377614,43.253225,15 5.377636,43.253211,15 5.37759,43.25317,15 5.377567,43.253184,15 5.377524,43.253145,15 5.377547,43.253131,15 5.37748,43.253071,15 5.377479,43.25307,15 5.377479,43.25307,15 5.377479,43.253069,15 5.377478,43.253069,15 5.377478,43.253068,15 5.377478,43.253068,15 5.377477,43.253068,15 5.377477,43.253067,15 5.377476,43.253067,15 5.377476,43.253066,15 5.377476,43.253066,15 5.377475,43.253066,15 5.377475,43.253065,15 5.377474,43.253065,15 5.377474,43.253065,15 5.377473,43.253064,15 5.377473,43.253064,15 5.377472,43.253064,15 5.377472,43.253063,15 5.377471,43.253063,15 5.377471,43.253063,15 5.37747,43.253062,15 5.37747,43.253062,15 5.377469,43.253062,15 5.377468,43.253061,15 5.377468,43.253061,15 5.377467,43.253061,15 5.377467,43.253061,15 5.377466,43.25306,15 5.377465,43.25306,15 5.377465,43.25306,15 5.377464,43.25306,15 5.377464,43.25306,15 5.377463,43.253059,15 5.377462,43.253059,15 5.377462,43.253059,15 5.377461,43.253059,15 5.37746,43.253059,15 5.37746,43.253059,15 5.377459,43.253058,15 5.377458,43.253058,15 5.377458,43.253058,15 5.377457,43.253058,15 5.377456,43.253058,15 5.377456,43.253058,15 5.377455,43.253058,15 5.377454,43.253058,15 5.377454,43.253058,15 5.377453,43.253058,15 5.377452,43.253058,15 5.377452,43.253058,15 5.377451,43.253058,15 5.37745,43.253058,15 5.377449,43.253058,15 5.377449,43.253058,15 5.377448,43.253058,15 5.377447,43.253058,15 5.377447,43.253058,15 5.377446,43.253058,15 5.377445,43.253058,15 5.377445,43.253058,15 5.377444,43.253058,15 5.377443,43.253058,15 5.377443,43.253058,15 5.377442,43.253059,15 5.377441,43.253059,15 5.377441,43.253059,15 5.37744,43.253059,15 5.37744,43.253059,15 5.377439,43.253059,15 5.377438,43.25306,15 5.377438,43.25306,15 5.377437,43.25306,15 5.377436,43.25306,15 5.377436,43.25306,15 5.377435,43.253061,15 5.377435,43.253061,15 5.377434,43.253061,15 5.377433,43.253061,15 5.377433,43.253062,15 5.377432,43.253062,15 5.377432,43.253062,15 5.377431,43.253063,15 5.377431,43.253063,15 5.37743,43.253063,15 5.37743,43.253064,15 5.377429,43.253064,15 5.377429,43.253064,15 5.377428,43.253065,15 5.377422,43.253069,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7395">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.377422,43.253069,15 5.377602,43.253229,15 5.377692,43.25331,15 5.377797,43.253403,15 5.377902,43.253496,15 5.378006,43.253587,15 5.378109,43.253678,15 5.378212,43.25377,15 5.378239,43.253753,15 5.378225,43.253741,15 5.378205,43.253753,15 5.378162,43.253715,15 5.378182,43.253702,15 5.378089,43.253619,15 5.378069,43.253631,15 5.378025,43.253592,15 5.378045,43.253579,15 5.378022,43.253558,15 5.378001,43.253571,15 5.377956,43.253531,15 5.377977,43.253518,15 5.377884,43.253434,15 5.377863,43.253447,15 5.37782,43.253409,15 5.377841,43.253396,15 5.377816,43.253373,15 5.377794,43.253386,15 5.377751,43.253347,15 5.377773,43.253334,15 5.37768,43.253251,15 5.377658,43.253264,15 5.377614,43.253225,15 5.377636,43.253211,15 5.37759,43.25317,15 5.377567,43.253184,15 5.377524,43.253145,15 5.377547,43.253131,15 5.37748,43.253071,15 5.377479,43.25307,15 5.377479,43.25307,15 5.377479,43.253069,15 5.377478,43.253069,15 5.377478,43.253068,15 5.377478,43.253068,15 5.377477,43.253068,15 5.377477,43.253067,15 5.377476,43.253067,15 5.377476,43.253066,15 5.377476,43.253066,15 5.377475,43.253066,15 5.377475,43.253065,15 5.377474,43.253065,15 5.377474,43.253065,15 5.377473,43.253064,15 5.377473,43.253064,15 5.377472,43.253064,15 5.377472,43.253063,15 5.377471,43.253063,15 5.377471,43.253063,15 5.37747,43.253062,15 5.37747,43.253062,15 5.377469,43.253062,15 5.377468,43.253061,15 5.377468,43.253061,15 5.377467,43.253061,15 5.377467,43.253061,15 5.377466,43.25306,15 5.377465,43.25306,15 5.377465,43.25306,15 5.377464,43.25306,15 5.377464,43.25306,15 5.377463,43.253059,15 5.377462,43.253059,15 5.377462,43.253059,15 5.377461,43.253059,15 5.37746,43.253059,15 5.37746,43.253059,15 5.377459,43.253058,15 5.377458,43.253058,15 5.377458,43.253058,15 5.377457,43.253058,15 5.377456,43.253058,15 5.377456,43.253058,15 5.377455,43.253058,15 5.377454,43.253058,15 5.377454,43.253058,15 5.377453,43.253058,15 5.377452,43.253058,15 5.377452,43.253058,15 5.377451,43.253058,15 5.37745,43.253058,15 5.377449,43.253058,15 5.377449,43.253058,15 5.377448,43.253058,15 5.377447,43.253058,15 5.377447,43.253058,15 5.377446,43.253058,15 5.377445,43.253058,15 5.377445,43.253058,15 5.377444,43.253058,15 5.377443,43.253058,15 5.377443,43.253058,15 5.377442,43.253059,15 5.377441,43.253059,15 5.377441,43.253059,15 5.37744,43.253059,15 5.37744,43.253059,15 5.377439,43.253059,15 5.377438,43.25306,15 5.377438,43.25306,15 5.377437,43.25306,15 5.377436,43.25306,15 5.377436,43.25306,15 5.377435,43.253061,15 5.377435,43.253061,15 5.377434,43.253061,15 5.377433,43.253061,15 5.377433,43.253062,15 5.377432,43.253062,15 5.377432,43.253062,15 5.377431,43.253063,15 5.377431,43.253063,15 5.37743,43.253063,15 5.37743,43.253064,15 5.377429,43.253064,15 5.377429,43.253064,15 5.377428,43.253065,15 5.377422,43.253069,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7395">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132088410A0187</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132088410A0187</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 8EME</SimpleData>
 		<SimpleData name="Adresse">PL JOSEPH VIDAL</SimpleData>
-		<SimpleData name="Dénomination">THIERRY ET EVELYNE</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SCI</SimpleData>
+		<SimpleData name="Denomination">THIERRY ET EVELYNE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -260,15 +294,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.369693,43.243358,15 5.369712,43.243357,15 5.369736,43.243371,15 5.369789,43.243328,15 5.36975,43.243305,15 5.36969,43.243343,15 5.369693,43.243358,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7518">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.369693,43.243358,15 5.369712,43.243357,15 5.369736,43.243371,15 5.369789,43.243328,15 5.36975,43.243305,15 5.36969,43.243343,15 5.369693,43.243358,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7518">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132088410D0292</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132088410D0292</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 8EME</SimpleData>
 		<SimpleData name="Adresse">21, AV BEAU PIN</SimpleData>
-		<SimpleData name="Dénomination">CEDRES</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SCI</SimpleData>
+		<SimpleData name="Denomination">CEDRES</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -282,15 +319,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.381358,43.241742,15 5.381484,43.24162,15 5.381485,43.241569,15 5.381479,43.241556,15 5.38147,43.241545,15 5.381459,43.241537,15 5.381423,43.241516,15 5.381451,43.24149,15 5.381441,43.241486,15 5.381442,43.241484,15 5.381337,43.24142,15 5.381224,43.241354,15 5.381134,43.241326,15 5.381116,43.241315,15 5.381069,43.241355,15 5.381106,43.241365,15 5.38111,43.241358,15 5.381199,43.241385,15 5.381301,43.241445,15 5.38125,43.241508,15 5.381257,43.241511,15 5.381222,43.241541,15 5.381183,43.241571,15 5.381134,43.241612,15 5.381306,43.241705,15 5.381358,43.241742,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7642">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.381358,43.241742,15 5.381484,43.24162,15 5.381485,43.241569,15 5.381479,43.241556,15 5.38147,43.241545,15 5.381459,43.241537,15 5.381423,43.241516,15 5.381451,43.24149,15 5.381441,43.241486,15 5.381442,43.241484,15 5.381337,43.24142,15 5.381224,43.241354,15 5.381134,43.241326,15 5.381116,43.241315,15 5.381069,43.241355,15 5.381106,43.241365,15 5.38111,43.241358,15 5.381199,43.241385,15 5.381301,43.241445,15 5.38125,43.241508,15 5.381257,43.241511,15 5.381222,43.241541,15 5.381183,43.241571,15 5.381134,43.241612,15 5.381306,43.241705,15 5.381358,43.241742,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7642">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132088360I0051</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132088360I0051</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 8EME</SimpleData>
 		<SimpleData name="Adresse">20, BD JOACHIM ELIE VEZIEN</SimpleData>
-		<SimpleData name="Dénomination">SC 43 NORD 5 EST</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">AUPM</SimpleData>
+		<SimpleData name="Denomination">SC 43 NORD 5 EST</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -304,15 +344,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.377489,43.249434,15 5.377429,43.249388,15 5.377383,43.249423,15 5.377331,43.24946,15 5.377321,43.249468,15 5.37731,43.249476,15 5.377307,43.249479,15 5.377207,43.249552,15 5.377164,43.249585,15 5.37723,43.249634,15 5.377307,43.249572,15 5.377315,43.249567,15 5.377352,43.249538,15 5.377416,43.249488,15 5.377469,43.249448,15 5.377489,43.249434,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7759">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.377489,43.249434,15 5.377429,43.249388,15 5.377383,43.249423,15 5.377331,43.24946,15 5.377321,43.249468,15 5.37731,43.249476,15 5.377307,43.249479,15 5.377207,43.249552,15 5.377164,43.249585,15 5.37723,43.249634,15 5.377307,43.249572,15 5.377315,43.249567,15 5.377352,43.249538,15 5.377416,43.249488,15 5.377469,43.249448,15 5.377489,43.249434,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7759">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132088400E0008</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132088400E0008</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 8EME</SimpleData>
 		<SimpleData name="Adresse">TRA DE L OLYMPIQUE</SimpleData>
-		<SimpleData name="Dénomination">JUNOMIRO</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SCI</SimpleData>
+		<SimpleData name="Denomination">JUNOMIRO</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -326,5 +369,6 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.377277,43.262559,15 5.37729,43.262579,15 5.377286,43.26258,15 5.377294,43.262604,15 5.377274,43.26262,15 5.377261,43.262654,15 5.377394,43.262735,15 5.377409,43.262744,15 5.377467,43.262697,15 5.37748,43.262688,15 5.377538,43.26264,15 5.377386,43.262593,15 5.37733,43.262575,15 5.377277,43.262559,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.377277,43.262559,15 5.37729,43.262579,15 5.377286,43.26258,15 5.377294,43.262604,15 5.377274,43.26262,15 5.377261,43.262654,15 5.377394,43.262735,15 5.377409,43.262744,15 5.377467,43.262697,15 5.37748,43.262688,15 5.377538,43.26264,15 5.377386,43.262593,15 5.37733,43.262575,15 5.377277,43.262559,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
 </Folder></Document></kml>

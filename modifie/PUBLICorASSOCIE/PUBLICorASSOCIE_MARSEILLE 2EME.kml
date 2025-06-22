@@ -2,11 +2,13 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document id="root_doc">
 <Schema name="MARSEILLE 2EME_PUBLICorASSOCIE" id="MARSEILLE 2EME_PUBLICorASSOCIE">
-	<SimpleField name="Numéro de Parcelle" type="string"></SimpleField>
+	<SimpleField name="Numero de Parcelle" type="string"></SimpleField>
 	<SimpleField name="Departement" type="string"></SimpleField>
 	<SimpleField name="Commune" type="string"></SimpleField>
 	<SimpleField name="Adresse" type="string"></SimpleField>
-	<SimpleField name="Dénomination" type="string"></SimpleField>
+	<SimpleField name="Groupe de personne" type="string"></SimpleField>
+	<SimpleField name="Forme Juridique Abregee" type="string"></SimpleField>
+	<SimpleField name="Denomination" type="string"></SimpleField>
 </Schema>
 	<Style id="PUBLICorASSOCIE">
 		<LineStyle>
@@ -19,14 +21,16 @@
 			<outline>1</outline>
 		</PolyStyle>
 	</Style><Folder><name>parcelle_13_publicorassocie</name>
-  <Placemark id="parcelle_13_publicorassocie.191">
+  <Placemark id="publicorassocie.191">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132028080B0027</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132028080B0027</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 2EME</SimpleData>
 		<SimpleData name="Adresse">40, RUE MONTOLIEU</SimpleData>
-		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+		<SimpleData name="Denomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -40,15 +44,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.371287,43.303662,30 5.371326,43.303741,30 5.371409,43.303726,30 5.371373,43.303642,30 5.371287,43.303662,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.362">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.371287,43.303662,30 5.371326,43.303741,30 5.371409,43.303726,30 5.371373,43.303642,30 5.371287,43.303662,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.362">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132028070D0151</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132028070D0151</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 2EME</SimpleData>
 		<SimpleData name="Adresse">RUE DE RUFFI</SimpleData>
-		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+		<SimpleData name="Denomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -62,15 +69,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.369538,43.314385,30 5.369572,43.31433,30 5.368973,43.314153,30 5.368943,43.314204,30 5.369538,43.314385,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7080">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.369538,43.314385,30 5.369572,43.31433,30 5.368973,43.314153,30 5.368943,43.314204,30 5.369538,43.314385,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7080">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132028070B0100</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132028070B0100</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 2EME</SimpleData>
 		<SimpleData name="Adresse">18, TRA DU TELEGRAPHE</SimpleData>
-		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -84,15 +94,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.357659,43.328719,30 5.357349,43.329079,30 5.357391,43.32908,30 5.357675,43.328725,30 5.357659,43.328719,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7081">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.357659,43.328719,30 5.357349,43.329079,30 5.357391,43.32908,30 5.357675,43.328725,30 5.357659,43.328719,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7081">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132028070D0100</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132028070D0100</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 2EME</SimpleData>
 		<SimpleData name="Adresse">RUE DANTHOINE</SimpleData>
-		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+		<SimpleData name="Denomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -106,15 +119,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.365911,43.315887,30 5.366272,43.315703,30 5.366131,43.315659,30 5.366046,43.315706,30 5.36589,43.315794,30 5.365785,43.315849,30 5.365911,43.315887,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7088">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.365911,43.315887,30 5.366272,43.315703,30 5.366131,43.315659,30 5.366046,43.315706,30 5.36589,43.315794,30 5.365785,43.315849,30 5.365911,43.315887,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7088">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132028070D0101</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132028070D0101</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 2EME</SimpleData>
 		<SimpleData name="Adresse">RUE DANTHOINE</SimpleData>
-		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+		<SimpleData name="Denomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -128,15 +144,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.366039,43.315631,30 5.366046,43.315706,30 5.366131,43.315659,30 5.366039,43.315631,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7098">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.366039,43.315631,30 5.366046,43.315706,30 5.366131,43.315659,30 5.366039,43.315631,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7098">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132028070B0104</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132028070B0104</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 2EME</SimpleData>
 		<SimpleData name="Adresse">CHE DE LA MADRAGUE VILLE</SimpleData>
-		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -150,15 +169,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.35763,43.32866,30 5.357704,43.328689,30 5.357707,43.328682,30 5.357697,43.328678,30 5.357832,43.328516,30 5.357864,43.328529,30 5.35793,43.328468,30 5.357969,43.328499,30 5.358,43.328524,30 5.358066,43.328447,30 5.358196,43.32829,30 5.358354,43.328095,30 5.35839,43.328052,30 5.358412,43.328025,30 5.358419,43.328017,30 5.358465,43.328036,30 5.358719,43.327725,30 5.35869,43.327712,30 5.358886,43.327472,30 5.358943,43.327482,30 5.35902,43.32739,30 5.35948,43.32749,30 5.359404,43.327427,30 5.359305,43.327344,30 5.3593,43.327318,30 5.35924,43.327149,30 5.359148,43.327153,30 5.359112,43.327136,30 5.359023,43.327223,30 5.359009,43.327236,30 5.358994,43.32725,30 5.358922,43.327318,30 5.358897,43.327319,30 5.358731,43.327313,30 5.358696,43.327352,30 5.358707,43.32736,30 5.35763,43.32866,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7133">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.35763,43.32866,30 5.357704,43.328689,30 5.357707,43.328682,30 5.357697,43.328678,30 5.357832,43.328516,30 5.357864,43.328529,30 5.35793,43.328468,30 5.357969,43.328499,30 5.358,43.328524,30 5.358066,43.328447,30 5.358196,43.32829,30 5.358354,43.328095,30 5.35839,43.328052,30 5.358412,43.328025,30 5.358419,43.328017,30 5.358465,43.328036,30 5.358719,43.327725,30 5.35869,43.327712,30 5.358886,43.327472,30 5.358943,43.327482,30 5.35902,43.32739,30 5.35948,43.32749,30 5.359404,43.327427,30 5.359305,43.327344,30 5.3593,43.327318,30 5.35924,43.327149,30 5.359148,43.327153,30 5.359112,43.327136,30 5.359023,43.327223,30 5.359009,43.327236,30 5.358994,43.32725,30 5.358922,43.327318,30 5.358897,43.327319,30 5.358731,43.327313,30 5.358696,43.327352,30 5.358707,43.32736,30 5.35763,43.32866,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7133">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132028070B0111</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132028070B0111</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 2EME</SimpleData>
 		<SimpleData name="Adresse">1, MTE MOUREN</SimpleData>
-		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -172,15 +194,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.357109,43.328727,30 5.356891,43.329065,30 5.356801,43.329224,30 5.356679,43.329527,30 5.356662,43.329569,30 5.356733,43.329605,30 5.356792,43.329618,30 5.356802,43.32962,30 5.356725,43.329843,30 5.356663,43.330065,30 5.356632,43.330237,30 5.35661,43.330565,30 5.35658,43.330913,30 5.356479,43.330908,30 5.356511,43.330725,30 5.356487,43.330722,30 5.356459,43.330891,30 5.356442,43.33096,30 5.356654,43.331013,30 5.3567,43.331024,30 5.356718,43.330989,30 5.356771,43.330902,30 5.356907,43.330677,30 5.356942,43.330406,30 5.356981,43.330148,30 5.356996,43.329963,30 5.357008,43.329818,30 5.357026,43.329765,30 5.357104,43.329536,30 5.357112,43.329519,30 5.357215,43.329315,30 5.357269,43.329215,30 5.357287,43.329178,30 5.357349,43.329079,30 5.357659,43.328719,30 5.357251,43.328528,30 5.357217,43.32857,30 5.357262,43.328637,30 5.357215,43.328711,30 5.357109,43.328727,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7138">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.357109,43.328727,30 5.356891,43.329065,30 5.356801,43.329224,30 5.356679,43.329527,30 5.356662,43.329569,30 5.356733,43.329605,30 5.356792,43.329618,30 5.356802,43.32962,30 5.356725,43.329843,30 5.356663,43.330065,30 5.356632,43.330237,30 5.35661,43.330565,30 5.35658,43.330913,30 5.356479,43.330908,30 5.356511,43.330725,30 5.356487,43.330722,30 5.356459,43.330891,30 5.356442,43.33096,30 5.356654,43.331013,30 5.3567,43.331024,30 5.356718,43.330989,30 5.356771,43.330902,30 5.356907,43.330677,30 5.356942,43.330406,30 5.356981,43.330148,30 5.356996,43.329963,30 5.357008,43.329818,30 5.357026,43.329765,30 5.357104,43.329536,30 5.357112,43.329519,30 5.357215,43.329315,30 5.357269,43.329215,30 5.357287,43.329178,30 5.357349,43.329079,30 5.357659,43.328719,30 5.357251,43.328528,30 5.357217,43.32857,30 5.357262,43.328637,30 5.357215,43.328711,30 5.357109,43.328727,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7138">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132028070B0112</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132028070B0112</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 2EME</SimpleData>
 		<SimpleData name="Adresse">1, MTE MOUREN</SimpleData>
-		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -194,15 +219,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.356511,43.330725,30 5.356479,43.330908,30 5.35658,43.330913,30 5.35661,43.330565,30 5.356632,43.330237,30 5.356663,43.330065,30 5.356725,43.329843,30 5.356802,43.32962,30 5.356792,43.329618,30 5.356703,43.329876,30 5.35666,43.33003,30 5.356629,43.330195,30 5.356625,43.330252,30 5.356614,43.330378,30 5.356596,43.330626,30 5.356588,43.33072,30 5.356585,43.330731,30 5.356511,43.330725,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7160">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.356511,43.330725,30 5.356479,43.330908,30 5.35658,43.330913,30 5.35661,43.330565,30 5.356632,43.330237,30 5.356663,43.330065,30 5.356725,43.329843,30 5.356802,43.32962,30 5.356792,43.329618,30 5.356703,43.329876,30 5.35666,43.33003,30 5.356629,43.330195,30 5.356625,43.330252,30 5.356614,43.330378,30 5.356596,43.330626,30 5.356588,43.33072,30 5.356585,43.330731,30 5.356511,43.330725,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7160">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132028070D0116</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132028070D0116</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 2EME</SimpleData>
 		<SimpleData name="Adresse">BD DE PARIS</SimpleData>
-		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+		<SimpleData name="Denomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -216,15 +244,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.367211,43.313614,30 5.36719,43.313653,30 5.367126,43.313773,30 5.367033,43.313919,30 5.366933,43.31405,30 5.366896,43.314093,30 5.366862,43.314151,30 5.366832,43.314202,30 5.366802,43.314254,30 5.366775,43.314299,30 5.366744,43.31435,30 5.36672,43.314388,30 5.366697,43.314427,30 5.366673,43.314465,30 5.366645,43.314509,30 5.36662,43.314548,30 5.366596,43.314585,30 5.366571,43.314623,30 5.366546,43.314661,30 5.366676,43.314554,30 5.366582,43.31472,30 5.366759,43.314579,30 5.366798,43.314516,30 5.366843,43.314444,30 5.366894,43.31436,30 5.366938,43.314287,30 5.366988,43.314203,30 5.367043,43.314109,30 5.367109,43.313993,30 5.367168,43.313888,30 5.367215,43.313803,30 5.367267,43.313708,30 5.367301,43.313644,30 5.367211,43.313614,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7198">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.367211,43.313614,30 5.36719,43.313653,30 5.367126,43.313773,30 5.367033,43.313919,30 5.366933,43.31405,30 5.366896,43.314093,30 5.366862,43.314151,30 5.366832,43.314202,30 5.366802,43.314254,30 5.366775,43.314299,30 5.366744,43.31435,30 5.36672,43.314388,30 5.366697,43.314427,30 5.366673,43.314465,30 5.366645,43.314509,30 5.36662,43.314548,30 5.366596,43.314585,30 5.366571,43.314623,30 5.366546,43.314661,30 5.366676,43.314554,30 5.366582,43.31472,30 5.366759,43.314579,30 5.366798,43.314516,30 5.366843,43.314444,30 5.366894,43.31436,30 5.366938,43.314287,30 5.366988,43.314203,30 5.367043,43.314109,30 5.367109,43.313993,30 5.367168,43.313888,30 5.367215,43.313803,30 5.367267,43.313708,30 5.367301,43.313644,30 5.367211,43.313614,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7198">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132028070D0124</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132028070D0124</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 2EME</SimpleData>
 		<SimpleData name="Adresse">33, RUE DANTHOINE</SimpleData>
-		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+		<SimpleData name="Denomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -238,15 +269,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.36553,43.315474,30 5.365849,43.315572,30 5.365959,43.315472,30 5.36609,43.315356,30 5.366162,43.315288,30 5.366251,43.315209,30 5.366247,43.315206,30 5.366315,43.315135,30 5.366398,43.315045,30 5.366479,43.31495,30 5.366487,43.31494,30 5.366328,43.314891,30 5.366202,43.315007,30 5.36608,43.315109,30 5.365951,43.315207,30 5.365816,43.3153,30 5.365675,43.315389,30 5.36553,43.315474,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7203">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.36553,43.315474,30 5.365849,43.315572,30 5.365959,43.315472,30 5.36609,43.315356,30 5.366162,43.315288,30 5.366251,43.315209,30 5.366247,43.315206,30 5.366315,43.315135,30 5.366398,43.315045,30 5.366479,43.31495,30 5.366487,43.31494,30 5.366328,43.314891,30 5.366202,43.315007,30 5.36608,43.315109,30 5.365951,43.315207,30 5.365816,43.3153,30 5.365675,43.315389,30 5.36553,43.315474,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7203">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132028070D0126</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132028070D0126</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 2EME</SimpleData>
 		<SimpleData name="Adresse">PL DANTHOINE</SimpleData>
-		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+		<SimpleData name="Denomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -260,15 +294,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.366759,43.314579,30 5.366582,43.31472,30 5.366676,43.314554,30 5.366546,43.314661,30 5.36653,43.314681,30 5.366447,43.314782,30 5.366583,43.314823,30 5.366597,43.314806,30 5.366658,43.314724,30 5.366732,43.31462,30 5.366759,43.314579,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7209">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.366759,43.314579,30 5.366582,43.31472,30 5.366676,43.314554,30 5.366546,43.314661,30 5.36653,43.314681,30 5.366447,43.314782,30 5.366583,43.314823,30 5.366597,43.314806,30 5.366658,43.314724,30 5.366732,43.31462,30 5.366759,43.314579,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7209">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132028070D0127</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132028070D0127</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 2EME</SimpleData>
 		<SimpleData name="Adresse">36, RUE SAINT-CASSIEN</SimpleData>
-		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+		<SimpleData name="Denomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -282,15 +319,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.366896,43.314093,30 5.366933,43.31405,30 5.367033,43.313919,30 5.367126,43.313773,30 5.36719,43.313653,30 5.367164,43.313604,30 5.36716,43.313602,30 5.367144,43.313633,30 5.367084,43.313749,30 5.367015,43.313876,30 5.366896,43.314093,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7214">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.366896,43.314093,30 5.366933,43.31405,30 5.367033,43.313919,30 5.367126,43.313773,30 5.36719,43.313653,30 5.367164,43.313604,30 5.36716,43.313602,30 5.367144,43.313633,30 5.367084,43.313749,30 5.367015,43.313876,30 5.366896,43.314093,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7214">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132028070D0129</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132028070D0129</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 2EME</SimpleData>
 		<SimpleData name="Adresse">36, RUE SAINT-CASSIEN</SimpleData>
-		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+		<SimpleData name="Denomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -304,15 +344,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.366803,43.313531,30 5.367144,43.313633,30 5.36716,43.313602,30 5.36698,43.313548,30 5.366911,43.313528,30 5.366863,43.313512,30 5.366858,43.313516,30 5.366803,43.313531,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7241">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.366803,43.313531,30 5.367144,43.313633,30 5.36716,43.313602,30 5.36698,43.313548,30 5.366911,43.313528,30 5.366863,43.313512,30 5.366858,43.313516,30 5.366803,43.313531,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7241">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132028070D0139</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132028070D0139</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 2EME</SimpleData>
 		<SimpleData name="Adresse">CHE DE LA MADRAGUE VILLE</SimpleData>
-		<SimpleData name="Dénomination">SNCF RESEAU</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">SNCF RESEAU</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -326,15 +369,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.364887,43.320536,30 5.364764,43.320494,30 5.364713,43.320534,30 5.364686,43.320575,30 5.364646,43.320636,30 5.364632,43.320631,30 5.36458,43.320711,30 5.364709,43.320758,30 5.36474,43.320709,30 5.364747,43.320699,30 5.364761,43.320678,30 5.364788,43.320688,30 5.364821,43.320639,30 5.364867,43.320567,30 5.364887,43.320536,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7244">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.364887,43.320536,30 5.364764,43.320494,30 5.364713,43.320534,30 5.364686,43.320575,30 5.364646,43.320636,30 5.364632,43.320631,30 5.36458,43.320711,30 5.364709,43.320758,30 5.36474,43.320709,30 5.364747,43.320699,30 5.364761,43.320678,30 5.364788,43.320688,30 5.364821,43.320639,30 5.364867,43.320567,30 5.364887,43.320536,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7244">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132028070D0141</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132028070D0141</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 2EME</SimpleData>
 		<SimpleData name="Adresse">7, RUE DE RUFFI</SimpleData>
-		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+		<SimpleData name="Denomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -348,15 +394,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.368176,43.315533,30 5.368733,43.315711,30 5.368748,43.315685,30 5.368759,43.315669,30 5.368729,43.315618,30 5.368262,43.315478,30 5.368195,43.315501,30 5.368181,43.315525,30 5.368176,43.315533,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7246">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.368176,43.315533,30 5.368733,43.315711,30 5.368748,43.315685,30 5.368759,43.315669,30 5.368729,43.315618,30 5.368262,43.315478,30 5.368195,43.315501,30 5.368181,43.315525,30 5.368176,43.315533,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7246">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132028070D0149</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132028070D0149</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 2EME</SimpleData>
 		<SimpleData name="Adresse">RUE DE RUFFI</SimpleData>
-		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+		<SimpleData name="Denomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -370,15 +419,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.368583,43.314823,30 5.369163,43.315,30 5.369264,43.314835,30 5.36868,43.314657,30 5.368583,43.314823,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7250">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.368583,43.314823,30 5.369163,43.315,30 5.369264,43.314835,30 5.36868,43.314657,30 5.368583,43.314823,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7250">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132028100K0142</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132028100K0142</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 2EME</SimpleData>
 		<SimpleData name="Adresse">RUE CHANTERAC</SimpleData>
-		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+		<SimpleData name="Denomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -392,15 +444,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.366683,43.305438,30 5.366693,43.305436,30 5.366682,43.305399,30 5.366672,43.305401,30 5.366683,43.305438,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7261">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.366683,43.305438,30 5.366693,43.305436,30 5.366682,43.305399,30 5.366672,43.305401,30 5.366683,43.305438,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7261">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132028070D0144</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132028070D0144</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 2EME</SimpleData>
 		<SimpleData name="Adresse">222, BD DE PARIS</SimpleData>
-		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+		<SimpleData name="Denomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -414,15 +469,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.368003,43.315486,30 5.368046,43.315412,30 5.367785,43.315334,30 5.3677,43.315308,30 5.367418,43.315224,30 5.367346,43.315245,30 5.367328,43.31528,30 5.368003,43.315486,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7270">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.368003,43.315486,30 5.368046,43.315412,30 5.367785,43.315334,30 5.3677,43.315308,30 5.367418,43.315224,30 5.367346,43.315245,30 5.367328,43.31528,30 5.368003,43.315486,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7270">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132028070D0147</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132028070D0147</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 2EME</SimpleData>
 		<SimpleData name="Adresse">RUE DE RUFFI</SimpleData>
-		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+		<SimpleData name="Denomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -436,15 +494,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.368323,43.315271,30 5.368284,43.315339,30 5.368853,43.315508,30 5.368892,43.315444,30 5.368323,43.315271,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7301">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.368323,43.315271,30 5.368284,43.315339,30 5.368853,43.315508,30 5.368892,43.315444,30 5.368323,43.315271,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7301">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132028070D0155</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132028070D0155</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 2EME</SimpleData>
 		<SimpleData name="Adresse">155, AV ROGER SALENGRO</SimpleData>
-		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+		<SimpleData name="Denomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -458,15 +519,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.369104,43.316541,30 5.369137,43.316532,30 5.369571,43.315872,30 5.369545,43.315865,30 5.369275,43.31628,30 5.369104,43.316541,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7305">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.369104,43.316541,30 5.369137,43.316532,30 5.369571,43.315872,30 5.369545,43.315865,30 5.369275,43.31628,30 5.369104,43.316541,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7305">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132028070D0156</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132028070D0156</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 2EME</SimpleData>
 		<SimpleData name="Adresse">117, AV ROGER SALENGRO</SimpleData>
-		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+		<SimpleData name="Denomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -480,15 +544,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.369826,43.315212,30 5.369846,43.315163,30 5.369871,43.315109,30 5.369911,43.315045,30 5.370068,43.315099,30 5.370086,43.315075,30 5.369876,43.315001,30 5.36988,43.315035,30 5.369876,43.315042,30 5.369853,43.315092,30 5.369666,43.315448,30 5.369645,43.315496,30 5.369581,43.315556,30 5.369537,43.31562,30 5.369496,43.315693,30 5.369516,43.315701,30 5.369559,43.315637,30 5.369607,43.315573,30 5.369671,43.315515,30 5.369683,43.31549,30 5.369709,43.315438,30 5.36974,43.315377,30 5.369771,43.315321,30 5.369799,43.315264,30 5.369826,43.315212,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7307">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.369826,43.315212,30 5.369846,43.315163,30 5.369871,43.315109,30 5.369911,43.315045,30 5.370068,43.315099,30 5.370086,43.315075,30 5.369876,43.315001,30 5.36988,43.315035,30 5.369876,43.315042,30 5.369853,43.315092,30 5.369666,43.315448,30 5.369645,43.315496,30 5.369581,43.315556,30 5.369537,43.31562,30 5.369496,43.315693,30 5.369516,43.315701,30 5.369559,43.315637,30 5.369607,43.315573,30 5.369671,43.315515,30 5.369683,43.31549,30 5.369709,43.315438,30 5.36974,43.315377,30 5.369771,43.315321,30 5.369799,43.315264,30 5.369826,43.315212,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7307">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132028070D0157</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132028070D0157</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 2EME</SimpleData>
 		<SimpleData name="Adresse">117, AV ROGER SALENGRO</SimpleData>
-		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+		<SimpleData name="Denomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -502,15 +569,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.370087,43.315074,30 5.370009,43.315044,30 5.369939,43.315018,30 5.369903,43.315008,30 5.369899,43.31496,30 5.369895,43.314919,30 5.369866,43.314897,30 5.369871,43.314932,30 5.369855,43.314966,30 5.369873,43.314972,30 5.369876,43.315001,30 5.370086,43.315075,30 5.370087,43.315074,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7320">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.370087,43.315074,30 5.370009,43.315044,30 5.369939,43.315018,30 5.369903,43.315008,30 5.369899,43.31496,30 5.369895,43.314919,30 5.369866,43.314897,30 5.369871,43.314932,30 5.369855,43.314966,30 5.369873,43.314972,30 5.369876,43.315001,30 5.370086,43.315075,30 5.370087,43.315074,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7320">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132028070D0160</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132028070D0160</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 2EME</SimpleData>
 		<SimpleData name="Adresse">117, AV ROGER SALENGRO</SimpleData>
-		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+		<SimpleData name="Denomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -524,15 +594,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.370077,43.314485,30 5.370053,43.314477,30 5.37,43.314568,30 5.369989,43.314587,30 5.370014,43.314595,30 5.370077,43.314485,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7333">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.370077,43.314485,30 5.370053,43.314477,30 5.37,43.314568,30 5.369989,43.314587,30 5.370014,43.314595,30 5.370077,43.314485,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7333">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132028070D0166</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132028070D0166</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 2EME</SimpleData>
 		<SimpleData name="Adresse">BD DE PARIS</SimpleData>
-		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -546,15 +619,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.366426,43.31575,30 5.366554,43.315673,30 5.366631,43.315612,30 5.36664,43.315603,30 5.366651,43.315592,30 5.366657,43.315583,30 5.36672,43.315484,30 5.36674,43.315449,30 5.36683,43.315312,30 5.366833,43.315313,30 5.366858,43.31527,30 5.366852,43.315267,30 5.366957,43.315081,30 5.367036,43.314942,30 5.367066,43.314889,30 5.367196,43.314661,30 5.367219,43.314619,30 5.367258,43.31455,30 5.367265,43.314537,30 5.367283,43.314502,30 5.367303,43.314468,30 5.367343,43.3144,30 5.367378,43.31434,30 5.367423,43.31426,30 5.367533,43.31407,30 5.367599,43.314089,30 5.367601,43.314086,30 5.367471,43.314047,30 5.367217,43.314496,30 5.36707,43.314742,30 5.366925,43.314975,30 5.366895,43.315013,30 5.366778,43.315141,30 5.366669,43.315259,30 5.366538,43.315388,30 5.366461,43.315478,30 5.366449,43.315484,30 5.366337,43.315683,30 5.366272,43.315703,30 5.366426,43.31575,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7443">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.366426,43.31575,30 5.366554,43.315673,30 5.366631,43.315612,30 5.36664,43.315603,30 5.366651,43.315592,30 5.366657,43.315583,30 5.36672,43.315484,30 5.36674,43.315449,30 5.36683,43.315312,30 5.366833,43.315313,30 5.366858,43.31527,30 5.366852,43.315267,30 5.366957,43.315081,30 5.367036,43.314942,30 5.367066,43.314889,30 5.367196,43.314661,30 5.367219,43.314619,30 5.367258,43.31455,30 5.367265,43.314537,30 5.367283,43.314502,30 5.367303,43.314468,30 5.367343,43.3144,30 5.367378,43.31434,30 5.367423,43.31426,30 5.367533,43.31407,30 5.367599,43.314089,30 5.367601,43.314086,30 5.367471,43.314047,30 5.367217,43.314496,30 5.36707,43.314742,30 5.366925,43.314975,30 5.366895,43.315013,30 5.366778,43.315141,30 5.366669,43.315259,30 5.366538,43.315388,30 5.366461,43.315478,30 5.366449,43.315484,30 5.366337,43.315683,30 5.366272,43.315703,30 5.366426,43.31575,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7443">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132028070B0022</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132028070B0022</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 2EME</SimpleData>
 		<SimpleData name="Adresse">139, CHE DE LA MADRAGUE VILLE</SimpleData>
-		<SimpleData name="Dénomination">FONCIER PACA</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+		<SimpleData name="Denomination">FONCIER PACA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -568,15 +644,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.360613,43.326814,30 5.360652,43.326757,30 5.360528,43.326713,30 5.360496,43.326702,30 5.360482,43.326699,30 5.360405,43.326671,30 5.360358,43.326655,30 5.360249,43.326617,30 5.36027,43.326596,30 5.360151,43.326556,30 5.360057,43.326621,30 5.360194,43.326669,30 5.360244,43.326687,30 5.360261,43.326692,30 5.360319,43.326712,30 5.360427,43.326749,30 5.360479,43.326768,30 5.360491,43.326772,30 5.360613,43.326814,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7445">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.360613,43.326814,30 5.360652,43.326757,30 5.360528,43.326713,30 5.360496,43.326702,30 5.360482,43.326699,30 5.360405,43.326671,30 5.360358,43.326655,30 5.360249,43.326617,30 5.36027,43.326596,30 5.360151,43.326556,30 5.360057,43.326621,30 5.360194,43.326669,30 5.360244,43.326687,30 5.360261,43.326692,30 5.360319,43.326712,30 5.360427,43.326749,30 5.360479,43.326768,30 5.360491,43.326772,30 5.360613,43.326814,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7445">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132028100H0022</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132028100H0022</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 2EME</SimpleData>
 		<SimpleData name="Adresse">BD J. SAADE Q. DE LA TOURETTE</SimpleData>
-		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+		<SimpleData name="Denomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -590,15 +669,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.360226,43.297695,30 5.360423,43.297462,30 5.360404,43.297453,30 5.360286,43.2974,30 5.360089,43.297634,30 5.360226,43.297695,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7455">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.360226,43.297695,30 5.360423,43.297462,30 5.360404,43.297453,30 5.360286,43.2974,30 5.360089,43.297634,30 5.360226,43.297695,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7455">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132028100H0023</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132028100H0023</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 2EME</SimpleData>
 		<SimpleData name="Adresse">BD J. SAADE Q. DE LA TOURETTE</SimpleData>
-		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+		<SimpleData name="Denomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -612,15 +694,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.361432,43.298188,30 5.361598,43.29799,30 5.36157,43.297978,30 5.360423,43.297462,30 5.360226,43.297695,30 5.360693,43.297905,30 5.360793,43.297792,30 5.361171,43.297961,30 5.361082,43.298077,30 5.361375,43.298211,30 5.361432,43.298188,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7464">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.361432,43.298188,30 5.361598,43.29799,30 5.36157,43.297978,30 5.360423,43.297462,30 5.360226,43.297695,30 5.360693,43.297905,30 5.360793,43.297792,30 5.361171,43.297961,30 5.361082,43.298077,30 5.361375,43.298211,30 5.361432,43.298188,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7464">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132028100H0024</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132028100H0024</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 2EME</SimpleData>
 		<SimpleData name="Adresse">BD J. SAADE Q. DE LA TOURETTE</SimpleData>
-		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+		<SimpleData name="Denomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -634,15 +719,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.363219,43.298718,30 5.361598,43.29799,30 5.361432,43.298188,30 5.361586,43.298128,30 5.361597,43.298124,30 5.361613,43.298119,30 5.36163,43.298115,30 5.361647,43.298112,30 5.361665,43.29811,30 5.361682,43.298109,30 5.3617,43.298108,30 5.361718,43.298109,30 5.361736,43.29811,30 5.361753,43.298112,30 5.36177,43.298115,30 5.361787,43.298119,30 5.361804,43.298124,30 5.36182,43.29813,30 5.361834,43.298136,30 5.362196,43.298295,30 5.36228,43.298324,30 5.362335,43.298338,30 5.362367,43.298348,30 5.362431,43.298371,30 5.363219,43.298718,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7508">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.363219,43.298718,30 5.361598,43.29799,30 5.361432,43.298188,30 5.361586,43.298128,30 5.361597,43.298124,30 5.361613,43.298119,30 5.36163,43.298115,30 5.361647,43.298112,30 5.361665,43.29811,30 5.361682,43.298109,30 5.3617,43.298108,30 5.361718,43.298109,30 5.361736,43.29811,30 5.361753,43.298112,30 5.36177,43.298115,30 5.361787,43.298119,30 5.361804,43.298124,30 5.36182,43.29813,30 5.361834,43.298136,30 5.362196,43.298295,30 5.36228,43.298324,30 5.362335,43.298338,30 5.362367,43.298348,30 5.362431,43.298371,30 5.363219,43.298718,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7508">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132028080B0028</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132028080B0028</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 2EME</SimpleData>
 		<SimpleData name="Adresse">38, RUE MONTOLIEU</SimpleData>
-		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+		<SimpleData name="Denomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -656,15 +744,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.371373,43.303642,30 5.371409,43.303726,30 5.371496,43.303711,30 5.371457,43.303623,30 5.371373,43.303642,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7509">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.371373,43.303642,30 5.371409,43.303726,30 5.371496,43.303711,30 5.371457,43.303623,30 5.371373,43.303642,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7509">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132028070B0028</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132028070B0028</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 2EME</SimpleData>
 		<SimpleData name="Adresse">RUE DU RHIN-FIDELITY</SimpleData>
-		<SimpleData name="Dénomination">SNCF RESEAU</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">SNCF RESEAU</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -678,15 +769,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.358685,43.32695,30 5.358658,43.326939,30 5.35863,43.326931,30 5.358531,43.326948,30 5.358444,43.327059,30 5.358342,43.327184,30 5.357582,43.328124,30 5.357281,43.328492,30 5.357292,43.328502,30 5.357302,43.328515,30 5.35763,43.32866,30 5.358707,43.32736,30 5.358696,43.327352,30 5.358731,43.327313,30 5.358897,43.327319,30 5.358922,43.327318,30 5.358994,43.32725,30 5.359009,43.327236,30 5.359023,43.327223,30 5.359112,43.327136,30 5.359091,43.327126,30 5.359087,43.327124,30 5.359055,43.327109,30 5.358685,43.32695,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7532">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.358685,43.32695,30 5.358658,43.326939,30 5.35863,43.326931,30 5.358531,43.326948,30 5.358444,43.327059,30 5.358342,43.327184,30 5.357582,43.328124,30 5.357281,43.328492,30 5.357292,43.328502,30 5.357302,43.328515,30 5.35763,43.32866,30 5.358707,43.32736,30 5.358696,43.327352,30 5.358731,43.327313,30 5.358897,43.327319,30 5.358922,43.327318,30 5.358994,43.32725,30 5.359009,43.327236,30 5.359023,43.327223,30 5.359112,43.327136,30 5.359091,43.327126,30 5.359087,43.327124,30 5.359055,43.327109,30 5.358685,43.32695,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7532">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132028070B0031</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132028070B0031</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 2EME</SimpleData>
 		<SimpleData name="Adresse">RUE DU RHIN-FIDELITY</SimpleData>
-		<SimpleData name="Dénomination">SNCF RESEAU</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">SNCF RESEAU</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -700,15 +794,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.358183,43.327043,30 5.358104,43.327087,30 5.35802,43.327124,30 5.357931,43.327156,30 5.357838,43.327181,30 5.357743,43.327198,30 5.357645,43.327209,30 5.357546,43.327213,30 5.357466,43.327211,30 5.357522,43.327247,30 5.357627,43.327408,30 5.357676,43.327589,30 5.357686,43.327767,30 5.35765,43.327943,30 5.357582,43.328124,30 5.358342,43.327184,30 5.358266,43.327149,30 5.358225,43.327154,30 5.358201,43.327085,30 5.358183,43.327043,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7534">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.358183,43.327043,30 5.358104,43.327087,30 5.35802,43.327124,30 5.357931,43.327156,30 5.357838,43.327181,30 5.357743,43.327198,30 5.357645,43.327209,30 5.357546,43.327213,30 5.357466,43.327211,30 5.357522,43.327247,30 5.357627,43.327408,30 5.357676,43.327589,30 5.357686,43.327767,30 5.35765,43.327943,30 5.357582,43.328124,30 5.358342,43.327184,30 5.358266,43.327149,30 5.358225,43.327154,30 5.358201,43.327085,30 5.358183,43.327043,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7534">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132028070D0031</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132028070D0031</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 2EME</SimpleData>
 		<SimpleData name="Adresse">117, AV ROGER SALENGRO</SimpleData>
-		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+		<SimpleData name="Denomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -722,15 +819,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.370087,43.315074,30 5.370134,43.315001,30 5.370056,43.314974,30 5.369997,43.314952,30 5.369987,43.314949,30 5.36998,43.314946,30 5.369936,43.314929,30 5.369894,43.314916,30 5.369895,43.314919,30 5.369899,43.31496,30 5.369903,43.315008,30 5.369939,43.315018,30 5.370009,43.315044,30 5.370087,43.315074,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7548">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.370087,43.315074,30 5.370134,43.315001,30 5.370056,43.314974,30 5.369997,43.314952,30 5.369987,43.314949,30 5.36998,43.314946,30 5.369936,43.314929,30 5.369894,43.314916,30 5.369895,43.314919,30 5.369899,43.31496,30 5.369903,43.315008,30 5.369939,43.315018,30 5.370009,43.315044,30 5.370087,43.315074,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7548">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132028080B0033</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132028080B0033</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 2EME</SimpleData>
 		<SimpleData name="Adresse">28, RUE MONTOLIEU</SimpleData>
-		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+		<SimpleData name="Denomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -744,15 +844,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.371883,43.303525,30 5.371797,43.303546,30 5.371842,43.303647,30 5.371929,43.303627,30 5.371883,43.303525,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7552">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.371883,43.303525,30 5.371797,43.303546,30 5.371842,43.303647,30 5.371929,43.303627,30 5.371883,43.303525,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7552">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132028080B0034</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132028080B0034</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 2EME</SimpleData>
 		<SimpleData name="Adresse">26, RUE MONTOLIEU</SimpleData>
-		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+		<SimpleData name="Denomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -766,15 +869,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.371883,43.303525,30 5.371929,43.303627,30 5.372005,43.303594,30 5.371966,43.303506,30 5.371883,43.303525,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7557">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.371883,43.303525,30 5.371929,43.303627,30 5.372005,43.303594,30 5.371966,43.303506,30 5.371883,43.303525,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7557">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132028080B0035</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132028080B0035</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 2EME</SimpleData>
 		<SimpleData name="Adresse">24, RUE MONTOLIEU</SimpleData>
-		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+		<SimpleData name="Denomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -788,15 +894,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.371966,43.303506,30 5.372005,43.303594,30 5.372007,43.303598,30 5.37208,43.303557,30 5.372049,43.303487,30 5.371966,43.303506,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7560">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.371966,43.303506,30 5.372005,43.303594,30 5.372007,43.303598,30 5.37208,43.303557,30 5.372049,43.303487,30 5.371966,43.303506,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7560">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132028080B0036</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132028080B0036</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 2EME</SimpleData>
 		<SimpleData name="Adresse">22, RUE MONTOLIEU</SimpleData>
-		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+		<SimpleData name="Denomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -810,15 +919,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.372049,43.303487,30 5.37208,43.303557,30 5.372156,43.303516,30 5.372133,43.303467,30 5.372049,43.303487,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7566">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.372049,43.303487,30 5.37208,43.303557,30 5.372156,43.303516,30 5.372133,43.303467,30 5.372049,43.303487,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7566">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132028080B0037</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132028080B0037</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 2EME</SimpleData>
 		<SimpleData name="Adresse">20, RUE MONTOLIEU</SimpleData>
-		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+		<SimpleData name="Denomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -832,15 +944,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.372133,43.303467,30 5.372156,43.303516,30 5.372231,43.303473,30 5.372219,43.303447,30 5.372133,43.303467,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7569">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.372133,43.303467,30 5.372156,43.303516,30 5.372231,43.303473,30 5.372219,43.303447,30 5.372133,43.303467,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7569">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132028080B0038</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132028080B0038</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 2EME</SimpleData>
 		<SimpleData name="Adresse">18, RUE MONTOLIEU</SimpleData>
-		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+		<SimpleData name="Denomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -854,15 +969,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.372219,43.303447,30 5.372231,43.303473,30 5.372292,43.303441,30 5.372303,43.303427,30 5.372287,43.303432,30 5.372219,43.303447,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7578">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.372219,43.303447,30 5.372231,43.303473,30 5.372292,43.303441,30 5.372303,43.303427,30 5.372287,43.303432,30 5.372219,43.303447,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7578">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132028070B0040</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132028070B0040</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 2EME</SimpleData>
 		<SimpleData name="Adresse">TRA DU TELEGRAPHE</SimpleData>
-		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -876,15 +994,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.357217,43.32857,30 5.357251,43.328528,30 5.357229,43.328501,30 5.357087,43.328274,30 5.35707,43.328262,30 5.357048,43.328255,30 5.357025,43.328255,30 5.35702,43.328256,30 5.357217,43.32857,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7613">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.357217,43.32857,30 5.357251,43.328528,30 5.357229,43.328501,30 5.357087,43.328274,30 5.35707,43.328262,30 5.357048,43.328255,30 5.357025,43.328255,30 5.35702,43.328256,30 5.357217,43.32857,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7613">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132028080B0046</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132028080B0046</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 2EME</SimpleData>
 		<SimpleData name="Adresse">57, RUE DU BON PASTEUR</SimpleData>
-		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+		<SimpleData name="Denomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -898,15 +1019,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.372799,43.303486,30 5.372774,43.303484,30 5.37273,43.303481,30 5.372727,43.303502,30 5.372713,43.303599,30 5.372782,43.303603,30 5.372796,43.303506,30 5.372796,43.303503,30 5.372799,43.303486,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7620">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.372799,43.303486,30 5.372774,43.303484,30 5.37273,43.303481,30 5.372727,43.303502,30 5.372713,43.303599,30 5.372782,43.303603,30 5.372796,43.303506,30 5.372796,43.303503,30 5.372799,43.303486,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7620">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132028080B0048</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132028080B0048</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 2EME</SimpleData>
 		<SimpleData name="Adresse">57, RUE DU BON PASTEUR</SimpleData>
-		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+		<SimpleData name="Denomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -920,15 +1044,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.372464,43.303465,30 5.372448,43.303582,30 5.372534,43.303586,30 5.372581,43.30359,30 5.372595,43.303492,30 5.3726,43.303493,30 5.372727,43.303502,30 5.37273,43.303481,30 5.372602,43.303473,30 5.372496,43.303467,30 5.372464,43.303465,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7636">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.372464,43.303465,30 5.372448,43.303582,30 5.372534,43.303586,30 5.372581,43.30359,30 5.372595,43.303492,30 5.3726,43.303493,30 5.372727,43.303502,30 5.37273,43.303481,30 5.372602,43.303473,30 5.372496,43.303467,30 5.372464,43.303465,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7636">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132028070D0050</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132028070D0050</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 2EME</SimpleData>
 		<SimpleData name="Adresse">200, BD DE PARIS</SimpleData>
-		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+		<SimpleData name="Denomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -942,15 +1069,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.368791,43.314136,30 5.368764,43.31409,30 5.368161,43.313909,30 5.368093,43.313928,30 5.36746,43.315048,30 5.367483,43.315101,30 5.36816,43.3153,30 5.368359,43.314955,30 5.36835,43.31495,30 5.368789,43.314175,30 5.368781,43.314158,30 5.368791,43.314136,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7662">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.368791,43.314136,30 5.368764,43.31409,30 5.368161,43.313909,30 5.368093,43.313928,30 5.36746,43.315048,30 5.367483,43.315101,30 5.36816,43.3153,30 5.368359,43.314955,30 5.36835,43.31495,30 5.368789,43.314175,30 5.368781,43.314158,30 5.368791,43.314136,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7662">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132028080B0057</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132028080B0057</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 2EME</SimpleData>
 		<SimpleData name="Adresse">15, RUE FAUCHIER</SimpleData>
-		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+		<SimpleData name="Denomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -964,15 +1094,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.371481,43.304007,30 5.371619,43.304237,30 5.371752,43.304192,30 5.371811,43.30417,30 5.371867,43.304151,30 5.371964,43.304116,30 5.371972,43.304112,30 5.372034,43.304091,30 5.372038,43.304088,30 5.372108,43.304063,30 5.372193,43.304032,30 5.372086,43.303852,30 5.372055,43.3038,30 5.372044,43.303799,30 5.372013,43.303753,30 5.371949,43.303653,30 5.371935,43.303632,30 5.371803,43.303667,30 5.371694,43.303686,30 5.371651,43.303695,30 5.37162,43.3037,30 5.371617,43.303697,30 5.371584,43.303703,30 5.371576,43.303704,30 5.37134,43.303745,30 5.371341,43.303747,30 5.371469,43.303985,30 5.37148,43.304004,30 5.371481,43.304007,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7672">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.371481,43.304007,30 5.371619,43.304237,30 5.371752,43.304192,30 5.371811,43.30417,30 5.371867,43.304151,30 5.371964,43.304116,30 5.371972,43.304112,30 5.372034,43.304091,30 5.372038,43.304088,30 5.372108,43.304063,30 5.372193,43.304032,30 5.372086,43.303852,30 5.372055,43.3038,30 5.372044,43.303799,30 5.372013,43.303753,30 5.371949,43.303653,30 5.371935,43.303632,30 5.371803,43.303667,30 5.371694,43.303686,30 5.371651,43.303695,30 5.37162,43.3037,30 5.371617,43.303697,30 5.371584,43.303703,30 5.371576,43.303704,30 5.37134,43.303745,30 5.371341,43.303747,30 5.371469,43.303985,30 5.37148,43.304004,30 5.371481,43.304007,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7672">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132028070C0006</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132028070C0006</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 2EME</SimpleData>
 		<SimpleData name="Adresse">VC RPE DACCES</SimpleData>
-		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -986,15 +1119,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.362497,43.318914,30 5.362444,43.318971,30 5.362464,43.319022,30 5.362496,43.319035,30 5.3625,43.319082,30 5.362507,43.319117,30 5.362512,43.319112,30 5.362519,43.319106,30 5.362497,43.318914,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7687">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.362497,43.318914,30 5.362444,43.318971,30 5.362464,43.319022,30 5.362496,43.319035,30 5.3625,43.319082,30 5.362507,43.319117,30 5.362512,43.319112,30 5.362519,43.319106,30 5.362497,43.318914,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7687">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132028070D0062</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132028070D0062</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 2EME</SimpleData>
 		<SimpleData name="Adresse">RUE SAINT-CASSIEN</SimpleData>
-		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1008,15 +1144,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.363328,43.317646,30 5.363315,43.317596,30 5.363011,43.317459,30 5.362982,43.317493,30 5.363003,43.317944,30 5.36298,43.318063,30 5.363328,43.317646,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7694">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.363328,43.317646,30 5.363315,43.317596,30 5.363011,43.317459,30 5.362982,43.317493,30 5.363003,43.317944,30 5.36298,43.318063,30 5.363328,43.317646,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7694">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132028070D0063</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132028070D0063</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 2EME</SimpleData>
 		<SimpleData name="Adresse">RUE SAINT-CASSIEN</SimpleData>
-		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1030,15 +1169,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.362758,43.318338,30 5.362815,43.318174,30 5.362873,43.317945,30 5.36286,43.317641,30 5.362572,43.317986,30 5.362627,43.31811,30 5.362654,43.318195,30 5.362665,43.318311,30 5.362665,43.318352,30 5.362661,43.318457,30 5.362758,43.318338,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7699">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.362758,43.318338,30 5.362815,43.318174,30 5.362873,43.317945,30 5.36286,43.317641,30 5.362572,43.317986,30 5.362627,43.31811,30 5.362654,43.318195,30 5.362665,43.318311,30 5.362665,43.318352,30 5.362661,43.318457,30 5.362758,43.318338,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7699">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132028070D0064</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132028070D0064</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 2EME</SimpleData>
 		<SimpleData name="Adresse">QUAI DE LA GARE MARITIME</SimpleData>
-		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1052,15 +1194,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.362216,43.318913,30 5.36229,43.318899,30 5.362472,43.318684,30 5.362456,43.318602,30 5.362419,43.318485,30 5.36234,43.318365,30 5.362299,43.318323,30 5.362216,43.318267,30 5.362149,43.318273,30 5.361808,43.318691,30 5.361823,43.318738,30 5.362216,43.318913,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7770">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.362216,43.318913,30 5.36229,43.318899,30 5.362472,43.318684,30 5.362456,43.318602,30 5.362419,43.318485,30 5.36234,43.318365,30 5.362299,43.318323,30 5.362216,43.318267,30 5.362149,43.318273,30 5.361808,43.318691,30 5.361823,43.318738,30 5.362216,43.318913,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7770">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132028070D0085</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132028070D0085</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 2EME</SimpleData>
 		<SimpleData name="Adresse">PL DANTHOINE</SimpleData>
-		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+		<SimpleData name="Denomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1074,15 +1219,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.367313,43.313978,30 5.367209,43.314123,30 5.367121,43.314232,30 5.3671,43.31427,30 5.366966,43.314509,30 5.366915,43.314599,30 5.366913,43.314598,30 5.366875,43.314665,30 5.366826,43.314752,30 5.366761,43.31486,30 5.366756,43.314868,30 5.366805,43.314855,30 5.367156,43.314249,30 5.367313,43.313978,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7776">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.367313,43.313978,30 5.367209,43.314123,30 5.367121,43.314232,30 5.3671,43.31427,30 5.366966,43.314509,30 5.366915,43.314599,30 5.366913,43.314598,30 5.366875,43.314665,30 5.366826,43.314752,30 5.366761,43.31486,30 5.366756,43.314868,30 5.366805,43.314855,30 5.367156,43.314249,30 5.367313,43.313978,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7776">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132028070D0087</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132028070D0087</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 2EME</SimpleData>
 		<SimpleData name="Adresse">PL DANTHOINE</SimpleData>
-		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1096,15 +1244,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.366756,43.314868,30 5.366761,43.31486,30 5.366826,43.314752,30 5.366875,43.314665,30 5.366913,43.314598,30 5.366915,43.314599,30 5.366966,43.314509,30 5.3671,43.31427,30 5.367121,43.314232,30 5.36701,43.314355,30 5.366881,43.314481,30 5.366759,43.314579,30 5.366732,43.31462,30 5.366658,43.314724,30 5.366597,43.314806,30 5.366583,43.314823,30 5.366744,43.314871,30 5.366756,43.314868,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7782">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.366756,43.314868,30 5.366761,43.31486,30 5.366826,43.314752,30 5.366875,43.314665,30 5.366913,43.314598,30 5.366915,43.314599,30 5.366966,43.314509,30 5.3671,43.31427,30 5.367121,43.314232,30 5.36701,43.314355,30 5.366881,43.314481,30 5.366759,43.314579,30 5.366732,43.31462,30 5.366658,43.314724,30 5.366597,43.314806,30 5.366583,43.314823,30 5.366744,43.314871,30 5.366756,43.314868,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7782">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132028070D0088</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132028070D0088</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 2EME</SimpleData>
 		<SimpleData name="Adresse">33, RUE DANTHOINE</SimpleData>
-		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1118,15 +1269,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.366449,43.315484,30 5.366298,43.315568,30 5.366131,43.315659,30 5.366272,43.315703,30 5.366337,43.315683,30 5.366449,43.315484,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7786">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.366449,43.315484,30 5.366298,43.315568,30 5.366131,43.315659,30 5.366272,43.315703,30 5.366337,43.315683,30 5.366449,43.315484,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7786">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132028070D0089</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132028070D0089</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 2EME</SimpleData>
 		<SimpleData name="Adresse">33, RUE DANTHOINE</SimpleData>
-		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1140,15 +1294,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.366667,43.315,30 5.366665,43.314996,30 5.366487,43.31494,30 5.366479,43.31495,30 5.366398,43.315045,30 5.366315,43.315135,30 5.366247,43.315206,30 5.366251,43.315209,30 5.366162,43.315288,30 5.36609,43.315356,30 5.365959,43.315472,30 5.365849,43.315572,30 5.366039,43.315631,30 5.366115,43.315572,30 5.366198,43.315505,30 5.366267,43.315443,30 5.366357,43.315357,30 5.366419,43.315294,30 5.366423,43.315296,30 5.366502,43.315209,30 5.366569,43.31513,30 5.366633,43.315048,30 5.366667,43.315,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7791">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.366667,43.315,30 5.366665,43.314996,30 5.366487,43.31494,30 5.366479,43.31495,30 5.366398,43.315045,30 5.366315,43.315135,30 5.366247,43.315206,30 5.366251,43.315209,30 5.366162,43.315288,30 5.36609,43.315356,30 5.365959,43.315472,30 5.365849,43.315572,30 5.366039,43.315631,30 5.366115,43.315572,30 5.366198,43.315505,30 5.366267,43.315443,30 5.366357,43.315357,30 5.366419,43.315294,30 5.366423,43.315296,30 5.366502,43.315209,30 5.366569,43.31513,30 5.366633,43.315048,30 5.366667,43.315,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7791">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132028070D0090</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132028070D0090</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 2EME</SimpleData>
 		<SimpleData name="Adresse">33, RUE DANTHOINE</SimpleData>
-		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+		<SimpleData name="Denomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1162,15 +1319,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.366667,43.315,30 5.366633,43.315048,30 5.366569,43.31513,30 5.366502,43.315209,30 5.366423,43.315296,30 5.366419,43.315294,30 5.366357,43.315357,30 5.366267,43.315443,30 5.366198,43.315505,30 5.366115,43.315572,30 5.366039,43.315631,30 5.366131,43.315659,30 5.366298,43.315568,30 5.366449,43.315484,30 5.366697,43.315045,30 5.366667,43.315,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7798">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.366667,43.315,30 5.366633,43.315048,30 5.366569,43.31513,30 5.366502,43.315209,30 5.366423,43.315296,30 5.366419,43.315294,30 5.366357,43.315357,30 5.366267,43.315443,30 5.366198,43.315505,30 5.366115,43.315572,30 5.366039,43.315631,30 5.366131,43.315659,30 5.366298,43.315568,30 5.366449,43.315484,30 5.366697,43.315045,30 5.366667,43.315,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7798">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132028070D0092</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132028070D0092</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 2EME</SimpleData>
 		<SimpleData name="Adresse">BD DE PARIS</SimpleData>
-		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+		<SimpleData name="Denomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1184,15 +1344,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.366426,43.31575,30 5.366791,43.315552,30 5.366847,43.315453,30 5.36674,43.315449,30 5.36672,43.315484,30 5.366657,43.315583,30 5.366651,43.315592,30 5.36664,43.315603,30 5.366631,43.315612,30 5.366554,43.315673,30 5.366426,43.31575,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7801">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.366426,43.31575,30 5.366791,43.315552,30 5.366847,43.315453,30 5.36674,43.315449,30 5.36672,43.315484,30 5.366657,43.315583,30 5.366651,43.315592,30 5.36664,43.315603,30 5.366631,43.315612,30 5.366554,43.315673,30 5.366426,43.31575,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7801">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132028070D0093</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132028070D0093</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 2EME</SimpleData>
 		<SimpleData name="Adresse">BD DE PARIS</SimpleData>
-		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+		<SimpleData name="Denomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1206,15 +1369,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.367616,43.31409,30 5.368122,43.313193,30 5.36814,43.313152,30 5.36817,43.313084,30 5.36819,43.313026,30 5.368088,43.312994,30 5.367908,43.312936,30 5.367565,43.313532,30 5.367561,43.313539,30 5.367518,43.313526,30 5.36743,43.313684,30 5.367428,43.313687,30 5.367469,43.313701,30 5.367313,43.313978,30 5.367156,43.314249,30 5.366805,43.314855,30 5.366756,43.314868,30 5.366693,43.314965,30 5.366667,43.315,30 5.366697,43.315045,30 5.366449,43.315484,30 5.366461,43.315478,30 5.366538,43.315388,30 5.366669,43.315259,30 5.366778,43.315141,30 5.366895,43.315013,30 5.366925,43.314975,30 5.36707,43.314742,30 5.367217,43.314496,30 5.367471,43.314047,30 5.367601,43.314086,30 5.367616,43.31409,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7814">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.367616,43.31409,30 5.368122,43.313193,30 5.36814,43.313152,30 5.36817,43.313084,30 5.36819,43.313026,30 5.368088,43.312994,30 5.367908,43.312936,30 5.367565,43.313532,30 5.367561,43.313539,30 5.367518,43.313526,30 5.36743,43.313684,30 5.367428,43.313687,30 5.367469,43.313701,30 5.367313,43.313978,30 5.367156,43.314249,30 5.366805,43.314855,30 5.366756,43.314868,30 5.366693,43.314965,30 5.366667,43.315,30 5.366697,43.315045,30 5.366449,43.315484,30 5.366461,43.315478,30 5.366538,43.315388,30 5.366669,43.315259,30 5.366778,43.315141,30 5.366895,43.315013,30 5.366925,43.314975,30 5.36707,43.314742,30 5.367217,43.314496,30 5.367471,43.314047,30 5.367601,43.314086,30 5.367616,43.31409,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7814">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132028070D0096</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132028070D0096</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 2EME</SimpleData>
 		<SimpleData name="Adresse">BD DE PARIS</SimpleData>
-		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1228,15 +1394,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.366756,43.314868,30 5.366744,43.314871,30 5.366583,43.314823,30 5.366487,43.31494,30 5.366665,43.314996,30 5.366667,43.315,30 5.366693,43.314965,30 5.366756,43.314868,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7820">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.366756,43.314868,30 5.366744,43.314871,30 5.366583,43.314823,30 5.366487,43.31494,30 5.366665,43.314996,30 5.366667,43.315,30 5.366693,43.314965,30 5.366756,43.314868,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7820">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132028070D0098</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132028070D0098</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 2EME</SimpleData>
 		<SimpleData name="Adresse">BD DE PARIS</SimpleData>
-		<SimpleData name="Dénomination">SOCIETE NATIONALE SNCF</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">SOCIETE NATIONALE SNCF</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1250,15 +1419,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.367518,43.313526,30 5.36749,43.313518,30 5.367396,43.313676,30 5.367428,43.313687,30 5.36743,43.313684,30 5.367518,43.313526,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.7823">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.367518,43.313526,30 5.36749,43.313518,30 5.367396,43.313676,30 5.367428,43.313687,30 5.36743,43.313684,30 5.367518,43.313526,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="publicorassocie.7823">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">132028070D0099</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">132028070D0099</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 2EME</SimpleData>
 		<SimpleData name="Adresse">RUE DANTHOINE</SimpleData>
-		<SimpleData name="Dénomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+		<SimpleData name="Denomination">ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -1272,5 +1444,6 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.365785,43.315849,30 5.36589,43.315794,30 5.366046,43.315706,30 5.366039,43.315631,30 5.365849,43.315572,30 5.365653,43.31572,30 5.365566,43.315783,30 5.365785,43.315849,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.365785,43.315849,30 5.36589,43.315794,30 5.366046,43.315706,30 5.366039,43.315631,30 5.365849,43.315572,30 5.365653,43.31572,30 5.365566,43.315783,30 5.365785,43.315849,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
 </Folder></Document></kml>

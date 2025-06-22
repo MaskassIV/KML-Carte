@@ -2,11 +2,13 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document id="root_doc">
 <Schema name="CEYRESTE_region" id="CEYRESTE_region">
-	<SimpleField name="Numéro de Parcelle" type="string"></SimpleField>
+	<SimpleField name="Numero de Parcelle" type="string"></SimpleField>
 	<SimpleField name="Departement" type="string"></SimpleField>
 	<SimpleField name="Commune" type="string"></SimpleField>
 	<SimpleField name="Adresse" type="string"></SimpleField>
-	<SimpleField name="Dénomination" type="string"></SimpleField>
+	<SimpleField name="Groupe de personne" type="string"></SimpleField>
+	<SimpleField name="Forme Juridique Abregee" type="string"></SimpleField>
+	<SimpleField name="Denomination" type="string"></SimpleField>
 </Schema>
 	<Style id="region">
 		<LineStyle>
@@ -19,14 +21,16 @@
 			<outline>1</outline>
 		</PolyStyle>
 	</Style><Folder><name>parcelle_13_region</name>
-  <Placemark id="parcelle_13_region.18">
+  <Placemark id="region.18">
 <styleUrl>#region</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_region">
-		<SimpleData name="Numéro de Parcelle">13023000AH0013</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#region">
+		<SimpleData name="Numero de Parcelle">13023000AH0013</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">CEYRESTE</SimpleData>
 		<SimpleData name="Adresse">BAGUIER</SimpleData>
-		<SimpleData name="Dénomination">REGION PROVENCE-ALPES-COTE DAZUR</SimpleData>
+		<SimpleData name="Groupe de personne">Region</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">COLL</SimpleData>
+		<SimpleData name="Denomination">REGION PROVENCE-ALPES-COTE DAZUR</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -40,6 +44,6 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.662386,43.21084 5.662556,43.210706 5.662415,43.210618 5.662182,43.210703 5.662386,43.21084</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.662386,43.21084 5.662556,43.210706 5.662415,43.210618 5.662182,43.210703 5.662386,43.21084</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
 </Folder></Document></kml>

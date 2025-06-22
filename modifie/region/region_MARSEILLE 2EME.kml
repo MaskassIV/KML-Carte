@@ -2,11 +2,13 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document id="root_doc">
 <Schema name="MARSEILLE 2EME_region" id="MARSEILLE 2EME_region">
-	<SimpleField name="Numéro de Parcelle" type="string"></SimpleField>
+	<SimpleField name="Numero de Parcelle" type="string"></SimpleField>
 	<SimpleField name="Departement" type="string"></SimpleField>
 	<SimpleField name="Commune" type="string"></SimpleField>
 	<SimpleField name="Adresse" type="string"></SimpleField>
-	<SimpleField name="Dénomination" type="string"></SimpleField>
+	<SimpleField name="Groupe de personne" type="string"></SimpleField>
+	<SimpleField name="Forme Juridique Abregee" type="string"></SimpleField>
+	<SimpleField name="Denomination" type="string"></SimpleField>
 </Schema>
 	<Style id="region">
 		<LineStyle>
@@ -19,14 +21,16 @@
 			<outline>1</outline>
 		</PolyStyle>
 	</Style><Folder><name>parcelle_13_region</name>
-  <Placemark id="parcelle_13_region.2">
+  <Placemark id="region.2">
 <styleUrl>#region</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_region">
-		<SimpleData name="Numéro de Parcelle">132028070D0146</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#region">
+		<SimpleData name="Numero de Parcelle">132028070D0146</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 2EME</SimpleData>
 		<SimpleData name="Adresse">222, BD DE PARIS</SimpleData>
-		<SimpleData name="Dénomination">REGION PROVENCE-ALPES-COTE DAZUR</SimpleData>
+		<SimpleData name="Groupe de personne">Region</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">COLL</SimpleData>
+		<SimpleData name="Denomination">REGION PROVENCE-ALPES-COTE DAZUR</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -40,15 +44,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.367076,43.315727,30 5.367074,43.31573,30 5.367208,43.315771,30 5.36721,43.315768,30 5.367076,43.315727,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_region.4">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.367076,43.315727,30 5.367074,43.31573,30 5.367208,43.315771,30 5.36721,43.315768,30 5.367076,43.315727,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="region.4">
 <styleUrl>#region</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_region">
-		<SimpleData name="Numéro de Parcelle">132028080D0339</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#region">
+		<SimpleData name="Numero de Parcelle">132028080D0339</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 2EME</SimpleData>
 		<SimpleData name="Adresse">IMP SAINTE-FRANCOISE</SimpleData>
-		<SimpleData name="Dénomination">ASSISTANCE PUBLIQUE DES HOPITAUX DE MARSEILLE</SimpleData>
+		<SimpleData name="Groupe de personne">Region</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">HOSP</SimpleData>
+		<SimpleData name="Denomination">ASSISTANCE PUBLIQUE DES HOPITAUX DE MARSEILLE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -62,15 +69,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.366791,43.299728,30 5.366743,43.299737,30 5.366763,43.2998,30 5.366824,43.29982,30 5.366813,43.299792,30 5.366802,43.299761,30 5.366801,43.299758,30 5.366798,43.29974,30 5.366794,43.29974,30 5.366791,43.299728,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_region.126">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.366791,43.299728,30 5.366743,43.299737,30 5.366763,43.2998,30 5.366824,43.29982,30 5.366813,43.299792,30 5.366802,43.299761,30 5.366801,43.299758,30 5.366798,43.29974,30 5.366794,43.29974,30 5.366791,43.299728,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="region.126">
 <styleUrl>#region</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_region">
-		<SimpleData name="Numéro de Parcelle">132028070D0140</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#region">
+		<SimpleData name="Numero de Parcelle">132028070D0140</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 2EME</SimpleData>
 		<SimpleData name="Adresse">7, RUE DE RUFFI</SimpleData>
-		<SimpleData name="Dénomination">REGION PROVENCE-ALPES-COTE DAZUR</SimpleData>
+		<SimpleData name="Groupe de personne">Region</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">COLL</SimpleData>
+		<SimpleData name="Denomination">REGION PROVENCE-ALPES-COTE DAZUR</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -84,15 +94,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.368176,43.315533,30 5.368151,43.315576,30 5.368097,43.315676,30 5.367955,43.315918,30 5.367908,43.316003,30 5.367832,43.316135,30 5.367858,43.316183,30 5.367918,43.316201,30 5.368059,43.316244,30 5.368105,43.316258,30 5.368229,43.316294,30 5.368303,43.316318,30 5.368372,43.316297,30 5.368452,43.316165,30 5.368503,43.316085,30 5.368546,43.316014,30 5.368585,43.315953,30 5.368733,43.315711,30 5.368176,43.315533,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_region.127">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.368176,43.315533,30 5.368151,43.315576,30 5.368097,43.315676,30 5.367955,43.315918,30 5.367908,43.316003,30 5.367832,43.316135,30 5.367858,43.316183,30 5.367918,43.316201,30 5.368059,43.316244,30 5.368105,43.316258,30 5.368229,43.316294,30 5.368303,43.316318,30 5.368372,43.316297,30 5.368452,43.316165,30 5.368503,43.316085,30 5.368546,43.316014,30 5.368585,43.315953,30 5.368733,43.315711,30 5.368176,43.315533,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="region.127">
 <styleUrl>#region</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_region">
-		<SimpleData name="Numéro de Parcelle">132028070D0142</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#region">
+		<SimpleData name="Numero de Parcelle">132028070D0142</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 2EME</SimpleData>
 		<SimpleData name="Adresse">222, BD DE PARIS</SimpleData>
-		<SimpleData name="Dénomination">REGION PROVENCE-ALPES-COTE DAZUR</SimpleData>
+		<SimpleData name="Groupe de personne">Region</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">COLL</SimpleData>
+		<SimpleData name="Denomination">REGION PROVENCE-ALPES-COTE DAZUR</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -106,15 +119,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.36721,43.315768,30 5.367208,43.315771,30 5.367179,43.315825,30 5.367157,43.315862,30 5.367101,43.315957,30 5.367638,43.316118,30 5.367773,43.315884,30 5.367242,43.315721,30 5.36721,43.315768,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
-  <Placemark id="parcelle_13_region.130">
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.36721,43.315768,30 5.367208,43.315771,30 5.367179,43.315825,30 5.367157,43.315862,30 5.367101,43.315957,30 5.367638,43.316118,30 5.367773,43.315884,30 5.367242,43.315721,30 5.36721,43.315768,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="region.130">
 <styleUrl>#region</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_region">
-		<SimpleData name="Numéro de Parcelle">132028070D0145</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#region">
+		<SimpleData name="Numero de Parcelle">132028070D0145</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MARSEILLE 2EME</SimpleData>
 		<SimpleData name="Adresse">222, BD DE PARIS</SimpleData>
-		<SimpleData name="Dénomination">REGION PROVENCE-ALPES-COTE DAZUR</SimpleData>
+		<SimpleData name="Groupe de personne">Region</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">COLL</SimpleData>
+		<SimpleData name="Denomination">REGION PROVENCE-ALPES-COTE DAZUR</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -128,5 +144,6 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.367328,43.31528,30 5.367319,43.315296,30 5.367258,43.315398,30 5.367253,43.315407,30 5.367076,43.315727,30 5.36721,43.315768,30 5.367242,43.315721,30 5.367773,43.315884,30 5.368003,43.315486,30 5.367328,43.31528,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.367328,43.31528,30 5.367319,43.315296,30 5.367258,43.315398,30 5.367253,43.315407,30 5.367076,43.315727,30 5.36721,43.315768,30 5.367242,43.315721,30 5.367773,43.315884,30 5.368003,43.315486,30 5.367328,43.31528,30</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
 </Folder></Document></kml>

@@ -2,11 +2,13 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document id="root_doc">
 <Schema name="MAILLANE_DEPT" id="MAILLANE_DEPT">
-	<SimpleField name="Numéro de Parcelle" type="string"></SimpleField>
+	<SimpleField name="Numero de Parcelle" type="string"></SimpleField>
 	<SimpleField name="Departement" type="string"></SimpleField>
 	<SimpleField name="Commune" type="string"></SimpleField>
 	<SimpleField name="Adresse" type="string"></SimpleField>
-	<SimpleField name="Dénomination" type="string"></SimpleField>
+	<SimpleField name="Groupe de personne" type="string"></SimpleField>
+	<SimpleField name="Forme Juridique Abregee" type="string"></SimpleField>
+	<SimpleField name="Denomination" type="string"></SimpleField>
 </Schema>
 	<Style id="DEPT">
 		<LineStyle>
@@ -19,14 +21,16 @@
 			<outline>1</outline>
 		</PolyStyle>
 	</Style><Folder><name>parcelle_13_dept</name>
-  <Placemark id="parcelle_13_dept.360">
+  <Placemark id="dept.360">
 <styleUrl>#DEPT</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
-		<SimpleData name="Numéro de Parcelle">130520000H0986</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#dept">
+		<SimpleData name="Numero de Parcelle">130520000H0986</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MAILLANE</SimpleData>
 		<SimpleData name="Adresse">VILLAGE</SimpleData>
-		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
+		<SimpleData name="Groupe de personne">Departement</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">DEPT</SimpleData>
+		<SimpleData name="Denomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -40,16 +44,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>4.786118,43.831943 4.786146,43.832081 4.786184,43.831946 4.786118,43.831943</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>4.786118,43.831943 4.786146,43.832081 4.786184,43.831946 4.786118,43.831943</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_dept.7671">
+  <Placemark id="dept.7671">
 <styleUrl>#DEPT</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
-		<SimpleData name="Numéro de Parcelle">130520000H0985</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#dept">
+		<SimpleData name="Numero de Parcelle">130520000H0985</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MAILLANE</SimpleData>
 		<SimpleData name="Adresse">VILLAGE</SimpleData>
-		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
+		<SimpleData name="Groupe de personne">Departement</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">DEPT</SimpleData>
+		<SimpleData name="Denomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -63,16 +69,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>4.786072,43.832251 4.786076,43.832243 4.786105,43.832181 4.786081,43.832193 4.78599,43.832195 4.785975,43.832243 4.785973,43.832251 4.786072,43.832251</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>4.786072,43.832251 4.786076,43.832243 4.786105,43.832181 4.786081,43.832193 4.78599,43.832195 4.785975,43.832243 4.785973,43.832251 4.786072,43.832251</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_dept.7674">
+  <Placemark id="dept.7674">
 <styleUrl>#DEPT</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_dept">
-		<SimpleData name="Numéro de Parcelle">130520000H0988</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#dept">
+		<SimpleData name="Numero de Parcelle">130520000H0988</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">MAILLANE</SimpleData>
 		<SimpleData name="Adresse">VILLAGE</SimpleData>
-		<SimpleData name="Dénomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
+		<SimpleData name="Groupe de personne">Departement</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">DEPT</SimpleData>
+		<SimpleData name="Denomination">DEPARTEMENT DES BOUCHES DU RHONE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -86,6 +94,6 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>4.786113,43.831906 4.786118,43.831943 4.786184,43.831946 4.786192,43.831905 4.786113,43.831906</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>4.786113,43.831906 4.786118,43.831943 4.786184,43.831946 4.786192,43.831905 4.786113,43.831906</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
 </Folder></Document></kml>

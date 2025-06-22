@@ -2,11 +2,13 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document id="root_doc">
 <Schema name="LES PENNES MIRABEAU_region" id="LES PENNES MIRABEAU_region">
-	<SimpleField name="Numéro de Parcelle" type="string"></SimpleField>
+	<SimpleField name="Numero de Parcelle" type="string"></SimpleField>
 	<SimpleField name="Departement" type="string"></SimpleField>
 	<SimpleField name="Commune" type="string"></SimpleField>
 	<SimpleField name="Adresse" type="string"></SimpleField>
-	<SimpleField name="Dénomination" type="string"></SimpleField>
+	<SimpleField name="Groupe de personne" type="string"></SimpleField>
+	<SimpleField name="Forme Juridique Abregee" type="string"></SimpleField>
+	<SimpleField name="Denomination" type="string"></SimpleField>
 </Schema>
 	<Style id="region">
 		<LineStyle>
@@ -19,14 +21,16 @@
 			<outline>1</outline>
 		</PolyStyle>
 	</Style><Folder><name>parcelle_13_region</name>
-  <Placemark id="parcelle_13_region.99">
+  <Placemark id="region.99">
 <styleUrl>#region</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_region">
-		<SimpleData name="Numéro de Parcelle">13071000AR0704</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#region">
+		<SimpleData name="Numero de Parcelle">13071000AR0704</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">LES PENNES MIRABEAU</SimpleData>
 		<SimpleData name="Adresse">PIERREFEU</SimpleData>
-		<SimpleData name="Dénomination">REGION PROVENCE-ALPES-COTE DAZUR</SimpleData>
+		<SimpleData name="Groupe de personne">Region</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">COLL</SimpleData>
+		<SimpleData name="Denomination">REGION PROVENCE-ALPES-COTE DAZUR</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -40,6 +44,6 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.322838,43.395607 5.322476,43.395614 5.322382,43.395531 5.321778,43.395561 5.321266,43.395582 5.321118,43.39559 5.320715,43.39557 5.320438,43.395632 5.32036,43.395656 5.320276,43.39569 5.320219,43.395719 5.320175,43.39574 5.32011,43.395773 5.31999,43.3958 5.319967,43.396167 5.320133,43.396195 5.320512,43.396261 5.320535,43.39622 5.320684,43.396202 5.321164,43.395996 5.321204,43.396012 5.321237,43.396025 5.321361,43.396074 5.32156,43.396153 5.321713,43.396155 5.322077,43.39616 5.322277,43.396163 5.322854,43.396259 5.322851,43.396067 5.322841,43.395714 5.322838,43.395607</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.322838,43.395607 5.322476,43.395614 5.322382,43.395531 5.321778,43.395561 5.321266,43.395582 5.321118,43.39559 5.320715,43.39557 5.320438,43.395632 5.32036,43.395656 5.320276,43.39569 5.320219,43.395719 5.320175,43.39574 5.32011,43.395773 5.31999,43.3958 5.319967,43.396167 5.320133,43.396195 5.320512,43.396261 5.320535,43.39622 5.320684,43.396202 5.321164,43.395996 5.321204,43.396012 5.321237,43.396025 5.321361,43.396074 5.32156,43.396153 5.321713,43.396155 5.322077,43.39616 5.322277,43.396163 5.322854,43.396259 5.322851,43.396067 5.322841,43.395714 5.322838,43.395607</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
 </Folder></Document></kml>

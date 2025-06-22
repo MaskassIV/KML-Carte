@@ -2,11 +2,13 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document id="root_doc">
 <Schema name="LA PENNE SUR HUVEAUNE_PMRSEM" id="LA PENNE SUR HUVEAUNE_PMRSEM">
-	<SimpleField name="Numéro de Parcelle" type="string"></SimpleField>
+	<SimpleField name="Numero de Parcelle" type="string"></SimpleField>
 	<SimpleField name="Departement" type="string"></SimpleField>
 	<SimpleField name="Commune" type="string"></SimpleField>
 	<SimpleField name="Adresse" type="string"></SimpleField>
-	<SimpleField name="Dénomination" type="string"></SimpleField>
+	<SimpleField name="Groupe de personne" type="string"></SimpleField>
+	<SimpleField name="Forme Juridique Abregee" type="string"></SimpleField>
+	<SimpleField name="Denomination" type="string"></SimpleField>
 </Schema>
 	<Style id="PMRSEM">
 		<LineStyle>
@@ -19,14 +21,16 @@
 			<outline>1</outline>
 		</PolyStyle>
 	</Style><Folder><name>parcelle_13_pmrsem</name>
-  <Placemark id="parcelle_13_pmrsem.180">
+  <Placemark id="pmrsem.180">
 <styleUrl>#PMRSEM</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_pmrsem">
-		<SimpleData name="Numéro de Parcelle">13070000AL0227</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#pmrsem">
+		<SimpleData name="Numero de Parcelle">13070000AL0227</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">LA PENNE SUR HUVEAUNE</SimpleData>
 		<SimpleData name="Adresse">RES RESIDENCE LA QUEIRADE</SimpleData>
-		<SimpleData name="Dénomination">SA ECONOM MIXTE CONSTRUCTION AUBAGNE</SimpleData>
+		<SimpleData name="Groupe de personne">Personnes morales representant des societes d'economie mixte</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">SA ECONOM MIXTE CONSTRUCTION AUBAGNE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -40,16 +44,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.528296,43.27664 5.528331,43.276696 5.528374,43.276684 5.52846,43.276659 5.528434,43.276661 5.528397,43.276663 5.528383,43.276662 5.528358,43.276659 5.528333,43.276654 5.528319,43.276649 5.528304,43.276644 5.528296,43.27664</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.528296,43.27664 5.528331,43.276696 5.528374,43.276684 5.52846,43.276659 5.528434,43.276661 5.528397,43.276663 5.528383,43.276662 5.528358,43.276659 5.528333,43.276654 5.528319,43.276649 5.528304,43.276644 5.528296,43.27664</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_pmrsem.201">
+  <Placemark id="pmrsem.201">
 <styleUrl>#PMRSEM</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_pmrsem">
-		<SimpleData name="Numéro de Parcelle">13070000AL0243</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#pmrsem">
+		<SimpleData name="Numero de Parcelle">13070000AL0243</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">LA PENNE SUR HUVEAUNE</SimpleData>
 		<SimpleData name="Adresse">RES RESIDENCE LA QUEIRADE</SimpleData>
-		<SimpleData name="Dénomination">SA ECONOM MIXTE CONSTRUCTION AUBAGNE</SimpleData>
+		<SimpleData name="Groupe de personne">Personnes morales representant des societes d'economie mixte</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+		<SimpleData name="Denomination">SA ECONOM MIXTE CONSTRUCTION AUBAGNE</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -63,6 +69,6 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.527935,43.276399 5.527907,43.276396 5.527868,43.276396 5.527834,43.276398 5.527803,43.276403 5.527773,43.276409 5.527746,43.276415 5.527764,43.276427 5.527935,43.276399</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.527935,43.276399 5.527907,43.276396 5.527868,43.276396 5.527834,43.276398 5.527803,43.276403 5.527773,43.276409 5.527746,43.276415 5.527764,43.276427 5.527935,43.276399</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
 </Folder></Document></kml>

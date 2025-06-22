@@ -4,11 +4,13 @@
 	<name>parcelle_13_ASSOCIE.kml</name>
 	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
 	<Schema name="AUBAGNE_ASSOCIE" id="AUBAGNE_ASSOCIE">
-		<SimpleField type="string" name="Numéro de Parcelle"></SimpleField>
+		<SimpleField type="string" name="Numero de Parcelle"></SimpleField>
 		<SimpleField type="string" name="Departement"></SimpleField>
 		<SimpleField type="string" name="Commune"></SimpleField>
 		<SimpleField type="string" name="Adresse"></SimpleField>
-		<SimpleField type="string" name="Dénomination"></SimpleField>
+		<SimpleField type="string" name="Groupe de personne"></SimpleField>
+		<SimpleField type="string" name="Forme Juridique Abregee"></SimpleField>
+		<SimpleField type="string" name="Denomination"></SimpleField>
 	</Schema>
 	<Style id="ASSOCIE">
 		<LineStyle>
@@ -22,14 +24,16 @@
 		</PolyStyle>
 	</Style>	<Folder>
 		<name>parcelle_13_associe</name>
-		<Placemark id="parcelle_13_associe.5">
+		<Placemark id="associe.5">
 <styleUrl>#ASSOCIE</styleUrl>			<ExtendedData>
-				<SchemaData schemaUrl="#parcelle_13_associe">
-					<SimpleData name="Numéro de Parcelle">13005000CT1687</SimpleData>
+				<SchemaData schemaUrl="#associe">
+					<SimpleData name="Numero de Parcelle">13005000CT1687</SimpleData>
 					<SimpleData name="Departement">13</SimpleData>
 					<SimpleData name="Commune">AUBAGNE</SimpleData>
 					<SimpleData name="Adresse">199, AV DE JOUQUES</SimpleData>
-					<SimpleData name="Dénomination">SCI LENCRETTE</SimpleData>
+					<SimpleData name="Groupe de personne">Associes</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">SCI</SimpleData>
+					<SimpleData name="Denomination">SCI LENCRETTE</SimpleData>
 				</SchemaData>
 			</ExtendedData>
 	<Region>
@@ -45,11 +49,10 @@
 		</Lod>
 	</Region>
 			<MultiGeometry>
-				<Polygon>
+				<Polygon><altitudeMode>relativeToGround</altitudeMode>
 					<outerBoundaryIs>
 						<LinearRing>
-							<coordinates>
-								5.60444415197205,43.2882382031484, 5.60431593450723,43.2880809051029, 5.60353596745583,43.2881640546965, 5.60354130980908,43.2881704963162, 5.60381952364408,43.2885063503912, 5.60444415197205,43.2882382031484, 
+							<coordinates>								5.60444415197205,43.2882382031484, 5.60431593450723,43.2880809051029, 5.60353596745583,43.2881640546965, 5.60354130980908,43.2881704963162, 5.60381952364408,43.2885063503912, 5.60444415197205,43.2882382031484, 
 							</coordinates>
 						</LinearRing>
 					</outerBoundaryIs>

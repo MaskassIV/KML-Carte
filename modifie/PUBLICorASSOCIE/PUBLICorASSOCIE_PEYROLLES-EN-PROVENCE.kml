@@ -2,11 +2,13 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document id="root_doc">
 <Schema name="PEYROLLES-EN-PROVENCE_PUBLICorASSOCIE" id="PEYROLLES-EN-PROVENCE_PUBLICorASSOCIE">
-	<SimpleField name="Numéro de Parcelle" type="string"></SimpleField>
+	<SimpleField name="Numero de Parcelle" type="string"></SimpleField>
 	<SimpleField name="Departement" type="string"></SimpleField>
 	<SimpleField name="Commune" type="string"></SimpleField>
 	<SimpleField name="Adresse" type="string"></SimpleField>
-	<SimpleField name="Dénomination" type="string"></SimpleField>
+	<SimpleField name="Groupe de personne" type="string"></SimpleField>
+	<SimpleField name="Forme Juridique Abregee" type="string"></SimpleField>
+	<SimpleField name="Denomination" type="string"></SimpleField>
 </Schema>
 	<Style id="PUBLICorASSOCIE">
 		<LineStyle>
@@ -19,14 +21,16 @@
 			<outline>1</outline>
 		</PolyStyle>
 	</Style><Folder><name>parcelle_13_publicorassocie</name>
-  <Placemark id="parcelle_13_publicorassocie.10">
+  <Placemark id="publicorassocie.10">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">13074000AA0104</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">13074000AA0104</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">PEYROLLES-EN-PROVENCE</SimpleData>
 		<SimpleData name="Adresse">LES VIEILLES ISCLES</SimpleData>
-		<SimpleData name="Dénomination">FONCIER PACA</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+		<SimpleData name="Denomination">FONCIER PACA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -40,16 +44,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.577655,43.65281 5.577592,43.652806 5.57724,43.654992 5.5773,43.654991 5.577655,43.65281</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.577655,43.65281 5.577592,43.652806 5.57724,43.654992 5.5773,43.654991 5.577655,43.65281</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.679">
+  <Placemark id="publicorassocie.679">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">13074000AA0107</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">13074000AA0107</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">PEYROLLES-EN-PROVENCE</SimpleData>
 		<SimpleData name="Adresse">LES VIEILLES ISCLES</SimpleData>
-		<SimpleData name="Dénomination">FONCIER PACA</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+		<SimpleData name="Denomination">FONCIER PACA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -63,16 +69,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.577167,43.654993 5.57724,43.654992 5.577592,43.652806 5.577562,43.652794 5.577536,43.652794 5.577167,43.654993</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.577167,43.654993 5.57724,43.654992 5.577592,43.652806 5.577562,43.652794 5.577536,43.652794 5.577167,43.654993</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.704">
+  <Placemark id="publicorassocie.704">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">13074000AA0108</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">13074000AA0108</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">PEYROLLES-EN-PROVENCE</SimpleData>
 		<SimpleData name="Adresse">LES VIEILLES ISCLES</SimpleData>
-		<SimpleData name="Dénomination">FONCIER PACA</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+		<SimpleData name="Denomination">FONCIER PACA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -86,16 +94,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.577107,43.654994 5.577167,43.654993 5.577536,43.652794 5.577478,43.652786 5.577228,43.65425 5.577177,43.654565 5.577107,43.654994</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.577107,43.654994 5.577167,43.654993 5.577536,43.652794 5.577478,43.652786 5.577228,43.65425 5.577177,43.654565 5.577107,43.654994</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.828">
+  <Placemark id="publicorassocie.828">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">13074000AA0112</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">13074000AA0112</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">PEYROLLES-EN-PROVENCE</SimpleData>
 		<SimpleData name="Adresse">LES VIEILLES ISCLES</SimpleData>
-		<SimpleData name="Dénomination">FONCIER PACA</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+		<SimpleData name="Denomination">FONCIER PACA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -109,16 +119,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.576987,43.654466 5.576787,43.654429 5.576683,43.655 5.576895,43.654997 5.576975,43.654536 5.576987,43.654466</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.576987,43.654466 5.576787,43.654429 5.576683,43.655 5.576895,43.654997 5.576975,43.654536 5.576987,43.654466</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.849">
+  <Placemark id="publicorassocie.849">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">13074000AA0113</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">13074000AA0113</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">PEYROLLES-EN-PROVENCE</SimpleData>
 		<SimpleData name="Adresse">LES VIEILLES ISCLES</SimpleData>
-		<SimpleData name="Dénomination">FONCIER PACA</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+		<SimpleData name="Denomination">FONCIER PACA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -132,16 +144,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.577101,43.653811 5.576904,43.653789 5.576792,43.654401 5.576787,43.654429 5.576987,43.654466 5.577101,43.653811</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.577101,43.653811 5.576904,43.653789 5.576792,43.654401 5.576787,43.654429 5.576987,43.654466 5.577101,43.653811</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.880">
+  <Placemark id="publicorassocie.880">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">13074000AA0114</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">13074000AA0114</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">PEYROLLES-EN-PROVENCE</SimpleData>
 		<SimpleData name="Adresse">LES VIEILLES ISCLES</SimpleData>
-		<SimpleData name="Dénomination">FONCIER PACA</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+		<SimpleData name="Denomination">FONCIER PACA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -155,16 +169,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.577282,43.652797 5.577181,43.652812 5.57708,43.652829 5.576904,43.653789 5.577101,43.653811 5.577282,43.652797</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.577282,43.652797 5.577181,43.652812 5.57708,43.652829 5.576904,43.653789 5.577101,43.653811 5.577282,43.652797</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.1082">
+  <Placemark id="publicorassocie.1082">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">13074000AA0121</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">13074000AA0121</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">PEYROLLES-EN-PROVENCE</SimpleData>
 		<SimpleData name="Adresse">LES VIEILLES ISCLES</SimpleData>
-		<SimpleData name="Dénomination">FONCIER PACA</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+		<SimpleData name="Denomination">FONCIER PACA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -178,16 +194,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.576798,43.652881 5.576717,43.652897 5.576449,43.654309 5.576441,43.654347 5.576517,43.654352 5.576613,43.653836 5.576798,43.652881</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.576798,43.652881 5.576717,43.652897 5.576449,43.654309 5.576441,43.654347 5.576517,43.654352 5.576613,43.653836 5.576798,43.652881</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.1119">
+  <Placemark id="publicorassocie.1119">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">13074000AA0122</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">13074000AA0122</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">PEYROLLES-EN-PROVENCE</SimpleData>
 		<SimpleData name="Adresse">LES VIEILLES ISCLES</SimpleData>
-		<SimpleData name="Dénomination">FONCIER PACA</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+		<SimpleData name="Denomination">FONCIER PACA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -201,16 +219,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.576396,43.655004 5.576462,43.654644 5.576517,43.654352 5.576441,43.654347 5.576316,43.655005 5.576396,43.655004</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.576396,43.655004 5.576462,43.654644 5.576517,43.654352 5.576441,43.654347 5.576316,43.655005 5.576396,43.655004</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.1194">
+  <Placemark id="publicorassocie.1194">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">13074000AA0125</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">13074000AA0125</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">PEYROLLES-EN-PROVENCE</SimpleData>
 		<SimpleData name="Adresse">CHE DES VIEILLES ISCLES</SimpleData>
-		<SimpleData name="Dénomination">FONCIER PACA</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+		<SimpleData name="Denomination">FONCIER PACA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -224,16 +244,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.575908,43.654248 5.575989,43.654257 5.5761,43.653708 5.576252,43.65298 5.576169,43.652993 5.57613,43.653175 5.576115,43.653248 5.576019,43.653705 5.575908,43.654248</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.575908,43.654248 5.575989,43.654257 5.5761,43.653708 5.576252,43.65298 5.576169,43.652993 5.57613,43.653175 5.576115,43.653248 5.576019,43.653705 5.575908,43.654248</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.1213">
+  <Placemark id="publicorassocie.1213">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">13074000AA0126</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">13074000AA0126</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">PEYROLLES-EN-PROVENCE</SimpleData>
 		<SimpleData name="Adresse">LES VIEILLES ISCLES</SimpleData>
-		<SimpleData name="Dénomination">FONCIER PACA</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+		<SimpleData name="Denomination">FONCIER PACA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -247,16 +269,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.575752,43.655012 5.575838,43.655011 5.575989,43.654257 5.575908,43.654248 5.575752,43.655012</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.575752,43.655012 5.575838,43.655011 5.575989,43.654257 5.575908,43.654248 5.575752,43.655012</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.4262">
+  <Placemark id="publicorassocie.4262">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">13074000AM0301</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">13074000AM0301</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">PEYROLLES-EN-PROVENCE</SimpleData>
 		<SimpleData name="Adresse">6, AV CHARLES DE GAULLE</SimpleData>
-		<SimpleData name="Dénomination">FONCIER PACA</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+		<SimpleData name="Denomination">FONCIER PACA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -270,16 +294,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.580585,43.645796 5.580575,43.646057 5.580564,43.646374 5.580568,43.646374 5.580869,43.646371 5.580872,43.646371 5.580876,43.646064 5.58088,43.645822 5.58088,43.645778 5.580585,43.645776 5.580585,43.645796</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.580585,43.645796 5.580575,43.646057 5.580564,43.646374 5.580568,43.646374 5.580869,43.646371 5.580872,43.646371 5.580876,43.646064 5.58088,43.645822 5.58088,43.645778 5.580585,43.645776 5.580585,43.645796</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.4393">
+  <Placemark id="publicorassocie.4393">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">13074000AM0316</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">13074000AM0316</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">PEYROLLES-EN-PROVENCE</SimpleData>
 		<SimpleData name="Adresse">LE VILLAGE</SimpleData>
-		<SimpleData name="Dénomination">FONCIER PACA</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+		<SimpleData name="Denomination">FONCIER PACA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -293,16 +319,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.580602,43.6453 5.580594,43.645544 5.580593,43.645563 5.580585,43.645776 5.58088,43.645778 5.580881,43.645773 5.580883,43.645387 5.580785,43.645356 5.580713,43.645334 5.580684,43.645326 5.580602,43.6453</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.580602,43.6453 5.580594,43.645544 5.580593,43.645563 5.580585,43.645776 5.58088,43.645778 5.580881,43.645773 5.580883,43.645387 5.580785,43.645356 5.580713,43.645334 5.580684,43.645326 5.580602,43.6453</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.5459">
+  <Placemark id="publicorassocie.5459">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">13074000AA0050</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">13074000AA0050</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">PEYROLLES-EN-PROVENCE</SimpleData>
 		<SimpleData name="Adresse">LES TROIS FRANCS</SimpleData>
-		<SimpleData name="Dénomination">FONCIER PACA</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+		<SimpleData name="Denomination">FONCIER PACA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -316,16 +344,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.578836,43.657102 5.578831,43.657157 5.579307,43.657121 5.579313,43.657066 5.578836,43.657102</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.578836,43.657102 5.578831,43.657157 5.579307,43.657121 5.579313,43.657066 5.578836,43.657102</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.5546">
+  <Placemark id="publicorassocie.5546">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">13074000AA0052</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">13074000AA0052</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">PEYROLLES-EN-PROVENCE</SimpleData>
 		<SimpleData name="Adresse">RUE DU CABESTAN</SimpleData>
-		<SimpleData name="Dénomination">FONCIER PACA</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+		<SimpleData name="Denomination">FONCIER PACA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -339,16 +369,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.578873,43.65664 5.578836,43.657102 5.579313,43.657066 5.57936,43.656616 5.578873,43.65664</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.578873,43.65664 5.578836,43.657102 5.579313,43.657066 5.57936,43.656616 5.578873,43.65664</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.6368">
+  <Placemark id="publicorassocie.6368">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">13074000AA0072</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">13074000AA0072</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">PEYROLLES-EN-PROVENCE</SimpleData>
 		<SimpleData name="Adresse">LES VIEILLES ISCLES</SimpleData>
-		<SimpleData name="Dénomination">FONCIER PACA</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+		<SimpleData name="Denomination">FONCIER PACA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -362,16 +394,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.578824,43.65497 5.578898,43.654969 5.579199,43.65294 5.579127,43.652944 5.578824,43.65497</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.578824,43.65497 5.578898,43.654969 5.579199,43.65294 5.579127,43.652944 5.578824,43.65497</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.6391">
+  <Placemark id="publicorassocie.6391">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">13074000AA0073</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">13074000AA0073</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">PEYROLLES-EN-PROVENCE</SimpleData>
 		<SimpleData name="Adresse">LES VIEILLES ISCLES</SimpleData>
-		<SimpleData name="Dénomination">FONCIER PACA</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+		<SimpleData name="Denomination">FONCIER PACA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -385,16 +419,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.578772,43.654971 5.578824,43.65497 5.579127,43.652944 5.579062,43.652948 5.578772,43.654971</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.578772,43.654971 5.578824,43.65497 5.579127,43.652944 5.579062,43.652948 5.578772,43.654971</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.6493">
+  <Placemark id="publicorassocie.6493">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">13074000AA0077</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">13074000AA0077</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">PEYROLLES-EN-PROVENCE</SimpleData>
 		<SimpleData name="Adresse">LES VIEILLES ISCLES</SimpleData>
-		<SimpleData name="Dénomination">FONCIER PACA</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+		<SimpleData name="Denomination">FONCIER PACA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -408,16 +444,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.578631,43.654973 5.578689,43.654972 5.578858,43.653853 5.579006,43.652892 5.57895,43.652887 5.578801,43.65385 5.578631,43.654973</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.578631,43.654973 5.578689,43.654972 5.578858,43.653853 5.579006,43.652892 5.57895,43.652887 5.578801,43.65385 5.578631,43.654973</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.6526">
+  <Placemark id="publicorassocie.6526">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">13074000AA0078</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">13074000AA0078</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">PEYROLLES-EN-PROVENCE</SimpleData>
 		<SimpleData name="Adresse">LES VIEILLES ISCLES</SimpleData>
-		<SimpleData name="Dénomination">FONCIER PACA</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+		<SimpleData name="Denomination">FONCIER PACA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -431,16 +469,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.578567,43.654974 5.578631,43.654973 5.578801,43.65385 5.57895,43.652887 5.578878,43.652881 5.578567,43.654974</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.578567,43.654974 5.578631,43.654973 5.578801,43.65385 5.57895,43.652887 5.578878,43.652881 5.578567,43.654974</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.6638">
+  <Placemark id="publicorassocie.6638">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">13074000AA0081</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">13074000AA0081</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">PEYROLLES-EN-PROVENCE</SimpleData>
 		<SimpleData name="Adresse">LES VIEILLES ISCLES</SimpleData>
-		<SimpleData name="Dénomination">FONCIER PACA</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+		<SimpleData name="Denomination">FONCIER PACA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -454,16 +494,18 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.57846,43.654975 5.578567,43.654974 5.578878,43.652881 5.578847,43.652878 5.578779,43.652872 5.57846,43.654975</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.57846,43.654975 5.578567,43.654974 5.578878,43.652881 5.578847,43.652878 5.578779,43.652872 5.57846,43.654975</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <Placemark id="parcelle_13_publicorassocie.6656">
+  <Placemark id="publicorassocie.6656">
 <styleUrl>#PUBLICorASSOCIE</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_publicorassocie">
-		<SimpleData name="Numéro de Parcelle">13074000AA0082</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#publicorassocie">
+		<SimpleData name="Numero de Parcelle">13074000AA0082</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">PEYROLLES-EN-PROVENCE</SimpleData>
 		<SimpleData name="Adresse">LES VIEILLES ISCLES</SimpleData>
-		<SimpleData name="Dénomination">FONCIER PACA</SimpleData>
+		<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+		<SimpleData name="Denomination">FONCIER PACA</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -477,6 +519,6 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.578405,43.654976 5.57846,43.654975 5.578779,43.652872 5.578714,43.652866 5.57862,43.653481 5.578544,43.65401 5.578405,43.654976</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.578405,43.654976 5.57846,43.654975 5.578779,43.652872 5.578714,43.652866 5.57862,43.653481 5.578544,43.65401 5.578405,43.654976</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
 </Folder></Document></kml>

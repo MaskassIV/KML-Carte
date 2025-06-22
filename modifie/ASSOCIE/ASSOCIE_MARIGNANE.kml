@@ -4,11 +4,13 @@
 	<name>parcelle_13_ASSOCIE.kml</name>
 	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
 	<Schema name="MARIGNANE_ASSOCIE" id="MARIGNANE_ASSOCIE">
-		<SimpleField type="string" name="Numéro de Parcelle"></SimpleField>
+		<SimpleField type="string" name="Numero de Parcelle"></SimpleField>
 		<SimpleField type="string" name="Departement"></SimpleField>
 		<SimpleField type="string" name="Commune"></SimpleField>
 		<SimpleField type="string" name="Adresse"></SimpleField>
-		<SimpleField type="string" name="Dénomination"></SimpleField>
+		<SimpleField type="string" name="Groupe de personne"></SimpleField>
+		<SimpleField type="string" name="Forme Juridique Abregee"></SimpleField>
+		<SimpleField type="string" name="Denomination"></SimpleField>
 	</Schema>
 	<Style id="ASSOCIE">
 		<LineStyle>
@@ -22,14 +24,16 @@
 		</PolyStyle>
 	</Style>	<Folder>
 		<name>parcelle_13_associe</name>
-		<Placemark id="parcelle_13_associe.6">
+		<Placemark id="associe.6">
 <styleUrl>#ASSOCIE</styleUrl>			<ExtendedData>
-				<SchemaData schemaUrl="#parcelle_13_associe">
-					<SimpleData name="Numéro de Parcelle">13054000CD0244</SimpleData>
+				<SchemaData schemaUrl="#associe">
+					<SimpleData name="Numero de Parcelle">13054000CD0244</SimpleData>
 					<SimpleData name="Departement">13</SimpleData>
 					<SimpleData name="Commune">MARIGNANE</SimpleData>
 					<SimpleData name="Adresse">20, ALL DE LA PALUN</SimpleData>
-					<SimpleData name="Dénomination">TROIS CENT QUATRE VINGT SEIZE</SimpleData>
+					<SimpleData name="Groupe de personne">Associes</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">SCI</SimpleData>
+					<SimpleData name="Denomination">TROIS CENT QUATRE VINGT SEIZE</SimpleData>
 				</SchemaData>
 			</ExtendedData>
 	<Region>
@@ -45,11 +49,10 @@
 		</Lod>
 	</Region>
 			<MultiGeometry>
-				<Polygon>
+				<Polygon><altitudeMode>relativeToGround</altitudeMode>
 					<outerBoundaryIs>
 						<LinearRing>
-							<coordinates>
-								5.1985393988978,43.4077404325942, 5.19813525339432,43.4080703837742, 5.19799945523423,43.4081380296732, 5.197958744109,43.4083811330808, 5.19824972901885,43.4084043856519, 5.19830049554334,43.4081272383776, 5.1985393988978,43.4077404325942, 
+							<coordinates>								5.1985393988978,43.4077404325942, 5.19813525339432,43.4080703837742, 5.19799945523423,43.4081380296732, 5.197958744109,43.4083811330808, 5.19824972901885,43.4084043856519, 5.19830049554334,43.4081272383776, 5.1985393988978,43.4077404325942, 
 							</coordinates>
 						</LinearRing>
 					</outerBoundaryIs>

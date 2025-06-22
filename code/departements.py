@@ -1,3 +1,4 @@
-liste_departements = [13,
-                      # 69
+liste_departements = [
+   13,
+                      69
                       ]

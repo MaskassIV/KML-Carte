@@ -2,11 +2,13 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document id="root_doc">
 <Schema name="LAMBESC_coproprietaire" id="LAMBESC_coproprietaire">
-	<SimpleField name="Numéro de Parcelle" type="string"></SimpleField>
+	<SimpleField name="Numero de Parcelle" type="string"></SimpleField>
 	<SimpleField name="Departement" type="string"></SimpleField>
 	<SimpleField name="Commune" type="string"></SimpleField>
 	<SimpleField name="Adresse" type="string"></SimpleField>
-	<SimpleField name="Dénomination" type="string"></SimpleField>
+	<SimpleField name="Groupe de personne" type="string"></SimpleField>
+	<SimpleField name="Forme Juridique Abregee" type="string"></SimpleField>
+	<SimpleField name="Denomination" type="string"></SimpleField>
 </Schema>
 	<Style id="coproprietaire">
 		<LineStyle>
@@ -19,14 +21,16 @@
 			<outline>1</outline>
 		</PolyStyle>
 	</Style><Folder><name>parcelle_13_coproprietaire</name>
-  <Placemark id="parcelle_13_coproprietaire.83">
+  <Placemark id="coproprietaire.83">
 <styleUrl>#coproprietaire</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_coproprietaire">
-		<SimpleData name="Numéro de Parcelle">13050000CN0850</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#coproprietaire">
+		<SimpleData name="Numero de Parcelle">13050000CN0850</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">LAMBESC</SimpleData>
 		<SimpleData name="Adresse">5850, LAVALDENAN</SimpleData>
-		<SimpleData name="Dénomination">LES COPROPRIETAIRES CN850</SimpleData>
+		<SimpleData name="Groupe de personne">Coproprietaires</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">SYCO</SimpleData>
+		<SimpleData name="Denomination">LES COPROPRIETAIRES CN850</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -40,6 +44,6 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.272662,43.64363 5.272446,43.643509 5.272378,43.643501 5.272314,43.643481 5.272076,43.643366 5.271992,43.64343 5.27213,43.643502 5.272306,43.643592 5.272492,43.643689 5.272556,43.643721 5.272692,43.64368 5.272748,43.643662 5.27291,43.643668 5.272946,43.643722 5.272937,43.643764 5.272973,43.643768 5.272988,43.643686 5.272908,43.643553 5.272662,43.64363</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>5.272662,43.64363 5.272446,43.643509 5.272378,43.643501 5.272314,43.643481 5.272076,43.643366 5.271992,43.64343 5.27213,43.643502 5.272306,43.643592 5.272492,43.643689 5.272556,43.643721 5.272692,43.64368 5.272748,43.643662 5.27291,43.643668 5.272946,43.643722 5.272937,43.643764 5.272973,43.643768 5.272988,43.643686 5.272908,43.643553 5.272662,43.64363</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
 </Folder></Document></kml>

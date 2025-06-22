@@ -2,11 +2,13 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document id="root_doc">
 <Schema name="ARLES_region" id="ARLES_region">
-	<SimpleField name="Numéro de Parcelle" type="string"></SimpleField>
+	<SimpleField name="Numero de Parcelle" type="string"></SimpleField>
 	<SimpleField name="Departement" type="string"></SimpleField>
 	<SimpleField name="Commune" type="string"></SimpleField>
 	<SimpleField name="Adresse" type="string"></SimpleField>
-	<SimpleField name="Dénomination" type="string"></SimpleField>
+	<SimpleField name="Groupe de personne" type="string"></SimpleField>
+	<SimpleField name="Forme Juridique Abregee" type="string"></SimpleField>
+	<SimpleField name="Denomination" type="string"></SimpleField>
 </Schema>
 	<Style id="region">
 		<LineStyle>
@@ -19,14 +21,16 @@
 			<outline>1</outline>
 		</PolyStyle>
 	</Style><Folder><name>parcelle_13_region</name>
-  <Placemark id="parcelle_13_region.62">
+  <Placemark id="region.62">
 <styleUrl>#region</styleUrl>	
-	<ExtendedData><SchemaData schemaUrl="#parcelle_13_region">
-		<SimpleData name="Numéro de Parcelle">13004000BA0282</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#region">
+		<SimpleData name="Numero de Parcelle">13004000BA0282</SimpleData>
 		<SimpleData name="Departement">13</SimpleData>
 		<SimpleData name="Commune">ARLES</SimpleData>
 		<SimpleData name="Adresse">AV DOCTEUR JOSEPH IMBERT</SimpleData>
-		<SimpleData name="Dénomination">REGION PROVENCE-ALPES-COTE DAZUR</SimpleData>
+		<SimpleData name="Groupe de personne">Region</SimpleData>
+		<SimpleData name="Forme Juridique Abregee">COLL</SimpleData>
+		<SimpleData name="Denomination">REGION PROVENCE-ALPES-COTE DAZUR</SimpleData>
 	</SchemaData></ExtendedData>
 	<Region>
 		<LatLonAltBox>
@@ -40,5 +44,6 @@
 			<maxLodPixels>-1</maxLodPixels>
 		</Lod>
 	</Region>
-		<MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>4.631214,43.670736,15 4.631367,43.670319,15 4.63133,43.670309,15 4.631293,43.670296,15 4.631258,43.670281,15 4.631225,43.670264,15 4.631187,43.670243,15 4.631151,43.670221,15 4.631117,43.670196,15 4.631093,43.670176,15 4.631072,43.670154,15 4.631053,43.670131,15 4.630738,43.670086,15 4.630619,43.670138,15 4.630237,43.670075,15 4.630105,43.670469,15 4.631214,43.670736,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>  </Placemark>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>4.631214,43.670736,15 4.631367,43.670319,15 4.63133,43.670309,15 4.631293,43.670296,15 4.631258,43.670281,15 4.631225,43.670264,15 4.631187,43.670243,15 4.631151,43.670221,15 4.631117,43.670196,15 4.631093,43.670176,15 4.631072,43.670154,15 4.631053,43.670131,15 4.630738,43.670086,15 4.630619,43.670138,15 4.630237,43.670075,15 4.630105,43.670469,15 4.631214,43.670736,15</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
 </Folder></Document></kml>

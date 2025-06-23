@@ -1,5 +1,5 @@
 liste_departements = [
                      #13,
-                     69, 
-                     84,
+                     #69, 
+                     #84,
                       ]

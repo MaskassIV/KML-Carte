@@ -63,9 +63,9 @@ def repartir_par_ville(departement):
                         villes[nom_ville].extend(bloc)
             
             # Créer les fichiers par ville
-            os.makedirs("./modifie/"+nom_fichier, exist_ok=True)
+            os.makedirs("./modifie/"+str(departement)+"/"+nom_fichier, exist_ok=True)
             for ville in villes:
-                with open("./modifie/"+nom_fichier+"/"+nom_fichier+"_"+ville+".kml", "w", encoding="cp1252") as p:
+                with open("./modifie/"+str(departement)+"/"+nom_fichier+"/"+nom_fichier+"_"+ville+".kml", "w", encoding="cp1252") as p:
                     intro_modifiee = modifier_intro(intro, ville, nom_fichier, schema_id)
                     p.writelines(intro_modifiee)
                     for bloc in villes.get(ville):

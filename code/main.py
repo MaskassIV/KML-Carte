@@ -19,8 +19,8 @@ def main():
         os.makedirs(nom_dossier)
     chemin_fichier="./"+nom_dossier+"/"
     print("chemin : "+chemin_fichier)
-    villes_box = {}
     for departement in liste_departements:
+        villes_box = {}
         print("début departement : "+str(departement))
         for fichier in file_name:
             print("debut fichier : "+fichier)
@@ -32,13 +32,11 @@ def main():
                 with open("./modifie/Brute/parcelle_"+str(departement)+"_"+fichier+"_test.kml", "w", encoding="cp1252") as p:
                     p.writelines(lignes)
         villes_box.update(repartir_par_ville(departement))
-    
-    mise_en_hauteur("./modifie")
+        mise_en_hauteur("./modifie/"+str(departement))
+       # kml_to_kmz_batch("./modifie/"+str(departement))
+        creer_master("./modifie", villes_box, departement)
     
     shutil.rmtree('./modifie/Brute')
-    kml_to_kmz_batch("./modifie")
- #   creer_master("./modifie", villes_box)
-
       
 main()
 

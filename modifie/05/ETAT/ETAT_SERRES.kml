@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="root_doc">
+	<name>SERRES_ETAT</name>
+	<visibility>0</visibility>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+	<Document id="parcelles-des-personnes-morales_05_groupe_personne_1">
+		<name>SERRES_ETAT</name>
+		<visibility>0</visibility>
+		<Schema name="SERRES_ETAT" id="SERRES_ETAT.schema">
+			<SimpleField type="string" name="Numero de Parcelle"></SimpleField>
+			<SimpleField type="string" name="Departement"></SimpleField>
+			<SimpleField type="string" name="Commune"></SimpleField>
+			<SimpleField type="string" name="Adresse"></SimpleField>
+			<SimpleField type="string" name="Groupe de personne"></SimpleField>
+			<SimpleField type="string" name="Forme Juridique Abregee"></SimpleField>
+			<SimpleField type="string" name="Denomination"></SimpleField>
+		</Schema>
+		<Style id="ETAT">
+			<LineStyle>
+				<color>BF119ff7</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4C119ff7</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_1.5287">
+		<styleUrl>#ETAT</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_1.schema">
+					<SimpleData name="Numero de Parcelle">051660000A0172</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">SERRES</SimpleData>
+					<SimpleData name="Adresse">CLARET</SimpleData>
+					<SimpleData name="Groupe de personne">Etat</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">ETAT</SimpleData>
+					<SimpleData name="Denomination">ETAT SERVICE DES DOMAINES</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.4342197383657 </north>
+			<south> 44.4336128880819 </south>
+			<east> 5.71675741158213 </east>
+			<west> 5.716090905482571 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							5.716467079602719,44.4342197383657,0 5.71674866920473,44.4337853112089,0 5.71675741158213,44.4337762685228,0 5.71649886188512,44.433682754399,0 5.71630040618629,44.4336128880819,0 5.71621286909966,44.4338370746217,0 5.716090905482571,44.4341532630434,0 5.716467079602719,44.4342197383657,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_1.11469">
+		<styleUrl>#ETAT</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_1.schema">
+					<SimpleData name="Numero de Parcelle">051660000A0414</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">SERRES</SimpleData>
+					<SimpleData name="Adresse">CHAMP LONG</SimpleData>
+					<SimpleData name="Groupe de personne">Etat</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">ETAT</SimpleData>
+					<SimpleData name="Denomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.4266405036677 </north>
+			<south> 44.4251554607966 </south>
+			<east> 5.72429989409216 </east>
+			<west> 5.720735565518231 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							5.72344672945178,44.4251554607966,0 5.72264046536012,44.4253390549079,0 5.72275741114626,44.4254472230633,0 5.72294525494778,44.4256077718074,0 5.72312649629462,44.4256964257408,0 5.723720372362599,44.4258605350022,0 5.7236280381664,44.4258641693337,0 5.7234321987194,44.4258012775035,0 5.7229927810474,44.4260989315342,0 5.72319590778908,44.426198303394,0 5.722931602610119,44.426097021214,0 5.7227402563281,44.4260125798865,0 5.72257209675833,44.4259084698123,0 5.72230251570262,44.4256766218876,0 5.72223304318257,44.4256590634846,0 5.72206985148976,44.4256476943202,0 5.721569194340901,44.4256549321097,0 5.72127766013328,44.425619801357,0 5.72170553255957,44.426032928725,0 5.72195967116062,44.4263017290536,0 5.72168277463066,44.4260615035153,0 5.72129822231079,44.4257075640227,0 5.72123119632896,44.4256520241841,0 5.721073490649001,44.4255665688044,0 5.720735565518231,44.42539531282,0 5.7208477079671,44.4257041921515,0 5.72090806171198,44.4258170027639,0 5.72103993559088,44.4259638051711,0 5.72112671072763,44.4260379525325,0 5.72099210420225,44.4259362537839,0 5.72088867147579,44.425845043827,0 5.72108057273373,44.4262990405509,0 5.721405742534851,44.4264062092583,0 5.721611434802419,44.426485794818,0 5.7217106490193,44.4265441420017,0 5.72134430832541,44.4264146626675,0 5.72107178847444,44.4263437531998,0 5.7214706863554,44.4266405036677,0 5.72175409588894,44.4265693694999,0 5.72192996969213,44.4264315364774,0 5.72268144510361,44.4264906957714,0 5.723310525155791,44.4265426079761,0 5.72352670174903,44.4264952892383,0 5.723869420772571,44.4264212418637,0 5.72429989409216,44.426256301774,0 5.723898741547791,44.4259573652514,0 5.7238019000188,44.4258230304546,0 5.724224705461549,44.425632069194,0 5.7240497615561,44.4255489358368,0 5.72400286303118,44.4254938005611,0 5.72392232587525,44.4253795991483,0 5.72391059362081,44.4253630457878,0 5.72388462352203,44.4253535999486,0 5.72383524182943,44.4253356357757,0 5.72363518825977,44.4252948261929,0 5.72344672945178,44.4251554607966,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_1.11580">
+		<styleUrl>#ETAT</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_1.schema">
+					<SimpleData name="Numero de Parcelle">051660000A0420</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">SERRES</SimpleData>
+					<SimpleData name="Adresse">CHAMP LONG</SimpleData>
+					<SimpleData name="Groupe de personne">Etat</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">ETAT</SimpleData>
+					<SimpleData name="Denomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.4286181964817 </north>
+			<south> 44.426278832717 </south>
+			<east> 5.72397808243685 </east>
+			<west> 5.718720913110371 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							5.72352670174903,44.4264952892383,0 5.723310525155791,44.4265426079761,0 5.72268144510361,44.4264906957714,0 5.72192996969213,44.4264315364774,0 5.72175409588894,44.4265693694999,0 5.7214706863554,44.4266405036677,0 5.72107178847444,44.4263437531998,0 5.7207135836764,44.426278832717,0 5.720607408479719,44.426284787969,0 5.72043404871146,44.4263547324018,0 5.71991243357896,44.4265875703266,0 5.719765584986201,44.4266155159174,0 5.71933329146598,44.426656633735,0 5.71941136534112,44.4266962294309,0 5.719528980596541,44.4267582675498,0 5.71963874253712,44.4268347308512,0 5.71953432236905,44.4268772109841,0 5.71952648275492,44.4269755831432,0 5.71945654769848,44.4270294615638,0 5.71930805824277,44.4270285338824,0 5.719295900503681,44.4270632415751,0 5.719153847285749,44.427086384182,0 5.719287506822339,44.4271500981632,0 5.719508831563759,44.4272254286362,0 5.71976905463637,44.4272941236669,0 5.720034594452411,44.4273661996209,0 5.71955217756569,44.4272720966549,0 5.71929747852127,44.4272111010197,0 5.71924070922409,44.4271388235268,0 5.719223855742491,44.4271412211781,0 5.71906540786147,44.427163237176,0 5.71905897512361,44.4274268568812,0 5.718720913110371,44.4273731419125,0 5.71910729551754,44.4281103923649,0 5.71928092624424,44.4284381120016,0 5.71942793228854,44.4284917686525,0 5.71952657369364,44.4285068073125,0 5.719650272125929,44.4284260209301,0 5.71978192308665,44.4283433266707,0 5.71994753640308,44.4282637567893,0 5.72030063591078,44.4281543363539,0 5.72058205444757,44.4280808225973,0 5.720883040723691,44.427980343521,0 5.72109424642314,44.4279183806582,0 5.7213889707251,44.4278445360903,0 5.721612864262769,44.4277746025989,0 5.72194577040338,44.4276374830996,0 5.722579559610431,44.4273822271183,0 5.72295261415897,44.4272514980335,0 5.72312511696569,44.427205530009,0 5.72293028476339,44.427270694992,0 5.722607461322931,44.4273978405314,0 5.72173321161077,44.4277653238691,0 5.72161833628255,44.4278073437557,0 5.72145160554548,44.4278583909364,0 5.7211411576267,44.4279267694191,0 5.720631299078049,44.4280932972651,0 5.72016652337545,44.4282171860914,0 5.71995895169132,44.42829202779,0 5.71982717177119,44.4283589628212,0 5.71972428108936,44.4284123941364,0 5.71963320916079,44.4284632817402,0 5.719555644394311,44.428512754915,0 5.719946202169879,44.4284242082935,0 5.72000526170187,44.4285649739031,0 5.72002755574248,44.4286181964817,0 5.72031916320981,44.4285630767895,0 5.72086505723091,44.4285210408914,0 5.72109747248871,44.4285837545556,0 5.721318243299081,44.4285507384113,0 5.721689000904891,44.4284739337545,0 5.72197001218161,44.428373675038,0 5.72267756220238,44.4281203788697,0 5.72309430293954,44.4279805530931,0 5.72359686310437,44.4278218502651,0 5.72397808243685,44.4276753332982,0 5.7239778784338,44.4275510385527,0 5.723914771245989,44.4270758465131,0 5.72352670174903,44.4264952892383,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_1.11651">
+		<styleUrl>#ETAT</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_1.schema">
+					<SimpleData name="Numero de Parcelle">051660000A0426</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">SERRES</SimpleData>
+					<SimpleData name="Adresse">RABASSE</SimpleData>
+					<SimpleData name="Groupe de personne">Etat</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">ETAT</SimpleData>
+					<SimpleData name="Denomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.4253390549079 </north>
+			<south> 44.4246160581337 </south>
+			<east> 5.72344672945178 </east>
+			<west> 5.72046595240527 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							5.72318110609814,44.4249640497178,0 5.72303832738747,44.4249537085706,0 5.72288378211603,44.4249208698684,0 5.72282286819876,44.4248748176243,0 5.72263510488289,44.4247002155494,0 5.722353042238571,44.4246528740397,0 5.72217272364063,44.4246276970264,0 5.72202588541121,44.4246191662954,0 5.721830917913219,44.4246160581337,0 5.72173582375407,44.4246171470376,0 5.7215189906585,44.4246298008272,0 5.7211940678911,44.4246268400793,0 5.72103387911795,44.4246334096893,0 5.720852590923471,44.4246429322317,0 5.72079540089074,44.4246533521871,0 5.720712492231,44.4246778281465,0 5.720540899460119,44.4247452071564,0 5.72046595240527,44.4247313857921,0 5.72051139459516,44.4248791525059,0 5.72064408327638,44.4248156168319,0 5.720792429681941,44.4247431373639,0 5.720851966034211,44.4247370729825,0 5.720929986931669,44.4247390187098,0 5.72098202530567,44.4247469205126,0 5.72105091625644,44.42476287273,0 5.72108901962666,44.4247789550141,0 5.72111997149933,44.4248005282191,0 5.72115017012606,44.4248247321161,0 5.72118535584448,44.4248402559467,0 5.72122493551631,44.4248530591179,0 5.721300320262609,44.424852457626,0 5.721474267174849,44.4248314063802,0 5.72163409285343,44.4248120548749,0 5.72198757909244,44.4247738660792,0 5.72156480757688,44.4248427701098,0 5.721667334868621,44.4248968920361,0 5.72178087528555,44.4249578574226,0 5.72190175796041,44.4250407989987,0 5.72196314748468,44.4250836874632,0 5.72201220370479,44.4251053534539,0 5.72211137241137,44.4251288433979,0 5.722272355072839,44.4251674688471,0 5.72236267556612,44.4251951404345,0 5.722479299368099,44.4252391854391,0 5.7225754906081,44.4252948142627,0 5.72264046536012,44.4253390549079,0 5.72344672945178,44.4251554607966,0 5.72338967215806,44.425116429186,0 5.72318110609814,44.4249640497178,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_1.11689">
+		<styleUrl>#ETAT</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_1.schema">
+					<SimpleData name="Numero de Parcelle">051660000A0429</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">SERRES</SimpleData>
+					<SimpleData name="Adresse">CHAMP LONG</SimpleData>
+					<SimpleData name="Groupe de personne">Etat</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">ETAT</SimpleData>
+					<SimpleData name="Denomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.426256301774 </north>
+			<south> 44.425632069194 </south>
+			<east> 5.72514478017423 </east>
+			<west> 5.7238019000188 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							5.724224705461549,44.425632069194,0 5.7238019000188,44.4258230304546,0 5.723898741547791,44.4259573652514,0 5.72429989409216,44.426256301774,0 5.72514478017423,44.4259115014729,0 5.724224705461549,44.425632069194,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_1.12035">
+		<styleUrl>#ETAT</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_1.schema">
+					<SimpleData name="Numero de Parcelle">051660000D0451</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">SERRES</SimpleData>
+					<SimpleData name="Adresse">LE CHATEAU</SimpleData>
+					<SimpleData name="Groupe de personne">Etat</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">ETAT</SimpleData>
+					<SimpleData name="Denomination">ETAT SERVICE DES DOMAINES</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.4297446624851 </north>
+			<south> 44.4291869508678 </south>
+			<east> 5.71243703648036 </east>
+			<west> 5.71176005133958 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							5.712154580926569,44.4297446624851,0 5.71221643053414,44.4295874953211,0 5.71243703648036,44.429270414368,0 5.71228571505735,44.4291869508678,0 5.71196251664715,44.4292781350127,0 5.71176005133958,44.4296983510625,0 5.7118882802952,44.4297091553684,0 5.71209107858948,44.4297415422665,0 5.712154580926569,44.4297446624851,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_1.12046">
+		<styleUrl>#ETAT</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_1.schema">
+					<SimpleData name="Numero de Parcelle">051660000D0452</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">SERRES</SimpleData>
+					<SimpleData name="Adresse">LE CHATEAU</SimpleData>
+					<SimpleData name="Groupe de personne">Etat</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">ETAT</SimpleData>
+					<SimpleData name="Denomination">ETAT SERVICE DES DOMAINES</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.4293107399526 </north>
+			<south> 44.4288456417695 </south>
+			<east> 5.712817607447849 </east>
+			<west> 5.71228571505735 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							5.71258673504283,44.4288456417695,0 5.71228571505735,44.4291869508678,0 5.71243703648036,44.429270414368,0 5.71254053508077,44.4293107399526,0 5.712817607447849,44.4289785767384,0 5.71258673504283,44.4288456417695,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_1.15361">
+		<styleUrl>#ETAT</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_1.schema">
+					<SimpleData name="Numero de Parcelle">051660000A0072</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">SERRES</SimpleData>
+					<SimpleData name="Adresse">CLARET</SimpleData>
+					<SimpleData name="Groupe de personne">Etat</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">ETAT</SimpleData>
+					<SimpleData name="Denomination">ETAT SERVICE DES DOMAINES</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.4354156588312 </north>
+			<south> 44.4350226100164 </south>
+			<east> 5.718906383791979 </east>
+			<west> 5.71834248654942 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							5.71842668301723,44.4354156588312,0 5.718534213982369,44.4354009356042,0 5.71881173850731,44.4353449972203,0 5.7188793141848,44.4353281072009,0 5.718906383791979,44.4352452930582,0 5.71847303455158,44.4350226100164,0 5.71834248654942,44.4350501510084,0 5.71836541813199,44.4351741552717,0 5.7183957515644,44.4353344562139,0 5.71842668301723,44.4354156588312,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_1.15839">
+		<styleUrl>#ETAT</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_1.schema">
+					<SimpleData name="Numero de Parcelle">05166000AB0077</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">SERRES</SimpleData>
+					<SimpleData name="Adresse">FONTAINEBLEAU</SimpleData>
+					<SimpleData name="Groupe de personne">Etat</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">ETAT</SimpleData>
+					<SimpleData name="Denomination">ETAT SERVICE DES DOMAINES</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.4181424515108 </north>
+			<south> 44.4175565730996 </south>
+			<east> 5.71428385276657 </east>
+			<west> 5.71383619912219 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							5.71428385276657,44.4175710771733,0 5.713911165148869,44.4175565730996,0 5.71387045440845,44.4178501286001,0 5.713857794172881,44.4179398815986,0 5.71383619912219,44.4180974984875,0 5.71416618681025,44.418136113568,0 5.71421236197074,44.4181424515108,0 5.714232754620589,44.4179702725642,0 5.71425947071793,44.4177674935989,0 5.71428385276657,44.4175710771733,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+</Document></Document></kml>

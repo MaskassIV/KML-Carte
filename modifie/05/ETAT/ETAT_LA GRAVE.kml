@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="root_doc">
+	<name>LA GRAVE_ETAT</name>
+	<visibility>0</visibility>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+	<Document id="parcelles-des-personnes-morales_05_groupe_personne_1">
+		<name>LA GRAVE_ETAT</name>
+		<visibility>0</visibility>
+		<Schema name="LA GRAVE_ETAT" id="LA GRAVE_ETAT.schema">
+			<SimpleField type="string" name="Numero de Parcelle"></SimpleField>
+			<SimpleField type="string" name="Departement"></SimpleField>
+			<SimpleField type="string" name="Commune"></SimpleField>
+			<SimpleField type="string" name="Adresse"></SimpleField>
+			<SimpleField type="string" name="Groupe de personne"></SimpleField>
+			<SimpleField type="string" name="Forme Juridique Abregee"></SimpleField>
+			<SimpleField type="string" name="Denomination"></SimpleField>
+		</Schema>
+		<Style id="ETAT">
+			<LineStyle>
+				<color>BF119ff7</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4C119ff7</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_1.15819">
+		<styleUrl>#ETAT</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_1.schema">
+					<SimpleData name="Numero de Parcelle">050630000I0768</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">LA GRAVE</SimpleData>
+					<SimpleData name="Adresse">CHAL VACHERE</SimpleData>
+					<SimpleData name="Groupe de personne">Etat</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">ETAT</SimpleData>
+					<SimpleData name="Denomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 45.03377738894321 </north>
+			<south> 45.0332041461435 </south>
+			<east> 6.309679113011459 </east>
+			<west> 6.30916769208826 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.30952469133913,45.0332041461435,0 6.30916769208826,45.0333073121012,0 6.309280251202429,45.0334591474697,0 6.30951843395121,45.03377738894321,0 6.309679113011459,45.0336039109806,0 6.30952469133913,45.0332041461435,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+</Document></Document></kml>

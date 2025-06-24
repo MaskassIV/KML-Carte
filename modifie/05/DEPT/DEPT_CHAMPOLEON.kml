@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="root_doc">
+	<name>CHAMPOLEON_DEPT</name>
+	<visibility>0</visibility>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+	<Document id="parcelles-des-personnes-morales_05_groupe_personne_3">
+		<name>CHAMPOLEON_DEPT</name>
+		<visibility>0</visibility>
+		<Schema name="CHAMPOLEON_DEPT" id="CHAMPOLEON_DEPT.schema">
+			<SimpleField type="string" name="Numero de Parcelle"></SimpleField>
+			<SimpleField type="string" name="Departement"></SimpleField>
+			<SimpleField type="string" name="Commune"></SimpleField>
+			<SimpleField type="string" name="Adresse"></SimpleField>
+			<SimpleField type="string" name="Groupe de personne"></SimpleField>
+			<SimpleField type="string" name="Forme Juridique Abregee"></SimpleField>
+			<SimpleField type="string" name="Denomination"></SimpleField>
+		</Schema>
+		<Style id="DEPT">
+			<LineStyle>
+				<color>BF63f16c</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4C63f16c</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_3.3122">
+		<styleUrl>#DEPT</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_3.schema">
+					<SimpleData name="Numero de Parcelle">050320000C0846</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">CHAMPOLEON</SimpleData>
+					<SimpleData name="Adresse">LE CHATELARD</SimpleData>
+					<SimpleData name="Groupe de personne">Departement</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">DEPT</SimpleData>
+					<SimpleData name="Denomination">DEPARTEMENT DES HAUTES ALPES</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.729495309102 </north>
+			<south> 44.7294442584075 </south>
+			<east> 6.24891092638933 </east>
+			<west> 6.248846978014889 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.24891092638933,44.7294442584075,0 6.248846978014889,44.7294575785341,0 6.24885091259298,44.7294775566935,0 6.248909197770129,44.729495309102,0 6.24891092638933,44.7294442584075,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_3.3128">
+		<styleUrl>#DEPT</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_3.schema">
+					<SimpleData name="Numero de Parcelle">050320000C0849</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">CHAMPOLEON</SimpleData>
+					<SimpleData name="Adresse">LE CHATELARD</SimpleData>
+					<SimpleData name="Groupe de personne">Departement</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">DEPT</SimpleData>
+					<SimpleData name="Denomination">DEPARTEMENT DES HAUTES ALPES</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.7289875767899 </north>
+			<south> 44.7287949429369 </south>
+			<east> 6.24873658605231 </east>
+			<west> 6.248565379278299 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.248666132507991,44.7289875767899,0 6.24873658605231,44.7289490164115,0 6.24864347004849,44.7288556059108,0 6.248585867766271,44.7287949429369,0 6.248569592510369,44.7288064134433,0 6.248565379278299,44.7288538426788,0 6.248666132507991,44.7289875767899,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+</Document></Document></kml>

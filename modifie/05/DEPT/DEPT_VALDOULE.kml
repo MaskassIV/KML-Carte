@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="root_doc">
+	<name>VALDOULE_DEPT</name>
+	<visibility>0</visibility>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+	<Document id="parcelles-des-personnes-morales_05_groupe_personne_3">
+		<name>VALDOULE_DEPT</name>
+		<visibility>0</visibility>
+		<Schema name="VALDOULE_DEPT" id="VALDOULE_DEPT.schema">
+			<SimpleField type="string" name="Numero de Parcelle"></SimpleField>
+			<SimpleField type="string" name="Departement"></SimpleField>
+			<SimpleField type="string" name="Commune"></SimpleField>
+			<SimpleField type="string" name="Adresse"></SimpleField>
+			<SimpleField type="string" name="Groupe de personne"></SimpleField>
+			<SimpleField type="string" name="Forme Juridique Abregee"></SimpleField>
+			<SimpleField type="string" name="Denomination"></SimpleField>
+		</Schema>
+		<Style id="DEPT">
+			<LineStyle>
+				<color>BF63f16c</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4C63f16c</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_3.2802">
+		<styleUrl>#DEPT</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_3.schema">
+					<SimpleData name="Numero de Parcelle">050241500B0632</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">VALDOULE</SimpleData>
+					<SimpleData name="Adresse">LE VEYRIER</SimpleData>
+					<SimpleData name="Groupe de personne">Departement</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">DEPT</SimpleData>
+					<SimpleData name="Denomination">DEPARTEMENT DES HAUTES ALPES</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.4670393378836 </north>
+			<south> 44.466195261728 </south>
+			<east> 5.45980626507118 </east>
+			<west> 5.459490771031 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							5.459490771031,44.466195261728,0 5.45952460627907,44.4663687805139,0 5.45964875660483,44.4665512718814,0 5.45967230056623,44.4665431811525,0 5.45971794597723,44.4669794232021,0 5.45963275273103,44.4669841161707,0 5.4596564106258,44.4670393378836,0 5.45978248283525,44.4670318413583,0 5.45977462899855,44.4669438439744,0 5.45980626507118,44.4669078329387,0 5.45980019448221,44.4668463646413,0 5.45976292748097,44.4668223385899,0 5.45970991692363,44.4665347764039,0 5.45972404521734,44.4665270758951,0 5.459490771031,44.466195261728,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_3.2804">
+		<styleUrl>#DEPT</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_3.schema">
+					<SimpleData name="Numero de Parcelle">050241500B0635</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">VALDOULE</SimpleData>
+					<SimpleData name="Adresse">LE VEYRIER</SimpleData>
+					<SimpleData name="Groupe de personne">Departement</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">DEPT</SimpleData>
+					<SimpleData name="Denomination">DEPARTEMENT DES HAUTES ALPES</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.4665270758951 </north>
+			<south> 44.4653427950442 </south>
+			<east> 5.45973460806587 </east>
+			<west> 5.45944068881303 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							5.45953165606044,44.4653427950442,0 5.45952758345763,44.4653503612212,0 5.4595143295432,44.4653694803135,0 5.45949736930973,44.4653872410799,0 5.45949131062729,44.4653896278637,0 5.45947278933518,44.4653946343824,0 5.45945325543196,44.4653966013188,0 5.45944068881303,44.4659287091561,0 5.459490771031,44.466195261728,0 5.45972404521734,44.4665270758951,0 5.45973460806587,44.466521256225,0 5.45963743327763,44.4663604088276,0 5.45955686172441,44.4659394464981,0 5.45957768830707,44.4653457307233,0 5.45953165606044,44.4653427950442,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+</Document></Document></kml>

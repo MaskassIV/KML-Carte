@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="root_doc">
+	<name>MOLINES-EN-QUEYRAS_HLM</name>
+	<visibility>0</visibility>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+	<Document id="parcelles-des-personnes-morales_05_groupe_personne_5">
+		<name>MOLINES-EN-QUEYRAS_HLM</name>
+		<visibility>0</visibility>
+		<Schema name="MOLINES-EN-QUEYRAS_HLM" id="MOLINES-EN-QUEYRAS_HLM.schema">
+			<SimpleField type="string" name="Numero de Parcelle"></SimpleField>
+			<SimpleField type="string" name="Departement"></SimpleField>
+			<SimpleField type="string" name="Commune"></SimpleField>
+			<SimpleField type="string" name="Adresse"></SimpleField>
+			<SimpleField type="string" name="Groupe de personne"></SimpleField>
+			<SimpleField type="string" name="Forme Juridique Abregee"></SimpleField>
+			<SimpleField type="string" name="Denomination"></SimpleField>
+		</Schema>
+		<Style id="HLM">
+			<LineStyle>
+				<color>BFe451f5</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4Ce451f5</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_5.26">
+		<styleUrl>#HLM</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_5.schema">
+					<SimpleData name="Numero de Parcelle">050770000D1012</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">MOLINES-EN-QUEYRAS</SimpleData>
+					<SimpleData name="Adresse">30, RUE DU PAS DU CHAI</SimpleData>
+					<SimpleData name="Groupe de personne">HLM</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+					<SimpleData name="Denomination">OFFICE PUBLIC DE L HABITAT DES HAUTES ALPES</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.7268311830545 </north>
+			<south> 44.7263630970235 </south>
+			<east> 6.87418875901759 </east>
+			<west> 6.873508440320269 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.87418875901759,44.7265109065314,0 6.87392304317599,44.7263630970235,0 6.873508440320269,44.7268311830545,0 6.873872914993099,44.7268065280572,0 6.874076484755671,44.7266156109961,0 6.87414408181573,44.7265524917517,0 6.87418875901759,44.7265109065314,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+</Document></Document></kml>

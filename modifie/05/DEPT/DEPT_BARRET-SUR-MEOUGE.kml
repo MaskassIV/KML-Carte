@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="root_doc">
+	<name>BARRET-SUR-MEOUGE_DEPT</name>
+	<visibility>0</visibility>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+	<Document id="parcelles-des-personnes-morales_05_groupe_personne_3">
+		<name>BARRET-SUR-MEOUGE_DEPT</name>
+		<visibility>0</visibility>
+		<Schema name="BARRET-SUR-MEOUGE_DEPT" id="BARRET-SUR-MEOUGE_DEPT.schema">
+			<SimpleField type="string" name="Numero de Parcelle"></SimpleField>
+			<SimpleField type="string" name="Departement"></SimpleField>
+			<SimpleField type="string" name="Commune"></SimpleField>
+			<SimpleField type="string" name="Adresse"></SimpleField>
+			<SimpleField type="string" name="Groupe de personne"></SimpleField>
+			<SimpleField type="string" name="Forme Juridique Abregee"></SimpleField>
+			<SimpleField type="string" name="Denomination"></SimpleField>
+		</Schema>
+		<Style id="DEPT">
+			<LineStyle>
+				<color>BF63f16c</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4C63f16c</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_3.336">
+		<styleUrl>#DEPT</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_3.schema">
+					<SimpleData name="Numero de Parcelle">050140000B1084</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">BARRET-SUR-MEOUGE</SimpleData>
+					<SimpleData name="Adresse">PRE BOUVET</SimpleData>
+					<SimpleData name="Groupe de personne">Departement</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">DEPT</SimpleData>
+					<SimpleData name="Denomination">DEPARTEMENT DES HAUTES ALPES</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.263124959567 </north>
+			<south> 44.2630069729531 </south>
+			<east> 5.73748456553684 </east>
+			<west> 5.73678381760079 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							5.73748456553684,44.263124959567,0 5.73745336567459,44.2630965558245,0 5.73678703936028,44.2630069729531,0 5.73678381760079,44.2630337127127,0 5.73748456553684,44.263124959567,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_3.1653">
+		<styleUrl>#DEPT</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_3.schema">
+					<SimpleData name="Numero de Parcelle">050140000H0209</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">BARRET-SUR-MEOUGE</SimpleData>
+					<SimpleData name="Adresse">LES VIGNASSES</SimpleData>
+					<SimpleData name="Groupe de personne">Departement</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">DEPT</SimpleData>
+					<SimpleData name="Denomination">DEPARTEMENT DES HAUTES ALPES</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.2667371143873 </north>
+			<south> 44.2662624341665 </south>
+			<east> 5.75790918110607 </east>
+			<west> 5.75760463220794 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							5.75765326775656,44.2664461107755,0 5.75760463220794,44.2666419661528,0 5.75762575576217,44.2666639525479,0 5.757654297034531,44.266660624074,0 5.75776103263638,44.2665383356515,0 5.75774663233569,44.2667371143873,0 5.75779633865555,44.2665761779683,0 5.75785134194394,44.2664159191415,0 5.75790918110607,44.2662624341665,0 5.75776296173267,44.2663537403281,0 5.75773192858203,44.2663960402549,0 5.75765326775656,44.2664461107755,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+</Document></Document></kml>

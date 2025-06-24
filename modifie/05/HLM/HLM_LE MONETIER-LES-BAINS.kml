@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="root_doc">
+	<name>LE MONETIER-LES-BAINS_HLM</name>
+	<visibility>0</visibility>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+	<Document id="parcelles-des-personnes-morales_05_groupe_personne_5">
+		<name>LE MONETIER-LES-BAINS_HLM</name>
+		<visibility>0</visibility>
+		<Schema name="LE MONETIER-LES-BAINS_HLM" id="LE MONETIER-LES-BAINS_HLM.schema">
+			<SimpleField type="string" name="Numero de Parcelle"></SimpleField>
+			<SimpleField type="string" name="Departement"></SimpleField>
+			<SimpleField type="string" name="Commune"></SimpleField>
+			<SimpleField type="string" name="Adresse"></SimpleField>
+			<SimpleField type="string" name="Groupe de personne"></SimpleField>
+			<SimpleField type="string" name="Forme Juridique Abregee"></SimpleField>
+			<SimpleField type="string" name="Denomination"></SimpleField>
+		</Schema>
+		<Style id="HLM">
+			<LineStyle>
+				<color>BFe451f5</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4Ce451f5</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_5.485">
+		<styleUrl>#HLM</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_5.schema">
+					<SimpleData name="Numero de Parcelle">05079000AE0764</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">LE MONETIER-LES-BAINS</SimpleData>
+					<SimpleData name="Adresse">5983, RTE DES BAINS</SimpleData>
+					<SimpleData name="Groupe de personne">HLM</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+					<SimpleData name="Denomination">OFFICE PUBLIC DE L HABITAT DES HAUTES ALPES</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.9723701302132 </north>
+			<south> 44.9722340300142 </south>
+			<east> 6.51184725286271 </east>
+			<west> 6.511507936269289 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.511507936269289,44.9723576477156,0 6.511512498699361,44.9723656149267,0 6.511515067181429,44.9723701302132,0 6.51158490494212,44.9723681945597,0 6.511681113021959,44.9723555120047,0 6.511765937788301,44.9723273268104,0 6.511797418857341,44.9723150665878,0 6.51184358141816,44.9722939608533,0 6.51184725286271,44.9722877163106,0 6.51184349709149,44.97226223921,0 6.51184026612836,44.9722491829008,0 6.511833901096219,44.972236766354,0 6.511832078963639,44.9722340300142,0 6.51181561182651,44.972238696009,0 6.511825059218661,44.9722719243858,0 6.511822326898299,44.9722951730501,0 6.51180074298236,44.9722972067813,0 6.51172153029338,44.9723237727075,0 6.511667606774391,44.9723426000264,0 6.511629682366,44.9723492956923,0 6.51159652508482,44.9723530468577,0 6.511507936269289,44.9723576477156,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+</Document></Document></kml>

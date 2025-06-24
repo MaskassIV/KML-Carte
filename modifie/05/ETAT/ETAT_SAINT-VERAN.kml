@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="root_doc">
+	<name>SAINT-VERAN_ETAT</name>
+	<visibility>0</visibility>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+	<Document id="parcelles-des-personnes-morales_05_groupe_personne_1">
+		<name>SAINT-VERAN_ETAT</name>
+		<visibility>0</visibility>
+		<Schema name="SAINT-VERAN_ETAT" id="SAINT-VERAN_ETAT.schema">
+			<SimpleField type="string" name="Numero de Parcelle"></SimpleField>
+			<SimpleField type="string" name="Departement"></SimpleField>
+			<SimpleField type="string" name="Commune"></SimpleField>
+			<SimpleField type="string" name="Adresse"></SimpleField>
+			<SimpleField type="string" name="Groupe de personne"></SimpleField>
+			<SimpleField type="string" name="Forme Juridique Abregee"></SimpleField>
+			<SimpleField type="string" name="Denomination"></SimpleField>
+		</Schema>
+		<Style id="ETAT">
+			<LineStyle>
+				<color>BF119ff7</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4C119ff7</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_1.5921">
+		<styleUrl>#ETAT</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_1.schema">
+					<SimpleData name="Numero de Parcelle">051570000C0188</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">SAINT-VERAN</SimpleData>
+					<SimpleData name="Adresse">COSTE LA CROIX</SimpleData>
+					<SimpleData name="Groupe de personne">Etat</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">ETAT</SimpleData>
+					<SimpleData name="Denomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.7041454663352 </north>
+			<south> 44.7038808949013 </south>
+			<east> 6.858925568437479 </east>
+			<west> 6.85868581170908 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.85882647623814,44.7038808949013,0 6.85868581170908,44.7040892391467,0 6.85870787614027,44.7041013590853,0 6.858787113280671,44.7041454663352,0 6.85880121403502,44.70411333661,0 6.858925568437479,44.7039141240777,0 6.85882647623814,44.7038808949013,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_1.12752">
+		<styleUrl>#ETAT</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_1.schema">
+					<SimpleData name="Numero de Parcelle">051570000F0501</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">SAINT-VERAN</SimpleData>
+					<SimpleData name="Adresse">PRE MAUR</SimpleData>
+					<SimpleData name="Groupe de personne">Etat</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">ETAT</SimpleData>
+					<SimpleData name="Denomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.6941816256734 </north>
+			<south> 44.6936968925579 </south>
+			<east> 6.88427795740974 </east>
+			<west> 6.88345130157594 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.883839132568411,44.6937144071436,0 6.88373195725935,44.6937855931482,0 6.88345130157594,44.6939376840141,0 6.88357372342339,44.6940178447084,0 6.88375095662797,44.6941726075528,0 6.88384358579249,44.6941012111939,0 6.88407685117143,44.6941816256734,0 6.88412702507373,44.6941322712087,0 6.88422434206452,44.694050073669,0 6.88427795740974,44.6939828411818,0 6.88411402561245,44.6939127920636,0 6.88386559829988,44.6936968925579,0 6.883839132568411,44.6937144071436,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+</Document></Document></kml>

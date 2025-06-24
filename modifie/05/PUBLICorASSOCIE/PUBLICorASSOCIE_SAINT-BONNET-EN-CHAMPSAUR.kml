@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="root_doc">
+	<name>SAINT-BONNET-EN-CHAMPSAUR_PUBLICorASSOCIE</name>
+	<visibility>0</visibility>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+	<Document id="parcelles-des-personnes-morales_05_groupe_personne_9">
+		<name>SAINT-BONNET-EN-CHAMPSAUR_PUBLICorASSOCIE</name>
+		<visibility>0</visibility>
+		<Schema name="SAINT-BONNET-EN-CHAMPSAUR_PUBLICorASSOCIE" id="SAINT-BONNET-EN-CHAMPSAUR_PUBLICorASSOCIE.schema">
+			<SimpleField type="string" name="Numero de Parcelle"></SimpleField>
+			<SimpleField type="string" name="Departement"></SimpleField>
+			<SimpleField type="string" name="Commune"></SimpleField>
+			<SimpleField type="string" name="Adresse"></SimpleField>
+			<SimpleField type="string" name="Groupe de personne"></SimpleField>
+			<SimpleField type="string" name="Forme Juridique Abregee"></SimpleField>
+			<SimpleField type="string" name="Denomination"></SimpleField>
+		</Schema>
+		<Style id="PUBLICorASSOCIE">
+			<LineStyle>
+				<color>BFdb2105</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4Cdb2105</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_9.757">
+		<styleUrl>#PUBLICorASSOCIE</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_9.schema">
+					<SimpleData name="Numero de Parcelle">05132000ZE0191</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">SAINT-BONNET-EN-CHAMPSAUR</SimpleData>
+					<SimpleData name="Adresse">1, RUE DES CHANALETTES</SimpleData>
+					<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+					<SimpleData name="Denomination">OFFICE NATIONAL DES FORETS</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.6750348053695 </north>
+			<south> 44.6743225803752 </south>
+			<east> 6.08524805167133 </east>
+			<west> 6.08449797482389 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.08522120110099,44.6746446273425,0 6.08521799738895,44.6746299408566,0 6.08524805167133,44.6746069387646,0 6.08524283233707,44.6745831186459,0 6.08522839345431,44.6745523479626,0 6.085206387212079,44.674524040773,0 6.08518436174489,44.6745069060982,0 6.085138211126651,44.6744781011005,0 6.08508701674659,44.6744540316951,0 6.084960757256009,44.6744242175392,0 6.08454431532996,44.6743225803752,0 6.084516004543441,44.674354363115,0 6.084502076450811,44.6743974573148,0 6.08449797482389,44.674493164186,0 6.08451532906686,44.6746371050804,0 6.08453652909474,44.6746921935753,0 6.084556235452929,44.6747638114026,0 6.084567413044219,44.6748364779445,0 6.084590690047911,44.6748764623804,0 6.08461806030093,44.6749058814536,0 6.08454725816669,44.675024080583,0 6.08455037099306,44.6750348053695,0 6.08473176067916,44.6749461371125,0 6.084957865681749,44.6748370308209,0 6.08497595606069,44.6747685033062,0 6.08503426457815,44.6747265137104,0 6.0850909783811,44.6746853794318,0 6.08518310692372,44.674629202228,0 6.08522120110099,44.6746446273425,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+</Document></Document></kml>

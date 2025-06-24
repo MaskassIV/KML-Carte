@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="root_doc">
+	<name>LA SALLE_region</name>
+	<visibility>0</visibility>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+	<Document id="parcelles-des-personnes-morales_05_groupe_personne_2">
+		<name>LA SALLE_region</name>
+		<visibility>0</visibility>
+		<Schema name="LA SALLE_region" id="LA SALLE_region.schema">
+			<SimpleField type="string" name="Numero de Parcelle"></SimpleField>
+			<SimpleField type="string" name="Departement"></SimpleField>
+			<SimpleField type="string" name="Commune"></SimpleField>
+			<SimpleField type="string" name="Adresse"></SimpleField>
+			<SimpleField type="string" name="Groupe de personne"></SimpleField>
+			<SimpleField type="string" name="Forme Juridique Abregee"></SimpleField>
+			<SimpleField type="string" name="Denomination"></SimpleField>
+		</Schema>
+		<Style id="region">
+			<LineStyle>
+				<color>BF318006</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4C318006</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_2.2">
+		<styleUrl>#region</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_2.schema">
+					<SimpleData name="Numero de Parcelle">05161000AM0117</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">LA SALLE</SimpleData>
+					<SimpleData name="Adresse">L ENVERS</SimpleData>
+					<SimpleData name="Groupe de personne">Region</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">SCI</SimpleData>
+					<SimpleData name="Denomination">DES FAIENCERIES</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.9447668479761 </north>
+			<south> 44.9445212696549 </south>
+			<east> 6.563820260220239 </east>
+			<west> 6.563458988691279 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.56355447472383,44.9447668479761,0 6.56361644766785,44.9447355688338,0 6.56366108906252,44.9447131372871,0 6.56371014355911,44.9446822724208,0 6.563743654345231,44.9446524468432,0 6.56379038157653,44.9445969615646,0 6.563820260220239,44.9445519307328,0 6.56376742013135,44.9445212696549,0 6.56367996309019,44.944564902606,0 6.56363390170541,44.9445829634443,0 6.563586068816609,44.9446110852639,0 6.563458988691279,44.9446802332028,0 6.563527134606009,44.944742038401,0 6.56355447472383,44.9447668479761,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_2.3">
+		<styleUrl>#region</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_2.schema">
+					<SimpleData name="Numero de Parcelle">05161000AM0118</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">LA SALLE</SimpleData>
+					<SimpleData name="Adresse">L ENVERS</SimpleData>
+					<SimpleData name="Groupe de personne">Region</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">SCI</SimpleData>
+					<SimpleData name="Denomination">DES FAIENCERIES</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.9445519307328 </north>
+			<south> 44.9444785837144 </south>
+			<east> 6.56385269631174 </east>
+			<west> 6.56376742013135 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.56376742013135,44.9445212696549,0 6.563820260220239,44.9445519307328,0 6.56385269631174,44.9445032127504,0 6.56382815964637,44.9444785837144,0 6.56376742013135,44.9445212696549,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+</Document></Document></kml>

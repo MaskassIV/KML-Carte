@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="root_doc">
+	<name>LA GRAVE_region</name>
+	<visibility>0</visibility>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+	<Document id="parcelles-des-personnes-morales_05_groupe_personne_2">
+		<name>LA GRAVE_region</name>
+		<visibility>0</visibility>
+		<Schema name="LA GRAVE_region" id="LA GRAVE_region.schema">
+			<SimpleField type="string" name="Numero de Parcelle"></SimpleField>
+			<SimpleField type="string" name="Departement"></SimpleField>
+			<SimpleField type="string" name="Commune"></SimpleField>
+			<SimpleField type="string" name="Adresse"></SimpleField>
+			<SimpleField type="string" name="Groupe de personne"></SimpleField>
+			<SimpleField type="string" name="Forme Juridique Abregee"></SimpleField>
+			<SimpleField type="string" name="Denomination"></SimpleField>
+		</Schema>
+		<Style id="region">
+			<LineStyle>
+				<color>BF318006</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4C318006</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_2.4">
+		<styleUrl>#region</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_2.schema">
+					<SimpleData name="Numero de Parcelle">05063000AD0164</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">LA GRAVE</SimpleData>
+					<SimpleData name="Adresse">LE CHAZELET</SimpleData>
+					<SimpleData name="Groupe de personne">Region</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">SCI</SimpleData>
+					<SimpleData name="Denomination">LE CHALET DU TORRENT</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 45.0533802428163 </north>
+			<south> 45.0532383220997 </south>
+			<east> 6.28477457470215 </east>
+			<west> 6.28459300528148 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.28477457470215,45.0533004317495,0 6.284677483127,45.0532383220997,0 6.28461805726744,45.0532872063504,0 6.28459300528148,45.0533195764023,0 6.28459787019287,45.0533223166129,0 6.28461980977227,45.0533365386086,0 6.28463969216285,45.0533525335098,0 6.284656988572191,45.0533699564516,0 6.284661875031161,45.053366568087,0 6.28468403678064,45.0533802428163,0 6.28470819965688,45.0533587129806,0 6.28477457470215,45.0533004317495,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+</Document></Document></kml>

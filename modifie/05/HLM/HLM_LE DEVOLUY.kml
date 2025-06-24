@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="root_doc">
+	<name>LE DEVOLUY_HLM</name>
+	<visibility>0</visibility>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+	<Document id="parcelles-des-personnes-morales_05_groupe_personne_5">
+		<name>LE DEVOLUY_HLM</name>
+		<visibility>0</visibility>
+		<Schema name="LE DEVOLUY_HLM" id="LE DEVOLUY_HLM.schema">
+			<SimpleField type="string" name="Numero de Parcelle"></SimpleField>
+			<SimpleField type="string" name="Departement"></SimpleField>
+			<SimpleField type="string" name="Commune"></SimpleField>
+			<SimpleField type="string" name="Adresse"></SimpleField>
+			<SimpleField type="string" name="Groupe de personne"></SimpleField>
+			<SimpleField type="string" name="Forme Juridique Abregee"></SimpleField>
+			<SimpleField type="string" name="Denomination"></SimpleField>
+		</Schema>
+		<Style id="HLM">
+			<LineStyle>
+				<color>BFe451f5</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4Ce451f5</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_5.433">
+		<styleUrl>#HLM</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_5.schema">
+					<SimpleData name="Numero de Parcelle">051390000E0546</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">LE DEVOLUY</SimpleData>
+					<SimpleData name="Adresse">22, RUE DE COGNIBLE</SimpleData>
+					<SimpleData name="Groupe de personne">HLM</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+					<SimpleData name="Denomination">OFFICE PUBLIC DE L HABITAT DES HAUTES ALPES</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.6887177506859 </north>
+			<south> 44.6882199419806 </south>
+			<east> 5.94717825445889 </east>
+			<west> 5.94652809754947 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							5.94660769715712,44.6887177506859,0 5.94686173346329,44.6885500821166,0 5.94716608132959,44.6883544058028,0 5.94717483984824,44.6883335416389,0 5.94717825445889,44.6883119189139,0 5.94717636284158,44.6882902573532,0 5.947169188548641,44.6882690067849,0 5.94716043335456,44.6882537443388,0 5.94713914678797,44.6882403472459,0 5.947114610547039,44.6882300097172,0 5.947087730975201,44.6882231580634,0 5.94705965251512,44.6882199419806,0 5.94703114126539,44.6882205212436,0 5.94700333224905,44.6882248656191,0 5.94699112373282,44.6882280737222,0 5.9465877058953,44.688449181105,0 5.946599175293731,44.6884656325828,0 5.94660578742596,44.6884833846052,0 5.94660687875452,44.6885018242071,0 5.94660290194211,44.6885199483315,0 5.94659344568041,44.6885371372943,0 5.94657960262563,44.6885525511746,0 5.946561470640819,44.688565646818,0 5.94653976404165,44.6885755943792,0 5.94652809754947,44.6885795087222,0 5.94660769715712,44.6887177506859,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+</Document></Document></kml>

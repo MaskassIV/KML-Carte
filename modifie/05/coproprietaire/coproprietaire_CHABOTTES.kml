@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="root_doc">
+	<name>CHABOTTES_coproprietaire</name>
+	<visibility>0</visibility>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+	<Document id="parcelles-des-personnes-morales_05_groupe_personne_7">
+		<name>CHABOTTES_coproprietaire</name>
+		<visibility>0</visibility>
+		<Schema name="CHABOTTES_coproprietaire" id="CHABOTTES_coproprietaire.schema">
+			<SimpleField type="string" name="Numero de Parcelle"></SimpleField>
+			<SimpleField type="string" name="Departement"></SimpleField>
+			<SimpleField type="string" name="Commune"></SimpleField>
+			<SimpleField type="string" name="Adresse"></SimpleField>
+			<SimpleField type="string" name="Groupe de personne"></SimpleField>
+			<SimpleField type="string" name="Forme Juridique Abregee"></SimpleField>
+			<SimpleField type="string" name="Denomination"></SimpleField>
+		</Schema>
+		<Style id="coproprietaire">
+			<LineStyle>
+				<color>BF7c1404</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4C7c1404</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_7.4">
+		<styleUrl>#coproprietaire</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_7.schema">
+					<SimpleData name="Numero de Parcelle">05029000ZE0183</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">CHABOTTES</SimpleData>
+					<SimpleData name="Adresse">LES OLIVIERS</SimpleData>
+					<SimpleData name="Groupe de personne">Coproprietaires</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">AUPM</SimpleData>
+					<SimpleData name="Denomination">LES COPROPRIETAIRES DE LA PARCELLE ZE 183</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.6456518960511 </north>
+			<south> 44.6451206922352 </south>
+			<east> 6.17632385730078 </east>
+			<west> 6.175836244406121 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.17584527516822,44.645548958207,0 6.175836244406121,44.6455678682901,0 6.17583921679381,44.6455937316254,0 6.175858417693049,44.6456164257538,0 6.175884347572611,44.6456398275644,0 6.17592528852444,44.6456518960511,0 6.17594996012993,44.6456507367643,0 6.17597383944385,44.6456467170419,0 6.175992708218301,44.6456411293688,0 6.176019824318379,44.6456251234778,0 6.17603193061986,44.6456092785097,0 6.176039037291531,44.6455942979769,0 6.176041924952409,44.6455783574583,0 6.17604065445692,44.645562536403,0 6.176034994082871,44.6455472018675,0 6.17603148393264,44.6455409056311,0 6.17602074204451,44.6455227437941,0 6.176158901744929,44.6453519096762,0 6.17616056988644,44.6453367249907,0 6.17616169146278,44.6453297550859,0 6.17620790505285,44.6452853596286,0 6.17632385730078,44.6451459774554,0 6.176225504217791,44.6451206922352,0 6.176206190085171,44.6451497186821,0 6.17618525894139,44.6451814044769,0 6.17620256865524,44.6451862230288,0 6.176096352300699,44.6453214510602,0 6.1759537405132,44.6455028645699,0 6.175910964880509,44.6455052647645,0 6.17586560932396,44.6455245877111,0 6.17585463982413,44.6455337326204,0 6.175847047853931,44.6455445824935,0 6.17584527516822,44.645548958207,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+</Document></Document></kml>

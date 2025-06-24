@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="root_doc">
+	<name>VAL BUECH-MEOUGE_HLM</name>
+	<visibility>0</visibility>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+	<Document id="parcelles-des-personnes-morales_05_groupe_personne_5">
+		<name>VAL BUECH-MEOUGE_HLM</name>
+		<visibility>0</visibility>
+		<Schema name="VAL BUECH-MEOUGE_HLM" id="VAL BUECH-MEOUGE_HLM.schema">
+			<SimpleField type="string" name="Numero de Parcelle"></SimpleField>
+			<SimpleField type="string" name="Departement"></SimpleField>
+			<SimpleField type="string" name="Commune"></SimpleField>
+			<SimpleField type="string" name="Adresse"></SimpleField>
+			<SimpleField type="string" name="Groupe de personne"></SimpleField>
+			<SimpleField type="string" name="Forme Juridique Abregee"></SimpleField>
+			<SimpleField type="string" name="Denomination"></SimpleField>
+		</Schema>
+		<Style id="HLM">
+			<LineStyle>
+				<color>BFe451f5</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4Ce451f5</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_5.141">
+		<styleUrl>#HLM</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_5.schema">
+					<SimpleData name="Numero de Parcelle">051180000E1695</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">VAL BUECH-MEOUGE</SimpleData>
+					<SimpleData name="Adresse">L ENCLOS</SimpleData>
+					<SimpleData name="Groupe de personne">HLM</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+					<SimpleData name="Denomination">OFFICE PUBLIC DE L HABITAT DES HAUTES ALPES</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.2261379890255 </north>
+			<south> 44.2258021491008 </south>
+			<east> 5.86003074763785 </east>
+			<west> 5.8594759596602 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							5.85960512955735,44.2258021491008,0 5.8594759596602,44.2260700472067,0 5.85988621871969,44.2261379890255,0 5.86003074763785,44.225834383083,0 5.86001060869576,44.2258423835676,0 5.85988081339349,44.2258293728881,0 5.85977393907925,44.2258188272236,0 5.85975555773816,44.2258169643342,0 5.85960512955735,44.2258021491008,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_5.142">
+		<styleUrl>#HLM</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_5.schema">
+					<SimpleData name="Numero de Parcelle">051180000E1698</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">VAL BUECH-MEOUGE</SimpleData>
+					<SimpleData name="Adresse">L ENCLOS</SimpleData>
+					<SimpleData name="Groupe de personne">HLM</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+					<SimpleData name="Denomination">OFFICE PUBLIC DE L HABITAT DES HAUTES ALPES</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.2258423835676 </north>
+			<south> 44.2256919304495 </south>
+			<east> 5.86008001345866 </east>
+			<west> 5.85960512955735 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							5.85965944876927,44.2256919304495,0 5.85960512955735,44.2258021491008,0 5.85975555773816,44.2258169643342,0 5.85977393907925,44.2258188272236,0 5.85988081339349,44.2258293728881,0 5.86001060869576,44.2258423835676,0 5.86003074763785,44.225834383083,0 5.86008001345866,44.2257307808516,0 5.85965944876927,44.2256919304495,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+</Document></Document></kml>

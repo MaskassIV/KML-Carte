@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="root_doc">
+	<name>BARCILLONNETTE_COM</name>
+	<visibility>0</visibility>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+	<Document id="parcelles-des-personnes-morales_05_groupe_personne_4">
+		<name>BARCILLONNETTE_COM</name>
+		<visibility>0</visibility>
+		<Schema name="BARCILLONNETTE_COM" id="BARCILLONNETTE_COM.schema">
+			<SimpleField type="string" name="Numero de Parcelle"></SimpleField>
+			<SimpleField type="string" name="Departement"></SimpleField>
+			<SimpleField type="string" name="Commune"></SimpleField>
+			<SimpleField type="string" name="Adresse"></SimpleField>
+			<SimpleField type="string" name="Groupe de personne"></SimpleField>
+			<SimpleField type="string" name="Forme Juridique Abregee"></SimpleField>
+			<SimpleField type="string" name="Denomination"></SimpleField>
+		</Schema>
+		<Style id="COM">
+			<LineStyle>
+				<color>BFe6c645</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4Ce6c645</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_4.84350">
+		<styleUrl>#COM</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_4.schema">
+					<SimpleData name="Numero de Parcelle">050130000C0605</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">BARCILLONNETTE</SimpleData>
+					<SimpleData name="Adresse">LES FAYSSES</SimpleData>
+					<SimpleData name="Groupe de personne">Commune</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">CCOM</SimpleData>
+					<SimpleData name="Denomination">COMMUNAUTE DE COMMUNES DE TALLARD BARCILLONNETTE</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.4362222694838 </north>
+			<south> 44.4352026326705 </south>
+			<east> 5.92754569677353 </east>
+			<west> 5.92674210127509 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							5.92675433497498,44.4360432797472,0 5.927205275739009,44.4362222694838,0 5.92754569677353,44.4359493758567,0 5.92736366477602,44.4357214442247,0 5.927473217391899,44.435608183705,0 5.927427154476119,44.4355586922724,0 5.92751584215509,44.435268256508,0 5.92720567785569,44.4352026326705,0 5.92720275808239,44.4352749551548,0 5.92718924538425,44.435346658319,0 5.92715984410755,44.4354295933987,0 5.92709609815597,44.4355266829849,0 5.92699513659069,44.435614041772,0 5.92690283816323,44.4357060346496,0 5.92681918892556,44.4358023917685,0 5.92677501647792,44.4358598659773,0 5.92674431628419,44.4359322959845,0 5.92674210127509,44.4359818092637,0 5.92675068385171,44.4360310356656,0 5.92675433497498,44.4360432797472,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+</Document></Document></kml>

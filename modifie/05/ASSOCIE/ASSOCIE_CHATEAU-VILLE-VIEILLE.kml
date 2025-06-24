@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="root_doc">
+	<name>CHATEAU-VILLE-VIEILLE_ASSOCIE</name>
+	<visibility>0</visibility>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+	<Document id="parcelles-des-personnes-morales_05_groupe_personne_8">
+		<name>CHATEAU-VILLE-VIEILLE_ASSOCIE</name>
+		<visibility>0</visibility>
+		<Schema name="CHATEAU-VILLE-VIEILLE_ASSOCIE" id="CHATEAU-VILLE-VIEILLE_ASSOCIE.schema">
+			<SimpleField type="string" name="Numero de Parcelle"></SimpleField>
+			<SimpleField type="string" name="Departement"></SimpleField>
+			<SimpleField type="string" name="Commune"></SimpleField>
+			<SimpleField type="string" name="Adresse"></SimpleField>
+			<SimpleField type="string" name="Groupe de personne"></SimpleField>
+			<SimpleField type="string" name="Forme Juridique Abregee"></SimpleField>
+			<SimpleField type="string" name="Denomination"></SimpleField>
+		</Schema>
+		<Style id="ASSOCIE">
+			<LineStyle>
+				<color>BF02206f</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4C02206f</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_8.11">
+		<styleUrl>#ASSOCIE</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_8.schema">
+					<SimpleData name="Numero de Parcelle">050380000T2480</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">CHATEAU-VILLE-VIEILLE</SimpleData>
+					<SimpleData name="Adresse">15, IMP DU BRASQ</SimpleData>
+					<SimpleData name="Groupe de personne">Associes</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">SCI</SimpleData>
+					<SimpleData name="Denomination">FRANDINE</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.7597346828184 </north>
+			<south> 44.7592596556574 </south>
+			<east> 6.808183090116059 </east>
+			<west> 6.80734027558029 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.80734027558029,44.7594282374358,0 6.80751499094776,44.7595273283881,0 6.80769125636655,44.7596250137621,0 6.80781351411905,44.7596911156781,0 6.80789123240815,44.7597346828184,0 6.80812363492228,44.7597104669687,0 6.808183090116059,44.7596637152591,0 6.80817644619974,44.7596478094837,0 6.808138937270479,44.7595572513092,0 6.80811885010491,44.7594904306092,0 6.808096136838779,44.7594240607552,0 6.80807919519395,44.7593793953414,0 6.808065527137831,44.7593457040161,0 6.80804949756728,44.759312634708,0 6.80803086014811,44.7592802860223,0 6.80801744434039,44.7592596556574,0 6.80799665888737,44.7592646968992,0 6.807949007005069,44.759276520774,0 6.807732174356751,44.7593288640207,0 6.80734027558029,44.7594282374358,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+</Document></Document></kml>

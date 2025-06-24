@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="root_doc">
+	<name>SAINT-JEAN-SAINT-NICOLAS_DEPT</name>
+	<visibility>0</visibility>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+	<Document id="parcelles-des-personnes-morales_05_groupe_personne_3">
+		<name>SAINT-JEAN-SAINT-NICOLAS_DEPT</name>
+		<visibility>0</visibility>
+		<Schema name="SAINT-JEAN-SAINT-NICOLAS_DEPT" id="SAINT-JEAN-SAINT-NICOLAS_DEPT.schema">
+			<SimpleField type="string" name="Numero de Parcelle"></SimpleField>
+			<SimpleField type="string" name="Departement"></SimpleField>
+			<SimpleField type="string" name="Commune"></SimpleField>
+			<SimpleField type="string" name="Adresse"></SimpleField>
+			<SimpleField type="string" name="Groupe de personne"></SimpleField>
+			<SimpleField type="string" name="Forme Juridique Abregee"></SimpleField>
+			<SimpleField type="string" name="Denomination"></SimpleField>
+		</Schema>
+		<Style id="DEPT">
+			<LineStyle>
+				<color>BF63f16c</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4C63f16c</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_3.506">
+		<styleUrl>#DEPT</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_3.schema">
+					<SimpleData name="Numero de Parcelle">051450000B1188</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">SAINT-JEAN-SAINT-NICOLAS</SimpleData>
+					<SimpleData name="Adresse">L OGNASSE</SimpleData>
+					<SimpleData name="Groupe de personne">Departement</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">DEPT</SimpleData>
+					<SimpleData name="Denomination">DEPARTEMENT DES HAUTES ALPES</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.6850806641197 </north>
+			<south> 44.6813307374646 </south>
+			<east> 6.261750164200441 </east>
+			<west> 6.25765998415909 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.25967563910351,44.6830147960933,0 6.259707677314351,44.6829879017664,0 6.25980284341368,44.6830064521999,0 6.259899980030319,44.6830241335379,0 6.259974644422371,44.6830594167967,0 6.2599903149781,44.6830704884039,0 6.26002059603955,44.6831114046807,0 6.26005047138279,44.6831758502981,0 6.260100029625479,44.6832857594504,0 6.26018303220598,44.6833516127388,0 6.260309285309229,44.6834620546578,0 6.26040943439117,44.6835622730499,0 6.26058117616964,44.6837406646675,0 6.26074291378767,44.6838706041536,0 6.26103303073524,44.684110561538,0 6.26106897653643,44.6841402276691,0 6.261179091064709,44.6842576320592,0 6.261442684283149,44.6844255655776,0 6.26146020645111,44.684477309894,0 6.26147619074994,44.6845482919284,0 6.261484873768799,44.6846502150573,0 6.26157626605969,44.6848019605272,0 6.261750164200441,44.6850806641197,0 6.261719976403671,44.6850152368851,0 6.261670423663629,44.6848837028687,0 6.261640414943971,44.6847843007307,0 6.26162207211274,44.6847009537473,0 6.26161280745433,44.6846064363844,0 6.26161281046057,44.6844887590841,0 6.26160113296525,44.684441978447,0 6.261544955196811,44.6841241223134,0 6.26135151375959,44.6840530561676,0 6.26116316206846,44.6839848131148,0 6.26103250875678,44.6839292856307,0 6.260981836180089,44.6839026666783,0 6.26093860268083,44.6838649257015,0 6.260890561373069,44.6838183159376,0 6.26077054410557,44.6836607460905,0 6.26072762462601,44.6836153368636,0 6.26065955202463,44.6835586850943,0 6.26049665777567,44.6834327442443,0 6.260413427520021,44.6833695109293,0 6.260303000141649,44.6832859044947,0 6.26014386213409,44.6831419215903,0 6.26007772353163,44.6829703287104,0 6.259940430535921,44.6829309443146,0 6.25984621698046,44.6829092122588,0 6.25973220432696,44.6828443626951,0 6.25958636104905,44.6827707196638,0 6.25953496795556,44.6827490771129,0 6.25949965285858,44.6827324571749,0 6.259412367721029,44.6826515019017,0 6.25934860600438,44.6826038229894,0 6.25927569657685,44.6825595672504,0 6.25918819375423,44.68252502225,0 6.259154812899399,44.682506903542,0 6.25905950214865,44.6824247428081,0 6.258931979933879,44.682329384549,0 6.25879203744681,44.6822376358419,0 6.258603493789339,44.6821222695737,0 6.25856924348078,44.682100031495,0 6.25854025557519,44.6820705201035,0 6.25845517549306,44.6819468796257,0 6.25814628951496,44.6817073790669,0 6.25785181505921,44.6814789867041,0 6.25765998415909,44.6813307374646,0 6.25783050813142,44.6814883544055,0 6.25812407863877,44.6817666014067,0 6.25840284777338,44.682015999681,0 6.25876114578142,44.6823323450725,0 6.25897281123904,44.6825067694267,0 6.259164591207129,44.6826561895397,0 6.25933207947402,44.6827874030904,0 6.259498418756339,44.6828965745712,0 6.25967563910351,44.6830147960933,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_3.1303">
+		<styleUrl>#DEPT</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_3.schema">
+					<SimpleData name="Numero de Parcelle">05145000BC0179</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">SAINT-JEAN-SAINT-NICOLAS</SimpleData>
+					<SimpleData name="Adresse">200, RTE DORCIERES</SimpleData>
+					<SimpleData name="Groupe de personne">Departement</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">DEPT</SimpleData>
+					<SimpleData name="Denomination">DEPARTEMENT DES HAUTES ALPES</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.6691912797449 </north>
+			<south> 44.6684825508713 </south>
+			<east> 6.2352523694739 </east>
+			<west> 6.23425105321466 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.23459748069883,44.6684825508713,0 6.2344997276316,44.6686338100118,0 6.234424133467799,44.6687509926778,0 6.23433646578885,44.6688888016221,0 6.23425105321466,44.6690241117529,0 6.234371747262899,44.6690612185472,0 6.234556379625639,44.6691211434728,0 6.23477695326708,44.6691912797449,0 6.23484949938592,44.6690869806374,0 6.23488734494253,44.6690380287857,0 6.2349223051062,44.6690355645129,0 6.2349663390652,44.6690349972854,0 6.235015041208191,44.6690409611302,0 6.235092770861751,44.6690532840877,0 6.23512558623147,44.6690640375729,0 6.23516984163023,44.6690849083722,0 6.2352523694739,44.6689543672293,0 6.23518581572795,44.6689036037589,0 6.23513442477777,44.6688640200182,0 6.2351000262933,44.6688279037235,0 6.23505344084454,44.6687774570845,0 6.23502573480825,44.6687567328674,0 6.234910334761011,44.6686755015439,0 6.23480188966279,44.6685988421511,0 6.23469627795468,44.6685253435052,0 6.234648678591821,44.6684924064071,0 6.2346307285204,44.6684854528568,0 6.23459748069883,44.6684825508713,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_3.1341">
+		<styleUrl>#DEPT</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_3.schema">
+					<SimpleData name="Numero de Parcelle">05145000BC0182</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">SAINT-JEAN-SAINT-NICOLAS</SimpleData>
+					<SimpleData name="Adresse">LE CHATELARD</SimpleData>
+					<SimpleData name="Groupe de personne">Departement</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">DEPT</SimpleData>
+					<SimpleData name="Denomination">DEPARTEMENT DES HAUTES ALPES</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.6692777548619 </north>
+			<south> 44.6690349972854 </south>
+			<east> 6.23516984163023 </east>
+			<west> 6.23477695326708 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.23477695326708,44.6691912797449,0 6.23489112939132,44.6692292073662,0 6.23504884606245,44.6692777548619,0 6.23507792777788,44.6692323030205,0 6.235155608236149,44.6691074901577,0 6.23516984163023,44.6690849083722,0 6.23512558623147,44.6690640375729,0 6.235092770861751,44.6690532840877,0 6.235015041208191,44.6690409611302,0 6.2349663390652,44.6690349972854,0 6.2349223051062,44.6690355645129,0 6.23488734494253,44.6690380287857,0 6.23484949938592,44.6690869806374,0 6.23477695326708,44.6691912797449,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_3.1361">
+		<styleUrl>#DEPT</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_3.schema">
+					<SimpleData name="Numero de Parcelle">05145000BC0183</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">SAINT-JEAN-SAINT-NICOLAS</SimpleData>
+					<SimpleData name="Adresse">LE CHATELARD</SimpleData>
+					<SimpleData name="Groupe de personne">Departement</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">DEPT</SimpleData>
+					<SimpleData name="Denomination">DEPARTEMENT DES HAUTES ALPES</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.6689294997535 </north>
+			<south> 44.668469074825 </south>
+			<east> 6.235309426695031 </east>
+			<west> 6.23467006600467 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.2352677341324,44.6689294997535,0 6.235309426695031,44.6688661988837,0 6.23526389410324,44.6688296875356,0 6.23511651910678,44.6687149723596,0 6.23494507472133,44.6685834810458,0 6.234832770591999,44.6684945904257,0 6.23471905589797,44.6684756610898,0 6.23467006600467,44.668469074825,0 6.23474347725956,44.6685205390206,0 6.23488138037541,44.6686198537415,0 6.23500309744097,44.6687077481524,0 6.23507944782315,44.6687620094773,0 6.23509875579737,44.6687772127393,0 6.235139999464649,44.6688225896343,0 6.23516267285436,44.6688502187946,0 6.2352677341324,44.6689294997535,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_3.1943">
+		<styleUrl>#DEPT</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_3.schema">
+					<SimpleData name="Numero de Parcelle">05145000BC0258</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">SAINT-JEAN-SAINT-NICOLAS</SimpleData>
+					<SimpleData name="Adresse">LA PETITE ISCLE</SimpleData>
+					<SimpleData name="Groupe de personne">Departement</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">DEPT</SimpleData>
+					<SimpleData name="Denomination">DEPARTEMENT DES HAUTES ALPES</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.6698710218719 </north>
+			<south> 44.669732156719 </south>
+			<east> 6.23772092881654 </east>
+			<west> 6.23693616211125 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.23696074371052,44.669732156719,0 6.23695485903833,44.6697462048832,0 6.23693616211125,44.6698031568573,0 6.23713729303841,44.6698380866173,0 6.23726115522638,44.6698489676514,0 6.23740029470602,44.6698554367834,0 6.23768645123202,44.6698692251451,0 6.23771433331691,44.6698710218719,0 6.237713338426649,44.6698383434483,0 6.237716900277269,44.6698256246893,0 6.23772092881654,44.6697727061322,0 6.23747537525876,44.6697843097856,0 6.237368223442649,44.6697873563821,0 6.237300313526559,44.6697811448722,0 6.237188726040281,44.6697641379718,0 6.23704622809542,44.6697431701314,0 6.23696074371052,44.669732156719,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_3.2401">
+		<styleUrl>#DEPT</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_3.schema">
+					<SimpleData name="Numero de Parcelle">05145000BD0412</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">SAINT-JEAN-SAINT-NICOLAS</SimpleData>
+					<SimpleData name="Adresse">LE PIED DU PONT</SimpleData>
+					<SimpleData name="Groupe de personne">Departement</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">DEPT</SimpleData>
+					<SimpleData name="Denomination">DEPARTEMENT DES HAUTES ALPES</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.6661690761085 </north>
+			<south> 44.6659971529085 </south>
+			<east> 6.22664546723572 </east>
+			<west> 6.226544037546171 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.22664546723572,44.6660772682396,0 6.22663822672073,44.6660324281028,0 6.226544037546171,44.6659971529085,0 6.226545653179041,44.6659989078252,0 6.22655775817843,44.6660184673553,0 6.226570818087691,44.6660436754991,0 6.22658516164081,44.6660956968218,0 6.2266030081203,44.6661669880402,0 6.22662408660867,44.6661690761085,0 6.22663092152715,44.6661429270759,0 6.22664546723572,44.6660772682396,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_3.2403">
+		<styleUrl>#DEPT</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_3.schema">
+					<SimpleData name="Numero de Parcelle">05145000BD0413</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">SAINT-JEAN-SAINT-NICOLAS</SimpleData>
+					<SimpleData name="Adresse">LE PIED DU PONT</SimpleData>
+					<SimpleData name="Groupe de personne">Departement</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">DEPT</SimpleData>
+					<SimpleData name="Denomination">DEPARTEMENT DES HAUTES ALPES</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.6661669880402 </north>
+			<south> 44.6659710037905 </south>
+			<east> 6.2266030081203 </east>
+			<west> 6.22644813727247 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.2266030081203,44.6661669880402,0 6.22658516164081,44.6660956968218,0 6.226570818087691,44.6660436754991,0 6.22655775817843,44.6660184673553,0 6.226545653179041,44.6659989078252,0 6.226544037546171,44.6659971529085,0 6.22653061944528,44.6659921382384,0 6.226476759179361,44.6659710037905,0 6.22644813727247,44.6661479898187,0 6.22657862663166,44.666164545826,0 6.2266030081203,44.6661669880402,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_3.2406">
+		<styleUrl>#DEPT</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_3.schema">
+					<SimpleData name="Numero de Parcelle">05145000BD0416</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">SAINT-JEAN-SAINT-NICOLAS</SimpleData>
+					<SimpleData name="Adresse">LE PIED DU PONT</SimpleData>
+					<SimpleData name="Groupe de personne">Departement</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">DEPT</SimpleData>
+					<SimpleData name="Denomination">DEPARTEMENT DES HAUTES ALPES</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.6660199798817 </north>
+			<south> 44.6659300110175 </south>
+			<east> 6.2266356196733 </east>
+			<west> 6.22650307752614 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.2265301706838,44.6659798973525,0 6.22657150550947,44.6659961712703,0 6.2266356196733,44.6660199798817,0 6.22660453136356,44.6659842151253,0 6.22656347938154,44.6659398208968,0 6.22655382681976,44.6659300110175,0 6.22655005545939,44.6659545389102,0 6.22653510697747,44.6659514610515,0 6.22650307752614,44.6659455477523,0 6.22650896134524,44.6659534853336,0 6.2265301706838,44.6659798973525,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_3.2407">
+		<styleUrl>#DEPT</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_3.schema">
+					<SimpleData name="Numero de Parcelle">05145000BD0417</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">SAINT-JEAN-SAINT-NICOLAS</SimpleData>
+					<SimpleData name="Adresse">LE PIED DU PONT</SimpleData>
+					<SimpleData name="Groupe de personne">Departement</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">DEPT</SimpleData>
+					<SimpleData name="Denomination">DEPARTEMENT DES HAUTES ALPES</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.6661716139348 </north>
+			<south> 44.6660772682396 </south>
+			<east> 6.22665465086808 </east>
+			<west> 6.22662408660867 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.22664519086634,44.6661716139348,0 6.22665465086808,44.6661317827837,0 6.22664546723572,44.6660772682396,0 6.22663092152715,44.6661429270759,0 6.22662408660867,44.6661690761085,0 6.22664519086634,44.6661716139348,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_3.2736">
+		<styleUrl>#DEPT</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_3.schema">
+					<SimpleData name="Numero de Parcelle">051450000D0590</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">SAINT-JEAN-SAINT-NICOLAS</SimpleData>
+					<SimpleData name="Adresse">LES PELLEGRINS</SimpleData>
+					<SimpleData name="Groupe de personne">Departement</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">DEPT</SimpleData>
+					<SimpleData name="Denomination">DEPARTEMENT DES HAUTES ALPES</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.6562466775312 </north>
+			<south> 44.6558609182023 </south>
+			<east> 6.216088531151471 </east>
+			<west> 6.2152129096531 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.2152129096531,44.6558609182023,0 6.215253035168309,44.6559026398822,0 6.215400101100211,44.656053068156,0 6.215457436375109,44.6560888831786,0 6.21552130496492,44.6561197327691,0 6.21567615504275,44.6561632536376,0 6.215889998117919,44.6562074912327,0 6.216088531151471,44.6562466775312,0 6.21601944565033,44.6562217465212,0 6.21590875431139,44.6561910877553,0 6.215743104061411,44.6561507645804,0 6.21561746259998,44.656116936264,0 6.21552795147863,44.6560880037957,0 6.21545321759746,44.656045937142,0 6.215389622171,44.6560110249859,0 6.2152129096531,44.6558609182023,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_3.2968">
+		<styleUrl>#DEPT</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_3.schema">
+					<SimpleData name="Numero de Parcelle">05145000AB0736</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">SAINT-JEAN-SAINT-NICOLAS</SimpleData>
+					<SimpleData name="Adresse">PIECE DESSOUS SAINT JEAN</SimpleData>
+					<SimpleData name="Groupe de personne">Departement</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">DEPT</SimpleData>
+					<SimpleData name="Denomination">DEPARTEMENT DES HAUTES ALPES</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.6692296638635 </north>
+			<south> 44.6690365620505 </south>
+			<east> 6.21796379224751 </east>
+			<west> 6.21726119646194 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.21726119646194,44.6690536632438,0 6.217495240888161,44.669090373836,0 6.21767402871346,44.6691897811314,0 6.217935275878791,44.6692296638635,0 6.21796379224751,44.6691895494203,0 6.21790271064387,44.6691304174433,0 6.21784746967398,44.6691005790096,0 6.217751682746801,44.6690748936537,0 6.21746077706619,44.6690440727022,0 6.21733799813677,44.6690365620505,0 6.21726119646194,44.6690536632438,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_3.2970">
+		<styleUrl>#DEPT</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_3.schema">
+					<SimpleData name="Numero de Parcelle">05145000AB0737</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">SAINT-JEAN-SAINT-NICOLAS</SimpleData>
+					<SimpleData name="Adresse">PIECE DESSOUS SAINT JEAN</SimpleData>
+					<SimpleData name="Groupe de personne">Departement</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">DEPT</SimpleData>
+					<SimpleData name="Denomination">DEPARTEMENT DES HAUTES ALPES</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.6690340062561 </north>
+			<south> 44.6688306975829 </south>
+			<east> 6.216942388193329 </east>
+			<west> 6.21637496699535 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.21637496699535,44.6689124814589,0 6.21648976410795,44.6689681598025,0 6.216559454254399,44.6689967677131,0 6.21665851756946,44.6690267738034,0 6.216691759298599,44.6690340062561,0 6.21669595886005,44.6690191073076,0 6.21666148228351,44.6690123612853,0 6.216670521259819,44.6689915550236,0 6.21670213728152,44.6689968525042,0 6.21670431687276,44.6689885897865,0 6.21672398171439,44.6689836027883,0 6.21680561326054,44.6689847423804,0 6.216942388193329,44.6690051816583,0 6.216894453871911,44.6689750401269,0 6.21682486974922,44.6689040811938,0 6.216758438167731,44.6688529431638,0 6.2166744649247,44.6688306975829,0 6.21659505287335,44.6688396749199,0 6.216484317899911,44.6688772246535,0 6.21637496699535,44.6689124814589,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_3.3022">
+		<styleUrl>#DEPT</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_3.schema">
+					<SimpleData name="Numero de Parcelle">05145000BC0078</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">SAINT-JEAN-SAINT-NICOLAS</SimpleData>
+					<SimpleData name="Adresse">LA PETITE ISCLE</SimpleData>
+					<SimpleData name="Groupe de personne">Departement</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">DEPT</SimpleData>
+					<SimpleData name="Denomination">DEPARTEMENT DES HAUTES ALPES</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.6697777994861 </north>
+			<south> 44.6697156588057 </south>
+			<east> 6.23680555399804 </east>
+			<west> 6.23667123884733 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.23668705911802,44.6697156588057,0 6.23667123884733,44.6697567584427,0 6.23679278055321,44.6697777994861,0 6.23680555399804,44.6697430061376,0 6.23668705911802,44.6697156588057,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_3.3029">
+		<styleUrl>#DEPT</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_3.schema">
+					<SimpleData name="Numero de Parcelle">05145000BC0079</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">SAINT-JEAN-SAINT-NICOLAS</SimpleData>
+					<SimpleData name="Adresse">LA PETITE ISCLE</SimpleData>
+					<SimpleData name="Groupe de personne">Departement</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">DEPT</SimpleData>
+					<SimpleData name="Denomination">DEPARTEMENT DES HAUTES ALPES</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.6698031568573 </north>
+			<south> 44.6697256387339 </south>
+			<east> 6.23696074371052 </east>
+			<west> 6.23679278055321 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.23680555399804,44.6697430061376,0 6.23679278055321,44.6697777994861,0 6.23693616211125,44.6698031568573,0 6.23695485903833,44.6697462048832,0 6.23696074371052,44.669732156719,0 6.236938808941839,44.6697283836648,0 6.23690329645232,44.6697256387339,0 6.236874322564421,44.6697290096549,0 6.2368179022003,44.669742554628,0 6.23680555399804,44.6697430061376,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+</Document></Document></kml>

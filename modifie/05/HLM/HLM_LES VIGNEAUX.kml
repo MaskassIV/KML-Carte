@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="root_doc">
+	<name>LES VIGNEAUX_HLM</name>
+	<visibility>0</visibility>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+	<Document id="parcelles-des-personnes-morales_05_groupe_personne_5">
+		<name>LES VIGNEAUX_HLM</name>
+		<visibility>0</visibility>
+		<Schema name="LES VIGNEAUX_HLM" id="LES VIGNEAUX_HLM.schema">
+			<SimpleField type="string" name="Numero de Parcelle"></SimpleField>
+			<SimpleField type="string" name="Departement"></SimpleField>
+			<SimpleField type="string" name="Commune"></SimpleField>
+			<SimpleField type="string" name="Adresse"></SimpleField>
+			<SimpleField type="string" name="Groupe de personne"></SimpleField>
+			<SimpleField type="string" name="Forme Juridique Abregee"></SimpleField>
+			<SimpleField type="string" name="Denomination"></SimpleField>
+		</Schema>
+		<Style id="HLM">
+			<LineStyle>
+				<color>BFe451f5</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4Ce451f5</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_5.220">
+		<styleUrl>#HLM</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_5.schema">
+					<SimpleData name="Numero de Parcelle">051800000B2394</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">LES VIGNEAUX</SimpleData>
+					<SimpleData name="Adresse">32, IMP DU TRUEL</SimpleData>
+					<SimpleData name="Groupe de personne">HLM</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+					<SimpleData name="Denomination">OFFICE PUBLIC DE L HABITAT DES HAUTES ALPES</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.825327778693 </north>
+			<south> 44.8248556598837 </south>
+			<east> 6.54279211135492 </east>
+			<west> 6.541895140874721 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.54246432378148,44.825327778693,0 6.54251063124168,44.8252829498995,0 6.54257452139196,44.8252177321912,0 6.54260060069606,44.8251895014682,0 6.542624040954981,44.8251495488982,0 6.54265995495131,44.8250845039859,0 6.542755024075,44.8249554740057,0 6.54277600147669,44.8249206469991,0 6.54279211135492,44.8248809286068,0 6.542743646265,44.8248795030708,0 6.54244143347899,44.8248665378006,0 6.54214720400358,44.8248556598837,0 6.54214420025226,44.8249345236153,0 6.54214473781217,44.825089608667,0 6.54213289572207,44.8251146807601,0 6.54212301868118,44.8251247296067,0 6.54210300520205,44.8251387071978,0 6.54207214551405,44.8251533917622,0 6.54201965832478,44.825174535094,0 6.541956747837901,44.8251990755552,0 6.54195192670176,44.8252009419045,0 6.54193916736738,44.8252235198222,0 6.541895140874721,44.8253105433337,0 6.54246432378148,44.825327778693,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+</Document></Document></kml>

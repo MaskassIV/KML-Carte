@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="root_doc">
+	<name>BARRET-SUR-MEOUGE_PUBLICorASSOCIE</name>
+	<visibility>0</visibility>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+	<Document id="parcelles-des-personnes-morales_05_groupe_personne_9">
+		<name>BARRET-SUR-MEOUGE_PUBLICorASSOCIE</name>
+		<visibility>0</visibility>
+		<Schema name="BARRET-SUR-MEOUGE_PUBLICorASSOCIE" id="BARRET-SUR-MEOUGE_PUBLICorASSOCIE.schema">
+			<SimpleField type="string" name="Numero de Parcelle"></SimpleField>
+			<SimpleField type="string" name="Departement"></SimpleField>
+			<SimpleField type="string" name="Commune"></SimpleField>
+			<SimpleField type="string" name="Adresse"></SimpleField>
+			<SimpleField type="string" name="Groupe de personne"></SimpleField>
+			<SimpleField type="string" name="Forme Juridique Abregee"></SimpleField>
+			<SimpleField type="string" name="Denomination"></SimpleField>
+		</Schema>
+		<Style id="PUBLICorASSOCIE">
+			<LineStyle>
+				<color>BFdb2105</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4Cdb2105</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_9.738">
+		<styleUrl>#PUBLICorASSOCIE</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_9.schema">
+					<SimpleData name="Numero de Parcelle">050140000G0187</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">BARRET-SUR-MEOUGE</SimpleData>
+					<SimpleData name="Adresse">VIVANDRINE</SimpleData>
+					<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+					<SimpleData name="Denomination">OFFICE NATIONAL DES FORETS</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.2839488161658 </north>
+			<south> 44.2827972243468 </south>
+			<east> 5.74199832943969 </east>
+			<west> 5.74051881157189 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							5.74190084792527,44.2835779716737,0 5.74195011260376,44.2835492718643,0 5.74196940586801,44.283536000892,0 5.741988644126491,44.283513814662,0 5.74199832943969,44.2834885343513,0 5.74197029206358,44.2831265345138,0 5.74197165626541,44.2830043697285,0 5.74196356108953,44.2829717873907,0 5.74195604267007,44.2829096487129,0 5.741959297954211,44.2828473312415,0 5.74185582197333,44.2827972243468,0 5.741284594386051,44.2832014672157,0 5.74126051412922,44.2832453901731,0 5.74118929147831,44.283286706447,0 5.741098830873251,44.2833268814082,0 5.74085477129458,44.2835042770205,0 5.740656220556209,44.2837361082131,0 5.740538893232391,44.2838222564814,0 5.740523782449549,44.2838442494301,0 5.74051881157189,44.2838685113415,0 5.74052298576238,44.2838900232843,0 5.74058338181824,44.2838814916542,0 5.74070822199742,44.2838444225344,0 5.74076656651152,44.283834951239,0 5.74078680546843,44.2838334556567,0 5.740851764417159,44.2838337266822,0 5.74092507797267,44.2838434264181,0 5.74103578316401,44.2838537244543,0 5.74114158970593,44.2838586505075,0 5.741204501560811,44.2838580717261,0 5.74131662542563,44.28388733821,0 5.7414319034668,44.2839092304638,0 5.74157325314108,44.2839257885951,0 5.74163580196872,44.2839488161658,0 5.741687314298409,44.2838758375274,0 5.741697522665301,44.2838146975495,0 5.74171808660985,44.2837551005095,0 5.74174099183914,44.2837102160218,0 5.741768779540941,44.2836859250907,0 5.74178759255538,44.28365753489,0 5.7417910787353,44.2836492518061,0 5.74190084792527,44.2835779716737,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+</Document></Document></kml>

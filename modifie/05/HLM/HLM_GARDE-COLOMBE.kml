@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="root_doc">
+	<name>GARDE-COLOMBE_HLM</name>
+	<visibility>0</visibility>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+	<Document id="parcelles-des-personnes-morales_05_groupe_personne_5">
+		<name>GARDE-COLOMBE_HLM</name>
+		<visibility>0</visibility>
+		<Schema name="GARDE-COLOMBE_HLM" id="GARDE-COLOMBE_HLM.schema">
+			<SimpleField type="string" name="Numero de Parcelle"></SimpleField>
+			<SimpleField type="string" name="Departement"></SimpleField>
+			<SimpleField type="string" name="Commune"></SimpleField>
+			<SimpleField type="string" name="Adresse"></SimpleField>
+			<SimpleField type="string" name="Groupe de personne"></SimpleField>
+			<SimpleField type="string" name="Forme Juridique Abregee"></SimpleField>
+			<SimpleField type="string" name="Denomination"></SimpleField>
+		</Schema>
+		<Style id="HLM">
+			<LineStyle>
+				<color>BFe451f5</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4Ce451f5</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_5.405">
+		<styleUrl>#HLM</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_5.schema">
+					<SimpleData name="Numero de Parcelle">050530000B0517</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">GARDE-COLOMBE</SimpleData>
+					<SimpleData name="Adresse">EYGUIANS GARE</SimpleData>
+					<SimpleData name="Groupe de personne">HLM</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+					<SimpleData name="Denomination">ERILIA</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.3474656256511 </north>
+			<south> 44.3464034820989 </south>
+			<east> 5.77295582436432 </east>
+			<west> 5.771009883232249 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							5.77295582436432,44.3465821577446,0 5.77289147871475,44.3465318089855,0 5.77272616453579,44.3464034820989,0 5.772679636417069,44.3464324868836,0 5.77258539395145,44.3464790872904,0 5.771930269736389,44.346765451299,0 5.77162561904643,44.3468985069618,0 5.771606242053009,44.3468872860093,0 5.771321406929229,44.3470354237504,0 5.771009883232249,44.3471973834202,0 5.7710223716441,44.3472063461059,0 5.77123276246715,44.3473811873891,0 5.771210593068449,44.3474001203843,0 5.77129902658445,44.3474656256511,0 5.77295582436432,44.3465821577446,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_5.542">
+		<styleUrl>#HLM</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_5.schema">
+					<SimpleData name="Numero de Parcelle">050530690A0917</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">GARDE-COLOMBE</SimpleData>
+					<SimpleData name="Adresse">LE PAROIR</SimpleData>
+					<SimpleData name="Groupe de personne">HLM</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+					<SimpleData name="Denomination">OFFICE PUBLIC DE L HABITAT DES HAUTES ALPES</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.3424564014614 </north>
+			<south> 44.3421443218192 </south>
+			<east> 5.76785072306948 </east>
+			<west> 5.76712868848709 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							5.76726858443334,44.3421634920929,0 5.76712868848709,44.3422800502989,0 5.767368572440111,44.3424220906803,0 5.76744390866366,44.3423584968099,0 5.767619384630681,44.3424564014614,0 5.767838061946591,44.3422722887272,0 5.76785072306948,44.3422617020639,0 5.767843362455961,44.342257473843,0 5.76767326377468,44.3421591640379,0 5.76764743685014,44.3421443218192,0 5.76747731486074,44.3422895629413,0 5.76726858443334,44.3421634920929,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+</Document></Document></kml>

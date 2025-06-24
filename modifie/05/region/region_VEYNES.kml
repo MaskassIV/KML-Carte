@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="root_doc">
+	<name>VEYNES_region</name>
+	<visibility>0</visibility>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+	<Document id="parcelles-des-personnes-morales_05_groupe_personne_2">
+		<name>VEYNES_region</name>
+		<visibility>0</visibility>
+		<Schema name="VEYNES_region" id="VEYNES_region.schema">
+			<SimpleField type="string" name="Numero de Parcelle"></SimpleField>
+			<SimpleField type="string" name="Departement"></SimpleField>
+			<SimpleField type="string" name="Commune"></SimpleField>
+			<SimpleField type="string" name="Adresse"></SimpleField>
+			<SimpleField type="string" name="Groupe de personne"></SimpleField>
+			<SimpleField type="string" name="Forme Juridique Abregee"></SimpleField>
+			<SimpleField type="string" name="Denomination"></SimpleField>
+		</Schema>
+		<Style id="region">
+			<LineStyle>
+				<color>BF318006</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4C318006</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_2.8">
+		<styleUrl>#region</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_2.schema">
+					<SimpleData name="Numero de Parcelle">05179000AO0528</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">VEYNES</SimpleData>
+					<SimpleData name="Adresse">2, PL DES AIRES</SimpleData>
+					<SimpleData name="Groupe de personne">Region</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">COLL</SimpleData>
+					<SimpleData name="Denomination">REGION PROVENCE-ALPES-COTE DAZUR</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.5344634759479 </north>
+			<south> 44.534293152911 </south>
+			<east> 5.8221052232172 </east>
+			<west> 5.82185615730194 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							5.82188429233288,44.5344183630148,0 5.8219413307547,44.5344634759479,0 5.82196221375757,44.5344504207291,0 5.8221052232172,44.5343610969626,0 5.82202160389189,44.534293152911,0 5.82187838338745,44.5343832926882,0 5.82185615730194,44.5343971929601,0 5.82188429233288,44.5344183630148,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+</Document></Document></kml>

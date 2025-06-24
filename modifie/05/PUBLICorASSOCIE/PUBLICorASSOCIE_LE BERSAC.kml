@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="root_doc">
+	<name>LE BERSAC_PUBLICorASSOCIE</name>
+	<visibility>0</visibility>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+	<Document id="parcelles-des-personnes-morales_05_groupe_personne_9">
+		<name>LE BERSAC_PUBLICorASSOCIE</name>
+		<visibility>0</visibility>
+		<Schema name="LE BERSAC_PUBLICorASSOCIE" id="LE BERSAC_PUBLICorASSOCIE.schema">
+			<SimpleField type="string" name="Numero de Parcelle"></SimpleField>
+			<SimpleField type="string" name="Departement"></SimpleField>
+			<SimpleField type="string" name="Commune"></SimpleField>
+			<SimpleField type="string" name="Adresse"></SimpleField>
+			<SimpleField type="string" name="Groupe de personne"></SimpleField>
+			<SimpleField type="string" name="Forme Juridique Abregee"></SimpleField>
+			<SimpleField type="string" name="Denomination"></SimpleField>
+		</Schema>
+		<Style id="PUBLICorASSOCIE">
+			<LineStyle>
+				<color>BFdb2105</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4Cdb2105</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_9.1885">
+		<styleUrl>#PUBLICorASSOCIE</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_9.schema">
+					<SimpleData name="Numero de Parcelle">05021000ZA0071</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">LE BERSAC</SimpleData>
+					<SimpleData name="Adresse">LES GRES</SimpleData>
+					<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+					<SimpleData name="Denomination">SOCIETE NATIONALE SNCF</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.4057113041573 </north>
+			<south> 44.3959210110384 </south>
+			<east> 5.737504382028159 </east>
+			<west> 5.73006652358809 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							5.73310797529473,44.4019792895412,0 5.73433711180145,44.4003101872348,0 5.735158498628641,44.399194693545,0 5.735310599998489,44.3989885237769,0 5.735848718396821,44.3982589934497,0 5.7362489902088,44.3977161822359,0 5.7364350855803,44.3974649408041,0 5.73638909910529,44.3974466283829,0 5.737049570205749,44.396546067244,0 5.737504382028159,44.3959210110384,0 5.73728370135685,44.3959894583987,0 5.737057127858419,44.3960607539622,0 5.73662614603276,44.3966513489375,0 5.73611764855584,44.3973460098611,0 5.73358197566376,44.4008003738265,0 5.733580618181609,44.4008685016617,0 5.73320197755725,44.4013893287315,0 5.733163259051999,44.4013732663823,0 5.73087507658981,44.404485544425,0 5.73006652358809,44.4055682608492,0 5.73026962618025,44.4056553680813,0 5.730429384595409,44.4057113041573,0 5.730463767241891,44.4056869428209,0 5.73050365083445,44.4056672188556,0 5.73052438704898,44.4056594988869,0 5.7306706505697,44.4056753270909,0 5.73060415817679,44.4055628552823,0 5.73049215441906,44.4055383411703,0 5.73052848256976,44.4054189059538,0 5.73055023950558,44.4053802660835,0 5.73061116117976,44.4052653550213,0 5.73068273797961,44.4051577456919,0 5.73080649129841,44.4049727317012,0 5.73092012549466,44.4048097658927,0 5.73100009882852,44.4047173503448,0 5.73104899645454,44.4046501149667,0 5.73111233670276,44.4045957618549,0 5.731176825386901,44.4045001273986,0 5.731263145488089,44.4043778305708,0 5.73123408073597,44.4043665720235,0 5.731336586143571,44.4042255890979,0 5.7315438703247,44.4039360906031,0 5.73175648296,44.4036424963472,0 5.732140108850121,44.4031332600217,0 5.73233036790333,44.4028556215616,0 5.73258065926484,44.4025202881399,0 5.73275258437997,44.4022897610566,0 5.7329969870343,44.4019392606372,0 5.73310797529473,44.4019792895412,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+</Document></Document></kml>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="root_doc">
+	<name>ROUSSET_PUBLICorASSOCIE</name>
+	<visibility>0</visibility>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+	<Document id="parcelles-des-personnes-morales_05_groupe_personne_9">
+		<name>ROUSSET_PUBLICorASSOCIE</name>
+		<visibility>0</visibility>
+		<Schema name="ROUSSET_PUBLICorASSOCIE" id="ROUSSET_PUBLICorASSOCIE.schema">
+			<SimpleField type="string" name="Numero de Parcelle"></SimpleField>
+			<SimpleField type="string" name="Departement"></SimpleField>
+			<SimpleField type="string" name="Commune"></SimpleField>
+			<SimpleField type="string" name="Adresse"></SimpleField>
+			<SimpleField type="string" name="Groupe de personne"></SimpleField>
+			<SimpleField type="string" name="Forme Juridique Abregee"></SimpleField>
+			<SimpleField type="string" name="Denomination"></SimpleField>
+		</Schema>
+		<Style id="PUBLICorASSOCIE">
+			<LineStyle>
+				<color>BFdb2105</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4Cdb2105</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_9.873">
+		<styleUrl>#PUBLICorASSOCIE</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_9.schema">
+					<SimpleData name="Numero de Parcelle">051270000A0220</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">ROUSSET</SimpleData>
+					<SimpleData name="Adresse">COIN DU ROUX</SimpleData>
+					<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+					<SimpleData name="Denomination">OFFICE NATIONAL DES FORETS</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.5041142408912 </north>
+			<south> 44.5028167927933 </south>
+			<east> 6.29267026267838 </east>
+			<west> 6.29029786660571 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.29213913495069,44.5041142408912,0 6.29267026267838,44.5038607893431,0 6.29172418375335,44.5030798465477,0 6.2914927437249,44.5028847509444,0 6.291433136453771,44.5028167927933,0 6.291105063636111,44.5029575000014,0 6.29082691964685,44.5030757229013,0 6.29071785915982,44.5030319453739,0 6.29060646867195,44.5029913907709,0 6.290554342381719,44.5029740252767,0 6.29029786660571,44.5030968260102,0 6.29054671264962,44.5032277040003,0 6.29057080171166,44.5032370763636,0 6.29065818235722,44.5032739326115,0 6.290742473620511,44.5033139443853,0 6.29082380118924,44.5033571079414,0 6.29086605189808,44.5033821562375,0 6.290977633297379,44.5034518972981,0 6.29108572747692,44.5035244453309,0 6.291186971596651,44.5035831421213,0 6.29122517942544,44.5035993009592,0 6.291301401563851,44.5036347778725,0 6.29137453431736,44.5036734103463,0 6.29144431584638,44.5037150260025,0 6.29154682694984,44.5037565656746,0 6.29165664986405,44.5038177089968,0 6.29183505111652,44.503927891764,0 6.292001433801799,44.5040241071583,0 6.29207209614503,44.5040678585559,0 6.29213913495069,44.5041142408912,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+</Document></Document></kml>

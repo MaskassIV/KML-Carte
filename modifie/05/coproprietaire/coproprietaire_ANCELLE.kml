@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="root_doc">
+	<name>ANCELLE_coproprietaire</name>
+	<visibility>0</visibility>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+	<Document id="parcelles-des-personnes-morales_05_groupe_personne_7">
+		<name>ANCELLE_coproprietaire</name>
+		<visibility>0</visibility>
+		<Schema name="ANCELLE_coproprietaire" id="ANCELLE_coproprietaire.schema">
+			<SimpleField type="string" name="Numero de Parcelle"></SimpleField>
+			<SimpleField type="string" name="Departement"></SimpleField>
+			<SimpleField type="string" name="Commune"></SimpleField>
+			<SimpleField type="string" name="Adresse"></SimpleField>
+			<SimpleField type="string" name="Groupe de personne"></SimpleField>
+			<SimpleField type="string" name="Forme Juridique Abregee"></SimpleField>
+			<SimpleField type="string" name="Denomination"></SimpleField>
+		</Schema>
+		<Style id="coproprietaire">
+			<LineStyle>
+				<color>BF7c1404</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4C7c1404</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_7.5">
+		<styleUrl>#coproprietaire</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_7.schema">
+					<SimpleData name="Numero de Parcelle">050040000D0299</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">ANCELLE</SimpleData>
+					<SimpleData name="Adresse">9001, RUE JEAN MACE</SimpleData>
+					<SimpleData name="Groupe de personne">Coproprietaires</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">AUPM</SimpleData>
+					<SimpleData name="Denomination">LES COPROPRIETAIRES DE LA MAISON D 299 326</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.6220196277441 </north>
+			<south> 44.6215924164895 </south>
+			<east> 6.20260601803253 </east>
+			<west> 6.20221850400938 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.20260507542275,44.6219423186516,0 6.20260601803253,44.6219367051231,0 6.202555151991229,44.6218607832991,0 6.20251675475788,44.6216534944878,0 6.202401383259231,44.6215924164895,0 6.2023548365344,44.6216613405311,0 6.20229233927283,44.6217492874199,0 6.202227644450411,44.6218363068522,0 6.20221850400938,44.6218597274659,0 6.20222109109775,44.6218941608459,0 6.202222209647399,44.6219005255411,0 6.20222685694595,44.6219157078905,0 6.20223412364833,44.6219303638315,0 6.20224386847441,44.6219442271576,0 6.2022957422359,44.6219957027759,0 6.20233759819117,44.6220196277441,0 6.20237234238223,44.6219650112717,0 6.20237731871469,44.6219571184442,0 6.202384101404911,44.6219588139831,0 6.20241531415207,44.6219108771488,0 6.202431619762069,44.6219136482064,0 6.20260507542275,44.6219423186516,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_7.6">
+		<styleUrl>#coproprietaire</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_7.schema">
+					<SimpleData name="Numero de Parcelle">050040000D0326</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">ANCELLE</SimpleData>
+					<SimpleData name="Adresse">LES PIECES</SimpleData>
+					<SimpleData name="Groupe de personne">Coproprietaires</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">AUPM</SimpleData>
+					<SimpleData name="Denomination">LES COPROPRIETAIRES DE LA MAISON D 299 326</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.6215499141923 </north>
+			<south> 44.6213309884699 </south>
+			<east> 6.20232219008401 </east>
+			<west> 6.20221086873861 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.20225287584655,44.621336691283,0 6.20221086873861,44.6215499141923,0 6.202289504971071,44.6215395263589,0 6.20226972050658,44.6215021675524,0 6.20226753418288,44.6214836702859,0 6.20226799279291,44.6214650963707,0 6.202270710081049,44.621448529303,0 6.20232219008401,44.6213309884699,0 6.20225287584655,44.621336691283,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+</Document></Document></kml>

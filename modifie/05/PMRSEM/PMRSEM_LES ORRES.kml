@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="root_doc">
+	<name>LES ORRES_PMRSEM</name>
+	<visibility>0</visibility>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+	<Document id="parcelles-des-personnes-morales_05_groupe_personne_6">
+		<name>LES ORRES_PMRSEM</name>
+		<visibility>0</visibility>
+		<Schema name="LES ORRES_PMRSEM" id="LES ORRES_PMRSEM.schema">
+			<SimpleField type="string" name="Numero de Parcelle"></SimpleField>
+			<SimpleField type="string" name="Departement"></SimpleField>
+			<SimpleField type="string" name="Commune"></SimpleField>
+			<SimpleField type="string" name="Adresse"></SimpleField>
+			<SimpleField type="string" name="Groupe de personne"></SimpleField>
+			<SimpleField type="string" name="Forme Juridique Abregee"></SimpleField>
+			<SimpleField type="string" name="Denomination"></SimpleField>
+		</Schema>
+		<Style id="PMRSEM">
+			<LineStyle>
+				<color>BF00faff</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4C00faff</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_6.11">
+		<styleUrl>#PMRSEM</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_6.schema">
+					<SimpleData name="Numero de Parcelle">05098000AB0005</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">LES ORRES</SimpleData>
+					<SimpleData name="Adresse">1, IMP DES MARMOTTES</SimpleData>
+					<SimpleData name="Groupe de personne">Personnes morales representant des societes d'economie mixte</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">SEM</SimpleData>
+					<SimpleData name="Denomination">S E C I L E F</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.4924674184057 </north>
+			<south> 44.4918417425472 </south>
+			<east> 6.55245745780964 </east>
+			<west> 6.551687575273349 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.55180232768644,44.4924674184057,0 6.55194312829982,44.492434226169,0 6.552061070341501,44.4924078979206,0 6.552214674385591,44.492374112564,0 6.5523961847146,44.4923336605419,0 6.55245745780964,44.4923190703153,0 6.55243746964459,44.4923015117084,0 6.55240746924806,44.4922768865138,0 6.55228936620989,44.4921745397649,0 6.552286591650381,44.4921544439835,0 6.55228864166335,44.492060931328,0 6.552287838917739,44.492038158749,0 6.55228814389593,44.4920249925062,0 6.55228715237319,44.4919371648346,0 6.552287409250339,44.4919092217038,0 6.552286942128869,44.4918417425472,0 6.55226860123151,44.4918483710826,0 6.55224839274944,44.4918553301313,0 6.552233730447109,44.4918603983266,0 6.55219665474675,44.4918733977312,0 6.552036406983079,44.4919316374067,0 6.55193695226711,44.4919656603357,0 6.55190931846373,44.4920026857728,0 6.55189574433945,44.4920210554976,0 6.55180581093678,44.4921444333785,0 6.55172429656494,44.4922555549852,0 6.55169773101396,44.4922915547113,0 6.551687575273349,44.4923042273062,0 6.551746675167909,44.4923872091315,0 6.55176951030206,44.4924180127723,0 6.55178741533112,44.4924424871554,0 6.55180232768644,44.4924674184057,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+</Document></Document></kml>

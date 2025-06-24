@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="root_doc">
+	<name>REALLON_PUBLICorASSOCIE</name>
+	<visibility>0</visibility>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+	<Document id="parcelles-des-personnes-morales_05_groupe_personne_9">
+		<name>REALLON_PUBLICorASSOCIE</name>
+		<visibility>0</visibility>
+		<Schema name="REALLON_PUBLICorASSOCIE" id="REALLON_PUBLICorASSOCIE.schema">
+			<SimpleField type="string" name="Numero de Parcelle"></SimpleField>
+			<SimpleField type="string" name="Departement"></SimpleField>
+			<SimpleField type="string" name="Commune"></SimpleField>
+			<SimpleField type="string" name="Adresse"></SimpleField>
+			<SimpleField type="string" name="Groupe de personne"></SimpleField>
+			<SimpleField type="string" name="Forme Juridique Abregee"></SimpleField>
+			<SimpleField type="string" name="Denomination"></SimpleField>
+		</Schema>
+		<Style id="PUBLICorASSOCIE">
+			<LineStyle>
+				<color>BFdb2105</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4Cdb2105</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_9.1905">
+		<styleUrl>#PUBLICorASSOCIE</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_9.schema">
+					<SimpleData name="Numero de Parcelle">051140000A0722</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">REALLON</SimpleData>
+					<SimpleData name="Adresse">CHAMP LA ROCHE</SimpleData>
+					<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+					<SimpleData name="Denomination">OFFICE NATIONAL DES FORETS</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.6207884731545 </north>
+			<south> 44.6205217657937 </south>
+			<east> 6.335814627521721 </east>
+			<west> 6.33528950158001 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.33531110444689,44.6206529726938,0 6.33533911442514,44.620663660817,0 6.33533808914077,44.6206612588934,0 6.33534374914556,44.6206524378302,0 6.33535602725005,44.6206509859308,0 6.3353882356858,44.6206558706059,0 6.335542358709551,44.6206955504826,0 6.33561188436615,44.6207148969847,0 6.33569640588308,44.6207446035073,0 6.33577156375546,44.6207781068016,0 6.335789335573919,44.6207884731545,0 6.335814627521721,44.6207681565075,0 6.33573891950403,44.6207232263374,0 6.33568063063132,44.6206997562221,0 6.3353264279157,44.6205217657937,0 6.33528950158001,44.6205352250018,0 6.335428201611331,44.6205999696109,0 6.33554000941682,44.6206537219294,0 6.33559448289246,44.6206830741033,0 6.33557768865646,44.6206806976796,0 6.33537987200859,44.6206381919015,0 6.335358428715621,44.6206361359941,0 6.33534052947833,44.6206364059756,0 6.33532302231572,44.6206411694382,0 6.33531110444689,44.6206529726938,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+</Document></Document></kml>

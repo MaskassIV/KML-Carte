@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="root_doc">
+	<name>SAINT-JULIEN-EN-CHAMPSAUR_DEPT</name>
+	<visibility>0</visibility>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+	<Document id="parcelles-des-personnes-morales_05_groupe_personne_3">
+		<name>SAINT-JULIEN-EN-CHAMPSAUR_DEPT</name>
+		<visibility>0</visibility>
+		<Schema name="SAINT-JULIEN-EN-CHAMPSAUR_DEPT" id="SAINT-JULIEN-EN-CHAMPSAUR_DEPT.schema">
+			<SimpleField type="string" name="Numero de Parcelle"></SimpleField>
+			<SimpleField type="string" name="Departement"></SimpleField>
+			<SimpleField type="string" name="Commune"></SimpleField>
+			<SimpleField type="string" name="Adresse"></SimpleField>
+			<SimpleField type="string" name="Groupe de personne"></SimpleField>
+			<SimpleField type="string" name="Forme Juridique Abregee"></SimpleField>
+			<SimpleField type="string" name="Denomination"></SimpleField>
+		</Schema>
+		<Style id="DEPT">
+			<LineStyle>
+				<color>BF63f16c</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4C63f16c</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_3.410">
+		<styleUrl>#DEPT</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_3.schema">
+					<SimpleData name="Numero de Parcelle">051470000C1123</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">SAINT-JULIEN-EN-CHAMPSAUR</SimpleData>
+					<SimpleData name="Adresse">PRE LE PONT ET LES ILES</SimpleData>
+					<SimpleData name="Groupe de personne">Departement</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">DEPT</SimpleData>
+					<SimpleData name="Denomination">DEPARTEMENT DES HAUTES ALPES</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.6519851010095 </north>
+			<south> 44.6516189133894 </south>
+			<east> 6.1356427022666 </east>
+			<west> 6.13533185757838 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.13533185757838,44.6518795383484,0 6.135342529066161,44.6519851010095,0 6.135528247378361,44.651865769997,0 6.1356153444646,44.651779688838,0 6.1356427022666,44.651708816608,0 6.13563412628181,44.651686265007,0 6.1356169350484,44.6516517944957,0 6.13559453107273,44.6516189133894,0 6.13551635425644,44.65180402968,0 6.13533185757838,44.6518795383484,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_3.2692">
+		<styleUrl>#DEPT</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_3.schema">
+					<SimpleData name="Numero de Parcelle">051470000D0567</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">SAINT-JULIEN-EN-CHAMPSAUR</SimpleData>
+					<SimpleData name="Adresse">CHAMP BOUISSOUNAS</SimpleData>
+					<SimpleData name="Groupe de personne">Departement</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">DEPT</SimpleData>
+					<SimpleData name="Denomination">DEPARTEMENT DES HAUTES ALPES</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.6604833372386 </north>
+			<south> 44.6603545902691 </south>
+			<east> 6.115583959866009 </east>
+			<west> 6.11525398592893 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.115583959866009,44.6603842820882,0 6.11557613187975,44.6603545902691,0 6.11541028607123,44.660414492639,0 6.11525398592893,44.6604712427103,0 6.11525642217182,44.6604833372386,0 6.115583959866009,44.6603842820882,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+</Document></Document></kml>

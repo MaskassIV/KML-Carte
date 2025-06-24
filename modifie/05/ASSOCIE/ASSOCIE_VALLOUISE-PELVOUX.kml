@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="root_doc">
+	<name>VALLOUISE-PELVOUX_ASSOCIE</name>
+	<visibility>0</visibility>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+	<Document id="parcelles-des-personnes-morales_05_groupe_personne_8">
+		<name>VALLOUISE-PELVOUX_ASSOCIE</name>
+		<visibility>0</visibility>
+		<Schema name="VALLOUISE-PELVOUX_ASSOCIE" id="VALLOUISE-PELVOUX_ASSOCIE.schema">
+			<SimpleField type="string" name="Numero de Parcelle"></SimpleField>
+			<SimpleField type="string" name="Departement"></SimpleField>
+			<SimpleField type="string" name="Commune"></SimpleField>
+			<SimpleField type="string" name="Adresse"></SimpleField>
+			<SimpleField type="string" name="Groupe de personne"></SimpleField>
+			<SimpleField type="string" name="Forme Juridique Abregee"></SimpleField>
+			<SimpleField type="string" name="Denomination"></SimpleField>
+		</Schema>
+		<Style id="ASSOCIE">
+			<LineStyle>
+				<color>BF02206f</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4C02206f</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_8.4">
+		<styleUrl>#ASSOCIE</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_8.schema">
+					<SimpleData name="Numero de Parcelle">051011750D1407</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">VALLOUISE-PELVOUX</SimpleData>
+					<SimpleData name="Adresse">151, MTE DU GRAND PARCHER</SimpleData>
+					<SimpleData name="Groupe de personne">Associes</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">SCI</SimpleData>
+					<SimpleData name="Denomination">LE PIED DE PARCHER</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.8314706700035 </north>
+			<south> 44.8309791956454 </south>
+			<east> 6.51002748712369 </east>
+			<west> 6.509277738124529 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.50939621183855,44.8313937745151,0 6.50960737598057,44.8314390018761,0 6.509703075584421,44.8314706700035,0 6.509720855209691,44.8314592926671,0 6.509739106692011,44.8314473596624,0 6.50987883517742,44.8313587634021,0 6.509971423633429,44.8313001375407,0 6.51002748712369,44.8312731288936,0 6.509938886046851,44.8311929310585,0 6.509899776564299,44.8311568584811,0 6.509707184933961,44.8309791956454,0 6.509644896892861,44.8309998222396,0 6.509277738124529,44.8311375222739,0 6.50930147102296,44.8312335620669,0 6.50932928300219,44.831271254073,0 6.509363336895979,44.8313237087641,0 6.50938439666811,44.8313668415085,0 6.50939621183855,44.8313937745151,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+</Document></Document></kml>

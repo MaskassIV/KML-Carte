@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="root_doc">
+	<name>LARAGNE-MONTEGLIN_coproprietaire</name>
+	<visibility>0</visibility>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+	<Document id="parcelles-des-personnes-morales_05_groupe_personne_7">
+		<name>LARAGNE-MONTEGLIN_coproprietaire</name>
+		<visibility>0</visibility>
+		<Schema name="LARAGNE-MONTEGLIN_coproprietaire" id="LARAGNE-MONTEGLIN_coproprietaire.schema">
+			<SimpleField type="string" name="Numero de Parcelle"></SimpleField>
+			<SimpleField type="string" name="Departement"></SimpleField>
+			<SimpleField type="string" name="Commune"></SimpleField>
+			<SimpleField type="string" name="Adresse"></SimpleField>
+			<SimpleField type="string" name="Groupe de personne"></SimpleField>
+			<SimpleField type="string" name="Forme Juridique Abregee"></SimpleField>
+			<SimpleField type="string" name="Denomination"></SimpleField>
+		</Schema>
+		<Style id="coproprietaire">
+			<LineStyle>
+				<color>BF7c1404</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4C7c1404</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_7.3">
+		<styleUrl>#coproprietaire</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_7.schema">
+					<SimpleData name="Numero de Parcelle">05070000AC0016</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">LARAGNE-MONTEGLIN</SimpleData>
+					<SimpleData name="Adresse">LES ESCLUSEAUX</SimpleData>
+					<SimpleData name="Groupe de personne">Coproprietaires</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">AUPM</SimpleData>
+					<SimpleData name="Denomination">LES COPROPRIETAIRES DE LA PARCELLE AC16</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.3196389924876 </north>
+			<south> 44.3188282004837 </south>
+			<east> 5.81367932187888 </east>
+			<west> 5.813299284353699 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							5.81339940327947,44.3191361179668,0 5.813482916487311,44.3193677160095,0 5.8135594644934,44.3195803070771,0 5.813522356210911,44.3196389924876,0 5.81360758986248,44.319622219659,0 5.81367932187888,44.3196089448051,0 5.81363672292068,44.3195696830336,0 5.81355675177404,44.3193513249782,0 5.813473363589679,44.3191197237868,0 5.813390338099921,44.3188928870754,0 5.81336630019488,44.3188282004837,0 5.813299284353699,44.3188555857397,0 5.81339940327947,44.3191361179668,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+</Document></Document></kml>

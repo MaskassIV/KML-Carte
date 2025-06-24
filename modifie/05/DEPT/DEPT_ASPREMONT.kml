@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="root_doc">
+	<name>ASPREMONT_DEPT</name>
+	<visibility>0</visibility>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+	<Document id="parcelles-des-personnes-morales_05_groupe_personne_3">
+		<name>ASPREMONT_DEPT</name>
+		<visibility>0</visibility>
+		<Schema name="ASPREMONT_DEPT" id="ASPREMONT_DEPT.schema">
+			<SimpleField type="string" name="Numero de Parcelle"></SimpleField>
+			<SimpleField type="string" name="Departement"></SimpleField>
+			<SimpleField type="string" name="Commune"></SimpleField>
+			<SimpleField type="string" name="Adresse"></SimpleField>
+			<SimpleField type="string" name="Groupe de personne"></SimpleField>
+			<SimpleField type="string" name="Forme Juridique Abregee"></SimpleField>
+			<SimpleField type="string" name="Denomination"></SimpleField>
+		</Schema>
+		<Style id="DEPT">
+			<LineStyle>
+				<color>BF63f16c</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4C63f16c</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_3.2399">
+		<styleUrl>#DEPT</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_3.schema">
+					<SimpleData name="Numero de Parcelle">05008000ZD0041</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">ASPREMONT</SimpleData>
+					<SimpleData name="Adresse">RABALION OUEST</SimpleData>
+					<SimpleData name="Groupe de personne">Departement</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">DEPT</SimpleData>
+					<SimpleData name="Denomination">DEPARTEMENT DES HAUTES ALPES</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.5074727474839 </north>
+			<south> 44.5057500757235 </south>
+			<east> 5.73148917027267 </east>
+			<west> 5.72881329640724 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							5.72881329640724,44.5062502051667,0 5.728901672398729,44.5066152569006,0 5.72890826768888,44.5066605819091,0 5.728939630317909,44.5068772484966,0 5.7289688198687,44.5069473257445,0 5.72897806980632,44.5069694356413,0 5.729051861462859,44.5070117469484,0 5.72909258224071,44.5070755938715,0 5.72920278121112,44.5073112974316,0 5.7292540084911,44.5074206427765,0 5.729336078347731,44.5074727474839,0 5.7293841032657,44.5074611103357,0 5.72948573061364,44.5073917593658,0 5.72948931971013,44.5073878873719,0 5.72971195289951,44.5071605214762,0 5.729603129245701,44.506914245508,0 5.73040282608267,44.5066987177923,0 5.73054176490325,44.506661770166,0 5.73137916563994,44.5064399873473,0 5.73148917027267,44.5057500757235,0 5.730319726052489,44.5058831581724,0 5.72981551431592,44.5060060711269,0 5.729328025194301,44.5061260458096,0 5.72881329640724,44.5062502051667,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_3.2411">
+		<styleUrl>#DEPT</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_3.schema">
+					<SimpleData name="Numero de Parcelle">05008000ZD0042</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">ASPREMONT</SimpleData>
+					<SimpleData name="Adresse">RABALION OUEST</SimpleData>
+					<SimpleData name="Groupe de personne">Departement</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">DEPT</SimpleData>
+					<SimpleData name="Denomination">DEPARTEMENT DES HAUTES ALPES</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.5071605214762 </north>
+			<south> 44.5064399873473 </south>
+			<east> 5.73143117500914 </east>
+			<west> 5.729603129245701 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							5.72971195289951,44.5071605214762,0 5.73143117500914,44.506640919354,0 5.73136051754752,44.5065541246767,0 5.73136880884342,44.5064913167416,0 5.73137916563994,44.5064399873473,0 5.73054176490325,44.506661770166,0 5.73040282608267,44.5066987177923,0 5.729603129245701,44.506914245508,0 5.72971195289951,44.5071605214762,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+</Document></Document></kml>

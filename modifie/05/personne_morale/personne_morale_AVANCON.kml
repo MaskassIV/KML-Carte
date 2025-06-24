@@ -1,0 +1,1186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="root_doc">
+	<name>AVANCON_personne_morale</name>
+	<visibility>0</visibility>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+	<Document id="parcelles-des-personnes-morales_05_groupe_personne_0">
+		<name>AVANCON_personne_morale</name>
+		<visibility>0</visibility>
+		<Schema name="AVANCON_personne_morale" id="AVANCON_personne_morale.schema">
+			<SimpleField type="string" name="Numero de Parcelle"></SimpleField>
+			<SimpleField type="string" name="Departement"></SimpleField>
+			<SimpleField type="string" name="Commune"></SimpleField>
+			<SimpleField type="string" name="Adresse"></SimpleField>
+			<SimpleField type="string" name="Groupe de personne"></SimpleField>
+			<SimpleField type="string" name="Forme Juridique Abregee"></SimpleField>
+			<SimpleField type="string" name="Denomination"></SimpleField>
+		</Schema>
+		<Style id="personne_morale">
+			<LineStyle>
+				<color>BF0000ff</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4C0000ff</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_0.314">
+		<styleUrl>#personne_morale</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_0.schema">
+					<SimpleData name="Numero de Parcelle">05011000ZA0013</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">AVANCON</SimpleData>
+					<SimpleData name="Adresse">L HOPITAL</SimpleData>
+					<SimpleData name="Groupe de personne">Personnes morales non remarquables</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">AUPM</SimpleData>
+					<SimpleData name="Denomination">ASS FONCIERE DE REMEMBREMENT D AVANCON</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.5190241943578 </north>
+			<south> 44.5185971959575 </south>
+			<east> 6.17004135439027 </east>
+			<west> 6.16975225714704 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.16975225714704,44.5186150603738,0 6.16995912486149,44.5189757116772,0 6.16993363937515,44.5190241943578,0 6.17004135439027,44.519002629395,0 6.170019056628961,44.5189620968327,0 6.16981585367945,44.5185971959575,0 6.16975225714704,44.5186150603738,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_0.423">
+		<styleUrl>#personne_morale</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_0.schema">
+					<SimpleData name="Numero de Parcelle">050110000Z0140</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">AVANCON</SimpleData>
+					<SimpleData name="Adresse">LE GUA</SimpleData>
+					<SimpleData name="Groupe de personne">Personnes morales non remarquables</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">AUPM</SimpleData>
+					<SimpleData name="Denomination">ASS SYNDICALE DU CANAL DU GUA</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.5284984121619 </north>
+			<south> 44.5269057612875 </south>
+			<east> 6.178070941006841 </east>
+			<west> 6.17750699939362 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.1778599692046,44.5284984121619,0 6.177872492075429,44.5284948980975,0 6.17783865039357,44.5284239766033,0 6.17753675473608,44.5281554480418,0 6.17753794479954,44.528136313503,0 6.178070941006841,44.5277558034324,0 6.17804146076931,44.5276460152866,0 6.177994905971249,44.5274588764223,0 6.17795248067144,44.5272712582247,0 6.17786043360979,44.5271798499439,0 6.1778045587532,44.5270710022775,0 6.177642110085441,44.5269057612875,0 6.17763061538304,44.5269141108775,0 6.1777882479602,44.527072102776,0 6.17785225115928,44.5271955820778,0 6.17793814707377,44.5272739235086,0 6.17799672037567,44.5275224316317,0 6.178054541400309,44.5277486177293,0 6.177951159691549,44.5278272760712,0 6.17765097868925,44.5280411603549,0 6.177518142450199,44.5281358027007,0 6.17750699939362,44.5281436916684,0 6.17782761197737,44.5284292498174,0 6.1778599692046,44.5284984121619,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_0.1879">
+		<styleUrl>#personne_morale</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_0.schema">
+					<SimpleData name="Numero de Parcelle">050110000C0574</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">AVANCON</SimpleData>
+					<SimpleData name="Adresse">LE VILLAGE</SimpleData>
+					<SimpleData name="Groupe de personne">Personnes morales non remarquables</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">SCI</SimpleData>
+					<SimpleData name="Denomination">DE LAVANCE</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.5255015264399 </north>
+			<south> 44.5253894053823 </south>
+			<east> 6.1853826775836 </east>
+			<west> 6.1852324489001 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.18534004945321,44.5255015264399,0 6.1853826775836,44.5254177677965,0 6.18525412895992,44.5253894053823,0 6.1852324489001,44.5254337278332,0 6.18524490762559,44.525484902926,0 6.18534004945321,44.5255015264399,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_0.5323">
+		<styleUrl>#personne_morale</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_0.schema">
+					<SimpleData name="Numero de Parcelle">050110000A1083</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">AVANCON</SimpleData>
+					<SimpleData name="Adresse">LES BOISSETS</SimpleData>
+					<SimpleData name="Groupe de personne">Personnes morales non remarquables</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">SC</SimpleData>
+					<SimpleData name="Denomination">SOCIETE CIVILE PARALOUP</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.5553731578467 </north>
+			<south> 44.5550075673098 </south>
+			<east> 6.173550736025719 </east>
+			<west> 6.17304425619872 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.17305334351006,44.5553353264137,0 6.17304425619872,44.5553731578467,0 6.173550736025719,44.5553405773028,0 6.17349464431746,44.5552282180975,0 6.17337612239556,44.5550252149109,0 6.17312815787775,44.5550075673098,0 6.17309640104055,44.5551509226459,0 6.173074238301271,44.5552520172506,0 6.17305334351006,44.5553353264137,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_0.11068">
+		<styleUrl>#personne_morale</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_0.schema">
+					<SimpleData name="Numero de Parcelle">050110000C1312</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">AVANCON</SimpleData>
+					<SimpleData name="Adresse">L AUCHE</SimpleData>
+					<SimpleData name="Groupe de personne">Personnes morales non remarquables</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">SYMI</SimpleData>
+					<SimpleData name="Denomination">SYNDICAT MIXTE DELECTRICITE DES HAUTES ALPES</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.5279529540695 </north>
+			<south> 44.5279032910397 </south>
+			<east> 6.19133380075013 </east>
+			<west> 6.19126261962339 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.19126261962339,44.5279310739199,0 6.1912724208469,44.5279529540695,0 6.19133380075013,44.5279314474668,0 6.19131671764025,44.5279032910397,0 6.19126261962339,44.5279310739199,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_0.11497">
+		<styleUrl>#personne_morale</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_0.schema">
+					<SimpleData name="Numero de Parcelle">050110000A1336</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">AVANCON</SimpleData>
+					<SimpleData name="Adresse">DE LA BOYNA</SimpleData>
+					<SimpleData name="Groupe de personne">Personnes morales non remarquables</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">SCI</SimpleData>
+					<SimpleData name="Denomination">LA BOYNA</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.5551272858641 </north>
+			<south> 44.5535363068814 </south>
+			<east> 6.180349180346921 </east>
+			<west> 6.17764235809123 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.17974891763615,44.5535363068814,0 6.17909859476901,44.5536142338117,0 6.178530402718299,44.5536783494062,0 6.177961231687191,44.5537385259812,0 6.178024369010041,44.5540608754798,0 6.17803596631936,44.5540967603736,0 6.17773323970812,44.5541179999506,0 6.177738311072531,44.5541968686242,0 6.17764729299071,44.5542028226419,0 6.17766591755137,44.554327700851,0 6.17764235809123,44.5544799215473,0 6.177754546535639,44.55451426188,0 6.177853082167859,44.5544113276224,0 6.17820898523189,44.5543654918303,0 6.178192160104049,44.5546238327556,0 6.178253773214149,44.5545969216563,0 6.178182472576509,44.5546352836827,0 6.17767799823399,44.5548823479354,0 6.17779756252666,44.5549245845966,0 6.17790888565459,44.5549838163809,0 6.17794616452433,44.5550125650177,0 6.17804858800451,44.5550099763518,0 6.17817049099987,44.5551272858641,0 6.17895943504154,44.5551051966616,0 6.17965751612015,44.5550292287824,0 6.180349180346921,44.5549556937524,0 6.18029240895883,44.5548136253121,0 6.17974891763615,44.5535363068814,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_0.12445">
+		<styleUrl>#personne_morale</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_0.schema">
+					<SimpleData name="Numero de Parcelle">050110000C1383</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">AVANCON</SimpleData>
+					<SimpleData name="Adresse">LE VILLAGE</SimpleData>
+					<SimpleData name="Groupe de personne">Personnes morales non remarquables</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">SYMI</SimpleData>
+					<SimpleData name="Denomination">SYNDICAT MIXTE DELECTRICITE DES HAUTES ALPES</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.5260386934855 </north>
+			<south> 44.52599766172 </south>
+			<east> 6.184699547770541 </east>
+			<west> 6.184649840857019 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.184699547770541,44.5260379793249,0 6.184698065686021,44.5260005422454,0 6.184663646923861,44.52599766172,0 6.184649840857019,44.5260386934855,0 6.184699547770541,44.5260379793249,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_0.12748">
+		<styleUrl>#personne_morale</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_0.schema">
+					<SimpleData name="Numero de Parcelle">05011000ZA0014</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">AVANCON</SimpleData>
+					<SimpleData name="Adresse">L HOPITAL</SimpleData>
+					<SimpleData name="Groupe de personne">Personnes morales non remarquables</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">AUPM</SimpleData>
+					<SimpleData name="Denomination">SYNDICAT INTERCOMMUNAL DELECTRIFICATION DE CHORGES LA BATIE</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.5189088287225 </north>
+			<south> 44.5188867409177 </south>
+			<east> 6.17060655835289 </east>
+			<west> 6.170573826792989 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.17060025322603,44.5188867409177,0 6.170573826792989,44.5188893024034,0 6.170574671380781,44.5189088287225,0 6.17060655835289,44.5189025965796,0 6.17060025322603,44.5188867409177,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_0.12905">
+		<styleUrl>#personne_morale</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_0.schema">
+					<SimpleData name="Numero de Parcelle">050110000A1408</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">AVANCON</SimpleData>
+					<SimpleData name="Adresse">LES BOISSETS</SimpleData>
+					<SimpleData name="Groupe de personne">Personnes morales non remarquables</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">SAS</SimpleData>
+					<SimpleData name="Denomination">CAP SOLAR 38</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.5592396708267 </north>
+			<south> 44.5588769430197 </south>
+			<east> 6.17954370360889 </east>
+			<west> 6.17848210398361 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.17949339802418,44.5588769430197,0 6.179285629504469,44.5588976132462,0 6.17848210398361,44.5589727396818,0 6.17853305511283,44.5592396708267,0 6.17954370360889,44.5591412796096,0 6.17949339802418,44.5588769430197,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_0.13696">
+		<styleUrl>#personne_morale</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_0.schema">
+					<SimpleData name="Numero de Parcelle">050110000Z0145</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">AVANCON</SimpleData>
+					<SimpleData name="Adresse">LE GUA</SimpleData>
+					<SimpleData name="Groupe de personne">Personnes morales non remarquables</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">AUPM</SimpleData>
+					<SimpleData name="Denomination">ASS SYNDICALE DU CANAL DU GUA</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.5291090796351 </north>
+			<south> 44.5274621140887 </south>
+			<east> 6.177667142431471 </east>
+			<west> 6.1743591717207 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.1743591717207,44.5274708407288,0 6.17466737250789,44.527600989539,0 6.174886938997931,44.5276779192212,0 6.174920632019771,44.5276746071126,0 6.175232194020719,44.5276472609324,0 6.17537177692943,44.5276725244947,0 6.1755201303633,44.5277238433121,0 6.17560902535507,44.5277682242786,0 6.17567625463179,44.5278192652301,0 6.17594574315656,44.5279843107758,0 6.17642599659437,44.5282689708723,0 6.17669341414058,44.5284396602996,0 6.17680751977918,44.5285246683134,0 6.17691088430615,44.5286582767485,0 6.17701564769366,44.5287921151123,0 6.17712042433515,44.5289194661344,0 6.17721950786261,44.5290195018741,0 6.17726283356459,44.5290575358264,0 6.17727342812712,44.5290622760667,0 6.177311429005901,44.5290773087823,0 6.17735154143478,44.5290895778051,0 6.177393000815171,44.5290989249621,0 6.17743567633383,44.5291052639233,0 6.17747881351541,44.5291086164168,0 6.17752216592633,44.5291090796351,0 6.177565461818781,44.529106301022,0 6.177608344202759,44.5291006512419,0 6.177650043414129,44.5290918821766,0 6.177667142431471,44.5290443597676,0 6.17753413979438,44.5290756696808,0 6.17744772195271,44.5290753656422,0 6.17733196375554,44.529043832496,0 6.17724876947055,44.529000099483,0 6.177146949111499,44.528898430769,0 6.17712922158463,44.5289056984545,0 6.17702618350664,44.528773432215,0 6.176925904557191,44.5286476634249,0 6.176822322088009,44.528523611409,0 6.176732021328859,44.5284498105762,0 6.17649535271484,44.528299588547,0 6.175692307632381,44.5278135776019,0 6.1756163103302,44.52775891494,0 6.17550947175804,44.5277067616817,0 6.17539679373889,44.5276694619628,0 6.17526527706057,44.5276398218826,0 6.17516883677274,44.527638182867,0 6.17507079584071,44.5276483923369,0 6.174884727686431,44.5276677119786,0 6.17473523824394,44.5276163349244,0 6.1743681269046,44.5274621140887,0 6.1743591717207,44.5274708407288,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_0.15510">
+		<styleUrl>#personne_morale</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_0.schema">
+					<SimpleData name="Numero de Parcelle">050110000Z0157</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">AVANCON</SimpleData>
+					<SimpleData name="Adresse">LE GUA</SimpleData>
+					<SimpleData name="Groupe de personne">Personnes morales non remarquables</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">AUPM</SimpleData>
+					<SimpleData name="Denomination">ASS SYNDICALE DU CANAL DU GUA</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.5274448186495 </north>
+			<south> 44.5260989174761 </south>
+			<east> 6.17432949063979 </east>
+			<west> 6.17258140077072 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.17258140077072,44.5261071223475,0 6.17269012231299,44.526347523233,0 6.17271536241603,44.5264067107219,0 6.17276568671132,44.5265245496034,0 6.17279433837859,44.5265884140195,0 6.17286749567596,44.5266643325506,0 6.17287526376599,44.5266725780967,0 6.173032401217349,44.5267839212323,0 6.1732699590763,44.5269323226584,0 6.173387134299951,44.5270160743859,0 6.17348946889289,44.5270710620103,0 6.173589514777,44.5271077359322,0 6.17377689127113,44.5271789266439,0 6.17396240303558,44.5272527834676,0 6.174321058649679,44.5274448186495,0 6.17432949063979,44.5274357466849,0 6.173975881229899,44.5272483414076,0 6.173832094856751,44.5271886004382,0 6.173749538768679,44.5271583609234,0 6.17359701675538,44.5271000422105,0 6.17344660670126,44.5270389596856,0 6.17333970489257,44.5269654536628,0 6.17326907055842,44.5269209962031,0 6.17307305889951,44.5267947345168,0 6.17288007028392,44.526666223283,0 6.17279785526127,44.5265747985798,0 6.17259101503342,44.5260989174761,0 6.17258140077072,44.5261071223475,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_0.17570">
+		<styleUrl>#personne_morale</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_0.schema">
+					<SimpleData name="Numero de Parcelle">050110000Z0169</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">AVANCON</SimpleData>
+					<SimpleData name="Adresse">LA PLAINE</SimpleData>
+					<SimpleData name="Groupe de personne">Personnes morales non remarquables</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">AUPM</SimpleData>
+					<SimpleData name="Denomination">ASS SYNDICALE DU CANAL DU GUA</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.5365712794277 </north>
+			<south> 44.5241412517593 </south>
+			<east> 6.18616547307444 </east>
+			<west> 6.1714669097321 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.17994967993527,44.5289119220774,0 6.18002805570405,44.5290489509794,0 6.18011773698203,44.5292055651234,0 6.180157914330479,44.5292636900078,0 6.180359500660899,44.5295041107618,0 6.180253885929679,44.5295833762634,0 6.179708358943681,44.5299919176335,0 6.17921857852712,44.5303683974064,0 6.179132727266071,44.530355825283,0 6.17909255881447,44.5303067994194,0 6.17889849316674,44.5301394975602,0 6.1788454876723,44.5300749846533,0 6.178777329969659,44.5299918981029,0 6.178707958839371,44.5299051525564,0 6.178683300314169,44.5298743295134,0 6.1786234500193,44.529797850812,0 6.17861339663342,44.5296841694139,0 6.178560417667499,44.5295820857411,0 6.17839456168791,44.5295019037942,0 6.17825691038798,44.5294394688082,0 6.17768244081369,44.5292557339422,0 6.177647920311309,44.5291996075947,0 6.17769305748716,44.5290751468087,0 6.17770441604706,44.5290375200619,0 6.177712727946749,44.5290173695218,0 6.17772389324928,44.5289740723155,0 6.17788156776948,44.5288507846367,0 6.177897077376809,44.5288309673272,0 6.17789298193832,44.52876045033,0 6.17784699870771,44.5286505968735,0 6.177847181919481,44.5286158146902,0 6.177844424136181,44.5285578725544,0 6.17783713453132,44.5284999708614,0 6.177814788595779,44.5284632248467,0 6.177098849494149,44.5278356070972,0 6.176237455872091,44.5270847781375,0 6.17537278632615,44.5263357494553,0 6.17450486113469,44.5255888807711,0 6.17448617090771,44.5255230183276,0 6.174452267804509,44.5253971396706,0 6.17449760221664,44.5253276329814,0 6.17508045881537,44.5249134486998,0 6.17518520350874,44.5248388982603,0 6.1752074522346,44.5248493396175,0 6.17597784998558,44.5242834374248,0 6.17616818339006,44.5241811951907,0 6.17633918852326,44.5244584502922,0 6.176374569788911,44.5245142817463,0 6.17647075001539,44.5246076441536,0 6.17654900792134,44.5246644933484,0 6.17669247841426,44.5247656835986,0 6.176714341648731,44.5247804603394,0 6.17683897133423,44.5248646243537,0 6.17691918610453,44.5249629509539,0 6.17708436995232,44.5251612690038,0 6.177253125387321,44.5253581325602,0 6.17745186076697,44.5252597004162,0 6.176936897366641,44.5248569391577,0 6.17642096155918,44.5244860074475,0 6.17621933382792,44.5241412517593,0 6.17617273365629,44.524147909087,0 6.17588485401208,44.5243071069313,0 6.17517592071758,44.524828353998,0 6.17457524572333,44.525257106439,0 6.17443130615366,44.5253692727219,0 6.17424344246941,44.525495406101,0 6.17412632364459,44.5255403098861,0 6.174008138996889,44.5255707388609,0 6.1738942514568,44.525574556055,0 6.17378775404909,44.5255507715493,0 6.173653787110061,44.5254819186827,0 6.173438455837729,44.5253031475046,0 6.17335054506567,44.5252515290628,0 6.17329343627206,44.52527290267,0 6.17321220984793,44.5253424501807,0 6.17293466404693,44.5256163043158,0 6.17287430732545,44.52571435209,0 6.17280339046763,44.5258732475651,0 6.17268149612261,44.5260057696236,0 6.1725687877443,44.5261112690735,0 6.1724984941053,44.5261647349465,0 6.17220934777411,44.5263286441255,0 6.172019864171481,44.5264462610663,0 6.17192439344171,44.5264887380769,0 6.17173870376638,44.5265214657953,0 6.1714669097321,44.5266042388145,0 6.17147645429256,44.5266172084313,0 6.1716605223382,44.5265556072119,0 6.17194055679114,44.5265007064956,0 6.17202278124026,44.526464556626,0 6.17212067522884,44.5264002067958,0 6.17218495288509,44.5263606987379,0 6.17221612620051,44.5263416932191,0 6.17231422821706,44.5262855358959,0 6.172367075967921,44.5262555461156,0 6.172485599824291,44.52618853052,0 6.17258140077072,44.5261071223475,0 6.17259101503342,44.5260989174761,0 6.17275779700184,44.5259426708569,0 6.17281404849831,44.5258746528487,0 6.17283448173153,44.5258326213555,0 6.172884461166811,44.5257291960625,0 6.17301450250822,44.5255623834258,0 6.17324167904862,44.5253469181432,0 6.173331193285601,44.5252746996371,0 6.17338574734895,44.5252885366577,0 6.17360354525302,44.5254753455489,0 6.17364620208114,44.5254970927085,0 6.17383796368631,44.52558365336,0 6.17399664608419,44.5255858451576,0 6.174223702952329,44.5255161554249,0 6.17440155458138,44.5254113023897,0 6.17444346626257,44.5255586635887,0 6.17445824931813,44.5256110340726,0 6.17466486143934,44.5257824863127,0 6.17553459329169,44.526532275091,0 6.17552529413771,44.5265796626707,0 6.175245998480439,44.5267775327385,0 6.17468341150467,44.5271851881145,0 6.17434306284676,44.5274262565325,0 6.17432949063979,44.5274357466849,0 6.174321058649679,44.5274448186495,0 6.17424043687405,44.5275565141781,0 6.17394363723677,44.5275843338059,0 6.17378746887235,44.5276650472959,0 6.17358696093053,44.5277725330423,0 6.17336160338425,44.527890553585,0 6.173298854347821,44.5279662366999,0 6.173944202384071,44.5276235090429,0 6.17414488778473,44.5276065633915,0 6.17424226423581,44.5276920551892,0 6.174382284504139,44.5278147005582,0 6.17464956671979,44.527949540574,0 6.174664079179499,44.5279388520848,0 6.17471604892719,44.5279783500185,0 6.174734069796781,44.5279919764255,0 6.17482708224977,44.5280625474062,0 6.17492724348871,44.5281213803692,0 6.175076318275591,44.5282079063835,0 6.17527587400717,44.5282380210722,0 6.17529035699911,44.5282603983871,0 6.17534273484155,44.5282690716514,0 6.175818333629519,44.5285493636014,0 6.17607985980698,44.528628777145,0 6.176095620129769,44.5286492255914,0 6.17607843388166,44.5286952186016,0 6.17611111598399,44.5287052693855,0 6.176137400211889,44.5286418962967,0 6.176556880195781,44.5287551420065,0 6.176592866134551,44.5288776268801,0 6.1766167833761,44.5288214393615,0 6.17658391820359,44.5287342721955,0 6.17586600186611,44.5285369997533,0 6.17577224549178,44.5284890649615,0 6.17534243401616,44.5282413309013,0 6.17517608090486,44.5282148556181,0 6.17510242003651,44.5281994970678,0 6.17504382376222,44.5281698302205,0 6.17483693645029,44.5280496504644,0 6.174728480115179,44.5279709648481,0 6.17466677113885,44.527926251355,0 6.1744061620355,44.527786894794,0 6.17427376285179,44.5276676339957,0 6.17426705603772,44.5275953902589,0 6.1743591717207,44.5274708407288,0 6.1743681269046,44.5274621140887,0 6.175558882804449,44.5266125717152,0 6.17563550868425,44.5266112669858,0 6.175864349825811,44.5268150523229,0 6.17635009359023,44.5272400131253,0 6.177271393567551,44.5280414616241,0 6.17760652135405,44.5283298457625,0 6.17776786178986,44.5284798026873,0 6.17781802102842,44.5286750366074,0 6.17785034458833,44.5287614982936,0 6.17783392673661,44.5288546795901,0 6.17769717638918,44.5289648412305,0 6.17767564930927,44.5290209601725,0 6.177667142431471,44.5290443597676,0 6.177650043414129,44.5290918821766,0 6.17759692757973,44.5292267535493,0 6.17757635232142,44.5292729345395,0 6.17762764108093,44.5292846112836,0 6.178234296573369,44.5294673291501,0 6.178428905111231,44.5295660535583,0 6.17846165892211,44.5295639386945,0 6.17853449810364,44.5295937340711,0 6.17855439222372,44.5296875811886,0 6.178598198321561,44.5298459686683,0 6.17874769499606,44.5300471697557,0 6.179154145035961,44.5304453939545,0 6.179425549645261,44.530791649299,0 6.179430021207789,44.5308039536541,0 6.179494979766109,44.5309822732166,0 6.17988854262015,44.5312521196892,0 6.180007656196209,44.5314414916042,0 6.180064490332011,44.5317214930213,0 6.18013954543505,44.5318464548987,0 6.18042954300043,44.5322743398581,0 6.18071296380682,44.5325317722359,0 6.18106069269493,44.5327300489007,0 6.18120521508241,44.5328829191827,0 6.18130146133967,44.5331469181481,0 6.181301396229559,44.5331591730733,0 6.181287896924191,44.5331632562395,0 6.18135819740122,44.5333445744608,0 6.18137760666686,44.5333738365718,0 6.18140084842867,44.5334018169253,0 6.18142763569641,44.5334278931225,0 6.18145771696381,44.533452072413,0 6.18149083565397,44.5334742720967,0 6.18152671491039,44.5334940496741,0 6.18156935450972,44.5335130917249,0 6.181919567108971,44.5336882298333,0 6.18212557035258,44.5337876109481,0 6.18229640647469,44.5338731401663,0 6.18244045625173,44.5339683612605,0 6.18261859059781,44.5341051243458,0 6.18264962687703,44.5341037786173,0 6.18330136544957,44.5345843796039,0 6.18348060322911,44.5347696714123,0 6.18357930510795,44.5348893542717,0 6.183785676752361,44.5351023331333,0 6.183894253573781,44.5354194017526,0 6.18401269391801,44.5355852746457,0 6.184221427005219,44.5358355746434,0 6.18476896902628,44.5362079964538,0 6.18521586281055,44.5363704238878,0 6.18522149896382,44.5363944069787,0 6.185241911103249,44.5364012056202,0 6.185294684924049,44.5364189627435,0 6.18547421788767,44.5364775679516,0 6.185655354505921,44.5365333335959,0 6.18575725076996,44.5365398517674,0 6.1860906625868,44.5365395048002,0 6.18615720252945,44.5365712794277,0 6.18616547307444,44.536552660964,0 6.1861431911568,44.5365395196429,0 6.18610188306871,44.5365151250953,0 6.18596997219431,44.5365035275421,0 6.18570403895834,44.5365121068167,0 6.18525938722576,44.5363716000361,0 6.18512792461838,44.5363299865051,0 6.184806866276339,44.5362032086536,0 6.184549392217651,44.5360513499707,0 6.184232445582669,44.5358187690603,0 6.1840278498501,44.5355837561362,0 6.18390952291487,44.5354131949862,0 6.18380691889914,44.53511045951,0 6.18375707673788,44.5350553173454,0 6.183619474825529,44.5349047729158,0 6.18334786139024,44.5346070036975,0 6.18320635172358,44.5344965742471,0 6.18316031819711,44.5344620440767,0 6.183019198762799,44.5343562881512,0 6.18290214813501,44.5342685777205,0 6.1826508061411,44.5340755445414,0 6.18242022771497,44.5339089407711,0 6.18231984962608,44.5338443540539,0 6.181959940563359,44.5336670641883,0 6.18163503995441,44.5335029988762,0 6.181567099633939,44.5334641445413,0 6.18150309228864,44.5334235550321,0 6.18144198146661,44.5333807196658,0 6.181392816554661,44.5333241155205,0 6.18132545901611,44.5331436134236,0 6.181318640413521,44.5331142585615,0 6.18124877785896,44.5329094126802,0 6.18115506423214,44.5327663395075,0 6.181099072824601,44.5327182209185,0 6.18099869040083,44.5326467859726,0 6.18082634968724,44.5325702178239,0 6.18065627328714,44.5324466441905,0 6.18049212068312,44.5323052407688,0 6.18041419485429,44.5322232474498,0 6.18035485511906,44.5321402678535,0 6.180266817011031,44.5319681998029,0 6.18013864285838,44.5317924234125,0 6.18006102585903,44.5316756440056,0 6.18004057568339,44.531533972135,0 6.18005660477071,44.5314808941685,0 6.17998446004618,44.5313248554294,0 6.17988377338472,44.5312009926352,0 6.179829669894191,44.5311751628544,0 6.179611698338481,44.5310374717826,0 6.179544915821171,44.5309900239026,0 6.17955239105148,44.5309416072347,0 6.179470542805391,44.5307787303338,0 6.17944809955355,44.5307425279372,0 6.17920746919796,44.5304618765293,0 6.1792216110581,44.5304177725823,0 6.17948433061821,44.5302162255679,0 6.1798633907814,44.5299290673461,0 6.18024558660324,44.5296439796566,0 6.18041516596218,44.5295152095935,0 6.18025716648285,44.5292950653869,0 6.180233853373459,44.5292836645794,0 6.180161074806331,44.5292191817065,0 6.180098541022929,44.5291152118458,0 6.18003414707477,44.5290005741873,0 6.17997361092348,44.5288851045426,0 6.17993325250964,44.5286538208757,0 6.179854924454461,44.5285578742154,0 6.179858963520841,44.5284842397075,0 6.179820907027849,44.5285062387989,0 6.17982910097234,44.5285689795221,0 6.17990119432195,44.5286705116467,0 6.17993110663023,44.5288795724859,0 6.17994967993527,44.5289119220774,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_0.27193">
+		<styleUrl>#personne_morale</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_0.schema">
+					<SimpleData name="Numero de Parcelle">050110000Z0254</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">AVANCON</SimpleData>
+					<SimpleData name="Adresse">LES GIRARDS</SimpleData>
+					<SimpleData name="Groupe de personne">Personnes morales non remarquables</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">AUPM</SimpleData>
+					<SimpleData name="Denomination">ASS DIOCESAINE DES HTE-ALPES</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.5237858997886 </north>
+			<south> 44.5230138801309 </south>
+			<east> 6.1696453938372 </east>
+			<west> 6.1686828041372 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.16910559283038,44.5237858997886,0 6.1696453938372,44.5234029836867,0 6.169643010796029,44.5233403460127,0 6.169556984942641,44.523277318647,0 6.16942927024054,44.5231872892429,0 6.169409381349529,44.5231739860327,0 6.169298528777731,44.5230994188493,0 6.16916502211485,44.5230138801309,0 6.168702058571359,44.5233432326258,0 6.1686828041372,44.5233569395602,0 6.168699874900021,44.5233626657732,0 6.16874325644801,44.5233794386665,0 6.16878440055303,44.5233989786639,0 6.16882316634073,44.5234210195297,0 6.16901023121097,44.5235543021144,0 6.169038870790371,44.5235888867271,0 6.16910559283038,44.5237858997886,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_0.27252">
+		<styleUrl>#personne_morale</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_0.schema">
+					<SimpleData name="Numero de Parcelle">050110000Z0255</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">AVANCON</SimpleData>
+					<SimpleData name="Adresse">LES GIRARDS</SimpleData>
+					<SimpleData name="Groupe de personne">Personnes morales non remarquables</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">AUPM</SimpleData>
+					<SimpleData name="Denomination">ASS DIOCESAINE DES HTE-ALPES</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.5246332547723 </north>
+			<south> 44.5234317902688 </south>
+			<east> 6.17026959426395 </east>
+			<west> 6.16912121884297 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.16912121884297,44.5238309488793,0 6.16927389446352,44.5243274912066,0 6.1693067947912,44.5244088028013,0 6.16938207802713,44.5244890769392,0 6.16942094528367,44.5245106642427,0 6.1696002598341,44.5245775884343,0 6.169650863642,44.5246332547723,0 6.16985743536748,44.5244252360475,0 6.16998944187436,44.5243135089622,0 6.17012470233152,44.5242036702936,0 6.17018320360981,44.524157752458,0 6.17025421438454,44.5240968796893,0 6.17026959426395,44.5240545434857,0 6.169730884075829,44.5234317902688,0 6.16966881304067,44.5234365469024,0 6.16914641864509,44.5238199541101,0 6.16912121884297,44.5238309488793,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_0.27327">
+		<styleUrl>#personne_morale</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_0.schema">
+					<SimpleData name="Numero de Parcelle">050110000Z0256</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">AVANCON</SimpleData>
+					<SimpleData name="Adresse">LES GIRARDS</SimpleData>
+					<SimpleData name="Groupe de personne">Personnes morales non remarquables</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">AUPM</SimpleData>
+					<SimpleData name="Denomination">ASS SYNDICALE DU CANAL DU GUA</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.5246417830562 </north>
+			<south> 44.5238309488793 </south>
+			<east> 6.169650863642 </east>
+			<west> 6.16910717805054 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.16964252675499,44.5246417830562,0 6.169650863642,44.5246332547723,0 6.1696002598341,44.5245775884343,0 6.16942094528367,44.5245106642427,0 6.16938207802713,44.5244890769392,0 6.1693067947912,44.5244088028013,0 6.16927389446352,44.5243274912066,0 6.16912121884297,44.5238309488793,0 6.16910717805054,44.52383657775,0 6.16927599288767,44.5243783346282,0 6.16929569676683,44.5244175004777,0 6.16938544708759,44.5245087109665,0 6.16959244761617,44.524593219151,0 6.16964252675499,44.5246417830562,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_0.27404">
+		<styleUrl>#personne_morale</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_0.schema">
+					<SimpleData name="Numero de Parcelle">050110000Z0257</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">AVANCON</SimpleData>
+					<SimpleData name="Adresse">LES GIRARDS</SimpleData>
+					<SimpleData name="Groupe de personne">Personnes morales non remarquables</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">AUPM</SimpleData>
+					<SimpleData name="Denomination">ASS SYNDICALE DU CANAL DU GUA</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.5237896830517 </north>
+			<south> 44.5213708270968 </south>
+			<east> 6.16910559283038 </east>
+			<west> 6.16696633921928 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.167301259381901,44.5219105890331,0 6.16749098899928,44.5221386672693,0 6.16764376443531,44.5224936689799,0 6.16776254510007,44.5226736913895,0 6.167807250047081,44.5228016037618,0 6.16802621653664,44.5230119939767,0 6.16829775728909,44.5232032152598,0 6.16842009308974,44.5232894362349,0 6.16856667161525,44.523331895366,0 6.16860942349676,44.5233441816463,0 6.16875299167537,44.5233958266007,0 6.16883500467429,44.5234412211307,0 6.169012387708671,44.523572529453,0 6.169028412135839,44.5235999985753,0 6.16908993721807,44.5237896830517,0 6.16910559283038,44.5237858997886,0 6.169038870790371,44.5235888867271,0 6.16901023121097,44.5235543021144,0 6.16882316634073,44.5234210195297,0 6.16878440055303,44.5233989786639,0 6.16874325644801,44.5233794386665,0 6.168699874900021,44.5233626657732,0 6.1686828041372,44.5233569395602,0 6.16845576025715,44.5232854386759,0 6.16840866149583,44.5232652587348,0 6.168024583494389,44.5229941119801,0 6.167833122191429,44.5228093297299,0 6.16781164363139,44.5227654396222,0 6.16779439959226,44.5227207071531,0 6.167781012871381,44.5226751431565,0 6.16777769077257,44.5226608233664,0 6.16771599493452,44.5225734911381,0 6.167657971574939,44.5224910086485,0 6.16749907857618,44.5221257316071,0 6.16748679948202,44.5221111284347,0 6.16720404946422,44.5217715707764,0 6.167156532268089,44.5216540999288,0 6.16711382023828,44.5215482034436,0 6.16697189527564,44.5213708270968,0 6.16696633921928,44.5213772932466,0 6.16709461784312,44.521542628305,0 6.16718675434457,44.5217730583846,0 6.167301259381901,44.5219105890331,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_0.27475">
+		<styleUrl>#personne_morale</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_0.schema">
+					<SimpleData name="Numero de Parcelle">050110000Z0258</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">AVANCON</SimpleData>
+					<SimpleData name="Adresse">LES GIRARDS</SimpleData>
+					<SimpleData name="Groupe de personne">Personnes morales non remarquables</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">AUPM</SimpleData>
+					<SimpleData name="Denomination">ASS DIOCESAINE DES HTE-ALPES</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.524079349405 </north>
+			<south> 44.523331895366 </south>
+			<east> 6.16908993721807 </east>
+			<west> 6.167888660473049 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.16856667161525,44.523331895366,0 6.1685346296354,44.523355609732,0 6.167888660473049,44.5238350876085,0 6.1682390054995,44.5240772923395,0 6.16831795740361,44.524079349405,0 6.16855604313996,44.5239054751043,0 6.16908246633711,44.5238024208795,0 6.16908993721807,44.5237896830517,0 6.169028412135839,44.5235999985753,0 6.169012387708671,44.523572529453,0 6.16883500467429,44.5234412211307,0 6.16875299167537,44.5233958266007,0 6.16860942349676,44.5233441816463,0 6.16856667161525,44.523331895366,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_0.27640">
+		<styleUrl>#personne_morale</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_0.schema">
+					<SimpleData name="Numero de Parcelle">05011000ZA0026</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">AVANCON</SimpleData>
+					<SimpleData name="Adresse">L HOPITAL</SimpleData>
+					<SimpleData name="Groupe de personne">Personnes morales non remarquables</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">SCI</SimpleData>
+					<SimpleData name="Denomination">SCI LE COLOMBIER</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.5180799497543 </north>
+			<south> 44.5169292299489 </south>
+			<east> 6.16857693136573 </east>
+			<west> 6.16653951471656 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.16807875564516,44.5178055253269,0 6.1681247753842,44.5177594264797,0 6.16838889593858,44.5173228990328,0 6.16855303810027,44.5171400667135,0 6.16857693136573,44.5170991080024,0 6.16856732606054,44.5170491110555,0 6.1682838248168,44.5169292299489,0 6.16766957684666,44.5171917490265,0 6.16710344413995,44.5174007182198,0 6.166808840871689,44.517509452032,0 6.16653951471656,44.5176086301153,0 6.166961975137,44.5180799497543,0 6.16807875564516,44.5178055253269,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_0.30085">
+		<styleUrl>#personne_morale</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_0.schema">
+					<SimpleData name="Numero de Parcelle">050110000Z0285</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">AVANCON</SimpleData>
+					<SimpleData name="Adresse">L AUCHE</SimpleData>
+					<SimpleData name="Groupe de personne">Personnes morales non remarquables</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">AUPM</SimpleData>
+					<SimpleData name="Denomination">ASS SYNDICALE DU CANAL DU GUA</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.5261327394656 </north>
+			<south> 44.5246684576173 </south>
+			<east> 6.17254072404759 </east>
+			<west> 6.16970512192278 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.1713757896381,44.525771315174,0 6.17126695602374,44.5257350721806,0 6.17114647718688,44.5256910552615,0 6.1709357049432,44.5256336867359,0 6.170526894355011,44.5254272260631,0 6.1703915788843,44.5253589486906,0 6.17022813536398,44.5252764335964,0 6.17016216050794,44.5252431023027,0 6.17013790768728,44.5252193834603,0 6.170125512133951,44.5252072164386,0 6.16994629867806,44.5249806415605,0 6.16979954406159,44.5247422322993,0 6.16976704149763,44.5247106418757,0 6.16973124511304,44.5246809479867,0 6.169714423775279,44.5246684576173,0 6.16970512192278,44.5246799867701,0 6.16977024003531,44.5247317223185,0 6.169995473467971,44.5250736482104,0 6.17014454434561,44.5252523477551,0 6.170924929694681,44.5256458890153,0 6.17114098352527,44.5257053581229,0 6.17122297584173,44.5257278674882,0 6.17155205319486,44.5258600370665,0 6.17174255161287,44.5260653831454,0 6.17177197857573,44.5260803037709,0 6.17196570892383,44.5261032939188,0 6.172233307359651,44.5261207360728,0 6.172511431363251,44.5261327394656,0 6.17254072404759,44.5261161304093,0 6.172475429146191,44.5261128726851,0 6.17227146751664,44.5261050433455,0 6.17201007136325,44.5260903960962,0 6.171980753483859,44.5260886263016,0 6.17187027451295,44.526072432321,0 6.171774648492211,44.5260583338667,0 6.17175037800402,44.526047769753,0 6.171568515697899,44.5258437070302,0 6.17150899420052,44.5258176688671,0 6.17144723532485,44.52579439785,0 6.1713757896381,44.525771315174,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_0.30477">
+		<styleUrl>#personne_morale</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_0.schema">
+					<SimpleData name="Numero de Parcelle">05011000ZA0029</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">AVANCON</SimpleData>
+					<SimpleData name="Adresse">L HOPITAL</SimpleData>
+					<SimpleData name="Groupe de personne">Personnes morales non remarquables</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">SCI</SimpleData>
+					<SimpleData name="Denomination">SCI LE COLOMBIER</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.5177136559898 </north>
+			<south> 44.516774757514 </south>
+			<east> 6.168655091264869 </east>
+			<west> 6.1682113090532 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.1682113090532,44.5176970280393,0 6.16826601100416,44.5177136559898,0 6.16837076229607,44.5175697389635,0 6.16837963695386,44.5175147064347,0 6.16838132452269,44.5175043871586,0 6.168484388843449,44.5173281744574,0 6.16858848432431,44.5172286927634,0 6.168612453785349,44.5171913356447,0 6.1686452516483,44.5170958840779,0 6.168655091264869,44.5168718060612,0 6.168649393471539,44.516774757514,0 6.16832986845341,44.516906014383,0 6.16860134425108,44.5170180421958,0 6.16862342014831,44.5170883126013,0 6.168590479867009,44.5171520548984,0 6.16842290118711,44.5173499417183,0 6.1682113090532,44.5176970280393,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_0.32230">
+		<styleUrl>#personne_morale</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_0.schema">
+					<SimpleData name="Numero de Parcelle">050110000A0312</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">AVANCON</SimpleData>
+					<SimpleData name="Adresse">DE LA BOYNA</SimpleData>
+					<SimpleData name="Groupe de personne">Personnes morales non remarquables</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">SCI</SimpleData>
+					<SimpleData name="Denomination">LA BOYNA</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.5552592902972 </north>
+			<south> 44.5549556937524 </south>
+			<east> 6.18046397917824 </east>
+			<west> 6.17965751612015 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.17965751612015,44.5550292287824,0 6.179715421769771,44.5551176573174,0 6.18021630557299,44.5551356613986,0 6.18016883797908,44.5552592902972,0 6.18041669216657,44.5552458419962,0 6.18046397917824,44.5552330371475,0 6.18046315786282,44.5552184651444,0 6.180349180346921,44.5549556937524,0 6.17965751612015,44.5550292287824,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_0.37929">
+		<styleUrl>#personne_morale</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_0.schema">
+					<SimpleData name="Numero de Parcelle">05011000ZA0004</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">AVANCON</SimpleData>
+					<SimpleData name="Adresse">L HOPITAL</SimpleData>
+					<SimpleData name="Groupe de personne">Personnes morales non remarquables</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">AUPM</SimpleData>
+					<SimpleData name="Denomination">ASS FONCIERE DE REMEMBREMENT D AVANCON</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.5177722240375 </north>
+			<south> 44.516906014383 </south>
+			<east> 6.16862342014831 </east>
+			<west> 6.1681247753842 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.1682838248168,44.5169292299489,0 6.16856732606054,44.5170491110555,0 6.16857693136573,44.5170991080024,0 6.16855303810027,44.5171400667135,0 6.16838889593858,44.5173228990328,0 6.1681247753842,44.5177594264797,0 6.168146058774121,44.5177662029527,0 6.168165410944189,44.5177722240375,0 6.1682113090532,44.5176970280393,0 6.16842290118711,44.5173499417183,0 6.168590479867009,44.5171520548984,0 6.16862342014831,44.5170883126013,0 6.16860134425108,44.5170180421958,0 6.16832986845341,44.516906014383,0 6.1682838248168,44.5169292299489,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_0.41058">
+		<styleUrl>#personne_morale</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_0.schema">
+					<SimpleData name="Numero de Parcelle">050110000D0458</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">AVANCON</SimpleData>
+					<SimpleData name="Adresse">SAINT ROUSSAN</SimpleData>
+					<SimpleData name="Groupe de personne">Personnes morales non remarquables</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">AUPM</SimpleData>
+					<SimpleData name="Denomination">ASS DIOCESAINE DES HTE-ALPES</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.5218966806372 </north>
+			<south> 44.5208791903431 </south>
+			<east> 6.16296064558964 </east>
+			<west> 6.161271991095389 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.1616723032975,44.5212843673475,0 6.16151567987958,44.5214581440119,0 6.161403024648761,44.5215580441328,0 6.161300939099109,44.5216420548639,0 6.161271991095389,44.5217053199974,0 6.16135906977279,44.5217468807589,0 6.1613822933759,44.5217320703555,0 6.161461750112369,44.5216779888194,0 6.161537399376171,44.5216211333179,0 6.16169722803287,44.5215203314763,0 6.16160984494396,44.5216240122077,0 6.16161325123599,44.5218197802552,0 6.161883920465079,44.5218520243971,0 6.16193528269785,44.5218966806372,0 6.16199216445183,44.5218577510176,0 6.16205525725227,44.5218195442765,0 6.162121920981151,44.5217843884482,0 6.16217718462063,44.5217615419565,0 6.16227213162093,44.5217187280771,0 6.16236412602729,44.5216726652545,0 6.16247436845235,44.5215994111962,0 6.16258129102684,44.5215230988879,0 6.16260550835572,44.5214923129752,0 6.162677006603031,44.5213816089744,0 6.16270858073779,44.5212955642886,0 6.16296064558964,44.5212385147617,0 6.16293242394638,44.521116885336,0 6.16292630676597,44.5210076858386,0 6.162913402336829,44.5209639094727,0 6.16288752618755,44.5209515876893,0 6.16284617931724,44.5209283575572,0 6.16280832238004,44.5209022344145,0 6.16278562354885,44.5208791903431,0 6.16220642400914,44.5211256267878,0 6.16183670661595,44.5214024541408,0 6.1616723032975,44.5212843673475,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_0.41101">
+		<styleUrl>#personne_morale</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_0.schema">
+					<SimpleData name="Numero de Parcelle">050110000D0459</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">AVANCON</SimpleData>
+					<SimpleData name="Adresse">SAINT ROUSSAN</SimpleData>
+					<SimpleData name="Groupe de personne">Personnes morales non remarquables</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">AUPM</SimpleData>
+					<SimpleData name="Denomination">ASS DIOCESAINE DES HTE-ALPES</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.5214024541408 </north>
+			<south> 44.5206743767081 </south>
+			<east> 6.16278562354885 </east>
+			<west> 6.1616723032975 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.1616723032975,44.5212843673475,0 6.16183670661595,44.5214024541408,0 6.16220642400914,44.5211256267878,0 6.16278562354885,44.5208791903431,0 6.1627601433808,44.5208537033633,0 6.16275393069584,44.5208372139842,0 6.16273770116228,44.5207835324383,0 6.16272647051307,44.5207291670003,0 6.16272063103065,44.5206743767081,0 6.162635289215869,44.5206930405576,0 6.16265437321967,44.5207279906882,0 6.16256202310144,44.5207699196313,0 6.162101707607279,44.5209669988527,0 6.16204291130962,44.5210121999496,0 6.16185956671038,44.5211495340219,0 6.1616723032975,44.5212843673475,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_0.43222">
+		<styleUrl>#personne_morale</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_0.schema">
+					<SimpleData name="Numero de Parcelle">05011000ZA0005</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">AVANCON</SimpleData>
+					<SimpleData name="Adresse">L HOPITAL</SimpleData>
+					<SimpleData name="Groupe de personne">Personnes morales non remarquables</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">SCI</SimpleData>
+					<SimpleData name="Denomination">SCI LE COLOMBIER</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.5175202294609 </north>
+			<south> 44.516724870494 </south>
+			<east> 6.16888251442272 </east>
+			<west> 6.16841319033126 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.16841319033126,44.5175202294609,0 6.16860453175841,44.5173037311877,0 6.16887460931205,44.5170497435399,0 6.16888251442272,44.5169550070316,0 6.168821811794581,44.5168583674676,0 6.16880393682302,44.516797886841,0 6.168755137491799,44.516724870494,0 6.16866981293762,44.5167639001228,0 6.16867676510899,44.516847398423,0 6.16866558179094,44.5170901646564,0 6.1686282012834,44.5172026856877,0 6.168611959374969,44.5172318924873,0 6.168502435563181,44.5173445938749,0 6.16842115373664,44.5174848637608,0 6.16841319033126,44.5175202294609,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_0.46566">
+		<styleUrl>#personne_morale</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_0.schema">
+					<SimpleData name="Numero de Parcelle">050110000C0057</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">AVANCON</SimpleData>
+					<SimpleData name="Adresse">LES GUILLOUMOUS</SimpleData>
+					<SimpleData name="Groupe de personne">Personnes morales non remarquables</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">AUPM</SimpleData>
+					<SimpleData name="Denomination">ASS DIOCESAINE DES HTE-ALPES</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.5135351200408 </north>
+			<south> 44.5130204139632 </south>
+			<east> 6.204653935838769 </east>
+			<west> 6.204134234484151 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.20440323525216,44.5135351200408,0 6.204653935838769,44.5130204139632,0 6.204299046956429,44.5130282022043,0 6.204134234484151,44.5134411262451,0 6.20420262049024,44.5134879717336,0 6.20440323525216,44.5135351200408,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_0.48675">
+		<styleUrl>#personne_morale</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_0.schema">
+					<SimpleData name="Numero de Parcelle">050110000Z0616</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">AVANCON</SimpleData>
+					<SimpleData name="Adresse">LE GUA</SimpleData>
+					<SimpleData name="Groupe de personne">Personnes morales non remarquables</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">AUPM</SimpleData>
+					<SimpleData name="Denomination">ASS SYNDICALE DU CANAL DU GUA</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.5290751468087 </north>
+			<south> 44.5281124034255 </south>
+			<east> 6.17986913038347 </east>
+			<west> 6.17769305748716 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.17769305748716,44.5290751468087,0 6.17775628187575,44.5290460267714,0 6.177963164787311,44.5288728501419,0 6.1779925264842,44.5288261456876,0 6.177959090404349,44.5286841270829,0 6.17793083609002,44.5285983590726,0 6.17792687061645,44.5284988275527,0 6.177946627557189,44.5284448317497,0 6.17798878868621,44.528368207244,0 6.1780269521344,44.5283480977303,0 6.1780671434824,44.5283304524628,0 6.17810950366763,44.5283155376663,0 6.178120648373031,44.5283121533689,0 6.17825902045206,44.5282934815905,0 6.178398067592,44.5282778534391,0 6.17849541532934,44.5282687421442,0 6.178538797490181,44.5282697446613,0 6.17880493427233,44.5283124401449,0 6.17895234423126,44.528331257156,0 6.17898443313604,44.5283285306065,0 6.17904758473182,44.5283227466674,0 6.17930298382174,44.5282776368196,0 6.17940790389623,44.5282374937779,0 6.179643643439739,44.5281362795085,0 6.17968571885069,44.5281274988057,0 6.17971065173929,44.5281408351267,0 6.17974953136307,44.5281893572645,0 6.179856608578941,44.5283954732271,0 6.179858963520841,44.5284842397075,0 6.17986832472524,44.5284737890767,0 6.17986913038347,44.5283897065704,0 6.17976414241533,44.5281759623656,0 6.1797452566835,44.5281537124838,0 6.17972281562627,44.5281331867925,0 6.17969368490395,44.5281124034255,0 6.17965671661975,44.5281134689017,0 6.1795268952267,44.5281676640074,0 6.17937983613288,44.5282333473939,0 6.17929901456167,44.5282630656119,0 6.17924974214907,44.5282737653801,0 6.17904972628661,44.528307098409,0 6.1789463783655,44.5283170137564,0 6.17872608032609,44.5282809262994,0 6.17851852483953,44.5282496968353,0 6.17836349660902,44.5282611005755,0 6.17810842003959,44.5282962884217,0 6.17804905672081,44.5283179096172,0 6.17796683764779,44.5283653258332,0 6.177944413152,44.5284010189758,0 6.17792620398089,44.5284377619326,0 6.177911827848131,44.5284754756224,0 6.1779069449334,44.5284916532938,0 6.17790114967525,44.5285565088745,0 6.17791961276974,44.5286607582414,0 6.17796280529079,44.5288261909638,0 6.177935767738019,44.5288604853616,0 6.177776263672349,44.528987069261,0 6.17770441604706,44.5290375200619,0 6.17769305748716,44.5290751468087,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_0.50029">
+		<styleUrl>#personne_morale</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_0.schema">
+					<SimpleData name="Numero de Parcelle">050110000Z0646</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">AVANCON</SimpleData>
+					<SimpleData name="Adresse">LA PLAINE</SimpleData>
+					<SimpleData name="Groupe de personne">Personnes morales non remarquables</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">SAS</SimpleData>
+					<SimpleData name="Denomination">JT CONSTRUCTIONS</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.5346147134224 </north>
+			<south> 44.5345069560008 </south>
+			<east> 6.18845353751513 </east>
+			<west> 6.1882995010967 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.18839477642656,44.5345069560008,0 6.1882995010967,44.5345774615865,0 6.18830739936909,44.5346147134224,0 6.18845353751513,44.5345192228787,0 6.18839477642656,44.5345069560008,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_0.50056">
+		<styleUrl>#personne_morale</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_0.schema">
+					<SimpleData name="Numero de Parcelle">050110000Z0647</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">AVANCON</SimpleData>
+					<SimpleData name="Adresse">LA PLAINE</SimpleData>
+					<SimpleData name="Groupe de personne">Personnes morales non remarquables</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">SAS</SimpleData>
+					<SimpleData name="Denomination">JT CONSTRUCTIONS</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.5348019476135 </north>
+			<south> 44.5345192228787 </south>
+			<east> 6.18876732461961 </east>
+			<west> 6.18830739936909 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.18830739936909,44.5346147134224,0 6.18834155368018,44.5347198599452,0 6.188384860536711,44.5348019476135,0 6.188401154334609,44.5347938185817,0 6.1886200778939,44.5346823496613,0 6.18872464882594,44.5346292340268,0 6.18875439971672,44.5346140488978,0 6.18876732461961,44.5345819614499,0 6.18863980267454,44.5345587981338,0 6.18851325005387,44.5345327235794,0 6.18845353751513,44.5345192228787,0 6.18830739936909,44.5346147134224,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_0.50088">
+		<styleUrl>#personne_morale</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_0.schema">
+					<SimpleData name="Numero de Parcelle">050110000Z0648</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">AVANCON</SimpleData>
+					<SimpleData name="Adresse">LA PLAINE</SimpleData>
+					<SimpleData name="Groupe de personne">Personnes morales non remarquables</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">SAS</SimpleData>
+					<SimpleData name="Denomination">JT CONSTRUCTIONS</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.5348960212858 </north>
+			<south> 44.5345819614499 </south>
+			<east> 6.189095860812591 </east>
+			<west> 6.188384860536711 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.189095860812591,44.5347229269696,0 6.18880206258581,44.5345881652025,0 6.18876732461961,44.5345819614499,0 6.18875439971672,44.5346140488978,0 6.18872464882594,44.5346292340268,0 6.1886200778939,44.5346823496613,0 6.188401154334609,44.5347938185817,0 6.188384860536711,44.5348019476135,0 6.188437409971569,44.5348960212858,0 6.189095860812591,44.5347229269696,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_0.51944">
+		<styleUrl>#personne_morale</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_0.schema">
+					<SimpleData name="Numero de Parcelle">050110000Z0697</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">AVANCON</SimpleData>
+					<SimpleData name="Adresse">LE GUA</SimpleData>
+					<SimpleData name="Groupe de personne">Personnes morales non remarquables</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">SARL</SimpleData>
+					<SimpleData name="Denomination">ECO PROD SOL A</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.5266020019989 </north>
+			<south> 44.5264067107219 </south>
+			<east> 6.172726226732319 </east>
+			<west> 6.172213844568811 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.17271536241603,44.5264067107219,0 6.172213844568811,44.5264221238052,0 6.17222470729102,44.5266020019989,0 6.172726226732319,44.526586588865,0 6.17271536241603,44.5264067107219,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_0.52464">
+		<styleUrl>#personne_morale</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_0.schema">
+					<SimpleData name="Numero de Parcelle">050110000C0071</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">AVANCON</SimpleData>
+					<SimpleData name="Adresse">LE MARQUISA</SimpleData>
+					<SimpleData name="Groupe de personne">Personnes morales non remarquables</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">AUPM</SimpleData>
+					<SimpleData name="Denomination">ASS DIOCESAINE DES HTE-ALPES</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.5130063096665 </north>
+			<south> 44.5112592134109 </south>
+			<east> 6.2057913683503 </east>
+			<west> 6.203384043431211 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.20434584584472,44.5117005361594,0 6.203384043431211,44.5130063096665,0 6.20498624443883,44.5129741789504,0 6.2057913683503,44.5115529364149,0 6.20568385890154,44.511553268319,0 6.205599699509329,44.5115346319158,0 6.20539116623912,44.5114055483746,0 6.20518963325786,44.5112999563413,0 6.20509729465076,44.5112592134109,0 6.20434584584472,44.5117005361594,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_0.52598">
+		<styleUrl>#personne_morale</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_0.schema">
+					<SimpleData name="Numero de Parcelle">050110000Z0712</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">AVANCON</SimpleData>
+					<SimpleData name="Adresse">LA PLAINE</SimpleData>
+					<SimpleData name="Groupe de personne">Personnes morales non remarquables</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">SARL</SimpleData>
+					<SimpleData name="Denomination">SMART SOLAR-5</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.5307597570196 </north>
+			<south> 44.5302882309981 </south>
+			<east> 6.18005512884763 </east>
+			<west> 6.1793131888877 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.18005512884763,44.530497721229,0 6.17985880918111,44.5302882309981,0 6.1793131888877,44.5305499168681,0 6.179509904949741,44.5307597570196,0 6.18005512884763,44.530497721229,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_0.61408">
+		<styleUrl>#personne_morale</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_0.schema">
+					<SimpleData name="Numero de Parcelle">050110000C0097</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">AVANCON</SimpleData>
+					<SimpleData name="Adresse">LES ROUMIERES</SimpleData>
+					<SimpleData name="Groupe de personne">Personnes morales non remarquables</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">SCI</SimpleData>
+					<SimpleData name="Denomination">SCI LE COLOMBIER</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.5126471747351 </north>
+			<south> 44.5108198053294 </south>
+			<east> 6.19735241913166 </east>
+			<west> 6.194427924828041 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.194427924828041,44.5125193534464,0 6.19459827431443,44.5125169421588,0 6.195144338940279,44.5126189695774,0 6.195411611485451,44.5126471747351,0 6.19560854148678,44.5126449828607,0 6.19576075559238,44.5126157961988,0 6.19600725568907,44.5125127915899,0 6.19637401031141,44.5122764732916,0 6.19653222773808,44.5122199026015,0 6.19667203350323,44.5122095439128,0 6.19693799520588,44.5117742401229,0 6.19705255991589,44.5116116297988,0 6.197130667040339,44.5114744921651,0 6.19735241913166,44.5110190260514,0 6.19715416440578,44.5108198053294,0 6.19679302473767,44.5110572250344,0 6.19650812455259,44.5112001757954,0 6.19601120175246,44.5115035139834,0 6.19549634667206,44.5118126850244,0 6.19506121660143,44.5120867491541,0 6.19493573911864,44.5121456127478,0 6.194643775815529,44.5123063317429,0 6.19448131768851,44.5124237470355,0 6.194427924828041,44.5125193534464,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+</Document></Document></kml>

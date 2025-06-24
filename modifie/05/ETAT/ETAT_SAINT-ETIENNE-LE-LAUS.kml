@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="root_doc">
+	<name>SAINT-ETIENNE-LE-LAUS_ETAT</name>
+	<visibility>0</visibility>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+	<Document id="parcelles-des-personnes-morales_05_groupe_personne_1">
+		<name>SAINT-ETIENNE-LE-LAUS_ETAT</name>
+		<visibility>0</visibility>
+		<Schema name="SAINT-ETIENNE-LE-LAUS_ETAT" id="SAINT-ETIENNE-LE-LAUS_ETAT.schema">
+			<SimpleField type="string" name="Numero de Parcelle"></SimpleField>
+			<SimpleField type="string" name="Departement"></SimpleField>
+			<SimpleField type="string" name="Commune"></SimpleField>
+			<SimpleField type="string" name="Adresse"></SimpleField>
+			<SimpleField type="string" name="Groupe de personne"></SimpleField>
+			<SimpleField type="string" name="Forme Juridique Abregee"></SimpleField>
+			<SimpleField type="string" name="Denomination"></SimpleField>
+		</Schema>
+		<Style id="ETAT">
+			<LineStyle>
+				<color>BF119ff7</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4C119ff7</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_1.985">
+		<styleUrl>#ETAT</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_1.schema">
+					<SimpleData name="Numero de Parcelle">05140000ZE0001</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">SAINT-ETIENNE-LE-LAUS</SimpleData>
+					<SimpleData name="Adresse">BOIS DES COLOMBES</SimpleData>
+					<SimpleData name="Groupe de personne">Etat</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">ETAT</SimpleData>
+					<SimpleData name="Denomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.4910458294715 </north>
+			<south> 44.4836162738683 </south>
+			<east> 6.171396078086701 </east>
+			<west> 6.16056442746927 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.16773351435346,44.4885750141871,0 6.16894405431852,44.4882728275423,0 6.16903021433262,44.4881597159283,0 6.16910674812106,44.4880432772058,0 6.16915238368473,44.4879638541829,0 6.16948116669685,44.4877627733247,0 6.1696997136019,44.487604592195,0 6.17026876259472,44.4874485847994,0 6.170527571263221,44.4872319445772,0 6.17075689889795,44.4871336337958,0 6.17095156941352,44.4870098318041,0 6.17103796458744,44.4868561695824,0 6.17120076908239,44.486498769794,0 6.17128819771624,44.4863433658602,0 6.17136540726769,44.4861852827324,0 6.171396078086701,44.486115118379,0 6.17075214644083,44.4862865294834,0 6.17025388864915,44.4863424820917,0 6.169946691960379,44.4864503285019,0 6.16942467287354,44.4865022756594,0 6.16779849102974,44.4865959534729,0 6.167789953363969,44.4861900571389,0 6.167211177457261,44.4862240743887,0 6.166604279494601,44.4861088907178,0 6.166514823006231,44.486089117013,0 6.164619586028559,44.4861177704528,0 6.16457406777154,44.4859522241415,0 6.16439621110599,44.4853046030911,0 6.16437571979072,44.485037614076,0 6.163672501080571,44.4846942705159,0 6.1615864758353,44.4838854364257,0 6.161272028324801,44.4837332774327,0 6.16074321972616,44.4836162738683,0 6.16083847138414,44.4837959813632,0 6.16089550989842,44.4840821934516,0 6.16097862016567,44.4843957670619,0 6.16082583307932,44.4847397990331,0 6.160749428010739,44.4851534451248,0 6.16057230448976,44.4854629480695,0 6.16056442746927,44.4855943495537,0 6.16066615245765,44.4859527068261,0 6.160871559475899,44.486501881948,0 6.161131226865769,44.4869140909547,0 6.16112972866777,44.4870402644677,0 6.16098751637107,44.4873979581177,0 6.161126604554421,44.4874635221059,0 6.16124114208625,44.4875514122896,0 6.16143571590191,44.4880012544957,0 6.16142350603689,44.4881091760318,0 6.16139894360773,44.488178531473,0 6.16148498563501,44.4881597572688,0 6.16163436011046,44.4881099765652,0 6.16179197698092,44.4880568060037,0 6.16210660673404,44.4879509319734,0 6.16223560968525,44.4879082214403,0 6.16283924742311,44.4877064845128,0 6.162962064242479,44.4880073865013,0 6.16334534729446,44.4889298474481,0 6.163572871900639,44.4894800063749,0 6.163936519891399,44.4893908294183,0 6.164169040811769,44.4893424430654,0 6.1646929178921,44.4892355112378,0 6.16459875550639,44.4896755279855,0 6.16450318329463,44.4901083776772,0 6.16448146248024,44.490205941755,0 6.16440857156435,44.4905179556238,0 6.16455640681403,44.4906900255142,0 6.1648505938405,44.4910458294715,0 6.16519716913772,44.4909168667694,0 6.165348606097741,44.4907847664294,0 6.16601211575097,44.4905999428938,0 6.166112608074499,44.4905335411101,0 6.16621973245931,44.4904215415864,0 6.16648096145581,44.4900499709791,0 6.166871415409619,44.4897137885322,0 6.16694391836827,44.489590439901,0 6.16702604196817,44.489470328511,0 6.167117921904549,44.4893536306281,0 6.16714377669131,44.4893231570094,0 6.16720897867537,44.4890538860851,0 6.16726386418538,44.4889642878822,0 6.16747818372687,44.4888270444536,0 6.16763444105019,44.4886217363675,0 6.16773351435346,44.4885750141871,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_1.1255">
+		<styleUrl>#ETAT</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_1.schema">
+					<SimpleData name="Numero de Parcelle">05140000ZI0103</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">SAINT-ETIENNE-LE-LAUS</SimpleData>
+					<SimpleData name="Adresse">BAS COL</SimpleData>
+					<SimpleData name="Groupe de personne">Etat</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">ETAT</SimpleData>
+					<SimpleData name="Denomination">ETAT PAR DIRECTION DE L IMMOBILIER DE L ETAT</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.4905179556238 </north>
+			<south> 44.4892355112378 </south>
+			<east> 6.1646929178921 </east>
+			<west> 6.163572871900639 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.163572871900639,44.4894800063749,0 6.16407711722861,44.490105650501,0 6.16440857156435,44.4905179556238,0 6.16448146248024,44.490205941755,0 6.16450318329463,44.4901083776772,0 6.16459875550639,44.4896755279855,0 6.1646929178921,44.4892355112378,0 6.164169040811769,44.4893424430654,0 6.163936519891399,44.4893908294183,0 6.163572871900639,44.4894800063749,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+</Document></Document></kml>

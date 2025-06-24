@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="root_doc">
+	<name>REALLON_HLM</name>
+	<visibility>0</visibility>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+	<Document id="parcelles-des-personnes-morales_05_groupe_personne_5">
+		<name>REALLON_HLM</name>
+		<visibility>0</visibility>
+		<Schema name="REALLON_HLM" id="REALLON_HLM.schema">
+			<SimpleField type="string" name="Numero de Parcelle"></SimpleField>
+			<SimpleField type="string" name="Departement"></SimpleField>
+			<SimpleField type="string" name="Commune"></SimpleField>
+			<SimpleField type="string" name="Adresse"></SimpleField>
+			<SimpleField type="string" name="Groupe de personne"></SimpleField>
+			<SimpleField type="string" name="Forme Juridique Abregee"></SimpleField>
+			<SimpleField type="string" name="Denomination"></SimpleField>
+		</Schema>
+		<Style id="HLM">
+			<LineStyle>
+				<color>BFe451f5</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4Ce451f5</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_5.93">
+		<styleUrl>#HLM</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_5.schema">
+					<SimpleData name="Numero de Parcelle">051140000C1332</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">REALLON</SimpleData>
+					<SimpleData name="Adresse">4, PARKING DES MARMOTTES</SimpleData>
+					<SimpleData name="Groupe de personne">HLM</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+					<SimpleData name="Denomination">ERILIA</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.5960321180084 </north>
+			<south> 44.5957334366125 </south>
+			<east> 6.36345515010917 </east>
+			<west> 6.362781769936499 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.36289059218532,44.5958363289959,0 6.362781769936499,44.5958491937202,0 6.362795362914961,44.5959185225362,0 6.36294757092199,44.5959902986917,0 6.363014242867519,44.5960213378061,0 6.36321653627552,44.5960321180084,0 6.36318709010532,44.5959380420518,0 6.36331224038293,44.5959050364142,0 6.363398531535291,44.5958823148036,0 6.36345515010917,44.5958674349876,0 6.363450229727851,44.5958082044089,0 6.36344499851289,44.5957754747138,0 6.363445114936421,44.5957605134299,0 6.36344362588942,44.5957334366125,0 6.36324519677914,44.5957641685479,0 6.36318305423603,44.5957942643109,0 6.3630683990567,44.5958108211069,0 6.36295199756561,44.5958277012757,0 6.36289684869952,44.5958355077476,0 6.36289059218532,44.5958363289959,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_5.154">
+		<styleUrl>#HLM</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_5.schema">
+					<SimpleData name="Numero de Parcelle">051140000F1824</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">REALLON</SimpleData>
+					<SimpleData name="Adresse">29, MTE DES PRAUX</SimpleData>
+					<SimpleData name="Groupe de personne">HLM</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+					<SimpleData name="Denomination">OFFICE PUBLIC DE L HABITAT DES HAUTES ALPES</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.5778238869109 </north>
+			<south> 44.5773738693497 </south>
+			<east> 6.37751664720385 </east>
+			<west> 6.37677015145212 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.37751664720385,44.5777246803217,0 6.377503844097321,44.5776329827337,0 6.37745956012684,44.5775355802462,0 6.37736433733336,44.5775391238263,0 6.37735602364786,44.5775308179819,0 6.377341665859,44.5775036844696,0 6.37733170405393,44.5774910138012,0 6.377320260552729,44.5774830740129,0 6.37730637710826,44.5774807053776,0 6.377288890821129,44.5774813303663,0 6.37727085270654,44.5774811612698,0 6.377255985530601,44.5774834181694,0 6.37723511970909,44.5774823443862,0 6.37722474702561,44.5774817605974,0 6.37721061244603,44.5774730921511,0 6.377198139274519,44.5774605883961,0 6.37719917364373,44.5774315423463,0 6.377206942654121,44.5773970641006,0 6.37720808256723,44.577395046882,0 6.37709032621845,44.5773738693497,0 6.3770849163274,44.5774014273058,0 6.37707975383226,44.5774162726276,0 6.37707377508174,44.577432224198,0 6.37706590533316,44.5774460710426,0 6.37705343678117,44.5774631221809,0 6.37703542051832,44.5774801627879,0 6.377004952946481,44.5775019093572,0 6.37697523018363,44.5775171454432,0 6.37694407470519,44.5775316143794,0 6.37690837821733,44.5775460419799,0 6.3768735841278,44.5775608023961,0 6.37684550119009,44.5775718433767,0 6.376817110724819,44.5775840651444,0 6.37679726119004,44.5775957553681,0 6.376785017866361,44.5776060415714,0 6.37677015145212,44.5776188408824,0 6.37682658396457,44.5776496435224,0 6.37691305998754,44.5776389791709,0 6.37704052244417,44.5777232952709,0 6.37725746137802,44.5778238869109,0 6.377273603201551,44.577821861345,0 6.37733995037276,44.5778119024755,0 6.37737709868393,44.5778069816558,0 6.37739535285113,44.5778044409225,0 6.37741125572306,44.5778005304009,0 6.37742555892067,44.5777930645349,0 6.37743699472256,44.5777861369143,0 6.37745888849279,44.5777706896572,0 6.377476528656191,44.5777578955069,0 6.37747954000894,44.5777555507169,0 6.37749915786503,44.5777399928581,0 6.37750839512348,44.577732141308,0 6.37751462102986,44.5777266345481,0 6.37751664720385,44.5777246803217,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+</Document></Document></kml>

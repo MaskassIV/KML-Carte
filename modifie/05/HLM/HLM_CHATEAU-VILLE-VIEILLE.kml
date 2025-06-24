@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="root_doc">
+	<name>CHATEAU-VILLE-VIEILLE_HLM</name>
+	<visibility>0</visibility>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+	<Document id="parcelles-des-personnes-morales_05_groupe_personne_5">
+		<name>CHATEAU-VILLE-VIEILLE_HLM</name>
+		<visibility>0</visibility>
+		<Schema name="CHATEAU-VILLE-VIEILLE_HLM" id="CHATEAU-VILLE-VIEILLE_HLM.schema">
+			<SimpleField type="string" name="Numero de Parcelle"></SimpleField>
+			<SimpleField type="string" name="Departement"></SimpleField>
+			<SimpleField type="string" name="Commune"></SimpleField>
+			<SimpleField type="string" name="Adresse"></SimpleField>
+			<SimpleField type="string" name="Groupe de personne"></SimpleField>
+			<SimpleField type="string" name="Forme Juridique Abregee"></SimpleField>
+			<SimpleField type="string" name="Denomination"></SimpleField>
+		</Schema>
+		<Style id="HLM">
+			<LineStyle>
+				<color>BFe451f5</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4Ce451f5</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_5.261">
+		<styleUrl>#HLM</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_5.schema">
+					<SimpleData name="Numero de Parcelle">05038000AB0289</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">CHATEAU-VILLE-VIEILLE</SimpleData>
+					<SimpleData name="Adresse">LA RIBE</SimpleData>
+					<SimpleData name="Groupe de personne">HLM</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+					<SimpleData name="Denomination">OFFICE PUBLIC DE L HABITAT DES HAUTES ALPES</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.7581917871514 </north>
+			<south> 44.7577430031117 </south>
+			<east> 6.79672586836389 </east>
+			<west> 6.79605289663794 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.79605289663794,44.7580507065161,0 6.796191200994869,44.7581055445298,0 6.79625117871332,44.7581244898476,0 6.79641490115701,44.7581623221161,0 6.79643650158466,44.7581356227886,0 6.79645614806866,44.7581080890956,0 6.79646496767311,44.7580944467901,0 6.79664915476766,44.7581917871514,0 6.79672586836389,44.7577692191472,0 6.79654408216048,44.7577430031117,0 6.796480830964241,44.7579940336377,0 6.79630282839366,44.7579732758228,0 6.79632653319646,44.7578784526442,0 6.79622199535533,44.7578590519809,0 6.79614679742821,44.7578451351484,0 6.79613475099837,44.7578859284619,0 6.796123064971679,44.7579264390153,0 6.79611712306498,44.7579471032879,0 6.79605289663794,44.7580507065161,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_5.482">
+		<styleUrl>#HLM</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_5.schema">
+					<SimpleData name="Numero de Parcelle">05038000AB0076</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">CHATEAU-VILLE-VIEILLE</SimpleData>
+					<SimpleData name="Adresse">555, RUE VAUBAN</SimpleData>
+					<SimpleData name="Groupe de personne">HLM</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+					<SimpleData name="Denomination">OFFICE PUBLIC DE L HABITAT DES HAUTES ALPES</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.7579940336377 </north>
+			<south> 44.757692467854 </south>
+			<east> 6.79654408216048 </east>
+			<west> 6.79614679742821 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.79654408216048,44.7577430031117,0 6.7961908852466,44.757692467854,0 6.79617200400254,44.7577575614465,0 6.79614679742821,44.7578451351484,0 6.79622199535533,44.7578590519809,0 6.79632653319646,44.7578784526442,0 6.79630282839366,44.7579732758228,0 6.796480830964241,44.7579940336377,0 6.79654408216048,44.7577430031117,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+</Document></Document></kml>

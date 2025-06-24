@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="root_doc">
+	<name>NEVACHE_PUBLICorASSOCIE</name>
+	<visibility>0</visibility>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+	<Document id="parcelles-des-personnes-morales_05_groupe_personne_9">
+		<name>NEVACHE_PUBLICorASSOCIE</name>
+		<visibility>0</visibility>
+		<Schema name="NEVACHE_PUBLICorASSOCIE" id="NEVACHE_PUBLICorASSOCIE.schema">
+			<SimpleField type="string" name="Numero de Parcelle"></SimpleField>
+			<SimpleField type="string" name="Departement"></SimpleField>
+			<SimpleField type="string" name="Commune"></SimpleField>
+			<SimpleField type="string" name="Adresse"></SimpleField>
+			<SimpleField type="string" name="Groupe de personne"></SimpleField>
+			<SimpleField type="string" name="Forme Juridique Abregee"></SimpleField>
+			<SimpleField type="string" name="Denomination"></SimpleField>
+		</Schema>
+		<Style id="PUBLICorASSOCIE">
+			<LineStyle>
+				<color>BFdb2105</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4Cdb2105</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_9.351">
+		<styleUrl>#PUBLICorASSOCIE</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_9.schema">
+					<SimpleData name="Numero de Parcelle">050930000M0124</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">NEVACHE</SimpleData>
+					<SimpleData name="Adresse">RENFOUR</SimpleData>
+					<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">AUPM</SimpleData>
+					<SimpleData name="Denomination">ASSOCIATION ASSOMONT</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 45.0680174746812 </north>
+			<south> 45.0671786798186 </south>
+			<east> 6.62871827902695 </east>
+			<west> 6.62781108733214 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.62781108733214,45.0679604481702,0 6.62808583553144,45.0680174746812,0 6.62809522209828,45.0680092370271,0 6.62819310529398,45.0676182901844,0 6.628233993507879,45.0675800028387,0 6.62842297561724,45.0674169210933,0 6.62871827902695,45.0672752512003,0 6.62862539490517,45.0671786798186,0 6.62857894857934,45.0671901081764,0 6.62853341552183,45.0672038502435,0 6.6285203337569,45.06720806218059,0 6.628458767608639,45.06722953742761,0 6.62839886456076,45.06725312166671,0 6.62835734484233,45.06727187053099,0 6.628296073315701,45.0673018087011,0 6.62823670120551,45.0673335777627,0 6.62817921683718,45.0673669978307,0 6.62812584063383,45.0674010050822,0 6.62809390418809,45.0674282747387,0 6.628083578197279,45.0674377147488,0 6.628055507772309,45.06746575976829,0 6.628030190250129,45.06749506709641,0 6.62800761979761,45.067525546791,0 6.62781108733214,45.0679604481702,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+</Document></Document></kml>

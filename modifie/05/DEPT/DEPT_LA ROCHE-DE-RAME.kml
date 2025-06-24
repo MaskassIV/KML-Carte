@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="root_doc">
+	<name>LA ROCHE-DE-RAME_DEPT</name>
+	<visibility>0</visibility>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+	<Document id="parcelles-des-personnes-morales_05_groupe_personne_3">
+		<name>LA ROCHE-DE-RAME_DEPT</name>
+		<visibility>0</visibility>
+		<Schema name="LA ROCHE-DE-RAME_DEPT" id="LA ROCHE-DE-RAME_DEPT.schema">
+			<SimpleField type="string" name="Numero de Parcelle"></SimpleField>
+			<SimpleField type="string" name="Departement"></SimpleField>
+			<SimpleField type="string" name="Commune"></SimpleField>
+			<SimpleField type="string" name="Adresse"></SimpleField>
+			<SimpleField type="string" name="Groupe de personne"></SimpleField>
+			<SimpleField type="string" name="Forme Juridique Abregee"></SimpleField>
+			<SimpleField type="string" name="Denomination"></SimpleField>
+		</Schema>
+		<Style id="DEPT">
+			<LineStyle>
+				<color>BF63f16c</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4C63f16c</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_3.2582">
+		<styleUrl>#DEPT</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_3.schema">
+					<SimpleData name="Numero de Parcelle">051220000B0522</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">LA ROCHE-DE-RAME</SimpleData>
+					<SimpleData name="Adresse">SERRE DES BRUNS</SimpleData>
+					<SimpleData name="Groupe de personne">Departement</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">DEPT</SimpleData>
+					<SimpleData name="Denomination">DEPARTEMENT DES HAUTES ALPES</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.7609487252572 </north>
+			<south> 44.7606535544476 </south>
+			<east> 6.57978704593312 </east>
+			<west> 6.579380346877649 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.57968405719891,44.7606535544476,0 6.57955466292931,44.7606854945068,0 6.57952733612656,44.7607072863019,0 6.57950003767952,44.7607315105015,0 6.579380346877649,44.7608443377979,0 6.57943579261262,44.7608886889865,0 6.579415833956461,44.7609487252572,0 6.57943669743327,44.7609466090059,0 6.579501818290749,44.7609402685697,0 6.579530300799949,44.7609008653927,0 6.579574328654901,44.7608513165926,0 6.57960028038616,44.7608138877793,0 6.57962847518141,44.7607799012701,0 6.57966234504268,44.7607436584946,0 6.57965432302839,44.7607011092176,0 6.57970930943169,44.7607024863123,0 6.57976045798538,44.7606972281801,0 6.57978704593312,44.7606638343028,0 6.57968405719891,44.7606535544476,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+</Document></Document></kml>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="root_doc">
+	<name>SALERANS_DEPT</name>
+	<visibility>0</visibility>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+	<Document id="parcelles-des-personnes-morales_05_groupe_personne_3">
+		<name>SALERANS_DEPT</name>
+		<visibility>0</visibility>
+		<Schema name="SALERANS_DEPT" id="SALERANS_DEPT.schema">
+			<SimpleField type="string" name="Numero de Parcelle"></SimpleField>
+			<SimpleField type="string" name="Departement"></SimpleField>
+			<SimpleField type="string" name="Commune"></SimpleField>
+			<SimpleField type="string" name="Adresse"></SimpleField>
+			<SimpleField type="string" name="Groupe de personne"></SimpleField>
+			<SimpleField type="string" name="Forme Juridique Abregee"></SimpleField>
+			<SimpleField type="string" name="Denomination"></SimpleField>
+		</Schema>
+		<Style id="DEPT">
+			<LineStyle>
+				<color>BF63f16c</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4C63f16c</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_3.3223">
+		<styleUrl>#DEPT</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_3.schema">
+					<SimpleData name="Numero de Parcelle">051600000D0910</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">SALERANS</SimpleData>
+					<SimpleData name="Adresse">LE VILLAGE</SimpleData>
+					<SimpleData name="Groupe de personne">Departement</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">DEPT</SimpleData>
+					<SimpleData name="Denomination">DEPARTEMENT DES HAUTES ALPES</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.2434460957182 </north>
+			<south> 44.2430633578098 </south>
+			<east> 5.70430466850141 </east>
+			<west> 5.70384315983378 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							5.703958575853991,44.2434460957182,0 5.70401736205406,44.2434151071571,0 5.70403634881904,44.2434007697749,0 5.70405096935538,44.2433841982608,0 5.7040579247148,44.2433724087608,0 5.70407223613387,44.2433230616867,0 5.704070360234259,44.2432915856066,0 5.704073627921071,44.2432602530465,0 5.70407760297433,44.2432437635684,0 5.70409731004942,44.2432024794051,0 5.70412254060475,44.2431745687558,0 5.70415187848678,44.2431487184734,0 5.70417125340829,44.2431346416983,0 5.70430466850141,44.2430633578098,0 5.70414888359065,44.2430937633435,0 5.70407345530061,44.2431356992746,0 5.70400071259194,44.2431998147356,0 5.70391858415108,44.243319370291,0 5.70387786778507,44.2434114272968,0 5.7038665402349,44.2434261164236,0 5.7038508464635,44.2434385714125,0 5.70384315983378,44.2434429036232,0 5.703958575853991,44.2434460957182,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+</Document></Document></kml>

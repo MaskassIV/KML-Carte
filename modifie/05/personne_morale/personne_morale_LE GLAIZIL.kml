@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="root_doc">
+	<name>LE GLAIZIL_personne_morale</name>
+	<visibility>0</visibility>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+	<Document id="parcelles-des-personnes-morales_05_groupe_personne_0">
+		<name>LE GLAIZIL_personne_morale</name>
+		<visibility>0</visibility>
+		<Schema name="LE GLAIZIL_personne_morale" id="LE GLAIZIL_personne_morale.schema">
+			<SimpleField type="string" name="Numero de Parcelle"></SimpleField>
+			<SimpleField type="string" name="Departement"></SimpleField>
+			<SimpleField type="string" name="Commune"></SimpleField>
+			<SimpleField type="string" name="Adresse"></SimpleField>
+			<SimpleField type="string" name="Groupe de personne"></SimpleField>
+			<SimpleField type="string" name="Forme Juridique Abregee"></SimpleField>
+			<SimpleField type="string" name="Denomination"></SimpleField>
+		</Schema>
+		<Style id="personne_morale">
+			<LineStyle>
+				<color>BF0000ff</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4C0000ff</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_0.13786">
+		<styleUrl>#personne_morale</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_0.schema">
+					<SimpleData name="Numero de Parcelle">050620000A0146</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">LE GLAIZIL</SimpleData>
+					<SimpleData name="Adresse">LE CHAMBON</SimpleData>
+					<SimpleData name="Groupe de personne">Personnes morales non remarquables</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">AUPM</SimpleData>
+					<SimpleData name="Denomination">ELECTRICITE DE FRANCE   GROUPE REGIONAL PRODUCTION DAUPHINE</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.7810502619994 </north>
+			<south> 44.7803990562547 </south>
+			<east> 5.97953883563699 </east>
+			<west> 5.979200644838971 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							5.979204553124611,44.7807482399753,0 5.979210068712711,44.7809215253929,0 5.97953883563699,44.7810502619994,0 5.97943145482442,44.7803990562547,0 5.979200644838971,44.7806291488009,0 5.979204553124611,44.7807482399753,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_0.13789">
+		<styleUrl>#personne_morale</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_0.schema">
+					<SimpleData name="Numero de Parcelle">050620000C0146</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">LE GLAIZIL</SimpleData>
+					<SimpleData name="Adresse">SERRE DE L ISCLE</SimpleData>
+					<SimpleData name="Groupe de personne">Personnes morales non remarquables</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">AUPM</SimpleData>
+					<SimpleData name="Denomination">PROPRIETAIRES DU BND 062 C0146</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.7436467337737 </north>
+			<south> 44.7427904851538 </south>
+			<east> 6.000167071346861 </east>
+			<west> 5.99929740738975 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							5.99929740738975,44.7432662748464,0 5.99947085473228,44.7433659073086,0 5.99955443235823,44.7434159888486,0 5.99962971881824,44.7434717907115,0 5.99968001834222,44.7435165569793,0 5.99969999337187,44.7435758390911,0 5.99980680461871,44.7436467337737,0 6.000019114134991,44.7433775443265,0 6.00011510660427,44.743219529721,0 5.99999002833135,44.7431758884658,0 6.000167071346861,44.7429091856857,0 6.00003571491822,44.7427904851538,0 6.00003198069761,44.7427915773615,0 5.99979168955759,44.7428607928694,0 5.99970547378375,44.7429366458767,0 5.99940943151285,44.7431789117589,0 5.99929740738975,44.7432662748464,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_0.14209">
+		<styleUrl>#personne_morale</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_0.schema">
+					<SimpleData name="Numero de Parcelle">050620000A0149</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">LE GLAIZIL</SimpleData>
+					<SimpleData name="Adresse">LE CHAMBON</SimpleData>
+					<SimpleData name="Groupe de personne">Personnes morales non remarquables</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">AUPM</SimpleData>
+					<SimpleData name="Denomination">ELECTRICITE DE FRANCE   GROUPE REGIONAL PRODUCTION DAUPHINE</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.7803990562547 </north>
+			<south> 44.7800818434178 </south>
+			<east> 5.979930507158069 </east>
+			<west> 5.97943145482442 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							5.97943145482442,44.7803990562547,0 5.97974732433221,44.7802201026147,0 5.979930507158069,44.7801105759756,0 5.97989238966692,44.780100248967,0 5.97986313938014,44.7801283344435,0 5.97973923640144,44.7800818434178,0 5.97943145482442,44.7803990562547,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_0.14437">
+		<styleUrl>#personne_morale</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_0.schema">
+					<SimpleData name="Numero de Parcelle">050620000A0150</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">LE GLAIZIL</SimpleData>
+					<SimpleData name="Adresse">LE CHAMBON</SimpleData>
+					<SimpleData name="Groupe de personne">Personnes morales non remarquables</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">AUPM</SimpleData>
+					<SimpleData name="Denomination">ELECTRICITE DE FRANCE   GROUPE REGIONAL PRODUCTION DAUPHINE</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.7801105759756 </north>
+			<south> 44.7798568496559 </south>
+			<east> 5.98006449704039 </east>
+			<west> 5.979761882469781 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							5.979810545459759,44.7798568496559,0 5.979832289809951,44.7799806867293,0 5.979761882469781,44.7800556473739,0 5.97981257489114,44.7800788803138,0 5.97989238966692,44.780100248967,0 5.979930507158069,44.7801105759756,0 5.98006449704039,44.7800132734944,0 5.979971072359871,44.7799594762214,0 5.97989320622263,44.7798985033362,0 5.979810545459759,44.7798568496559,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_0.14859">
+		<styleUrl>#personne_morale</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_0.schema">
+					<SimpleData name="Numero de Parcelle">050620000A0153</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">LE GLAIZIL</SimpleData>
+					<SimpleData name="Adresse">LE CHAMBON</SimpleData>
+					<SimpleData name="Groupe de personne">Personnes morales non remarquables</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">AUPM</SimpleData>
+					<SimpleData name="Denomination">ELECTRICITE DE FRANCE   GROUPE REGIONAL PRODUCTION DAUPHINE</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.7799814413446 </north>
+			<south> 44.7762420308163 </south>
+			<east> 5.982919137083939 </east>
+			<west> 5.97982791699285 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							5.98264065312634,44.7762420308163,0 5.98259915155582,44.7763919855823,0 5.98259661176757,44.7764013337758,0 5.98233871020392,44.7766662186185,0 5.982288449333371,44.7767178446053,0 5.98213873615058,44.7768714323024,0 5.98206186398898,44.77689115981,0 5.98175566372178,44.7769633675641,0 5.981466874989,44.7770848386374,0 5.98141320990736,44.7773561183182,0 5.98119088135637,44.7778697876871,0 5.98107223979901,44.77801785294,0 5.98093307326268,44.7780746629714,0 5.981097651324,44.7782298846059,0 5.980890038528779,44.7785965721957,0 5.980513086612871,44.7786801395196,0 5.980189450854291,44.7789128210847,0 5.98033741163048,44.7790361465504,0 5.980058819571729,44.7794695200553,0 5.97982791699285,44.7798289935218,0 5.979887356368079,44.7798597394189,0 5.97996777019604,44.7799186616949,0 5.98003888361224,44.7799548596905,0 5.98010910781684,44.7799814413446,0 5.9805822502257,44.7796219387924,0 5.981020342355649,44.7785777506542,0 5.981204274817761,44.7781366503903,0 5.981282151145029,44.7779593195971,0 5.98144256569901,44.777635345042,0 5.981698928917969,44.7771290480846,0 5.98209330369184,44.7769282438798,0 5.98249918908067,44.7766964959414,0 5.982919137083939,44.7764676113192,0 5.982826074904221,44.7763776785702,0 5.98272206854616,44.7763079514435,0 5.98264065312634,44.7762420308163,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_0.16016">
+		<styleUrl>#personne_morale</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_0.schema">
+					<SimpleData name="Numero de Parcelle">050620000A0160</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">LE GLAIZIL</SimpleData>
+					<SimpleData name="Adresse">LES NAIS</SimpleData>
+					<SimpleData name="Groupe de personne">Personnes morales non remarquables</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">AUPM</SimpleData>
+					<SimpleData name="Denomination">ELECTRICITE DE FRANCE   GROUPE REGIONAL PRODUCTION DAUPHINE</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.7764222351324 </north>
+			<south> 44.7744512431082 </south>
+			<east> 5.9836098370566 </east>
+			<west> 5.982651279253981 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							5.98359965009441,44.7744512431082,0 5.983111598925529,44.7749147706897,0 5.98298461132201,44.7750388271702,0 5.982768274897549,44.7757770365924,0 5.982651279253981,44.7761729118766,0 5.98274412154651,44.7762324885055,0 5.98284054998336,44.7763119697157,0 5.98297149966299,44.7764222351324,0 5.98294958391504,44.7762523645176,0 5.98289068129994,44.7759098756886,0 5.9830344358752,44.7755201269973,0 5.98307311399622,44.7754266478141,0 5.9833499993338,44.7751788186151,0 5.98347977996078,44.7750597318374,0 5.98351206954192,44.7749078624725,0 5.98352511321418,44.7748128209626,0 5.98355792475593,44.7746898581672,0 5.9836098370566,44.7745931393803,0 5.98359965009441,44.7744512431082,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_0.22059">
+		<styleUrl>#personne_morale</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_0.schema">
+					<SimpleData name="Numero de Parcelle">050620000A0202</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">LE GLAIZIL</SimpleData>
+					<SimpleData name="Adresse">CHAMP CAMINAL</SimpleData>
+					<SimpleData name="Groupe de personne">Personnes morales non remarquables</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">AUPM</SimpleData>
+					<SimpleData name="Denomination">ELECTRICITE DE FRANCE   GROUPE REGIONAL PRODUCTION DAUPHINE</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.7750398957966 </north>
+			<south> 44.7736848763729 </south>
+			<east> 5.98496145739623 </east>
+			<west> 5.98353387570363 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							5.98496145739623,44.7738663344902,0 5.98460715303625,44.7736848763729,0 5.98409887503511,44.7739672309324,0 5.98364710222694,44.7742180597513,0 5.983650870554939,44.7743248114433,0 5.98365941860859,44.7745478377207,0 5.98365839224678,44.7745809303792,0 5.98361946910186,44.7746626138779,0 5.983595729428641,44.7747253288632,0 5.98356470712356,44.7748677041083,0 5.98353387570363,44.7750398957966,0 5.983656324951249,44.7749947943679,0 5.98374759106775,44.7749555778491,0 5.983885206577831,44.7748411447447,0 5.98427658786859,44.774503377719,0 5.98463217564428,44.7741728800605,0 5.98496145739623,44.7738663344902,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_0.31585">
+		<styleUrl>#personne_morale</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_0.schema">
+					<SimpleData name="Numero de Parcelle">050620000D0303</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">LE GLAIZIL</SimpleData>
+					<SimpleData name="Adresse">LES CHAMPS LONGS</SimpleData>
+					<SimpleData name="Groupe de personne">Personnes morales non remarquables</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">AUPM</SimpleData>
+					<SimpleData name="Denomination">ASS ENTRAIDE SOCIALE DE SEINE ET MARNE</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.7389154451776 </north>
+			<south> 44.738328665685 </south>
+			<east> 6.00268158175113 </east>
+			<west> 6.00153586148168 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.00153709517745,44.7387620113483,0 6.00161568573695,44.738749520125,0 6.00161652441332,44.7387676065005,0 6.00172029318316,44.7387602888852,0 6.00171603483183,44.7387373399794,0 6.00190365298695,44.738707117441,0 6.002101842171009,44.7386807523634,0 6.002076808045241,44.7387517052292,0 6.00208589591026,44.7387846138438,0 6.00214804781247,44.7388549148208,0 6.002178455826581,44.7389154451776,0 6.00268158175113,44.7387525158945,0 6.00251682169184,44.738431830205,0 6.002479734017721,44.7383787787674,0 6.00227097951496,44.7384345317192,0 6.00223957451712,44.7384429511738,0 6.00220294014251,44.7384528638244,0 6.00212862530372,44.7384601942328,0 6.00199767138911,44.7384341933034,0 6.001866359529421,44.7384062198347,0 6.00172279526782,44.738328665685,0 6.00168068500963,44.738354403141,0 6.00163844989981,44.738377801493,0 6.001605594825471,44.7384159013472,0 6.00156534190762,44.7384930326891,0 6.00154747340518,44.7385869456124,0 6.00153586148168,44.7387388903566,0 6.00153709517745,44.7387620113483,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_0.36686">
+		<styleUrl>#personne_morale</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_0.schema">
+					<SimpleData name="Numero de Parcelle">050620000C0381</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">LE GLAIZIL</SimpleData>
+					<SimpleData name="Adresse">L AIGUILLON</SimpleData>
+					<SimpleData name="Groupe de personne">Personnes morales non remarquables</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">AUPM</SimpleData>
+					<SimpleData name="Denomination">PROPRIETAIRES DU BND 062 C0381</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.7435609941804 </north>
+			<south> 44.7422922837472 </south>
+			<east> 5.997626546705059 </east>
+			<west> 5.99648211341422 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							5.997540046553761,44.7425443546558,0 5.9974430259122,44.7425123842759,0 5.99740604466168,44.7425561803723,0 5.99729322420767,44.7425337371059,0 5.997273790378129,44.7423967781232,0 5.99715783043184,44.7423082899785,0 5.99703323256952,44.742306796967,0 5.996840435682189,44.7422922837472,0 5.99680622783487,44.7423691595296,0 5.99679296809474,44.7424548382998,0 5.99678992216621,44.7425139329383,0 5.99679085939443,44.7426335537135,0 5.99673740920278,44.7427478891374,0 5.99671811724662,44.7428294966751,0 5.99670417838217,44.7428858228527,0 5.99665165006215,44.742965266527,0 5.996626650423259,44.743022792945,0 5.99662023113374,44.7430802670614,0 5.99657263805866,44.7431977774283,0 5.996544427653111,44.743292329655,0 5.99650029983759,44.7432921722566,0 5.99648211341422,44.7433470817225,0 5.99753645217798,44.7435609941804,0 5.99753183855291,44.7434981426221,0 5.99751033625153,44.7433816911716,0 5.99751765048082,44.743234277903,0 5.997540012045211,44.7430774478422,0 5.99755635483587,44.7430045690747,0 5.997572220167529,44.7429772913141,0 5.997626546705059,44.7429292416586,0 5.99758868128367,44.7429232392006,0 5.99755892986935,44.7429010702812,0 5.99754588932906,44.7428864674864,0 5.997535718560431,44.74286403884,0 5.9975281075652,44.7428327115937,0 5.99753355917997,44.7427760744518,0 5.99753530033894,44.742699626745,0 5.99753833764048,44.7426593621535,0 5.99752821006456,44.7426377431954,0 5.99753115321373,44.7426146893016,0 5.99755819729501,44.742590802855,0 5.997540046553761,44.7425443546558,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_0.43619">
+		<styleUrl>#personne_morale</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_0.schema">
+					<SimpleData name="Numero de Parcelle">050620000C0507</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">LE GLAIZIL</SimpleData>
+					<SimpleData name="Adresse">LE COIN</SimpleData>
+					<SimpleData name="Groupe de personne">Personnes morales non remarquables</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">AUPM</SimpleData>
+					<SimpleData name="Denomination">PROPRIETAIRES DU BND 062 C0507</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.7483753680715 </north>
+			<south> 44.7477346212775 </south>
+			<east> 5.987566769846869 </east>
+			<west> 5.98672877824149 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							5.98672877824149,44.7483648517662,0 5.98694350494505,44.7483753680715,0 5.987069178693409,44.7481802570379,0 5.987198689000791,44.7480907235057,0 5.98733464408679,44.7481463388097,0 5.987436159125019,44.7481509883638,0 5.987566769846869,44.7481083640722,0 5.98750127908266,44.7480226486677,0 5.98739953195873,44.747966020769,0 5.98727512065548,44.7478968502658,0 5.987075682981349,44.7477766373872,0 5.98701339913471,44.7477346212775,0 5.98697615569049,44.7478213058226,0 5.98686037627248,44.7478218155805,0 5.98676772978826,44.7479103545725,0 5.98672877824149,44.7483648517662,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_0.44278">
+		<styleUrl>#personne_morale</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_0.schema">
+					<SimpleData name="Numero de Parcelle">050620000C0520</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">LE GLAIZIL</SimpleData>
+					<SimpleData name="Adresse">LES SOUPEZES</SimpleData>
+					<SimpleData name="Groupe de personne">Personnes morales non remarquables</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">AUPM</SimpleData>
+					<SimpleData name="Denomination">PROPRIETAIRES DU BND 062 C0520</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.748412799323 </north>
+			<south> 44.7477731326207 </south>
+			<east> 5.98847391839831 </east>
+			<west> 5.98740240276592 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							5.98831115833957,44.7478011494797,0 5.98808305600015,44.7479124445109,0 5.98803102861847,44.747873125355,0 5.988000983020059,44.7478096983932,0 5.98790680650969,44.747855124271,0 5.987810159619119,44.7477731326207,0 5.987668423148991,44.7477847944711,0 5.987596770718221,44.747802043468,0 5.98753890923668,44.747829011019,0 5.98747716909612,44.74786626387,0 5.98740240276592,44.7479248601273,0 5.98748378445554,44.7479717665673,0 5.98757428859152,44.7480428425515,0 5.987610527869491,44.7480967326916,0 5.987641850364231,44.7481770631286,0 5.98784264370455,44.7482132701709,0 5.98801411979598,44.7482378347343,0 5.98812213597594,44.7482720395512,0 5.98842482303283,44.748412799323,0 5.98847391839831,44.7482779540783,0 5.98832235624262,44.7482165446996,0 5.988339666167,44.7479617400406,0 5.98833406034654,44.7478895451829,0 5.988321045152809,44.7478230460299,0 5.98831115833957,44.7478011494797,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_0.46569">
+		<styleUrl>#personne_morale</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_0.schema">
+					<SimpleData name="Numero de Parcelle">050620000C0057</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">LE GLAIZIL</SimpleData>
+					<SimpleData name="Adresse">LES MIAS</SimpleData>
+					<SimpleData name="Groupe de personne">Personnes morales non remarquables</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">AUPM</SimpleData>
+					<SimpleData name="Denomination">PROPRIETAIRES DU BND 062 C0057</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.754515495688 </north>
+			<south> 44.7542972614749 </south>
+			<east> 5.993155227752491 </east>
+			<west> 5.99223635994169 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							5.993155227752491,44.754515495688,0 5.99314707906932,44.754348138809,0 5.993108749793641,44.7543359305669,0 5.99308447919702,44.7543360458407,0 5.99299013110504,44.7543617497481,0 5.992755145346951,44.7543511612075,0 5.99266847302931,44.7543405292765,0 5.99258870194374,44.7543288999675,0 5.9925359421041,44.7543211356923,0 5.99237030250841,44.7543020958385,0 5.9922624438325,44.7542972614749,0 5.992249376185021,44.7543225708518,0 5.99223635994169,44.7543631049208,0 5.99226753773284,44.7543668575199,0 5.99231116979307,44.7543599127139,0 5.99236578345559,44.754350238647,0 5.99241939480082,44.7543431142962,0 5.99247043068271,44.7543446185404,0 5.99251023244306,44.7543488588426,0 5.992653593779971,44.7543983219175,0 5.99282231720405,44.7544111515618,0 5.9930664375477,44.75441518647,0 5.993086432625489,44.7545081649824,0 5.993155227752491,44.754515495688,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_0.49498">
+		<styleUrl>#personne_morale</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_0.schema">
+					<SimpleData name="Numero de Parcelle">050620000D0634</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">LE GLAIZIL</SimpleData>
+					<SimpleData name="Adresse">LA POUYA</SimpleData>
+					<SimpleData name="Groupe de personne">Personnes morales non remarquables</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">SAS</SimpleData>
+					<SimpleData name="Denomination">ECO PROD SOL B</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.7366651203288 </north>
+			<south> 44.7364542766941 </south>
+			<east> 5.993954273286231 </east>
+			<west> 5.99363927593637 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							5.99381104482585,44.7364542766941,0 5.99378206622532,44.7365225410856,0 5.99368667109807,44.736501875801,0 5.99363927593637,44.7366136132086,0 5.99378185924372,44.7366445348523,0 5.99377747289638,44.7366547440469,0 5.99380164447656,44.7366600367727,0 5.993806152252091,44.7366497341994,0 5.99387687119966,44.7366651203288,0 5.993954273286231,44.7364854509467,0 5.99381104482585,44.7364542766941,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_0.58309">
+		<styleUrl>#personne_morale</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_0.schema">
+					<SimpleData name="Numero de Parcelle">050620000C0873</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">LE GLAIZIL</SimpleData>
+					<SimpleData name="Adresse">580, RTE DE GAP</SimpleData>
+					<SimpleData name="Groupe de personne">Personnes morales non remarquables</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">ASS</SimpleData>
+					<SimpleData name="Denomination">ASSOCIATION IMMOBILIERE DES OEUVRES TIMON DAVID</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.7513268721941 </north>
+			<south> 44.7505601278994 </south>
+			<east> 5.988028175563941 </east>
+			<west> 5.986778954585949 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							5.98709860414743,44.7505601278994,0 5.987059295827149,44.7505841622073,0 5.986980983960099,44.750616546062,0 5.98687634748392,44.7506508110097,0 5.986821670567991,44.7507758955896,0 5.98680132265739,44.7508403215363,0 5.986786605531431,44.7509012621271,0 5.986778954585949,44.750983364637,0 5.98678337400707,44.7511451458533,0 5.98680274448652,44.7512956224245,0 5.98681325448212,44.7513268721941,0 5.98714060477864,44.7512675909954,0 5.987282954455459,44.7512363629244,0 5.987458295473651,44.7511978480707,0 5.987606110328649,44.7511576428686,0 5.987846531154709,44.7510923255272,0 5.98797874748129,44.7510536217426,0 5.988028175563941,44.751046342024,0 5.98801665935393,44.7506130261126,0 5.987282748174629,44.7505707478282,0 5.98709860414743,44.7505601278994,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_0.58333">
+		<styleUrl>#personne_morale</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_0.schema">
+					<SimpleData name="Numero de Parcelle">050620000C0874</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">LE GLAIZIL</SimpleData>
+					<SimpleData name="Adresse">LACHAUP</SimpleData>
+					<SimpleData name="Groupe de personne">Personnes morales non remarquables</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">ASS</SimpleData>
+					<SimpleData name="Denomination">ASSOCIATION IMMOBILIERE DES OEUVRES TIMON DAVID</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.7509018958064 </north>
+			<south> 44.7506508110097 </south>
+			<east> 5.98687634748392 </east>
+			<west> 5.98677981179083 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							5.98687634748392,44.7506508110097,0 5.98684030779844,44.7506625942894,0 5.98679729440346,44.750697810078,0 5.986782892385949,44.7507313533462,0 5.98678091933921,44.7508060951518,0 5.98677981179083,44.7509018958064,0 5.986786605531431,44.7509012621271,0 5.98680132265739,44.7508403215363,0 5.986821670567991,44.7507758955896,0 5.98687634748392,44.7506508110097,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+</Document></Document></kml>

@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="root_doc">
+	<name>VAL-DES-PRES_HLM</name>
+	<visibility>0</visibility>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+	<Document id="parcelles-des-personnes-morales_05_groupe_personne_5">
+		<name>VAL-DES-PRES_HLM</name>
+		<visibility>0</visibility>
+		<Schema name="VAL-DES-PRES_HLM" id="VAL-DES-PRES_HLM.schema">
+			<SimpleField type="string" name="Numero de Parcelle"></SimpleField>
+			<SimpleField type="string" name="Departement"></SimpleField>
+			<SimpleField type="string" name="Commune"></SimpleField>
+			<SimpleField type="string" name="Adresse"></SimpleField>
+			<SimpleField type="string" name="Groupe de personne"></SimpleField>
+			<SimpleField type="string" name="Forme Juridique Abregee"></SimpleField>
+			<SimpleField type="string" name="Denomination"></SimpleField>
+		</Schema>
+		<Style id="HLM">
+			<LineStyle>
+				<color>BFe451f5</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4Ce451f5</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_5.32">
+		<styleUrl>#HLM</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_5.schema">
+					<SimpleData name="Numero de Parcelle">051740000E1035</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">VAL-DES-PRES</SimpleData>
+					<SimpleData name="Adresse">LA BOULANGERE</SimpleData>
+					<SimpleData name="Groupe de personne">HLM</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+					<SimpleData name="Denomination">ERILIA</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.9476988537924 </north>
+			<south> 44.9464471649395 </south>
+			<east> 6.6787950628586 </east>
+			<west> 6.67820886525798 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.67827954115379,44.9467666905866,0 6.67826124405157,44.9467799150459,0 6.67831730337432,44.946831508592,0 6.67836970948421,44.9468951207259,0 6.678371246024511,44.9469088603396,0 6.678364540437601,44.9469343198138,0 6.67832418068244,44.9470310175633,0 6.67830942810461,44.9470537690115,0 6.67829181842895,44.9470755334343,0 6.67827158723621,44.94709603263,0 6.67824871681351,44.9471149967819,0 6.67824097151368,44.9471207513498,0 6.67823275084287,44.9471385995919,0 6.67823411728137,44.947157482469,0 6.67824323033559,44.9471996338407,0 6.678249056468879,44.9472419841574,0 6.678249510493439,44.9472450336789,0 6.67825853789866,44.9472452756368,0 6.67826779306669,44.9472721896798,0 6.67827204517831,44.9473060293861,0 6.67827944577975,44.9473394944622,0 6.678290254076231,44.9473726664609,0 6.67829696013224,44.9473897501642,0 6.6782984993344,44.9474015968813,0 6.67828615200724,44.947437788782,0 6.67828008755936,44.947457548593,0 6.678270803768411,44.9474766037727,0 6.678258807224249,44.94749493755,0 6.67825293531321,44.9475021623767,0 6.67824413885501,44.9475305753444,0 6.67822625355503,44.9476022830463,0 6.67821131655008,44.9476744339494,0 6.67820886525798,44.9476892970522,0 6.67837487440329,44.9476988537924,0 6.678645086058829,44.9473603785597,0 6.678722639136461,44.9473604248125,0 6.678725348122881,44.946748235877,0 6.678737638146749,44.9466493126369,0 6.67879027310091,44.9464979476957,0 6.6787950628586,44.9464839084918,0 6.678693398301629,44.9464471649395,0 6.678687232532199,44.946457644341,0 6.678652623177341,44.9465181884235,0 6.67864835708235,44.9465286049277,0 6.67863615540214,44.9465515423705,0 6.67862085516235,44.9465736810601,0 6.678619217916499,44.9465758083449,0 6.67861134342753,44.9465834600299,0 6.678600944573869,44.946589392613,0 6.678588775328249,44.9465934909972,0 6.67857569269323,44.9465952761394,0 6.6785031796585,44.9465927194788,0 6.678488852685809,44.9466045506659,0 6.67844502977891,44.9466426859723,0 6.67840408159205,44.9466820780976,0 6.67833348741864,44.9467300228924,0 6.67827954115379,44.9467666905866,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_5.38">
+		<styleUrl>#HLM</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_5.schema">
+					<SimpleData name="Numero de Parcelle">051740000E1056</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">VAL-DES-PRES</SimpleData>
+					<SimpleData name="Adresse">LE SERRE</SimpleData>
+					<SimpleData name="Groupe de personne">HLM</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+					<SimpleData name="Denomination">OFFICE PUBLIC DE L HABITAT DES HAUTES ALPES</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.9492677876078 </north>
+			<south> 44.9492020858989 </south>
+			<east> 6.678219209379991 </east>
+			<west> 6.67812238928002 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.67812501510382,44.9492020858989,0 6.67812238928002,44.9492123579511,0 6.67813850094308,44.9492141681051,0 6.6781383249493,44.9492192214301,0 6.67816086368218,44.9492222609743,0 6.67819427411797,44.949226563044,0 6.67819234327543,44.9492358206195,0 6.678186548073979,44.9492654862468,0 6.678206880604939,44.9492677876078,0 6.678219209379991,44.9492023028014,0 6.67821006681569,44.9492022449097,0 6.67819801125396,44.949202283445,0 6.67812501510382,44.9492020858989,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_5.39">
+		<styleUrl>#HLM</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_5.schema">
+					<SimpleData name="Numero de Parcelle">051740000E1057</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">VAL-DES-PRES</SimpleData>
+					<SimpleData name="Adresse">LE SERRE</SimpleData>
+					<SimpleData name="Groupe de personne">HLM</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+					<SimpleData name="Denomination">OFFICE PUBLIC DE L HABITAT DES HAUTES ALPES</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.9492031189479 </north>
+			<south> 44.9491160732952 </south>
+			<east> 6.67823438560925 </east>
+			<west> 6.678012111409111 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.678012111409111,44.9491179426116,0 6.67801326758273,44.9491703622752,0 6.67801211764646,44.9492031189479,0 6.6780186504218,44.9492020915017,0 6.67812501510382,44.9492020858989,0 6.67819801125396,44.949202283445,0 6.67821006681569,44.9492022449097,0 6.678219209379991,44.9492023028014,0 6.67823438560925,44.9491318565033,0 6.67821304905006,44.9491316614653,0 6.67803479556417,44.9491289992839,0 6.67803318552647,44.9491160732952,0 6.67802031426356,44.9491172204194,0 6.678012111409111,44.9491179426116,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_5.61">
+		<styleUrl>#HLM</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_5.schema">
+					<SimpleData name="Numero de Parcelle">051740000C1143</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">VAL-DES-PRES</SimpleData>
+					<SimpleData name="Adresse">ENCLARE</SimpleData>
+					<SimpleData name="Groupe de personne">HLM</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+					<SimpleData name="Denomination">UNICIL SOCIETE ANONYME DHABITATION A LOYER MODERE</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.9151433082172 </north>
+			<south> 44.9146487160147 </south>
+			<east> 6.67258843308888 </east>
+			<west> 6.67197335321397 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.67198764572948,44.9147681748389,0 6.67205099608342,44.9148793768008,0 6.672062214700549,44.9148937875907,0 6.672157173977291,44.9150072791948,0 6.672172991039319,44.9150337959585,0 6.67221656967805,44.9151433082172,0 6.67258843308888,44.9151094689425,0 6.67257978312743,44.9150742427281,0 6.67257416509431,44.9150388261102,0 6.67257347009491,44.9150320891427,0 6.67256087147277,44.9150334071268,0 6.67248679770229,44.9148185469227,0 6.67247092282266,44.9148182607262,0 6.67238665373242,44.9148292496228,0 6.67232880008246,44.9148290897839,0 6.67226639004516,44.9148368320006,0 6.672260343748139,44.914833606904,0 6.672246688153101,44.9148284702541,0 6.67223190229866,44.9148254440303,0 6.67221663083932,44.9148246871798,0 6.67221386960319,44.9148212633157,0 6.67220951862947,44.9148129347249,0 6.67220831435653,44.9148042316792,0 6.672210280345749,44.9147955139303,0 6.67221546372137,44.9147875009809,0 6.67223233019131,44.9147777496963,0 6.67225364444494,44.9147681217233,0 6.67227674554252,44.9147605978409,0 6.67236851445618,44.9147401674729,0 6.67245352788517,44.9147231150804,0 6.672427470890921,44.9146487160147,0 6.672026934168029,44.914690172804,0 6.67197335321397,44.9147300706647,0 6.67198764572948,44.9147681748389,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_5.62">
+		<styleUrl>#HLM</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_5.schema">
+					<SimpleData name="Numero de Parcelle">051740000C1146</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">VAL-DES-PRES</SimpleData>
+					<SimpleData name="Adresse">ENCLARE</SimpleData>
+					<SimpleData name="Groupe de personne">HLM</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">SA</SimpleData>
+					<SimpleData name="Denomination">UNICIL SOCIETE ANONYME DHABITATION A LOYER MODERE</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.9148368320006 </north>
+			<south> 44.9147231150804 </south>
+			<east> 6.67248679770229 </east>
+			<west> 6.67220831435653 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.67245352788517,44.9147231150804,0 6.67236851445618,44.9147401674729,0 6.67227674554252,44.9147605978409,0 6.67225364444494,44.9147681217233,0 6.67223233019131,44.9147777496963,0 6.67221546372137,44.9147875009809,0 6.672210280345749,44.9147955139303,0 6.67220831435653,44.9148042316792,0 6.67220951862947,44.9148129347249,0 6.67221386960319,44.9148212633157,0 6.67221663083932,44.9148246871798,0 6.67223190229866,44.9148254440303,0 6.672246688153101,44.9148284702541,0 6.672260343748139,44.914833606904,0 6.67226639004516,44.9148368320006,0 6.67232880008246,44.9148290897839,0 6.67238665373242,44.9148292496228,0 6.67247092282266,44.9148182607262,0 6.67248679770229,44.9148185469227,0 6.67247989700959,44.9147984051484,0 6.67245352788517,44.9147231150804,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_5.66">
+		<styleUrl>#HLM</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_5.schema">
+					<SimpleData name="Numero de Parcelle">051740000E1176</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">VAL-DES-PRES</SimpleData>
+					<SimpleData name="Adresse">LE SERRE</SimpleData>
+					<SimpleData name="Groupe de personne">HLM</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+					<SimpleData name="Denomination">OFFICE PUBLIC DE L HABITAT DES HAUTES ALPES</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.9492123579511 </north>
+			<south> 44.9492020858989 </south>
+			<east> 6.67812501510382 </east>
+			<west> 6.678018392318611 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.67812501510382,44.9492020858989,0 6.6780186504218,44.9492020915017,0 6.678018392318611,44.9492097614275,0 6.67812238928002,44.9492123579511,0 6.67812501510382,44.9492020858989,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_5.468">
+		<styleUrl>#HLM</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_5.schema">
+					<SimpleData name="Numero de Parcelle">051740000E0737</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">VAL-DES-PRES</SimpleData>
+					<SimpleData name="Adresse">LE SERRE</SimpleData>
+					<SimpleData name="Groupe de personne">HLM</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+					<SimpleData name="Denomination">OFFICE PUBLIC DE L HABITAT DES HAUTES ALPES</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.9492174193106 </north>
+			<south> 44.949083008887 </south>
+			<east> 6.67801326758273 </east>
+			<west> 6.677921096373071 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.677921096373071,44.949083008887,0 6.677922859477321,44.9491582123361,0 6.677923976922779,44.9492081095311,0 6.6779219333244,44.9492117825306,0 6.677923191808799,44.9492174193106,0 6.67801211764646,44.9492031189479,0 6.67801326758273,44.9491703622752,0 6.678012111409111,44.9491179426116,0 6.67795803202209,44.9490849409915,0 6.677921096373071,44.949083008887,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_5.547">
+		<styleUrl>#HLM</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_5.schema">
+					<SimpleData name="Numero de Parcelle">051740000C0982</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">VAL-DES-PRES</SimpleData>
+					<SimpleData name="Adresse">PEYRE ROUYE</SimpleData>
+					<SimpleData name="Groupe de personne">HLM</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+					<SimpleData name="Denomination">OFFICE PUBLIC DE L HABITAT DES HAUTES ALPES</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.9163111925207 </north>
+			<south> 44.9160044956576 </south>
+			<east> 6.67236479957793 </east>
+			<west> 6.67185792389809 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.67224549572334,44.9163111925207,0 6.672350573346,44.916307988162,0 6.67236479957793,44.9162230633554,0 6.67226328366502,44.9162186689382,0 6.67226976604814,44.9160813627217,0 6.67227287452666,44.9160068103114,0 6.67223657017384,44.9160044956576,0 6.672055122857201,44.9160153627922,0 6.671967666361011,44.9160125762744,0 6.67188149056742,44.9160157862319,0 6.67187322484924,44.9161084455426,0 6.67186121328643,44.9162465654538,0 6.67185792389809,44.9162970583918,0 6.67194010564641,44.9162967746445,0 6.6721987492288,44.9162908360748,0 6.672200503951449,44.9162982590654,0 6.67223575160892,44.9162979948314,0 6.67224549572334,44.9163111925207,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+</Document></Document></kml>

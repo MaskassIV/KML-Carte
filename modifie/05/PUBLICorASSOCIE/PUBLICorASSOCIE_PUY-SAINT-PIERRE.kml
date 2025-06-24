@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="root_doc">
+	<name>PUY-SAINT-PIERRE_PUBLICorASSOCIE</name>
+	<visibility>0</visibility>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+	<Document id="parcelles-des-personnes-morales_05_groupe_personne_9">
+		<name>PUY-SAINT-PIERRE_PUBLICorASSOCIE</name>
+		<visibility>0</visibility>
+		<Schema name="PUY-SAINT-PIERRE_PUBLICorASSOCIE" id="PUY-SAINT-PIERRE_PUBLICorASSOCIE.schema">
+			<SimpleField type="string" name="Numero de Parcelle"></SimpleField>
+			<SimpleField type="string" name="Departement"></SimpleField>
+			<SimpleField type="string" name="Commune"></SimpleField>
+			<SimpleField type="string" name="Adresse"></SimpleField>
+			<SimpleField type="string" name="Groupe de personne"></SimpleField>
+			<SimpleField type="string" name="Forme Juridique Abregee"></SimpleField>
+			<SimpleField type="string" name="Denomination"></SimpleField>
+		</Schema>
+		<Style id="PUBLICorASSOCIE">
+			<LineStyle>
+				<color>BFdb2105</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4Cdb2105</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_9.429">
+		<styleUrl>#PUBLICorASSOCIE</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_9.schema">
+					<SimpleData name="Numero de Parcelle">051090000C0137</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">PUY-SAINT-PIERRE</SimpleData>
+					<SimpleData name="Adresse">LOLLAGNA</SimpleData>
+					<SimpleData name="Groupe de personne">Etablissements publics ou organismes associes</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">SC</SimpleData>
+					<SimpleData name="Denomination">SAINT-PIERRE</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.8943364017973 </north>
+			<south> 44.8935181922519 </south>
+			<east> 6.62835631770762 </east>
+			<west> 6.62773822572341 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.62807541019377,44.8943328631271,0 6.62803293572318,44.8941388499406,0 6.62801883805675,44.8939895150118,0 6.62802041165854,44.893970716593,0 6.62804133272982,44.8938883752851,0 6.62804955864105,44.8938665654311,0 6.62812850474825,44.8937501513721,0 6.628150173367079,44.893722494374,0 6.62834378553137,44.8935341943182,0 6.62835631770762,44.8935181922519,0 6.62830599673647,44.8935478673516,0 6.62825755186058,44.8935791034439,0 6.628211374306,44.893612068004,0 6.628167458254531,44.893646671095,0 6.628126039313961,44.8936826346302,0 6.6281015491966,44.8937058773502,0 6.627998450232749,44.8938115441428,0 6.62794958611777,44.8938676696041,0 6.62789015873687,44.8939506384061,0 6.6278498650504,44.894023608383,0 6.62782301997179,44.894082979898,0 6.62779926976758,44.8941431515631,0 6.62778695832003,44.8941782538547,0 6.62773822572341,44.8943364017973,0 6.62807541019377,44.8943328631271,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+</Document></Document></kml>

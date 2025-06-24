@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="root_doc">
+	<name>PUY-SANIERES_ETAT</name>
+	<visibility>0</visibility>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+	<Document id="parcelles-des-personnes-morales_05_groupe_personne_1">
+		<name>PUY-SANIERES_ETAT</name>
+		<visibility>0</visibility>
+		<Schema name="PUY-SANIERES_ETAT" id="PUY-SANIERES_ETAT.schema">
+			<SimpleField type="string" name="Numero de Parcelle"></SimpleField>
+			<SimpleField type="string" name="Departement"></SimpleField>
+			<SimpleField type="string" name="Commune"></SimpleField>
+			<SimpleField type="string" name="Adresse"></SimpleField>
+			<SimpleField type="string" name="Groupe de personne"></SimpleField>
+			<SimpleField type="string" name="Forme Juridique Abregee"></SimpleField>
+			<SimpleField type="string" name="Denomination"></SimpleField>
+		</Schema>
+		<Style id="ETAT">
+			<LineStyle>
+				<color>BF119ff7</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4C119ff7</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_1.8676">
+		<styleUrl>#ETAT</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_1.schema">
+					<SimpleData name="Numero de Parcelle">05111000ZD0028</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">PUY-SANIERES</SimpleData>
+					<SimpleData name="Adresse">CHADENAS</SimpleData>
+					<SimpleData name="Groupe de personne">Etat</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">ETAT</SimpleData>
+					<SimpleData name="Denomination">POLE DE GESTION DOMANIALE DRFIP PACCA ET BOUCHES DU RHONE</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.548848372469 </north>
+			<south> 44.5481803566561 </south>
+			<east> 6.46479299872811 </east>
+			<west> 6.46359109143656 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.464433200698081,44.548848372469,0 6.46479299872811,44.5485061918001,0 6.46431187750777,44.5483992878301,0 6.463702155611501,44.5481803566561,0 6.46359109143656,44.5482596252604,0 6.46390014740909,44.5484743886852,0 6.464249565271649,44.5487225766662,0 6.464433200698081,44.548848372469,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_1.10163">
+		<styleUrl>#ETAT</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_1.schema">
+					<SimpleData name="Numero de Parcelle">05111000ZD0034</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">PUY-SANIERES</SimpleData>
+					<SimpleData name="Adresse">CHADENAS</SimpleData>
+					<SimpleData name="Groupe de personne">Etat</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">ETAT</SimpleData>
+					<SimpleData name="Denomination">POLE DE GESTION DOMANIALE DRFIP PACCA ET BOUCHES DU RHONE</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.5483806412755 </north>
+			<south> 44.5465612802212 </south>
+			<east> 6.46480599152369 </east>
+			<west> 6.46121470016147 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.46135242447557,44.5465612802212,0 6.46132187751858,44.5466898340105,0 6.461281815453529,44.5468584247183,0 6.461268031194461,44.5469315757749,0 6.46126519601369,44.5469469833882,0 6.46134535947022,44.5469576249434,0 6.46133482448647,44.5470837488278,0 6.461328374091651,44.5470977379748,0 6.46131832501787,44.5471105784627,0 6.461304392632721,44.5471217385591,0 6.461287921745429,44.5471305453109,0 6.46126914182318,44.5471366310795,0 6.46124755532046,44.54714010158,0 6.46121470016147,44.5473604596429,0 6.462066882881589,44.5475533247491,0 6.46299722606714,44.5478472670867,0 6.4643652181805,44.5483116482216,0 6.464679062678009,44.5483806412755,0 6.46478408300956,44.5481824357114,0 6.46480599152369,44.5481411081615,0 6.46474465995068,44.548078064448,0 6.464695393551261,44.5480001341661,0 6.46464545631271,44.5479707942788,0 6.464611028354289,44.5479251981666,0 6.46463215999566,44.5478281168938,0 6.46462853846824,44.5478163360646,0 6.46462094208799,44.5478054910234,0 6.4646096610437,44.5477962034293,0 6.46459562540238,44.5477892550713,0 6.4644883191033,44.5478763363334,0 6.4644121335112,44.5479284689577,0 6.4643778302673,44.5479362140394,0 6.46432099564641,44.5479217784967,0 6.46424462850693,44.5478888527777,0 6.464055944398521,44.5477731274161,0 6.46399980040086,44.5477329886678,0 6.46386063369404,44.5476951856639,0 6.46378010698274,44.547664282524,0 6.46369954579048,44.5476020221144,0 6.4634689417117,44.5474910358057,0 6.46335498997644,44.5474534319982,0 6.46313662358691,44.5473303466558,0 6.462905208761481,44.5472225385456,0 6.4627695131771,44.5471693967206,0 6.46265692971786,44.5471417515034,0 6.462523321940889,44.5471349505117,0 6.46243652527785,44.5471147860515,0 6.462372031061959,44.547090497573,0 6.46230861499136,44.5470776191954,0 6.4622270190306,44.547058012278,0 6.46214676126303,44.5470355699085,0 6.46200303098389,44.5469767320118,0 6.46187269766396,44.5469473000344,0 6.4618133492304,44.5469226695903,0 6.46173349256801,44.5468328121287,0 6.461627199249531,44.546765950982,0 6.46141058922332,44.5466837172586,0 6.46138243939603,44.5465925079503,0 6.46135242447557,44.5465612802212,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+</Document></Document></kml>

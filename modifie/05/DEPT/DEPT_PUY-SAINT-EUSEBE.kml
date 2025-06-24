@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="root_doc">
+	<name>PUY-SAINT-EUSEBE_DEPT</name>
+	<visibility>0</visibility>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+	<Document id="parcelles-des-personnes-morales_05_groupe_personne_3">
+		<name>PUY-SAINT-EUSEBE_DEPT</name>
+		<visibility>0</visibility>
+		<Schema name="PUY-SAINT-EUSEBE_DEPT" id="PUY-SAINT-EUSEBE_DEPT.schema">
+			<SimpleField type="string" name="Numero de Parcelle"></SimpleField>
+			<SimpleField type="string" name="Departement"></SimpleField>
+			<SimpleField type="string" name="Commune"></SimpleField>
+			<SimpleField type="string" name="Adresse"></SimpleField>
+			<SimpleField type="string" name="Groupe de personne"></SimpleField>
+			<SimpleField type="string" name="Forme Juridique Abregee"></SimpleField>
+			<SimpleField type="string" name="Denomination"></SimpleField>
+		</Schema>
+		<Style id="DEPT">
+			<LineStyle>
+				<color>BF63f16c</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4C63f16c</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_3.2752">
+		<styleUrl>#DEPT</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_3.schema">
+					<SimpleData name="Numero de Parcelle">05108000ZA0006</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">PUY-SAINT-EUSEBE</SimpleData>
+					<SimpleData name="Adresse">LE SERRE</SimpleData>
+					<SimpleData name="Groupe de personne">Departement</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">DEPT</SimpleData>
+					<SimpleData name="Denomination">DEPARTEMENT DES HAUTES ALPES</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.5721900648948 </north>
+			<south> 44.5718038126456 </south>
+			<east> 6.4018268427839 </east>
+			<west> 6.40134507448501 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.4018268427839,44.5721102519279,0 6.40163326646899,44.5718038126456,0 6.401513955104221,44.5718738983329,0 6.40145528476184,44.5719127403502,0 6.40141586454412,44.5719426092038,0 6.401393016365759,44.571969264222,0 6.40137009872013,44.5720135825145,0 6.40135408193133,44.5720531827962,0 6.40134507448501,44.5720898638852,0 6.40135926667761,44.5721391661649,0 6.40137721089171,44.5721900648948,0 6.401422906325149,44.5721597323936,0 6.40148420736355,44.5721331541214,0 6.401557651617839,44.5721093554388,0 6.4016115982839,44.5720967000877,0 6.40167702002853,44.5720882866345,0 6.40173035711864,44.5720906079136,0 6.401783992536179,44.5720978759077,0 6.4018268427839,44.5721102519279,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+</Document></Document></kml>

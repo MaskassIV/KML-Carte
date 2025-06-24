@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="root_doc">
+	<name>BRIANCON_region</name>
+	<visibility>0</visibility>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+	<Document id="parcelles-des-personnes-morales_05_groupe_personne_2">
+		<name>BRIANCON_region</name>
+		<visibility>0</visibility>
+		<Schema name="BRIANCON_region" id="BRIANCON_region.schema">
+			<SimpleField type="string" name="Numero de Parcelle"></SimpleField>
+			<SimpleField type="string" name="Departement"></SimpleField>
+			<SimpleField type="string" name="Commune"></SimpleField>
+			<SimpleField type="string" name="Adresse"></SimpleField>
+			<SimpleField type="string" name="Groupe de personne"></SimpleField>
+			<SimpleField type="string" name="Forme Juridique Abregee"></SimpleField>
+			<SimpleField type="string" name="Denomination"></SimpleField>
+		</Schema>
+		<Style id="region">
+			<LineStyle>
+				<color>BF318006</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4C318006</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_2.5">
+		<styleUrl>#region</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_2.schema">
+					<SimpleData name="Numero de Parcelle">05023000AC0173</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">BRIANCON</SimpleData>
+					<SimpleData name="Adresse">43, AV DE SAVOIE</SimpleData>
+					<SimpleData name="Groupe de personne">Region</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">SCI</SimpleData>
+					<SimpleData name="Denomination">LE RELAIS DE LENLON</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.912959464655 </north>
+			<south> 44.9125056970554 </south>
+			<east> 6.62393870180115 </east>
+			<west> 6.62322332427722 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.623227607103,44.9127776249813,0 6.62358356913232,44.9129000334678,0 6.62375648935566,44.912959464655,0 6.623919895145781,44.9128128082167,0 6.62392162967418,44.9128082451083,0 6.623930411797721,44.9127596487931,0 6.623936000497539,44.9127107060427,0 6.623938424847431,44.9126618665593,0 6.62393870180115,44.9126543767256,0 6.62392934590762,44.9125056970554,0 6.62381477516228,44.912511058294,0 6.623762073621739,44.9125984016654,0 6.62357871294759,44.9125579681347,0 6.62353868599948,44.9125489994336,0 6.62353928126563,44.9126583077522,0 6.623539363044599,44.9127478943496,0 6.62353946522971,44.9127808786127,0 6.62352686275164,44.9127860667335,0 6.623477843831229,44.9128047909526,0 6.62342716068239,44.9128213162014,0 6.62322613538315,44.9127528872419,0 6.62322332427722,44.9127564940339,0 6.623227607103,44.9127776249813,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_2.6">
+		<styleUrl>#region</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_2.schema">
+					<SimpleData name="Numero de Parcelle">05023000AM0209</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">BRIANCON</SimpleData>
+					<SimpleData name="Adresse">FONDS REGIER</SimpleData>
+					<SimpleData name="Groupe de personne">Region</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">COLL</SimpleData>
+					<SimpleData name="Denomination">REGION PROVENCE-ALPES-COTE DAZUR</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.9013384847343 </north>
+			<south> 44.9006420168537 </south>
+			<east> 6.639445336200999 </east>
+			<west> 6.638385258883899 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.63852496866381,44.9012988087074,0 6.63859775666843,44.9012596499832,0 6.639034281995391,44.9010255143955,0 6.639200686460339,44.9009359681851,0 6.63929036382715,44.9008678642431,0 6.639445336200999,44.900807353898,0 6.639415216364599,44.9007633661111,0 6.63937041222934,44.9007021940908,0 6.63932275601362,44.9006420168537,0 6.63928253925615,44.9006573955203,0 6.63912457671735,44.9007187247001,0 6.63864405111835,44.9009548435594,0 6.63853530805117,44.9010086101243,0 6.6384244660033,44.9010632565388,0 6.638385258883899,44.9010824773888,0 6.63839477616636,44.9011294840092,0 6.638434809876159,44.9012207360724,0 6.638435880349301,44.9012900113549,0 6.638447395112451,44.9013384847343,0 6.63845918184149,44.9013325103692,0 6.63852496866381,44.9012988087074,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_2.9">
+		<styleUrl>#region</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_2.schema">
+					<SimpleData name="Numero de Parcelle">050230000F0600</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">BRIANCON</SimpleData>
+					<SimpleData name="Adresse">FRAMEROU</SimpleData>
+					<SimpleData name="Groupe de personne">Region</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">SCI</SimpleData>
+					<SimpleData name="Denomination">CHAMP DE BLANC</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.9139397899631 </north>
+			<south> 44.913351586113 </south>
+			<east> 6.61676405653146 </east>
+			<west> 6.61553396578438 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.61553407211851,44.9139397731957,0 6.61556400811351,44.9139397899631,0 6.615649787809391,44.9139383490401,0 6.615735549075699,44.913934655409,0 6.61608059417698,44.913893857742,0 6.61611273745782,44.9138789310864,0 6.61631691833692,44.91372104448,0 6.616354855537739,44.9136956542843,0 6.61646689957186,44.9136392795821,0 6.61649658228705,44.9136176732129,0 6.616572219549321,44.9135651879353,0 6.61664987714276,44.9135145295276,0 6.616689756480209,44.9134956554265,0 6.61676405653146,44.9134716044195,0 6.61673141728004,44.9134513067113,0 6.616676320302791,44.9134171393998,0 6.61656097860944,44.913351586113,0 6.61629307167106,44.9135499437242,0 6.61624341933017,44.9135844579787,0 6.616200114782969,44.9136111946055,0 6.616147243635349,44.9136410367584,0 6.61609247854771,44.9136690478339,0 6.61605477761718,44.9136843357186,0 6.61588993219171,44.9137401760412,0 6.61553411809715,44.9138500025575,0 6.61553396578438,44.9139007505147,0 6.61553407211851,44.9139397731957,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_2.10">
+		<styleUrl>#region</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_2.schema">
+					<SimpleData name="Numero de Parcelle">050230000F0094</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">BRIANCON</SimpleData>
+					<SimpleData name="Adresse">CHAMP DE BLANC HAUT</SimpleData>
+					<SimpleData name="Groupe de personne">Region</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">SCI</SimpleData>
+					<SimpleData name="Denomination">CHAMP DE BLANC</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.9149438200229 </north>
+			<south> 44.9147755086289 </south>
+			<east> 6.61370949547694 </east>
+			<west> 6.61355422341745 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.61367597424735,44.9149438200229,0 6.61368895222528,44.9149149167596,0 6.613698713533081,44.9148853070016,0 6.61370540794252,44.9148553463945,0 6.613708908879139,44.914825039058,0 6.61370949547694,44.9148124919565,0 6.61366609437969,44.9147984019743,0 6.61362425862843,44.9147849820759,0 6.613594093262321,44.9147755086289,0 6.61357182523666,44.9148570794633,0 6.61355422341745,44.9149146141173,0 6.61362119249714,44.9149302806119,0 6.61365818165042,44.9149393517467,0 6.61367597424735,44.9149438200229,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+</Document></Document></kml>

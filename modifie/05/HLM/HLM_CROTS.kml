@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="root_doc">
+	<name>CROTS_HLM</name>
+	<visibility>0</visibility>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+	<Document id="parcelles-des-personnes-morales_05_groupe_personne_5">
+		<name>CROTS_HLM</name>
+		<visibility>0</visibility>
+		<Schema name="CROTS_HLM" id="CROTS_HLM.schema">
+			<SimpleField type="string" name="Numero de Parcelle"></SimpleField>
+			<SimpleField type="string" name="Departement"></SimpleField>
+			<SimpleField type="string" name="Commune"></SimpleField>
+			<SimpleField type="string" name="Adresse"></SimpleField>
+			<SimpleField type="string" name="Groupe de personne"></SimpleField>
+			<SimpleField type="string" name="Forme Juridique Abregee"></SimpleField>
+			<SimpleField type="string" name="Denomination"></SimpleField>
+		</Schema>
+		<Style id="HLM">
+			<LineStyle>
+				<color>BFe451f5</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4Ce451f5</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_5.249">
+		<styleUrl>#HLM</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_5.schema">
+					<SimpleData name="Numero de Parcelle">050450000C2735</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">CROTS</SimpleData>
+					<SimpleData name="Adresse">VICHERETTE SUR LE CHEMIN</SimpleData>
+					<SimpleData name="Groupe de personne">HLM</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+					<SimpleData name="Denomination">OFFICE PUBLIC DE L HABITAT DES HAUTES ALPES</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.5354519754692 </north>
+			<south> 44.534161615253 </south>
+			<east> 6.47416712215742 </east>
+			<west> 6.47302039580043 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.47309762125025,44.534161615253,0 6.47302039580043,44.5343970708641,0 6.47303720317637,44.5344511484375,0 6.473077754028781,44.5345205181384,0 6.4731726561819,44.5346173724365,0 6.47328736997655,44.5346471918472,0 6.473403639438531,44.5346736280931,0 6.473464873367901,44.5346860277158,0 6.47351338868212,44.5347169398669,0 6.47360008213007,44.5348666765645,0 6.47367457004455,44.5350043623287,0 6.473792554578299,44.5353882109258,0 6.47381651029491,44.5354519754692,0 6.4738248739238,44.5354507209136,0 6.473954204079859,44.5354314200229,0 6.47405739023259,44.5349239147066,0 6.47416712215742,44.5348789185149,0 6.473990675930981,44.5347508414653,0 6.473606659432461,44.5344761126933,0 6.473218903800811,44.534204023531,0 6.47309762125025,44.534161615253,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="parcelles-des-personnes-morales_05_groupe_personne_5.303">
+		<styleUrl>#HLM</styleUrl>			<visibility>0</visibility>
+			<ExtendedData>
+				<SchemaData schemaUrl="#parcelles-des-personnes-morales_05_groupe_personne_5.schema">
+					<SimpleData name="Numero de Parcelle">050450000C3548</SimpleData>
+					<SimpleData name="Departement">05</SimpleData>
+					<SimpleData name="Commune">CROTS</SimpleData>
+					<SimpleData name="Adresse">CHAMP DE L OURS</SimpleData>
+					<SimpleData name="Groupe de personne">HLM</SimpleData>
+					<SimpleData name="Forme Juridique Abregee">EPIC</SimpleData>
+					<SimpleData name="Denomination">OFFICE PUBLIC DE L HABITAT DES HAUTES ALPES</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+	<Region>
+		<LatLonAltBox>
+			<north> 44.5327852998249 </north>
+			<south> 44.5323053868762 </south>
+			<east> 6.4708573189416 </east>
+			<west> 6.46942238314211 </west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>100</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+			<Polygon><altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>							6.46965164615983,44.5324208104617,0 6.46950868959588,44.5324273789745,0 6.46942238314211,44.5324312646519,0 6.46942648183807,44.5324774521743,0 6.46945409634173,44.5327852998249,0 6.4705588445542,44.5327432524974,0 6.4705413844678,44.5324633799796,0 6.470782375180621,44.5324551676846,0 6.4708573189416,44.5324938999463,0 6.470840526363119,44.5323252921021,0 6.4707935956557,44.5323426279339,0 6.4706168296642,44.5323053868762,0 6.47049283551368,44.5323089271612,0 6.47029897793431,44.5323461133181,0 6.470103636084601,44.5323796513128,0 6.47002528979434,44.5323921178393,0 6.469756407629271,44.5324158936164,0 6.46965164615983,44.5324208104617,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+</Document></Document></kml>
